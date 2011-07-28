@@ -1,0 +1,24 @@
+# vi: syntax=python:et:ts=4
+Import("env")
+
+#
+# Making the manual
+#
+if "manual" in COMMAND_LINE_TARGETS or "update-po4a" in COMMAND_LINE_TARGETS or "pot-update" in COMMAND_LINE_TARGETS:
+    env.Command("manual.en.xml", "manual.txt",
+    	"asciidoc -b docbook -d book -n -a toc -o $TARGET $SOURCE && dos2unix $TARGET")
+    manuals = Glob("*.xml")
+    for manual in manuals:
+        html = env.Command(manual.name.replace(".xml", ".html"), manual,
+    	    """${SOURCES[0].exists() and \
+            'xsltproc --nonet \
+            --stringparam callout.graphics 0 \
+            --stringparam navig.graphics 0 \
+            --stringparam admon.textlabel 1 \
+            --stringparam admon.graphics 0 \
+            --stringparam html.stylesheet ./styles/manual.css \
+            /etc/asciidoc/docbook-xsl/xhtml.xsl \
+            %s > %s' % (SOURCE, TARGET) \
+            or '@echo Skipped non-existant %s' % SOURCE} \
+            """)
+        env.Alias("manual", html)

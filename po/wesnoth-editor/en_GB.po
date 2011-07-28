@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 0.8.11+cvs\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2009-11-02 10:17-0500\n"
+"Last-Translator: Eric S. Raymond <esr@thyrsus.com>\n"
+"Language-Team: en_GB\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr "Single Hex"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr "Radius 1 Hex"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr "Radius 2 Hex"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr "Hex Line NW-SE"
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "all"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "water"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "flat"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr "desert"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "forest"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "frozen"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "rough"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "cave"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "village"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "castle"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr "special"
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "File"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "Edit"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "Map"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+msgid "Window"
+msgstr "Window"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "villages"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Quit Editor"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "Fatal error"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr "(New Map)"
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "Do you really want to quit?"
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "Quit"
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr "No editor time-of-day found."
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr "Unsaved Changes"
+
+#: src/editor/editor_controller.cpp:410
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr ""
+"Do you want to discard all changes you made to the map since the last save?"
+
+#: src/editor/editor_controller.cpp:428
+msgid "Choose a Map to Open"
+msgstr "Choose a Map to Open"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Save the Map As"
+
+#: src/editor/editor_controller.cpp:467
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "The file already exists. Do you want to overwrite it?"
+
+#: src/editor/editor_controller.cpp:484
+msgid "No random map generators found."
+msgstr "No random map generators found."
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "Map creation failed."
+
+#: src/editor/editor_controller.cpp:516
+msgid "Choose a mask to apply"
+msgstr "Choose a mask to apply"
+
+#: src/editor/editor_controller.cpp:523
+msgid "Error loading mask"
+msgstr "Error loading mask"
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr "Choose target map"
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr "Error loading map"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr "This map is already open."
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Map saved."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr "Loaded embedded map data"
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr "Map loaded from scenario"
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+"Loaded referenced map file:\n"
+"$new"
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Undo"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "Can't Undo"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Redo"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "Can't Redo"
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr "Auto-update Terrain Transitions: Yes"
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr "Auto-update Terrain Transitions: Partial"
+
+#: src/editor/editor_controller.cpp:1112
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Auto-update Terrain Transitions: No"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Player"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr "The size of the target map is different from the current map"
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr "(non-core)"
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr "Will not work in game without extra care."
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "FG"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "BG"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr "File not found"
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr "Empty map file"
+
+#: src/editor/map_context.cpp:219
+msgid "Could not save into scenario"
+msgstr "Could not save into scenario"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "Could not save the map: $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "None"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "Choose player"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr "Custom setting"
+
+#~ msgid "Error creating action object"
+#~ msgstr "Error creating action object"
+
+#~ msgid "Action not implemented"
+#~ msgstr "Action not implemented"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid ""
+#~ "Which player should start here? You can also use the 1-9 and delete keys "
+#~ "to set/clear starting positions."
+#~ msgstr ""
+#~ "Which player should start here? You can also use the 1-9 and delete keys "
+#~ "to set/clear starting positions."
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
+
+#~ msgid "Draw tiles"
+#~ msgstr "Draw tiles"
+
+#~ msgid "Fill"
+#~ msgstr "Fill"
+
+#~ msgid "Set player's starting position"
+#~ msgstr "Set player's starting position"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zoom in"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zoom out"
+
+#~ msgid "Zoom to default view"
+#~ msgstr "Zoom to default view"
+
+#~ msgid "Toggle grid"
+#~ msgstr "Toggle grid"
+
+#~ msgid "Resize the map"
+#~ msgstr "Resize the map"
+
+#~ msgid "Flip map"
+#~ msgstr "Flip map"
+
+#~ msgid "Language"
+#~ msgstr "Language"
+
+#~ msgid "Choose your preferred language:"
+#~ msgstr "Choose your preferred language:"
+
+#~ msgid "Battle for Wesnoth Map Editor"
+#~ msgstr "Battle for Wesnoth Map Editor"
+
+#~ msgid "Which Player?"
+#~ msgstr "Which Player?"
+
+#~ msgid "Which player should start here?"
+#~ msgstr "Which player should start here?"
+
+#~ msgid ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+#~ msgstr ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+
+#~ msgid "The file does not contain a valid map."
+#~ msgstr "The file does not contain a valid map."
+
+#~ msgid "Do you want to save the map before quitting?"
+#~ msgstr "Do you want to save the map before quitting?"
+
+#~ msgid "Error: Illegal character in filename."
+#~ msgstr "Error: Illegal character in filename."

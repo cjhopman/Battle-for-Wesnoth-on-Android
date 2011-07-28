@@ -1,0 +1,105 @@
+#!/bin/sh
+die() { echo >&2 "$@"; exit 1; }
+[ $# -gt 0 ] && [ $# -lt 4 ] || die "Syntax: $(basename $0) [-c] <server version> [<revision>]"
+set -o errexit
+
+VERSION="$1"
+case "$VERSION" in
+-c)    shift
+       BASE=campaignd
+       TYPE=campaignd ;;
+*)     BASE=servers # should be moved to wesnothd at some point. (several other scripts depend on the position though!)
+       TYPE=wesnothd ;;
+esac
+echo "building $TYPE..."
+
+SERVERBASE="$HOME/$BASE/$VERSION"
+SOCKET="$SERVERBASE/build/var/run/socket"
+SOURCE="$HOME/source"
+
+[ -d "$SERVERBASE" ] || die "Server base dir '$SERVERBASE' not found!"
+[ -d "$SOURCE" ]     || die "Source dir '$SOURCE' not found!"
+
+SCONS=yes
+CXXFLAGS="$CXXFLAGS"
+LDFLAGS="$LDFLAGS"
+case "$VERSION" in
+1.2)   CXXFLAGS="$CXXFLAGS -ggdb3"
+       SCONS=no
+       cd "$SOURCE"/1.2 ;;
+1.4)   CXXFLAGS="$CXXFLAGS -ggdb3 -DNUM_SHARDS=7 -DBANDWIDTH_MONITOR"
+       SCONS=no
+       cd "$SOURCE"/1.4 ;;
+1.6)   CXXFLAGS="$CXXFLAGS -ggdb3 -DNUM_SHARDS=7 -DBANDWIDTH_MONITOR"
+       cd "$SOURCE"/1.6 ;;
+trunk) CXXFLAGS="$CXXFLAGS -ggdb3 -DNUM_SHARDS=7 -O0 -DBANDWIDTH_MONITOR"
+       cd "$SOURCE"/trunk ;;
+*)     CXXFLAGS="$CXXFLAGS -ggdb3 -DNUM_SHARDS=7 -DBANDWIDTH_MONITOR"
+       cd "$SOURCE"/trunk ;;
+esac
+
+if [ $TYPE = campaignd ]; then
+	CXXFLAGS="$CXXFLAGS -ggdb3 -pg"
+	LDFLAGS="$LDFLAGS -pg"
+	[ "$VERSION" = "1.4" ] && SCONS=no
+fi
+set -o nounset
+
+printf 'svn update... '
+REVISION="${2:+-r $2}"
+svn up $REVISION > /dev/null
+REVISION=$(svnversion -cn src/ | cut -d: -f2)
+echo "to $REVISION"
+[ "$REVISION" != "" ] || die "No revision information found. Odd, exiting..."
+
+# reminder for local changes
+#svn status
+BUILD="builds/$TYPE-svn-${REVISION}_$VERSION"
+BUILD_DIR="$HOME/$BUILD"
+
+set -x
+mkdir -p "$BUILD_DIR"
+
+BUILD_FLAGS=
+if [ $SCONS = yes ]; then
+	if [ $TYPE = wesnothd ]; then
+		BUILD_FLAGS="fifodir=$BUILD_DIR/var/run raw_sockets=1 forum_user_handler=1"
+		case $(hostname) in
+		gonzo.dicp.de) BUILD_FLAGS="fifodir=$BUILD_DIR/var/run raw_sockets=1 boostdir=$HOME/tools/include boostlibdir=$HOME/tools/lib boost_suffix=-mt" ;;
+		basilic)       BUILD_FLAGS="fifodir=$BUILD_DIR/var/run raw_sockets=1" ;;
+		esac
+	fi
+	mkdir -p "$BUILD_DIR"/var/run
+	# need to remove .scons-option-cache when parameters get removed!
+	CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" scons install-$TYPE prefix="$BUILD_DIR" program_suffix=-"$VERSION" $BUILD_FLAGS profile=0 fribidi=0 python=0 localedir= prefsdir= > "$BUILD_DIR"/scons.log
+else
+	if [ $TYPE = wesnothd ]; then
+		BUILD_FLAGS="--enable-server --enable-raw-sockets --with-fifodir=$BUILD_DIR/var/run --with-boost=$HOME/tools"
+	else
+		BUILD_FLAGS="--enable-campaign-server"
+	fi
+	#echo 'autogen.sh and configure...'
+	./autogen.sh > "$BUILD_DIR"/autogen.log
+	CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" ./configure --prefix="$BUILD_DIR" --program-suffix=-"$VERSION" $BUILD_FLAGS --disable-game --disable-nls --enable-lite > "$BUILD_DIR"/configure.log
+	make clean > /dev/null
+	#echo 'make...'
+	make > "$BUILD_DIR"/make.log
+	#echo 'make install...'
+	make install > "$BUILD_DIR"/install.log
+fi
+
+# remove the man pages
+rm -rf "$BUILD_DIR"/share/
+
+cd "$SERVERBASE"
+if [ -p "$SOCKET" ] || [ $TYPE = campaignd ]; then
+	rm -f oldbuild
+	mv build oldbuild
+else #the server under build has never been started, keep the oldbuild link to the (currently) running server
+	rm -f build
+fi
+ln -s ../../"$BUILD" build
+
+cd "$HOME"/bin || exit 1
+ln -sf "../$BUILD/bin/$TYPE-$VERSION" "$TYPE-$VERSION"
+set +x

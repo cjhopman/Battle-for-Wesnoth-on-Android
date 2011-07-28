@@ -1,0 +1,378 @@
+# #-#-#-#-#  wesnoth-editor.cpp1.po (Battle for Wesnoth VERSION)  #-#-#-#-#
+# Latvian translations for Battle for Wesnoth package.
+# Copyright (C) 2008 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# Automatically generated, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 1.7.9\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2009-12-02 14:46+0300\n"
+"Last-Translator: Reinis Danne <rei4dan@gmail.com>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Poedit-Language: Latvian\n"
+"X-Poedit-Country: LATVIA\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr "Viena šūna"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr "Rādiuss 1 šūna"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr "Rādiuss 2 šūnas"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr "Šūnas līnija ZR-DA"
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "viss"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "ūdens"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "līdzenums"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr "tuksnesis"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "mežs"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "sasalis"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "nelīdzens"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "ala"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "ciems"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "pils"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr "īpašs"
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+"Izmantojiet kreiso/labo peles taustiņu, lai zīmētu priekšplāna/fona apvidu. "
+"Turiet Shift, lai krāsotu tikai pamata slāni. Ctrl+klikšķis, lai izvēlētos "
+"apvidu zem kursora."
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+"Kreisais peles taustiņš iezīmē, labais atceļ iezīmējumu. Turiet Shift, lai "
+"ar burvju nūjiņu iezīmētu šūnas ar vienādu apvidu."
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+"Kreisais peles taustiņš attēlo lietotāju izvēli, labais to notīra. Ciparu "
+"taustiņi ritina uz sākuma pozīciju, Alt+cipars iestata attiecīgo sākuma "
+"pozīciju zem kursora, Delete notīra."
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+"Klikšķis ievieto, tāliniet, lai iegūtu labāku precizitāti ievietojot lielus "
+"apgabalus. Lietojiet rediģēšanas izvēlni, lai transformētu starpliktuvi "
+"(rotācija, spoguļattēls)."
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "Fails"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "Rediģēt"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "Karte"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+msgid "Window"
+msgstr "Logs"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "ciemi"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Iziet no redaktora"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "Fatāla kļūda"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr "(Jauna karte)"
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "Vai tiešām vēlaties iziet?"
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+"Vai tiešām vēlaties iziet? Visas izmaiņas kartē kopš pēdējās saglabāšanas "
+"tiks zaudētas."
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+"Vai tiešām vēlaties iziet? Sekojošas kartes tika modificētas, un visas "
+"izmaiņas kopš pēdējās saglabāšanas tiks zaudētas:"
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "Iziet"
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr "Netika atrasts redaktora diennakts laiks."
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr "Nesaglabātās izmaiņas"
+
+#: src/editor/editor_controller.cpp:410
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr ""
+"Vai vēlaties izmest visas izmaiņas, ko veicāt kopš pēdējās saglabāšanas?"
+
+#: src/editor/editor_controller.cpp:428
+msgid "Choose a Map to Open"
+msgstr "Izvēlieties, kuru karti atvērt"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Saglabāt karti kā"
+
+#: src/editor/editor_controller.cpp:467
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "Fails jau eksistē. Vai pārrakstīt?"
+
+#: src/editor/editor_controller.cpp:484
+msgid "No random map generators found."
+msgstr "Neviens nejaušu karšu ģenerators netika atrasts."
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "Neizdevās izveidot karti."
+
+#: src/editor/editor_controller.cpp:516
+msgid "Choose a mask to apply"
+msgstr "Izvēlieties pielietojamo masku"
+
+#: src/editor/editor_controller.cpp:523
+msgid "Error loading mask"
+msgstr "Kļūda ielādējot masku"
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr "Izvēlieties mērķa karti"
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr "Kļūda ielādējot karti"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr "Šī karte jau ir atvērta."
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Karte saglabāta."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr "Ielādēti iegultie kartes dati"
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr "Karte ielādēta no scenārija"
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+"Ielādēts norādītā kartes fails:\n"
+"$new"
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Atsaukt"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "Nevar atsaukt"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Pārdarīt"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "Nevar pārdarīt"
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr "Automātiski atjaunināt apvidus pārejas: Jā"
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr "Automātiski atjaunināt apvidus pārejas: Daļēji"
+
+#: src/editor/editor_controller.cpp:1112
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Automātiski atjaunināt apvidus pārejas: Nē"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Spēlētājs"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr "Mērķa kartes izmērs atšķiras no pašreizējās"
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr "(ne centrālā)"
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr "Bez īpašas piesardzības spēlē nestrādās."
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "Priekšplāns"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "Fons"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr "Fails netika atrasts"
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+"Kartes datne izskatās pēc scenārija, bet 'map_data' vērtība nenorāda uz "
+"eksistējošu failu"
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr "Tukšs kartes fails"
+
+#: src/editor/map_context.cpp:219
+msgid "Could not save into scenario"
+msgstr "Neizdevās saglabāt scenārijā"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "Neizdevās saglabāt karti: $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "Neviens"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "Izvēlieties spēlētāju"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+"Kuram spēlētājam būtu jāsāk šeit? Varat izmantot Alt un ciparu taustiņus, "
+"lai iestatītu spēlētāja sākuma pozīciju, un Del, lai notīrītu sākuma "
+"pozīciju zem kursora. Nospiežot tikai ciparu taustiņu, aiziesiet uz attiecģā "
+"spēlētāja sākuma pozīciju."
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr "Pielāgoti iestatījumi"

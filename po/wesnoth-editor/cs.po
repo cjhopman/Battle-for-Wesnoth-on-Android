@@ -1,0 +1,382 @@
+# translation of wesnoth-editor.pot to Czech
+# Czech translations for Battle for Wesnoth package.
+# Český překlad hry Battle for Wesnoth (Bitva o Wesnoth).
+# Copyright (C) 2004 - 2010 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+#
+# Czech Wesnoth translation team <wesnoth-cs-l@nospam.buchtovi.cz>,
+#
+# Yeti <yeti@physics.muni.cz> et al, 2004.
+# Oto 'tapik' Buchta <tapik@buchtovi.cz>, 2005 - 2007.
+# Vladimír Slávik <slavik.vladimir@seznam.cz>, 2007 - 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2010-03-17 20:21+0100\n"
+"Last-Translator: VladimírSlávik <slavik.vladimir@nospam@seznam.cz>\n"
+"Language-Team: Czech <wesnoth-cs-l@nospam.buchtovi.cz>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-Basepath: D:\\Dev\\wesnoth-trunk\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr "Jediný hex"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr "Poloměr jeden hex"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr "Poloměr dva hexy"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr "Linie hexů SZ-JV"
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "vše"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "voda"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "pláně"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr "pouště"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "lesy"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "zmrzlé"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "členité"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "jeskyně"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "vesnice"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "hrady"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr "zvláštnosti"
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+"Pro kreslení terénu popředí, respektive pozadí, použijte levé resp. pravé "
+"tlačítko myši. Se shiftem se kreslí pouze základní vrstva. S ctrl je do "
+"nástroje nabrán terén pod kurzorem (kapátko)."
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+"Levé tlačítko myši přidává do výběru, pravé odebírá. Se shiftem jsou vybrána "
+"všechny políčka se stejným terénem."
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+"Levé tlačítko myši zobrazí vybraného hráče, pravé odstraní. Klávesy s čísly "
+"posouvají pohled k počáteční pozici odpovídajícího hráče, alt+číslo nastaví "
+"startovní pozici pod kurzor, delete ji smaže."
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+"Kliknutí vkládá; při vkládání větších oblastí je vhodné oddálit pohled. Pro "
+"transformace obsahu schránky (rotace, překlápění) použijte menu úprav."
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "Soubor"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "Úpravy"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "Mapa"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+msgid "Window"
+msgstr "Okno"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "vesnic"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Ukončení editoru"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "Kritická chyba"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr "(Nová mapa)"
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "Opravdu si přejete skončit?"
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+"Opravdu si přeješ skončit? Změny v mapě od posledního uložení budou ztraceny."
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+"Opravdu si přeješ skončit? Následující mapy byly změněny; všechny změny od "
+"posledního uložení budou ztraceny:"
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "Konec"
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr "Nenalezena žádná denní doba pro editor."
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr "Neuložené změny"
+
+#: src/editor/editor_controller.cpp:410
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr "Opravdu si přeješ zahodit všechny změny v mapě od posledního uložení?"
+
+#: src/editor/editor_controller.cpp:428
+msgid "Choose a Map to Open"
+msgstr "Vyber mapu k načtení"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Ulož mapu jako"
+
+#: src/editor/editor_controller.cpp:467
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "Mapa už existuje. Přeješ si ji přepsat?"
+
+#: src/editor/editor_controller.cpp:484
+msgid "No random map generators found."
+msgstr "Nebyly nalezeny žádné generátory map."
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "Mapu se nepodařilo vygenerovat."
+
+# co je zase toto?
+#: src/editor/editor_controller.cpp:516
+msgid "Choose a mask to apply"
+msgstr "Vyber masku k aplikaci"
+
+#: src/editor/editor_controller.cpp:523
+msgid "Error loading mask"
+msgstr "Chyba při načítání masky"
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr "vyber cílovou mapu"
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr "Chyba načítání mapy"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr "Tato mapa již je otevřena."
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Mapa byla uložena."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr "Načtena vložená data mapy"
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr "Mapa načtena ze scénáře"
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+"Načten odkazovaný soubor mapy:\n"
+"$new"
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Zpátky"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "Nelze vrátit"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Vrať"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "Nelze opakovat"
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr "Automaticky aktualizovat přechody terénu: Ano"
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr "Automaticky aktualizovat přechody terénu: Částečně"
+
+#: src/editor/editor_controller.cpp:1112
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Automaticky aktualizovat přechody terénu: Ne"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Hráč"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr "Velikost cílové mapy je odlišná od současné mapy"
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr "(není obsažen automaticky)"
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr "Nefunguje ve hře bez dodatečných úprav."
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "Popředí"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "Pozadí"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr "Soubor nebyl nalezen"
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+"Soubor mapy se zdá být scénářem, ale klíč map_data není odkazem na "
+"existující soubor"
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr "Prázdný soubor mapy"
+
+#: src/editor/map_context.cpp:219
+msgid "Could not save into scenario"
+msgstr "Nebylo možno uložit do scénáře"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "Nepodařilo se uložit mapu: $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "Žádný"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "Vyber hráče"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+"Který hráč zde má začínat? Počáteční pozice lze také nastavit klávesami 1-9 "
+"spolu s Altem a zrušit pomocí Delete - použije se políčko pod kurzorem. "
+"Zmáčknutí čísla bez Altu pouze posune zobrazení k již nastavené pozici "
+"odpovídajícího hráče."
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr "Vlastní nastavení"

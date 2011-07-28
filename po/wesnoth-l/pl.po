@@ -1,0 +1,3197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-08-08 17:31+0200\n"
+"PO-Revision-Date: 2009-11-09 21:11+0100\n"
+"Last-Translator: Zbigniew Banach <z.banach@wsisiz.edu.pl>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: /usr/local/share/wesnoth\n"
+"X-Poedit-SearchPath-0: /usr/local/share/wesnoth\n"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:10 data/campaigns/Liberty/_main.cfg:11
+msgid "Liberty"
+msgstr "Wolność"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "(Difficult)"
+msgstr "(trudny)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "(Easy)"
+msgstr "(łatwy)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "(Normal)"
+msgstr "(normalny)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "Fugitive"
+msgstr "Uciekinier"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "Outlaw"
+msgstr "Banita"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "Peasant"
+msgstr "Chłop"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:25
+msgid "(Intermediate level, 9 scenarios)"
+msgstr "(Poziom średni, 9 scenariuszy)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:25
+msgid ""
+"As the shadow of civil war lengthens across Wesnoth, a band of hardy "
+"marchlanders revolts against the tyranny of Queen Asheviere. To win their "
+"way to freedom, they must defeat not just the trained blades of Wesnothian "
+"troops but darker foes including orcs and undead.\n"
+"\n"
+msgstr ""
+"Gdy królestwo Wesnoth coraz głębiej pogrąża się w wojnie domowej, "
+"zahartowani i odważni mieszkańcy zachodnich prowincji wszczynają bunt "
+"przeciwko okrutnym poczynaniom królowej Asheviere. W walce o wolność muszą "
+"się zmierzyć nie tylko z mieczami armii Wesnoth, ale i z mroczniejszymi "
+"wrogami, w tym orkami i nieumarłymi.\n"
+"\n"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:28
+msgid "Campaign Design"
+msgstr "Projektowanie kampanii"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:34
+msgid "Prose-doctoring and preparation for mainline"
+msgstr "Pielęgnacja prozy i przygotowanie do umieszczenia w gałęzi głównej"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:40
+msgid "Campaign Maintenance"
+msgstr "Utrzymanie kampanii"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:51
+msgid "Artwork and Graphics Design"
+msgstr "Grafika i projekt graficzny"
+
+#. [scenario]: id=the_raid
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:4
+msgid "The Raid"
+msgstr "Najazd"
+
+#. [label]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:18
+msgid "Dallben"
+msgstr "Dallben"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:23
+msgid ""
+"In the Era of Turmoil, during the reign of King Garard II, the border towns "
+"of Delwyn and Dallben in the province of Annuvin grew increasingly "
+"dissatisfied with the King's rule. Being preoccupied with the great wars, "
+"the King was unable to send adequate forces to protect the frontier."
+msgstr ""
+"W Erze Chaosu, podczas panowania króla Gararda II, nadgraniczne miasta "
+"Delwyn i Dallben w prowincji Annuvin były coraz bardziej niezadowolone z "
+"panowania króla. Zajęty wielkimi wojnami król nie był w stanie wysłać "
+"wystarczających sił, by chronić pogranicze."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:27
+msgid ""
+"The hardy people of these marches learned self-reliance and survival skills "
+"against the raiding orc hordes and savage saurians. They established their "
+"own trading routes and pacts of mutual defense."
+msgstr ""
+"W rezultacie odważni mieszkańcy pogranicznych marchii nauczyli się polegać "
+"na sobie samych i bronić się przeciwko szalejącym hordom orków i dzikim "
+"jaszczurom. Utworzyli swoje własne szlaki handlowe i zawiązali traktaty "
+"wzajemnej pomocy i obrony."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:31
+msgid ""
+"Although not permitted to train with proper military weapons, these woodsmen "
+"were at home in the forests and swamps of the Western Marches, and became "
+"very effective with their simple slings and clubs."
+msgstr ""
+"Choć nie wolno im było trenować z prawdziwą bronią wojskową, ci ludzie lasu "
+"czuli się doskonale w bagnach i lasach Marchii Zachodniej, dzięki czemu "
+"walczyli bardzo skutecznie nawet swoimi prostymi procami i maczugami."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:35
+msgid ""
+"After the betrayal of the King by Queen Asheviere, the new regent of Wesnoth "
+"sought to consolidate her ill-gotten power. She sent her armies across "
+"Wesnoth to intimidate the provincial rulers and secure her continued reign."
+msgstr ""
+"Po tym, jak król został zdradzony przez królową Asheviere, nowa regentka "
+"Wesnoth starała się umocnić swoją bezprawnie zdobytą władzę. Wysłała armie "
+"we wszystkie strony Wesnoth, by zastraszyć władców prowincji i zapewnić "
+"ciągłość swoich rządów."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:39
+msgid ""
+"The people of Annuvin were unwilling to relinquish their hard-earned self-"
+"rule, especially not to this pretender..."
+msgstr ""
+"Mieszkańcy Annuvin nie mieli najmniejszej ochoty wyrzekać się swojej "
+"mozolnie zyskanej autonomii, zwłaszcza na rzecz uzurpatorki..."
+
+#. [side]: type=Bandit_Peasant, id=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:59
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:30
+msgid "Baldras"
+msgstr "Baldras"
+
+#. [side]: type=Goblin Pillager, id=Fal Khag
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:75
+msgid "Fal Khag"
+msgstr "Fal Chag"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:102
+msgid "Defeat all of the Goblin marauders"
+msgstr "Pokonaj wszystkich goblinów grabieżców "
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:106
+msgid "Goblins reach the village of Dallben"
+msgstr "Gobliny docierają do wioski Dallben"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:110
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:81
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:127
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:103
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:124
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:156
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:97
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:305
+msgid "Death of Baldras"
+msgstr "Śmierć Baldrasa"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:114
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:85
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:131
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:107
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:128
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:160
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:101
+msgid "Death of Harper"
+msgstr "Śmierć Harpera"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:118
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:89
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:139
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:115
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:132
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:164
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:105
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:309
+msgid "Turns run out"
+msgstr "Koniec czasu"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:153
+msgid "Gatrakh"
+msgstr "Gatrach"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:154
+msgid "Thurg"
+msgstr "Thurg"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:157
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:162
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:167
+msgid "Krung"
+msgstr "Krung"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:158
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:163
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:168
+msgid "Gorokh"
+msgstr "Goroch"
+
+#. [message]: speaker=Fal Khag
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:192
+msgid ""
+"I long to burn human cities, but until our great chieftains provide us with "
+"sufficient forces we must look to these villagers to feed our wolves and "
+"slake the thirst of our blades."
+msgstr ""
+"Łaknę grabienia ludzkich miast, ale dopóki nasi wielcy wodzowie nie dadzą "
+"nam dostatecznych sił, musimy nakarmić nasze wilki mięsem i napoić nasze "
+"miecze krwią tych wieśniaków."
+
+#. [message]: speaker=Fal Khag
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:196
+msgid ""
+"Ride, you worms, I want to finish our raid before the hunting party returns "
+"to the human village."
+msgstr ""
+"Jedźcie, nędzne psy, chcę skończyć najazd, nim do wioski ludzi wrócą myśliwi."
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:205
+msgid "Jalak"
+msgstr "Jalak"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:206
+msgid "Delurin"
+msgstr "Delurin"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:207
+msgid "Red"
+msgstr "Red"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:208
+msgid "Ordo"
+msgstr "Ordo"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:209
+msgid "Novus"
+msgstr "Novus"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:210
+msgid "Teneor"
+msgstr "Teneor"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:211
+msgid "Kembe"
+msgstr "Kembe"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:212
+msgid "Treagh"
+msgstr "Treagh"
+
+#. [unit]: type=Footpad_Peasant, id=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:219
+msgid "Harper"
+msgstr "Harper"
+
+#. [message]: speaker=Red
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:233
+msgid ""
+"Look, goblin riders approach! You were right, they were going to raid "
+"Dallben while we were gone."
+msgstr ""
+"Patrzcie, nadciągają goblińscy jeźdźcy! Miałeś rację, mieli zamiar "
+"spustoszyć Dallben pod naszą nieobecność."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:237
+msgid ""
+"We must stop them before they reach the village. Damn the crown, they have "
+"long since forgotten about us out here."
+msgstr ""
+"Musimy ich zatrzymać, nim dotrą do wioski. Przeklęta korona, całkiem o nas "
+"zapomnieli."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:241
+msgid ""
+"That goblin leader is heading full-speed straight for Dallben. But we'll "
+"need to chase them all down if we're going to stop them."
+msgstr ""
+"Dowódca goblinów pędzi galopem prosto do Dallben. Musimy dogonić wszystkich, "
+"jeżeli chcemy ich powstrzymać."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:245
+msgid ""
+"Do it. Try to hold them back until us old-timers can get there and finish "
+"them off."
+msgstr ""
+"Dobrze. Spróbuj ich powstrzymać do naszego nadejścia, a wtedy wykończymy ich "
+"razem."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:249
+msgid ""
+"And Harper... don't get yourself killed. I'm responsible for you now that "
+"your father is gone, and I won't dishonor his memory by breaking my promise "
+"to keep you safe."
+msgstr ""
+"Jeszcze jedno, Harper... Nie daj się zabić. Jestem za ciebie odpowiedzialny "
+"od kiedy twój ojciec zginął, i zamierzam kalać jego pamięci łamiąc daną mu "
+"obietnicę opiekowania się tobą."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:253
+msgid "...I know... All right now, let's stop these goblins!"
+msgstr "... Wiem... No dobra, powstrzymajmy te gobliny!"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:293
+msgid ""
+"We are barely able to survive these orc raids. We lost two men last week, "
+"more today... yet Weldyn does nothing!"
+msgstr ""
+"Ledwo udało się nam przetrwać te najazdy orków. Straciliśmy dwóch ludzi "
+"tydzień temu, jeszcze więcej dzisiaj... A Weldyn nic nie robi!"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:300
+msgid ""
+"We are barely able to survive these orc raids. We lost two men last week, "
+"more could have died today... yet Weldyn does nothing!"
+msgstr ""
+"Ledwo udało się nam przetrwać te najazdy orków. Straciliśmy dwóch ludzi "
+"tydzień temu, może jeszcze więcej dzisiaj... A Weldyn nic nie robi!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:306
+msgid ""
+"The King stopped sending patrols out here once the war started. Once that "
+"happened, the burden fell to us. We are citizens of Wesnoth, and as long as "
+"her banner flies we will resist the horde."
+msgstr ""
+"Król zaniechał wysyłania tutaj patroli, gdy zaczęła się wojna. Od tego czasu "
+"ciężar obrony spadł na nas. Jesteśmy obywatelami Wesnoth - jak długo powiewa "
+"jego sztandar, tak długo opierać się będziemy hordom."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:310
+msgid "The banner will fly over a ghost town if help does not come soon."
+msgstr ""
+"Jeżeli pomoc szybko nie nadejdzie, ten sztandar będzie niedługo powiewać nad "
+"wymarłymi miastami."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:338
+msgid ""
+"They're getting closer to our village! What about the town guards, can they "
+"help us?"
+msgstr "Zbliżają się do naszej wioski! Może strażnicy miejscy nam pomogą?"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:342
+msgid ""
+"They'll come out when they see those riders, or us, approaching, but there "
+"aren't many of them... I wouldn't count on them being able to protect the "
+"village alone for long."
+msgstr ""
+"Na widok tych jeźdźców (lub nas) zapewne staną do obrony, ale nie ma ich "
+"wielu... Nie sądzę, by sami dali radę zbyt długo chronić wioski."
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:357
+msgid "Remald"
+msgstr "Remald"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:358
+msgid "Wolmas"
+msgstr "Wolmas"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:363
+msgid "Jasken"
+msgstr "Jasken"
+
+#. [message]: speaker=Wolmas
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:370
+msgid "What's happening here? Why are you running like mad, $unit.name|?"
+msgstr "Co tu się dzieje? Dokąd tak pędzisz, $unit.name|?"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:374
+msgid "Goblin riders on the hunt. We must not let any of them to the village!"
+msgstr "Goblińscy jeźdźcy. Nie możemy ich dopuścić do wioski!"
+
+#. [message]: speaker=Wolmas
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:381
+msgid "Look! Goblin riders are on the hunt - and heading right for Dallben!"
+msgstr "Patrzcie! Wyruszyli goblińscy jeźdźcy - i zmierzają prosto do Dallben!"
+
+#. [message]: speaker=Remald
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:385
+msgid "Halt!"
+msgstr "Stać!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:405
+msgid ""
+"The goblins reached the village! There will surely be nothing left when they "
+"are done pillaging it."
+msgstr ""
+"Gobliny dostały się do wioski! Jak ją splądrują, nie zostanie kamień na "
+"kamieniu!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:418
+msgid ""
+"None remarked on the passing of the tiny, isolated frontier town. It was but "
+"a harbinger of the evil to come under the tyranny of Asheviere."
+msgstr ""
+"Nikt nie zwrócił uwagi na zniknięcie małej, odizolowanej osady na "
+"pograniczu. A był to zaledwie zwiastun zła, jakie miało nadejść pod "
+"tyranicznymi rządami Asheviere."
+
+#. [scenario]: id=civil_disobedience
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:4
+msgid "Civil Disobedience"
+msgstr "Obywatelskie nieposłuszeństwo"
+
+#. [side]: type=Bandit, id=Baldras
+#. [side]: type=Shadow Lord, id=Helicrom
+#. [side]: type=Highwayman, id=Baldras
+#. [side]
+#. [side]: type=Rogue, id=Hans
+#. [side]: type=Highwayman_Peasant, id=Relnan
+#. [side]: type=General, id=Lord Maddock
+#. [side]: type=Bandit_Peasant, id=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:37
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:68
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:32
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:58
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:43
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:63
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:40
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:96
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:55
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:77
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:50
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:58
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:221
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:231
+msgid "Rebels"
+msgstr "Rebelianci"
+
+#. [side]: type=Cavalier, id=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:46
+msgid "Tarwen"
+msgstr "Tarwen"
+
+#. [side]: type=General, id=Dommel
+#. [side]
+#. [side]: type=Master Bowman, id=Quentin
+#. [side]: type=General, id=Kestrel
+#. [side]: type=Cavalier, id=Tarwen
+#. [side]: type=Royal Guard, id=Archarel
+#. [side]: type=Iron Mauler, id=Linneus
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:51
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:83
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:55
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:70
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:67
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:81
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:107
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:135
+msgid "Asheviere"
+msgstr "Asheviere"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:77
+msgid "Kill the Wesnoth army captain, Tarwen"
+msgstr "Zabij kapitana armii Wesnoth, Tarwena"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:126
+msgid "Look, riders approach."
+msgstr "Patrz, nadciągają jeźdźcy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:130
+msgid "Stand fast, nephew."
+msgstr "Trzymaj pozycję, bratanku."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:143
+msgid ""
+"By order of the Queen, the magistrate of this town is ordered to travel with "
+"us to Elensefar for vetting."
+msgstr ""
+"Z rozkazu Królowej, sędzia pokoju tego miasta ma podążyć z nami do "
+"Elensefaru na weryfikację."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:147
+msgid "Garard is the King of Wesnoth. We are ruled by no queen."
+msgstr "Królem Wesnoth jest Garard. Nie rządzi nami żadna królowa."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:151
+msgid ""
+"Insolent peasants, you will kneel before your betters! Asheviere is the "
+"queen of Wesnoth. The King fell three weeks ago at Abez. I shall not bandy "
+"words with you. Your magistrate will be coming with us, and we do not care "
+"if it is dead or alive."
+msgstr ""
+"Bezczelne wieśniaki! Na kolana przed władzą! Ashaviere jest królową Wesnoth. "
+"Król poległ trzy tygodnie temu pod Abez. Nie zamierzam dłużej wysłuchiwać "
+"waszych pyskówek. Wasz sędzia pokoju idzie z nami, żywy lub martwy."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:185
+msgid "Guard the gate."
+msgstr "Pilnuj bramy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:196
+msgid "Harper, get out of here. This is no battle for you."
+msgstr "Harper, zabieraj się stąd. To nie jest walka dla ciebie."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:201
+msgid ""
+"I am the magistrate of Dallben, and it is YOU who will be leaving Dallben, "
+"be it dead or alive."
+msgstr ""
+"Ja jestem sędzią pokoju Dallben, i to TY opuścisz Dallben, żywy lub martwy,"
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:216
+msgid "Get back, you cur!"
+msgstr "Natychmiast tu wracaj, ty psie!"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:230
+msgid "Get out of my village!"
+msgstr "Wynocha z mojej wsi!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:243
+msgid ""
+"Our lives were hard enough when we were beneath the attention of the Crown. "
+"But now I fear things will be worse."
+msgstr ""
+"Nasze życie było już dość trudne, gdy korona nie zwracała na nas uwagi. Ale "
+"teraz obawiam się, że będzie gorzej."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:248
+msgid "We must tell the people of Delwyn about this."
+msgstr "Musimy powiedzieć o tym ludziom z Delwyn."
+
+#. [message]: role=Advisor
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:261
+msgid ""
+"That is true. We have always flown to their aid, and they to ours. This is "
+"something we should face together."
+msgstr ""
+"To prawda. Zawsze ruszaliśmy im na pomoc, a oni nam. Powinniśmy temu stawić "
+"czoła razem."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:266
+msgid ""
+"Very well. We will go to Delwyn and share counsel with them. I never thought "
+"Wesnoth would fall into darkness. Now, not only do the orcs threaten our "
+"lands, but some sinister thing is happening with the ascent of the Queen to "
+"the throne."
+msgstr ""
+"Dobrze. Udamy się do Delwyn i wspólnie się naradzimy. Nigdy nie sądziłem, że "
+"Wesnoth pogrąży się w ciemności. A teraz nie tylko orki zagrażają naszym "
+"ziemiom, ale wraz ze wstąpieniem Królowej na tron zaczęły się dziać dziwne i "
+"złowieszcze rzeczy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:271
+msgid ""
+"Today we may no longer be citizens of Wesnoth. I wish it could be otherwise, "
+"but we are now outlaws."
+msgstr ""
+"Od dziś nie możemy już być obywatelami Wesnoth. Żałuję, że nie może być "
+"inaczej, ale odtąd jesteśmy banitami."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:339
+msgid ""
+"Oh, no! We have run out of time, they have arrived with reinforcements..."
+msgstr "Nie! Skończył się nasz czas, przybyły posiłki dla naszych wrogów..."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:352
+msgid ""
+"They would be remembered only traitors rightly put down by the Queen's "
+"lances. And in the dark years to come, woe betide any who questioned it."
+msgstr ""
+"Mieli zostać zapamiętani jedynie jako zdrajcy, którzy ponieśli zasłużoną "
+"śmierć pod lancami wojsk Królowej. I biada każdemu, kto w nadchodzących, "
+"mrocznych latach ośmieliłby się twierdzić inaczej."
+
+#. [scenario]: id=a_strategy_of_hope
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:4
+msgid "A Strategy of Hope"
+msgstr "Strategia nadziei"
+
+#. [side]: type=Highwayman_Peasant, id=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:40
+msgid "Relnan"
+msgstr "Relnan"
+
+#. [side]: type=Orcish Warrior, id=Urk Delek
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:66
+msgid "Urk Delek"
+msgstr "Urk Delek"
+
+#. [side]: type=Necromancer, id=Mal-Jarrof
+#. [side]: type=Necromancer, id=Mal-Jerod
+#. [side]: type=Lich, id=Sel-Mana
+#. [side]: type=Orcish Warrior, id=Urk Delek
+#. [side]: type=Saurian Oracle, id=Thhsthss
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:88
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:109
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:105
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:121
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:138
+msgid "Evil"
+msgstr "Źli"
+
+#. [side]: type=Saurian Oracle, id=Thhsthss
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:94
+msgid "Thhsthss"
+msgstr "Thhsthss"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:123
+msgid "Defeat both enemy leaders"
+msgstr "Pokonaj obu wrogich przywódców"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:135
+msgid "Death of Relnan"
+msgstr "Śmierć Relnana"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:170
+msgid ""
+"Relnan, thank you for welcoming our messenger and agreeing to meet with us. "
+"In your many years as Delwyn's magistrate I have never known your judgment "
+"to err."
+msgstr ""
+"Relnan, dziękuję za przyjęcie naszego posłańca i zgodę na spotkanie się z "
+"nami. W wielu latach twego urzędowania jako sędzia pokoju miasta Delwyn nie "
+"pamiętam sytuacji, byś pomylił się w swoich sądach."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:174
+msgid ""
+"It has been a long time, old friend. Your news worries us. Yet, there is no "
+"problem we have not worked out here at our secret meeting place."
+msgstr ""
+"Minęło wiele lat, stary przyjacielu. Wieści, które przynosicie, niepokoją "
+"nas. Jednak nie ma problemu, z którym byśmy sobie nie poradzili tutaj, w "
+"naszym tajemnym miejscu spotkań."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:178
+msgid ""
+"You do not understand. We attacked a Wesnoth army patrol. Not only that, the "
+"leader was no man I had ever seen in Annuvin province before. Never has one "
+"been sent out here as a patrol captain who was so ruthless and cruel."
+msgstr ""
+"Nie rozumiesz. Zaatakowaliśmy patrol armii Wesnoth. Co więcej, ich dowódcą "
+"był człowiek, którego nigdy wcześniej nie widziałem w prowincji Annuvin. "
+"Nigdy nie wysyłano tutaj jako dowódcy patrolu kogoś tak okrutnego i "
+"bezlitosnego."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:182
+msgid ""
+"Had they taken my uncle, they would have surely shown up in Delwyn today "
+"with the same ultimatum. As it is, several riders escaped."
+msgstr ""
+"Gdyby zabrali mojego wuja, na pewno pojawiliby się w Delwyn z tym samym "
+"ultimatum. Kilku jeźdźców zdołało jednak uciec."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:186
+msgid ""
+"Well, it won't be long until they report back to the local garrison with the "
+"details of your encounter."
+msgstr ""
+"Cóż, nie potrwa to długo zanim złożą meldunek do lokalnego garnizonu z "
+"szczegółami waszego spotkania."
+
+#. [message]: speaker=Advisor
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:190
+msgid "Then they'll be back in force."
+msgstr "A potem wrócą w większej sile."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:194
+msgid ""
+"An offense to decency, this is! Since when has Wesnoth been ruled by fear "
+"and treachery? We should consult with Lord Maddock of Elensefar. We have "
+"known him for years to be noble in deed as well as in name."
+msgstr ""
+"Co za upadek dobrych obyczajów! Od kiedy to Wesnoth rządzony jest przez "
+"strach i zdradę? Powinniśmy poradzić się Lorda Maddocka z Elensefar. "
+"Znaliśmy go przez lata jako szlachetnego nie tylko z tytułu, ale i czynu."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:198
+msgid ""
+"I agree. But, Baldras, what will you tell him? We know something has been "
+"going badly wrong in Wesnoth of late, that more than ordinary corruption and "
+"incompetence is afoot. But when the effects fall on mere peasants, the wrong "
+"of it may not seem so obvious from a noble's chair."
+msgstr ""
+"Zgadzam się. Ale co mu powiesz, Baldrasie? Wiemy, że ostatnio w Wesnoth "
+"dzieje się coś bardzo złego, coś co znacznie wykracza poza zwykłe zepsucie i "
+"niekompetencję. Ale gdy nieszczęście spada tylko na prostych chłopów, z "
+"fotela magnata może ono nie być oczywiste."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:202
+msgid ""
+"We need evidence. Hard evidence...but wait, are those orcish war drums I "
+"hear?"
+msgstr ""
+"Potrzebne nam dowody. Niezbite dowody... ale cóż to, czyżbym słyszał bębny "
+"wojenne orków?"
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:206
+msgid ""
+"I think they are, old friend. And that rank smell on the wind tells another "
+"tale; saurians approach. To arms!"
+msgstr ""
+"Zdaje się, że tak, stary druhu. A wiatr niesie odór kolejnego zagrożenia: "
+"zbliżają się jaszczury. Do broni!"
+
+#. [message]: speaker=Urk Delek
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:214
+msgid ""
+"By the sound of the wolves, the scent trail of Fal Khag's killers ends here."
+msgstr ""
+"Sądząc po wyciu wilków, tutaj kończy się trop, którym podążali zabójcy Fal "
+"Khaga."
+
+#. [message]: speaker=Thhsthss
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:220
+msgid "Fal Khag is nothing to usss, orc. You promissed uss gold. Bright gold."
+msgstr ""
+"Fal Chag nicss dla nasss nie sssnaczy, orku. Obiecssałeśśś sssłoto, "
+"błyszczącsse sssłoto."
+
+#. [message]: speaker=Urk Delek
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:224
+msgid "You will get gold. And our wolves will get meat."
+msgstr "Dostaniecie złoto. A nasze wilki dostaną mięso."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:236
+msgid ""
+"Something is very wrong here. Those orcs were carrying weapons with Army "
+"forge-markings."
+msgstr ""
+"Coś mi tu poważnie nie pasuje. Na broni tych orków były znaki kuźni armii "
+"królewskiej."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:240
+msgid "Aye. And the gold in their pouches looked new from the mint."
+msgstr "Ano. A złote monety w ich sakiewkach wyglądały na świeżo bite."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:244
+msgid ""
+"Can the darkest rumors be true, then? Does the Kingdom...does Queen "
+"Asheviere...send orcs against her own people?"
+msgstr ""
+"Czyżby zatem najczarniejsze pogłoski miały się okazać prawdą? Czy "
+"Królestwo... czy Królowa Asheviere... wysyła orków przeciwko własnym "
+"poddanym?"
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:248
+msgid ""
+"I think your mission to Lord Maddock just became more urgent than we knew, "
+"Baldras. I must remain here to see to the defense of Delwyn and Dallben, but "
+"you should fly to Elensefar with all speed."
+msgstr ""
+"Wygląda na to, że twoja misja dotarcia do Lorda Maddocka nagle stała się "
+"jeszcze pilniejsza, niż nam się wydawało. Ja muszę tu pozostać, by "
+"przygotować obronę Delwyn i Dallben, ale ty ruszaj do Elensefaru co koń "
+"wyskoczy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:265
+msgid ""
+"We have tarried here for far too long... there is no way we can reach "
+"Elensefar and return with help before the Wesnoth army destroys our homes. "
+"Retreat!!"
+msgstr ""
+"Za dużo czasu tutaj zmitrężyliśmy. Nie mamy możliwości dotarcia do "
+"Elensefaru i powrotu z pomocą nim armia Wesnoth zniszczy nasze domy. Odwrót!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:278
+msgid ""
+"Baldras and Relnan returned to their villages to find them destroyed, with "
+"those who fought left dead and the few survivors born away to unguessable "
+"fates. It was a bitter doom, and as Wesnoth descended into darkness they "
+"would live to see worse."
+msgstr ""
+"Baldras i Relnan powrócili do swych wiosek i zastali je w ruinie. Wszyscy "
+"obrońcy zginęli, a nieliczni ocaleni mieszkańcy zostali uprowadzeni ku "
+"niewiadomemu. Gorzki to był los, a mieli zobaczyć i gorsze rzeczy, gdy "
+"Wesnoth pogrążało się coraz głębiej w mroku."
+
+#. [scenario]: id=unlawful_orders
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:4
+msgid "Unlawful Orders"
+msgstr "Bezprawne rozkazy"
+
+#. [label]
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:18
+msgid "Elensefar"
+msgstr "Elensefar"
+
+#. [label]
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:23
+msgid "Port of Elensefar"
+msgstr "Port w Elensefarze"
+
+#. [side]: type=General, id=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:50
+msgid "Lord Maddock"
+msgstr "Lord Maddock"
+
+#. [side]: type=General, id=Kestrel
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:71
+msgid "Kestrel"
+msgstr "Kestrel"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:99
+msgid "Defeat the enemy general"
+msgstr "Śmierć wrogiego generała"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:111
+msgid "Death of Maddock"
+msgstr "Śmierć Maddocka"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:133
+msgid "Rothel"
+msgstr "Rothel"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:183
+msgid ""
+"Baldras, your trip here was not wise. The Queen's patrols have been visiting "
+"the local villages and bringing the elders here. Those that swear allegiance "
+"to the Queen are allowed to return home. Those that do not..."
+msgstr ""
+"Baldrasie, twoja podróż tutaj nie była rozsądnym posunięciem. Patrole "
+"królowej odwiedzają okoliczne wsie i przyprowadzają tutaj członków "
+"starszyzny. Ci, co przysięgają królowej wierność, odsyłani są do domu. A "
+"pozostali..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:187
+msgid ""
+"...are dispatched on the spot. I know the price of dissent. But what of you?"
+msgstr "... giną na miejscu. Znam cenę odmowy. A co z tobą?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:191
+msgid ""
+"Well, they do not come within the walls of my city. They are actually camped "
+"nearby, and the main garrison is further south at Halstead. I know my time "
+"will soon come to swear allegiance, but they do not press me. They are "
+"afraid I will refuse."
+msgstr ""
+"Cóż, nie wejdą w mury mojego miasta. Obozują niedaleko, a główny garnizon "
+"jest dalej na południe, w Halstead. Wiem, że i na mnie wkrótce przyjdzie "
+"czas złożenia przysięgi lojalności, ale póki co nie naciskają mnie. Boją "
+"się, że odmówię."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:195
+msgid "Will you?"
+msgstr "A zrobisz to?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:199
+msgid ""
+"Yes. The Queen ascended to the throne through the vilest of treachery. "
+"However, while most of my forces were sent with the King to fight the orcs, "
+"we have a strong enough contingent here to make the Queen's forces think "
+"twice about attacking Elensefar outright."
+msgstr ""
+"Tak. Królowa wstąpiła na tron dzięki ohydnej zdradzie. Choć większość moich "
+"sił wysłałem na pomoc królowi w walce z orkami, zostało tu dość wojska, by "
+"wojska królowej dwa razy się zastanowiły przed bezpośrednim atakiem na "
+"Elensefar."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:203
+msgid ""
+"We have an uneasy peace until they are done with the smaller villages and "
+"finally come around to obtaining my oath. The treaty between Elensefar and "
+"Wesnoth is ancient, but I am not so naive as to place my full trust in it. "
+"Not in these wicked times."
+msgstr ""
+"Do czasu, gdy skończą z mniejszym wsiami i przyjdą do mnie by odebrać "
+"przysięgę, utrzymujemy chwiejny pokój. Traktat między Elensefar i Wesnoth "
+"sięga czasów starożytnych, ale nie jestem tak naiwny by w pełni mu ufać. Nie "
+"w tych złych czasach."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:207
+msgid ""
+"What can we do then? We have brought with us many from Annuvin province who "
+"are willing to fight, but our families are still at home. They will not last "
+"long if the Queen's patrols return."
+msgstr ""
+"Cóż więc nam czynić? Wielu zabraliśmy z sobą z prowincji Annuvin, którzy są "
+"gotowi do walki - ale nasze rodziny są wciąż w domu. Długo nie przetrwają, "
+"gdy wrócą patrole królowej."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:211
+msgid ""
+"I am unwilling to start a civil war. I believe the Queen will remain "
+"preoccupied with order throughout the kingdom and, more importantly, with "
+"quelling the Northerner threat. We are a matter she will choose to deal with "
+"later rather than sooner, if she can."
+msgstr ""
+"Nie chcę wszczynać wojny domowej. Moim zdaniem królowa zajmie się przede "
+"wszystkim utrzymywaniem porządku w królestwie i, co ważniejsze, "
+"powstrzymaniem zagrożenia Północy. Myślę, że rozprawę z nami będzie odkładać "
+"na później, jeśli tylko będzie to możliwe."
+
+#. [message]: speaker=Kestrel
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:215
+msgid ""
+"A foolish miscalculation, Lord Maddock. These men with which you consort are "
+"outlaws and fugitives. They are a well-organized gang of criminals and "
+"murderers. We will kill them and then expect your oath of allegiance to "
+"Queen Asheviere."
+msgstr ""
+"Toście się trochę przeliczyli, lordzie Maddock. Ludzie, z którymi się tutaj "
+"bratasz, to banici i uciekinierzy, należący do dobrze zorganizowanej szajki "
+"kryminalistów i zabójców. Pokonamy ich, a potem oczekujemy, że złożysz "
+"przysięgę wierności Królowej Asheviere."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:219
+msgid "Men, to arms! The defense of Elensefar has begun!"
+msgstr "Ludzie, do broni! Obrona Elensefaru się rozpoczęła!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:238
+msgid ""
+"As the sun set, a horrific change began to take place to the human "
+"adversaries of Baldras and his allies..."
+msgstr ""
+"Gdy słońca zachodziło, straszliwa zmiana zaczęła zachodzić w ludzkich "
+"przeciwnikach Baldrasa i jego sprzymierzeńców..."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:550
+msgid ""
+"I cannot believe what my eyes are seeing! The flesh runs from their bones... "
+"these are not human warriors we fight. They are evil spirits masquerading as "
+"human!"
+msgstr ""
+"Własnym oczom nie wierzę! Ciało odchodzi im od kości... Nie walczymy z "
+"ludźmi - to złe duchy w przebraniu ludzkiego ciała!"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:561
+msgid ""
+"Their human aspect is returning! This is an evil manner of sorcery we face, "
+"but one that we may yet overcome. CHARGE!"
+msgstr ""
+"Ich ludzki aspekt powraca! Przyszło nam się zmierzyć z czarną magią, ale "
+"taką, której może jeszcze damy radę. ATAAAAK!"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:575
+msgid "Who are you? What are you?"
+msgstr "Kim jesteście? Czym jesteście?"
+
+#. [message]: speaker=Kestrel
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:579
+msgid ""
+"We are accursed. We were once under the command of Prince Eldred, the King's "
+"son and betrayer. The price for our treason is this hellish existence. We "
+"know not who or what inflicted this curse upon us, but our mortal deaths may "
+"be only the beginning of the penance we are doomed to pay."
+msgstr ""
+"Ciąży na nas klątwa. Byliśmy niegdyś pod komendą księcia Eldreda, syna i "
+"zdrajcy Króla. Za naszą zdradę przyszło nam zapłacić cenę tej piekielnej "
+"egzystencji. Nie wiemy kto ani co rzuciło na nas tę klątwę, ale nasza śmierć "
+"jako ludzi może być jedynie początkiem pokuty, która jest nam przeznaczona."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:590
+msgid "Lord Maddock, now that we are victorious, will you help us?"
+msgstr "Lordzie Maddock, teraz, gdy zwyciężyliśmy, czy nam pomożesz?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:594
+msgid ""
+"I will not. Unless you want me to round up the city's thieves to fight for "
+"you, I do not have the troops to spare. However, I am not the only one who "
+"commands men in this corner of Wesnoth."
+msgstr ""
+"Nie mogę. Nie mam żadnego zbędnego człowieka w mieście - chyba, że "
+"chcielibyście, bym zgromadził wszystkich miejskich złodziei, by dla was "
+"walczyli. Jednakowoż nie jestem jedynym, który dowodzi wojskiem w tym "
+"zakątku Wesnoth."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:598
+msgid "I don't understand. There are no other noble lords in this area."
+msgstr "Nie rozumiem. Nie ma innych szlachetnych lordów w tej okolicy."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:602
+msgid ""
+"Southeast of here there is a town, and there you may find assistance of the "
+"type I cannot give."
+msgstr ""
+"Na południowy wschód stąd jest miasto, i może znajdziecie tam pomoc taką, "
+"jakiej ja wam udzielić nie mogę."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:606
+msgid ""
+"Wish us well. If we are to resist the Wesnoth army a second time, we're "
+"going to need more than clubs and slings against steel."
+msgstr ""
+"Życzcie nam szczęścia, lordzie. Jeżeli drugi raz przyjdzie nam się zmierzyć "
+"z armią Wesnoth, będzie nam potrzeba więcej przeciw zimnej stali, niż same "
+"kije i proce."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:625
+msgid ""
+"Look, more riders come from the southeast. We cannot survive another "
+"assault. We are finished!"
+msgstr ""
+"Patrzcie, więcej jeźdźców przybywa od południowego wschodu. Nie damy rady "
+"przetrzymać kolejnego ataku. Jesteśmy skończeni!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:638
+msgid ""
+"Indeed, Asheviere's armies had mustered and struck before the nascent "
+"rebellion could even be planned. Her power and ruthlessness - and their toll "
+"of death - would only grow greater with time."
+msgstr ""
+"Armie Asheviere zostały zebrane i uderzyły, nim ktokolwiek zdołał zaplanować "
+"niedoszłą rebelię. Jej potęga i bezwzględność, a tym samym liczba jej ofiar, "
+"miały z czasem tylko rosnąć."
+
+#. [scenario]: id=hide_and_seek
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:6
+msgid "Hide and Seek"
+msgstr "Zabawa w chowanego"
+
+#. [time]: id=midnight
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:12
+msgid "Midnight"
+msgstr "Północ"
+
+#. [side]: type=Master Bowman, id=Quentin
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:50
+msgid "Quentin"
+msgstr "Quentin"
+
+#. [side]: type=Rogue, id=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:86
+msgid "Hans"
+msgstr "Hans"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:120
+msgid "Take Baldras to meet the leader of the insurgency"
+msgstr "Zaprowadź Baldrasa do przywódcy powstańców"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:442
+msgid ""
+"Relentlessly pursued by riders patrolling the road to Elensefar, Baldras and "
+"his men traveled unseen along the swampy banks of the Great River to the "
+"city of Carcyn."
+msgstr ""
+"Bezustannie poszukiwani przez jeźdźców patrolujących drogi do Elensefar, "
+"Baldras i jego ludzi niezauważeni przebyli wzdłuż bagnistych brzegów "
+"Wielkiej Rzeki aż do miasta Carcyn."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:447
+msgid ""
+"They hid until nightfall, then crept out to find the help Lord Maddock "
+"hinted was here."
+msgstr ""
+"Ukrywali się aż do zmierzchu, a potem zakradli się szukać pomocy, o której "
+"wspomniał Lord Maddock."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:495
+msgid ""
+"I'm not sure where we're supposed to go now. If we go into town we can start "
+"asking around for information."
+msgstr ""
+"Nie jestem pewny, dokąd teraz powinniśmy się udać. Jeżeli pójdziemy do "
+"miasta, możemy zacząć wywiadywać się o informacje."
+
+#. [unit]: type=Thief, id=Link
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:511
+msgid "Link"
+msgstr "Link"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:516
+msgid "Who are you?"
+msgstr "Kim jesteście?"
+
+#. [message]: speaker=Link
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:520
+msgid ""
+"I have come to find you. You must make it through the city without being "
+"seen. The soldiers are normally out hunting for my kind, but a company of "
+"heavy infantry arrived three days ago and took over the patrols."
+msgstr ""
+"Przybyłem, aby was odnaleźć. Nie uda wam się wejść do miasta niezauważenie. "
+"Żołnierze zwykle patrolują okolice szukając ludzi mego pokroju, ale trzy dni "
+"temu przybyła kompania ciężkiej piechoty i przejęła patrole."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:524
+msgid "They're looking for us."
+msgstr "Szukają nas."
+
+#. [message]: speaker=Link
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:528
+msgid ""
+"Well, good thing I found you first. Now hurry, you must make it past the "
+"city into the Grey Woods. There is a small path in the southeast that leads "
+"into the forest; look for the signpost. My brother Hans is waiting for you "
+"there and will take you to our master. Try to avoid the soldiers if you can."
+msgstr ""
+"Dobrze, że pierwszy was znalazłem. Prędzej, musicie ominąć miasto i dotrzeć "
+"do Szarego Lasu. Na południowym wschodzie jest wąska ścieżka, która prowadzi "
+"w las - wypatrujcie drogowskazu. Tam będzie czekał mój brat Hans, który "
+"zaprowadzi was do naszego pana. Postarajcie się ominąć żołnierzy."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:566
+msgid ""
+"Looks like these guards hold stationary posts, so if we're careful enough we "
+"should be able to slip our way around them unnoticed."
+msgstr ""
+"Zdaje się, że straże mają rozkazy nie oddalać się od posterunków, więc jeśli "
+"będziemy ostrożni, powinniśmy dać radę się między nimi prześlizgnąć."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:570
+msgid ""
+"Harper, you younger and faster folks need to be our eyes now. Scout ahead "
+"and try to find a way for us to get past the guards, but make sure to not "
+"stay where they can see you or we're all in big trouble..."
+msgstr ""
+"Harper, wy młodsi i szybsi musicie teraz być naszymi oczami. Idź na zwiad i "
+"spróbuj znaleźć drogę, która pozwoli nam ominąć straże. Tylko nie daj im się "
+"zobaczyć, bo wszyscy będziemy mieli poważne kłopoty..."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:658
+msgid "They've seen us, RUN!"
+msgstr "Zobaczyli nas. CHODU!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:675
+msgid "Fall back, quickly! Maybe we can yet lose them!"
+msgstr "Szybko, wycofujemy się! Może jeszcze uda nam się ich zgubić!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:691
+msgid ""
+"Gentlemen, please come this way and follow the path into the forest. Our "
+"leader is anxious to meet you."
+msgstr ""
+"Panowie, proszę ruszajcie tą drogą aż do lasu. Nasz przywódca nie może się "
+"doczekać spotkania z wami."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:695
+msgid ""
+"As soon as we escape the Wesnoth death squad, we will be happy to oblige."
+msgstr ""
+"Jak tylko uda nam się uciec szwadronowi śmierci z Wesnoth, chętnie się "
+"zrewanżujemy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:699
+msgid ""
+"I haven't run this much in years. If you were to ask me to infiltrate a "
+"heavily guarded city relying on nothing but the cover of darkness and my "
+"wits, I would say you were crazy."
+msgstr ""
+"Od lat już tyle się nie nabiegałem. Ha, gdyby mi kto powiedział, że ma "
+"zamiar wejść w sam środek dobrze strzeżonego miasta, pełnego uzbrojonych po "
+"zęby strażników, nie mając nic do pomocy poza osłoną ciemności i własnym "
+"sprytem, powiedziałbym, że to wariat."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:703
+msgid "As it turns out, I'm the crazy one. Let's finish this folly."
+msgstr ""
+"No i wyszło na to, że tym wariatem jestem ja. Skończmy więc to szaleństwo."
+
+#. [message]: speaker=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:728
+msgid ""
+"You can come if you wish, but the leader is only interested in speaking to "
+"Baldras."
+msgstr ""
+"Wy również możecie wejść, ale przywódca zainteresowany jest jedynie rozmową "
+"z Baldrasem."
+
+#. [message]: speaker=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:748
+msgid "Fly, and we may yet evade them in the Grey Woods."
+msgstr "Uciekajcie, a może uda nam się ich jeszcze zgubić w Szarym Lesie."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:753
+msgid "Lead the way..."
+msgstr "Prowadź..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:777
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:438
+msgid ""
+"We have spent too much time here. Surely the Queen's forces have returned to "
+"Dallben. Our mission is unfinished, but we must return to fight a suicide "
+"battle."
+msgstr ""
+"Za dużośmy tu czasu spędzili. Na pewno siły królowej powróciły do Dallben. "
+"Nasza misja nie jest zakończona, ale musimy powrócić - by stoczyć samobójczą "
+"bitwę."
+
+#. [scenario]: id=the_gray_woods
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:4
+msgid "The Grey Woods"
+msgstr "Szary Las"
+
+#. [side]: type=Shadow Lord, id=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:61
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:205
+msgid "Helicrom"
+msgstr "Helicrom"
+
+#. [side]: type=Necromancer, id=Mal-Jarrof
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:96
+msgid "Mal-Jarrof"
+msgstr "Mal-Jarrof"
+
+#. [side]: type=Necromancer, id=Mal-Jerod
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:112
+msgid "Mal-Jerod"
+msgstr "Mal-Jerod"
+
+#. [side]: type=Lich, id=Sel-Mana
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:128
+msgid "Sel-Mana"
+msgstr "Sel-Mana"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:152
+msgid "Defeat the lich and its minions"
+msgstr "Pokonaj licza i jego podwładnych"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:220
+msgid "The leader, I presume."
+msgstr "Przywódca, jak sądzę."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:224
+msgid ""
+"I am Helicrom, and you should not be so glib. I control dangerous men. My "
+"henchmen can slip unseen through any city, rob a man while he sleeps, or "
+"attack a caravan head-on. It's not noble work, but our pursuits require "
+"plenty of gold."
+msgstr ""
+"Jam jest Helicrom, a wy nie bądźcie tacy wygadani. Dowodzę niebezpiecznymi "
+"ludźmi. Moi zaufani ludzie mogą się wśliznąć niezauważeni do miasta, "
+"obrabować człowieka w czasie gdy ów smacznie śpi, albo zaatakować karawanę. "
+"Nie jest to szlachetna robota, ale nasze cele wymagają mnóstwa złota."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:228
+msgid "Your pursuits?"
+msgstr "Wasze cele?"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:232
+msgid ""
+"The former King's magic ministry kept a tight control on the training and "
+"employment of mages in Wesnoth. Those of us who dared to... depart from the "
+"curriculum, you might say, were dealt with harshly. We are outcasts because "
+"we seek to master shadow magic. Our secrecy and security are not cheap."
+msgstr ""
+"Poprzednie królewskie ministerstwo magii utrzymywało ścisłą kontrolę nad "
+"szkoleniem i zatrudnianiem magów w Wesnoth. Z tymi spośród nas, którzy się "
+"ośmielili... wykroczyć poza program nauczania, że tak powiem, rozprawiano "
+"się szybko i surowo. Jesteśmy wygnańcami, bo chcieliśmy opanować arkana "
+"magii cienia. Bezpieczeństwo i utrzymywanie w tajemnicy naszego istnienia "
+"nie przyszły nam tanio."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:236
+msgid "I have heard of you. Necromancers. Barely-human scum, I say."
+msgstr "Słyszałem o was. Nekromanci... nie jesteście godni miana ludzi."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:240
+msgid ""
+"Wrong. Necromancers become slaves to their lich masters and eventually lose "
+"their humanity. We have proven that practicing the dark arts need not lead "
+"down that path to damnation. We remain human, and seek the mystical secret "
+"of balance between the ways of light and darkness. We dance between both "
+"ways, adhering to neither."
+msgstr ""
+"Skąd! Nekromanci stają się niewolnikami panujących nad nimi liczów i w końcu "
+"tracą swoje własne człowieczeństwo. My zaś odkryliśmy, że praktykowanie "
+"czarnej magii wcale nie musi prowadzić ścieżką potępienia. Pozostajemy "
+"ludźmi i zgłębiamy mistyczną tajemnicę zrównoważenia Dróg Światła i "
+"Ciemności. Korzystamy to z jednej, to z drugiej drogi, nie podążając jednak "
+"żadną z nich."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:244
+msgid "I...see, I think. Why do you want to help us?"
+msgstr "Rozumiem... chyba. Dlaczego chcecie nam pomóc?"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:248
+msgid ""
+"We don't. You have sought us out. But, I do know of your situation and am "
+"willing to help. Any weakening of the Throne of Wesnoth, whether it be "
+"occupied by King or Queen, aids us."
+msgstr ""
+"Nie chcemy. To wyście nas odszukali. Ale znam waszą sytuację i jestem "
+"skłonny wam pomóc. Każde osłabienie tronu Wesnoth działa na naszą korzyść, "
+"czy zasiada na nim król, czy królowa."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:259
+msgid ""
+"Carcyn is always foggy as of late because these woods have recently become "
+"home to a lich and two of its underling necromancers. Our experiments may "
+"have actually aroused it from sleep... we're not exactly sure."
+msgstr ""
+"Carcyn ostatnio jest ciągle zamglone, gdyż lasy te od niedawna opanował licz "
+"z zastępami swoich sługusów. Niewykluczone, że to nasze eksperymenty "
+"obudziły go ze snu... dokładnie nie wiemy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:263
+msgid ""
+"So now you need to defend your rear as well as your front... I see your "
+"predicament. My men will wipe this land clean if you can help us defend our "
+"homeland."
+msgstr ""
+"A więc teraz musicie bronić zarówno tyłów jak i frontu... Rozumiem wasze "
+"kłopotliwe położenie. Moi ludzie oczyszczą te ziemie, o ile wy zgodzicie się "
+"nam pomóc bronić naszych stron rodzinnych."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:288
+msgid "Finally that creature is dead, yet its foolish minions resist."
+msgstr ""
+"To monstrum nareszcie nie żyje, ale jego bezmyślni słudzy wciąż stawiają "
+"opór."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:295
+msgid "The lich is destroyed and its minions dead."
+msgstr "Licz został zniszczony, a jego słudzy zabici."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:312
+msgid ""
+"The defeat of the evil lich infesting the Grey Woods was a bittersweet "
+"victory. With Helicrom dead, the guild of shadow magic was thrown into "
+"disarray."
+msgstr ""
+"Pokonanie okrutnego licza plugawiącego Szary Las było gorzkim zwycięstwem. "
+"Śmierć Helicroma wprowadziła zamęt w gildii magii cienia."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:317
+msgid ""
+"The remaining members were very grateful and offered Baldras a sizable sum "
+"of gold for his help. It was not the help he was hoping for, but he knew it "
+"would have to be enough for the coming conflict."
+msgstr ""
+"Pozostali członkowie byli bardzo wdzięczni Baldrasowi i w podzięce wręczyli "
+"mu znaczną sumę w złocie. Nie na taką pomoc liczył, ale rozumiał, że złoto "
+"będzie musiało wystarczyć w zbliżającej się walce."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:336
+msgid ""
+"With the undead driven out, we may live here in relative peace and pursue "
+"our studies. For this, Baldras, I am grateful."
+msgstr ""
+"Nieumarli zostali przepędzeni i możemy tu żyć we względnym spokoju i "
+"kontynuować nasze badania. Jestem wam za to bardzo wdzięczny, Baldrasie."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:340
+msgid ""
+"Studies? Peace? You mean to continue feeding on the lawful citizens of "
+"Wesnoth. There will be no peace for them."
+msgstr ""
+"Badania? Spokój? Raczej dalsze żerowanie na praworządnych obywatelach "
+"Wesnoth. Oni nie zaznają spokoju."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:344
+msgid ""
+"No one here is in a position to be dispensing moral judgments. Regardless, "
+"you have done great service to us today, and we owe you a debt. I will help "
+"you to the utmost of my ability."
+msgstr ""
+"Nikt tu nie ma prawa do moralnych osądów. Tak czy owak, oddaliście nam dziś "
+"wielką przysługę i jesteśmy waszymi dłużnikami. Pomogę wam, jak tylko będę w "
+"stanie."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:348
+msgid ""
+"I was planning on giving you gold. Any good army is well financed, and with "
+"the lich gone we can now spare it."
+msgstr ""
+"Miałem zamiar dać wam złoto. Każda dobra armia musi mieć finanse w porządku, "
+"a po pozbyciu się licza mamy nieco zbędnego grosza."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:352
+msgid ""
+"But, I think it would help you more if I lent you some of my men to join you "
+"on your adventures. The Queen has been sending mages out here, and my men "
+"are itching for some payback."
+msgstr ""
+"Ale, sądzę, że pomógłbym wam więcej, gdybym wypożyczył wam kilku moich "
+"ludzi, by pomagali wam w waszych przedsięwzięciach. Królowa wysyłała tutaj "
+"magów, i moi ludzie nie mogą się doczekać odpłaty."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:356
+msgid ""
+"On the other hand, if I keep the full force of my organization here, we "
+"might be able to regroup and join you on the battlefield when the time comes."
+msgstr ""
+"Z drugiej strony, jeżeli zatrzymam wszystkie siły mojej organizacji tutaj, "
+"może uda się nam przegrupować i dołączyć na polu bitwy, gdy nadejdzie pora."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:360
+msgid "I leave it to you to decide."
+msgstr "Sami zadecydujcie."
+
+#. [option]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:362
+msgid "I will take the gold. How does 500 sound?"
+msgstr "Wezmę złoto. Pięć setek sztuk może być?"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:366
+msgid "Agreed. Good luck and farewell to you, Master Baldras."
+msgstr "Zgoda. Powodzenia i szerokiej drogi, Panie Baldras."
+
+#. [option]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:387
+msgid ""
+"Send your men with us. They will be valuable help as we prepare for the "
+"assault from the Wesnoth army garrison."
+msgstr ""
+"Wyślij z nami swoich ludzi. Będą cenną pomocą w planowanym ataku na garnizon "
+"armii Wesnoth."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:391
+msgid "Done. My finest mages and thieves are at your disposal. Use them well."
+msgstr ""
+"Zrobione. Moi najlepsi magowie i złodzieje są do waszej dyspozycji. "
+"Używajcie ich mądrze."
+
+#. [option]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:405
+msgid "I wish you to join us in battle against the Queen's forces."
+msgstr "Chciałbym, abyście dołączyli do nas w walce przeciwko siłom królowej."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:409
+msgid ""
+"Alright. I need time to clean up this forest and recall my men from the "
+"countryside. We will be ready to march in 7 days. All now hinges on you! "
+"Until then..."
+msgstr ""
+"Zgoda. Potrzebuję czasu na oczyszczenie tego lasu i przyzwanie moich ludzi z "
+"okolicy. Będziemy gotowi do wymarszu w ciągu tygodnia. Wszystko teraz zależy "
+"od ciebie! Do zobaczenia za tydzień..."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:459
+msgid "My men... have failed to protect me! I perish..."
+msgstr "Moi ludzie... mnie nie ochronili! Umieram..."
+
+#. [scenario]: id=the_hunters
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:4
+msgid "The Hunters"
+msgstr "Łowcy"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:24
+msgid ""
+"Baldras and his men quickly left the Grey Woods, not entirely convinced of "
+"their safety even after eradicating the lich."
+msgstr ""
+"Baldras i jego ludzie szybko opuścili Szary Las, niezbyt pewni swego "
+"bezpieczeństwa nawet po zniszczeniu licza."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:27
+msgid ""
+"As they marched, many men and women from the small hamlets peppering the "
+"area around Carcyn and the Grey Woods approached the group, asking to join "
+"them. The ascent of the Queen had cast an uneasy pall over the citizens of "
+"Wesnoth, and some of them were willing to resist it."
+msgstr ""
+"Podczas marszu napotykali mężczyzn i kobiety z małych osad rozsianych na "
+"terenach wokół Carcyn i Szarego Lasu. Ludzie ci chcieli do nich dołączyć, "
+"gdyż rosnąca potęga Królowej rzucała cień na życie wszystkich obywateli "
+"Wesnoth, a wielu miało dość odwagi, by jej się przeciwstawić."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:30
+msgid ""
+"Knowing they too would be labeled criminals, he reluctantly accepted their "
+"help. (Baldras is now able to recruit outlaws.)"
+msgstr ""
+"Baldras przyjął ich pomoc, choć nie bez wahania, gdyż wiedział, że również "
+"oni zostaną obwołani przestępcami. (Baldras może teraz rekrutować banitów)."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:33
+msgid ""
+"Camped at the edge of the forest, they quietly observed substantial troop "
+"movements coming from the direction of Aldril, a nearby city, and marching "
+"to the northwest. Unsure what to make of it, they debated their next course "
+"of action..."
+msgstr ""
+"Obozując na skraju lasu, obserwowali liczne zastępy wojsk nadchodzące od "
+"strony pobliskiego miasta Aldril i maszerujące na północny zachód. Niepewni, "
+"co to może znaczyć, poczęli radzić, co czynić dalej..."
+
+#. [side]: type=Royal Guard, id=Archarel
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:57
+msgid "Archarel"
+msgstr "Archarel"
+
+#. [side]: type=Iron Mauler, id=Linneus
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:74
+msgid "Linneus"
+msgstr "Linneus"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:93
+msgid "Kill all enemy forces"
+msgstr "Zabij wszystkie wrogie jednostki"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:131
+msgid "Jingo"
+msgstr "Jingo"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:132
+msgid "Majel"
+msgstr "Majel"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:150
+msgid ""
+"The words of Lord Maddock have weighed heavy on me these past few days. It "
+"has dawned on me that we can never win. We will never defeat the entire army "
+"of Wesnoth. Idiocy! If the noble lord of Elensefar is unwilling to resist "
+"the Queen, how should I ever expect to?"
+msgstr ""
+"Słowa Lorda Maddocka ciążyły mi bardzo w ciągu tych kilku ostatnich dni. "
+"Zrozumiałem, że nie zdołamy nigdy wygrać. Nigdy nie pokonamy całej armii "
+"Wesnoth. Głupota! Jeżeli szlachetny władca Elensefaru nie ma zamiaru opierać "
+"się królowej, jak ja mogłem się na to ważyć?"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:154
+msgid ""
+"What's worse is that she appears to have taken notice. We have counted five "
+"platoons of heavy infantry marching towards the garrison in just the last 2 "
+"hours."
+msgstr ""
+"Co gorsza, wygląda na to, że nas zauważyła. Tylko w ciągu ostatnich dwóch "
+"godzin naliczyliśmy pięć plutonów ciężkiej piechoty maszerujących w kierunku "
+"garnizonu."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:158
+msgid ""
+"The garrison. The towers of Halstead are more than a garrison, nephew, they "
+"are a fortress. They used to protect this area from the enemies of Wesnoth; "
+"I never imagined they would house its enemies."
+msgstr ""
+"Garnizon. Wieże Halstead są więcej warte niż garnizon, mój bratanku. To "
+"forteca, która chroniła ongiś ten rejon przed wrogami Wesnoth - i nigdy nie "
+"sądziłem, że teraz będzie ich chronić."
+
+#. [event]: id=Pitcher 20 14}, id=Pitcher 28 18}, id=Pitcher 20 14}
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:161
+msgid "Pitcher"
+msgstr "Pitcher"
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:168
+msgid "(Baldras!)"
+msgstr "(Baldrasie!)"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:172
+msgid "Uncle, he wears the crest of the Elense. We should answer."
+msgstr "Wuju, on niesie godło Elense. Powinniśmy odpowiedzieć."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:176
+msgid "Rider, hush before we are discovered! Come to us, but quietly!"
+msgstr "Ucisz się, bo nas odkryją! Zbliż się, ale po cichu!"
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:183
+msgid ""
+"Master Baldras, I bring news from the north. During the past week, several "
+"patrols have again ventured across the Great River into Annuvin. A man named "
+"Relnan opposed them with a small militia. He was victorious."
+msgstr ""
+"Panie Baldras, przynoszę wieści z północy. W czasie ostatnich tygodni kilka "
+"patroli przekraczało Wielką Rzekę, wkraczając do Annuvin. Człowiek zwany "
+"Relnan stanął na czele naprędce zebranej milicji i wyszedł im naprzeciw. "
+"Odniósł zwycięstwo."
+
+#. [message]: speaker=Majel
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:187
+msgid "This is surely good news!"
+msgstr "To zdecydowanie dobra wiadomość!"
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:191
+msgid ""
+"I am afraid it is not. The Queen is sending a branch of her main field army "
+"directly from Weldyn. As soon as they arrive, they will burn every village "
+"to the ground. No one will live."
+msgstr ""
+"Właśnie obawiam się, że jednak nie. Królowa wysyła część swojej armii "
+"polowej prosto z Weldyn. Jak tylko tutaj przybędą, spalą każdą wieś do gołej "
+"ziemi. Nikt nie przeżyje."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:195
+msgid ""
+"The troop movements all make sense now. We must stop this army from reaching "
+"the garrison. We cannot swallow them whole, but we can gnaw away at them. "
+"They mustn't take one step without us being there to harass and delay them. "
+"When they reach Halstead they must be exhausted or dying."
+msgstr ""
+"To tłumaczy przemarsze wojsk. Musimy zatrzymać tę armię, nim dotrze do "
+"garnizonu. Nie możemy ich połknąć w całości, ale możemy ich kąsać. Musimy "
+"ich nękać i opóźniać na każdym kroku. Gdy w końcu dotrą do Halstead, każdy z "
+"ich żołnierzy ma być wyczerpany lub umierający."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:199
+msgid "You just said we can't beat their entire army!"
+msgstr ""
+"Przecieżeście dopiero co powiedzieli, że nie damy rady pobić ich całej armii!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:203
+msgid ""
+"Do you propose surrender? It's this or nothing. All we can do is see it "
+"through to the end."
+msgstr ""
+"Proponujesz więc kapitulację? Nie mamy wyboru. Musimy przejść przez to "
+"wszystko aż do końca."
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:207
+msgid ""
+"May you prevail in peace and war. I must depart before I am seen so far from "
+"my Lord's borders."
+msgstr ""
+"Obyście przeważali zawsze, w wojnie i pokoju. Muszę wracać, nim ktoś mnie "
+"zauważy tak daleko od granic mojego pana."
+
+#. [message]: speaker=Jingo
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:218
+msgid "Another platoon approaches..."
+msgstr "Następny oddział się zbliża..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:270
+msgid ""
+"When we are done, no one will fear the open roads and night sky more than "
+"the army of the usurper. Strike fast, strike silently... and leave no one "
+"alive."
+msgstr ""
+"Gdy z nimi skończymy, nikt nie będzie się tak bał otwartych dróg i nocnego "
+"nieba, jak armia uzurpatorki. Uderzajcie szybko i cicho... i nie "
+"zostawiajcie nikogo przy życiu."
+
+#. [message]: speaker=Linneus
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:284
+msgid "It's an ambush! Hold your ground!"
+msgstr "To zasadzka! Trzymać pozycje!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:295
+msgid ""
+"The next morning, the local night patrol returned to the nearby outpost. "
+"They were surprised to see their fellow soldiers engaged in combat with the "
+"band of thugs of which they had heard so much."
+msgstr ""
+"Następnego poranka, lokalny nocny patrol powrócił na pobliski posterunek. Ku "
+"swemu zaskoczeniu, zastali swoich towarzyszy walczących z bandą rozbójników "
+"o której tyle dotąd słyszeli."
+
+#. [message]: speaker=Archarel
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:303
+msgid ""
+"Troops, to arms! These peasant scum think they are above the law. We will "
+"show them the law!"
+msgstr ""
+"Żołnierze, do broni! Te wieśniaki sądzą, że są ponad prawem. My im pokażemy "
+"co prawo znaczy!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:320
+msgid "Ow! Fire hot! No step in fire!"
+msgstr "Aj! Ogień gorący! Nie wchodzić w ogień!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:340
+msgid ""
+"What a bloody mess. We must attack Halstead next. If we wait, they will "
+"become invincible. If we can burn it to the ground before that happens, our "
+"people may have a chance. Rest well tonight, because tomorrow's battle will "
+"decide the fate of our homes, our families, and our freedom."
+msgstr ""
+"Co za jatka. Teraz musimy zaatakować Halstead. Jeśli będziemy czekać, staną "
+"się nie do pokonania. Jeśli jednak zdołamy spalić warownię, nim do tego "
+"dojdzie, nasi ludzie będą jeszcze mieć szansę. Dobrze dziś wypocznijcie, bo "
+"jutrzejsza bitwa zadecyduje o losach naszych domostw, naszych rodzin i "
+"naszej wolności."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:351
+msgid ""
+"Send word to Helicrom that we are ready. It is time for him to repay his "
+"debt."
+msgstr ""
+"Wyślijcie wiadomość do Helicroma, żeśmy gotowi. Czas, by spłacił swój dług."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:372
+msgid ""
+"We have spent too much time here. Surely the entire Wesnoth army marches on "
+"our position. We are done for!"
+msgstr ""
+"Za dużo zmitrężyliśmy tu czasu. Pewnie cała armia Wesnoth już maszeruje "
+"przeciw nam. Już po nas!"
+
+#. [scenario]: id=glory
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:4
+msgid "Glory"
+msgstr "Chwała"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:25
+msgid ""
+"In the Year of Wesnoth 161, 338 years before Asheviere's betrayal, the newly "
+"crowned king sought to make safe once and for all the wildlands that "
+"separated the human cities surrounding Weldyn and the coastal regions of "
+"Elensefar."
+msgstr ""
+"W roku Wesnoth 161, 338 lat przed zdradą Ashaviere, nowo koronowany król "
+"szukał sposobu, by uczynić raz na zawsze bezpiecznymi dzikie ziemie "
+"rozdzielające ludzkie miasta wokół Weldyn, i nadmorskim regionem Elensefar."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:28
+msgid ""
+"The grand army of Wesnoth, personally led by the High Council of Archmagi, "
+"scoured the plains of all manner of hostile creature, be it beast, orc, or "
+"elf. The city-state of Elensefar was formally united to the kingdom and "
+"settlements rapidly spread. The country of Wesnoth had been carved in deed "
+"as well as in name."
+msgstr ""
+"Wielka armia Wesnoth, dowodzona osobiście przez wielką radę Arcymagów, "
+"oczyściła równiny z wszelkich rodzajów wrogich istot, wszystko jedno dzikich "
+"bestii, orków czy elfów. Miasto-państwo Elensefar formalnie zjednoczono z "
+"królestwem. Gwałtownie wzrosła liczba osiedli i Wesnoth stał się prawdziwym "
+"krajem nie tylko z nazwy."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:32
+msgid ""
+"A monument to this achievement was erected in the very heart of the "
+"wildlands. In a twelve-year ritual, the High Council demonstrated the height "
+"to which human magic had grown over the years by drawing the monument "
+"directly from the earth's living rock."
+msgstr ""
+"Pamiątką tego zdarzenia był pomnik wzniesiony w samym sercu dziczy. Podczas "
+"dwunastoletniego obrzędu, Wielka Rada zademonstrowała wyżyny, na jakie z "
+"biegiem lat wspięła się ludzka magia, wyciągając strzeliste ściany wprost ze "
+"skał ziemi."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:36
+msgid ""
+"Hundreds of feet tall, the mountain towered high above the plains, its sheer "
+"walls both inspiring and terrifying. Men from all over the countryside "
+"labored there, building the most formidable fortress ever conceived. It "
+"became the Stronghold of Halstead."
+msgstr ""
+"Mierząca setki stóp góra wyrastała niczym wieża ponad równinami, a jej "
+"strome ściany przerażały i inspirowały. Ludzie z całej okolicy pracowali "
+"tutaj, budując niezdobytą twierdzę, najpotężniejszą jaką kiedykolwiek "
+"zbudowano. Tak powstała forteca Halstead."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:40
+msgid ""
+"This sentinel of the western plains stood watch as Wesnoth prospered for "
+"many centuries under the protection it provided. No war has overcome it, and "
+"its walls have never been overrun. The blood of invaders stains its parapets "
+"and the bones of the defeated crumble at the base of Halstead's frozen waves "
+"of stone."
+msgstr ""
+"Twierdza od wielu stuleci stała na straży zachodnich równin, a pod jej "
+"ochroną królestwo Wesnoth rosło w siłę. Nie zniszczyła jej żadna wojna, a "
+"jej murów nigdy nie zdobyto. Jej blanki nieraz spłynęły krwią najeźdźców, a "
+"u stóp niewzruszonej skalnej opoki jej wież bielą się kości pokonanych."
+
+#. [side]: type=General, id=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:67
+msgid "Dommel"
+msgstr "Dommel"
+
+#. [side]: type=Orcish Warlord, id=Vashna
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:142
+msgid "Vashna"
+msgstr "Vashna"
+
+#. [side]: type=Orcish Warlord, id=Vashna
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:196
+msgid "Orcs"
+msgstr "Orki"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:301
+msgid "Destroy the stronghold of Halstead"
+msgstr "Zniszcz warownię Halstead"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:404
+msgid "There it is. The stronghold of Halstead."
+msgstr "Oto i ona. Warownia Halstead."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:417
+msgid ""
+"Look at how tall it is! Those towers rise sheer out of the ground, as if "
+"called forth out of the earth."
+msgstr ""
+"Spójrzcie, jaka wielka! Te wieże wystrzeliwują prosto z ziemi, jakby "
+"przyzwane z jej głębi."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:421
+msgid ""
+"That may not be too far from the truth. During the time of the Great Kings "
+"of Wesnoth, this land was tamed with powerful magic. Wizards of an ancient "
+"era forged the walls of Halstead from the rock below."
+msgstr ""
+"No, to może być dość bliskie prawdy. Podczas czasów wielkich królów Wesnoth, "
+"te ziemie ujarzmiono z pomocą potężnej magii. Czarodzieje żyjący w tej "
+"starożytnej erze stworzyli mury Halstead z skał pod ziemią."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:425
+msgid ""
+"I don't see how we can bring it down. They are already invincible in there!"
+msgstr ""
+"Nie mam pojęcia, jak moglibyśmy je zniszczyć. Oni już są tam w środku "
+"niezwyciężeni!"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:436
+msgid ""
+"No, my young friend. Halstead indeed has a weakness. Among my many assets is "
+"access to a wealth of secrets few in Wesnoth are privy to."
+msgstr ""
+"Nie, mój młody przyjacielu. Halstead ma swoje słabości. Widzisz, posiadam "
+"wiedzę o tak wielu tajemnicach, jak mało kto w Wesnoth."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:440
+msgid ""
+"You see, the mountain on which the fort was built is solid, but the castle "
+"on top has been built and rebuilt many times over the ages. It is not as "
+"indestructible as you might think."
+msgstr ""
+"Góra, na której zbudowano twierdzę, to lita skała, ale sam zamek na jej "
+"szczycie był wielokroć przebudowywany na przestrzeni wieków. Wcale nie jest "
+"tak niezniszczalny, jak mogłoby się wydawać."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:444
+msgid ""
+"Beneath the structure is a system of catacombs that connects all four towers "
+"to the central keep. Over time, after many wars, supports were required to "
+"hold up the middle."
+msgstr ""
+"Pod konstrukcją nośną jest system podziemi, które łączą wszystkie cztery "
+"wieże z centralnym stołpem. Czas i liczne wojny w końcu dały się jednak "
+"fortecy we znaki i środkową część struktury trzeba było wesprzeć podporami."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:448
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:474
+msgid ""
+"So... we can knock out the supports and bring down the stronghold of "
+"Halstead. Would it really work?"
+msgstr ""
+"A więc..  zniszczymy podpory i w ten sposób warownia Halstead runie. Ale czy "
+"to na pewno aby zadziała?"
+
+#. [message]: speaker=Helicrom
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:452
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:478
+msgid ""
+"I believe it will. Each tower has a passage down to the catacombs. If we can "
+"reach the center of each tower, one of our men can escape down to the bowels "
+"of the mountain and destroy its support. I am sure we will need to demolish "
+"no less than all four supports to raze the fortress."
+msgstr ""
+"Sądzę, że tak. Każda wieża ma przejście do katakumb. Jeżeli dotrzemy na "
+"centrum każdej wieży, nasi ludzie będą w stanie zejść do wnętrza góry i "
+"zniszczyć podpory. Jestem pewny, że musimy zniszczyć wszystkie cztery "
+"podpory, by zburzyć warownię."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:458
+msgid "No, young one. Halstead indeed has a weakness."
+msgstr "Nie, młodzieńcze. Halstead rzeczywiście ma swój słaby punkt."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:462
+msgid "How do you know?"
+msgstr "Skąd wiecie?"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:466
+msgid ""
+"When I was a boy, my father - your grandfather - brought your dad and me to "
+"live in Aldril after orcs massacred many in our village. We grew up around "
+"here, and we learned many things."
+msgstr ""
+"Kiedy byłem chłopcem, mój ojciec - twój dziadek - przyprowadził twojego ojca "
+"i mnie, abyśmy zamieszkali w Aldril po tym, jak orki zmasakrowały wielu w "
+"naszej wsi. Tutaj dorastaliśmy, i nauczyliśmy się wielu rzeczy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:470
+msgid ""
+"Beneath the structure is a system of catacombs that connects all four towers "
+"to the central keep. The catacombs growing over time, combined with "
+"centuries of war, made it necessary to install supports to hold up the "
+"middle."
+msgstr ""
+"Pod konstrukcją nośną jest system podziemi, które łączą wszystkie cztery "
+"wieże z centralnym stołpem. W miarę rozbudowy podziemi i niezliczonych "
+"wojen, środkową część struktury trzeba było w końcu wesprzeć podporami."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:484
+msgid ""
+"I hope you're right. In a few hours, night will fall, and we will find out."
+msgstr ""
+"Mam nadzieję, że macie rację. Przekonamy się już za kilka godzin, gdy "
+"zapadnie zmrok."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:488
+msgid ""
+"We must be cautious. Look there, a substantial orc force is also advancing "
+"on Halstead. They must think Wesnoth's army is spread out right now."
+msgstr ""
+"Musimy być ostrożni. Patrzcie tam, pokaźny oddział orków również rusza na "
+"Halstead. Pewnie sądzą, że armia Wesnoth jest rozproszona."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:492
+msgid "Heh. They're in for a surprise. This may work to our advantage."
+msgstr ""
+"Ha - czeka ich drobna niespodzianka. To może zadziałać na naszą korzyść."
+
+#. [message]: role=farseer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:507
+msgid "Look in the distance... riders approach!"
+msgstr "Patrzcie tam w oddali, nadjeżdżają konni!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:516
+msgid "Who is it?"
+msgstr "Kto to może być?"
+
+#. [message]: role=farseer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:520
+msgid "Help, I hope. Circumstances cannot afford to get much more dire."
+msgstr ""
+"Mam nadzieję, że to pomoc. Bo nie stać nas na to, by było to cokolwiek "
+"innego."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:526
+msgid "Riders approach from the northwest! Stand fast, men."
+msgstr ""
+"Od północnego zachodu zbliżają się jeźdźcy! Trzymać pozycje, żołnierze."
+
+#. [unit]: type=Paladin, id=Sir Gwydion
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:535
+msgid "Sir Gwydion"
+msgstr "Sir Gwydion"
+
+#. [message]: type=Lancer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:551
+msgid "Sound the advance!"
+msgstr "Grać do ataku!"
+
+#. [message]: speaker=Sir Gwydion
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:555
+msgid ""
+"Knights of Elensefar, behold: the battle has already begun! Make camp here. "
+"Then, we CHARGE!"
+msgstr ""
+"Rycerze Elensefaru, bitwa już się rozpoczęła! Rozbić tutaj obóz, a potem "
+"szarżą, DO ATAKU!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:568
+msgid ""
+"Amazing. Lord Maddock sent his house guards... his finest troops! Elensefar "
+"must be defenseless now. More hinges on this battle than I thought."
+msgstr ""
+"Niezwykłe. Lord Maddock wysłał swoich gwardzistów... swoich najlepszych "
+"ludzi! Elensefar musi teraz być bezbronny. Od tej bitwy zależy więcej, niż "
+"sądziłem."
+
+#. [message]: role=farseer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:573
+msgid ""
+"Baldras, Gwydion is Lord Maddock's son. This battle isn't just about Annuvin "
+"anymore."
+msgstr ""
+"Baldrasie, Gwydion jest synem Lorda Maddocka. Ta bitwa nie toczy się już "
+"tylko o Annuvin."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:586
+msgid ""
+"That afternoon, another advance element of the main Wesnoth army arrived..."
+msgstr ""
+"Tego popołudnia przybył kolejny oddział z czoła głównej armii Wesnoth..."
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:656
+msgid ""
+"I think... I think they're trying to storm Halstead itself... the fools!"
+msgstr "Myślę... Myślę, że próbują szturmować samo Halstead... Głupcy!"
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:673
+msgid "They have breached the fortress gate! Repulse them!"
+msgstr "Przeszli przez bramę fortecy! Odeprzeć ich!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:689
+msgid "I'm inside the tower! I'm going down to the catacombs - cover me."
+msgstr "Jestem w wieży! Schodzę w dół do katakumb - osłaniajcie mnie."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:699
+msgid "After about an hour..."
+msgstr "Po mniej więcej godzinie..."
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:709
+msgid "It's done."
+msgstr "Zrobione."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:736
+msgid "The stronghold of Halstead began to shake..."
+msgstr "Wieże Halstead zaczęły się chwiać..."
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:741
+msgid "We cannot stay here. The fortress has started to collapse!"
+msgstr "Nie możemy tutaj pozostać! Forteca zaczyna się zapadać!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:772
+msgid "I think it's working! Everybody get clear NOW!"
+msgstr "Chyba się udało! Wszyscy uciekać NATYCHMIAST!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:796
+msgid ""
+"With a thunderous earthquake and a vast billowing of dust, thousands of tons "
+"of stone and wood crashed in on itself. Some of it tumbled down the steep "
+"sides, while the remainder came to rest several hundred feet below ground, "
+"in the bowels of the hollowed-out mountain."
+msgstr ""
+"Tysiące ton kamienia i drewna zapadło się z potężnym hukiem, aż zadrżała "
+"ziemia i uniósł się wielki obłok pyłu. Część stoczyła się po stromych "
+"zboczach fortecy, a reszta zapadła się głęboko pod ziemię, spoczywając "
+"wreszcie we wnętrzu wydrążonej góry."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:801
+msgid "No one inside the fortress would make it out alive."
+msgstr "Nikt w środku fortecy nie przeżył."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:870
+msgid ""
+"After more than a week of fierce fighting, the main body of Asheviere's host "
+"arrived from Weldyn. The battle was soon finished. Every last man from the "
+"province of Annuvin was executed."
+msgstr ""
+"Po więcej niż tygodniu ciężkich walk, główna część armii Ashaviere przybyła "
+"z Weldyn. Bitwa wkrótce się skończyła. Każdy mężczyzna z prowincji Annuvin "
+"został stracony."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:900
+msgid "Men, help me out of here! I am trapped under this rubble."
+msgstr "Ludzie, pomóżcie mi! Jestem uwięziony pod tym zwaliskiem."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:904
+msgid ""
+"No one was able to get to Baldras in time. He and many of his companions "
+"died that day beneath the stronghold of Halstead."
+msgstr ""
+"Nikt nie dotarł do Baldrasa na czas. On i wielu jego towarzyszy zginęło tego "
+"dnia pod gruzami twierdzy Halstead."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:909
+msgid "I hope this sacrifice is not in vain... but we will never know."
+msgstr ""
+"Mam nadzieję, że to poświęcenie nie poszło na marne... ale nigdy się tego "
+"nie dowiemy."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:915
+msgid "Our dream of freedom... gone... Unngh."
+msgstr "Nasz sen o wolności... się rozwiał... uungh."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:922
+msgid ""
+"The rebellion had stakes its all on victory at Halstead, but win or lose, "
+"there would be no help for the villagers, ground beneath the wheels of "
+"Asheviere's wrath."
+msgstr ""
+"Rebelianci pokładali wszystkie swoje nadzieje w zwycięstwie pod Halstead, "
+"ale niezależnie od wyniku bitwy nie mogło już być ratunku dla mieszkańców "
+"wsi zmiażdżonych przez machinę wojenną okrutnej Asheviere."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:938
+msgid "Uncle!"
+msgstr "Wuju!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:942
+msgid "NO!"
+msgstr "NIE!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:946
+msgid "I promised your father I would watch after you... and I failed."
+msgstr "Obiecałem twojemu ojcu, że będę o ciebie dbał... i zawiodłem."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:950
+msgid ""
+"But we are so close to the end. We must finish this. I am sorry you will not "
+"be able to enjoy our freedom. Goodbye, Harper."
+msgstr ""
+"Jesteśmy tak blisko rozstrzygnięcia. Musimy to dokończyć. Przykro mi, że nie "
+"będziesz w stanie cieszyć się naszą wolnością. Żegnaj, Harper."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:964
+msgid ""
+"Carry on, my friends. Fighting by your side is the most honorable thing I "
+"have done..."
+msgstr ""
+"Dalej, przyjaciele. Walka u waszego boku była najbardziej honorową rzeczą "
+"jaką kiedykolwiek uczyniłem..."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1011
+msgid "Your reign of terror is over, General."
+msgstr "Twoje panowanie strachu się skończyło, Generale."
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1016
+msgid ""
+"You will never successfully oppose Asheviere. Her power is too great... This "
+"small victory today is but a reprieve from the unimaginable pain you will "
+"suffer when the full force of her wrath descends upon you."
+msgstr ""
+"Nikt nie oprze się Asheviere, jej potęga jest zbyt wielka... Drobne "
+"zwycięstwo, które dziś odnieśliście, tylko odroczy niewyobrażalne "
+"cierpienia, które staną się waszym udziałem, gdy wreszcie spadnie na was "
+"pełna moc jej gniewu."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1027
+msgid ""
+"This was no small victory. You underestimate the power of love for freedom."
+msgstr "To było małe zwycięstwo. Nie doceniacie potęgi miłości do wolności."
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1031
+msgid ""
+"You... underestimate the... cruelty and ambition of your Queen... unngh.."
+msgstr ""
+"Wy zaś... nie doceniacie... okrucieństwa i ambicji waszej... Królowej... "
+"ungh..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1038
+msgid ""
+"Small victory? Bah! Now we will raze this fortress and bury it in the earth "
+"from whence it came."
+msgstr ""
+"Drobne zwycięstwo? Ha! Obrócimy teraz tę fortecę w perzynę i pogrzebiemy ją "
+"w ziemi, z której powstała."
+
+#. [scenario]: id=epilog
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:4
+msgid "Liberty - Epilogue"
+msgstr "Wolność - Epilog"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:14
+msgid ""
+"The rest of the battle was a blur. The shock of what had happened stunned "
+"everybody."
+msgstr ""
+"Szok tego, co się stało, spowodował, że wszyscy byli niczym porażeni. "
+"Wspomnienia z reszty bitwy były zamazane."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:17
+msgid ""
+"Baldras and his men fled the plains of western Wesnoth under the cover of "
+"night. The spectacle of Halstead's destruction stunned them into a daze that "
+"only slowly wore off as they made their way north to and past Elensefar."
+msgstr ""
+"Baldras i jego ludzie zbiegli pod osłoną nocy na równiny zachodniego "
+"Wesnoth. Widowiskowa zagłada Halstead wywarła na nich silne wrażenie, które "
+"opuszczało ich powoli w czasie wędrówki na północ do Elensefaru i jeszcze "
+"dalej."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:20
+msgid ""
+"The Elense riders routed the orcish army, small as it was, and sent them "
+"back across the Great River. They then scattered to the countryside and were "
+"not heard from again. Baldras thought this odd behavior when he heard about "
+"it."
+msgstr ""
+"Choć nieliczna, jazda Elense rozgromiła armię orków i zepchnęła ją z "
+"powrotem za Wielką Rzekę. Jeźdźcy rozproszyli się potem po prowincji i słuch "
+"po nich zaginął. Gdy wieści o tym dotarły do Baldrasa, cała rzecz wydała mu "
+"się bardzo dziwna."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:23
+msgid ""
+"As the main body of Asheviere's army neared the ruins of Halstead, strange "
+"things began to happen. Every night, men would disappear. Others were found "
+"hacked to bloody pieces. Unexplained misfortune plagued the marching "
+"columns. Soldiers dropped dead where they stood, slain by unseen assassins. "
+"Fear of an undead menace spread through the ranks."
+msgstr ""
+"Gdy główna część armii Asheviere zbliżyła się do ruin Halstead, zaczęły się "
+"dziać dziwne rzeczy. Co nocy znikali ludzie, a innych znajdywano porąbanych "
+"na kawałki. Niewyjaśniony pech trapił maszerujące kolumny. Żołnierze padali "
+"nagle martwi, ubici przez niewidocznych zabójców. Strach przed nieumarłym "
+"zagrożeniem opanował szeregi."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:26
+msgid ""
+"When the army of Wesnoth found the ruins of the mighty fortress Halstead, it "
+"was too much. Their shock that such a thing could happen combined with the "
+"invisible terror stalking them convinced Asheviere's second in command the "
+"entire countryside was cursed. He quickly retreated to the traditional "
+"border and set up strong defenses against the west."
+msgstr ""
+"Widok ruin potężnej fortecy Halstead był kroplą, która przelała czarę "
+"goryczy wśród żołnierzy armii Wesnoth. Niedowierzanie, że coś takiego mogło "
+"się stać, w połączeniu z niewidzialnymi ciosami, które ich nękały, "
+"przekonały głównodowodzącego armią Asheviere, że cała okolica jest "
+"przeklęta. Rozkazał szybki odwrót do historycznych granic i przygotować "
+"silne umocnienia przeciwko atakom z zachodu."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:29
+msgid ""
+"Baldras had just crossed the Great River when rumors of night-stalkers "
+"filtered through his ranks. With bitter humor he realized that Lord "
+"Maddock's men were successfully using tactics Baldras had mastered and used "
+"during his resistance."
+msgstr ""
+"Baldras dopiero co przekroczył Wielką Rzekę, gdy wśród jego ludzi zaczęły "
+"krążyć plotki o skrytych nocnych atakach. Dostrzegał ironię w fakcie, że "
+"ludzie Lorda Maddocka stosowali taktykę, którą sam stworzył i której w "
+"doskonałym skutkiem używał podczas walk."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:32
+msgid ""
+"The peasants-turned-outlaws finally reached Dallben. It was burnt to the "
+"ground. In a panic, they raced through the forest to Delwyn. It was likewise "
+"devastated. However, they did find one clue as to what happened..."
+msgstr ""
+"Wieśniacy obróceni w banitów dotarli wreszcie do Dallben - spalonego do "
+"gołej ziemi. Przerażeni popędzili przez las do Delwyn, lecz tylko po to, by "
+"zastać je jednakowo zniszczone. Jednakże znaleźli jedną wskazówkę co do "
+"tego, co się stało..."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:36
+msgid ""
+"...a grimy note nailed to a charred post that read, 'Baldras, You would have "
+"been proud. We gave 'em hell. But in the end, it wasn't enough.'"
+msgstr ""
+"... brudną kartkę przybitą do zwęglonego słupa, na której widniał napis: "
+"'Baldrasie, Byłbyś dumny. Daliśmy im popalić. Ale to nie wystarczyło.'"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:40
+msgid ""
+"'We fled like criminals in the night, but we made sure that no one would "
+"harass us anymore.'"
+msgstr ""
+"'Uciekliśmy nocą jak przestępcy, ale upewniliśmy się, że nikt nas więcej nie "
+"będzie nękać.'"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:44
+msgid ""
+"'If you wish to find us, head southwest. When you reach the land's end, just "
+"keep going. See you in the Three Sisters, old friend. - Relnan' "
+msgstr ""
+"\"Jeżeli chcesz nas odnaleźć, ruszaj na południowy zachód. Kiedy dotrzesz do "
+"kresu tej ziemi, po prostu podążaj dalej. Do zobaczenia na Trzech Siostrach, "
+"stary druhu - Relnan\""
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:5
+msgid "Bone Knight"
+msgstr "Rycerz szkielet"
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:33
+msgid ""
+"Once great warriors across the plains, these mounted riders atop their "
+"skeletal horses were raised from the ground by unholy magic to spread fear "
+"and destruction."
+msgstr ""
+"Kiedyś wspaniali wojownicy równin, teraz zaś powołani czarną magią do "
+"ponownego życia, by na szkieletowych koniach siać strach i zniszczenie."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:37
+#: data/campaigns/Liberty/units/Skeleton_Rider.cfg:41
+msgid "axe"
+msgstr "topór"
+
+#. [attack]: type=impact
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:79
+msgid "trample"
+msgstr "tratowanie"
+
+#. [unit_type]: id=Death Squire, race=undead
+#: data/campaigns/Liberty/units/Death_Squire.cfg:4
+msgid "Death Squire"
+msgstr "Giermek śmierci"
+
+#. [unit_type]: id=Death Squire, race=undead
+#: data/campaigns/Liberty/units/Death_Squire.cfg:26
+msgid ""
+"Sometimes the mightiest warriors and generals, cursed with hate and angst, "
+"came back to this world as Death Knights. Death Squires serve them whilst "
+"accruing enough unholy power to become Death Knights. In the process they "
+"pick up a good deal of the Knight's power, including the ability to command "
+"underlings."
+msgstr ""
+"Czasami najpotężniejsi spośród wojowników i generałów, obarczeni klątwą "
+"nienawiści i gniewu, powracają na ten świat jako Rycerze Śmierci. Giermkowie "
+"Śmierci służą im dopóki sami nie nabędą dość przeklętej mocy by stać się "
+"Rycerzami Śmierci. W tym czasie otrzymują pokaźny udział w mocach Rycerza, "
+"między innymi dowodzenie nad poślednimi istotami."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Death_Squire.cfg:31
+msgid "sword"
+msgstr "miecz"
+
+#. [unit_type]: id=Rogue Mage, race=human
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:5
+msgid "Rogue Mage"
+msgstr "Mag renegat"
+
+#. [unit_type]: id=Rogue Mage, race=human
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:18
+msgid ""
+"Some mages are thrown out of the mage's guild for attempting to practice "
+"forbidden arts. Now completely outside the law, these rogue mages do "
+"whatever necessary to support their study of black magic. Although not as "
+"skilled as mages with more formal training, their magic can be quite lethal, "
+"while their banditry has resulted in moderate skill with the short sword."
+msgstr ""
+"Niektórzy magowie są usuwani z cechu za próby praktykowania zakazanych sztuk "
+"magicznych. Wyjęci spod prawa magowie renegaci imają się wszystkiego, co "
+"pozwoli im dalej zgłębiać tajniki czarnej magii. Choć nie dorównują "
+"umiejętnościami swoim formalnie wyszkolonym kolegom po fachu, ich ataki "
+"magiczne są mimo to niebezpieczne, a jako banici nabyli również niejaką "
+"sprawność we władaniu krótkim mieczem."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:23
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:26
+msgid "short sword"
+msgstr "krótki miecz"
+
+#. [attack]: type=cold
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:32
+msgid "magic missile"
+msgstr "pocisk magiczny"
+
+#. [unit_type]: id=Shadow Lord, race=human
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:5
+msgid "Shadow Lord"
+msgstr "Władca cienia"
+
+#. [unit_type]: id=Shadow Lord, race=human
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:22
+msgid ""
+"Few humans fathom the secrets of light and dark magic and retain their "
+"sanity. Those that can master that balance become Shadow Lords, fully "
+"existing neither in the world of light nor the world of darkness. No longer "
+"needing physical weapons, they are fearsome to both their enemies and those "
+"they lord over."
+msgstr ""
+"Niewielu ludzi jest zdolnych zgłębiać zarazem tajniki magii światła i "
+"ciemności bez postradania zmysłów. Nieliczni, którym udaje się uchwycić i "
+"opanować tę równowagę, stają się władcami cienia, istniejącymi po części w "
+"świecie światła, a po części w świecie ciemności. Nie potrzebują już broni "
+"fizycznej i sieją postrach zarówno w szeregach przeciwników, jak i wśród "
+"własnych poddanych."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:74
+msgid "astral blade"
+msgstr "astralne ostrze"
+
+#. [attack]: type=cold
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:85
+msgid "shadow bolt"
+msgstr "błyskawica cienia"
+
+#. [attack]: type=impact
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:97
+msgid "shadow blast"
+msgstr "uderzenie cienia"
+
+#. [unit_type]: id=Shadow Mage, race=human
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:5
+msgid "Shadow Mage"
+msgstr "Mag cienia"
+
+#. [unit_type]: id=Shadow Mage, race=human
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:21
+msgid ""
+"Years of violence and brutality to support the study of forbidden magical "
+"arts have turned the shadow mages into feared fighters. Now completely "
+"enthralled with power, they have been known to command small followings of "
+"henchmen. They are outmatched in direct magical combat with their magic-"
+"using peers, instead channeling their energies into devestating melee "
+"attacks. Despite their offensive power, the corruption in their souls has "
+"begun to adversely affect their health."
+msgstr ""
+"Długie lata zgłębiania zakazanych sztuk magicznych w połączeniu z przemocą i "
+"występkami, jakich wymaga ten proceder, zmieniają magów cienia w groźnych "
+"wojowników. Są całkowicie urzeczeni posiadaną mocą i nierzadko gromadzą "
+"wokół siebie niewielkie grupy popleczników. W bezpośrednich pojedynkach "
+"magicznych znacznie ustępują swoim formalnie wyszkolonym kolegom po fachu, "
+"toteż wykorzystują swą moc przede wszystkim do śmiercionośnych ataków wręcz. "
+"Choć są potężni w walce, zepsucie ich dusz negatywnie wpływa na stan ich "
+"zdrowia."
+
+#. [attack]: type=cold
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:38
+msgid "ice blast"
+msgstr "uderzenie lodu"
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: data/campaigns/Liberty/units/Skeleton_Rider.cfg:5
+msgid "Skeleton Rider"
+msgstr "Szkieletowy jeździec"
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: data/campaigns/Liberty/units/Skeleton_Rider.cfg:34
+msgid ""
+"Once great warriors thundering across the plains, these mounted riders atop "
+"their skeletal horses were raised from the grave by unholy magic to spread "
+"fear and destruction."
+msgstr ""
+"Kiedyś wspaniali wojownicy równin, teraz zaś powołani czarną magią do "
+"ponownego życia, by na szkieletowych koniach siać strach i zniszczenie."
+
+#. [unit_type]: id=Thug_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:20
+msgid "Villager"
+msgstr "Chłop"
+
+#. [unit_type]: id=Thug_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:23
+msgid ""
+"Peasants live in the small hamlets and villages scattered across the Wesnoth "
+"countryside."
+msgstr ""
+"Chłopi żyją w małych osadach i przysiółkach rozsianych po prowincjach "
+"Wesnoth."
+
+#. [unit_type]: id=Bandit_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:36
+msgid "Village Elder"
+msgstr "Starszy wioski"
+
+#. [unit_type]: id=Bandit_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:39
+msgid ""
+"Each of the villages scattered across the Wesnoth countryside is normally "
+"guided by a group of elders, who are the village's wisest and most "
+"experienced residents."
+msgstr ""
+"Każda z wsi rozproszonych po prowincjach Wesnoth posiada zwykle starszyznę, "
+"która składa się z najmędrszych i najbardziej doświadczonych mieszkańców."
+
+#. [unit_type]: id=Highwayman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:52
+msgid "Senior Village Elder"
+msgstr "Przywódca starszyzny"
+
+#. [unit_type]: id=Highwayman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:56
+msgid ""
+"The entire village looks to the senior elder for guidance. Strong and wise, "
+"the senior elders take responsibility for the community's well-being on "
+"their shoulders. Provincial officials tend to choose senior village elders "
+"as magistrates so that legal and customary authority will coincide."
+msgstr ""
+"Cała wieś szuka rady u przywódcy starszyzny. Silny i mądry, nosi na barkach "
+"odpowiedzialność za losy całej społeczności. Zarządcy prowincji często "
+"mianują starszych wiosek sędziami pokoju, co pozwala połączyć autorytet "
+"zwyczajowy i urzędowy."
+
+#. [unit_type]: id=Footpad_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:72
+msgid "Peasant Youth"
+msgstr "Młody chłop"
+
+#. [unit_type]: id=Footpad_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:76
+msgid ""
+"The scruffy-haired peasant youth are much like the young people living "
+"elsewhere in Wesnoth: reckless, cocky, and eager to explore."
+msgstr ""
+"Rozkudłani młodzi wieśniacy są podobni do młodych ludzi w całym Wesnoth: "
+"niespożyci, zadzierzyści i chętni do przygód."
+
+#. [female]
+#: data/campaigns/Liberty/units/Villagers.cfg:82
+msgid "female^Peasant Youth"
+msgstr "Młoda chłopka"
+
+#. [unit_type]: id=Outlaw_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:96
+msgid "Watchman"
+msgstr "Wartownik"
+
+#. [unit_type]: id=Outlaw_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:101
+msgid ""
+"The watchmen are men and women who protect the villages from marauders, both "
+"human and otherwise, that prowl the Wesnoth countryside at night."
+msgstr ""
+"Wartownicy to kobiety i mężczyźni chroniący wiosek przed grasującymi na "
+"ziemiach Wesnoth nocnymi rabusiami - czy to ludźmi, czy innymi stworzeniami."
+
+#. [female]
+#: data/campaigns/Liberty/units/Villagers.cfg:103
+msgid "female^Watchwoman"
+msgstr "Wartowniczka"
+
+#. [unit_type]: id=Fugitive_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:117
+msgid "Borderer"
+msgstr "Strażnik pogranicza"
+
+#. [unit_type]: id=Fugitive_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:122
+msgid ""
+"Border villages maintain militias dedicated to fending off hostiles. While "
+"these borderers are not trained and armed to up to military standards, their "
+"native toughness and knowledge of local conditions make them formidable on "
+"their home ground."
+msgstr ""
+"W przygranicznych wioskach utrzymywane są oddziały milicji, które "
+"odpowiadają za bezpieczeństwo osady. Choć nie mają wyszkolenia wojskowego "
+"ani broni z prawdziwego zdarzenia, dzięki wrodzonej wytrzymałości i "
+"znajomości miejscowego terenu potrafią być groźnymi przeciwnikami dla "
+"najeźdźców."
+
+#. [female]
+#: data/campaigns/Liberty/units/Villagers.cfg:124
+msgid "female^Borderer"
+msgstr "Strażniczka pogranicza"
+
+#. [unit_type]: id=Poacher_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:143
+msgid "Peasant Hunter"
+msgstr "Chłop myśliwy"
+
+#. [unit_type]: id=Poacher_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:146
+msgid ""
+"Villages, especially in wilder areas near frontiers, rely on hunters to "
+"bring in much of their food supply. Their stealth and intimate knowledge of "
+"local terrain can be valuable assets in combat."
+msgstr ""
+"Myśliwi dostarczają znaczną część zaopatrzenia wiosek, zwłaszcza na mniej "
+"zaludnionych terenach pogranicznych. Ich umiejętność pozostawania "
+"niezauważonym i niesłyszanym w połączeniu z doskonałą znajomością terenu "
+"bywa niezwykle cenna w walce."
+
+#. [unit_type]: id=Trapper_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:159
+msgid "Peasant Trapper"
+msgstr "Chłop traper"
+
+#. [unit_type]: id=Trapper_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:163
+msgid ""
+"Trappers are skilled hunters who supply food and furs for several villages. "
+"Their hunting experience makes them most valuable at night and in forests "
+"and swamps."
+msgstr ""
+"Traperzy to wytrawni myśliwi, którzy dostarczają żywność i futra kilku "
+"wioskom. Ich doświadczenie w polowaniu czyni ich najbardziej wartościowymi w "
+"nocy, oraz wśród lasów i bagien."
+
+#. [unit_type]: id=Huntsman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:176
+msgid "Peasant Huntsman"
+msgstr "Chłop myśliwy"
+
+#. [unit_type]: id=Huntsman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:181
+msgid ""
+"Huntsmen have spent their lives in the backwoods and swamps of their "
+"wilderness homes. They can bullseye wamprats and track anything that moves "
+"in their territory."
+msgstr ""
+"Myśliwi całe swoje życie spędzili w ostępach puszczy i bagnach pokrywających "
+"ich dziką ojczyznę. Potrafią trafić w locie nietoperza i wyśledzić wszystko, "
+"co się porusza na ich terenie."
+
+#. [object]: id={ID}
+#: data/campaigns/Liberty/utils/utils.cfg:62
+msgid "Holy Ankh"
+msgstr "Święty Ankh"
+
+#. [object]: id={ID}
+#: data/campaigns/Liberty/utils/utils.cfg:65
+msgid ""
+"You find a hefty pendant on a strange and ominous looking altar. It glows "
+"brightly when you pick it up!"
+msgstr ""
+"Znajdujesz ciężki naszyjnik, zawieszony na dziwnym, złowieszczo wyglądającym "
+"ołtarzu. Gdy bierzesz go do ręki, rozbłyska jasnym światłem!"
+
+#. [object]: id={ID}
+#: data/campaigns/Liberty/utils/utils.cfg:66
+msgid ""
+"There is a strange altar here and a pendant on it. I don't want to touch it."
+msgstr "Jest tu dziwny ołtarz, a na nim jakiś naszyjnik. Nie chcę go dotykać."
+
+#. [effect]: type=arcane
+#: data/campaigns/Liberty/utils/utils.cfg:79
+msgid "holy ankh"
+msgstr "święty ankh"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/utils/utils.cfg:129
+msgid "Tell my wife... that I loved her!"
+msgstr "Powiedz mojej żonie... że ją kochałem!"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/utils/utils.cfg:144
+msgid "Unngh... Now our people may never be free..."
+msgstr "Unnngh... Teraz nasi ludzie nigdy już nie będą wolni..."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/utils/utils.cfg:158
+msgid "I am finished... will we ever be free?"
+msgstr "Już po mnie... czy kiedykolwiek będziemy wolni?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/utils/utils.cfg:172
+msgid "How can this be? We have lost."
+msgstr "Jak to możliwe? Przegraliśmy."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/utils/utils.cfg:188
+msgid ""
+"They returned to their village to find it destroyed, with those who fought "
+"left dead and the few survivors born away to unguessable fates. It was a "
+"bitter doom, but as Asheviere's grip tightened they would live to see worse."
+msgstr ""
+"Powrócili do swej wioski, by zastać ją w ruinie. Wszyscy obrońcy zginęli, a "
+"nieliczni ocaleni mieszkańcy zostali uprowadzeni ku niewiadomemu. Gorzki to "
+"był los, a mieli zobaczyć i gorsze rzeczy, gdy dławiący uścisk Asheviere "
+"zaciskał się coraz bardziej."
+
+#~ msgid "Translators"
+#~ msgstr "Tłumacze"
+
+#~ msgid ""
+#~ "Goblins do not do well without their leaders. If we can kill this one, it "
+#~ "may take the fight out of the rest."
+#~ msgstr ""
+#~ "Bez przywódców gobliny są bezradne. Gdyby udało się nam zabić dowódcę, "
+#~ "może reszta straci ochotę do walki."
+
+#~ msgid ""
+#~ "Each village has a group of highly capable fighters dedicated to fending "
+#~ "off orc raids. Some of these join the Wesnoth army, while others join the "
+#~ "core of the village's patrol."
+#~ msgstr ""
+#~ "Każda wieś posiada grupę ludzi zaprawionych w boju, których zadaniem jest "
+#~ "odpieranie ataków orków. Niektórzy z nich dołączają do armii Wesnoth, "
+#~ "podczas gdy inni stanowią rdzeń straży wsi."
+
+#~ msgid "Amman"
+#~ msgstr "Amman"
+
+#~ msgid "Porus"
+#~ msgstr "Porus"
+
+#~ msgid "Wait - I hear something..."
+#~ msgstr "Czekaj - słyszę coś..."
+
+#~ msgid ""
+#~ "I'm glad we finally get to spend some time near a city. I was sick of "
+#~ "marching through swamps and woods chasing down locals. If this terrorist "
+#~ "shows up at Carcyn I'll put his head at the end of my pole."
+#~ msgstr ""
+#~ "Cieszę się, że wreszcie spędzimy trochę czasu koło miasta. Mam już "
+#~ "serdecznie dosyć uganiania się po bagnach i lasach za cieniami tubylców. "
+#~ "Jeżeli ten terrorysta pojawi się w Carcyn, natknę jego głowę na koniec "
+#~ "mojej piki."
+
+#~ msgid ""
+#~ "If we let him into the city, the commander will put our heads on poles... "
+#~ "damn moonless night! Did you hear something?"
+#~ msgstr ""
+#~ "Jeżeli uda mu się przejść obok nas do miasta, to nasze głowy dowódca każe "
+#~ "zatknąć na piki... do diabła z tą bezksiężycową nocą! Hej, też to "
+#~ "słyszałeś?"
+
+#~ msgid "Umm, I don't know. It is pitch black out there..."
+#~ msgstr "Hmm.. no nie wiem. Ciemno tu, że oko wykol..."
+
+#~ msgid "I don't see anything. Let's keep going."
+#~ msgstr "Nic nie widzę. Ruszajmy dalej."
+
+#~ msgid ""
+#~ "I think we need to find a way to sneak past these patrols. We would be "
+#~ "slaughtered if we tried to fight them."
+#~ msgstr ""
+#~ "Sądzę, że trzeba nam znaleźć sposób by przemknąć obok tych patroli. "
+#~ "Wyrżnęliby nas do ostatniego gdybyśmy spróbowali z nimi walczyć."
+
+#~ msgid "Let's go around then."
+#~ msgstr "No to ich obejdźmy."
+
+#~ msgid "Who is that?"
+#~ msgstr "Kto to?"
+
+#~ msgid "Well, good thing I found you first. Now hurry."
+#~ msgstr "Dobrze więc, żem znalazł was ja pierwszy. A teraz się śpieszcie."
+
+#~ msgid "No, THEY found us first! Let's go!"
+#~ msgstr "Nie, ONI znaleźli nas pierwsi! Ruszajmy!"
+
+#~ msgid "Shhhhh!! I could hear you coming from bottom of the city dungeon."
+#~ msgstr "Cśśś! Słyszałem was już w głębi miejskich podziemi."
+
+#~ msgid "I can barely see where we are going. Is the city near?"
+#~ msgstr "Ledwo widzę dokąd idziemy. Czy miasto jest blisko? "
+
+#~ msgid ""
+#~ "Yes, just south of here. You should avoid the main gate. The west gate is "
+#~ "heavily traveled but is less guarded than the east gate. Try to sneak in "
+#~ "that way."
+#~ msgstr ""
+#~ "Tak, tuż na południe stąd. Powinniście ominąć główną bramę. Zachodnia "
+#~ "brama jest często odwiedzana, ale słabiej strzeżona. Spróbujcie się "
+#~ "wśliznąć tamtędy."
+
+#~ msgid ""
+#~ "Unfortunately, they know we are here already. We can only hope that the "
+#~ "cover of night will be adequate despite their stepped-up efforts to find "
+#~ "us."
+#~ msgstr ""
+#~ "Niestety, wiedzą już, że tutaj jesteśmy. Możemy tylko mieć nadzieję, że "
+#~ "osłona nocy będzie wystarczająca mimo ich wytężonych wysiłków "
+#~ "odnalezienia nas."
+
+#~ msgid "Hello, our leader is on the other side of the city."
+#~ msgstr "Witajcie, nasz przywódca jest po drugiej stronie miasta."
+
+#~ msgid ""
+#~ "We already tangled with some guards. The city is probably swarming with "
+#~ "soldiers by now. We cannot go that way. "
+#~ msgstr ""
+#~ "Już zadarliśmy ze strażnikami. Miasto pewnie w tej chwili roi się od "
+#~ "żołnierzy. Nie możemy wybrać tej drogi."
+
+#~ msgid "We have to go through the city? Impossible!"
+#~ msgstr "Mamy przejść przez miasto? Niemożliwe!"
+
+#~ msgid "Elense Vanguard Rider"
+#~ msgstr "Jeździec straży przedniej Elense."
+
+#~ msgid "Unit art"
+#~ msgstr "Grafika jednostek"
+
+#~ msgid "Map art"
+#~ msgstr "Grafika map"
+
+#~ msgid "Portrait Art"
+#~ msgstr "Grafika portretów"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "godlike powers"
+#~ msgstr "nadludzkie moce"
+
+#~ msgid "Dusk"
+#~ msgstr "Zmierzch"
+
+#~ msgid ""
+#~ "Look there... the canyon valley lies in perpetual darkness... a sign of "
+#~ "true evil."
+#~ msgstr "Patrzcie... parów okrywa wieczny cień... znak prawdziwego zła."
+
+#~ msgid ""
+#~ "There are some bones here.  There appears to be something among them."
+#~ msgstr "Są tutaj jakieś kości. Wygląda na to, że coś leży między nimi."
+
+#~ msgid ""
+#~ "I agree.  I will stay here and prepare to defend Delwyn and Dallben... "
+#~ "but lo!  We are not alone.  Their smell has long since given them away... "
+#~ "saurians approach."
+#~ msgstr ""
+#~ "Zgoda. Zostanę tutaj i przygotuję obronę Delwyn i Dallben... Czekajże no! "
+#~ "Nie jesteśmy tu sami. Ich smród dawno już ich zdradził... nadciągają "
+#~ "jaszczury."
+
+#~ msgid "And orcs!  Will we never be free of these foul beasts?"
+#~ msgstr "I orki! Czy w końcu kiedyś się pozbędziemy tych podłych stworzeń?"
+
+#~ msgid "We cannot afford to waste any more time.  To Elensefar!"
+#~ msgstr "Nie stać nas na to, by stracić więcej czasu. Do Elensefar!"
+
+#~ msgid "quick"
+#~ msgstr "szybki"
+
+#~ msgid "RUN!"
+#~ msgstr "BIEGIEM!"
+
+#~ msgid ""
+#~ "With Helicrom dead, the guild of shadow magic was thrown into disarray."
+#~ msgstr "Z śmiercią Helicroma, gildia magów cienia popadła w rozprzężenie."
+
+#~ msgid ""
+#~ "The remaining members were very grateful and offered Baldras a sizeable "
+#~ "sum of gold for his help."
+#~ msgstr ""
+#~ "Pozostali członkowie byli niezmiernie wdzięczni i zaoferowali Baldrasowi "
+#~ "pokaźną sumę złota za jego pomoc."
+
+#~ msgid "skirmisher"
+#~ msgstr "harcownik"
+
+#~ msgid "blade"
+#~ msgstr "sieczna"
+
+#~ msgid "fire"
+#~ msgstr "ogień"
+
+#~ msgid "mace"
+#~ msgstr "buzdygan"
+
+#~ msgid "impact"
+#~ msgstr "obuchowa"
+
+#~ msgid "Dark Sorcerer"
+#~ msgstr "Mroczny czarnoksiężnik"
+
+#~ msgid ""
+#~ "The dread inspired by black magic comes chiefly from how little is known "
+#~ "about it by the common man. Dark sorcerers have begun to unlock the "
+#~ "secrets of life and death, quickly becoming masters of inflicting pain "
+#~ "and anguish.\n"
+#~ "\n"
+#~ "The ultimate prize of the dark arts is complete domination of death and "
+#~ "life. Dark Sorcerers may eventually learn how to manipulate life and "
+#~ "death by reanimating corpses, skeletons, and spirits. The most corrupt "
+#~ "and power-hungry will attempt to completely conquer death through "
+#~ "transformation to lichdom and attainment of a dreadful immortality.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Lęk powodowany przez czarną magię pochodzi głównie z powodu braku jej "
+#~ "zrozumienia pośród zwyczajnych ludzi. Czarnoksiężnicy zaczęli odkrywać "
+#~ "sekrety życia i śmierci, szybko stając się mistrzami w dręczeniu i "
+#~ "zadawaniu bólu.\n"
+#~ "\n"
+#~ "Ostateczną nagrodą czekającą na tych, którzy opanują mroczne sztuki, jest "
+#~ "całkowite panowanie nad życiem i śmiercią. Czarnoksiężnicy uczą się jak "
+#~ "manipulować życiem i śmiercią, wskrzeszając ciała, szkielety i dusze. "
+#~ "Najbardziej zepsuci i żądni władzy starają się całkowicie pokonać śmierć, "
+#~ "stając się liczami i osiągając przerażającą nieśmiertelność.\n"
+#~ "\n"
+#~ "Uwagi specjalne:"
+
+#~ msgid "staff"
+#~ msgstr "laska"
+
+#~ msgid "chill wave"
+#~ msgstr "fala chłodu"
+
+#~ msgid "cold"
+#~ msgstr "chłód"
+
+#~ msgid "leadership"
+#~ msgstr "dowodzenie"
+
+#~ msgid "Young Peasant"
+#~ msgstr "Młody wieśniak"
+
+#~ msgid "club"
+#~ msgstr "maczuga"
+
+#~ msgid ""
+#~ "Veteran criminals become notorious among the authorities for both their "
+#~ "battle prowess and ability to elude capture.  Dangerous and ruthless, "
+#~ "they can be fearful in their element but are no real match for "
+#~ "professional military."
+#~ msgstr ""
+#~ "Doświadczeni kryminaliści cieszą się złą sławą zarówno ze względu na "
+#~ "doświadczenie w walce, jak i umiejętność wymykania się władzom. Choć ci "
+#~ "niebezpieczni i bezwzględni przestępcy mogą stanowić poważne zagrożenie, "
+#~ "gdy walczą na swoim terenie, to jednostki zawodowej armii nie powinny "
+#~ "mieć problemów z ich pokonaniem."
+
+#~ msgid "female^Fugitive"
+#~ msgstr "Uciekinierka"
+
+#~ msgid ""
+#~ "Veteran criminals become notorious among the authorities for both their "
+#~ "battle prowess and ability to elude capture.  Beautiful and dangerous, "
+#~ "their beauty is exceeded only by their dangerousness."
+#~ msgstr ""
+#~ "Doświadczone kryminalistki cieszą się złą sławą zarówno ze względu na "
+#~ "doświadczenie w walce, jak i umiejętność wymykania się władzom. Uroda "
+#~ "wielu kryminalistek dorównuje tylko ich bezwzględności."
+
+#~ msgid "Night Patrolman"
+#~ msgstr "Nocny zwiadowca"
+
+#~ msgid "female^Night Patrolman"
+#~ msgstr "Nocna zwiadowczyni"
+
+#~ msgid ""
+#~ "Each village has a group of highly capable fighters dedicated to fending "
+#~ "off orc raids.  Some of these join the Wesnoth army, while others join "
+#~ "the core of the village's night patrol.  She may look tough, but beneath "
+#~ "that rough exterior is a dedicated and hard-working young woman."
+#~ msgstr ""
+#~ "Każda wieś posiada grupę ludzi przywykłych do walki, których zadaniem "
+#~ "jest odpieranie ataków orków. Niektórzy z nich dołączają do armii "
+#~ "Wesnoth, podczas gdy inni stanowią rdzeń nocnej straży wsi. Może ona "
+#~ "wygląda na twardą, ale pod tą skorupą jest ciężko pracująca i gotowa do "
+#~ "poświęceń młoda kobieta."
+
+#~ msgid "Highwayman"
+#~ msgstr "Włóczędzy"
+
+#~ msgid ""
+#~ "Armed with heavy mace, Highwaymen are the last people you want to meet on "
+#~ "a deserted road late at night."
+#~ msgstr ""
+#~ "Uzbrojeni w ciężkie buzdygany, Włóczędzy nie są kimś, kogo chciałoby się "
+#~ "spotkać na opuszczonej drodze w środku nocy."
+
+#~ msgid "Ranger"
+#~ msgstr "Wolny Łowca"
+
+#~ msgid ""
+#~ "Rangers are wild men and masters of forest and hills.  They are excellent "
+#~ "trackers, scouts, and archers, moving freely through the countryside "
+#~ "under the cover of night.  Most rulers are afraid of rangers and would "
+#~ "rather put them in the dungeon than put their abilities to use."
+#~ msgstr ""
+#~ "Wolni łowcy są dzikimi ludźmi, panami lasów i wzgórz. Świetni z nich "
+#~ "tropiciele, zwiadowcy i łucznicy, swobodnie przemykającymi przez okolicę "
+#~ "pod osłoną nocy. Większość władców obawia się wolnych łowców i woli ich "
+#~ "raczej widzieć w lochach niż w swojej służbie."
+
+#~ msgid "bow"
+#~ msgstr "łuk"
+
+#~ msgid "pierce"
+#~ msgstr "kłująca"
+
+#~ msgid "Huntsman"
+#~ msgstr "Myśliwy"
+
+#~ msgid ""
+#~ "Huntsmen have spent their lives in the backwoods and swamps of their "
+#~ "wilderness homes.  They track anything that moves in their territory, "
+#~ "including people.  Bandit gangs hire them for their ability to bring down "
+#~ "any prey."
+#~ msgstr ""
+#~ "Myśliwi całe swoje życie spędzili w ostępach puszczy i bagnach "
+#~ "pokrywających ich dziką ojczyznę. Potrafią  wyśledzić wszystko, co się "
+#~ "rusza w ich terenie, włączając w to ludzi. Bandyci wynajmują ich aby "
+#~ "używać ich zdolności ubijania każdej ofiary."
+
+#~ msgid "dagger"
+#~ msgstr "sztylet"
+
+#~ msgid "female^Outlaw"
+#~ msgstr "Banitka"
+
+#~ msgid "Villages rely on hunters to bring in a majority of the food supply."
+#~ msgstr "Myśliwi dostarczają do wiosek większość żywności."
+
+#~ msgid "magical"
+#~ msgstr "magiczna"
+
+#~ msgid "(Hard)"
+#~ msgstr "(Trudny)"
+
+#~ msgid ""
+#~ "The chronicles of how a certain group of Wesnothians were betrayed by "
+#~ "their ruler and decided to fight back. This made them outlaws in the "
+#~ "crown's eyes, but hopefully heroes in ours.  Version"
+#~ msgstr ""
+#~ "Kronika zdarzeń opisująca jak pewna grupa mieszkańców Wesnoth została "
+#~ "zdradzona przez swojego władcę i postanowiła walczyć o swoje. To uczyniło "
+#~ "ich banitami w oczach korony, a bohaterami w naszych. Wersja"
+
+#~ msgid "  For BFW"
+#~ msgstr "  Dla BfW"
+
+#~ msgid ""
+#~ "The night watchmen are men and women who protect the villages from "
+#~ "marauders, both human and otherwise, that prowl the Wesnoth countryside "
+#~ "at night.  Female watchmen look good while doing it."
+#~ msgstr ""
+#~ "Nocni wartownicy to kobiety i mężczyźni chroniący wioski przed rabusiami, "
+#~ "ludźmi i innymi, którzy są plagą okolic Wesnoth w nocy. Kobiety w tej "
+#~ "roli na dodatek jeszcze świetnie wyglądają."
+
+#~ msgid ""
+#~ "Revenants are undead creatures raised from once mighty warriors. While "
+#~ "the warriors' will and soul are all but lost, their fighting skills "
+#~ "certainly remain with the Revenant."
+#~ msgstr ""
+#~ "Powracający to nieumarłe stwory, które niegdyś były potężnymi "
+#~ "wojownikami. Choć ich wola i dusza uległy prawie całkowitemu zatraceniu, "
+#~ "to umiejętności walki z pewnością w Powracającym pozostały "

@@ -1,0 +1,259 @@
+.\" This program is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+.\"
+.
+.TH WESNOTH 6 "2009" "wesnoth" "Battle for Wesnoth"
+.
+.SH NAME
+wesnoth \- Battle for Wesnoth, a turn-based fantasy strategy game
+.
+.SH SYNOPSIS
+.
+.B wesnoth
+[\fIOPTIONS\fR]
+[\fIPATH_TO_DATA\fR]
+.
+.SH DESCRIPTION
+.
+Battle for
+.B Wesnoth
+is a turn-based fantasy strategy game.
+
+Defeat all enemy leaders using a well-chosen cadre of troops, taking 
+care to manage your resources of gold and villages. All units have 
+their own strengths and weaknesses; to win, deploy your forces to 
+their best advantage while denying your foes the chance to do the 
+same. As units gain experience, they acquire new abilities and 
+become more powerful. Play in your own language and test your skill 
+against a smart computer opponent, or join Wesnoth's large community 
+of on-line players. Create your own custom units, scenarios or 
+campaigns, and share them with others.
+.
+.SH OPTIONS
+.
+.TP
+.BI --bpp \ number
+sets BitsPerPixel value. Example:
+.B --bpp 32
+.TP
+.B -c, --campaign
+goes directly to the campaign selection menu.
+.TP
+.BI --config-dir \ name
+sets the user configuration directory to
+.I name
+under $HOME or "My Documents\\My Games" for windows.
+.TP
+.B --config-path
+prints the path of the user configuration directory and exits.
+.TP
+.B -d, --debug
+enables additional command mode options in-game
+(see the wiki page at http://www.wesnoth.org/wiki/CommandMode for more information about command mode).
+.TP
+.BI -e,\ --editor \ file
+start the in-game map editor directly. If 
+.I file
+is specified, equivalent to 
+.B -e --load
+.TP
+.B --fps
+displays the number of frames per second the game is currently running
+at, in a corner of the screen.
+.TP
+.B -f, --fullscreen
+runs the game in full screen mode.
+.TP
+.BI --gunzip \ infile.gz
+decompresses a file which should be in gzip format and stores it 
+without the .gz suffix. The
+.I infile.gz
+will be removed.
+.TP
+.BI --gzip \ infile
+compresses a file in gzip format, stores it as 
+.IR infile .gz
+and removes
+.IR infile .
+.TP
+.B -h, --help
+displays a summary of command line options to standard output, and exits.
+.TP
+.BI -l,\ --load \ file
+loads the savegame
+.I file
+from the standard save game directory.
+If the 
+.B -e
+or
+.B --editor
+option is used as well, starts the editor with the map from
+.I file
+open. If it is a directory, the editor will start with a load map dialog opened there.
+.TP
+.BI --log- level = domain1 , domain2 , ...
+sets the severity level of the log domains.
+.B all
+can be used to match any log domain. Available levels:
+.BR error ,\  warning ,\  info ,\  debug .
+By default the
+.B error
+level is used.
+.TP
+.B --logdomains
+Dumps a list of all log domains and exits.
+.TP
+.B --max-fps
+the number of frames per second the game can show, the value should be between
+the 1 and 1000, the default is
+.BR 50 . 
+.TP
+.B -m, --multiplayer
+runs a multiplayer game. There are additional options that can be used
+together with
+.B --multiplayer
+as explained below. Only these additional options can follow
+.BR --multiplayer .
+.TP
+.B --no-delay
+runs the game without any delays for graphic benchmarking. This is automatically enabled by
+.BR --nogui .
+.TP
+.B --nocache
+disables caching of game data.
+.TP
+.B --nomusic
+runs the game without music.
+.TP
+.B --nosound
+runs the game without sounds and music.
+.TP
+.B --path
+prints the name of the game data directory and exits.
+.TP
+.BI -r\  X x Y ,\ --resolution\  X x Y
+sets the screen resolution. Example:
+.B -r 800x600
+.TP
+.B --smallgui
+allows to use screen resolutions down to 800x480 and resizes a few interface elements.
+.TP
+.BI -s,\ --server\ [host]
+connects to the specified host if any, otherwise connect to the first server in preferences. Example:
+.B --server server.wesnoth.org
+.TP
+.B -t, --test
+runs the game in a small test scenario.
+.TP
+.B --validcache
+assumes that the cache is valid. (dangerous)
+.TP
+.B -v, --version
+shows the version number and exits.
+.TP
+.B -w, --windowed
+runs the game in windowed mode.
+.TP
+.B --with-replay
+replays the game loaded with the
+.B --load
+option.
+.
+.SH Options for --multiplayer
+.
+The side-specific multiplayer options are marked with
+.IR number .
+.I number
+has to be replaced by a side number. It usually is 1 or 2 but depends on
+the number of players possible in the chosen scenario.
+.TP
+.BI --ai_config number = value
+selects a configuration file to load for the AI controller for this side.
+.TP
+.BI --algorithm number = value
+selects a non-standard algorithm to be used by the AI controller for
+this side. Available values:
+.B idle_ai
+and
+.BR sample_ai .
+.TP 
+.BI --controller number = value
+selects the controller for this side. Available values:
+.B human
+and
+.BR ai .
+.TP 
+.BI --era= value
+use this option to play in the selected era instead of the
+.B Default
+era. The era is chosen by an id. Eras are described in the
+.B "data/multiplayer/eras.cfg"
+file.
+.TP
+.B --exit-at-end
+exits once the scenario is over, without displaying victory/defeat dialog which requires the user to click OK.
+This is also used for scriptable benchmarking.
+.TP
+.B --nogui
+runs the game without the GUI. Must appear before
+.B --multiplayer
+to have the desired effect.
+.TP
+.BI --parm number = name : value
+sets additional parameters for this side. This parameter depends on the
+options used with
+.B --controller
+and
+.BR --algorithm .
+It should only be useful for people designing their own AI. (not yet
+documented completely)
+.TP
+.BI --scenario= value
+selects a multiplayer scenario by id. The default scenario id is
+.BR multiplayer_The_Freelands .
+.TP
+.BI --side number = value
+selects a faction of the current era for this side. The faction is
+chosen by an id. Factions are described in the data/multiplayer.cfg
+file.
+.TP
+.BI --turns= value
+sets the number of turns for the chosen scenario. The default is
+.BR 50 .
+.
+.SH EXIT STATUS
+.
+Normal exit status is 0. An exit status of 1 indicates an (SDL, video, fonts, etc) initialization error. An exit status of 2 indicates an error with the command line options.
+.
+.SH AUTHOR
+.
+Written by David White <davidnwhite@verizon.net>.
+.br
+Edited by Nils Kneuper <crazy-ivanovic@gmx.net>, ott <ott@gaon.net> and Soliton <soliton.de@gmail.com>.
+.br
+This manual page was originally written by Cyril Bouthors <cyril@bouthors.org>.
+.br
+Visit the official homepage: http://www.wesnoth.org/
+.
+.SH COPYRIGHT
+.
+Copyright \(co 2003-2009 David White <davidnwhite@verizon.net>
+.br
+This is Free Software; this software is licensed under the GPL version 2, as published by the Free Software Foundation.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+.
+.SH SEE ALSO
+.
+.BR wesnoth_editor (6), 
+.BR wesnothd (6)

@@ -1,0 +1,429 @@
+# translation of bg.po to Български
+# #-#-#-#-#  wesnoth-editor.cpp1.po (Battle for Wesnoth VERSION)  #-#-#-#-#
+# Bulgarian translations for Battle for Wesnoth package.
+# Copyright (C) 2004 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+#
+# Automatically generated, 2004.
+# Nikolay Vladimirov <nikolay@vladimiroff.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: bg\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2007-05-14 22:02+0300\n"
+"Last-Translator: Nikolay Vladimirov <nikolay@vladimiroff.com>\n"
+"Language-Team: Български\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr ""
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr ""
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr ""
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr ""
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr ""
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr ""
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr ""
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr ""
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr ""
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr ""
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr ""
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr ""
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr ""
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr ""
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "Файл"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "Редактиране"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr ""
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+#, fuzzy
+msgid "Window"
+msgstr "Отмяна"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Изход от редактора"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:410
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:428
+#, fuzzy
+msgid "Choose a Map to Open"
+msgstr "Избор на карта "
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Запазване на картата като"
+
+#: src/editor/editor_controller.cpp:467
+#, fuzzy
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "Картата съществува. Искате ли да презапишете отгоре?"
+
+#: src/editor/editor_controller.cpp:484
+msgid "No random map generators found."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:516
+#, fuzzy
+msgid "Choose a mask to apply"
+msgstr "Избор на карта "
+
+#: src/editor/editor_controller.cpp:523
+msgid "Error loading mask"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Картата запазена."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Отмяна"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Възстановяване"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1112
+#, fuzzy
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Обновяване на преходите"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Играч"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "Цвят"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "Фон"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr ""
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr ""
+
+#: src/editor/map_context.cpp:219
+#, fuzzy
+msgid "Could not save into scenario"
+msgstr "Файлът не може да се запише: $msg"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "Файлът не може да се запише: $msg"
+
+#: src/editor/mouse_action.cpp:426
+#, fuzzy
+msgid "(Player)^None"
+msgstr "Играч"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr ""
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Draw tiles"
+#~ msgstr "Начертаване на полетата"
+
+#~ msgid "Fill"
+#~ msgstr "Запълване"
+
+#~ msgid "Set player's starting position"
+#~ msgstr "Оказване начална позиция на играча"
+
+#~ msgid "Zoom in"
+#~ msgstr "Приближаване"
+
+#~ msgid "Zoom out"
+#~ msgstr "Отдалечаване"
+
+#~ msgid "Zoom to default view"
+#~ msgstr "Стандартен изглед"
+
+#~ msgid "Toggle grid"
+#~ msgstr "Мрежа"
+
+#~ msgid "Resize the map"
+#~ msgstr "Смяна размера на картата"
+
+#~ msgid "Flip map"
+#~ msgstr "Обръщане на картата"
+
+#, fuzzy
+#~ msgid "Delay transition updates"
+#~ msgstr "Забавяне на обновяването на преходите"
+
+#~ msgid "Language"
+#~ msgstr "Език"
+
+#~ msgid "Choose your preferred language:"
+#~ msgstr "Избор на език:"
+
+#~ msgid "Battle for Wesnoth Map Editor"
+#~ msgstr "Редактор за карти на Битката за Уеснот"
+
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgid "Which Player?"
+#~ msgstr "Кой играч?"
+
+#~ msgid "Which player should start here?"
+#~ msgstr "Кой играч да започне тук?"
+
+#~ msgid ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+#~ msgstr ""
+#~ "Внимание: Невалидни знаци в името на картата. Моля, запишете под друго "
+#~ "име."
+
+#~ msgid "The file does not contain a valid map."
+#~ msgstr "Файлът не съдържа валидна карта."
+
+#~ msgid "Do you want to save the map before quitting?"
+#~ msgstr "Искате ли да запазите картата?"
+
+#~ msgid "Error: Illegal character in filename."
+#~ msgstr "Грешка: Непозволен знак в името на файла."

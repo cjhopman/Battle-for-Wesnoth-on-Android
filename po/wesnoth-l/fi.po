@@ -1,0 +1,2900 @@
+# Samu Voutilainen <smar@smar.fi>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-08-08 17:31+0200\n"
+"PO-Revision-Date: 2010-03-22 22:55+0200\n"
+"Last-Translator: Mikko Nikkilä <miccoh@gmail.com>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:10 data/campaigns/Liberty/_main.cfg:11
+msgid "Liberty"
+msgstr "Vapaus"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "(Difficult)"
+msgstr "(vaikea)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "(Easy)"
+msgstr "(helppo)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "(Normal)"
+msgstr "(normaali)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "Fugitive"
+msgstr "Karkuri"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "Outlaw"
+msgstr "Lainsuojaton"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:17
+msgid "Peasant"
+msgstr "Talonpoika"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:25
+msgid "(Intermediate level, 9 scenarios)"
+msgstr "(keskitasoa, 9 skenaariota)"
+
+#. [campaign]: id=Liberty
+#: data/campaigns/Liberty/_main.cfg:25
+msgid ""
+"As the shadow of civil war lengthens across Wesnoth, a band of hardy "
+"marchlanders revolts against the tyranny of Queen Asheviere. To win their "
+"way to freedom, they must defeat not just the trained blades of Wesnothian "
+"troops but darker foes including orcs and undead.\n"
+"\n"
+msgstr ""
+"Sisällissodan varjon levittäytyessä Wesnothin ylle joukko sitkeitä "
+"rajaseutulaisia kapinoi kuningatar Ashevieren tyranniaa vastaan. "
+"Voittaakseen tiensä vapauteen heidän ei kuitenkaan riitä kukistaa pelkät "
+"Wesnothin koulutetut miekat, sillä liikkeellä on myös pimeämpiä vihollisia, "
+"kuten örkkejä ja epäkuolleita.\n"
+"\n"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:28
+msgid "Campaign Design"
+msgstr "Kampanjasuunnittelu"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:34
+msgid "Prose-doctoring and preparation for mainline"
+msgstr "Kertomuksen muokkaus ja sovitus päätarinaan"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:40
+msgid "Campaign Maintenance"
+msgstr "Kampanjan ylläpito"
+
+#. [about]
+#: data/campaigns/Liberty/_main.cfg:51
+msgid "Artwork and Graphics Design"
+msgstr "Taidetyö ja graafinen suunnittelu"
+
+#. [scenario]: id=the_raid
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:4
+msgid "The Raid"
+msgstr "Ryöstöretki"
+
+#. [label]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:18
+msgid "Dallben"
+msgstr "Dallben"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:23
+msgid ""
+"In the Era of Turmoil, during the reign of King Garard II, the border towns "
+"of Delwyn and Dallben in the province of Annuvin grew increasingly "
+"dissatisfied with the King's rule. Being preoccupied with the great wars, "
+"the King was unable to send adequate forces to protect the frontier."
+msgstr ""
+"Turmoilin aikakaudella, kun vallassa oli kuningas Garard II, Delwynin ja "
+"Dallbenin rajakylät Annuvinin maakunnassa olivat yhä tyytymättömämpiä "
+"kuninkaan hallitsemiseen. Ollessaan syventynyt suuriin sotiin kuninkaan ei "
+"ollut mahdollista lähettää riittäviä joukkoja suojelemaan rajaseutuja."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:27
+msgid ""
+"The hardy people of these marches learned self-reliance and survival skills "
+"against the raiding orc hordes and savage saurians. They established their "
+"own trading routes and pacts of mutual defense."
+msgstr ""
+"Näiden rämeiden sitkeät asukit oppivat elämään itsenäisinä ja he "
+"harjoittivat selviytymistaitojaan örkkien ryöstöretkiä ja sivistymättömiä "
+"sauriaaneja vastaan. He perustivat omia kauppareittejään ja sopivat "
+"yhteisestä puolustuksesta."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:31
+msgid ""
+"Although not permitted to train with proper military weapons, these woodsmen "
+"were at home in the forests and swamps of the Western Marches, and became "
+"very effective with their simple slings and clubs."
+msgstr ""
+"Vaikka näillä metsäläisillä ei ollut lupaa harjoitella oikeiden aseiden "
+"käyttöä, he olivat Läntisten rajamaiden metsissä ja soilla kuin kotonaan, ja "
+"heistä tuli hyvin tehokkaita yksinkertaisten linkojen ja nuijien kanssa."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:35
+msgid ""
+"After the betrayal of the King by Queen Asheviere, the new regent of Wesnoth "
+"sought to consolidate her ill-gotten power. She sent her armies across "
+"Wesnoth to intimidate the provincial rulers and secure her continued reign."
+msgstr ""
+"Kuningatar Ashevieren petettyä kuninkaan, Wesnothin uusi sijaishallitsija "
+"koetti lujittaa epäoikeudenmukaisesti saamaansa valtaa. Hän lähetti "
+"armeijansa ympäri Wesnothia pitämään maaherrat pelossa ja turvatakseen "
+"valtakautensa."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:39
+msgid ""
+"The people of Annuvin were unwilling to relinquish their hard-earned self-"
+"rule, especially not to this pretender..."
+msgstr ""
+"Annuvinin kansa ei ollut halukas luovuttamaan kovalla työllä saavuttamaansa "
+"itsehallintoa, varsinkaan tälle kruununtavoittelijalle..."
+
+#. [side]: type=Bandit_Peasant, id=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:59
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:30
+msgid "Baldras"
+msgstr "Baldras"
+
+#. [side]: type=Goblin Pillager, id=Fal Khag
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:75
+msgid "Fal Khag"
+msgstr "Fal Khag"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:102
+msgid "Defeat all of the Goblin marauders"
+msgstr "Kukista jokainen hiisiryöväri"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:106
+msgid "Goblins reach the village of Dallben"
+msgstr "Hiidet saavuttavat Dallbenin kylän"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:110
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:81
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:127
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:103
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:124
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:156
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:97
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:305
+msgid "Death of Baldras"
+msgstr "Baldrasin kuolema"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:114
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:85
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:131
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:107
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:128
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:160
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:101
+msgid "Death of Harper"
+msgstr "Harperin kuolema"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:118
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:89
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:139
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:115
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:132
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:164
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:105
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:309
+msgid "Turns run out"
+msgstr "Vuorot loppuvat"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:153
+msgid "Gatrakh"
+msgstr "Gatrakh"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:154
+msgid "Thurg"
+msgstr "Thurg"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:157
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:162
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:167
+msgid "Krung"
+msgstr "Krung"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:158
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:163
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:168
+msgid "Gorokh"
+msgstr "Gorokh"
+
+#. [message]: speaker=Fal Khag
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:192
+msgid ""
+"I long to burn human cities, but until our great chieftains provide us with "
+"sufficient forces we must look to these villagers to feed our wolves and "
+"slake the thirst of our blades."
+msgstr ""
+"Kaipaan polttamaan ihmisten kaupunkeja, mutta ennen kuin suuret päällikkömme "
+"kustantavat meille tarpeelliset joukot, meidän on käännyttävä näiden "
+"kyläläisten puoleen ruokkiaksemme sutemme ja tyydyttääksemme miekkojemme "
+"verenhimo."
+
+#. [message]: speaker=Fal Khag
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:196
+msgid ""
+"Ride, you worms, I want to finish our raid before the hunting party returns "
+"to the human village."
+msgstr ""
+"Ratsastakaa, matoseni. Ryöstö on suoritettava ennen kuin metsästysjoukkio "
+"palaa ihmiskylään."
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:205
+msgid "Jalak"
+msgstr "Jalak"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:206
+msgid "Delurin"
+msgstr "Delurin"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:207
+msgid "Red"
+msgstr "Red"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:208
+msgid "Ordo"
+msgstr "Ordo"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:209
+msgid "Novus"
+msgstr "Novus"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:210
+msgid "Teneor"
+msgstr "Teneor"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:211
+msgid "Kembe"
+msgstr "Kembe"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:212
+msgid "Treagh"
+msgstr "Treagh"
+
+#. [unit]: type=Footpad_Peasant, id=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:219
+msgid "Harper"
+msgstr "Harper"
+
+#. [message]: speaker=Red
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:233
+msgid ""
+"Look, goblin riders approach! You were right, they were going to raid "
+"Dallben while we were gone."
+msgstr ""
+"Katsokaa! Hiisiratsastajat lähestyvät! Olit oikeassa – he aikovat ryöstää "
+"Dallbenin kun olemme poissa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:237
+msgid ""
+"We must stop them before they reach the village. Damn the crown, they have "
+"long since forgotten about us out here."
+msgstr ""
+"Meidän on pysäytettävä heidät ennen kuin he saavuttavat kylän. Kirottu "
+"kruunu! He ovat jo kauan sitten unohtaneet meidät täällä."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:241
+msgid ""
+"That goblin leader is heading full-speed straight for Dallben. But we'll "
+"need to chase them all down if we're going to stop them."
+msgstr ""
+"Tuo hiisijohtaja suuntaa täydellä nopeudella suoraan kohti Dallbenia. Mutta "
+"meidän on napattava heidät kaikki, jos aiomme pysäyttää ne."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:245
+msgid ""
+"Do it. Try to hold them back until us old-timers can get there and finish "
+"them off."
+msgstr ""
+"Tee se. Yritä pidätellä heitä, kunnes me vanhukset ehdimme sinne "
+"viimeistelemään jutun."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:249
+msgid ""
+"And Harper... don't get yourself killed. I'm responsible for you now that "
+"your father is gone, and I won't dishonor his memory by breaking my promise "
+"to keep you safe."
+msgstr ""
+"Ja Harper... älä hankkiudu ruumiiksi. Olen vastuussa sinusta nyt isäsi "
+"ollessa poissa, enkä aio liata hänen muistoaan rikkomalla lupaukseni pitää "
+"sinut turvassa."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:253
+msgid "...I know... All right now, let's stop these goblins!"
+msgstr "...tiedän... Hyvä on. Pysäyttäkäämme nämä hiidet!"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:293
+msgid ""
+"We are barely able to survive these orc raids. We lost two men last week, "
+"more today... yet Weldyn does nothing!"
+msgstr ""
+"Tuskin selviydymme näistä örkkiryöstöistä. Menetimme viime viikolla kaksi "
+"miestä, tänään vielä enemmän... eikä Weldyn tee mitään!"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:300
+msgid ""
+"We are barely able to survive these orc raids. We lost two men last week, "
+"more could have died today... yet Weldyn does nothing!"
+msgstr ""
+"Tuskin selviydymme näistä örkkiryöstöistä. Menetimme viime viikolla kaksi "
+"miestä, tänään on kuollut ehkä vielä enemmän... eikä Weldyn tee mitään!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:306
+msgid ""
+"The King stopped sending patrols out here once the war started. Once that "
+"happened, the burden fell to us. We are citizens of Wesnoth, and as long as "
+"her banner flies we will resist the horde."
+msgstr ""
+"Kuningas lopetti partioiden lähettämisen tänne heti sodan alettua. Kun niin "
+"kävi, taakka kaatui meidän harteillemme. Olemme Wesnothin kansalaisia, ja "
+"niin kauan kuin hänen viirinsä liehuvat, vastustamme laumaa."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:310
+msgid "The banner will fly over a ghost town if help does not come soon."
+msgstr "Viiri liehuu pian aavekaupungin yllä, jos apu ei tule nopeasti."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:338
+msgid ""
+"They're getting closer to our village! What about the town guards, can they "
+"help us?"
+msgstr ""
+"He lähestyvät kyläämme! Entä kaupunginkaarti? Voisivatko he auttaa meitä?"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:342
+msgid ""
+"They'll come out when they see those riders, or us, approaching, but there "
+"aren't many of them... I wouldn't count on them being able to protect the "
+"village alone for long."
+msgstr ""
+"He astuvat mukaan kuvioihin, kun näkevät noiden ratsastajien, tai meidän, "
+"lähestyvän, mutta heitä ei ole paljon... En sanoisi heidän pystyvän "
+"suojelevan kylää yksinään kovinkaan pitkään."
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:357
+msgid "Remald"
+msgstr "Remald"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:358
+msgid "Wolmas"
+msgstr "Wolmas"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:363
+msgid "Jasken"
+msgstr "Jasken"
+
+#. [message]: speaker=Wolmas
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:370
+msgid "What's happening here? Why are you running like mad, $unit.name|?"
+msgstr "Mitä täällä tapahtuu? Miksi juokset kuin hullu, $unit.name|?"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:374
+msgid "Goblin riders on the hunt. We must not let any of them to the village!"
+msgstr ""
+"Hiisiratsastajat jahtaavat. Meidän ei tule päästää heistä yhtäkään kylään!"
+
+#. [message]: speaker=Wolmas
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:381
+msgid "Look! Goblin riders are on the hunt - and heading right for Dallben!"
+msgstr ""
+"Katso! Hiisiratsastajat ovat ajojahdissa – ja suuntaavat suoraan Dallbeniin!"
+
+#. [message]: speaker=Remald
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:385
+msgid "Halt!"
+msgstr "Seis!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:405
+msgid ""
+"The goblins reached the village! There will surely be nothing left when they "
+"are done pillaging it."
+msgstr ""
+"Hiidet ovat saavuttaneet kylän! Siellä ei varmasti ole pian enää mitään "
+"jäljellä."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:418
+msgid ""
+"None remarked on the passing of the tiny, isolated frontier town. It was but "
+"a harbinger of the evil to come under the tyranny of Asheviere."
+msgstr ""
+"Kukaan ei pannut huomiolle pikkuisen, syrjässä olevan eturintamalla olevan "
+"kylän autioitumista. Se oli merkki pahan airueesta, joka oli tulevan "
+"palvelemaan Ashevieren tyranniassa. "
+
+#. [scenario]: id=civil_disobedience
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:4
+msgid "Civil Disobedience"
+msgstr "Kansalaistottelemattomuus"
+
+#. [side]: type=Bandit, id=Baldras
+#. [side]: type=Shadow Lord, id=Helicrom
+#. [side]: type=Highwayman, id=Baldras
+#. [side]
+#. [side]: type=Rogue, id=Hans
+#. [side]: type=Highwayman_Peasant, id=Relnan
+#. [side]: type=General, id=Lord Maddock
+#. [side]: type=Bandit_Peasant, id=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:37
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:68
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:32
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:58
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:43
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:63
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:40
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:96
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:55
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:77
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:50
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:58
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:221
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:231
+msgid "Rebels"
+msgstr "Kapinalliset"
+
+#. [side]: type=Cavalier, id=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:46
+msgid "Tarwen"
+msgstr "Tarwen"
+
+#. [side]: type=General, id=Dommel
+#. [side]
+#. [side]: type=Master Bowman, id=Quentin
+#. [side]: type=General, id=Kestrel
+#. [side]: type=Cavalier, id=Tarwen
+#. [side]: type=Royal Guard, id=Archarel
+#. [side]: type=Iron Mauler, id=Linneus
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:51
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:83
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:55
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:70
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:67
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:81
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:107
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:135
+msgid "Asheviere"
+msgstr "Asheviere"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:77
+msgid "Kill the Wesnoth army captain, Tarwen"
+msgstr "Kukista Wesnothin armeijan kapteeni, Tarwen"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:126
+msgid "Look, riders approach."
+msgstr "Tuolta tulee ratsastajia."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:130
+msgid "Stand fast, nephew."
+msgstr "Pidä pintasi, veljenpoika."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:143
+msgid ""
+"By order of the Queen, the magistrate of this town is ordered to travel with "
+"us to Elensefar for vetting."
+msgstr ""
+"Kuningattaren määräyksestä tämän kaupungin rauhantuomarin on matkustettava "
+"kanssamme Elensefariin tarkistusta varten."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:147
+msgid "Garard is the King of Wesnoth. We are ruled by no queen."
+msgstr "Garard on Wesnothin kuningas. Kuningatar ei meitä määrää."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:151
+msgid ""
+"Insolent peasants, you will kneel before your betters! Asheviere is the "
+"queen of Wesnoth. The King fell three weeks ago at Abez. I shall not bandy "
+"words with you. Your magistrate will be coming with us, and we do not care "
+"if it is dead or alive."
+msgstr ""
+"Uppiniskaiset talonpojat, vielä te kumarratte parempienne edessä! Asheviere "
+"on Wesnothin kuningatar. Kuningas kaatui kolme viikkoa sitten Abezissa. En "
+"aio levittellä teistä juoruja. Rauhantuomarinne tulee mukaamme, olkoon se "
+"sitten elävänä tai kuolleena."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:185
+msgid "Guard the gate."
+msgstr "Vahtikaa porttia."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:196
+msgid "Harper, get out of here. This is no battle for you."
+msgstr "Harper, häivy täältä. Tämä ei ole sinun taistelusi."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:201
+msgid ""
+"I am the magistrate of Dallben, and it is YOU who will be leaving Dallben, "
+"be it dead or alive."
+msgstr ""
+"Minä olen Dallbenin rauhantuomari, ja jos joku Dallbenista lähtee, niin "
+"SINÄ, olkoon se sitten elävänä tai kuolleena."
+
+#. [message]: speaker=Tarwen
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:216
+msgid "Get back, you cur!"
+msgstr "Mene takaisin, lurjus!"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:230
+msgid "Get out of my village!"
+msgstr "Hankkiudu ulos kylästäni!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:243
+msgid ""
+"Our lives were hard enough when we were beneath the attention of the Crown. "
+"But now I fear things will be worse."
+msgstr ""
+"Elämämme oli tarpeeksi vaikeaa jo kun emme olleet kruunun huomion alaisia, "
+"mutta pelkäänpä, että nyt asiat vain pahenevat."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:248
+msgid "We must tell the people of Delwyn about this."
+msgstr "Meidän on kerrottava tästä Delwynin asukkaille."
+
+#. [message]: role=Advisor
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:261
+msgid ""
+"That is true. We have always flown to their aid, and they to ours. This is "
+"something we should face together."
+msgstr ""
+"Se on totta. Olemme aina tarjonneet heille apuamme, ja he meille. Tämä on "
+"asia, joka meidän tulisi kohdata yhdessä."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:266
+msgid ""
+"Very well. We will go to Delwyn and share counsel with them. I never thought "
+"Wesnoth would fall into darkness. Now, not only do the orcs threaten our "
+"lands, but some sinister thing is happening with the ascent of the Queen to "
+"the throne."
+msgstr ""
+"Hyvä on. Menemme Delwyniin ja jaamme heille neuvoja. En ikinä aavistanut "
+"Wesnothin vajoavan pimeyteen. Nyt eivät ainoastaan örkit uhkaa maitamme, "
+"vaan lisäksi tapahtuu pahaenteisiä asioita kuningattaren noustua "
+"valtaistuimelle."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:271
+msgid ""
+"Today we may no longer be citizens of Wesnoth. I wish it could be otherwise, "
+"but we are now outlaws."
+msgstr ""
+"Täten emme enää ole Wesnothin kansalaisia. Toivoisin, että asiat voisivat "
+"olla paremmin, mutta nyt me olemme lainsuojattomia."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:339
+msgid ""
+"Oh, no! We have run out of time, they have arrived with reinforcements..."
+msgstr "Voi ei, aikamme on loppunut! He ovat tuoneet lisäjoukkoja!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:352
+msgid ""
+"They would be remembered only traitors rightly put down by the Queen's "
+"lances. And in the dark years to come, woe betide any who questioned it."
+msgstr ""
+"Heidät muistettaisiin vain kapinallisina, jotka kuningattaren peitset "
+"oikeudella voitti. Ja pimeiden aikojen tullessa kenen tahansa, joka "
+"kyseenalaisti tämän, elämä vaikeutui huomattavasti. "
+
+#. [scenario]: id=a_strategy_of_hope
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:4
+msgid "A Strategy of Hope"
+msgstr "Toivon strategia"
+
+#. [side]: type=Highwayman_Peasant, id=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:40
+msgid "Relnan"
+msgstr "Relnan"
+
+#. [side]: type=Orcish Warrior, id=Urk Delek
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:66
+msgid "Urk Delek"
+msgstr "Urk Delek"
+
+#. [side]: type=Necromancer, id=Mal-Jarrof
+#. [side]: type=Necromancer, id=Mal-Jerod
+#. [side]: type=Lich, id=Sel-Mana
+#. [side]: type=Orcish Warrior, id=Urk Delek
+#. [side]: type=Saurian Oracle, id=Thhsthss
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:88
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:109
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:105
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:121
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:138
+msgid "Evil"
+msgstr "Pahuus"
+
+#. [side]: type=Saurian Oracle, id=Thhsthss
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:94
+msgid "Thhsthss"
+msgstr "Thhsthss"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:123
+msgid "Defeat both enemy leaders"
+msgstr "Kukista molemmat vihollisjohtajat"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:135
+msgid "Death of Relnan"
+msgstr "Relnanin kuolema"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:170
+msgid ""
+"Relnan, thank you for welcoming our messenger and agreeing to meet with us. "
+"In your many years as Delwyn's magistrate I have never known your judgment "
+"to err."
+msgstr ""
+"Relnan, kiitos kun vastaanotit viestinviejämme ja sallit meidän tavata "
+"sinut. Monta vuotta olet palvellut Delwynin rauhantuomarina, enkä koskaan "
+"ole nähnyt sinun tekevän väärää päätöstä."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:174
+msgid ""
+"It has been a long time, old friend. Your news worries us. Yet, there is no "
+"problem we have not worked out here at our secret meeting place."
+msgstr ""
+"Se on ollut pitkä aika, vanha ystävä. Uutisesi huolestuttavat meitä. Ei "
+"kuitenkaan ole ollut ongelmaa, jota emme olisi selvittäneet täällä "
+"salaisessa tapaamispaikassamme."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:178
+msgid ""
+"You do not understand. We attacked a Wesnoth army patrol. Not only that, the "
+"leader was no man I had ever seen in Annuvin province before. Never has one "
+"been sent out here as a patrol captain who was so ruthless and cruel."
+msgstr ""
+"Et ymmärrä. Hyökkäsimme Wesnothin armeijan partion kimppuun. Eikä siinä "
+"vielä kaikki. Johtaja oli mies, jonka kaltaisia en koskaan aikaisemmin ole "
+"nähnyt Annuvinin maakunnassa. Koskaan ei ole niin häikäilemätöntä ja julmaa "
+"partionkapteenia lähetetty tänne."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:182
+msgid ""
+"Had they taken my uncle, they would have surely shown up in Delwyn today "
+"with the same ultimatum. As it is, several riders escaped."
+msgstr ""
+"Jos he olisivat vieneet setäni, he olisivat varmasti näyttäytyneet tänään "
+"Delwynissä saman uhkavaatimuksen kanssa. Nyt useita ratsastajia pakeni."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:186
+msgid ""
+"Well, it won't be long until they report back to the local garrison with the "
+"details of your encounter."
+msgstr ""
+"Tuota noin, ei kestä kauankaan, kunnes he raportoivat paikalliseen "
+"varuskuntaan kahakkanne yksityiskohdista."
+
+#. [message]: speaker=Advisor
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:190
+msgid "Then they'll be back in force."
+msgstr "Sitten he turvautuvat taas väkivaltaan."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:194
+msgid ""
+"An offense to decency, this is! Since when has Wesnoth been ruled by fear "
+"and treachery? We should consult with Lord Maddock of Elensefar. We have "
+"known him for years to be noble in deed as well as in name."
+msgstr ""
+"Säädyllisyyden loukkaus, näin on! Mistä lähtien on Wesnothia hallinnut pelko "
+"ja kavaluus? Meidän tulisi neuvotella Elensefardin lordi Maddockin kanssa. "
+"Olemme jo vuosia tienneet hänen olevan jalomielinen niin teoissa kuin "
+"maineessakin."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:198
+msgid ""
+"I agree. But, Baldras, what will you tell him? We know something has been "
+"going badly wrong in Wesnoth of late, that more than ordinary corruption and "
+"incompetence is afoot. But when the effects fall on mere peasants, the wrong "
+"of it may not seem so obvious from a noble's chair."
+msgstr ""
+"OK. Mutta Baldras, mitä kerrot hänelle? Tiedämme, että viime aikoina jokin "
+"on Wesnothissa on mennyt pahasti väärin, että enemmänkin kuin vain "
+"tavanomaista turmeltumista ja kyvyttömyyttä on käsillä. Kun vaikutukset "
+"kerääntyvät pelkkien talonpoikien harteille, sen vääryys ei välttämättä "
+"näytä niin ilmeiseltä aatelisen tuolilta katsottuna."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:202
+msgid ""
+"We need evidence. Hard evidence...but wait, are those orcish war drums I "
+"hear?"
+msgstr ""
+"Tarvitsemme todisteita. Painavia todisteita... mutta hetkinen, kuulenko minä "
+"örkkien sotarumpuja?"
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:206
+msgid ""
+"I think they are, old friend. And that rank smell on the wind tells another "
+"tale; saurians approach. To arms!"
+msgstr ""
+"Pelkäänpä niin, vanha ystävä. Ja tuo tuulen kuljettama kuvottava haju kertoo "
+"toistakin tarinaa: sauriaanit lähestyvät. Aseisiin!"
+
+#. [message]: speaker=Urk Delek
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:214
+msgid ""
+"By the sound of the wolves, the scent trail of Fal Khag's killers ends here."
+msgstr ""
+"Kuulkaa susien ääniä – Fal Khagin tappajien hajujäljet päättyvät tänne."
+
+#. [message]: speaker=Thhsthss
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:220
+msgid "Fal Khag is nothing to usss, orc. You promissed uss gold. Bright gold."
+msgstr ""
+"Fal Khag ei merkitssse meille mitään, örkki. Lupasssitte kultaa. Kirkasssta "
+"kultaa."
+
+#. [message]: speaker=Urk Delek
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:224
+msgid "You will get gold. And our wolves will get meat."
+msgstr "Saatte kultaa. Ja meidän sutemme saavat lihaa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:236
+msgid ""
+"Something is very wrong here. Those orcs were carrying weapons with Army "
+"forge-markings."
+msgstr ""
+"Jokin täällä on nyt vialla. Nuo örkit kantoivat aseita, jotka oli merkitty "
+"Wesnothin armeijan tunnuksin."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:240
+msgid "Aye. And the gold in their pouches looked new from the mint."
+msgstr "Jep. Ja kulta heidän kukkarossaan näytti painotuoreelta."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:244
+msgid ""
+"Can the darkest rumors be true, then? Does the Kingdom...does Queen "
+"Asheviere...send orcs against her own people?"
+msgstr ""
+"Voivatko synkimmät huhut siis olla totta? Lähettääkö kuningaskunta... "
+"lähettääkö kuningatar Asheviere... örkkejä omaa kansaansa vastaan?"
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:248
+msgid ""
+"I think your mission to Lord Maddock just became more urgent than we knew, "
+"Baldras. I must remain here to see to the defense of Delwyn and Dallben, but "
+"you should fly to Elensefar with all speed."
+msgstr ""
+"Luulen, että lordi Maddock -tehtäväsi tuli juuri kiireellisemmäksi kuin "
+"tiesimmekään, Baldras. Minun on pysyttävä täällä ja katsottava Delwynin ja "
+"Dallbenin puolustusten perään, mutta sinun täytyy kiitää Elensefariin "
+"täydellä nopeudella."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:265
+msgid ""
+"We have tarried here for far too long... there is no way we can reach "
+"Elensefar and return with help before the Wesnoth army destroys our homes. "
+"Retreat!!"
+msgstr ""
+"Olemme maleksineet täällä aivan liian kauan... Ei ole keinoa, jolla "
+"saavuttaisimme Elensefarin ja palaisimme avun kanssa ennen kuin Wesnothin "
+"armeija tuhoaa kotimme. Paetkaa!!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:278
+msgid ""
+"Baldras and Relnan returned to their villages to find them destroyed, with "
+"those who fought left dead and the few survivors born away to unguessable "
+"fates. It was a bitter doom, and as Wesnoth descended into darkness they "
+"would live to see worse."
+msgstr ""
+"Baldras ja Relnan palasivat heidän kyliinsä vain huomatakseen ne tuhotuiksi, "
+"vastarintaan nousseiden jätettyinä kuolemaan ja muutaman pelastuneen "
+"arvaamattomista kohtaluista syntyneinä. Se oli karvas kohtalo, ja Wesnoth "
+"laskeutui pimeyteen, jossa he eläisivät nähdäkseen kaameampaa. "
+
+#. [scenario]: id=unlawful_orders
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:4
+msgid "Unlawful Orders"
+msgstr "Laittomat käskyt"
+
+#. [label]
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:18
+msgid "Elensefar"
+msgstr "Elensefar"
+
+#. [label]
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:23
+msgid "Port of Elensefar"
+msgstr "Elensefarin satamat"
+
+#. [side]: type=General, id=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:50
+msgid "Lord Maddock"
+msgstr "Lordi Maddock"
+
+#. [side]: type=General, id=Kestrel
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:71
+msgid "Kestrel"
+msgstr "Kestrel"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:99
+msgid "Defeat the enemy general"
+msgstr "Kukista viholliskenraali"
+
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:111
+msgid "Death of Maddock"
+msgstr "Maddockin kuolema"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:133
+msgid "Rothel"
+msgstr "Rothel"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:183
+msgid ""
+"Baldras, your trip here was not wise. The Queen's patrols have been visiting "
+"the local villages and bringing the elders here. Those that swear allegiance "
+"to the Queen are allowed to return home. Those that do not..."
+msgstr ""
+"Baldras, matkasi tänne ei ollut viisas. Kuningattaren partiot ovat käyneet "
+"paikallisissa kylissä hakemassa kylänvanhimmat tänne. Ne, jotka vannovat "
+"uskollisuutta kuningattarelle, saavat lähteä kotiin. Ne, jotka eivät..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:187
+msgid ""
+"...are dispatched on the spot. I know the price of dissent. But what of you?"
+msgstr ""
+"...tapetaan siihen paikkaan. Tiedän erimielisyyden hinnan. Mutta entä sinä?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:191
+msgid ""
+"Well, they do not come within the walls of my city. They are actually camped "
+"nearby, and the main garrison is further south at Halstead. I know my time "
+"will soon come to swear allegiance, but they do not press me. They are "
+"afraid I will refuse."
+msgstr ""
+"No, he eivät tule kaupunkini muurien sisäpuolelle. Oikeastaan heillä on "
+"leiri lähettyvillä ja päätukikohta on kauempana etelässä, Halsteadissa. "
+"Tiedän, että pian koittaa minunkin aikani vannoa uskollisuutta, mutta he "
+"eivät painosta minua. He pelkäävät, että kieltäydyn."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:195
+msgid "Will you?"
+msgstr "Aiotko?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:199
+msgid ""
+"Yes. The Queen ascended to the throne through the vilest of treachery. "
+"However, while most of my forces were sent with the King to fight the orcs, "
+"we have a strong enough contingent here to make the Queen's forces think "
+"twice about attacking Elensefar outright."
+msgstr ""
+"Kyllä. Kuningatar nousi valtaistuimelle alhaisimman petoksen avulla. "
+"Kuitenkin vaikka suurin osa joukoistani oli taistelemassa kuninkaan kanssa "
+"örkkejä vastaan, meillä on täällä tarpeeksi paljon miehiä, jotta "
+"kuningattaren joukot ajattelisivat kahdesti ennen kuin hyökkäävät "
+"Elensefariin."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:203
+msgid ""
+"We have an uneasy peace until they are done with the smaller villages and "
+"finally come around to obtaining my oath. The treaty between Elensefar and "
+"Wesnoth is ancient, but I am not so naive as to place my full trust in it. "
+"Not in these wicked times."
+msgstr ""
+"Vallitsee epämukava rauha, kunnes he ovat valmiit pienempien kylien kanssa "
+"ja lopulta tulevat pyytämään minun valaani. Elensefarin ja Wesnothin välinen "
+"sopimus on ikivanha, mutta en ole niin naiivi, että luottaisin siihen "
+"täysin. En näinä pahoina aikoina."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:207
+msgid ""
+"What can we do then? We have brought with us many from Annuvin province who "
+"are willing to fight, but our families are still at home. They will not last "
+"long if the Queen's patrols return."
+msgstr ""
+"Mitä me sitten voimme tehdä? Toimme mukanamme Annuvinin maakunnasta monta, "
+"jotka ovat halukkaita taistelemaan, mutta perheemme ovat yhä kotona. He "
+"eivät kestä kauan, jos kuningattaren partiot palaavat."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:211
+msgid ""
+"I am unwilling to start a civil war. I believe the Queen will remain "
+"preoccupied with order throughout the kingdom and, more importantly, with "
+"quelling the Northerner threat. We are a matter she will choose to deal with "
+"later rather than sooner, if she can."
+msgstr ""
+"En ole halukas aloittamaan sisällissotaa. Uskon, että kuningattarella on "
+"täysi työ pitää järjestystä kuningaskunnassa ja, mikä tärkeämpää, pohjoisen "
+"uhan kukistamisessa. Me olemme asia, jonka hän mieluummin käsittelee "
+"myöhemmin kuin aiemmin, jos vain voi."
+
+#. [message]: speaker=Kestrel
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:215
+msgid ""
+"A foolish miscalculation, Lord Maddock. These men with which you consort are "
+"outlaws and fugitives. They are a well-organized gang of criminals and "
+"murderers. We will kill them and then expect your oath of allegiance to "
+"Queen Asheviere."
+msgstr ""
+"Hassu laskuvirhe, lordi Maddock. Nämä miehet, joiden ystävä olet, ovat "
+"lainsuojattomia ja pakolaisia. He ovat hyvinjärjestäytynyt joukkio "
+"rikollisia ja murhaajia. Me tapamme heidät ja sen jälkeen odotamme sinulta "
+"uskollisuudenvalaa kuningatar Ashevierelle."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:219
+msgid "Men, to arms! The defense of Elensefar has begun!"
+msgstr "Miehet, aseisiin! Elensefarin puolustus on alkanut!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:238
+msgid ""
+"As the sun set, a horrific change began to take place to the human "
+"adversaries of Baldras and his allies..."
+msgstr ""
+"Auringon laskiessa Baldrasin ja hänen liittolaistensa vastustajissa alkoi "
+"tapahtua kauhistuttava muutos..."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:550
+msgid ""
+"I cannot believe what my eyes are seeing! The flesh runs from their bones... "
+"these are not human warriors we fight. They are evil spirits masquerading as "
+"human!"
+msgstr ""
+"En voi uskoa mitä silmäni näkevät! Liha vetäytyy heidän luiltaan... nämä, "
+"joita vastaan taistelemme, eivät ole mitään ihmissotureita. Ne ovat pahoja "
+"henkiä, jotka ovat pukeutuneet ihmisiksi!"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:561
+msgid ""
+"Their human aspect is returning! This is an evil manner of sorcery we face, "
+"but one that we may yet overcome. CHARGE!"
+msgstr ""
+"Heidän ihmismuotonsa palaa! Tämä, mitä me nyt kohtaamme, on taikuuden pahaa "
+"käyttöä, mutta ei mitään sellaista, mistä emme voisi selvitä. HYÖKKÄYKSEEN!"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:575
+msgid "Who are you? What are you?"
+msgstr "Kuka sinä olet? Mikä sinä olet?"
+
+#. [message]: speaker=Kestrel
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:579
+msgid ""
+"We are accursed. We were once under the command of Prince Eldred, the King's "
+"son and betrayer. The price for our treason is this hellish existence. We "
+"know not who or what inflicted this curse upon us, but our mortal deaths may "
+"be only the beginning of the penance we are doomed to pay."
+msgstr ""
+"Meidät on kirottu. Kerran olimme kuninkaan petturipojan prinssi Eldredin "
+"komennon alaisia. Maanpetoksemme hinta on tämä helvetillinen olemus. Emme "
+"tiedä kuka tai mikä langetti tämän kirouksen yllemme, mutta kuolevaiset "
+"kuolemamme saattavat olla ainoastaan alkua siitä katumuksesta, joka meidät "
+"on tuomittu maksamaan."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:590
+msgid "Lord Maddock, now that we are victorious, will you help us?"
+msgstr "Lordi Maddock, nyt kun olemme voittaneet, voisitteko auttaa meitä?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:594
+msgid ""
+"I will not. Unless you want me to round up the city's thieves to fight for "
+"you, I do not have the troops to spare. However, I am not the only one who "
+"commands men in this corner of Wesnoth."
+msgstr ""
+"En. Ellet halua minun keräävän kaupungin varkaat taistelemaan puolestasi, ei "
+"minulla ole joukkoja jaettaviksi. En kuitenkaan ole ainoa, joka komentaa "
+"miehiä Wesnothin tässä kolkassa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:598
+msgid "I don't understand. There are no other noble lords in this area."
+msgstr "En ymmärrä. Tällä alueella ei ole muita aatelislordeja."
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:602
+msgid ""
+"Southeast of here there is a town, and there you may find assistance of the "
+"type I cannot give."
+msgstr ""
+"Kaakkoon täältä on kaupunki, josta voit löytää sentyyppistä apua, jota minä "
+"en voi antaa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:606
+msgid ""
+"Wish us well. If we are to resist the Wesnoth army a second time, we're "
+"going to need more than clubs and slings against steel."
+msgstr ""
+"Pidä meille peukkuja. Jos meidän on puolustauduttava Wesnothin armeijaa "
+"vastaan toisen kerran, tulemme tarvitsemaan enemmän kuin nuijia ja linkoja "
+"terästä vastaan."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:625
+msgid ""
+"Look, more riders come from the southeast. We cannot survive another "
+"assault. We are finished!"
+msgstr ""
+"Katso, lisää ratsastajia tulee kaakosta. Emme selviä uudesta hyökkäyksestä. "
+"Meidät on kukistettu!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:638
+msgid ""
+"Indeed, Asheviere's armies had mustered and struck before the nascent "
+"rebellion could even be planned. Her power and ruthlessness - and their toll "
+"of death - would only grow greater with time."
+msgstr ""
+"Kieltämättä, Ashevieren armeijat olivat kerääntyneet ja iskeneet ennen kuin "
+"orastavaa kapinaa olisi edes voitu suunnitella. Hänen voimansa ja "
+"armottomuutensa, ja niiden vero kuolemina, vain kasvaisi ajan mukana. "
+
+#. [scenario]: id=hide_and_seek
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:6
+msgid "Hide and Seek"
+msgstr "Kuurupiilo"
+
+#. [time]: id=midnight
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:12
+msgid "Midnight"
+msgstr "Keskiyö"
+
+#. [side]: type=Master Bowman, id=Quentin
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:50
+msgid "Quentin"
+msgstr "Quentin"
+
+#. [side]: type=Rogue, id=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:86
+msgid "Hans"
+msgstr "Hans"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:120
+msgid "Take Baldras to meet the leader of the insurgency"
+msgstr "Vie Baldras tapaamaan kansannousun johtajaa"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:442
+msgid ""
+"Relentlessly pursued by riders patrolling the road to Elensefar, Baldras and "
+"his men traveled unseen along the swampy banks of the Great River to the "
+"city of Carcyn."
+msgstr ""
+"Baldras ja hänen miehensä matkustivat huomaamattomasti Suuren joen soisia "
+"rantatörmiä pitkin Carcynin kaupunkiin. Elensefariin johtavaa tietä vahtivat "
+"ratsastajat jahtasivat heitä hellittämättömästi."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:447
+msgid ""
+"They hid until nightfall, then crept out to find the help Lord Maddock "
+"hinted was here."
+msgstr ""
+"He piileskelivät kunnes hämärä laskeutui. Sitten he ryömivät "
+"piilopaikoistaan etsimään lordi Maddockin vihjaamaa apua."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:495
+msgid ""
+"I'm not sure where we're supposed to go now. If we go into town we can start "
+"asking around for information."
+msgstr ""
+"En ole varma minne meidän pitäisi mennä nyt. Jos menemme kaupunkiin, "
+"voisimme kysellä sieltä neuvoa."
+
+#. [unit]: type=Thief, id=Link
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:511
+msgid "Link"
+msgstr "Link"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:516
+msgid "Who are you?"
+msgstr "Kuka sinä olet?"
+
+#. [message]: speaker=Link
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:520
+msgid ""
+"I have come to find you. You must make it through the city without being "
+"seen. The soldiers are normally out hunting for my kind, but a company of "
+"heavy infantry arrived three days ago and took over the patrols."
+msgstr ""
+"Olen tullut löytämään sinut. Sinun on päästävä kaupungin läpi huomaamatta. "
+"Sotilaat metsästävät yleensä minunlaisiani, mutta raskaan jalkaväen "
+"komppania saapui kolme päivää sitten ja asettui vartioon."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:524
+msgid "They're looking for us."
+msgstr "He etsivät meitä."
+
+#. [message]: speaker=Link
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:528
+msgid ""
+"Well, good thing I found you first. Now hurry, you must make it past the "
+"city into the Grey Woods. There is a small path in the southeast that leads "
+"into the forest; look for the signpost. My brother Hans is waiting for you "
+"there and will take you to our master. Try to avoid the soldiers if you can."
+msgstr ""
+"No, hyvä kun minä löysin sinut ensin. Mutta kiirehtikää! Teidän on päästävä "
+"kaupungin lävitse Harmaametsään. Kaakossa on pieni polku, joka johtaa "
+"metsään – pitäkää silmällä tienviittoja. Veljeni Hans on odottamassa teitä "
+"siellä. Hän vie teidät herramme luokse. Yrittäkää vältellä sotilaita, jos "
+"pystytte."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:566
+msgid ""
+"Looks like these guards hold stationary posts, so if we're careful enough we "
+"should be able to slip our way around them unnoticed."
+msgstr ""
+"Vaikuttaa siltä, että näillä vartijoilla on kiinteät toimipisteet, joten jos "
+"olemme tarpeeksi varovaisia, meidän pitäisi pystyä livahtamaan heidän ympäri "
+"huomaamatta."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:570
+msgid ""
+"Harper, you younger and faster folks need to be our eyes now. Scout ahead "
+"and try to find a way for us to get past the guards, but make sure to not "
+"stay where they can see you or we're all in big trouble..."
+msgstr ""
+"Harper, nuorempana ja nopeampana sinä olet nyt meidän silmämme. Mene edeltä "
+"ja yritä löytää meille reitti vartijoiden ohi, mutta varmista, ettet pysähdy "
+"mihinkään, missä he voivat nähdä sinut, tai me kaikki olemme "
+"hankaluuksissa..."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:658
+msgid "They've seen us, RUN!"
+msgstr "He ovat nähneet meidät, JUOSKAA!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:675
+msgid "Fall back, quickly! Maybe we can yet lose them!"
+msgstr "Peräännytään, äkkiä! Ehkä voimme vielä eksyttää heidät!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:691
+msgid ""
+"Gentlemen, please come this way and follow the path into the forest. Our "
+"leader is anxious to meet you."
+msgstr ""
+"Herrasmiehet, olkaa hyvät ja tulkaa tätä tietä. Seuratkaa polkua metsään. "
+"Johtajamme on halukas tapaamaan sinut."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:695
+msgid ""
+"As soon as we escape the Wesnoth death squad, we will be happy to oblige."
+msgstr ""
+"Niin pian kuin pakenemme Wesnothin kuolemanpartiota, tottelemme ilomielin."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:699
+msgid ""
+"I haven't run this much in years. If you were to ask me to infiltrate a "
+"heavily guarded city relying on nothing but the cover of darkness and my "
+"wits, I would say you were crazy."
+msgstr ""
+"En ole juossut näin paljon vuosiin. Jos pyytäisit minua tunkeutumaan "
+"raskaasti vartioituun kaupunkiin luottaen ainoastaan pimeyden suojaan, "
+"sanoisin, että olet hullu."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:703
+msgid "As it turns out, I'm the crazy one. Let's finish this folly."
+msgstr "Kuten näkyy, minä olen se hullu. Eiköhän lopeteta tämä hulluus."
+
+#. [message]: speaker=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:728
+msgid ""
+"You can come if you wish, but the leader is only interested in speaking to "
+"Baldras."
+msgstr "Voit tulla, jos haluat, mutta johtaja haluaa puhua vain Baldrasille."
+
+#. [message]: speaker=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:748
+msgid "Fly, and we may yet evade them in the Grey Woods."
+msgstr "Lennä, niin saatamme vielä väistää ne Harmaametsässä."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:753
+msgid "Lead the way..."
+msgstr "Näytä tie..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:777
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:438
+msgid ""
+"We have spent too much time here. Surely the Queen's forces have returned to "
+"Dallben. Our mission is unfinished, but we must return to fight a suicide "
+"battle."
+msgstr ""
+"Olemme käyttäneet täällä liikaa aikaamme. Kuningattaren joukot ovat varmasti "
+"palanneet Dallbeniin. Tehtävämme ei ole ohi, mutta meidän on palattava "
+"taistelemaan vailla toivoa."
+
+#. [scenario]: id=the_gray_woods
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:4
+msgid "The Grey Woods"
+msgstr "Harmaametsä"
+
+#. [side]: type=Shadow Lord, id=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:61
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:205
+msgid "Helicrom"
+msgstr "Helicrom"
+
+#. [side]: type=Necromancer, id=Mal-Jarrof
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:96
+msgid "Mal-Jarrof"
+msgstr "Mal-Jarrof"
+
+#. [side]: type=Necromancer, id=Mal-Jerod
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:112
+msgid "Mal-Jerod"
+msgstr "Mal-Jerod"
+
+#. [side]: type=Lich, id=Sel-Mana
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:128
+msgid "Sel-Mana"
+msgstr "Sel-Mana"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:152
+msgid "Defeat the lich and its minions"
+msgstr "Kukista kuolonherra kätyreineen"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:220
+msgid "The leader, I presume."
+msgstr "Johtaja, oletan."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:224
+msgid ""
+"I am Helicrom, and you should not be so glib. I control dangerous men. My "
+"henchmen can slip unseen through any city, rob a man while he sleeps, or "
+"attack a caravan head-on. It's not noble work, but our pursuits require "
+"plenty of gold."
+msgstr ""
+"Minä olen Helicrom, ja sinun ei pitäisi olla noin harkitsematon. Johdan "
+"vaarallisia miehiä. Kätyrini voivat kulkea kaupungin läpi ilman että heitä "
+"nähdään, ryöstää miehen kun tämä nukkuu tai hyökätä karavaanin kimppuun noin "
+"vain. Se ei ole jaloa hommaa, mutta puuhailumme vaativat paljon kultaa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:228
+msgid "Your pursuits?"
+msgstr "Puuhailunne?"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:232
+msgid ""
+"The former King's magic ministry kept a tight control on the training and "
+"employment of mages in Wesnoth. Those of us who dared to... depart from the "
+"curriculum, you might say, were dealt with harshly. We are outcasts because "
+"we seek to master shadow magic. Our secrecy and security are not cheap."
+msgstr ""
+"Entisen kuninkaan taikaministeriö piti tiukkaa kuria Wesnothin maagien "
+"koulutuksesta ja työllisyydestä. Niitä meistä, jotka uskalsivat... erota "
+"opetussuunitelmasta, niin voi kai sanoa, kohdeltiin tylysti. Olemme "
+"hylkiöitä, koska pyrimme hallitsemaan varjotaikuutta. Salamyhkäisyytemme ja "
+"turvallisuutemme eivät ole halpoja."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:236
+msgid "I have heard of you. Necromancers. Barely-human scum, I say."
+msgstr ""
+"Olen kuullut teistä. Pimeyden herroja. Roskaväkeä, tuskin ihmisiä, sanoisin."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:240
+msgid ""
+"Wrong. Necromancers become slaves to their lich masters and eventually lose "
+"their humanity. We have proven that practicing the dark arts need not lead "
+"down that path to damnation. We remain human, and seek the mystical secret "
+"of balance between the ways of light and darkness. We dance between both "
+"ways, adhering to neither."
+msgstr ""
+"Väärin. Pimeyden herroista tuli heidän kuolonherraherrojensa orjia ja "
+"lopulta he kadottivat ihmisyytensä. Olemme näyttäneet toteen, että pimeää "
+"taikuutta harjoittamalla ei ole vajottava tuollaiseen helvettiin. Säilymme "
+"ihmisinä ja etsimme mystistä valon ja pimeyden tasapainon välistä "
+"salaisuutta. Tanssimme kumpaakin tietä noudattamatta kumpaakaan."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:244
+msgid "I...see, I think. Why do you want to help us?"
+msgstr "Minä... ymmärrän, kai. Miksi haluatte auttaa meitä?"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:248
+msgid ""
+"We don't. You have sought us out. But, I do know of your situation and am "
+"willing to help. Any weakening of the Throne of Wesnoth, whether it be "
+"occupied by King or Queen, aids us."
+msgstr ""
+"Emme haluakaan. Olette kaivaneet meidät esiin. Mutta tiedän tilanteenne ja "
+"autan mielelläni. Kaikki Wesnothin valtaistuimelle tuotettu heikkous auttaa "
+"meitä, oli vallassa sitten kuningas tai kuningatar."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:259
+msgid ""
+"Carcyn is always foggy as of late because these woods have recently become "
+"home to a lich and two of its underling necromancers. Our experiments may "
+"have actually aroused it from sleep... we're not exactly sure."
+msgstr ""
+"Carcyn on viime aikoina ollut usvainen, koska näistä metsistä on jokin aika "
+"sitten tullut kuolonherran ja kahden sen alamaisina palvelevan pimeyden "
+"herran koti. Olemme oikeastaan saattaneet herättää sen päiväunilta... emme "
+"ole oikein varmoja."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:263
+msgid ""
+"So now you need to defend your rear as well as your front... I see your "
+"predicament. My men will wipe this land clean if you can help us defend our "
+"homeland."
+msgstr ""
+"Joten nyt teidän on puolustettava sekä selustaanne että edustaanne... "
+"Ymmärrän ahdinkonne. Mieheni voivat pyyhkiä tämän alueen puhtaaksi, jos "
+"autat meitä suojelemaan kotimaatamme."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:288
+msgid "Finally that creature is dead, yet its foolish minions resist."
+msgstr ""
+"Viimeinkin tuo olento on kuollut, mutta sen hölmöt käskyläiset vielä "
+"vastustelevat."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:295
+msgid "The lich is destroyed and its minions dead."
+msgstr "Kuolonherra on kukistettu ja sen kätyrit ovat kuolleet."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:312
+msgid ""
+"The defeat of the evil lich infesting the Grey Woods was a bittersweet "
+"victory. With Helicrom dead, the guild of shadow magic was thrown into "
+"disarray."
+msgstr ""
+"Harmaametsää kiusanneen pahan kuolonherran kukistaminen oli katkera voitto. "
+"Helicromin kuoltua varjotaikuuden kilta joutui epäjärjestykseen."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:317
+msgid ""
+"The remaining members were very grateful and offered Baldras a sizable sum "
+"of gold for his help. It was not the help he was hoping for, but he knew it "
+"would have to be enough for the coming conflict."
+msgstr ""
+"Jäljelle jääneet jäsenet olivat hyvin kiitollisia ja ehdottivat Baldrasille "
+"kookasta kultasummaa hänen avustaan. Se ei ollut sen kaltaista apua, kuin "
+"hän olisi toivonut, mutta hän tiesi sen olevan tarpeeksi tulevaan koitokseen."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:336
+msgid ""
+"With the undead driven out, we may live here in relative peace and pursue "
+"our studies. For this, Baldras, I am grateful."
+msgstr ""
+"Nyt kun epäkuolleet on ajettu pois, voimme elää täällä rauhassa ja keskittyä "
+"opintoihimme. Baldras, olen tästä kiitollinen."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:340
+msgid ""
+"Studies? Peace? You mean to continue feeding on the lawful citizens of "
+"Wesnoth. There will be no peace for them."
+msgstr ""
+"Opintojanne? Rauhassa? Tarkoitat, että jatkatte itsenne ruokkimista "
+"Wesnothin kunnollisilla kansalaisilla? Heille ei tule olemaan rauhaa."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:344
+msgid ""
+"No one here is in a position to be dispensing moral judgments. Regardless, "
+"you have done great service to us today, and we owe you a debt. I will help "
+"you to the utmost of my ability."
+msgstr ""
+"Täällä kukaan ei ole sellaisessa asemassa, että voisi jaella moraalisia "
+"päätöksiä. Siitä huolimatta olet tehnyt meille tänään suuren palveluksen ja "
+"olemme sinulle velkaa. Autan sinua niin paljon kuin kykenen."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:348
+msgid ""
+"I was planning on giving you gold. Any good army is well financed, and with "
+"the lich gone we can now spare it."
+msgstr ""
+"Suunnittelin antavani sinulle kultaa. Jokainen hyvä armeija on varakas, ja "
+"nyt kun kuolonherra on poissa, voin jakaa sitä."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:352
+msgid ""
+"But, I think it would help you more if I lent you some of my men to join you "
+"on your adventures. The Queen has been sending mages out here, and my men "
+"are itching for some payback."
+msgstr ""
+"Mutta luulenpa, että auttaisi enemmän, jos lainaan seikkailuasi varten "
+"joitakin miehistäni. Kuningatar on lähettänyt tännepäin maageja ja mieheni "
+"eivät malta odottaa takaisinmaksua."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:356
+msgid ""
+"On the other hand, if I keep the full force of my organization here, we "
+"might be able to regroup and join you on the battlefield when the time comes."
+msgstr ""
+"Toisaalta, jos pidän kaikki joukkoni täällä, voisi olla mahdollista "
+"uudelleenjärjestyä ja liittyä joukkoihisi taistelukentällä, kun sen aika "
+"tulee."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:360
+msgid "I leave it to you to decide."
+msgstr "Päätös on sinun."
+
+#. [option]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:362
+msgid "I will take the gold. How does 500 sound?"
+msgstr "Otan kultapalat. Miltä viisisataa kuulostaisi?"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:366
+msgid "Agreed. Good luck and farewell to you, Master Baldras."
+msgstr "Sovittu. Onnea ja hyvästi, Baldras-herra."
+
+#. [option]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:387
+msgid ""
+"Send your men with us. They will be valuable help as we prepare for the "
+"assault from the Wesnoth army garrison."
+msgstr ""
+"Lähetä miehesi matkaamme. Heistä on arvokasta hyötyä kun valmistelemme "
+"hyökkäystä Wesnothin armeijan tukikohtaan."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:391
+msgid "Done. My finest mages and thieves are at your disposal. Use them well."
+msgstr ""
+"Noin. Nyt hienoimmat maagini ja varkaani ovat matkassasi. Käytä heitä hyvin."
+
+#. [option]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:405
+msgid "I wish you to join us in battle against the Queen's forces."
+msgstr ""
+"Toivoisin, että liittyisitte meihin taistelussa kuningattaren joukkoja "
+"vastaan."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:409
+msgid ""
+"Alright. I need time to clean up this forest and recall my men from the "
+"countryside. We will be ready to march in 7 days. All now hinges on you! "
+"Until then..."
+msgstr ""
+"Hyvä on. Tarvitsen aikaa tämän metsän puhdistamiseen ja kutsuakseni mieheni "
+"maaseudulta. Olemme valmiita marssimaan seitsemän päivän kuluessa. Kaikki on "
+"nyt teidän varassanne! Näkemiin..."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:459
+msgid "My men... have failed to protect me! I perish..."
+msgstr "Mieheni... ovat epäonnistuneet suojelemisessani! Menehdyn..."
+
+#. [scenario]: id=the_hunters
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:4
+msgid "The Hunters"
+msgstr "Metsästäjät"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:24
+msgid ""
+"Baldras and his men quickly left the Grey Woods, not entirely convinced of "
+"their safety even after eradicating the lich."
+msgstr ""
+"Baldras ja hänen miehensä jättivät Harmaametsän nopeasti taakseen, eivätkä "
+"he olleet kovin vakuuttuneita turvallisuudestaan, vaikka kuolonherra olikin "
+"hävitetty."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:27
+msgid ""
+"As they marched, many men and women from the small hamlets peppering the "
+"area around Carcyn and the Grey Woods approached the group, asking to join "
+"them. The ascent of the Queen had cast an uneasy pall over the citizens of "
+"Wesnoth, and some of them were willing to resist it."
+msgstr ""
+"Carcyniä ja Harmaametsää ympäröivien alueiden pienten kyläpahasten miehet ja "
+"naiset lähestyivät marssivaa ryhmää kysyen, voisivatko he liittyä mukaan. "
+"Kuningattaren valtaannousu oli monen mielestä epämukavaa, ja jotkut heistä "
+"olivat halukkaita vastustamaan sitä."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:30
+msgid ""
+"Knowing they too would be labeled criminals, he reluctantly accepted their "
+"help. (Baldras is now able to recruit outlaws.)"
+msgstr ""
+"Tietäen, että heidätkin leimattaisiin roistoiksi, hän vastahakoisesti "
+"hyväksyi heidän apunsa. (Baldras voi nyt värvätä lainsuojattomia.)"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:33
+msgid ""
+"Camped at the edge of the forest, they quietly observed substantial troop "
+"movements coming from the direction of Aldril, a nearby city, and marching "
+"to the northwest. Unsure what to make of it, they debated their next course "
+"of action..."
+msgstr ""
+"Leiriydyttyään metsän laidalle he hiljalleen havaitsivat merkittävää "
+"joukkojensiirtelyä luoteeseen läheisen kaupungin, Aldrilin, suunnasta. "
+"Epävarmoina mitä tehdä asialle he rupesivat keskustelemaan seuraavasta "
+"toimeenpiteestään."
+
+#. [side]: type=Royal Guard, id=Archarel
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:57
+msgid "Archarel"
+msgstr "Archarel"
+
+#. [side]: type=Iron Mauler, id=Linneus
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:74
+msgid "Linneus"
+msgstr "Linneus"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:93
+msgid "Kill all enemy forces"
+msgstr "Kukista kaikki vihollisjoukot"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:131
+msgid "Jingo"
+msgstr "Jingo"
+
+#. [event]
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:132
+msgid "Majel"
+msgstr "Majel"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:150
+msgid ""
+"The words of Lord Maddock have weighed heavy on me these past few days. It "
+"has dawned on me that we can never win. We will never defeat the entire army "
+"of Wesnoth. Idiocy! If the noble lord of Elensefar is unwilling to resist "
+"the Queen, how should I ever expect to?"
+msgstr ""
+"Lordi Maddockin sanat ovat painaneet mieltäni raskaasti viimeiset pari "
+"päivää. Minulle on valjennut, ettemme voi ikinä voittaa. Emme koskaan tule "
+"tuhoamaan Wesnothin koko armejaa. Hulluutta! Jos Elensefarin jalosukuinen "
+"lordi ei ole halukas vastustamaan kuningatarta, kuinka minulta voitaisiin "
+"odottaa sitä?"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:154
+msgid ""
+"What's worse is that she appears to have taken notice. We have counted five "
+"platoons of heavy infantry marching towards the garrison in just the last 2 "
+"hours."
+msgstr ""
+"Mikä huolestuttavampaa, hän on ilmeisesti jo kiinnittänyt huomionsa. Olemme "
+"laskeneet viisi raskaan jalkaväen joukkuetta marssimassa kohti tukikohtaa "
+"vain viimeisten kahden tunnin sisällä."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:158
+msgid ""
+"The garrison. The towers of Halstead are more than a garrison, nephew, they "
+"are a fortress. They used to protect this area from the enemies of Wesnoth; "
+"I never imagined they would house its enemies."
+msgstr ""
+"Tukikohtaa. Halsteadin tornit ovat enemmän kuin tukikohta, veljenpoika, ne "
+"ovat linnoitus. Niillä oli tapana suojella tätä aluetta Wesnothin "
+"vihollisilta. En koskaan kuvitellut, että ne voisivat tarjota Wesnothin "
+"vihollisille asuinpaikan."
+
+#. [event]: id=Pitcher 20 14}, id=Pitcher 28 18}, id=Pitcher 20 14}
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:161
+msgid "Pitcher"
+msgstr "Pitcher"
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:168
+msgid "(Baldras!)"
+msgstr "(Baldras!)"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:172
+msgid "Uncle, he wears the crest of the Elense. We should answer."
+msgstr "Setä, hänellä on yllään Elensen tunnukset. Meidän tulisi vastata."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:176
+msgid "Rider, hush before we are discovered! Come to us, but quietly!"
+msgstr ""
+"Ratsastaja, hiljaa siellä tai meidät löydetään! Tule tänne, mutta hiljaa!"
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:183
+msgid ""
+"Master Baldras, I bring news from the north. During the past week, several "
+"patrols have again ventured across the Great River into Annuvin. A man named "
+"Relnan opposed them with a small militia. He was victorious."
+msgstr ""
+"Mestari Baldras, tuon uutisia pohjoisesta. Viime viikon aikana useat partiot "
+"ovat taas uskaltautuneet Suuren joen poikki Annuviniin. Mies nimeltä Relnan "
+"vastusti heitä pienen miliisin kanssa. Hän voitti."
+
+#. [message]: speaker=Majel
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:187
+msgid "This is surely good news!"
+msgstr "Tämä on varmasti hyvä uutinen!"
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:191
+msgid ""
+"I am afraid it is not. The Queen is sending a branch of her main field army "
+"directly from Weldyn. As soon as they arrive, they will burn every village "
+"to the ground. No one will live."
+msgstr ""
+"Pelkäänpä ettei. Kuningatar on lähettämässä osan pääarmeijastaan suoraan "
+"Weldyniin. Niin pian kuin he saapuvat, he polttavat jokaisen kylän maan "
+"tasalle. Sitten kukaan ei enää elä."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:195
+msgid ""
+"The troop movements all make sense now. We must stop this army from reaching "
+"the garrison. We cannot swallow them whole, but we can gnaw away at them. "
+"They mustn't take one step without us being there to harass and delay them. "
+"When they reach Halstead they must be exhausted or dying."
+msgstr ""
+"Nyt niissä kaikissa joukkojen siirtelyissä on järkeä. Meidän on pysäytettävä "
+"tämä tukikohtaa lähestyvä armeija. Emme voi nielaista heitä kokonaan, mutta "
+"voimme nakertaa heistä osan. Heidän ei tule ottaa askeltakaan ilman, että "
+"olisimme kiusaamassa ja viivästyttämässä heitä. Kun he saavuttavat "
+"Halsteadin, heidän on oltava nääntyneitä tai kuolemaisillaan."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:199
+msgid "You just said we can't beat their entire army!"
+msgstr "Juurihan sinä sanoit, ettemme voi lyödä heidän koko armeijaansa!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:203
+msgid ""
+"Do you propose surrender? It's this or nothing. All we can do is see it "
+"through to the end."
+msgstr ""
+"Ehdotatko antautumista? Näin tai ei mitenkään. Emme voi kuin katsoa, kuinka "
+"tässä lopulta käy."
+
+#. [message]: speaker=Pitcher
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:207
+msgid ""
+"May you prevail in peace and war. I must depart before I am seen so far from "
+"my Lord's borders."
+msgstr ""
+"Menestykää sodassa ja rauhassa. Minun on lähdettävä ennen kuin tulen "
+"nähdyksi näin kaukana herrani rajoilta."
+
+#. [message]: speaker=Jingo
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:218
+msgid "Another platoon approaches..."
+msgstr "Taas yksi joukkio lähestyy..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:270
+msgid ""
+"When we are done, no one will fear the open roads and night sky more than "
+"the army of the usurper. Strike fast, strike silently... and leave no one "
+"alive."
+msgstr ""
+"Kun olemme valmiita, ei kukaan muu tule pelkäämään avoimia teitä ja "
+"yötaivasta enempää kuin vallananastajan armeija. Iskekää nopeasti, iskekää "
+"hiljaa... älkääkä jättäkö ketään henkiin."
+
+#. [message]: speaker=Linneus
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:284
+msgid "It's an ambush! Hold your ground!"
+msgstr "Tämä on väijytys! Pitäkää asemanne!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:295
+msgid ""
+"The next morning, the local night patrol returned to the nearby outpost. "
+"They were surprised to see their fellow soldiers engaged in combat with the "
+"band of thugs of which they had heard so much."
+msgstr ""
+"Seuraavana aamuna paikallinen yöpartio palasi läheiselle etuvartiolle. He "
+"olivat yllättyneitä nähdessään toverisotilaansa joutuneen taisteluun sen "
+"korstolauman kanssa, josta he olivat kuulleet niin paljon."
+
+#. [message]: speaker=Archarel
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:303
+msgid ""
+"Troops, to arms! These peasant scum think they are above the law. We will "
+"show them the law!"
+msgstr ""
+"Joukot, aseisiin! Tämä maalaisroskaväki kuvittelee olevansa lain "
+"yläpuolelle. Me näytämme heille lain!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:320
+msgid "Ow! Fire hot! No step in fire!"
+msgstr "Auts! Tuuli kuumaa! Ei astua tuleen!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:340
+msgid ""
+"What a bloody mess. We must attack Halstead next. If we wait, they will "
+"become invincible. If we can burn it to the ground before that happens, our "
+"people may have a chance. Rest well tonight, because tomorrow's battle will "
+"decide the fate of our homes, our families, and our freedom."
+msgstr ""
+"Mikä verinen epäjärjestys! Seuraavaksi meidän on hyökättävä Haldsteadiin. "
+"Jos odotamme, heistä tulee voittamattomia. Jos vain voimme polttaa sen maan "
+"tasalle ennen kuin se tapahtuu, kansallamme voi olla mahdollisuus. Levätkää "
+"tänä yönä kunnolla, koska huomisen taistelu tulee ratkaisemaan kotiemme, "
+"perheittemme ja vapaudemme kohtalon."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:351
+msgid ""
+"Send word to Helicrom that we are ready. It is time for him to repay his "
+"debt."
+msgstr ""
+"Lähetä Helicromille sana, että olemme valmiit. Hänen on tullut aika maksaa "
+"velvollisuutensa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:372
+msgid ""
+"We have spent too much time here. Surely the entire Wesnoth army marches on "
+"our position. We are done for!"
+msgstr ""
+"Olemme viettäneet täällä liikaa aikaa. Koko Wesnothin armeija on varmasti jo "
+"marssimassa tänne. Se oli siinä!"
+
+#. [scenario]: id=glory
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:4
+msgid "Glory"
+msgstr "Kunnia"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:25
+msgid ""
+"In the Year of Wesnoth 161, 338 years before Asheviere's betrayal, the newly "
+"crowned king sought to make safe once and for all the wildlands that "
+"separated the human cities surrounding Weldyn and the coastal regions of "
+"Elensefar."
+msgstr ""
+"Wesnothin vuonna 161, 338 vuotta ennen Ashevieren petosta, vastakruunattu "
+"kuningas halusi kerralla tehdä Weldyniä ja Elensefarin rannikkoalueita "
+"ympäröivien ihmisten kaupunkien väliset erämaat turvallisiksi."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:28
+msgid ""
+"The grand army of Wesnoth, personally led by the High Council of Archmagi, "
+"scoured the plains of all manner of hostile creature, be it beast, orc, or "
+"elf. The city-state of Elensefar was formally united to the kingdom and "
+"settlements rapidly spread. The country of Wesnoth had been carved in deed "
+"as well as in name."
+msgstr ""
+"Wesnothin suuri armeija, jota korkean neuvoston arkkimaagi johti "
+"henkilökohtaisesti, haravoi tasangot kitkien tieltään kaikenlaiset "
+"vastahakoiset olennot, olivat ne sitten petoja, örkkejä tai haltioita. "
+"Elensefarin kaupunkivaltio oli muodollisesti liitetty kuningaskuntaan ja "
+"asutus levisi nopeasti. Wesnothin maa oli nimensä veroinen."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:32
+msgid ""
+"A monument to this achievement was erected in the very heart of the "
+"wildlands. In a twelve-year ritual, the High Council demonstrated the height "
+"to which human magic had grown over the years by drawing the monument "
+"directly from the earth's living rock."
+msgstr ""
+"Tämän saavutuksen muistomerkki pystytettiin erämaan sydämeen. "
+"Kaksikymmenvuotisessa rituaalissa korkea neuvosto demonstroi, mille tasolle "
+"ihmismagia oli kasvanut vuosien varrella kohottamalla muistomerkin suoraan "
+"maan elävästä kivestä."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:36
+msgid ""
+"Hundreds of feet tall, the mountain towered high above the plains, its sheer "
+"walls both inspiring and terrifying. Men from all over the countryside "
+"labored there, building the most formidable fortress ever conceived. It "
+"became the Stronghold of Halstead."
+msgstr ""
+"Satojen jalkojen korkuisena vuori kohosi korkealle tasankojen ylle. Sen "
+"jyrkät seinämät olivat sekä innostavia että kauhistuttavia. Miehet joka "
+"puolelta maaseutua uurastivat siellä rakentaen varteenotettavimman "
+"linnoituksen, joka koskaan on suunniteltu. Siitä tuli Halsteadin linnake."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:40
+msgid ""
+"This sentinel of the western plains stood watch as Wesnoth prospered for "
+"many centuries under the protection it provided. No war has overcome it, and "
+"its walls have never been overrun. The blood of invaders stains its parapets "
+"and the bones of the defeated crumble at the base of Halstead's frozen waves "
+"of stone."
+msgstr ""
+"Tämä läntisten tasankojen vartio seisoi katsomassa, kun Wesnoth kukoisti "
+"monta vuosisataa sen suojeluksessa. Ei yksikään sota ollut sitä voittanut, "
+"eikä sen muureja koskaan vallattu. Tunkeilijoiden veri tahrasi sen "
+"varustuksia ja kukistettujen luut rappeutuivat Halsteadin jäätyneiden "
+"kiviaaltojen juurella."
+
+#. [side]: type=General, id=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:67
+msgid "Dommel"
+msgstr "Dommel"
+
+#. [side]: type=Orcish Warlord, id=Vashna
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:142
+msgid "Vashna"
+msgstr "Vashna"
+
+#. [side]: type=Orcish Warlord, id=Vashna
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:196
+msgid "Orcs"
+msgstr "Örkit"
+
+#. [objective]: condition=win
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:301
+msgid "Destroy the stronghold of Halstead"
+msgstr "Tuhoa Halsteadin linnake"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:404
+msgid "There it is. The stronghold of Halstead."
+msgstr "Siellä se on. Halsteadin linnake."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:417
+msgid ""
+"Look at how tall it is! Those towers rise sheer out of the ground, as if "
+"called forth out of the earth."
+msgstr ""
+"Katso kuinka korkea se on! Nuo tornit nousevat maasta pystysuorassa, aivan "
+"kuin ne olisi kutsuttu ylös suoraan maasta."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:421
+msgid ""
+"That may not be too far from the truth. During the time of the Great Kings "
+"of Wesnoth, this land was tamed with powerful magic. Wizards of an ancient "
+"era forged the walls of Halstead from the rock below."
+msgstr ""
+"Se ei välttämättä ole kaukanakaan totuudesta. Wesnothin suurien kuninkaiden "
+"aikaan tämä maa kesytettiin voimakkaalla taikuudella. Muinaisen aikakauden "
+"velhot muovasivat Halsteadin muurit maaperästä jalkojensa alla."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:425
+msgid ""
+"I don't see how we can bring it down. They are already invincible in there!"
+msgstr ""
+"En keksi kuinka voisimme kukistaa sen. Tuolla he ovat voittamattomia jo "
+"valmiiksi!"
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:436
+msgid ""
+"No, my young friend. Halstead indeed has a weakness. Among my many assets is "
+"access to a wealth of secrets few in Wesnoth are privy to."
+msgstr ""
+"Ei, nuori ystäväiseni. Halsteadilla tosiaan on heikkoutensa. Yksi monista "
+"eduistani on pääsy lukuisten sellaisten salaisuuksien äärelle, joista vain "
+"harva Wesnothissa on tietoinen."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:440
+msgid ""
+"You see, the mountain on which the fort was built is solid, but the castle "
+"on top has been built and rebuilt many times over the ages. It is not as "
+"indestructible as you might think."
+msgstr ""
+"Kuten näet, vuori, jolle linnake on rakennettu, on kiinteä, mutta linna "
+"huipulla on rakennettu ja uudelleenrakennettu monta kertaa aikojen saatossa. "
+"Se ei ole niin voittamaton kuin saattaisit ajatella."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:444
+msgid ""
+"Beneath the structure is a system of catacombs that connects all four towers "
+"to the central keep. Over time, after many wars, supports were required to "
+"hold up the middle."
+msgstr ""
+"Rakennelman alla on katakombiverkosto, joka yhdistää jokaisen neljästä "
+"tornista keskuslinnaan. Ajan kuluessa, monien sotien jälkeen, tukipaaluja on "
+"tarvittu pitämään keskustaa pystyssä."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:448
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:474
+msgid ""
+"So... we can knock out the supports and bring down the stronghold of "
+"Halstead. Would it really work?"
+msgstr ""
+"Siis... voimme kaataa tukipaalut ja kukistaa Halsteadin linnoituksen. "
+"Toimiiko se todella?"
+
+#. [message]: speaker=Helicrom
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:452
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:478
+msgid ""
+"I believe it will. Each tower has a passage down to the catacombs. If we can "
+"reach the center of each tower, one of our men can escape down to the bowels "
+"of the mountain and destroy its support. I am sure we will need to demolish "
+"no less than all four supports to raze the fortress."
+msgstr ""
+"Luulen niin. Jokaisessa tornissa on käytävä alas katakombeihin. Jos pääsemme "
+"jokaisen tornin keskelle, yksi miehistämme voi paeta alas vuoren sokkeloihin "
+"ja tuhota sen tukipaalun. Olen varma, että meidän on purettava ei vähempää "
+"kuin jokainen neljästä tukipaalusta hajottaaksemme linnakkeen."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:458
+msgid "No, young one. Halstead indeed has a weakness."
+msgstr "Ei, nuorukainen. Halsteadilla tosiaan on heikkoutensa."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:462
+msgid "How do you know?"
+msgstr "Mistä sinä tiedät?"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:466
+msgid ""
+"When I was a boy, my father - your grandfather - brought your dad and me to "
+"live in Aldril after orcs massacred many in our village. We grew up around "
+"here, and we learned many things."
+msgstr ""
+"Kun olin vasta poikanen, minun isäni – sinun isoisäsi – vei isäsi ja minut "
+"asumaan Aldriliin örkkien teurastettua monia kylämme asukkaita. Kasvoimme "
+"täällä ja opimme monta asiaa."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:470
+msgid ""
+"Beneath the structure is a system of catacombs that connects all four towers "
+"to the central keep. The catacombs growing over time, combined with "
+"centuries of war, made it necessary to install supports to hold up the "
+"middle."
+msgstr ""
+"Rakennelman alla on katakombiverkosto, joka yhdistää jokaisen neljästä "
+"tornista keskuslinnaan. Katakombien kasvettua ajan kuluessa, yhdistettynä "
+"vuosisatojen sotiin, on tullut tarpeen asentaa tukipaaluja pitämään "
+"keskustaa pystyssä."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:484
+msgid ""
+"I hope you're right. In a few hours, night will fall, and we will find out."
+msgstr ""
+"Toivon, että olet oikeassa. Muutaman tunnin päästä yö laskeutuu yllemme ja "
+"otamme selvää."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:488
+msgid ""
+"We must be cautious. Look there, a substantial orc force is also advancing "
+"on Halstead. They must think Wesnoth's army is spread out right now."
+msgstr ""
+"Meidän on oltava huolellisia. Katso tuonne, merkittävä joukko örkkejä on "
+"myös etenemässä kohti Halsteadia. Ne varmaan luulevat, että Wesnothin "
+"armeija aikoo levittäytyä."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:492
+msgid "Heh. They're in for a surprise. This may work to our advantage."
+msgstr "Heh. He tulevat yllättymään. Tästä voi olla hyötyä meille."
+
+#. [message]: role=farseer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:507
+msgid "Look in the distance... riders approach!"
+msgstr "Katso kaukaisuuteen... ratsastajia lähestyy!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:516
+msgid "Who is it?"
+msgstr "Kuka se on?"
+
+#. [message]: role=farseer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:520
+msgid "Help, I hope. Circumstances cannot afford to get much more dire."
+msgstr "Apua, toivon. Olosuhteiden ei ole varaa mennä pahemmiksi."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:526
+msgid "Riders approach from the northwest! Stand fast, men."
+msgstr "Ratsastajia lähestyy luoteesta! Pitäkää puolenne, miehet."
+
+#. [unit]: type=Paladin, id=Sir Gwydion
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:535
+msgid "Sir Gwydion"
+msgstr "Sir Gwydion"
+
+#. [message]: type=Lancer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:551
+msgid "Sound the advance!"
+msgstr "Soittakaa etenemiskäsky!"
+
+#. [message]: speaker=Sir Gwydion
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:555
+msgid ""
+"Knights of Elensefar, behold: the battle has already begun! Make camp here. "
+"Then, we CHARGE!"
+msgstr ""
+"Elensefarin ritarit, katsokaa! Taistelu on jo alkanut! Tehkää leiri tänne. "
+"Sen jälkeen – RYNNÄKKÖÖN!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:568
+msgid ""
+"Amazing. Lord Maddock sent his house guards... his finest troops! Elensefar "
+"must be defenseless now. More hinges on this battle than I thought."
+msgstr ""
+"Ihmeellistä. Lordi Maddock on lähettänyt kaartilaisensa... hienoimmat "
+"joukkonsa! Se tarkoittaa, että Elensafar on jäänyt puolustuksetta. Tästä "
+"taistelusta riippuu enemmän kuin luulin."
+
+#. [message]: role=farseer
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:573
+msgid ""
+"Baldras, Gwydion is Lord Maddock's son. This battle isn't just about Annuvin "
+"anymore."
+msgstr ""
+"Baldras, Gwydion on lordi Maddockin poika. Tämä ei ole enää taistelu "
+"ainoastaan Annuvinista."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:586
+msgid ""
+"That afternoon, another advance element of the main Wesnoth army arrived..."
+msgstr "Sinä iltana saapui toisenlainen ryhmä Wesnothin pääarmeijaa..."
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:656
+msgid ""
+"I think... I think they're trying to storm Halstead itself... the fools!"
+msgstr ""
+"Minä luulen... Minä luulen, että he aikovat hyökätä itseään Halsteadia "
+"vastaan... Typerykset!"
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:673
+msgid "They have breached the fortress gate! Repulse them!"
+msgstr "He ovat murtaneet linnakkeen portin! Torjukaa heidät!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:689
+msgid "I'm inside the tower! I'm going down to the catacombs - cover me."
+msgstr "Olen tornin sisällä! Laskeudun katakombeihin – suojatkaa minua."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:699
+msgid "After about an hour..."
+msgstr "Suunnilleen tunnin kuluttua..."
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:709
+msgid "It's done."
+msgstr "Valmista tuli."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:736
+msgid "The stronghold of Halstead began to shake..."
+msgstr "Halsteadin linnoitus alkoi vavista..."
+
+#. [message]: speaker=unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:741
+msgid "We cannot stay here. The fortress has started to collapse!"
+msgstr "Emme voi pysyä täällä. Linnoitus on alkanut sortua!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:772
+msgid "I think it's working! Everybody get clear NOW!"
+msgstr "Luulen sen toimivan! Jokainen ottaa jalat alleen... NYT!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:796
+msgid ""
+"With a thunderous earthquake and a vast billowing of dust, thousands of tons "
+"of stone and wood crashed in on itself. Some of it tumbled down the steep "
+"sides, while the remainder came to rest several hundred feet below ground, "
+"in the bowels of the hollowed-out mountain."
+msgstr ""
+"Raivoisan maanjäristyksen ja valtavan pölypilven saattelemina tuhansia "
+"tonneja kiveä ja puuta luhistui itsensä päälle. Osa siitä valui jyrkkiä "
+"sivustoja pitkin, kun taas loput päätyivät useiden satojen jalkojen "
+"syvyyteen maan alle, onttoon vuoreen hakattuihin luolastoihin."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:801
+msgid "No one inside the fortress would make it out alive."
+msgstr "Yksikään luolastoissa sisällä ollut ei päässyt elävänä ulos."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:870
+msgid ""
+"After more than a week of fierce fighting, the main body of Asheviere's host "
+"arrived from Weldyn. The battle was soon finished. Every last man from the "
+"province of Annuvin was executed."
+msgstr ""
+"Yli viikon kestäneen raivokkaan taistelemisen jälkeen pääosa Ashevieren "
+"joukoista saapui Weldynistä. Taistelu päättyi nopeasti. Jokainen Annuvinin "
+"maakunnan jäljellejääneistä miehistä teloitettiin."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:900
+msgid "Men, help me out of here! I am trapped under this rubble."
+msgstr ""
+"Miehet, auttakaa minut ulos täältä! Olen loukussa näiden raunioiden alla!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:904
+msgid ""
+"No one was able to get to Baldras in time. He and many of his companions "
+"died that day beneath the stronghold of Halstead."
+msgstr ""
+"Kukaan ei saanut autettua Baldrasia ajoissa. Hän ja hänen monta kumppaniaan "
+"kuolivat sinä päivänä Halsteadin linnoituksen alle."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:909
+msgid "I hope this sacrifice is not in vain... but we will never know."
+msgstr ""
+"Toivon, ettei tämä uhraus ollut tarpeeton... mutta sitä me emme koskaan saa "
+"tietää."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:915
+msgid "Our dream of freedom... gone... Unngh."
+msgstr "Unelmamme vapaudesta... poissa... Unngh."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:922
+msgid ""
+"The rebellion had stakes its all on victory at Halstead, but win or lose, "
+"there would be no help for the villagers, ground beneath the wheels of "
+"Asheviere's wrath."
+msgstr ""
+"Kapinalla oli asetti vaakalaudalle kaikkensa Halsteadin voitosta, mutta oli "
+"tuloksena häviö tai tappio, mikään ei voisi auttaa kyläläisiä ja maata "
+"Ashevieren raivon pyörien takana. "
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:938
+msgid "Uncle!"
+msgstr "Setä!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:942
+msgid "NO!"
+msgstr "EI!"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:946
+msgid "I promised your father I would watch after you... and I failed."
+msgstr "Lupasin isällesi, että katsoisin sinun perääsi... ja epäonnistuin."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:950
+msgid ""
+"But we are so close to the end. We must finish this. I am sorry you will not "
+"be able to enjoy our freedom. Goodbye, Harper."
+msgstr ""
+"Mutta olemme niin lähellä loppua. Meidän on viimeisteltävä tämä. Olen "
+"pahoillani, ettet sinä tule pystymään nauttimaan vapaudestamme. Hyvästi, "
+"Harper."
+
+#. [message]: speaker=Helicrom
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:964
+msgid ""
+"Carry on, my friends. Fighting by your side is the most honorable thing I "
+"have done..."
+msgstr ""
+"Jatkakaa, ystäväni. Taisteleminen puolellanne on kunniallisin teko, mitä "
+"olen tehnyt..."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1011
+msgid "Your reign of terror is over, General."
+msgstr "Kauhun valtakautesi on ohitse, kenraali."
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1016
+msgid ""
+"You will never successfully oppose Asheviere. Her power is too great... This "
+"small victory today is but a reprieve from the unimaginable pain you will "
+"suffer when the full force of her wrath descends upon you."
+msgstr ""
+"Ette koskaan pysty onnistuneesti vastustamaan Ashevierea. Hänen voimansa on "
+"liian suuri... Tämä pieni voitto tänään on vain hengähdystauko siitä "
+"tuskasta, jota ei voi edes kuvitella, jonka tulette kärsimään, kun hänen "
+"koko vihansa laskeutuu päällenne."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1027
+msgid ""
+"This was no small victory. You underestimate the power of love for freedom."
+msgstr "Tämä voitto ei ollut pieni. Aliarvioit vapaudenrakkauden voiman."
+
+#. [message]: speaker=Dommel
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1031
+msgid ""
+"You... underestimate the... cruelty and ambition of your Queen... unngh.."
+msgstr ""
+"Te... aliarvioitte... kuningattarrenne julmuuden ja kunnianhimon... unngh..."
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:1038
+msgid ""
+"Small victory? Bah! Now we will raze this fortress and bury it in the earth "
+"from whence it came."
+msgstr ""
+"Pieni voitto? Pah! Nyt hävitämme tämän linnoituksen ja hautaamme sen "
+"takaisin maahan, josta se kerran tuli."
+
+#. [scenario]: id=epilog
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:4
+msgid "Liberty - Epilogue"
+msgstr "Vapaus – Loppunäytös"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:14
+msgid ""
+"The rest of the battle was a blur. The shock of what had happened stunned "
+"everybody."
+msgstr ""
+"Loput taistelusta oli hämärää. Kaikkia ällistytti se, mitä oli tapahtunut."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:17
+msgid ""
+"Baldras and his men fled the plains of western Wesnoth under the cover of "
+"night. The spectacle of Halstead's destruction stunned them into a daze that "
+"only slowly wore off as they made their way north to and past Elensefar."
+msgstr ""
+"Baldras ja hänen miehensä pakenivat yön turvin läntisen Wesnothin "
+"tasangoille. Halsteadin tuhon spektaakkeli pökerrytti heidät hämmennykseen, "
+"joka parani hyvin hitaasti heidän matkatessaan kohti pohjoista ohitse "
+"Elensefarin."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:20
+msgid ""
+"The Elense riders routed the orcish army, small as it was, and sent them "
+"back across the Great River. They then scattered to the countryside and were "
+"not heard from again. Baldras thought this odd behavior when he heard about "
+"it."
+msgstr ""
+"Elenseratsastajat lähettivät örkkiarmeijan, vaikkakin se oli pieni, takaisin "
+"Suuren joen tuolle puolen. Sitten he hajaantuivat ympäri maaseutua, eikä "
+"heistä kuultu enää. Baldras pohti tätä outoa käytöstä, kun kuuli siitä."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:23
+msgid ""
+"As the main body of Asheviere's army neared the ruins of Halstead, strange "
+"things began to happen. Every night, men would disappear. Others were found "
+"hacked to bloody pieces. Unexplained misfortune plagued the marching "
+"columns. Soldiers dropped dead where they stood, slain by unseen assassins. "
+"Fear of an undead menace spread through the ranks."
+msgstr ""
+"Kun Ashevieren armeijan pääjoukko lähestyi Halsteadin raunioita, outoja "
+"asioita alkoi tapahtua. Joka yö miehiä katosi. Toiset löytyi hakattuina "
+"verisiksi kappaleiksi. Selittämätön epäonni vaivasi marssivia rivistöjä. "
+"Sotilaita kaatuili missä ikinä sattuivatkaan seisomaan, näkymättömien "
+"salamurhaajien surmaamina. Epäkuolleen vaaran pelko alkoi levitä riveissä."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:26
+msgid ""
+"When the army of Wesnoth found the ruins of the mighty fortress Halstead, it "
+"was too much. Their shock that such a thing could happen combined with the "
+"invisible terror stalking them convinced Asheviere's second in command the "
+"entire countryside was cursed. He quickly retreated to the traditional "
+"border and set up strong defenses against the west."
+msgstr ""
+"Kun Wesnothin armeija löysi Halsteadin mahtavan linnoituksen rauniot, se oli "
+"heille liikaa. Heidän järkytyksensä siitä, että sellaista pystyi "
+"tapahtumaan, sekä heitä piinaava näkymätön kauhu vakuuttivat Ashevieren "
+"kakkosmiehen, että koko maaseutu oli kirottu. He vetäytyivät äkkiä vanhalle "
+"rajalle ja pystyttivät vahvat puolustukset länttä vastaan."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:29
+msgid ""
+"Baldras had just crossed the Great River when rumors of night-stalkers "
+"filtered through his ranks. With bitter humor he realized that Lord "
+"Maddock's men were successfully using tactics Baldras had mastered and used "
+"during his resistance."
+msgstr ""
+"Baldras oli juuri ylittänyt Suuren joen, kun huhut yön vaanijoista alkoivat "
+"liikkua hänen joukoissaan. Karvain mielin hän ymmärsi, että lordi Maddockin "
+"miehet käyttivät menestyksekkäästi taktiikkaa, jonka Baldras oli hallinnut "
+"ja käyttänyt vastarintansa aikana."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:32
+msgid ""
+"The peasants-turned-outlaws finally reached Dallben. It was burnt to the "
+"ground. In a panic, they raced through the forest to Delwyn. It was likewise "
+"devastated. However, they did find one clue as to what happened..."
+msgstr ""
+"Lopulta lainsuojattomiksi muuttuneet talonpojat saapuivat Dallbeniin. Se oli "
+"poltettu maan tasalle. Paniikissa he ryntäsivät metsän läpi Delwyniin. Se "
+"oli myös tuhottu. He kuitenkin löysivät yhden johtolangan siitä, mitä oli "
+"tapahtunut..."
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:36
+msgid ""
+"...a grimy note nailed to a charred post that read, 'Baldras, You would have "
+"been proud. We gave 'em hell. But in the end, it wasn't enough.'"
+msgstr ""
+"... Pinttynyt lappunen oli naulattu pylvääseen. Siinä luki: ”Baldras, sinä "
+"olisit ollut ylpeä. Näytimme heille helvetin, mutta loppujen lopuksi se ei "
+"ollut tarpeeksi.”"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:40
+msgid ""
+"'We fled like criminals in the night, but we made sure that no one would "
+"harass us anymore.'"
+msgstr ""
+"”Pakenimme kuin varkaat yöhön, mutta teimme selväksi, ettei kukaan enää "
+"hätyyttäisi meitä.”"
+
+#. [part]
+#: data/campaigns/Liberty/scenarios/09_Epilog.cfg:44
+msgid ""
+"'If you wish to find us, head southwest. When you reach the land's end, just "
+"keep going. See you in the Three Sisters, old friend. - Relnan' "
+msgstr ""
+"”Jos tahdot löytää meidät, ota suuta lounaaseen. Kun saavutat maan reunan, "
+"anna mennä vaan. Nähdään pian Kolmessa siskossa, vanha ystävä. –Relnan”"
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:5
+msgid "Bone Knight"
+msgstr "Luuritari"
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:33
+msgid ""
+"Once great warriors across the plains, these mounted riders atop their "
+"skeletal horses were raised from the ground by unholy magic to spread fear "
+"and destruction."
+msgstr ""
+"Nämä luisilla ratsuilla ratsastajat olivat kerran tasankojen suuria "
+"sotureita. Ne on nostatettu maaperästä epäpyhällä taikuudella levittämään "
+"pelkoa ja tuhoa."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:37
+#: data/campaigns/Liberty/units/Skeleton_Rider.cfg:41
+msgid "axe"
+msgstr "kirves"
+
+#. [attack]: type=impact
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:79
+msgid "trample"
+msgstr "tallominen"
+
+#. [unit_type]: id=Death Squire, race=undead
+#: data/campaigns/Liberty/units/Death_Squire.cfg:4
+msgid "Death Squire"
+msgstr "Kuoleman aseenkantaja"
+
+#. [unit_type]: id=Death Squire, race=undead
+#: data/campaigns/Liberty/units/Death_Squire.cfg:26
+msgid ""
+"Sometimes the mightiest warriors and generals, cursed with hate and angst, "
+"came back to this world as Death Knights. Death Squires serve them whilst "
+"accruing enough unholy power to become Death Knights. In the process they "
+"pick up a good deal of the Knight's power, including the ability to command "
+"underlings."
+msgstr ""
+"Joskus mahtavimmat vihalla ja tuskalla kirotut soturit ja kenraalit tulevat "
+"takaisin maailmaan kuolonritareina. Kuoleman aseenkantajat palvelevat heitä "
+"samalla kun keräävät tarpeeksi epäpyhää voimaa tullakseen itse "
+"kuolonritareiksi. Prosessin aikana he oppivat käyttämään osaa ritarin "
+"voimista, kuten kykyä komentaa alamaisia."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Death_Squire.cfg:31
+msgid "sword"
+msgstr "miekka"
+
+#. [unit_type]: id=Rogue Mage, race=human
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:5
+msgid "Rogue Mage"
+msgstr "Hiipparimaagi"
+
+#. [unit_type]: id=Rogue Mage, race=human
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:18
+msgid ""
+"Some mages are thrown out of the mage's guild for attempting to practice "
+"forbidden arts. Now completely outside the law, these rogue mages do "
+"whatever necessary to support their study of black magic. Although not as "
+"skilled as mages with more formal training, their magic can be quite lethal, "
+"while their banditry has resulted in moderate skill with the short sword."
+msgstr ""
+"Jotkut maageista saavat kenkää maagien veljeskunnasta yritettyään harjoittaa "
+"kiellettyjä taitoja. Kokonaan lain ulkopuolella nämä hiipparimaagit tekevät "
+"mitä tahansa mitä tarvitaan heidän mustan magian opintojensa tukemisaan. "
+"Vaikka he eivät olekaan yhtä taitavia kuin normaalin koulutuksen saaneet "
+"maagit, heidän taikuutensa voi olla melkoisen kuolettavaa, kun ryöstelyn "
+"takia heidän taitonsa lyhytmiekankin käsittelyssä on kehittynyt."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:23
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:26
+msgid "short sword"
+msgstr "lyhytmiekka"
+
+#. [attack]: type=cold
+#: data/campaigns/Liberty/units/Rogue_Mage.cfg:32
+msgid "magic missile"
+msgstr "taikaraketti"
+
+#. [unit_type]: id=Shadow Lord, race=human
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:5
+msgid "Shadow Lord"
+msgstr "Varjolordi"
+
+#. [unit_type]: id=Shadow Lord, race=human
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:22
+msgid ""
+"Few humans fathom the secrets of light and dark magic and retain their "
+"sanity. Those that can master that balance become Shadow Lords, fully "
+"existing neither in the world of light nor the world of darkness. No longer "
+"needing physical weapons, they are fearsome to both their enemies and those "
+"they lord over."
+msgstr ""
+"Muutamat ihmiset pystyvät käsittämään valon ja pimeän taikuuden salaisuudet "
+"ja silti säilyä järjissään. Ne, jotka voivat pitää sen tasapainossa tulevat "
+"varjolordeiksi, jotka eivät ole kokonaan valon eivätkä pimeyden maailmassa. "
+"He eivät enää tarvitse fyysisiä aseita ja ovat silti pelättyjä sekä "
+"vihollistensa että alamaistensa keskuudessa."
+
+#. [attack]: type=blade
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:74
+msgid "astral blade"
+msgstr "tähtimiekka"
+
+#. [attack]: type=cold
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:85
+msgid "shadow bolt"
+msgstr "varjovasama"
+
+#. [attack]: type=impact
+#: data/campaigns/Liberty/units/Shadow_Lord.cfg:97
+msgid "shadow blast"
+msgstr "varjopamaus"
+
+#. [unit_type]: id=Shadow Mage, race=human
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:5
+msgid "Shadow Mage"
+msgstr "Varjomaagi"
+
+#. [unit_type]: id=Shadow Mage, race=human
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:21
+msgid ""
+"Years of violence and brutality to support the study of forbidden magical "
+"arts have turned the shadow mages into feared fighters. Now completely "
+"enthralled with power, they have been known to command small followings of "
+"henchmen. They are outmatched in direct magical combat with their magic-"
+"using peers, instead channeling their energies into devestating melee "
+"attacks. Despite their offensive power, the corruption in their souls has "
+"begun to adversely affect their health."
+msgstr ""
+"Väkivallan ja raakuuden vuodet vietettynä kiellettyjen taikuuksien "
+"opiskelujen parissa ovat muuttaneet varjomaagit pelätyiksi taistelijoiksi. "
+"Kokonaan lumoutuneina voimiinsa heidän tiedetään komentavan pieniä joukkoja "
+"kätyreitä. Suoraa taikuutta vaativissa taisteluissa he eivät pärjää "
+"taikuutta käyttävilleen ikätovereilleen, mutta sen sijaan he käyttävät "
+"energiaansa lähitaisteluhyökkäyksiin. Huolimatta hyökkäävästä voimastaan "
+"heidän sielujensa korruptio on alkanut käydä haitaksi heidän terveydelleen."
+
+#. [attack]: type=cold
+#: data/campaigns/Liberty/units/Shadow_Mage.cfg:38
+msgid "ice blast"
+msgstr "jääpamaus"
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: data/campaigns/Liberty/units/Skeleton_Rider.cfg:5
+msgid "Skeleton Rider"
+msgstr "Luurankoratsastaja"
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: data/campaigns/Liberty/units/Skeleton_Rider.cfg:34
+msgid ""
+"Once great warriors thundering across the plains, these mounted riders atop "
+"their skeletal horses were raised from the grave by unholy magic to spread "
+"fear and destruction."
+msgstr ""
+"Nämä luisilla ratsuilla ratsastajat olivat kerran tasankojen suuria "
+"sotureita. Ne on nostatettu haudoistaan epäpyhällä taikuudella levittämään "
+"pelkoa ja tuhoa."
+
+#. [unit_type]: id=Thug_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:20
+msgid "Villager"
+msgstr "Kyläläinen"
+
+#. [unit_type]: id=Thug_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:23
+msgid ""
+"Peasants live in the small hamlets and villages scattered across the Wesnoth "
+"countryside."
+msgstr ""
+"Talonpojat elävät pienissä taloryhmissä ja kylissä ympäri Wesnothin "
+"maaseutuja."
+
+#. [unit_type]: id=Bandit_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:36
+msgid "Village Elder"
+msgstr "Kylänvanhin"
+
+#. [unit_type]: id=Bandit_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:39
+msgid ""
+"Each of the villages scattered across the Wesnoth countryside is normally "
+"guided by a group of elders, who are the village's wisest and most "
+"experienced residents."
+msgstr ""
+"Jokaista kylää ympäri Wesnothin maaseutuja opastaa tavallisesti ryhmä "
+"vanhuksia, jotka ovat kylän viisaimmat ja kokeneimmat asukkaat."
+
+#. [unit_type]: id=Highwayman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:52
+msgid "Senior Village Elder"
+msgstr "Vanhempi kylänvanhin"
+
+#. [unit_type]: id=Highwayman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:56
+msgid ""
+"The entire village looks to the senior elder for guidance. Strong and wise, "
+"the senior elders take responsibility for the community's well-being on "
+"their shoulders. Provincial officials tend to choose senior village elders "
+"as magistrates so that legal and customary authority will coincide."
+msgstr ""
+"Koko kylä pyytää apua kaikkein vanhimmalta. Vahvat ja viisaat vanhukset "
+"ottavat vastuulleen yhteisön hyvinvoinnin. Maakunnallisilla virkailijoilla "
+"on tapana valita vanhimpia kylänvanhimpia rauhantuomareiksi, jotta laki ja "
+"käytäntö täsmäisivät."
+
+#. [unit_type]: id=Footpad_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:72
+msgid "Peasant Youth"
+msgstr "Nuorimies"
+
+#. [unit_type]: id=Footpad_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:76
+msgid ""
+"The scruffy-haired peasant youth are much like the young people living "
+"elsewhere in Wesnoth: reckless, cocky, and eager to explore."
+msgstr ""
+"Nuoret nuhruhiuksiset talonpojat ovat kovin samankaltaisia kuin nuoret "
+"ihmiset muuallakin Wesnothissa: ajattelemattomia, tärkeileviä ja innokkaita "
+"tutkimaan."
+
+#. [female]
+#: data/campaigns/Liberty/units/Villagers.cfg:82
+msgid "female^Peasant Youth"
+msgstr "Neitokainen"
+
+#. [unit_type]: id=Outlaw_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:96
+msgid "Watchman"
+msgstr "Vahtimies"
+
+#. [unit_type]: id=Outlaw_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:101
+msgid ""
+"The watchmen are men and women who protect the villages from marauders, both "
+"human and otherwise, that prowl the Wesnoth countryside at night."
+msgstr ""
+"Vahtimiehet ovat miehiä ja naisia, jotka suojelevat kylää Wesnothin "
+"maaseuduilla öisin kuljeskelevilta ihmis- ja muilta ryöstelijöiltä."
+
+#. [female]
+#: data/campaigns/Liberty/units/Villagers.cfg:103
+msgid "female^Watchwoman"
+msgstr "Vahtinainen"
+
+#. [unit_type]: id=Fugitive_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:117
+msgid "Borderer"
+msgstr "Rajavartija"
+
+#. [unit_type]: id=Fugitive_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:122
+msgid ""
+"Border villages maintain militias dedicated to fending off hostiles. While "
+"these borderers are not trained and armed to up to military standards, their "
+"native toughness and knowledge of local conditions make them formidable on "
+"their home ground."
+msgstr ""
+"Rajakylät ylläpitävät miliisiä, joka on omistautunut kitkemään "
+"vastahakoisuudet. Vaikka nämä rajavartijat eivät ole koulutettuja ja "
+"aseistettuja sotaväen standardien mukaan, niiden luontainen sisukkuus ja "
+"paikallistietämys tekevät heistä varteenotettavia kotikentillään."
+
+#. [female]
+#: data/campaigns/Liberty/units/Villagers.cfg:124
+msgid "female^Borderer"
+msgstr "Rajavartijatar"
+
+#. [unit_type]: id=Poacher_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:143
+msgid "Peasant Hunter"
+msgstr "Metsäläinen"
+
+#. [unit_type]: id=Poacher_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:146
+msgid ""
+"Villages, especially in wilder areas near frontiers, rely on hunters to "
+"bring in much of their food supply. Their stealth and intimate knowledge of "
+"local terrain can be valuable assets in combat."
+msgstr ""
+"Kylät, erityisesti villimmillä seuduilla lähellä rajoja, luottavat "
+"ruokavarastonsa lähes kokonaan metsäläisten käsiin. Metsäläisten "
+"hiiviskelytaito ja paikallisen maaston tuntemus voivat olla arvokkaita etuja "
+"taisteluissa."
+
+#. [unit_type]: id=Trapper_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:159
+msgid "Peasant Trapper"
+msgstr "Ansantekijä"
+
+#. [unit_type]: id=Trapper_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:163
+msgid ""
+"Trappers are skilled hunters who supply food and furs for several villages. "
+"Their hunting experience makes them most valuable at night and in forests "
+"and swamps."
+msgstr ""
+"Ansantekijät ovat taitavia metsästämään, ja heiltä useat kyläläiset "
+"saavatkin muonavaroja ja turkiksia. Heidän metsästyskokemuksensa tekee "
+"heistä kaikkein arvokkaimpia yöaikaan metsissä ja soilla."
+
+#. [unit_type]: id=Huntsman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:176
+msgid "Peasant Huntsman"
+msgstr "Metsäinmies"
+
+#. [unit_type]: id=Huntsman_Peasant
+#: data/campaigns/Liberty/units/Villagers.cfg:181
+msgid ""
+"Huntsmen have spent their lives in the backwoods and swamps of their "
+"wilderness homes. They can bullseye wamprats and track anything that moves "
+"in their territory."
+msgstr ""
+"Metsäinmiehet ovat viettäneet elämänsä villien kotiseutujensa rämeiköissä ja "
+"soilla. He voivat yllättää typeryksiä ja jäljittää mitä tahansa, mikä "
+"liikkuu heidän alueellaan."
+
+#. [object]: id={ID}
+#: data/campaigns/Liberty/utils/utils.cfg:62
+msgid "Holy Ankh"
+msgstr "Pyhä Ankh"
+
+#. [object]: id={ID}
+#: data/campaigns/Liberty/utils/utils.cfg:65
+msgid ""
+"You find a hefty pendant on a strange and ominous looking altar. It glows "
+"brightly when you pick it up!"
+msgstr ""
+"Löydät raskaan riipuksen oudolta pahaenteiseltä näyttävältä alttarilta. Se "
+"hohtaa kirkkaasti kun nostat sen!"
+
+#. [object]: id={ID}
+#: data/campaigns/Liberty/utils/utils.cfg:66
+msgid ""
+"There is a strange altar here and a pendant on it. I don't want to touch it."
+msgstr "Täällä on outo alttari ja riipus sen päällä. En halua koskea sitä."
+
+#. [effect]: type=arcane
+#: data/campaigns/Liberty/utils/utils.cfg:79
+msgid "holy ankh"
+msgstr "pyhä ankh"
+
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/utils/utils.cfg:129
+msgid "Tell my wife... that I loved her!"
+msgstr "Kerro vaimolleni... että rakastin häntä!"
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/utils/utils.cfg:144
+msgid "Unngh... Now our people may never be free..."
+msgstr "Unngh... Nyt kansamme ei ikinä saa olla vapaa..."
+
+#. [message]: speaker=Relnan
+#: data/campaigns/Liberty/utils/utils.cfg:158
+msgid "I am finished... will we ever be free?"
+msgstr "Minut on lyöty... Vapaudummeko koskaan?"
+
+#. [message]: speaker=Lord Maddock
+#: data/campaigns/Liberty/utils/utils.cfg:172
+msgid "How can this be? We have lost."
+msgstr "Kuinka tässä nyt näin kävi? Olemme hävinneet."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/utils/utils.cfg:188
+msgid ""
+"They returned to their village to find it destroyed, with those who fought "
+"left dead and the few survivors born away to unguessable fates. It was a "
+"bitter doom, but as Asheviere's grip tightened they would live to see worse."
+msgstr ""
+"He palasivat takaisin kyliinsä vain löytääkseen ne tuhotuiksi, "
+"vastaantaistelleet jätettyinä kuolemaan ja muutaman omituisten kohtaloiden "
+"kautta eloonjääneen. Se oli karvas kohtalo, mutta Ashevieren ote tiukkeni "
+"koko ajan ja he näkisivät tulevaisuudessa pahempaa. "
+
+#~ msgid "Translators"
+#~ msgstr "Kääntäjät"
+
+#~ msgid ""
+#~ "Goblins do not do well without their leaders. If we can kill this one, it "
+#~ "may take the fight out of the rest."
+#~ msgstr ""
+#~ "Hiisillä ei suju hyvin ilman johtajiaan. Jos voimme kukistaa tämän, ehkä "
+#~ "loppuja vastaan ei tarvitsisi taistella edes tosissaan."
+
+#~ msgid ""
+#~ "Each village has a group of highly capable fighters dedicated to fending "
+#~ "off orc raids. Some of these join the Wesnoth army, while others join the "
+#~ "core of the village's patrol."
+#~ msgstr ""
+#~ "Jokaisella kylällä on ryhmä hyvin taitavia taistelijoita, jotka ovat "
+#~ "omistautuneet örkkien ryöstöretkien torjumiseen. Jotkut heistä liittyvät "
+#~ "Wesnothin armeijaan, kun taas toiset ovat kylän partion ydin."
+
+#, fuzzy
+#~ msgid "Amman"
+#~ msgstr "tarkk'ampuja"
+
+#~ msgid "Dusk"
+#~ msgstr "ilta"
+
+#~ msgid "leadership"
+#~ msgstr "johtaja"
+
+#~ msgid "blade"
+#~ msgstr "viilto"
+
+#, fuzzy
+#~ msgid "fire"
+#~ msgstr "lävistys"
+
+#~ msgid "marksman"
+#~ msgstr "tarkk'ampuja"
+
+#~ msgid "impact"
+#~ msgstr "murskaus"
+
+#, fuzzy
+#~ msgid "magic-missile"
+#~ msgstr "tulipallo"
+
+#~ msgid "cold"
+#~ msgstr "kylmä"
+
+#~ msgid "club"
+#~ msgstr "puunuija"
+
+#~ msgid "magical"
+#~ msgstr "maaginen"

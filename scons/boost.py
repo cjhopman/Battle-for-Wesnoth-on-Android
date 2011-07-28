@@ -1,0 +1,137 @@
+# vi: syntax=python:et:ts=4
+from config_check_utils import *
+from os.path import join, dirname, basename
+from glob import glob
+import re
+
+def find_boost(env):
+    prefixes = [env["prefix"], "C:\\Boost"]
+    include = find_include(prefixes, "boost/config.hpp", "", not env["host"])
+    if include:
+        prefix, includefile = include[0]
+        env["boostdir"] = join(prefix, "include")
+        env["boostlibdir"] = join(prefix, "lib")
+        if not env.get("boost_suffix"):
+            if glob(join(prefix, "lib", "libboost_*-mt.*")):
+                env["boost_suffix"] = "-mt"
+            else:
+                env["boost_suffix"] = ""
+        return
+    includes = find_include(prefixes, "boost/config.hpp", "boost-*")
+    if includes:
+        versions = []
+        for prefix, includefile in includes:
+            try:
+                versions.append(map(int, re.findall(r"^boost-(\d*)_(\d*)$", basename(dirname(dirname(includefile))))[0]))
+            except IndexError:
+                versions.append((0,0))
+        version_nums = map(lambda (major, minor): 100000 * major + 100 * minor, versions)
+        include_index = version_nums.index(max(version_nums))
+        prefix, includefile = includes[include_index]
+        version = versions[include_index]
+        env["boostdir"] = join(prefix, "include", "boost-" + str(version[0]) + "_" + str(version[1]))
+        env["boostlibdir"] = join(prefix, "lib")
+        if not env.get("boost_suffix"):
+            libs = glob(join(prefix, "lib", "libboost_*"))
+            for lib in libs:
+                try:
+                    env["boost_suffix"] = re.findall(r"libboost_\w*(-.*%d_%d)" % tuple(version), lib)[0]
+                    break
+                except:
+                    pass
+
+def CheckBoost(context, boost_lib, require_version = None, header_only = False):
+    env = context.env
+    if require_version:
+        context.Message("Checking for Boost %s library version >= %s... " % (boost_lib, require_version))
+    else:
+        context.Message("Checking for Boost %s library... " % boost_lib)
+
+    if not env.get("boostdir", "") and not env.get("boostlibdir", ""):
+        find_boost(env)
+    boostdir = env.get("boostdir", "")
+    boostlibdir = env.get("boostlibdir", "")
+    backup = env.Clone().Dictionary()
+
+    boost_headers = { "regex" : "regex/config.hpp",
+                      "iostreams" : "iostreams/constants.hpp",
+                      "unit_test_framework" : "test/unit_test.hpp",
+                      "system" : "system/error_code.hpp"}
+
+    header_name = boost_headers.get(boost_lib, boost_lib + ".hpp")
+    libname = "boost_" + boost_lib + env.get("boost_suffix", "")
+
+    if env["fast"]:
+        env.AppendUnique(CXXFLAGS = "-I" + boostdir, LIBPATH = [boostlibdir])
+    else:
+        env.AppendUnique(CPPPATH = [boostdir], LIBPATH = [boostlibdir])
+    if not header_only:
+        env.AppendUnique(LIBS = [libname])
+
+    test_program = """
+        #include <boost/%s>
+        \n""" % header_name
+    if require_version:
+        version = require_version.split(".", 2)
+        major = int(version[0])
+        minor = int(version[1])
+        try:
+            sub_minor = int(version[2])
+        except (ValueError, IndexError):
+            sub_minor = 0
+        test_program += "#include <boost/version.hpp>\n"
+        test_program += \
+            "#if BOOST_VERSION < %d\n#error Boost version is too old!\n#endif\n" \
+            % (major * 100000 + minor * 100 + sub_minor)
+
+    if boost_lib == "unit_test_framework":
+        test_program += """
+        boost::unit_test::test_suite* init_unit_test_suite ( int, char**)
+        {
+        }
+        \n"""
+
+    test_program += """
+        int main()
+        {
+        }
+        \n"""
+    if context.TryLink(test_program, ".cpp"):
+        context.Result("yes")
+        return True
+    else:
+        context.Result("no")
+        env.Replace(**backup)
+        return False
+
+def CheckBoostIostreamsGZip(context):
+    env = context.env
+    backup = env.Clone().Dictionary()
+
+    context.Message("Checking for gzip support in Boost Iostreams... ")
+    test_program = """
+        #include <boost/iostreams/filtering_stream.hpp>
+        #include <boost/iostreams/filter/gzip.hpp>
+
+        int main()
+        {
+            boost::iostreams::filtering_stream<boost::iostreams::output> filter;
+            filter.push(boost::iostreams::gzip_compressor(boost::iostreams::gzip_params()));
+        }
+        \n"""
+
+    for zlib in ["", "z"]:
+        env.Append(LIBS = [zlib])
+        comment = ""
+        if zlib:
+                comment = "        //Trying to link against '%s'.\n" % zlib
+        if context.TryLink(comment + test_program, ".cpp"):
+            context.Result("yes")
+            return True
+        else:
+            env.Replace(**backup)
+
+    context.Result("no")
+    return False
+
+config_checks = { "CheckBoost" : CheckBoost, "CheckBoostIostreamsGZip" : CheckBoostIostreamsGZip }

@@ -1,0 +1,1613 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-05-31 18:29+0200\n"
+"PO-Revision-Date: 2009-12-19 12:30+0100\n"
+"Last-Translator: Stanislav Hoferek <shoferek@gmail.com>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:11
+msgid "An Orcish Incursion"
+msgstr "Invázia orkov"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:12
+msgid "AOI"
+msgstr "IO"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:16
+msgid "(Beginner)"
+msgstr "(Ľahká)"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:16
+msgid "Fighter"
+msgstr "Vojak"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:17
+msgid "(Normal)"
+msgstr "(Normálna)"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:17
+msgid "Lord"
+msgstr "Šľachtic"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:18
+msgid "(Challenging)"
+msgstr "(Náročná)"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:18
+msgid "High Lord"
+msgstr "Veľmož"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:22
+msgid "(Novice level, 7 scenarios.)"
+msgstr "(Vhodné pre začiatočníkov, 7 máp)"
+
+#. [campaign]: id=An_Orcish_Incursion
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:22
+msgid ""
+"Defend the forests of the elves against the first orcs to reach the Great "
+"Continent, learning valuable tactics as you do so.\n"
+"\n"
+msgstr ""
+"Bráň lesy elfov proti orkom ktorí sa snažia dosiahnuť Veľký kontinent - "
+"naučíš sa pri tom cenné taktiky.\n"
+"\n"
+
+#. [about]
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:35
+msgid "Campaign Design"
+msgstr "Dizajn príbehu"
+
+#. [about]
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:41
+msgid "Adaptation for mainline"
+msgstr "Úprava na zaradenie do oficiálnej hry"
+
+#. [about]
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:47
+msgid "Post 1.4 story and gameplay improvements"
+msgstr "Vylepšenia príbehu a hrateľnosti po verzii 1.4"
+
+#. [about]
+#: data/campaigns/An_Orcish_Incursion/_main.cfg:53
+msgid "Editing, proofreading and gameplay testing"
+msgstr "Editovanie, opravy textov a testovanie hrateľnosti"
+
+#. [scenario]: id=1_Defend_the_Forest
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:9
+msgid "Defend the Forest"
+msgstr "Ubrániš les"
+
+#. [side]: type=Elvish Lord, id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:24
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:44
+msgid "Erlornas"
+msgstr "Erlornas"
+
+#. [side]: type=Elvish Lord, id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:31
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:27
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:29
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:29
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:49
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:27
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:33
+msgid "Elves"
+msgstr "Elfovia"
+
+#. [side]: type=Orcish Warrior, id=Urugha
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:42
+msgid "Urugha"
+msgstr "Uruga"
+
+#. [side]: type=Lich, id=Keremal
+#. [side]: type=Orcish Slayer, id=Gharlsa
+#. [side]: type=Orcish Sovereign, id=Rualsha
+#. [side]: type=Orcish Warlord, id=Krughnar
+#. [side]: type=Orcish Warlord, id=Gnargha
+#. [side]: type=Orcish Warrior, id=Urugha
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:48
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:43
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:44
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:69
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:36
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:85
+msgid "Orcs"
+msgstr "orkovia"
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:63
+msgid ""
+"The arrival of humans and orcs caused turmoil among the nations of the Great "
+"Continent. Elves, previously in uneasy balance with dwarves and others, had "
+"for centuries fought nothing more than an occasional skirmish. They were to "
+"find themselves facing conflicts of a long-forgotten intensity."
+msgstr ""
+"Príchod ľudí a orkov vyvolal pobúrenie obyvateľov Veľkého kontinentu. "
+"Elfovia, trpaslíci a ostatní, ktorí dosiahli medzi sebou mier a po storočia "
+"si zvykli na malé roztržky - skôr ozbrojené hádky - sa teraz museli "
+"pripravovať na vojnový konflikt nevídaných rozmerov."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:67
+msgid ""
+"Their first encounter with the newcomers went less well than either side "
+"might have wished."
+msgstr ""
+"Snáď najviac zasiahnutí boli elfovia. Stretnutie najstaršieho a "
+"najmúdrejšieho z rozumných národov neprebiehalo tak, ako by si obe strany "
+"želali."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:71
+msgid ""
+"But humans, though crude and brash, at least had in them a creative spark "
+"which elves could recognize as akin to their own nature. Orcs seemed "
+"completely alien."
+msgstr ""
+"Ale ľudia, aj keď suroví a útoční, aspoň v sebe mali iskru piesne "
+"odpustenia, ktorú elfovia považovali za spriaznenú. Ale s orkami to bolo "
+"inak."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:75
+msgid ""
+"For some years after Haldric's people landed, orcs remained scarce more than "
+"a rumor to trouble the green fastnesses of the elves. That remained so until "
+"the day that an elvish noble of ancient line, Erlornas by name, faced an "
+"enemy unlike any he had ever met before."
+msgstr ""
+"Veľa rokov po tom, ako sa Haldrikovi ľudia usadili, orkovia sa stali "
+"zriedkavejšími, než povery o nich v oblastiach elfov. Až do chvíle, kedy "
+"elfský šľachtic zo starobylého rodu, menom Erlornas, narazil na nového "
+"nepriateľa."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:81
+msgid ""
+"The orcs were first sighted from the north marches of the great forest of "
+"Wesmere."
+msgstr ""
+"Orkovia boli prvý krát zahliadnutí na severnom okraji veľkého lesa Wesmér."
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:97
+msgid ""
+"Hint:\n"
+"Elves can move quickly and safely among the trees. Pick off the enemy grunts "
+"with your archers from the safety of the forest."
+msgstr ""
+"Pomôcka:\n"
+"Elfovia sa môžu medzi stromami pohybovať rýchlo a bezpečne. Odstreľuj "
+"nepriateľov svojimi lukostrelcami z bezpečia lesa."
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:103
+msgid "Defeat Urugha"
+msgstr "Porazíš Urugu"
+
+#. [objective]: condition=lose
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:107
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:98
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:94
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:167
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:116
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:66
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:118
+msgid "Death of Erlornas"
+msgstr "Zomrie Erlornas"
+
+# { CS }
+# Vyprší počet kol
+#. [objective]: condition=lose
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:111
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:102
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:98
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:171
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:124
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:74
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:122
+msgid "Time runs out"
+msgstr "Vyprší čas"
+
+#. [event]
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:116
+msgid "Lomarfel"
+msgstr "Lomarfel"
+
+#. [message]: id=Lomarfel
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:124
+msgid ""
+"My lord! A party of aliens has made camp to the north and lays waste to the "
+"forest. Our scouts believe it's a band of orcs."
+msgstr ""
+"Môj pane! Skupina cudzincov sa usadila na severe, kde si vytvorili tábor. "
+"Ničia naše lesy! naši prieskumníci tvrdia, že by to mohli byť orkovia."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:128
+msgid ""
+"Orcs? It seems unlikely. The human king, Haldric, crushed them when they "
+"landed on these shores, and since then they've been no more than a bogey "
+"mothers use to scare the children."
+msgstr ""
+"Orkovia? tak to ťažko. kráľ ľudí, Haldrik, ich porazil na pobreží. Odvtedy "
+"sú to už len bájky na strašenie detí."
+
+#. [message]: id=Lomarfel
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:132
+msgid ""
+"So it seemed, my lord. Yet there is a band of them in the north cutting down "
+"healthy trees by the dozen, and making great fires from the wood. They "
+"trample the greensward into mud and do not even bury their foul dung. I "
+"believe I can smell the stench even here."
+msgstr ""
+"Malo by to tak byť, môj pane, no tí na severe ničia zdravé stromy po tuctoch "
+"a zakladajú veľké ohne. Ostáva po nich len bahno a popol. Myslím, že to "
+"cítim ešte aj teraz."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:136
+msgid ""
+"So the grim tales of them prove true. They must not be allowed to continue; "
+"we must banish this blight from our forests. I shall marshal the wardens and "
+"drive them off. And the Council needs to hear of this; take the message and "
+"return with reinforcements, there might be more of them."
+msgstr ""
+"Takže temné príbehy sú skutočnosťou. Nemôžu v tom pokračovať. Musíme očistiť "
+"les od tejto pohromy. Zhromaždím stráže a vyženieme ich. Taktiež veľká rada "
+"by o tomto mala vedieť. Pošli im správu a prines posily, môže ich tu byť "
+"viac. A ak ich bude, naši hraničiari budú mať prácu."
+
+#. [message]: id=Lomarfel
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:140
+msgid "Yes, my lord!"
+msgstr "Áno, môj pane!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:157
+msgid ""
+"Look at them. Big, slow, clumsy and hardly a bow in hand. Keep to the trees, "
+"use your arrows and the day will be ours."
+msgstr ""
+"Len sa na nich pozrite. Veľkí, pomalí, ťažkopádni. Ideálne ciele pre naše "
+"šípy. Do lesov, pripravíme im bolestivé privítanie - a deň bude náš!"
+
+#. [message]: race=elf
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:166
+msgid "It's hopeless; we've tried everything, and they're still coming back."
+msgstr "Je to beznádejné. už sme skúsili všetko, no stále prichádzajú ďalší."
+
+#. [message]: id=Urugha
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:170
+msgid ""
+"Forward, you worthless worms! Look at them, they're tired and afraid! You "
+"killed their will to fight, now go and finish the job!"
+msgstr ""
+"Dopredu, vy lenivé červy! len sa na nich pozrite, ako sa boja. Klepú zubami "
+"od strachu! Už nám stačí len dosekať tie ich fajnové plášte!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:174
+msgid ""
+"That cloud of dust on the horizon... flee! There's more of the abominations "
+"heading this way! Fall back before we're outnumbered and crushed."
+msgstr ""
+"Ten oblak prachu... ústup! Je tu oveľa viac tých stvorení, ktoré nás môžu "
+"rozdrviť na prach! Rýchlo, kým nás neprečíslia či rovno neobkľúčia."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:178
+msgid ""
+"Lord Erlornas didn't drive the orcs back, although he and his warriors tried "
+"their absolute best. When another war band arrived, elvish resistance "
+"crumbled."
+msgstr ""
+"Lord Erlornas nezatlačil orkov preč, aj keď sa on i jeho bojovníci pokúšali "
+"o nemožné. Ďalšia vlna definitívne zlomila ich odpor."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:183
+msgid ""
+"Of the ensuing events little is known, since much was lost in the chaos and "
+"confusion, but one thing is painfully sure. Elves lost the campaign."
+msgstr "Po zložitých udalostiach je istá len jedna vec - kampaň elfov zlyhala."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:196
+msgid "Ugh..."
+msgstr "Sakra..."
+
+#. [message]: id=Urugha
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:200
+msgid "Finally! Got him!"
+msgstr "Konečne! Máme ho!"
+
+#. [message]: race=elf
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:207
+msgid "Lord!"
+msgstr "Šľachtic"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:211
+msgid "Take...command... Drive them...away."
+msgstr "Pripravme sa, najvyšší čas ich vyhnať odtiaľto!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:215
+msgid ""
+"Lord Erlornas died the day he first fought the orcs and never saw the end of "
+"the war. Given its final outcome, this was perhaps for the best."
+msgstr ""
+"Lord Erlornas padol v bitke s orkami a nikdy sa nedočkal konca vojny. Zomrel "
+"však v najlepšom boji za záchranu svojho národa."
+
+#. [message]: speaker=unit
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:227
+msgid ""
+"I've been bested, but the combat wasn't fair...a thousand curses on you, "
+"withered coward! May you suffer...and when my master, Rualsha, finds you may "
+"he wipe your people from the face of this earth!"
+msgstr ""
+"Buď prekliaty, ty milenec stromov! Budeš trpieť... Môj pán Rualša sa blíži. "
+"Zmietne tvoj ľud z povrchu tejto zeme!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/1_Defend_the_Forest.cfg:238
+msgid ""
+"Rualsha? Hmm... What if... Assemble a war-party, we need to scout north!"
+msgstr "Rualša? Hmmm... čo ak... pripravte sa družina, pôjdeme na sever!"
+
+#. [scenario]: id=2_Assassins
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:9
+msgid "Assassins"
+msgstr "Zabijaci"
+
+#. [side]: type=Orcish Slayer, id=Gharlsa
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:38
+msgid "Gharlsa"
+msgstr "Garlša"
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:70
+msgid ""
+"The path of the orcish war band was easy to follow - a wide swathe of "
+"trampled ground through violated forest. Erlornas and his party swiftly "
+"followed it north and west."
+msgstr ""
+"Stopa orkov sa dala ľahko sledovať -- pás škaredej udupanej zeme vedúci cez "
+"zničený les. Erlornas a jeho družina podľa neho postupovali na sever a západ."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:74
+msgid ""
+"Soon they arrived at a region where the forest was cut through by many "
+"streams, only to find something unexpected."
+msgstr ""
+"Zanedlho sa dostali do kraja, kde na mieste bohatých lesov boli pováľané "
+"stromy a medzi nimi vyšľapané cesty. Tu našla Erlornasova skupina niečo "
+"neočakávané."
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:88
+msgid ""
+"Hint:\n"
+"Assassins are hard to hit, and their poison is insidious. Stay close to the "
+"villages, where poisoning can be cured, and force your enemies to attack you "
+"from the river."
+msgstr ""
+"Pomôcka:\n"
+"Zabijaci sú ťažko zasiahnuteľní a ich jed je zákerný. Zostaň blízko pri "
+"dedinách, kde môže byť otrávenie vyliečené a donúť svojich nepriateľov k "
+"útoku z rieky."
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:94
+msgid "Defeat Gharlsa"
+msgstr "Porazíš Garlšu"
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:124
+msgid "The trail leads straight to this place, my lord."
+msgstr "Smradľavá stopa orkov vedie priamo sem., môj pane."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:128
+msgid ""
+"There is a keep ahead of us. How comes it that we know nothing of it? I "
+"thought our borders were watched more carefully."
+msgstr ""
+"Pred nami je pevnosť. Ako je to možné že o nej nič nevieme? Myslel som, že "
+"naše hranice sú strážené oveľa lepšie."
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:132
+msgid ""
+"I... I know not, my lord. For ages there was no one in these lands that "
+"could build such a thing save us. I fear we have fallen prey a false sense "
+"of security that has injured the vigilance of our scouts."
+msgstr ""
+"Ja... ja neviem, môj pane. Po celé veky tu nebol nikto iný na tomto území. "
+"Obávam sa, že naši strážcovia hraníc podcenili možné nebezpečenstvá."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:136
+msgid "When the fighting ends, I'll have some answers. But for now..."
+msgstr ""
+"Keď skončí tento boj, tak sa k niekoľkým odpovediam dostaneme. No pre "
+"teraz..."
+
+#. [message]: id=Gharlsa
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:140
+msgid "Gharlsa sees elves...yes...fresh meat for wolves. Yes, yes..."
+msgstr "Garlša vidí elfov... áno... čerstvé mäso pre našich vlkov, áno, áno..."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:144
+msgid "...let's focus on the task at hand."
+msgstr "... sústreďme sa na úlohu, ktorá je priamo pred nami."
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:148
+msgid "Does that demented creature truly believe he can kill us?"
+msgstr "Naozaj si ten pomätený tvor myslí, že nás môže zabiť? Dáme mu príučku!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:152
+msgid "Appearances can be deceiving. Tell the men to be cautious."
+msgstr "Zjavenia môžu byť na oklamanie. Povedz mužom, nech sú ostražití."
+
+#. [message]: id=Gharlsa
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:163
+msgid "Yes...yes...slay them!"
+msgstr "Áno... áno... zabite ich, moji vrahovia!"
+
+#. [message]: speaker=unit
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:174
+msgid "Hurts...failed...Rualsha gonna be angry... "
+msgstr "Auuuu! Skla... sklamal som... Rualša... hnev..."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:185
+msgid ""
+"This...Rualsha again. We need to forge ahead; the answers we seek are not "
+"here. Perhaps we will find them further north."
+msgstr ""
+"Nech je Rualša ktokoľvek, nie je tu aby ju vykonal, úbožiak. Možno ho ale "
+"nájdeme ďalej na severe."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/2_Assassins.cfg:189
+msgid ""
+"Destroy this place and let the forest take the ruins. We don't want any more "
+"undesirables to use it."
+msgstr ""
+"Zničme toto miesto a dovoľme lesu zabrať tie ruiny. Nechceme aby nikdy nikto "
+"nepoužíval toto opevnenie."
+
+#. [scenario]: id=3_Wasteland
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:9
+msgid "Wasteland"
+msgstr "Pustina"
+
+#. [side]: type=Orcish Warlord, id=Gnargha
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:38
+msgid "Gnargha"
+msgstr "Gnarga"
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:58
+msgid ""
+"As they fared further north the green forest thinned around them, slowly "
+"fading into a barren and fallow country. The signs were obvious and "
+"unmistakable - tree stumps, an occasional half-rotten tree felled long ago, "
+"and dead wood around them in scarce grass. This had been forest once, like "
+"the woods they called home. It had been murdered."
+msgstr ""
+"Ako postupovali ďalej na sever, zelený les redol a nakoniec sa zmenil na "
+"pustú krajinu posiatu pozostatkami zničených stromov. Tu kedysi rástol les. "
+"Orkovia ho zničili."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:62
+msgid ""
+"There was no trail to be found here; wind and rain had erased the spoor. "
+"Fortunately, there was no need of a trail; smoke on the horizon betrayed the "
+"presence of their enemies."
+msgstr ""
+"Nenašli sa žu žiadne stopy; vietor a dážď zamietli stopy. Našťastie však nie "
+"sú potrebné - pozrite na ten dym! Niekto sa musí pri ňom zohrievať, určite "
+"orkovia."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:66
+msgid ""
+"Erlornas was near-certain they would find orcs there. No clan of dwarves "
+"would break their ancient treaties with the elves in this way; humans were "
+"never so...methodical in their destruction, and did not travel in "
+"sufficiently large numbers in a north country they found too cold and damp "
+"for comfort. The great question remained - would he find Rualsha?"
+msgstr ""
+"Erlornas si bol takmer istý, že nájde orkov na tomto mieste. Žiadny kmeň "
+"trpaslíkov by sa neodvážil vniknúť na ich územie. Ľudia by tu nemali čo "
+"hľadať a určite by sa nesprávali k lesu práve takto. Otázka však ostáva - "
+"kde nájdeme Rualšu?"
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:70
+msgid ""
+"Perhaps, but not here. The tribe this camp housed was too small to impress "
+"fear on other orcs. Come next morning, the elves were prepared for battle."
+msgstr ""
+"Možno sa ho nájsť podarí, no tu nie. Táto skupina je príliš malá na to, aby "
+"predstavovala postrach pre ostatné kmene. Prišlo ďalšie ráno, a elfovia boli "
+"pripravený na bitku."
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:84
+msgid ""
+"Hint:\n"
+"There are no villages in this scenario - you must use healers instead. Use "
+"hit-and-run tactics to weaken enemy units who cannot heal themselves."
+msgstr ""
+"Pomôcka:\n"
+"V tomto príbehu nie sú žiadne dediny - musíš namiesto nich použiť "
+"liečiteľov. Použi taktiku \"zaútoč a uteč\" k oslabeniu nepriateľských "
+"jednotiek, ktoré sa nemôžu liečiť."
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:90
+msgid "Defeat Gnargha"
+msgstr "Porazíš Gnargu"
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:168
+msgid ""
+"Lord... I'm... I am filled with grief. This senseless destruction is... "
+"overwhelming."
+msgstr ""
+"Pane... som... som znechutený. Celé územie podľahlo skaze. Je jednoducho "
+"všade."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:172
+msgid ""
+"Yes. And this is the threat we were blind to but are now facing. This tribe "
+"is small, yet we must drive them back to the north. They must have no "
+"footholds south of the hills."
+msgstr ""
+"Áno, je tomu tak. A toto je práve situácia, keď ich musíme zahnať nazad na "
+"sever. Určite nemajú žiadne iné opevnenie na juh od hôr."
+
+#. [message]: id=Gnargha
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:176
+msgid ""
+"Elves!? This means Urugha failed and his spirit will suffer greatly for his "
+"weakness. So be it!"
+msgstr ""
+"Elfovia!? To ale znamená, že Urugha padol a jeho duša trpí za jeho slabosť. "
+"Budiž tomu tak!"
+
+#. [message]: id=Gnargha
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:180
+msgid ""
+"Rise up, grunts! We have a great fight upon us! Let your rage flow freely! "
+"Let your blades slay all! First one to draw blood will feast by my fire this "
+"night!"
+msgstr ""
+"Vstávajte vy banda lenivá! Máme tu poriadny boj pred nami! Nech vaša "
+"zúrivosť rozseká elfov na kusy! nech ich vaše čepele rozsekajú na maĺé "
+"kúsočky! Kto prvý zabije nejakého elfa, tomu bude patriť najlepšie mäso túto "
+"noc!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:184
+msgid ""
+"Aim true, men, with wit and courage the day will be ours. And spare no-one, "
+"there can be no orc south of the hills, else we'll never have peace again."
+msgstr ""
+"Poriadne mierne, nech vaša odvaha nesklame. Nikoho neušetrite, nesmie prežiť "
+"ani jeden ork na juh od hôr, inak tu nikdy nebude znovu mier."
+
+#. [message]: id=Gnargha
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:196
+msgid "You won... Elf... But it changes... Nothing... (*cough*)"
+msgstr "Vyhral si... elf... no to nič nemení... vôbec nič!"
+
+#. [message]: id=Gnargha
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:200
+msgid ""
+"We found the way... Now... We will come in numbers... (*cough*) You can't "
+"imagine..."
+msgstr ""
+"Našli sme cestu... teraz... príde nás veľa, veľmi veľa... ani si nevieš "
+"predstaviť koľko..."
+
+#. [message]: id=Gnargha
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:204
+msgid "(*cough*) I'll be waiting... Among the dead..."
+msgstr "Počkám si... spolu s mŕtvymi..."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:215
+msgid ""
+"The orcish chieftain finally fell, overcome by his wounds. The elves found "
+"themselves in a half-ruined camp littered with the bodies of both sides, "
+"there was no hale orc in sight, nor did any of the wounded beg mercy. The "
+"elves took no prisoners."
+msgstr ""
+"Vodca orkov konečne padol, zranený na celom tele. Elfovia sa ocitli v "
+"polorozpadnutom tábore pokrytom mŕtvolami obidvoch strán. Žiadny ork "
+"neprosil o zľutovanie a elfovia nebrali žiadnych zajatcov."
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:231
+msgid ""
+"It's done, lord. No-one escaped. No-one tried to escape. I'm... disturbed."
+msgstr "Je to hotové, pane. Nikto neutiekol. Nikto sa o útek ani nepokúšal. "
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:235
+msgid ""
+"Good. But their disregard for self-preservation is astounding. As is their "
+"ferocity when defending what they claim as their own. Have the scouts found "
+"others this side of the hills?"
+msgstr ""
+"Výborne. Ich pohŕdanie vlastným životom je až neuveriteľné. Taktiež ich "
+"dravosť pri obrane. Našli niekoho naši prieskumníci na tejto strane hôr?"
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:239
+msgid ""
+"No, lord. But trolls were spotted in the hills ahead. Do we really need to "
+"cross them to the north?"
+msgstr ""
+"Nie, môj pane. No narazili sme na trolov. Určite chcete pokračovať na sever?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:243
+msgid ""
+"Yes. The council has spoken to me through a dream-sending. They are "
+"troubled. Reinforcements have been sent after us, but we need to press on. "
+"Tell the men to rest, we'll move out at dawn."
+msgstr ""
+"Áno, musíme pokračovať. Veľká rada ku mne prehovorila prostredníctvom sna. "
+"Sú z toho utrápení. Posielajú nám posili, no my musíme pokračovať. "
+"Odpočinieme si iba do svitania, potom musíme pokračovať smerom na sever."
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:253
+msgid ""
+"What about the loot lord? We found supplies worth over a hundred gold in the "
+"camp."
+msgstr ""
+"Čo urobíme s korisťou? Našli sme zásoby po celom tábore aj so stovkou "
+"zlatých mincí."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:257
+msgid ""
+"Distribute some among the men, save the rest for the road. This country is a "
+"wasteland now; we won't find much forage on the march."
+msgstr ""
+"Rozdajte časť chlapom, zvyšok zoberme so sebou. Krajina je zdevastovaná, "
+"nenájdeme veľa jedla po ceste."
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:273
+msgid ""
+"We found some supplies when searching the camp, but nothing much. What is to "
+"be done with them?"
+msgstr ""
+"Našli sme nejaké suroviny pri prehľadaní tábora, no žiadna sláva. Čo s nimi "
+"urobíme?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:277
+msgid ""
+"Save it for the march north. There is little to be found in this barren "
+"country."
+msgstr ""
+"Uchovajme ich pre náš dlhý pochod na sever. V tejto krajine toho teraz veľa "
+"nenájdeme."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:305
+msgid ""
+"Lord Erlornas never saw the blade that felled him. He died on the spot, with "
+"no a chance to issue last commands or farewells. Without him his wardens "
+"soon fell into confusion, and losing heart withdrew from the battle."
+msgstr ""
+"lord Erlornas nikdy nevidel čepeľ ktorá ho zabila. Zomrel na mieste, bez "
+"šance na posledné rozkazy. Bez neho sa jeho družina rozpŕchla a zachránila "
+"sa jedine útekom."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:310
+msgid ""
+"When reinforcements finally arrived, elves managed to dislodge the orcish "
+"tribe. But the threat from the north remained unresolved and loomed large "
+"over their future."
+msgstr ""
+"Keď konečne dorazili posily, elfovia sa postavali o vytlačenie kmeňov orkov. "
+"Hrozba útokov zo severu však ostala nevyriešená a bola aktuálna ešte po dlhú "
+"dobu."
+
+#. [message]: role=Adviser
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:320
+msgid "We can't carry on Lord, the men are to tired. We have to fall back."
+msgstr "Nemôžeme pokračovať, muži sú unavení. Musíme sa stiahnuť."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:324
+msgid "Damn it. Sound the retreat, we'll try again when reinforcements arrive."
+msgstr "Dočerta! Zatrúb na ústup, pokúsime sa o to znovu po príchode posíl."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:328
+msgid ""
+"The expected relief caught up with them a few days later. The following "
+"morning they took the field against a far larger host of orcs. The battle "
+"ended in a draw; the war raged on for years..."
+msgstr ""
+"Na ďalšie ráno sa vybrali na bojisko proti oveľa väčšiemu množstvu orkov. "
+"Bitka skončila nerozhodne a vojna sa tiahla po dlhé roky..."
+
+#. [scenario]: id=4_Valley_of_Trolls
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:9
+msgid "Valley of Trolls"
+msgstr "Údolie trollov"
+
+#. [side]: type=Troll, type=Troll Warrior, id=Gurk
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:40
+msgid "Gurk"
+msgstr "Gurk"
+
+#. [side]: type=Troll, type=Troll Warrior, id=Gurk
+#. [side]: type=Troll, type=Troll Warrior, id=Hrugu
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:52
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:90
+msgid "Trolls"
+msgstr "Trolovia"
+
+#. [side]: type=Troll, type=Troll Warrior, id=Hrugu
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:79
+msgid "Hrugu"
+msgstr "Hrugu"
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:121
+msgid ""
+"Next morning, the elves set off again, increasingly wearied by the hardships "
+"of the campaign and longing for the green comfort of their home forests. "
+"This land was barren and rugged; nothing shielded them from biting northern "
+"wind as they traveled towards the mountains looming before them."
+msgstr ""
+"Ďalšie ráno elfovia znovu vyrazili, poriadne vyčerpaní dlhým ťažením a "
+"zväčšujúcou sa túžbou po návrat do rodných zelených lesov. Táto krajina bola "
+"pustá a zničená; nič ich nechránilo pred severným vetrom, keď postupovali "
+"smerom ku horám, ktoré sa rysovali pred nimi."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:125
+msgid ""
+"At dusk they arrived at the mouth of a valley cutting almost straight "
+"through the range and made camp, as scouts warned that the area was hostile "
+"and the road ahead treacherous in darkness. There were no songs or music "
+"that night and most of the elves slept uneasily. An unlucky few kept a "
+"cautious watch."
+msgstr ""
+"Za súmraku dorazili k ústiu doliny  a rozbili tábor. Ako skauti varovali, "
+"oblasť bola nepriateľská a na cesta vpred bola zradná v tme. Nespievali sa "
+"žiadne piesne tej noci a väčšina elfov spala nepokojne. Až príliš málo ich "
+"bolo na stráži."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:129
+msgid ""
+"When sunrise came, the elves moved into battle formations. Whatever waited "
+"in the slopes ahead, it would not find them unprepared."
+msgstr ""
+"Keď prišlo ráno, elfovia sa presunuli do formácií. Nech už na nich číhalo "
+"čokoľvek, elfovia sa pripravili na všetko."
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:157
+msgid ""
+"Hint:\n"
+"Trolls are poor fighters when not on rugged terrain and fare even worse "
+"during the daytime. Lure them out of the hills and attack in the sunlight."
+msgstr ""
+"Rada:\n"
+"Trolovia sú slabí, keď bojujú na rovine a ešte slabší sú počas dňa. Dostaň "
+"ich z hôr a zaútoč na nich počas dňa."
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:163
+msgid "Defeat all enemy leaders"
+msgstr "Porazíš všetkých nepriateľských veliteľov"
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:193
+msgid ""
+"We are far from our lands, now, Erlornas, and we have driven the orcs from "
+"the forest. Why do we not return home?"
+msgstr ""
+"Sme ďaleko od našich zemí, Erlornas. Zahnali sme orkov z lesa. Prečo sa teda "
+"nevrátime domov?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:197
+msgid ""
+"You know well enough... Rualsha. That name sounds everywhere we go since the "
+"incursion began. That orc is much more than a mere marauding bandit in "
+"search of pillage. And he wants this land. <i>Our</i> land. He is planning "
+"an invasion, I'm sure of it. We must gather more information about his plans "
+"before we go back."
+msgstr ""
+"Už sme o ňom počuli dosť... o tom Rualšovi. To meno počujeme kdekoľvek na "
+"orkov narazíme už od začiatku týchto útokov. Ten ork je určite niečo viac "
+"ako miestny bandit, ktorý by si chcel nakradnúť z našich zásob. On chce zem, "
+"<i>našu</i> zem! Plánuje inváziu, tým som si istý. Musíme zhromaždiť "
+"dostatok informácií o jeho plánoch skôr ako sa vrátime."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:201
+msgid "And tell me... How did you sleep last night?"
+msgstr "Ako si sa vyspal tejto noci?"
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:205
+msgid ""
+"How did I?... Uneasy, lord. My dreams were bleak, some of them nightmares."
+msgstr ""
+"Ako som sa vyspal? Veľmi zle, môj pane. Moje sny boli desivé, priamo až "
+"nočné mory."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:209
+msgid ""
+"Yes. The earth currents are perturbed here, and the bridges to the dreamland "
+"are tainted. I think there is a mage dwelling somewhere nearby. Or perhaps "
+"more than one; the traces are mixed, and some of them have an unwholesome "
+"flavor."
+msgstr ""
+"A je tu ešte niečo. Zemné prúdy sú tu narušené. Myslím že niekde nablízku "
+"prebýva mág. Alebo je ich možno viac; stopy sú zmiešané a niektoré z nich sú "
+"temné."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:213
+msgid ""
+"It would be dire indeed for us if these orcs have magic to add to their "
+"battle-might."
+msgstr ""
+"Bolo by pre nás skutočne zlé, keby orkovia k svojej bojovej sile pridali "
+"mágiu."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:217
+msgid "We must discover if this is so."
+msgstr "Musíme zistiť, či je to tak."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:221
+msgid ""
+"Information will do us no good if we are killed before we return with it! "
+"These mountains look like troll territory."
+msgstr ""
+"Informácie nám budú nanič, ak nás zabijú skôr ako sa s nimi vrátime! Tieto "
+"hory vyzerajú ako územie trolov."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:225
+msgid "Enough. The sun's fully over the horizon. Give the order to advance."
+msgstr "Stačilo. Slnko je vysoko na oblohe. Pripravme sa na postup."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:242
+msgid ""
+"That was the last of the chieftains, lord. The lesser trolls seem to be "
+"retreating now."
+msgstr "To bol posledný vodca, pane. Menší trolovia začínajú ustupovať."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:246
+msgid ""
+"It is well. Break camp and move everyone through the pass before they rally. "
+"We'll rest a bit on the other side; we have earned it."
+msgstr ""
+"Dobre teda. Zložme tábor a presuňme všetkých cez priesmyk pred tým, ako sa "
+"zhromaždia. Oddýchneme si na ďalšej strane, zaslúžime si to."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:250
+msgid "At once. How much time do you think we have?"
+msgstr "Koľko máme podľa teba času?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:254
+msgid ""
+"A day, perhaps. We fought two clans today; they won't take long to rally. We "
+"need to be gone from here by sunset next."
+msgstr ""
+"Možno deň. Dnes sme bojovali s dvomi klanmi. Zanedlho sa znovu zhromaždia. "
+"Musíme sa odtiaľto pohnúť do ďalšieho západu slnka."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:273
+msgid "We have slain a chieftain! Take heart! This battle is almost won!"
+msgstr "Zabili sme vodcu! Už je takmer po bitke! Neustupujte!"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:294
+msgid "Ha! Me smashed da funny elf. Me got a trophy!"
+msgstr "Ha! Zabil som elfa! Trofej bude moja!"
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:298
+msgid "No! This can't be!"
+msgstr "Nie! Tomu neverím!"
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:302
+msgid ""
+"Soon after Erlornas died the elven party, lacking a leader and pressed from "
+"all sides, scattered and fled. Their retreat to Wesmere was arduous and long."
+msgstr ""
+"Nedlho po Erlornasovej smrti sa ostǘajúci elfovia roztratili a utiekli z "
+"bojísk. Ich návrat do wesmérskeho lesa bol náročný a dlhý."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:307
+msgid ""
+"During their retreat, the pass was crossed by another army moving in the "
+"opposite direction. Orcs were back south of the pass, and this time they "
+"were to stay for a long, long time."
+msgstr ""
+"Počas ich ústupu boli prekvapení ďalšou armádou, ktorá sa presúvala z "
+"opačnej strany. Orkovia boli zatlačení na juh priesmyku, kde ostali po veľmi "
+"dlhú dobu."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:317
+msgid ""
+"We can't get through, my Lord. These whelps are not individually very "
+"dangerous, but there are huge numbers of them."
+msgstr ""
+"Nemôžeme pokračovať cez nich, môj pane. Títo mladí trolovia síce nie sú "
+"veľmi silní, no je ich priveľa proti nám."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:321
+msgid ""
+"Four days of combat and nothing to show for it. How does it feel to you?"
+msgstr "Štyri dni boja a nič sa nezmenilo. Ako to podľa teba vyzerá?"
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:325
+msgid ""
+"Terrible, my lord. Never in my life did I dream I'd be bested by mere "
+"trolls. What are your orders?"
+msgstr ""
+"Veľmi zle, môj pane. Nikdy v živote som si nemyslel, že náš budú porážať "
+"trolovia. Aké sú vaše rozkazy?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:329
+msgid ""
+"Withdraw and make camp a safe distance from the hills. There is no further "
+"point in this fight. We'll wait for reinforcements."
+msgstr ""
+"Pripravme tábor v bezpečnej vzdialenosti od hôr a stiahnime sa tam. Nie je "
+"dôvod zdržiavať sa tu, musíme počkať na posily."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:333
+msgid ""
+"The reinforcements arrived a few days later, a crack force of rangers with "
+"some cavalry support. When they attempted the pass again, they found not "
+"trolls but something worse - an orcish army approaching from the north."
+msgstr ""
+"Posily dorazili o niekoľko dní, niekoľko hraničiarov s trochou jazdy. Keď sa "
+"pokúšali prejsť priesmykom, nenašli trolov. Našli však obrovskú armádu orkov "
+"presúvajúcich sa zo severu."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:338
+msgid ""
+"The battle that ensued was bloody and inconclusive, and the elven losses "
+"were only the beginning of the mournful toll in a war that would rage for "
+"many years after."
+msgstr ""
+"Bitka bola krvavá a neviedla k ničomu. Straty elfov neboli ničím oproti "
+"konfliktom, ktoré sužovali kraj po mnoho rokov."
+
+#. [scenario]: id=5_Linaera_the_Quick
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:9
+msgid "Linaera the Quick"
+msgstr "Linejra Rýchla"
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:24
+msgid ""
+"After a day of hard-earned rest the elves marched north again. This was "
+"unknown country, not frequented even by Wesmere's furthermost-faring scouts."
+msgstr ""
+"Po dni ťažko zaslúženého odpočinku sa elfovia vydali znovu na sever. Bola to "
+"neznáma krajina, len veľmi málo navštevovaná elfami z wesmérskeho lesa."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:28
+msgid ""
+"Two days' travel later, the forward scouts reported another orcish warband "
+"laying siege to a tower."
+msgstr ""
+"Po dvoch dňoch cesty narazili prieskumníci na ďalší kmeň orkov, ktorý "
+"obliehal osamotenú vežu."
+
+#. [part]
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:32
+msgid ""
+"Erlornas surveyed the siege from atop a small tree-covered hill overlooking "
+"the tower valley..."
+msgstr ""
+"Erlornas pozoroval obliehanie z malého kopca obrasteného stromami, z ktorého "
+"bol výhľad na celé údolie."
+
+#. [side]: type=Orcish Warlord, id=Krughnar
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:63
+msgid "Krughnar"
+msgstr "Krugnar"
+
+#. [side]: type=Silver Mage, id=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:90
+msgid "Linaera"
+msgstr "Linejra"
+
+#. [side]: type=Silver Mage, id=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:94
+msgid "Wizards"
+msgstr "Kúzelníci"
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:106
+msgid ""
+"Hint:\n"
+"Use Elven Scouts and Linaera's power of teleportation to mount hit-and-run "
+"attacks."
+msgstr ""
+"Pomôcka:\n"
+"Tento nepriateľ je príliš silný, aby si ho porazil sám. Použi jazdecké "
+"oddiely a Linejrinu schopnosť teleportácie k útokom jazdcov \"zaútoč a uteč"
+"\"."
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:112
+msgid "Defeat Krughnar and break the siege"
+msgstr "Porazíš Krugnara a zlomíš obliehanie"
+
+#. [objective]: condition=lose
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:120
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:70
+msgid "Death of Linaera"
+msgstr "Zomrie Linejra"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:147
+msgid "Report."
+msgstr "Podaj hlásenie."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:151
+msgid ""
+"A warband of orcs, no women or children among them, besieges a tower. It's "
+"of human design...but we are far from the lands granted to humans by treaty, "
+"my lord Erlornas."
+msgstr ""
+"Kmeň orkov, bez žien a detí, oblieha vežu. Vyzerá na dielo ľudských rúk... "
+"no sme ďaleko od zeme darovanej ľuďom zmluvou, môj pane."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:155
+msgid ""
+"Under the letter of the treaty, it is so. But this country is too cold and "
+"barren for us. I wonder, what manner of human would choose to live here, far "
+"from its kind? Hmmm..."
+msgstr ""
+"Podľa zmluvy by tu nikto nemal byť. Táto krajina je príliš chladná a "
+"opustená pre nás. Som zvedavý, aký človek sa tu rozhodol žiť, tak ďaleko od "
+"ostatných. Preskúmame to."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:159
+msgid "It trespasses, and should be driven out!"
+msgstr "Nemá tu čo hľadať a mal by byť vyhnaný!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:163
+msgid ""
+"Hold. It is only one human, or a few of them at most. Time enough to speak "
+"of driving it out when we have no enemies in common."
+msgstr ""
+"Zadrž. Je to len jeden človek, alebo niekoľko z nich, nanajvýš. Bude dosť "
+"času o tom rozprávať, keď skoncujeme s orkami."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:167
+msgid ""
+"Tell me: I see no bridge over the chasm around that keep. Is there any sign "
+"that one has been withdrawn by the defenders?"
+msgstr ""
+"Povedz mi, čo sa stalo s mostami? Sú nejaké známky, že by tie mosty strhli "
+"obrancovia alebo útočníci?"
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:171
+msgid ""
+"No, lord. No traces of any construction. It looks like no bridge has ever "
+"existed there. There must be other, hidden means of access to the tower."
+msgstr ""
+"Nie pane, žiadne stopy po akejkoľvek konštrukcii. Vyzerá to, ako keby tam "
+"nikdy žiadny most ani nebol postavený. Musí byť iná možnosť ako sa dostať do "
+"veže. možno taká, aká by orkov nenapadla."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:175
+msgid ""
+"Interesting...Go to my personal stores and bring me a bottle of wine. And a "
+"couple of glasses."
+msgstr "Zaujímavé... choď po moje víno a zober niekoľko pohárov."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:179
+msgid "...glasses?"
+msgstr "Pohárov?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:183
+msgid "Do it. We'll have a guest soon."
+msgstr "Sprav to. Zanedlho tu budeme mať hostí."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:195
+msgid ""
+"Erlornas closed his eyes and brought his hands forward, joined palms forming "
+"a cup open to the sky. Soon they began to glow, then to flare like a brazier "
+"with the fire of Faerie, casting a cold, blue light all around the elf-lord. "
+"A wisp of light emerged from the eerie flames, and at a few murmured words "
+"from the elf-lord flew away towards the tower below. Then the light around "
+"Erlornas faded and all was seemingly as before."
+msgstr ""
+"Erlornas zatvoril oči a vyčaroval ohromné svetlo, ktoré na krátku chvíľu "
+"ožiarilo oblohu ako obrovský plameň. Svetlo pohaslo v tú chvíľu, keď bol "
+"Erlornas presvedčený, že ho bolo zreteľne vidieť z neďalekej veže."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:203
+msgid "Some time later..."
+msgstr "O nejaký čas neskôr..."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:256
+msgid ""
+"So you decided to accept the invitation. Good. Welcome, I am lord Erlornas "
+"of Wesmere. I find your presence here...surprising."
+msgstr ""
+"Takže ste sa rozhodli prijať pozvanie? Dobre, veľmi dobre. Vitajte, som lord "
+"Erlornas z wesmérskeho lesa. "
+
+#. [message]: speaker=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:260
+msgid ""
+"Scarcely less than I find yours, my lord elf, but I would welcome your aid "
+"against these orcs. They have been besieging my tower for weeks."
+msgstr ""
+"Menej prekvapivé ako vaša prítomnosť v tomto kraji, môj elfský pane, no rada "
+"by som privítala aj vašu vojenskú pomoc. Naša veža je obliehaná orkami. Už "
+"celé týždne "
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:264
+msgid ""
+"I wish their foul kind driven as far as possible from my borders, not to "
+"return. It would be no bad thing if an ally of the elves kept watch over "
+"this country."
+msgstr ""
+"Prajem si, aby sa celý ten ich rod stiahol od našich hraníc čo najďalej a "
+"aby sa už nikdy nevracal. Nie som proti spojenectvu, zvlášť ak sa potom "
+"postaráte o ochranu našich hraníc."
+
+#. [message]: speaker=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:268
+msgid "Count me an ally, then, lord Erlornas. We can defeat them together."
+msgstr ""
+"Považuj ma teda za spojenca, Lord Erlornas. Som si istá, že teraz tých orkov "
+"spojenými silami porazíme. "
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:296
+msgid ""
+"My lord... humans cannot be trusted! They shift their allegiances with the "
+"changing of the wind!"
+msgstr ""
+"Môj pane... ľudom sa nedá veriť! Menia svoje spojenectvá tak ako sa mení "
+"vietor!"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:300
+msgid ""
+"That may be, but I do not think this one will betray us to the orcs. And we "
+"may need her assistance, too: that is a powerful force of orcs ahead."
+msgstr ""
+"Môže byť, ale nemyslím si, že títo by nás zradili v boji proti orkom. A "
+"mohli by sme potrebovať tiež jej pomoc: pred nami je silné vojsko orkov."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:318
+msgid ""
+"And that is well ended. But, Linaera, there is somewhat else that concerns "
+"me. You are a mage; do you not feel something...wrong...to the east of here?"
+msgstr ""
+"Tak to všetko dobre skončilo. Na druhú stranu, Linaera, je tu niečo ďalšie "
+"čo ma trápi. Si mágyňa, necítiš niečo... zlé... na východ odtiaľto?"
+
+#. [message]: speaker=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:322
+msgid ""
+"I do indeed. Something evil has recently made a nest in the next valley "
+"over; its servants have been sniffing at the edges of my domain. I had meant "
+"to deal with it myself, but if you elves revere the green earth I think you "
+"will want it abolished as much as do I."
+msgstr ""
+"Je tu ešte niečo... zlá sila zamorila močiare na východ odtiaľto. Chcela som "
+"to vybaviť sama, ale ak si vy elfovia vážite zelenú zem, myslím si, že by "
+"ste ju chceli vyhnať rovnako ako ja."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/5_Linaera_the_Quick.cfg:326
+msgid "We are of one mind, then. Let us go to it."
+msgstr "Súhlasím s tebou, poďme na to."
+
+#. [scenario]: id=6_A_Detour_through_the_Swamp
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:9
+msgid "A Detour through the Swamp"
+msgstr "Okľuka cez močiar"
+
+#. [side]: type=Lich, id=Keremal
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:42
+msgid "Keremal"
+msgstr "Keremal"
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:58
+msgid ""
+"Hint:\n"
+"Undead are resistant to physical attack. Use mages to attack the undead, and "
+"elves to protect and support the mages."
+msgstr ""
+"Pomôcka:\n"
+"Nemŕtvi sú odolní voči fyzickým útokom. Použi mágov k útoku na nemŕtvych a "
+"elfov k ochrane a podpore mágov. "
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:62
+msgid "Defeat Keremal"
+msgstr "Porazíš Keremala"
+
+#. [message]: speaker=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:112
+msgid ""
+"The evil spirits who have settled in this wetland have turned it into a vile "
+"bog. My apprentices and I have the power to dispel them, but you must "
+"protect us from their weapons."
+msgstr ""
+"Zlé sily, ktoré sa usadili v tejto mokrine ju premenili na odporný močiar. "
+"Moji učni a ja máme silu rozohnať ich, ale musíte nás chrániť pred ich "
+"zbraňami."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:123
+msgid ""
+"All is lost! Without Linaera's help, I cannot hope to defeat these "
+"horrifying apparitions!"
+msgstr ""
+"Všetko je stratené! Nemôžem dúfať že porazíme hrozné zjavenia bez Linejrinej "
+"pomoci!"
+
+#. [message]: speaker=Linaera
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:137
+msgid ""
+"Thank you, Erlornas... now I can return to my tower in peace. But I think "
+"some of my apprentices wish to follow you north in pursuit of the orcs."
+msgstr ""
+"Ďakujem Erlornas... teraz sa môžem vrátiť do mojej veže v mieri. Ale myslím "
+"si, že niektorí z mojich učňov si želajú ísť s tebou na sever a vyhnať orkov."
+
+#. [message]: role=mage
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:141
+msgid ""
+"I have always wished to see elves, and now I have fought alongside them! May "
+"I please travel with you?"
+msgstr ""
+"Vždy som túžil vidieť elfov a teraz som bojoval po ich boku! Môžem, prosím, "
+"ísť s vami?"
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/6_A_Detour_through_the_Swamp.cfg:145
+msgid "Certainly... I shall be glad of your help."
+msgstr "Samozrejme... Tvoja pomoc ma poteší."
+
+#. [scenario]: id=7_Showdown
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:9
+msgid "Showdown"
+msgstr "Rozhodujúci boj"
+
+#. [side]: type=Orcish Sovereign, id=Rualsha
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:91
+msgid "Rualsha"
+msgstr "Rualša"
+
+#. [objectives]
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:111
+msgid ""
+"Hint:\n"
+"Your enemy is well-defended against attacks from the south. Use rangers to "
+"sneak through the forest and mount a surprise attack from the north."
+msgstr ""
+"Pomôcka:\n"
+"Tvoj nepriateľ je dobre chránený proti útokom z juhu. Použi hraničiarov, aby "
+"si prekĺzol cez les a podnikol prekvapivý útok zo severu."
+
+#. [objective]: condition=win
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:114
+msgid "Defeat Rualsha"
+msgstr "Porazíš Rualšu"
+
+#. [message]: speaker=Lomarfel
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:220
+msgid ""
+"My lord! We have ridden hard for over a week to catch up with you! The "
+"Ka'lian has deliberated, and asks you to defeat Rualsha quickly before he "
+"can muster a full invasion force."
+msgstr ""
+"Môj pane! Hnali sme sa vytrvalo vyše týždňa aby sme ťa dostihli! Rada "
+"rozhodla, a žiada ťa, aby si porazil Rualšu čo najrýchlejšie, predtým ako "
+"stihne zhromaždiť celú svoju armádu. "
+
+#. [message]: speaker=Rualsha
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:224
+msgid ""
+"Puny elves! My full army will be here soon, and then we will crush you. You "
+"will beg for a quick death!"
+msgstr ""
+"Slabučkí elfovia! Celá moja armáda dorazí čoskoro a potom vás rozdrvíme. "
+"Budete prosiť o rýchlu smrť!"
+
+#. [message]: speaker=unit
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:234
+msgid ""
+"You may slay me, Erlornas, but my people live on. They will not forget! They "
+"will pursue you, and destroy you utterly... we will... we... arrgh..."
+msgstr ""
+"Môžeš ma zabiť Erlornas, ale moji ľudia žijú ďalej. Nikdy nezabudnú! Dostanú "
+"ťa a úplne ťa zničia... budeme... bude... agrrr..."
+
+#. [message]: speaker=narrator
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:245
+msgid ""
+"But Rualsha overestimated the will of his troops. With their leader dead, "
+"they scattered, and fled from the elves back to their fastnesses in the far "
+"north."
+msgstr ""
+"Ale Rualša precenil odvahu svojich jednotiek. Keď ich vodca zomrel, "
+"rozutekali sa a utiekli preč od elfov späť do svojich domovov na severe. "
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:257
+msgid "It grieves me to take life, even of a barbarian such as Rualsha."
+msgstr "Trápi ma zabíjať, dokonca aj takého barbara ako Rualšu."
+
+#. [message]: role=Advisor
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:261
+msgid ""
+"If the orcs press us, we shall need to become more accustomed to fighting."
+msgstr ""
+"Ak na nás orkovia znovu zaútočia, budeme potrebovať viac si privyknúť na boj."
+
+#. [message]: id=Erlornas
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:265
+msgid ""
+"I fear it will be so. We have won a first victory here, but dark times come "
+"upon its heels."
+msgstr ""
+"Obávam sa, že to tak bude. Tu sme si vybojovali prvé víťazstvo, ale temné "
+"časy sa blížia."
+
+#~ msgid ""
+#~ "My lord Erlornas! A party of orcs has encamped to the north. That is the "
+#~ "stench of their burnings drifting on the wind!"
+#~ msgstr ""
+#~ "Môj pane Erlornas! Na severe sa utáborila skupina orkov. Vo vetre je "
+#~ "zápach toho, ako ničia les!"
+
+#~ msgid ""
+#~ "What blasphemy is this? I have heard it said that Orcs are despoilers, "
+#~ "tree-killers...but I did not believe any could be so wantonly filthy as "
+#~ "the reports made them."
+#~ msgstr ""
+#~ "Čo za rúhanie to má byť? Počul som, že Orkovia sú zlodeji a vrahovia "
+#~ "stromov...ale neveril som že by mohli byť až takí bezohľadní a skazení, "
+#~ "ako tvrdili správy."
+
+#~ msgid ""
+#~ "We see the truth of it here, my lord. They make great fires, not of "
+#~ "deadfall wood but of the new-murdered corpses of the singing trees. They "
+#~ "trample the greensward into mud and do not even bury their foul dung."
+#~ msgstr ""
+#~ "Teraz na vlastné oči vidíme, že je to pravda, môj pane. Zakladajú "
+#~ "obrovské požiare, nie preto, aby zničili les, ale kvôli novým mŕtvolám "
+#~ "zavraždených spievajúcich stromov. Zošľapávajú trávu na blato a ani "
+#~ "nezakopávajú svoje smradľavé výkaly."
+
+#~ msgid ""
+#~ "They are a blight on our forests, and must not be permitted into Wesmere. "
+#~ "I shall arm the folk; we should be able to drive them off. All the same, "
+#~ "you had best ride for reinforcements, Lomarfel."
+#~ msgstr ""
+#~ "Ničia naše lesy - nesmú sa dostať do Vesméru. Ozbrojím ľud; mali by sme "
+#~ "byť schopní odohnať ich preč. Ale aj tak bude najlepšie, aby si sa vydal "
+#~ "po posily, Lomarfel."
+
+#~ msgid ""
+#~ "Hmmm... Who is this Rualsha, I wonder? I will have to take a scouting "
+#~ "party north to see what is afoot there..."
+#~ msgstr ""
+#~ "Hmmm... Zaujímalo by ma, kto je Rualša? Budem musieť podniknúť prieskumnú "
+#~ "výpravu na sever, aby som zistil, čo sa tam deje..."
+
+#~ msgid ""
+#~ "There is some sort of keep ahead, here where we thought no people with "
+#~ "the wit to raise such a pile dwelt."
+#~ msgstr ""
+#~ "Pred nami je nejaké opevnenie. Tu, kde by sme si nikdy nepomysleli že sa "
+#~ "tu nájdu ľudia s aspoň trochou rozumu."
+
+#~ msgid "Be careful...he may be more dangerous than he appears."
+#~ msgstr "Buď opatrný... môže byť nebezpečnejší ako vyzerá."
+
+#~ msgid "Aiieeee!  I die, but Rualsha's vengeance shall fall upon you!"
+#~ msgstr "Aagrrrr! Zomieram, ale Rualšova pomsta vás nakoniec dostihne!"
+
+#~ msgid ""
+#~ "The orcish trail stood out less against the desolation, but the craft of "
+#~ "elvish trackers was more than equal to following.  They pursued with "
+#~ "grimmer purpose now."
+#~ msgstr ""
+#~ "Stopa orkov vyčnievala menej v spustošenej krajine, ale schopnosti "
+#~ "elfských stopárov boli viac ako postačujúce k jej sledovaniu. Postupovali "
+#~ "ďalej s väčším hnevom."
+
+#~ msgid ""
+#~ "The foul orcs have devastated this area, destroying the trees and "
+#~ "slaughtering the animals for sport... it saddens me to see such waste."
+#~ msgstr ""
+#~ "Smradľavý orkovia zdevastovali túto oblasť, zničili stromy a povraždili "
+#~ "zvieratá len pre zábavu... pohľad na túto pohromu ma zarmucuje."
+
+#~ msgid ""
+#~ "Greetings, Erlornas! I am Gnargha, the brother of Urugha whom you slew "
+#~ "but few nights ago. Know this: Lord Rualsha has permitted me to be the "
+#~ "agent of his revenge!"
+#~ msgstr ""
+#~ "Zdravím ťa, Erlornas! Som Gnarga, brat Urgu, ktorého si zabil len pred "
+#~ "pár dňami. Počúvaj: Pán Rualša mi dovolil byť poslom jeho pomsty!"
+
+#~ msgid ""
+#~ "I have no quarrel with you, Gnargha, nor with your leader Rualsha - but I "
+#~ "cannot permit you to invade our lands. Leave now, and we shall be at "
+#~ "peace."
+#~ msgstr ""
+#~ "Nebudem sa s tebou hádať, Gnarga, ani s tvojím vodcom Rualšom - ale "
+#~ "nemôžem ti dovoliť vtrhnúť do našej krajiny. Odíď a medzi nami bude mier."
+
+#~ msgid ""
+#~ "Peace?! Bah! You elves squat on land that could feed many orclings, and "
+#~ "you are even weaker than we guessed. And you, you killed my brother; "
+#~ "prepare yourself for a slow and painful death!"
+#~ msgstr ""
+#~ "Mier?! Pch! Vy elfovia obývate oblasti zeme, ktorá by mohla nakŕmiť veľa "
+#~ "orkov a ste ešte slabší ako sme si mysleli. A ty, ty si zabil môjho "
+#~ "brata; priprav sa na pomalú a bolestivú smrť!"
+
+#~ msgid ""
+#~ "Gnargha and his troops must have come down out of that valley to the "
+#~ "north... that is where we will go next!"
+#~ msgstr ""
+#~ "Gnarga a jeho jednotky museli prísť z toho údolia na severe... tam teraz "
+#~ "zamierime!"
+
+#~ msgid ""
+#~ "Hint:\n"
+#~ "Trolls are very dangerous if they can attack as a group. Use the cave-"
+#~ "mouths as bottlenecks to fight them one at a time."
+#~ msgstr ""
+#~ "Pomôcka:\n"
+#~ "Trolovia sú veľmi nebezpeční ak môžu útočiť v skupine. Použi ústie "
+#~ "jaskyní ako priechod, aby si s nimi mohol bojovať pojednom."
+
+#~ msgid "Ceoddyn"
+#~ msgstr "Ceodyn"
+
+#~ msgid "Midry"
+#~ msgstr "Midry"
+
+#~ msgid ""
+#~ "We are far from the lands granted to humans, my lord Erlornas! But there "
+#~ "is plainly one living in that tower to the west."
+#~ msgstr ""
+#~ "Sme ďaleko od zemí prepožičaných ľuďom, môj pane Erlornas! Ale v tej veži "
+#~ "na západe zrejme niekto žije."
+
+#~ msgid ""
+#~ "Some of our mages crave solitude for their studies. Humans are, perhaps, "
+#~ "likewise."
+#~ msgstr ""
+#~ "Niektorí naši mágovia sa pre ich štúdiá dožadovali samoty. Ľudia sú možno "
+#~ "rovnakí."
+
+#~ msgid ""
+#~ "Help! A great army of orcs has come down from the north, and has been "
+#~ "laying seige to my tower for weeks... we are nearly out of supplies. Our "
+#~ "people have always been friendly to the elves - will you not assist us?"
+#~ msgstr ""
+#~ "Pomoc! Obrovská armáda orkov prišla zo severu a oblieha moju vežu celé "
+#~ "týždne... dochádzajú nám zásoby. Naši ľudia boli k elfom vždy priateľskí "
+#~ "- nepomôžete nám?"
+
+#~ msgid ""
+#~ "Yes, of course! But... I wish to defeat the vile orcs and drive them away "
+#~ "from our borders. Will you join us in attacking them?"
+#~ msgstr ""
+#~ "Áno, samozrejme! Ale... chcel by som tých odporných orkov poraziť a "
+#~ "zahnať preč od našich hraníc. Pripojíte sa k nám pri útoku?"
+
+#~ msgid ""
+#~ "Nothing would please me better! I will place all my powers at your "
+#~ "command."
+#~ msgstr ""
+#~ "Nič by ma nepotešilo viac! Rozmiestnim všetky moje sily podľa tvojho "
+#~ "rozkazu."
+
+#~ msgid ""
+#~ "Oh, no! Without Linaera's help, I cannot hope to defeat such a great "
+#~ "force of orcs. I must return to Wesmere and bring reinforcements."
+#~ msgstr ""
+#~ "Och, nie! Bez Linaerinej pomoci nemôžem dúfať, že porazím také obrovské "
+#~ "vojsko orkov. Musím sa vrátiť do Wesméru a priviesť posily."
+
+#~ msgid ""
+#~ "Thank you, Linaera. I couldn't have defeated the orcs without your "
+#~ "help... How can I repay you?"
+#~ msgstr ""
+#~ "Ďakujem Linaera! Neporazil by som orkov bez tvojej pomoci... Ako sa ti "
+#~ "môžem odvďačiť?"
+
+#~ msgid ""
+#~ "Ah. I have felt this thing's taint in the earth. Very well... to the east!"
+#~ msgstr "Aha. V zemi som cítil stopu tejto veci. Takže... na východ!"

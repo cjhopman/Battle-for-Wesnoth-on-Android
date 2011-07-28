@@ -1,0 +1,151 @@
+# vi: syntax=python:et:ts=4
+from glob import glob
+from subprocess import Popen, PIPE
+import os, shutil
+import re
+from fnmatch import fnmatch
+from os.path import join, walk
+Import("env")
+
+def remove_pot_cdate(path):
+    return "".join(filter(lambda line: "POT-Creation-Date: " not in line, open(path).readlines()))
+def update_pot(target, source, env):
+    pot = target[0].path
+    new_pot = source[0].path
+    if not os.path.exists(new_pot): return
+    if remove_pot_cdate(new_pot) != remove_pot_cdate(pot):
+        shutil.copy2(new_pot, pot)
+        print pot + " updated."
+    os.remove(new_pot)
+
+#
+# Gettext message catalog generation
+#
+
+textdomains = glob("wesnoth*")
+po4a_domains = Split("wesnoth-manpages wesnoth-manual")
+textdomains = filter(os.path.isdir, textdomains)
+linguas = Split(open("LINGUAS").read())
+
+if "pot-update" in COMMAND_LINE_TARGETS:
+    from collections import defaultdict
+    domain_sources = defaultdict(list)
+    def fill_source_list(arg, dir, files):
+        for file in files:
+            if fnmatch(file, "*.cpp"):
+                match = re.search('^#define\\s+GETTEXT_DOMAIN\\s+"wesnoth(-.*)"', Dir(dir).File(file).get_contents(), re.MULTILINE)
+                if match:
+                    source_domain = match.group(1)
+                else:
+                    source_domain = ""
+                domain_sources[source_domain].append(Dir(dir).File(file).path)
+    walk("../src", fill_source_list, None)
+
+    for domain in textdomains:
+        pot = File(join(domain, domain + ".pot"))
+        env.Precious(pot)
+        NoClean(pot)
+        env.Alias("pot-update", pot)
+        if domain in po4a_domains:
+            continue
+
+        potfiles = open(join(domain, "POTFILES.in"), "w")
+        potfiles.writelines([line + "\n" for line in sorted(domain_sources[domain[7:]])])
+        sources = map(lambda x: Dir("#").File(x), domain_sources[domain[7:]])
+        if sources:
+            source_pot = env.Command(
+                join(domain, domain + ".cpp.pot"),
+                sources,
+                """xgettext --force-po --default-domain=%s --directory=. --add-comments=TRANSLATORS: \
+                --from-code=UTF-8 --sort-by-file --keyword=sgettext \
+                --keyword=vgettext --keyword=_n:1,2 --keyword=sngettext:1,2 --keyword=vngettext:1,2 \
+                --files-from=%s --copyright-holder='Wesnoth development team' --msgid-bugs-address=http://bugs.wesnoth.org/ \
+                --keyword=_ --keyword=N_ --output=$TARGET \
+                ; sed -i s/charset=CHARSET/charset=UTF-8/ $TARGET \
+                """ % (domain, join("po", domain, "POTFILES.in"))
+                )
+        cfgs = []
+        FINDCFG = join(domain, "FINDCFG")
+        if os.path.exists(FINDCFG):
+            cfgs = Split(Popen(["sh", join("po", FINDCFG)], stdout = PIPE, cwd = "..").communicate()[0])
+        cfgs = map(lambda x: File(x, Dir("..")), cfgs)
+        if cfgs:
+            wml_pot = env.Command(
+                join(domain, domain + ".wml.pot"),
+                cfgs,
+                "utils/wmlxgettext --directory=. --domain=%s $SOURCES > $TARGET" % domain
+                )
+
+        new_pot = str(pot) + ".new"
+        if cfgs and sources:
+            env.Command(new_pot, [source_pot, wml_pot],
+                [
+                    "msgcat --sort-by-file $SOURCES -o $TARGET",
+                    Delete(wml_pot),
+                    Delete(source_pot)
+                ]
+            )
+        elif cfgs:
+            env.Command(new_pot, wml_pot, Move("$TARGET", "$SOURCE"))
+        else:
+            env.Command(new_pot, source_pot, Move("$TARGET", "$SOURCE"))
+        env.Command(pot, new_pot, Action(update_pot))
+
+    env.Alias("pot-update", "../translations")
+
+if "update-po" in COMMAND_LINE_TARGETS or "pot-update" in COMMAND_LINE_TARGETS or "update-po4a" in COMMAND_LINE_TARGETS:
+    for domain in textdomains:
+        for lingua in linguas:
+            update_po = env.MsgInitMerge(
+                os.path.join(domain, lingua),
+                os.path.join(domain, domain)
+                )
+            env.Precious(update_po)
+            NoClean(update_po)
+
+            env.Alias(lingua, [update_po, join("../translations", lingua)])
+            if lingua in COMMAND_LINE_TARGETS:
+                env.AlwaysBuild(update_po)
+
+    env.Alias("update-po", [])
+
+#
+# Manual and man pages translation
+#
+
+if "update-po4a" in COMMAND_LINE_TARGETS or "pot-update" in COMMAND_LINE_TARGETS:
+    env.Po4aGettextize("wesnoth-manual/wesnoth-manual.pot", "../doc/manual/manual.en.xml", PO4A_FORMAT = "docbook")
+    for lingua in linguas:
+        env.Po4aTranslate("../doc/manual/manual." + lingua + ".xml",
+            ["../doc/manual/manual.en.xml", join("wesnoth-manual", lingua + ".po")],
+            PO4A_CHARSET = "utf8", PO4A_FORMAT = "docbook")
+    Alias("update-po4a", Alias("manual"))
+
+    manpages = Split("wesnoth.6 wesnothd.6")
+    charsets = { "ar":"utf8", "bg":"cp1251", "ca_ES@valencia":"iso-8859-15", "cs":"iso-8859-2", "el":"iso-8859-7",
+          "he":"iso-8859-8", "hr":"utf8", "hu":"iso-8859-2", "ja":"euc-jp", "ko":"euc-kr", "lt":"iso-8859-13", "pl":"iso-8859-2",
+          "racv":"iso-8859-15", "ro":"iso-8859-2", "ru":"iso-8859-5", "sk":"iso-8859-2", "sl":"iso-8859-2", "sr":"utf8", "sr@latin":"utf8",
+          "tr":"iso-8859-9", "zh_CN":"gb2312" }
+    env.Po4aGettextize("wesnoth-manpages/wesnoth-manpages.pot",
+        [join("../doc/man", man) for man in manpages], PO4A_FORMAT = "man")
+    for lingua in linguas:
+        for man in manpages:
+            env.Po4aTranslate(join("../doc/man", lingua, man),
+            [join("../doc/man", man), join("wesnoth-manpages", lingua + ".po")],
+            PO4A_CHARSET = charsets.get(lingua, "iso-8859-1"), PO4A_FORMAT = "man")
+    Alias("update-po4a", "../doc/man")
+
+#
+# If we have the right tool in place, create targets to invoke msgfmt to
+# compile message catalogs to binary format at installation time.
+# Without this step, the i18n support won't work.  Note, the actions
+# this generates should fire only when installing data.
+#
+if env["nls"]:
+    for domain in textdomains:
+        for lingua in linguas:
+            env.Msgfmt(
+                join("../translations", lingua, "LC_MESSAGES", domain),
+                join(domain, lingua)
+                )
+

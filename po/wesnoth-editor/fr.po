@@ -1,0 +1,474 @@
+# French translations for the Battle for Wesnoth editor
+# vim:set encoding=utf-8:
+# Traduction anglaise de l'éditeur de Battle for Wesnoth.
+# Copyright (C) 2004 THE Battle for Wesnoth'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# French Wesnoth translation team <wesnoth@ml.free.fr>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 0.8.4-CVS\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2010-01-16 15:45+0100\n"
+"Last-Translator: Benoît Timbert <benoit.timbert@free.fr>\n"
+"Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr "Hexagone seul"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr "Zone d'un hexagone de rayon"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr "Zone de deux hexagones de rayon"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr "Ligne d'hexagones NO-SE"
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "tout"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "eau"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "plat"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr "désert"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "forêt"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "glacé"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "accidenté"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "caverne"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "village"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "château"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr "spécial"
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+"Utilisez les boutons gauche/droite de la souris pour dessiner l'avant/"
+"arrière-plan des terrains. Maintenez Shift appuyé pour ne dessiner que la "
+"couche de base. Utilisez Ctrl+clic pour prélever le terrain sous le curseur."
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+"Le bouton gauche de la souris sélectionne, celui de droite désélectionne. "
+"Appuyez simultanément sur Shift pour sélectionner des cases du même terrain."
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+"Le bouton gauche de la souris permet de choisir un joueur, celui de droite "
+"l'efface. Les chiffres vous amènent aux positions de départ, Alt+chiffre "
+"placent la position de départ correspondante sous le curseur, Suppr l'efface."
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+"Cliquez pour coller. Zoomez pour coller avec précision des zones étendues. "
+"Utilisez le menu d'édition pour transformer le presse-papier (rotations, "
+"miroir)."
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "Fichier"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "Éditer"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "Carte"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+msgid "Window"
+msgstr "Fenêtre"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "villages"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Quitter l'éditeur"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "Erreur fatale"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr "(Nouvelle carte)"
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "Voulez-vous vraiment quitter ?"
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+"Voulez-vous vraiment quitter ? Les modifications effectuées sur la carte "
+"depuis la dernière sauvegarde seront perdues."
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+"Voulez-vous vraiment quitter ? Les cartes suivantes ont été modifiées et "
+"toutes les modifications effectuées depuis la dernière sauvegarde seront "
+"perdues :"
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "Quitter"
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr "Aucune période du jour définie dans l'éditeur."
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr "Modifications non sauvegardées"
+
+#: src/editor/editor_controller.cpp:410
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr ""
+"Voulez-vous annuler toutes les modifications de la carte depuis la dernière "
+"sauvegarde ?"
+
+#: src/editor/editor_controller.cpp:428
+msgid "Choose a Map to Open"
+msgstr "Choisir la carte à ouvrir"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Enregistrer la carte sous"
+
+#: src/editor/editor_controller.cpp:467
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "Le fichier existe déjà. Souhaitez-vous l'écraser ?"
+
+#: src/editor/editor_controller.cpp:484
+msgid "No random map generators found."
+msgstr "Aucun générateur de carte aléatoire trouvé."
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "Échec de création de la carte."
+
+#: src/editor/editor_controller.cpp:516
+msgid "Choose a mask to apply"
+msgstr "Choisir le masque à appliquer"
+
+#: src/editor/editor_controller.cpp:523
+msgid "Error loading mask"
+msgstr "Erreur lord du chargement du masque"
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr "Choisir la carte de destination"
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr "Erreur lors du chargement de la carte"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr "Cette carte est déjà ouverte."
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Carte sauvegardée."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr "Données de carte embarquée chargées"
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr "Carte chargée depuis le scénario"
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+"Fichier de carte référencée chargé :\n"
+"$new"
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Annuler"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "Impossible d'annuler"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Refaire"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "Impossible de refaire"
+
+# FIXME : taille des chaînes sans doute trop longues
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr "Mettre à jour automatiquement les transitions entre terrains : Oui"
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr "Mettre à jour automatiquement les transitions entre terrains : Partiel"
+
+#: src/editor/editor_controller.cpp:1112
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Mettre à jour automatiquement les transitions entre terrains : Non"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Joueur"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr ""
+"La taille de la carte de destination est différente de celle de la carte "
+"actuelle"
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr "(extension)"
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr "Ne fonctionnera pas dans le jeu sans travail supplémentaire."
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "PP"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "AP"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr "Fichier non trouvé"
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+"Ce fichier ressemble à un scénario, mais la valeur de map_data n'indique pas "
+"un nom de fichier existant."
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr "Fichier de carte vide"
+
+#: src/editor/map_context.cpp:219
+msgid "Could not save into scenario"
+msgstr "Impossible de sauvegarder dans le scénario"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "Impossible de sauvegarder la carte : $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "Aucun"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "Choisir le joueur"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+"Quel joueur devrait commencer ici ? Appuyez sur ALT et un chiffre pour "
+"définir la position de départ d'un joueur, appuyez sur Suppr pour effacer la "
+"position sous le curseur. Appuyez seulement sur un chiffre pour aller à la "
+"position de départ du joueur associé à ce numéro."
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr "Réglages personnalisés"
+
+#~ msgid "Error creating action object"
+#~ msgstr "Erreur lors de la création d'un objet d'action"
+
+#~ msgid "Action not implemented"
+#~ msgstr "Action non implémentée"
+
+#~ msgid "Error"
+#~ msgstr "Erreur"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which player should start here? You can also use the 1-9 and delete keys "
+#~ "to set/clear starting positions."
+#~ msgstr ""
+#~ "Quel joueur démarrera ici ? Vous pouvez aussi utiliser les touches 1-9 et "
+#~ "Suppr pour créer ou effacer des positions de départ."
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Draw tiles"
+#~ msgstr "Afficher les cases"
+
+#~ msgid "Fill"
+#~ msgstr "Remplir"
+
+#~ msgid "Set player's starting position"
+#~ msgstr "Définir la position de départ du joueur"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zoom avant"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zoom arrière"
+
+#~ msgid "Zoom to default view"
+#~ msgstr "Revenir à la vue par défaut"
+
+#~ msgid "Toggle grid"
+#~ msgstr "Grille"
+
+#~ msgid "Resize the map"
+#~ msgstr "Redimensionner la carte"
+
+#~ msgid "Flip map"
+#~ msgstr "Basculer la carte"
+
+#~ msgid "Delay transition updates"
+#~ msgstr "Différer la MàJ des transitions"
+
+#~ msgid "Language"
+#~ msgstr "Langue"
+
+#~ msgid "Choose your preferred language:"
+#~ msgstr "Choisissez votre langue préférée : "
+
+#~ msgid "Battle for Wesnoth Map Editor"
+#~ msgstr "Éditeur de cartes de « Bataille pour Wesnoth »"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Which Player?"
+#~ msgstr "Quel joueur ?"
+
+#~ msgid "Which player should start here?"
+#~ msgstr "Quel joueur débutera ici ?"
+
+#~ msgid ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+#~ msgstr ""
+#~ "Attention : caractères non valides utilisés dans le nom de la carte. "
+#~ "Veuillez sauvegarder sous un nom différent."
+
+#~ msgid "The file does not contain a valid map."
+#~ msgstr "Ce fichier ne contient pas de carte valide."
+
+#~ msgid "Do you want to save the map before quitting?"
+#~ msgstr "Souhaitez-vous sauvegarder la carte avant de quitter ?"
+
+#~ msgid "Error: Illegal character in filename."
+#~ msgstr "Erreur : caractère non valide dans le nom du fichier."
+
+#~ msgid ""
+#~ "Can't resize the map, the requested size is bigger than the maximum, size="
+#~ msgstr ""
+#~ "Impossible de redimensionner la carte, taille supérieure au maximum. "
+#~ "Taille ="
+
+#~ msgid " maximum="
+#~ msgstr " maximum = "

@@ -1,0 +1,248 @@
+#!/usr/bin/perl -w
+
+# FIXME:
+# - maybe restrict "ability" matching to unit defs (not yet necessary)
+
+use strict;
+use File::Basename;
+use POSIX qw(strftime);
+use Getopt::Long;
+
+our $toplevel = '.';
+our $initialdomain = 'wesnoth';
+our $domain = undef;
+GetOptions ('directory=s' => \$toplevel,
+	    'initialdomain=s' => \$initialdomain,
+	    'domain=s' => \$domain);
+
+$domain = $initialdomain unless defined $domain;
+
+our $module = dirname ($0) . "/wmltrans.pm";
+eval "require \"$module\";";
+
+## extract strings with their refs and node info into %messages
+
+sub possible_node_info {
+  my ($nodeinfostack, $field, $value) = @_;
+  if ($field =~ m/\b(speaker|id|role|description|condition|type|race)\b/) {
+    push @{$nodeinfostack->[-1][2]}, "$field=$value";
+  }
+}
+
+our ($str,$translatable,$line,%messages,%nodeinfo);
+chdir $toplevel;
+foreach my $file (@ARGV) {
+  open (FILE, "<$file") or die "cannot read from $file";
+  my $readingattack = 0;
+  my @nodeinfostack = (["top", [], []]); # dummy top node
+  my @domainstack = ($initialdomain);
+  my $valid_wml = 1;
+  my ($is_define, $macro_has_textdomain) = (0, 0);
+ LINE: while (<FILE>) {
+    # record a #define scope
+    if (m/\#define\>/) {
+      $is_define = 1; $macro_has_textdomain = 0;
+      next LINE;
+    } elsif (m/\#enddef\>/) {
+      $is_define = 0;
+      if ($macro_has_textdomain) { shift @domainstack; };
+    }
+
+    # change the current textdomain when hitting the directive
+    if (m/\#textdomain\s+(\S+)/) {
+      unshift @domainstack, $1;
+      if ($is_define) { $macro_has_textdomain = 1; };
+      next LINE;
+    }
+
+    # skip other # lines as comments
+    next LINE if m/^\s*\#/ and !defined $str;
+
+    if (!defined $str and m/^(?:[^\"]*?)((?:_\s*)?)\"([^\"]*(?:\"\"[^\"]*)*)\"(.*)/) {
+      # single-line quoted string
+
+      $translatable = ($1 ne '');
+      my $rest = $3;
+
+      # if translatable and in the requested domain
+      if ($translatable and $domainstack[0] eq $domain) {
+        my $msg = raw2postring($2);
+        push @{$messages{$msg}}, "$file:$.";
+        push @{$nodeinfostack[-1][1]}, $msg if $valid_wml;
+
+      } elsif (not $translatable and m/(\S+)\s*=\s*\"([^\"]*)\"/) {
+        # may be a piece of node info to extract
+        possible_node_info(\@nodeinfostack, $1, $2) if $valid_wml;
+      }
+
+      # process remaining of the line
+      $_ = $rest . "\n";
+      redo LINE;
+
+    } elsif (!defined $str and m/^(?:[^\"]*?)((?:_\s*)?)\s*\"([^\"]*(?:\"\"[^\"]*)*)/) {
+      # start of multi-line
+
+      $translatable = ($1 ne '');
+      $_ = $2;
+      if (m/(.*)\r/) { $_ = "$1\n"; }
+      $str = $_;
+      $line = $.;
+
+    } elsif (m/([^\"]*(?:\"\"[^\"]*)*)\"(.*)/) {
+      # end of multi-line
+      die "end of string without a start in $file" if !defined $str;
+
+      $str .= $1;
+
+      if ($translatable and $domainstack[0] eq $domain) {
+        my $msg = "\"\"\n" . raw2postring($str);
+        push @{$messages{$msg}}, "$file:$." ;
+        push @{$nodeinfostack[-1][1]}, $msg if $valid_wml;
+      }
+      $str = undef;
+
+      # process remaining of the line
+      $_ = $2 . "\n";
+      redo LINE;
+
+    } elsif (defined $str) {
+      # part of multi-line
+      if (m/(.*)\r/) { $_ = "$1\n"; }
+      $str .= $_;
+
+    } elsif (m/(\S+)\s*=\s*(.*?)\s*$/) {
+      # single-line non-quoted string
+      die "nested string in $file" if defined $str;
+      possible_node_info(\@nodeinfostack, $1, $2) if $valid_wml;
+
+### probably not needed ###
+#      # magic handling of weapon descriptions
+#      push @{$messages{raw2postring($2)}},  "$file:$."
+#	if $readingattack and
+#	  ($1 eq 'name' or $1 eq 'type' or $1 eq 'special');
+#
+#      # magic handling of unit abilities
+#      push @{$messages{raw2postring($2)}},  "$file:$."
+#	if $1 eq 'ability';
+
+    } elsif (m,\[attack\],) {
+      $readingattack = 1;
+    } elsif (m,\[/attack\],) {
+      $readingattack = 0;
+    }
+
+    # check for node opening/closing to handle message metadata
+    next LINE if not $valid_wml;
+    next LINE if defined $str; # skip lookup if inside multi-line
+    next LINE if m/^ *\{.*\} *$/; # skip lookup if a statement line
+    next LINE if m/=/; # skip lookup if a field line
+    while (m,\[ *([a-z/+].*?) *\],g) {
+      my $nodename = $1;
+      #my $ind = "  " x (@nodeinfostack + ($nodename =~ m,/, ? 0 : 1));
+      if ($nodename =~ s,/ *,,) { # closing node
+        if (@nodeinfostack == 0) {
+          warn "empty node stack on closed node at $file:$.";
+          $valid_wml = 0;
+          last;
+        }
+        my ($openname, $messages, $metadata) = @{pop @nodeinfostack};
+        if ($nodename ne $openname) {
+          warn "expected closed node \'$openname\' ".
+               "got \'$nodename\' at $file:$.";
+          $valid_wml = 0;
+          last;
+        }
+        # some nodes should inherit parent metadata
+        if ($nodename =~ m/option/) {
+          $metadata = $nodeinfostack[-1][2];
+        }
+        #print STDERR "$ind<<< $.: $nodename\n";
+        #print STDERR "==> $file:$.: $nodename: @{$metadata}\n" if @{$messages};
+        for my $msg (@{$messages}) {
+          push @{$nodeinfo{$msg}}, [$nodename, $metadata];
+        }
+      } else { # opening node
+        #print STDERR "$ind>>> $.: $nodename\n";
+        $nodename =~ s/\+//;
+        push @nodeinfostack, [$nodename, [], []];
+      }
+    }
+    # do not add anything here, beware of the next's before the loop
+  }
+  pop @nodeinfostack if @nodeinfostack; # dummy top node
+  if (@nodeinfostack) {
+    warn "non-empty node stack at end of $file";
+    $valid_wml = 0;
+  }
+
+  close FILE;
+
+  if (not $valid_wml) {
+    warn "WML seems invalid for $file, node info extraction forfeited ".
+         "past the error point";
+  }
+}
+
+## index strings by their location in the source so we can sort them
+
+our @revmessages;
+foreach my $key (keys %messages) {
+  foreach my $line (@{$messages{$key}}) {
+    my ($file, $lineno) = split /:/, $line;
+    push @revmessages, [ $file, $lineno, $key ];
+  }
+}
+
+# sort them
+@revmessages = sort { $a->[0] cmp $b->[0] or $a->[1] <=> $b->[1] } @revmessages;
+
+
+## output
+
+my $date = strftime "%F %R%z", localtime();
+
+print <<EOH
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\\n"
+"POT-Creation-Date: $date\\n"
+EOH
+;
+# we must break this string to avoid triggering a bug in some po-mode
+# installations, at save-time for this file
+print "\"PO-Revision-Date: YEAR-MO-DA ", "HO:MI+ZONE\\n\"\n";
+print <<EOH
+"Last-Translator: FULL NAME <EMAIL\@ADDRESS>\\n"
+"Language-Team: LANGUAGE <LL\@li.org>\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+
+EOH
+;
+
+foreach my $occurence (@revmessages) {
+  my $key = $occurence->[2];
+  if (defined $messages{$key}) {
+    if (defined $nodeinfo{$key}) {
+      my %added;
+      for my $info (@{$nodeinfo{$key}}) {
+        my ($name, $data) = @{$info};
+        my $desc = join(", ", @{$data});
+        my $nodestr = $desc ? "[$name]: $desc" : "[$name]";
+        # Add only unique node info strings.
+        if (not defined $added{$nodestr}) {
+            $added{$nodestr} = 1;
+            printf "#. %s\n", $nodestr;
+        }
+      }
+    }
+    printf "#: %s\n", join(" ", @{$messages{$key}});
+    print "msgid $key";
+    print "msgstr \"\"\n\n";
+
+    # be sure we don't output the same message twice
+    delete $messages{$key};
+  }
+}

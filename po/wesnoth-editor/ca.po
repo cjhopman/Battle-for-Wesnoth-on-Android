@@ -1,0 +1,450 @@
+#
+# Catalan translations for Battle for Wesnoth.
+# Copyright © 2008 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth
+# package.
+#
+# Jordà Polo <jorda@ettin.org>, 2005, 2006, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.5.5+svn\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2008-10-18 17:11+0200\n"
+"Last-Translator: Jordà Polo <jorda@ettin.org>\n"
+"Language-Team: Catalan <wesnoth-ca@ettin.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr ""
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr "Radi d'un hexàgon"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr "Radi de 2 hexàgons"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr ""
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "tots"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "aigua"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "pla"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr "desert"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "bosc"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "glaç"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "abrupte"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "cova"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "llogaret"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "castell"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "Fitxer"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "Edita"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "Mapa"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+#, fuzzy
+msgid "Window"
+msgstr "Desfés"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "llogarets"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Tanca l'editor"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "Error fatal"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "Segur que voleu sortir?"
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "Surt"
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:410
+#, fuzzy
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr "Voleu descartar tots els canvis que heu fet al mapa?"
+
+#: src/editor/editor_controller.cpp:428
+#, fuzzy
+msgid "Choose a Map to Open"
+msgstr "Trieu el mapa que voleu carregar"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Desa com"
+
+#: src/editor/editor_controller.cpp:467
+#, fuzzy
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "Ja existeix un mapa amb aquest nom. Voleu sobreescriure'l? "
+
+#: src/editor/editor_controller.cpp:484
+#, fuzzy
+msgid "No random map generators found."
+msgstr "No s'han trobat generadors de mapes aleatoris"
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "S'ha produït un error en la creació del mapa."
+
+#: src/editor/editor_controller.cpp:516
+#, fuzzy
+msgid "Choose a mask to apply"
+msgstr "Trieu el mapa que voleu carregar"
+
+#: src/editor/editor_controller.cpp:523
+#, fuzzy
+msgid "Error loading mask"
+msgstr "S'ha produït un error en carregar el mapa"
+
+#: src/editor/editor_controller.cpp:538
+#, fuzzy
+msgid "Choose target map"
+msgstr "Trieu el jugador"
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr "S'ha produït un error en carregar el mapa"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr ""
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Mapa desat."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Desfés"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "No es pot desfer"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Refés"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "No es pot refer"
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1112
+#, fuzzy
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Actualitza transicions"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Jugador"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "PP"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "SP"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr ""
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr ""
+
+#: src/editor/map_context.cpp:219
+#, fuzzy
+msgid "Could not save into scenario"
+msgstr "No s'ha pogut desar el mapa: $msg"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "No s'ha pogut desar el mapa: $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "Cap"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "Trieu el jugador"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr "Paràmetre personalitzat"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Click to paste."
+#~ msgstr "Cliqueu per enganxar."
+
+#~ msgid "There are unsaved changes in the map."
+#~ msgstr "Hi ha canvis al mapa que no heu desat."
+
+#~ msgid "There are unsaved changes in the map"
+#~ msgstr "Hi ha canvis al mapa que no heu desat."
+
+#~ msgid "Settings"
+#~ msgstr "Preferències"
+
+#~ msgid "Draw tiles"
+#~ msgstr "Dibuixa"
+
+#~ msgid "Fill"
+#~ msgstr "Emplena"
+
+#~ msgid "Set player's starting position"
+#~ msgstr "Defineix la posició d'inici del jugador"
+
+#~ msgid "Zoom in"
+#~ msgstr "Apropa"
+
+#~ msgid "Zoom out"
+#~ msgstr "Allunya"
+
+#~ msgid "Zoom to default view"
+#~ msgstr "Escala per defecte"
+
+#~ msgid "Toggle grid"
+#~ msgstr "Activa graella"
+
+#~ msgid "Resize the map"
+#~ msgstr "Redimensiona el mapa"
+
+#~ msgid "Flip map"
+#~ msgstr "Inverteix el mapa"
+
+#~ msgid "Delay transition updates"
+#~ msgstr "Retarda l'actualització de transicions"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "Choose your preferred language:"
+#~ msgstr "Trieu el vostre idioma:"
+
+#~ msgid "Battle for Wesnoth Map Editor"
+#~ msgstr "Editor de mapes de Batalla per Wesnoth"
+
+#~ msgid "None"
+#~ msgstr "Cap"
+
+#~ msgid "Which Player?"
+#~ msgstr "Quin jugador?"
+
+#~ msgid "Which player should start here?"
+#~ msgstr "Quin jugador hauria de començar aquí?"
+
+#~ msgid ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+#~ msgstr ""
+#~ "Avís: s'han trobat caràcters invàlids en el nom del mapa. Si us plau, "
+#~ "deseu el mapa amb un nom diferent."
+
+#~ msgid "The file does not contain a valid map."
+#~ msgstr "Aquest fitxer no conté un mapa vàlid."
+
+#~ msgid "Do you want to save the map before quitting?"
+#~ msgstr "Voleu desar el mapa abans de sortir?"
+
+#~ msgid "Error: Illegal character in filename."
+#~ msgstr "Error: caràcters invàlids al nom del fitxer."
+
+#~ msgid ""
+#~ "Can't resize the map, the requested size is bigger than the maximum, size="
+#~ msgstr ""
+#~ "No es pot redimensionar el mapa, la mida sol·licitada és més gran del "
+#~ "permès. Mida: "
+
+#~ msgid " maximum="
+#~ msgstr " Màxim: "

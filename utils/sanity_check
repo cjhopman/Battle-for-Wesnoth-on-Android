@@ -1,0 +1,103 @@
+#!/bin/sh
+#
+# sanity_check -- general sanity checker for the source and translations
+#
+
+# This had better take us to the top-level source directory.  
+# Otherwise, confusion will ensue. 
+
+#Detect location of this script use it to cd to top-level
+FULL_PATH=`dirname $(readlink -f $0)`
+cd $FULL_PATH/..
+if [ ! -d data -o ! -d images ]
+then
+	echo "sanity_check: " \
+		"this tool must be run from the Wesnoth utils directory."
+	exit 1
+fi
+problems=no
+
+# First sanity check:
+
+echo "Checking POTFILES correctness..."
+
+potfiles="po/wesnoth/POTFILES.in po/wesnoth-lib/POTFILES.in po/wesnoth-editor/POTFILES.in po/wesnoth-test/POTFILES.in"
+
+# Gather the list of sources
+find src -name '*.cpp' -print | sort >/tmp/sschk$$_sources
+# See what's in the POTFILES
+sort -u $potfiles >/tmp/sschk$$_potmembers
+# Figure out which sources are not listed but should be
+missing=`comm -23 /tmp/sschk$$_sources /tmp/sschk$$_potmembers | tr '\012' ' '`
+if [ "$missing" ]
+then
+    echo "  Missing from the POTFILE.in files: $missing"
+    problems=missing
+else
+    echo "  All .cpp files have POTFILE.in entries." 
+fi 
+
+# Find invalid potfile entries
+for file in $potfiles
+do
+	sort -u $file >/tmp/sschk$$_uniq
+	invalid=`comm -23 /tmp/sschk$$_uniq /tmp/sschk$$_sources | tr '\012' ' '`
+	if [ "$invalid" ]
+	then
+	    echo "  Invalid $file entries: $invalid"
+	    problems=invalid
+	else
+	    echo "  All $file entries are valid." 
+	fi
+done
+
+# Check for duplicates within the individual POT files
+for file in $potfiles
+do
+	sort $file >/tmp/sschk$$_sorted
+	sort -u $file >/tmp/sschk$$_uniq
+	duplicates=`comm -23 /tmp/sschk$$_sorted /tmp/sschk$$_uniq | tr '\012' ' '`
+	if [ $duplicates ]
+	then
+		echo "  Duplicates within $file: $duplicates"
+		problems=within
+	fi
+done
+
+# Check for duplication across POT files
+for afile in $potfiles
+do
+	for bfile in $potfiles
+	do
+	  	# The newer-than test is a klugy way to select
+	  	# only one of each two file pairs that are the
+	  	# same symmetrical set.  This will give duplicate
+	  	# messages if the files were created in the same second.
+		if [ $afile != $bfile -a $afile -nt $bfile ]
+		then
+			sort -u $afile >/tmp/sschk$$_afile
+			sort -u $bfile >/tmp/sschk$$_bfile
+			duplicates=`comm -12 /tmp/sschk$$_afile /tmp/sschk$$_bfile | tr '\012' ' '`
+			if [ $duplicates ]
+			then
+				echo "  Duplicated between $afile and $bfile: $duplicates"
+				problems=across
+			fi
+		fi
+	done
+done
+
+if  [ $problems != within -a $problems != across ]
+then
+	echo "  No duplicates."
+fi
+
+# More sanity checks can go here...
+
+# Cleanup
+if [ $problems = 'no' ]
+then
+	echo "All sanity checks passed."
+fi
+
+rm /tmp/sschk$$_*

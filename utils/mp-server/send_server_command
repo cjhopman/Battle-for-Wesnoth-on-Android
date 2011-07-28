@@ -1,0 +1,26 @@
+#!/bin/sh
+if ! [ $# -ge 2 ]; then
+	echo "Syntax: $0 <server version> <command [arguments]>" >&2
+	exit 1
+fi
+
+SERVER=$1
+SERVERBASE=$HOME/servers/$SERVER
+SOCKET=$SERVERBASE/build/var/run/socket
+if ! [ -d "$SERVERBASE" ]; then
+	echo "Server '$SERVER' not found." >&2
+	exit 1
+fi
+if ! [ -e $SOCKET ]; then
+	echo "$SOCKET not found, using the 'oldbuild'." >&2
+	SOCKET=$SERVERBASE/oldbuild/var/run/socket
+fi
+if ! [ -p $SOCKET ]; then
+	echo "$SOCKET is not a named pipe (fifo)." >&2
+	echo "Is the $SERVER server running?" >&2
+	exit 1
+fi
+
+shift
+echo $* > $SOCKET
+

@@ -1,0 +1,440 @@
+# Copyright (C) 2005 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# Automatically generated, 2005.
+# Automatically generated <>, 2005.
+# 楊綮銘 <steven2880@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 1.1+cvs\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2010-06-25 13:28+0800\n"
+"Last-Translator: YP_Lin <yenpinlin@gmail.com>\n"
+"Language-Team: Chinese/Traditional <steven2880@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+msgid "Single Hex"
+msgstr "單一方格"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+msgid "Radius 1 Hex"
+msgstr "半徑為1的方格"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+msgid "Radius 2 Hex"
+msgstr "半徑為2的方格"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+msgid "Hex Line NW-SE"
+msgstr "方格以西北－東南排列"
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "全部"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "水面"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "平地"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+msgid "desert"
+msgstr "沙漠"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "森林"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "雪地"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "山脈"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "洞窟"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "村莊"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "城堡"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr "特殊地形"
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+"使用滑鼠左（右）鍵繪製前（背）景地形。按住Shift鍵可以只繪製地表圖形。Ctrl+右"
+"鍵點選可對點選方格做地形位置取樣。"
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+"使用滑鼠左鍵選擇，右鍵取消選擇。按住Shift鍵可以自動選擇同一地形的地面。"
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+"點選滑鼠左鍵選擇玩家設置，右鍵取消。使用數字鍵移動地圖到起始點，Alt+數字鍵設"
+"置玩家起始點。delete清除起始點。"
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr "點選貼上，貼上區域呈鏡面效果。"
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+msgid "File"
+msgstr "檔案"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+msgid "Edit"
+msgstr "編輯"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "地圖"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+msgid "Window"
+msgstr "視窗"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "村莊"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "退出編輯器"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "嚴重錯誤"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr "（新地圖）"
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "您確定要退出嗎？"
+
+#: src/editor/editor_controller.cpp:309
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr "您確定要退出嗎？對地圖所作的更動將遺失。"
+
+#: src/editor/editor_controller.cpp:311
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr "您確定要退出嗎？以下地圖已修改，而對地圖所作的更動將遺失:"
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "離開"
+
+#: src/editor/editor_controller.cpp:373
+msgid "No editor time-of-day found."
+msgstr "沒有找到時間編輯器。"
+
+#: src/editor/editor_controller.cpp:409
+msgid "Unsaved Changes"
+msgstr "未儲存的更動"
+
+#: src/editor/editor_controller.cpp:410
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr "您確定要放棄所有對地圖的更動？"
+
+#: src/editor/editor_controller.cpp:428
+msgid "Choose a Map to Open"
+msgstr "選擇地圖載入"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "另存地圖"
+
+#: src/editor/editor_controller.cpp:467
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "地圖名稱已存在，確定要覆蓋？"
+
+#: src/editor/editor_controller.cpp:484
+msgid "No random map generators found."
+msgstr "沒有找到隨機地圖產生器？"
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "創造地圖失敗。"
+
+#: src/editor/editor_controller.cpp:516
+msgid "Choose a mask to apply"
+msgstr "選擇要套用的遮罩"
+
+#: src/editor/editor_controller.cpp:523
+msgid "Error loading mask"
+msgstr "讀取遮罩時錯誤"
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr "選擇目標地圖"
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+msgid "Error loading map"
+msgstr "讀取地圖錯誤"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr "這個地圖已被開啟。"
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "地圖已儲存。"
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr "已讀取嵌入地圖的資料"
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr "已從任務中讀取地圖"
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+"已讀取地圖引用檔案:\n"
+"$new"
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "還原"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "無法還原"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "重作"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "無法重作"
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr "自動更新地形轉換：是"
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr "自動更新地形轉換：部分"
+
+#: src/editor/editor_controller.cpp:1112
+msgid "Auto-update Terrain Transitions: No"
+msgstr "自動更新地形轉換：否"
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "玩家"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr "目標地圖尺寸與當前地圖不同"
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr "（非核心）"
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr "如果不特別注意，在遊戲中就不會正常運作。"
+
+#: src/editor/editor_palettes.cpp:533
+msgid "FG"
+msgstr "前置地形"
+
+#: src/editor/editor_palettes.cpp:535
+msgid "BG"
+msgstr "後置地形"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr "檔案不存在"
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr "這份地圖檔案像是一個任務，但是地圖資料連結一個不存在的檔案。"
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr "空白地圖檔案"
+
+#: src/editor/map_context.cpp:219
+msgid "Could not save into scenario"
+msgstr "無法儲存地圖"
+
+#: src/editor/map_context.cpp:226
+msgid "Could not save the map: $msg"
+msgstr "無法儲存地圖： $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "無"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "選擇玩家"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+"哪個玩家從這裡開始遊戲？您可以使用alt+數字鍵設定起始點，使用delete鍵清除起始"
+"點。使用數字鍵可以移動到對應的起始點。"
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr "自選設定"
+
+#~ msgid "Error creating action object"
+#~ msgstr "新增事件時錯誤"
+
+#~ msgid "Action not implemented"
+#~ msgstr "事件未執行"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Settings"
+#~ msgstr "設置"
+
+#~ msgid "Draw tiles"
+#~ msgstr "描繪"
+
+#~ msgid "Fill"
+#~ msgstr "填滿"
+
+#~ msgid "Set player's starting position"
+#~ msgstr "設置玩家啓始點"
+
+#~ msgid "Zoom in"
+#~ msgstr "放大"
+
+#~ msgid "Zoom out"
+#~ msgstr "縮小"
+
+#~ msgid "Zoom to default view"
+#~ msgstr "恢復預設視角"
+
+#~ msgid "Toggle grid"
+#~ msgstr "切換網格"
+
+#~ msgid "Resize the map"
+#~ msgstr "調整地圖大小"
+
+#~ msgid "Flip map"
+#~ msgstr "翻轉地圖"
+
+#~ msgid "Delay transition updates"
+#~ msgstr "延遲更新"
+
+#~ msgid "Language"
+#~ msgstr "語言"
+
+#~ msgid "Choose your preferred language:"
+#~ msgstr "選擇你最愛的語言"
+
+#~ msgid "Battle for Wesnoth Map Editor"
+#~ msgstr "Battle for Wesnoth Map Editor"
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "Which Player?"
+#~ msgstr "那個玩家？"
+
+#~ msgid "Which player should start here?"
+#~ msgstr "那個玩家在這裏開始？"
+
+#~ msgid ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+#~ msgstr "警告：地圖名稱中有不支援字元，請以另外的名稱儲存。"
+
+#~ msgid "The file does not contain a valid map."
+#~ msgstr "無法讀取此地圖。"
+
+#~ msgid "Do you want to save the map before quitting?"
+#~ msgstr "在退出編輯器之前儲存地圖？"
+
+#~ msgid "Error: Illegal character in filename."
+#~ msgstr "錯誤：檔案名稱中有不支援字元。"
+
+#~ msgid ""
+#~ "Can't resize the map, the requested size is bigger than the maximum, size="
+#~ msgstr "無法重新設定地圖大小，您的要求超出最大範圍，尺寸="
+
+#~ msgid " maximum="
+#~ msgstr "最大="

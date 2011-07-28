@@ -1,0 +1,4742 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2010-07-26 17:43+0800\n"
+"Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:67
+msgid "LOW"
+msgstr "LOW"
+
+#. [multiplayer]
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:68
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:5
+msgid "Legend of Wesmere"
+msgstr "韦弥尔传奇"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:71
+msgid "(Intermediate level, 17 playable scenarios.)"
+msgstr "（中等级别，17幕可玩场景）"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:71
+msgid ""
+"The tale of Kalenz, the High Lord who rallied his people after the second "
+"orcish invasion of the Great Continent and became the most renowned hero in "
+"the recorded history of the Elves.\n"
+"\n"
+msgstr ""
+"这是一个关于凯雷茨的传说，在第二次兽人入侵伟大大陆之后这位高阶精灵领主重振了"
+"他的人民，他是精灵历史中最著名的英雄。\n"
+"\n"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:72
+msgid "(Easy)"
+msgstr "（简单）"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:72
+msgid "Soldier"
+msgstr "士兵"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:73
+msgid "(Normal)"
+msgstr "（普通）"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:73
+msgid "Lord"
+msgstr "领主"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:74
+msgid "(Hard)"
+msgstr "（困难）"
+
+#. [campaign]: id=LOW
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:74
+msgid "High Lord"
+msgstr "高阶领主"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:77
+msgid "Creator and Lead Designer"
+msgstr "制作者与主要设计者"
+
+#. [entry]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:79
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:92
+msgid "Spiros, George and Alexander Alexiou (Santi/fnaek)"
+msgstr "Spiros，George，以及Alexander Alexious (Santi/Fnaek)"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:86
+msgid "Campaign Maintenance"
+msgstr "战役维护"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:96
+msgid "Prose-doctoring and adaptation for mainline"
+msgstr "散文修订、为进入主线而改编"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:106
+msgid "WML Assistance"
+msgstr "WML协助"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:121
+msgid "Artificial Intelligence"
+msgstr "人工智能"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:128
+msgid "Graphics"
+msgstr "图像"
+
+#. [about]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:148
+msgid "Additional thanks to"
+msgstr "鸣谢"
+
+#. [entry]
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:207
+msgid ""
+"And the rest of the Wesnoth community for feedback,\n"
+"criticism, help with WML code and graphics."
+msgstr ""
+"以及韦诺社区中其他成员的反馈，\n"
+"评论，以及对WML代码和图像所提供的帮助。"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:21
+msgid "River Telfar"
+msgstr "泰法河"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:32
+msgid "Northern Shallows"
+msgstr "北方浅滩"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:33
+msgid "Ford of Alyas"
+msgstr "阿亚斯浅滩"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:34
+msgid "Ford of Tifranur"
+msgstr "迪弗兰努浅滩"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:35
+msgid "North Tower"
+msgstr "北塔"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:37
+msgid "South Tower"
+msgstr "南塔"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:39
+msgid "South Bastion"
+msgstr "南方堡垒"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:40
+msgid "Telfar Green"
+msgstr "泰法绿林"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:41
+msgid "Dancer's Green"
+msgstr "舞者绿林"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:42
+msgid "Karmarth Hills"
+msgstr "卡玛斯小山"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:43
+msgid "North Bridge"
+msgstr "北桥"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:44
+msgid "Great Tree"
+msgstr "巨树"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:45
+msgid "Brightleaf Wood"
+msgstr "亮叶树林"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:46
+msgid "Westwind Wood"
+msgstr "西风树林"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:47
+msgid "Southwind Wood"
+msgstr "南风树林"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:48
+msgid "Telionath"
+msgstr "泰利纳斯"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:49
+msgid "Arthen"
+msgstr "阿森"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:50
+msgid "Arryn"
+msgstr "艾伦"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:51
+msgid "Illissa"
+msgstr "伊利撒"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:52
+msgid "Viricon"
+msgstr "凡瑞肯"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:53
+msgid "Tireas"
+msgstr "泰瑞斯"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:54
+msgid "Essarn"
+msgstr "伊萨恩"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:55
+msgid "Valcathra"
+msgstr "凡尔凯撒"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:56
+msgid "Aelion"
+msgstr "艾莱恩"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:57
+msgid "Elendor"
+msgstr "艾楞德"
+
+#. [event]
+#: data/campaigns/Legend_of_Wesmere/maps/Kalian_map.cfg:58
+msgid "Erethean"
+msgstr "厄瑞森"
+
+#. [part]
+#. [scenario]: id=01_The_Uprooting
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:9
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:40
+msgid "The Uprooting"
+msgstr "斩草除根"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:44
+msgid ""
+"The great elvish hero Kalenz was born in a quiet green wood in Lintanir on "
+"the fringes of the Great Northern Forest. Though not of noble birth, he "
+"showed early promise in the arts of his people. His quick intelligence "
+"gained him more than usual respect among elders normally inclined to pay "
+"little heed to anyone younger than a century old."
+msgstr ""
+"伟大的精灵英雄凯雷茨出生在北方大森林边上林坦尼里的一片平静的绿林中。虽然不是"
+"贵族出身，但他很早就展现出来领导才能。他的睿智让那些通常极少关注百岁以下年轻"
+"人的老者对他也格外敬重。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:50
+msgid ""
+"Perhaps the elders sensed that changing times would require more flexible "
+"minds; these were the years when humans from the Green Isle were "
+"establishing themselves south of the Great River, and the known world was "
+"changing more rapidly than it had for a thousand years before."
+msgstr ""
+"或许是老者们感到变革的时代需要更灵活的头脑；自从来自绿色群岛来的人类在伟大之"
+"河南面建立起政权有些年头了，已知的世界千年来从没有变化如此之快。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:56
+msgid ""
+"Some changes were good. The Elves, awakened as from a long dream, began to "
+"increase in population. But some were very bad, and the worst of those was "
+"the coming of the orcs, the wreckers, the tree-killers. The years of "
+"Kalenz's long childhood were a golden age, and the last time of untroubled "
+"peace."
+msgstr ""
+"一些改变固然是好的。从漫长的梦中醒来的精灵们，人口开始增长。而另外的一些却非"
+"常糟糕，其中最坏的要数兽人的出现——这群肇事者、毁树者的到来。凯雷茨在无忧无虑"
+"的年代度过了童年，尽情享受了最后一段和平的时光。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:64
+msgid ""
+"The elves had never been a martial people, and they were not prepared for "
+"the inevitable war with the orcs. Kalenz came of age in the very year that "
+"Erlornas of Wesmere fought the first orcish raiders. Within the next decade "
+"orcish raids greatly increased, and their shadow loomed ever greater over "
+"the elves.\n"
+"\n"
+"This is the story of Kalenz, and of the Elves in the days of the humans in "
+"Wesnoth."
+msgstr ""
+"精灵自古不是好战的民族，因而这场和兽人之间不可避免的战争让他们措手不及。凯雷"
+"茨成年时正值韦弥尔的厄洛纳斯和第一波兽人突袭者们交战。此后的十年里兽人的袭击"
+"急剧增多，他们的阴影逐渐笼罩在精灵头上。\n"
+"\n"
+"这是凯雷茨的故事，也是人类在韦诺时期精灵族的故事。"
+
+#. [side]: type=Elder Mage, id=Crelanu
+#. [side]
+#. [side]: id=Velon, type=Elvish Captain
+#. [side]: type=Elvish Ranger, id=Antaril
+#. [side]: type=Elvish Captain, id=East
+#. [side]: type=General, id=Aldar
+#. [modify_side]
+#. [side]: type=Elvish Marshal, id=El'Isomithir
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:84
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:148
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:330
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:93
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:153
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:73
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:105
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:249
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:80
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:79
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:114
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:150
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:297
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:94
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:167
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:673
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:38
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:72
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:63
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:54
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:231
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:262
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:38
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:121
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:28
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:48
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:97
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:105
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:111
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:127
+msgid "Player"
+msgstr "玩家"
+
+#. [unit]: id=Anduilas, type=Elvish Fighter
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:98
+msgid "Anduilas"
+msgstr "安杜拉斯"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:126
+msgid "You trifled with the wrong elf!"
+msgstr "你居然轻视精灵，找错对象了！"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:136
+msgid "Take that, you orcish scum!"
+msgstr "接招吧，你们这群兽人混蛋！"
+
+#. [side]: id=Velon, type=Elvish Captain
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:146
+msgid "Velon"
+msgstr "维伦"
+
+#. [side]: id=Tbaran, type=Orcish Warrior
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:175
+msgid "T'baran"
+msgstr "泰巴伦"
+
+#. [side]: type=Saurian Ambusher, id=Shurm
+#. [side]: type=Saurian Ambusher, id=Trigr
+#. [side]: id=Hraurg, type=Saurian Ambusher
+#. [side]: type=Saurian Ambusher, id=Spahr
+#. [side]: type=Arch Mage, id=Aquagar
+#. [side]: type=Troll Warrior, id=Trigrul
+#. [side]: type=Troll Warrior, id=Tafrul
+#. [side]
+#. [side]: id=Tbaran, type=Orcish Warrior
+#. [side]: id=Wrulf, type=Orcish Warrior
+#. [side]: type=Orcish Warrior, id=Qumseh
+#. [side]: type=Orcish Warrior, id=Graur-Tan
+#. [modify_side]
+#. [side]: type=Elvish Marshal, id=Crintil
+#. [side]: type=Elvish Captain, id=Oblil
+#. [side]: type=Orcish Warlord, id=Pirror
+#. [side]: type=Orcish Warlord, id=Tan-Grub
+#. [side]: type=Great Troll, id=Grol
+#. [side]: type=Orcish Warlord, id=Khafa-Urg
+#. [side]: type=Orcish Warlord, id=Urug-Tar
+#. [side]: type=Orcish Warlord, id=Graur-Tan
+#. [side]: type=Troll Warrior, id=Traur
+#. [side]: type=Troll Hero, type=Great Troll, id=Grugl
+#. [side]: type=Orcish Warlord, id=Mordrum
+#. [side]: type=Orcish Warlord, id=Urug-Pir
+#. [side]: type=Great Troll, id=Truugl
+#. [side]: type=Orcish Warlord, id=Grubr
+#. [side]: type=Saurian Flanker, id=Spahr
+#. [side]: type=Saurian Flanker, id=Hgyr
+#. [side]: type=Saurian Flanker, id=Huurgh
+#. [side]: type=Saurian Oracle, id=Shhar
+#. [side]: type=Orcish Warlord, id=Kior-Pur
+#. [side]: type=Orcish Warlord, id=Mbiran
+#. [side]: type=Orcish Warlord, id=Tan-Durr
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:177
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:215
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:253
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:289
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:131
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:203
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:225
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:413
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:74
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:100
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:84
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:119
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:103
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:135
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:174
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:179
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:224
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:241
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:281
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:199
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:230
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:80
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:76
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:116
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:223
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:258
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:295
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:330
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:448
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:460
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:472
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:569
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:581
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:593
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:80
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:117
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:151
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:116
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:147
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:157
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:299
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:333
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:139
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:173
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:68
+msgid "Enemies"
+msgstr "敌人"
+
+#. [side]: id=Wrulf, type=Orcish Warrior
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:213
+msgid "Wrulf"
+msgstr "沃若夫"
+
+#. [side]: type=Orcish Warrior, id=Qumseh
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:257
+msgid "Qumseh"
+msgstr "前门森"
+
+#. [side]: type=Orcish Warrior, id=Graur-Tan
+#. [side]: type=Orcish Warlord, id=Graur-Tan
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:293
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:130
+msgid "Graur-Tan"
+msgstr "格兰努坦"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:361
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:510
+msgid "Kalenz must reach the signpost"
+msgstr "凯雷茨必须到达路标"
+
+# This is only a sounds-like translation. More recommendations welcome.
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:365
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:519
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:772
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:149
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:167
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:361
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:211
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:343
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:315
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:166
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:184
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:357
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:237
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:193
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:250
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:374
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:231
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:96
+msgid "Death of Kalenz"
+msgstr "凯雷茨阵亡"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:369
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:523
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:776
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:153
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:171
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:365
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:215
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:347
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:319
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:170
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:188
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:361
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:241
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:197
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:254
+msgid "Death of Landar"
+msgstr "兰达阵亡"
+
+#. [objective]: condition=lose
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:373
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:531
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:784
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:847
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:157
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:179
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:373
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:227
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:359
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:331
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:182
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:204
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:245
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:213
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:258
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:382
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:104
+msgid "Turns run out"
+msgstr "回合耗尽"
+
+#. [objectives]
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:376
+msgid "Early finish bonus: Defeat Wrulf"
+msgstr "提前完成奖励：击败沃若夫"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:385
+msgid "Orcs are pressing on us from all directions! To arms!"
+msgstr "兽人正在从各个方向朝我们推进！拿起武器！"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:389
+msgid ""
+"Hold, Kalenz. The Ka'lian council should discuss our response. Maybe we can "
+"reach an agreement with them!"
+msgstr ""
+"慢，凯雷茨。灵魂莲委员会应该会商量我们的回复。或许我们能和他们达成协议！"
+
+#. [message]: id=Qumseh
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:393
+msgid "Surrender or die, tree-shaggers!"
+msgstr "要么投降，要么死，树上长毛的家伙！"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:397
+msgid "They are too many. We have no choice but to submit!"
+msgstr "敌人太多了。我们只能投降了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:401
+msgid ""
+"Elves must never surrender to these foul beasts! Who will fight them beside "
+"me?"
+msgstr "精灵们绝不向这群肮脏的野兽投降！有谁愿与我并肩作战？"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:405
+msgid "We will follow you, Kalenz - but where can we go? We are surrounded!"
+msgstr "我们将追随你，凯雷茨——但我们又能去哪呢？我们被团团包围了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:409
+msgid ""
+"We must reach the elvish council in Ka'lian and enlist their help to "
+"recapture our home. Let's storm the orcs' southern outpost before more "
+"enemies arrive!"
+msgstr ""
+"我们必须到灵魂莲的精灵委员会去，得到他们的帮助夺回我们的家园。让我们在更多敌"
+"人赶到之前突破兽人的南方哨站！"
+
+#. [message]: id=Anduilas
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:413
+msgid "Very well, Kalenz - lead us!"
+msgstr "太好了，凯雷茨——带领我们！"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:432
+msgid "We surrender!"
+msgstr "我们投降"
+
+#. [message]: id=Graur-Tan
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:436
+msgid "Did I mention that we take no prisoners? Die!"
+msgstr "忘了说了，我们不收战俘——说再见吧！"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:440
+msgid ""
+"Kalenz was right and I was wrong. Go; join Kalenz while yet you can. I and "
+"the remaining elders will cover your retreat as best we may."
+msgstr ""
+"凯雷茨是正确的而我是错的。快走，尽可能加入凯雷茨的队伍去。我和剩下的年长精灵"
+"会尽最大努力掩护你们撤退。"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:467
+msgid "Flee, Kalenz... find vengeance for us!"
+msgstr "快逃， 凯雷茨…… 为我们复仇！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:471
+msgid ""
+"Velon, I swear on the life of Irdya that I will not let you be forgotten "
+"while elves yet draw breath to sing."
+msgstr "维伦，我对艾瑞达的生命发誓只要精灵还有气歌唱，我就不会忘记你。"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:480
+msgid "Swords will aid us more than songs, Kalenz; you saw that before I."
+msgstr "剑比歌更能帮助我们，凯雷茨；你比我预见的远。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:484
+msgid "Swordsmen you shall have, as swiftly as I can find them and return."
+msgstr "只要我找到他们并回来，你就会有自己的武装。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:494
+msgid ""
+"Velon has fallen. He counseled weakness, but did not deserved such an ugly "
+"death. We shall return with swords to avenge him!"
+msgstr "维伦死了，他很懦弱，但不该死得这么惨。我们会回来给他报仇的！"
+
+#. [message]: race=orc
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:507
+msgid "You won't get very far! After them!"
+msgstr "你们逃不掉了！追上他们！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:538
+msgid "Curse you, tree-shaggers! We will feed your young to our wolves!"
+msgstr "咒你全家，树上长毛的家伙！我要把你们的孩子都喂狼！"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:553
+msgid "What is this? The orc held plunder!"
+msgstr "这是什么？兽人手上有战利品！"
+
+#. [message]: id=Velon
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:567
+msgid "Flee, Kalenz...our hopes ride with you..."
+msgstr "快逃，凯雷茨……你是我们最后的希望……"
+
+#. [scenario]: id=02_Hostile_mountains
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:12
+msgid "Hostile mountains"
+msgstr "不善的山脉"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:35
+msgid ""
+"Kalenz and his band broke out of the orcish encirclement, only to discover "
+"that the country on the direct route to the Ka'lian was already swarming "
+"with orcs. The raid on Kalenz's home, it seemed, had been but one small part "
+"of a great migration south. There was no choice but to make a detour through "
+"territory the elves would rather have avoided..."
+msgstr ""
+"凯雷茨和他的部队刚冲出兽人的围追堵截，却发现去灵魂莲路上的那个乡里已经都是兽"
+"人了。凯雷茨家乡的兽人入侵，看起来只是向南方大迁移计划的冰山一角。他们别无选"
+"择,只能选择借道曾经“谈之色变”的地方……"
+
+#. [side]
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:96
+msgid "Neutrals"
+msgstr "中立者"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:118
+msgid "Those stinking trolls ha' stepped on OUR land!"
+msgstr "那些臭巨魔踏上我们的土地了！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:185
+msgid "Those lying elves have stepped on OUR land!"
+msgstr "那些不守信的精灵踏上我们的地盘了！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:330
+msgid ""
+"It should be rare sport to watch this ... just beware not to trespass on our "
+"land."
+msgstr "这可难得一见啊……只要当心不要侵入我们的土地就行了。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:342
+msgid "Up axes, and death to elves!"
+msgstr "高举战斧，杀光精灵！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:354
+msgid "Up axes, and death to trolls!"
+msgstr "高举战斧，杀光巨魔！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:367
+msgid "Up axes, and kill all the interlopers!"
+msgstr "高举战斧，杀光入侵者！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:381
+msgid "Defend our bounds! Slay all who trespass them!"
+msgstr "保卫我们的边疆！杀光入侵的人！"
+
+#. [side]: type=Troll Hero, type=Great Troll, id=Grugl
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:410
+msgid "Grugl"
+msgstr "格拉戈尔"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:475
+msgid ""
+"I had hoped to avoid these paths... The eastern way is through dwarvish "
+"territory and is shorter. I pray the dwarves will grant us safe passage, "
+"since the other path is through troll territory..."
+msgstr ""
+"我曾奢望避开这条路……东面的捷径穿过矮人的领地。考虑到另一条路穿过巨魔的领地，"
+"我只能祈祷但愿矮人们能赏脸让我们安全通过。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:479
+msgid ""
+"Not even in yer dreams, elf. These are dwarvish lands, and troubles we want "
+"no part of nip at yer heels. Get out and stay out!"
+msgstr ""
+"做梦也别想，精灵。这是矮人的地盘，你们别想带给我们一丁点你们的麻烦。滚出去离"
+"远点！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:483
+msgid ""
+"Our troubles will be yours, too, whether either of us will it or not. The "
+"orcs have come down from the north like a flood; if we squabble among "
+"ourselves they will feast on our discord."
+msgstr ""
+"不论我们愿不愿意，我们的麻烦也将会成为你们的麻烦。兽人们从北方像洪水般冲来。"
+"如果我们鹬蚌相争，他们正好坐乘渔翁之利。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:487
+msgid ""
+"Bah. More smooth words and trickery, by my beard. We know yer kind...and who "
+"needs yer help anyway, weaklings? Leave now, or feel my axe! That same kiss "
+"of steel will greet all intruders. Anyone who sets foot on the eastern bank "
+"o' this river will rue the day he was born!"
+msgstr ""
+"呸，用我的胡子也能猜到你花言巧语里有问题。我们见多你们这类的……再说谁需要你们"
+"这帮懦夫的帮助？快滚，要不就尝尝我斧头的厉害！同样的刀刃会招待所有的入侵者。"
+"所有敢于登上河东岸的家伙会后悔他出生！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:491
+msgid "I cannot see how trolls could be any less friendly."
+msgstr "我看巨魔恐怕也比他们友好些。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:495
+msgid ""
+"Hmm... Perhaps the dwarves' intransigence can serve our purpose. Onwards, "
+"and no matter what you do, do NOT step on the eastern band of the river!"
+msgstr ""
+"哼……或许矮人的不让步倒正合我意。从今以后，无论你们做什么，绝不允许踏上河东岸"
+"半步！"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:515
+msgid ""
+"<span color='white'>Alternative objective:</span>\n"
+"<span color='green'>Defeat Grugl</span>"
+msgstr ""
+"<span color='white'>可选目标：</span>\n"
+"<span color='green'>击败格拉戈尔</span>"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:527
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:219
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:472
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:327
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:178
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:192
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:365
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:209
+msgid "Death of Olurf"
+msgstr "奥勒夫阵亡"
+
+#. [message]: speaker={SPEAKER_NAME}
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:542
+msgid "We made it. Onwards to Wesmere!"
+msgstr "我们成功了。继续向韦弥尔进军！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:553
+msgid "Crazy elves! But at least they felled a few trolls before they left."
+msgstr "精灵太疯狂了！不过至少走之前他们干掉了几个巨魔。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:559
+msgid "Crazy elves!"
+msgstr "精灵疯了！"
+
+#. [message]: id=Grugl
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:626
+msgid ""
+"Uuuurrrggghh! Grugl tried to eat dwarves, but choked in their sharp nasty "
+"axes."
+msgstr "唔唔唔哇啊啊啊！格拉格尔想要吃掉矮人，但被他们有凶气的利斧吓住了。"
+
+#. [message]: id=Grugl
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:642
+msgid ""
+"Uuuurrrggghh! Grugl wanted tasty elf-meat, but choked on their nasty pointy "
+"spears!"
+msgstr "唔唔唔哇啊啊啊！格拉格尔想要尝尝精灵肉，但被他们有凶气的尖矛吓住了！"
+
+#. [scenario]: id=03_Kalian
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:26
+msgid "Ka'lian under attack"
+msgstr "灵魂莲正遭受攻击"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:60
+msgid ""
+"Events at the Ka'lian took an ominous turn before Kalenz and his band could "
+"arrive there...."
+msgstr "在灵魂莲，事态在凯雷茨和他的部队到达前就有了不好的转变……"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:154
+msgid "Chief, the cursed tree-shaggers are defeating us!"
+msgstr "酋长，该死的树毛人打败了我们！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:239
+msgid "We die, but more come after us, Orcs will rule all!"
+msgstr "我们战死了，更多兽人将会赶来，兽人将统治一切！"
+
+#. [unit]: type=Orcish Slayer, id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:346
+msgid "Urudin"
+msgstr "尤鲁丁"
+
+#. [unit]: type=Orcish Warlord, id=Murudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:357
+msgid "Murudin"
+msgstr "穆鲁丁"
+
+#. [unit]: type=Orcish Warlord, id=Mutaf-uru
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:366
+msgid "Mutaf-uru"
+msgstr "木塔夫尤鲁"
+
+#. [message]: id=Mutaf-uru
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:391
+msgid "Good, you are returned. What news is there?"
+msgstr "太好了，你回来了。有什么消息吗？"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:395
+msgid ""
+"The elvish scum refused to surrender, Warlord. We have begun the attack, as "
+"planned."
+msgstr "精灵渣滓拒绝投降，督军。我们已经按计划进攻了。"
+
+#. [message]: id=Mutaf-uru
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:399
+msgid "Were you able to breach their citadel?"
+msgstr "你怎样才能攻破他们的大本营？"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:407
+msgid "Yes. We slaughtered them in great numbers."
+msgstr "是的。我们要把他们都宰光！"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:416
+msgid "No, our attack was repulsed."
+msgstr "不，我们的攻势被击退了。"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:422
+msgid "They resisted us fiercely; the battle is not yet done."
+msgstr "他们拼死抵抗；战争还没结束。"
+
+#. [message]: id=Mutaf-uru
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:438
+msgid "Go, report this news to the warlord Grubr."
+msgstr "快去，把这个消息报告戈鲁巴督军。"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:442
+msgid "I obey."
+msgstr "遵命。"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:495
+msgid " $orc_battlefield_strategy changed to attack "
+msgstr " $orc_battlefield_strategy 改为攻击 "
+
+#. [message]: id=Mutaf-uru
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:552
+msgid "These elves are weak, mere meat for my wolves! Get them!"
+msgstr "这些精灵太弱了，只能做我的狼的午餐！宰了他们！"
+
+#. [message]: id=Mutaf-uru
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:576
+msgid ""
+"Cursed tree-shaggers and their filthy bows! We shall await the main army."
+msgstr "该死的树毛人和他们该死的弓！我们必须等候大军。"
+
+#. [objective]: condition=win
+#. [objectives]
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:768
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:145
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:165
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:339
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:162
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:189
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:223
+msgid "Defeat all enemy leaders"
+msgstr "击败所有敌方首领"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:780
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:843
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:355
+msgid "Death of Galtrid"
+msgstr "格尔泰德阵亡"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:793
+msgid ""
+"For days, Kalenz and his small host of followers traveled, moving nearer and "
+"yet nearer to the Ka'lian. Thanks to the dense fog and elvish woodscraft, "
+"the band was able to evade the orcish hunters. Then, as they were almost "
+"arrived at their destination, the north wind blew, and the fog lifted to "
+"reveal a grim sight..."
+msgstr ""
+"几天来，凯雷茨和他的小队追随者长途跋涉，一点点走向灵魂莲。幸亏浓雾和精灵的丛"
+"林技巧，这支队伍能够躲避兽人的搜寻。之后，他们几乎到达了目的地，北风把雾吹"
+"开，却露出了一个残酷的景象……"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:797
+msgid ""
+"Great hosts of orcs converge on the Ka'lian! But if we fall upon them from "
+"behind as they are fully engaged wit the defenders, we and they together "
+"might yet defeat them."
+msgstr ""
+"大堆兽人聚集在灵魂莲！守备部队忙于防守，要是我们从后面突然进攻兽人，我们两军"
+"也许能打败兽人。"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:801
+msgid "Are you our army's vanguard? Hurry, for we are sorely pressed here."
+msgstr "你们是军团的前锋吗？赶快，我们的压力非常大！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:805
+msgid ""
+"No, we are fleeing an attack on our home in the Lintanir. Time enough for "
+"talk later; we must defeat these orcs together, or at least hold them off "
+"long enough for the humans to come to our aid."
+msgstr ""
+"不是，我们是因在林坦尼的家乡被攻陷才逃出来。待会儿再谈不迟；我们必须一起打败"
+"这些兽人，或者至少我们顶住他们直到人类来救我们。"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:809
+msgid ""
+"Then you have not heard the ill tidings. King Haldric has broken the treaty. "
+"The humans will not come to our help!"
+msgstr "你还没听说这糟糕的消息啊。哈德里克国王撕毁了协议。人类不会来帮我们了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:834
+msgid ""
+"We have failed to relieve the defenders, and more orcish war-bands are "
+"arriving. All is lost!"
+msgstr "我们没能成功援救防线，更多兽人军队开来了。一切都完了！"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:851
+msgid "<span color='gold'>Bonus objective: Defeat Urudin </span>"
+msgstr "<span color='gold'>额外目标：击败尤鲁丁</span>"
+
+#. [message]: id=guard
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:871
+msgid "Hist! Someone is sneaking about in the mist."
+msgstr "嘘！有人在雾中潜行。"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:875
+msgid ""
+"Ho, elves! Hand over the stone and we <i>might</i> not destroy your cute "
+"little playhouse, and we <i>might</i> spare you. Or, at the very least, we "
+"promise you a quick and painless death."
+msgstr ""
+"呵，精灵！交出石头，我们<i>也许</i>不会毁掉你们可爱的小玩具屋，我<i>也许</i>"
+"会放过你们。或者，至少我答应让你们死得痛快。"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:879
+msgid ""
+"What 'stone', foul and clumsy orc? Your lips are not fit even to name the "
+"citadel of the Ka'lian, for it has stood since before your kind crawled into "
+"sunlight and will endure long after you are forgotten!"
+msgstr ""
+"什么“石头”，又脏又笨的兽人？你不配提灵魂莲大本营的名字，它在你们还在向阳光爬"
+"时就建立起来，会一直矗立到你们从世上消失！"
+
+#. [message]: id=Urudin
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:890
+msgid ""
+"We will cram those arrogant words back down your throat before we kill you, "
+"wose-spawned worm of an elf!"
+msgstr "在我杀你们之前要叫你们把这些自大的话吞回去，精灵就是树人产下的虫卵！"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:941
+msgid ""
+"To arms, elven-kin! They are many, but our army is returning and surely "
+"close at hand. We have but to hold until it arrives!"
+msgstr ""
+"拿起武器，精灵族！他们人很多，但我们的军队正赶回来，就在眼前了。在到之前顶住"
+"兽人！"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1004
+msgid ""
+"You will have a different recall list and amount of starting gold than you "
+"may be expecting at the beginning of this scenario, as you will not start "
+"with Kalenz's army."
+msgstr ""
+"你将有一份不同的召回列表，场景开始时有比你预计的还要多的金币，而你不会以凯雷"
+"茨的军队开始。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1013
+msgid "We won! The Ka'lian is safe!"
+msgstr "我们赢了！灵魂莲安全了！"
+
+#. [unit]: id=Huraldur, type=Elvish Scout
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1029
+msgid "Huraldur"
+msgstr "哈瑞尔杜"
+
+#. [message]: id=Huraldur
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1045
+msgid "The elvish treasury is under attack! They need help desperately!"
+msgstr "精灵的金库遭受攻击！他们急需援助！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1049
+msgid ""
+"Galtrid, your men are weary from long combat. Mine are fresher; I'll go."
+msgstr "格尔泰德，你的人马战后疲惫。我的手下好些；我去增援。"
+
+#. [message]: id=Huraldur
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1053
+msgid "Hurry! We were near overwhelmed as I left."
+msgstr "尽快！我要是走了我们就会招架不住的。"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:1057
+msgid ""
+"Yes, go, Kalenz, I'll guard the Ka'lian till our army returns from the front."
+msgstr "好的，去吧，凯雷茨，我会保护灵魂莲直到我们的部队从前线回来。"
+
+#. [scenario]: id=04_Elvish_Treasury
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:13
+msgid "The Elvish Treasury"
+msgstr "精灵金库"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:31
+msgid ""
+"Kalenz and his forces raced to relieve the siege of the Elvish Treasury..."
+msgstr "凯雷茨和他的部队赶去解救对精灵金库的围攻……"
+
+#. [side]: type=Saurian Ambusher, id=Shurm
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:69
+msgid "Shurm"
+msgstr "沙门"
+
+#. [side]: type=Saurian Ambusher, id=Trigr
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:95
+msgid "Trigr"
+msgstr "泰格"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:181
+msgid ""
+"It seems that we are too late. The Treasury has fallen to the Saurians...."
+msgstr "看来我们来晚了。金库已经落入蜥蜴人手中了……"
+
+#. [message]: id=Huraldur
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:185
+msgid "And I see the remains of the garrison has been taken prisoner."
+msgstr "我还看到留下的守备部队都被俘虏了。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:195
+msgid ""
+"We must free them and make these saurians pay. Attack and leave no one alive!"
+msgstr "我们必须救出他们并让蜥蜴人们为此付出代价。进攻，不留活口！"
+
+#. [message]: id=Shurm
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:199
+msgid ""
+"More elves are coming! Too late, we've taken all your gold and we'll get "
+"more gold from the orcs for helping them out! "
+msgstr ""
+"更多精灵来了！太晚了，我们拿到了你们所有的金币，我们还要从兽人那再敲一大笔！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:203
+msgid "You will not live to enjoy it!"
+msgstr "你们活不到享受的那天了！"
+
+#. [unit]: id=Arkildur, type=Elvish Fighter
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:221
+msgid "Arkildur"
+msgstr "阿克尔杜"
+
+#. [unit]: id=Tameril-Isimeril, type=Elvish Archer
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:238
+msgid "Tameril-Isimeril"
+msgstr "塔门瑞尔艾斯门瑞尔"
+
+#. [unit]: id=Laril, type=Elvish Archer
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:253
+msgid "Laril"
+msgstr "拉瑞尔"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:267
+msgid ""
+"We are free! My lord Kalenz, from this day forward I and my men are your "
+"sworn followers. And there is that which you should know about the treasure "
+"the orcs seek..."
+msgstr ""
+"我们自由了！凯雷茨阁下，从今往后我和我的手下发誓追随您。您应该听说了兽人在找"
+"金库的事……"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:271
+msgid ""
+"I accept your service gratefully, for I will need every sword and bow and "
+"spell with which to defeat these invaders. There will be time for talk "
+"later; now, we must fight."
+msgstr ""
+"我很高兴接受你的效忠，我需要每一柄剑每一把弓来对付入侵者。待会儿谈也不迟；现"
+"在，我们要作战了。"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:293
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:175
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:369
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:223
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:351
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:323
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:174
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:196
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:369
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:201
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:378
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:235
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:100
+msgid "Death of Cleodil"
+msgstr "科柳迪阵亡"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:312
+msgid ""
+"Without their leaders, the saurians flee in panic. Let us free the "
+"treasury's garrison before they can find it in them to rally and return."
+msgstr ""
+"失去了首领，那些蜥蜴人仓皇逃跑了。在他们重新集结回击之前解救那些金库守备部"
+"队。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:323
+msgid ""
+"We have defeated the saurians and freed the garrison, and that is no small "
+"thing...but our gold is gone. "
+msgstr "我们打败了蜥蜴人也解救了守备军，但有件糟糕的事……我们的金币都不在了。"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:327
+msgid ""
+"The saurians happily carried away the Treasury gold, but they had come here "
+"looking for something more specific...some individual object they called "
+"'dastone'. I am sorry, my lord Kalenz, I could not understand their "
+"distorted speech very well."
+msgstr ""
+"蜥蜴人洗劫了我们金库里的金币，不过他们来这儿仔细搜寻了某个特别的东西……某个他"
+"们称作“大石头”的独特东西。我很抱歉，凯雷茨阁下，我没能完全明白他们那糊涂的"
+"话。"
+
+#. [message]: race=elf
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:331
+msgid ""
+"The war with the Orcs goes poorly. The Ka'lian will need that gold back to "
+"buy arms and food, to hire artisans, to support its armies."
+msgstr ""
+"和兽人的战争并未准备充分。灵魂莲需要夺回金币，以购买武器食物，雇佣工匠，支持"
+"军队。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:335
+msgid ""
+"We will hunt down those saurians and retrieve our gold. More, we must teach "
+"them that it is lethal folly to raid us, else they will plague us like rats."
+msgstr ""
+"我们去追上那些蜥蜴人，夺回我们的金币。顺便给他们个教训，犯我者必死，不然他们"
+"会像老鼠一样烦我们。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:346
+msgid "I am ashamed to die at the hands of tree-shaggers!"
+msgstr "我居然死在树毛人手里，脸丢光了！"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/04_Elvish_Treasury.cfg:350
+msgid ""
+"When you meet your kin in the dry hells, tell them you perished at the hands "
+"of the Kalenz's elves!"
+msgstr "当你在那干涸的地狱见到你同族的时候，告诉他们你死在凯雷茨的精灵手里！"
+
+#. [scenario]: id=05_Saurian_Treasury, (role=gold_carrier) white}, (role=gold_carrier) purple}
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:13
+msgid "The Saurian Treasury"
+msgstr "蜥蜴人的金库"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:33
+msgid ""
+"Elvish scouts found the trail of the Saurian war party without difficulty. "
+"The way back to the saurians' treasury was clear..."
+msgstr ""
+"精灵侦察兵不费力气就找到了蜥蜴人军队的足迹。通往蜥蜴人金库的路一清二楚……"
+
+#. [side]: id=Hraurg, type=Saurian Ambusher
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:76
+msgid "Hraurg"
+msgstr "何奥格"
+
+#. [side]: type=Saurian Ambusher, id=Spahr
+#. [side]: type=Saurian Flanker, id=Spahr
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:112
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:109
+msgid "Spahr"
+msgstr "思潘何"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:162
+msgid "Enter the Saurian Treasury and leave with the gold"
+msgstr "进入蜥蜴人的金库，带走金子"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:193
+msgid ""
+"There they are. They have dumped our gold in their own treasury. We must "
+"strike quickly and leave with the gold before they can summon their full "
+"host."
+msgstr ""
+"他们在那。他们已经把我们的金币倒进他们的金库了。我们必须迅速突袭，在他们招来"
+"大部队前带着金子离开。"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:197
+msgid ""
+"Moving so much gold is no light matter. We will need horses to bear it back "
+"home."
+msgstr "要搬运这么多金币可不是易事。我们需要马来驮回去。"
+
+#. [message]: id=Hraurg
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:203
+msgid ""
+"The elves have followed ussss! We must hold the gold until reinforcements "
+"arrive."
+msgstr "精灵们一直在跟踪我们！嘶嘶~我们必须保护住金币直到增援部队到达。"
+
+#. [object]
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:240
+msgid "Treasure Chest"
+msgstr "宝箱"
+
+#. [message]: id=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:290
+msgid ""
+"We got to the treasury. It was much easier than we thought...What's this?"
+msgstr "我们到达金库了。这比我们想象地简单多了……这是什么？"
+
+#. [unit]: id=Swirh, type=Saurian Ambusher, role=treasure_guard
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:296
+msgid "Swirh"
+msgstr "斯维"
+
+#. [unit]: id=Cfir, type=Saurian Skirmisher, role=treasure_guard
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:309
+msgid "Cfir"
+msgstr "斯夫"
+
+#. [unit]: id=Kfir, type=Saurian Augur, role=treasure_guard
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:322
+msgid "Kfir"
+msgstr "科夫"
+
+#. [unit]: id=Hrish, type=Saurian Ambusher, role=treasure_guard
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:336
+msgid "Hrish"
+msgstr "何施"
+
+#. [message]: id=Swirh
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:351
+msgid ""
+"Sssstupid elves thought the treasury would be unguarded! Guards, slay these "
+"intruders!"
+msgstr "嘶嘶~愚蠢的精灵以为我们的金库没人把守！卫兵，干掉这些入侵者！"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:357
+msgid "New Objective: Transport the treasure with a rider to the signpost"
+msgstr "新目标：用骑兵运送财宝到达路标"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:393
+msgid "Aargh! I shall never see the bright moon's face again!"
+msgstr "啊！我再也不能见到皓月了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:455
+msgid "We have recovered our gold; it is well."
+msgstr "我们已经夺回了我们的金币；没有少。"
+
+#. [message]: role=gold_carrier
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:459
+msgid ""
+"We have recovered much more than our own treasure. These saurians would seem "
+"to have taken up robbery as a vocation!"
+msgstr "我们夺回的金币比我们自己的财物多得多。这些蜥蜴人看来真是职业强盗！"
+
+#. [message]: id=Spahr
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:463
+msgid ""
+"They took all our treasure! Quickly, place ambushers on all trails from here "
+"to Wesmere. I will give 500 gold to whoever kills their leader. They must "
+"not escape."
+msgstr ""
+"他们抢走了我们所有的金子！赶快，在通往韦弥尔的所有路上布置埋伏。谁杀掉他们的"
+"首领我奖他500金币。他们绝不能逃脱。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:468
+msgid ""
+"Turnabout is fair play. Now that we've retrieved the gold, let us fare "
+"swiftly back to Wesmere. The Saurians will likely be infesting the direct "
+"route, so we will detour to the north. "
+msgstr ""
+"以其人之道还治其人之身。现在我们拿回金子了，让我们快速掉头开向韦弥尔。蜥蜴们"
+"应该会在直达路上骚扰，那我们绕到北面去。"
+
+#. [scenario]: id=06_Acquaintance_in_Need
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:13
+msgid "Acquaintance in Need"
+msgstr "危难中的熟人"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:30
+msgid ""
+"To evade the saurians blocking the eastern approaches to Wesmere, Kalenz and "
+"his war-band moved to enter Wesmere Forest from a different direction ..."
+msgstr ""
+"为了避开东部入口蜥蜴人的堵截，凯雷茨和他的部队行军到另一个方向来进入韦弥尔森"
+"林。"
+
+#. [side]: type=Orcish Warlord, id=Urug-Tar
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:98
+msgid "Urug-Tar"
+msgstr "尤鲁格塔"
+
+#. [side]: type=Troll Warrior, id=Traur
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:160
+msgid "Traur"
+msgstr "泰奥"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:207
+msgid "Defeat enemy leaders"
+msgstr "击败敌方首领"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:240
+msgid ""
+"What's this? It appears the orcs have surrounded a dwarvish enclave. And by "
+"the sound of the bellowing I hear, I think our old friend, Olurf, is here."
+msgstr ""
+"那是什么？看起来好像兽人将矮人围在了一个地方。从我听到的吼声中我想我们的老朋"
+"友奥勒夫在这儿。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:244
+msgid ""
+"You again? Maybe ye were not completely wrong when ye predicted the orcs "
+"would attack us. We ha' been forced from our home and are now surrounded."
+msgstr ""
+"又是你！？也许你预计兽人会来进攻我们的时候不全错。我们被赶出家园又在这儿被包"
+"围了。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:248
+msgid "Let us give them aid - it's clear they need it!"
+msgstr "让我们给他们点援助吧——显然他们很需要！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:252
+msgid ""
+"Help them? They would not even let us pass through their land to avoid the "
+"trolls, remember?"
+msgstr "帮他们？你忘了吗，他们甚至不同意我们穿过他们的地盘以避开巨魔？"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:256
+msgid ""
+"Our enemy is the orcs, not the dwarves. Besides, the orcs are in our way. "
+"Olurf, we cannot let you have all the fun here! "
+msgstr ""
+"我们的敌人是兽人，不是矮人。另外兽人又在前方挡道。奥勒夫，我们不能让你在这儿"
+"悠哉了！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:260
+msgid "For an elf, you think like a dwarf! I think I like you. (for an elf)"
+msgstr "作为一个精灵，你像一个矮人般思考！我想我欣赏你。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:270
+msgid "The orcs ha' been defeated. My lord, we are in your debt."
+msgstr "兽人被打败了。阁下，我们欠你一份人情。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:274
+msgid ""
+"We must put aside our differences and ally against the orcish menace. Olurf, "
+"join us!"
+msgstr "我们应该放下不同共御外敌。奥勒夫,加入我们吧！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:278
+msgid ""
+"Dwarves, ally with elves? I owe ye a debt, but my kin willna' be happy at "
+"the thought."
+msgstr "矮人，和精灵结盟？我是欠你的，可不见得我的同族都愿意。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:282
+msgid ""
+"There will be a big fight with the orcs in Wesmere very soon. If you can "
+"cover our flank to the north, I will pay you 400 gold."
+msgstr ""
+"不久在韦弥尔将有一场和兽人的大战。如果你能掩护我们的北面侧翼，我会给你400金"
+"币。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:286
+msgid ""
+"A proper contract for good money? That's a different matter; I'm sure I can "
+"find some o' my people willing to fight on those terms!"
+msgstr ""
+"有丰厚报酬的合适契约？这就不同了；我可以肯定，为这个价钱我能找些人去作战！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:290
+msgid ""
+"What? Kalenz, are you out of your mind? Surely you will not throw away 400 "
+"gold on this scheming mercenary! "
+msgstr ""
+"什么！？凯雷茨，你失去理智了吗？你怎么能把400金币扔在这些诡计多端的佣兵身上！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:294
+msgid ""
+"Where there's a contract, our honor is involved. We will be there to cover "
+"your northern flank or else I will return your gold!"
+msgstr ""
+"只要有契约，就关系到我们的荣誉。我们会去掩护你们的北部侧翼，否则我们把金币原"
+"数奉还！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:298
+msgid ""
+"I believe him. Dwarves are...rough...by our standards, but not liars. I "
+"think he knows that if he does not honor his contract, next time we will not "
+"be there to come to his aid."
+msgstr ""
+"我相信他。以我们的标准来看……矮人们是挺粗野，但不是骗子。我想他知道如果他不遵"
+"守契约，那么下次我们也不会援助他们。"
+
+#. [scenario]: id=07_Elves_last_stand
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:24
+msgid "Elves' Last Stand"
+msgstr "精灵最后的据点"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:30
+msgid ""
+"The journey back to Wesmere was surprisingly uneventful, the orcs having "
+"apparently withdrawn to regroup after their defeats. Kalenz and his band "
+"returned just in time..."
+msgstr ""
+"返回韦弥尔的旅程出人意外的平静无事，兽人显然失利后暂时撤退以重新集结。凯雷茨"
+"和他的部队正好及时赶回……"
+
+#. [side]: type=Elvish Marshal, id=El'Isomithir
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:153
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:103
+msgid "El'Isomithir"
+msgstr "厄艾森密瑟"
+
+#. [side]: type=Orcish Warlord, id=Mordrum
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:183
+msgid "Mordrum"
+msgstr "莫若杜姆"
+
+#. [side]: type=Orcish Warlord, id=Urug-Pir
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:215
+msgid "Urug-Pir"
+msgstr "尤鲁戈皮"
+
+#. [side]: type=Great Troll, id=Truugl
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:245
+msgid "Truugl"
+msgstr "土乌戈尔"
+
+#. [side]: type=Orcish Warlord, id=Grubr
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:285
+msgid "Grubr"
+msgstr "戈鲁巴"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:386
+msgid ""
+"The orcs are not defeated, and our troops and supplies are exhausted. This "
+"is the end!"
+msgstr "我们仍不能打败兽人，而我们已经弹尽粮绝了。天诛我也！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:397
+msgid ""
+"The orcs have pushed us back to the Ka'lian. There is no way out. We must "
+"win here!"
+msgstr "兽人已把我们压制回灵魂莲。我们无路可走，我们必须赢下此战！"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:401
+msgid "This is our final stand. If they take the Ka'lian, all is lost!"
+msgstr "这是我们最后的据点。如果他们攻陷灵魂莲，那一切就都完了！"
+
+#. [message]: id=Grubr
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:406
+msgid "We'll crush those weak elves and I'll get da stone!"
+msgstr "我们要一举粉碎这些脆弱的精灵们，我要拿到“大石头”！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:410
+msgid ""
+"These are hardened orc and troll veterans. Men, prepare for a long, hard "
+"fight..."
+msgstr "他们是冷酷无情的兽人和久经沙场的巨魔。兄弟们，做好打一场持久战的准备……"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:427
+msgid ""
+"In this scenario, you may change the behavior of an allied side's AI using a "
+"context menu brought up by clicking on the allied side's leader."
+msgstr "在这幕场景，你能改变盟友方的AI行为，点击盟友首领以打开右键选单。"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:508
+msgid "At last! The orcs are defeated."
+msgstr "结束了！兽人被打败了。"
+
+#. [unit]: type=Orcish Warrior, id=Pirorr
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:514
+msgid "Pirorr"
+msgstr "皮鲁若"
+
+#. [message]: id=Pirorr
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:525
+msgid ""
+"The elves have beaten us and they did not use da stone. Maybe they don't "
+"have it? Great Chief will not like bad news!"
+msgstr ""
+"精灵打败了我们，他们没有使用“大石头”。或许那东西不在他们手上？大酋长可不喜欢"
+"坏消息！"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:534
+msgid "Kalenz, we are again in your debt. You returned just in time."
+msgstr "凯雷茨,我们又欠你一个人情。你回来得正是时候。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:538
+msgid "And we have what's left of the elvish treasury with us!"
+msgstr "并且我们带来了精灵金库里留下的东西！"
+
+#. [message]: id=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:550
+msgid ""
+"Aargh! I should have stayed in the mountains instead of joining the orcs!"
+msgstr "可恶！我本应该呆在山里而不是加入兽人！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:561
+msgid "Orcs, death is all you will find in this forest!"
+msgstr "兽人，在这个森林里面你们只能找到死路一条！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:572
+msgid "I die without getting da stone?"
+msgstr "没有得到“大石头”我就死了吗？"
+
+#. [unit]: id=Bulrod, type=Dwarvish Steelclad
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:5
+msgid "Bulrod"
+msgstr "布洛若德"
+
+#. [unit]: id=Simclon, type=Dwarvish Thunderer
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:17
+msgid "Simclon"
+msgstr "辛姆克楞"
+
+#. [unit]: id=Harald, type=Dwarvish Berserker
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:30
+msgid "Harald"
+msgstr "哈瑞尔德"
+
+#. [unit]: id=Budrin, type=Dwarvish Berserker
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:43
+msgid "Budrin"
+msgstr "布德瑞"
+
+#. [unit]: id=Dudan, type=Dwarvish Fighter
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:56
+msgid "Dudan"
+msgstr "杜丹"
+
+#. [unit]: id=Korbun, type=Dwarvish Fighter
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:69
+msgid "Korbun"
+msgstr "库本"
+
+#. [unit]: id=Merhun, type=Dwarvish Berserker
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:82
+msgid "Merhun"
+msgstr "梅亨"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:98
+msgid "Did ye think we'd let you have all the fun wi' the orcs by yerselves?"
+msgstr "你以为我们会同意你们跟兽人玩个够吗？"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:102
+msgid "It's Olurf! He made it!"
+msgstr "是奥勒夫！他成功了！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:106
+msgid "I told ye I'd be here."
+msgstr "我说过我会来的。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:110
+msgid "It's not much of an army he is bringing with him, though."
+msgstr "不过他没带来多少军队。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:114
+msgid ""
+"Not much of an army? These are dwarves with mighty axes, each worth three of "
+"you and your silly plinking bows!"
+msgstr "没多少人马？这些持巨斧的矮人一个顶你们那些拿玩具弓箭的三个！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:118
+msgid "Olurf, is that all the dwarves you could find? Was the gold not enough?"
+msgstr "奥勒夫，这就是你能找到的全部矮人？金币不够吗？"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:122
+msgid ""
+"They are no' fighting for gold, they're here for the fun. I'd ha' brought a "
+"lot more if my men ha' all kept quiet about helping elves! But the rest o' "
+"my clan should join us in a few days."
+msgstr ""
+"没人为钱打仗，他们来就是玩玩。如果我们的人对帮助精灵能保持沉默的话我能叫来更"
+"多！不过我们其他几个氏族几天内就来。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:126
+msgid "In a few days? That's too late! We want our gold back!"
+msgstr "几天！？那太慢了！把钱还给我们！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:130
+msgid "Sure, minus expenses."
+msgstr "好的，除去开销。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:134
+msgid "What expenses?"
+msgstr "什么开销？"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:138
+msgid ""
+"It's an ancient dwarvish custom to buy the warriors a few drinks before the "
+"battle... So minus expenses that's about even."
+msgstr "给战士们买点酒自古是矮人的传统……所以那是要除去的开销。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:142
+msgid "That explains why they are so reckless in battle..."
+msgstr "这大概能解释为什么他们在战斗中如此不顾后果……"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:146
+msgid "... Enough, gentlemen, we have a battle to fight!"
+msgstr "……够了，先生们，我们还有仗要打！"
+
+#. [message]: id=Galtrid
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:157
+msgid ""
+"Kalenz, though very young you have been most tested in battle of any of us. "
+"Will you take the command of all our troops?"
+msgstr "凯雷茨，虽然你很年轻不过你是我们中作战经验最丰富的。你能统领全军吗？"
+
+#. [option]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:163
+msgid "You do me great honor. I will strive to be worthy of it."
+msgstr "你赐予我无尚荣耀，我将鞠躬尽瘁不负其名。"
+
+#. [option]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:173
+msgid "You do me great honor, but I am not yet ready for this."
+msgstr "你赐予我无尚荣耀，但我恐怕难当大任。"
+
+#. [scenario]: id=08_Council_of_hard_choices
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:11
+msgid "Council of hard choices"
+msgstr "委员会的艰难选择"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:32
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:62
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:50
+msgid "Iradia"
+msgstr "埃拉迪亚"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:32
+msgid ""
+"Kalenz, you have won a great victory! Wesmere is safe. But...for what cause "
+"have you invited a dwarf to the elvish council? This is most unusual!"
+msgstr ""
+"凯雷茨，你胜利了！韦弥尔安全了。不过……为什么你请了一位矮人来精灵委员会？这太"
+"不正常了！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:37
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:47
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:73
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:83
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:93
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:103
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:40
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:60
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:85
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:95
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:105
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:120
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:130
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:150
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:160
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:180
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:195
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:205
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:220
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:230
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:245
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:19
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:39
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:70
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:55
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:65
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:19
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:29
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:39
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:49
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:59
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:37
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:47
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:30
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:55
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:15
+msgid "Kalenz"
+msgstr "凯雷茨"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:37
+msgid ""
+"My lords, this is Olurf. He and his dwarves have fought by our side and have "
+"well earned a place in this meeting. The war that comes upon us must be met "
+"by all in Wesnoth, Elves, Dwarves and Humans."
+msgstr ""
+"阁下，这是奥勒夫。他和他的矮人们曾与我们并肩作战，在这个会议中的一个席位是他"
+"们应得的。韦诺的所有种族，精灵、矮人和人类，都必须一起面对突然降临的战争。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:42
+msgid ""
+"Leave the humans out of this. King Haldric has broken the treaty we signed "
+"with him eleven years ago, and has sent back all our emissaries. When he "
+"arrived on our shore he was very humble, but now his arrogance knows no "
+"bounds. He believes the orcs will not dare to fight him."
+msgstr ""
+"人类不用考虑了。哈德里克国王已经把我们十一年前签的协定撕毁了，也送回了我们的"
+"使者。他刚登陆的时候倒是谦逊，现在他傲慢得无止境了。他认为兽人不敢跟他开战。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:42
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:35
+msgid "Uripur"
+msgstr "尤里布"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:47
+msgid ""
+"My lords, the orcs have been pushed out of Wesmere, but they are far from "
+"defeated. We must take the fight to them, recover our lost lands and smash "
+"their great horde beyond possibility that it will threaten us again."
+msgstr ""
+"阁下，兽人已经被赶出韦弥尔了，但他们还远没有被打败。我们必须乘胜追击，收复失"
+"地，把他们的大群部落打到不可能再威胁我们。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:52
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:25
+msgid "Legmir"
+msgstr "来格梅"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:52
+msgid ""
+"Too many elves have died already. To take the war to the orcs, we would have "
+"to risk all our remaining fighters on one throw. And we are not as skilled "
+"in fighting outside our forests. We have already shown the orcs that "
+"attacking us is folly; the prudent course would be to rebuild our strength."
+msgstr ""
+"已经有太多精灵战死了。如果继续追击兽人，我们就要拿活着的战士们孤注一掷。而且"
+"我们并不擅长在森林以外作战。我们已经让兽人明白入侵我们是多么愚蠢；当下之计是"
+"恢复我们的元气。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:57
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:50
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:115
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:170
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:235
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:24
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:80
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:61
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:34
+msgid "Landar"
+msgstr "兰达"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:57
+msgid ""
+"Those of us who follow Kalenz have shown it can be done. We have been "
+"fighting ever since we were forced out of our home country, in all kinds of "
+"lands. And, we are willing to die in order to defeat foul orcs!"
+msgstr ""
+"我们这些跟随凯雷茨的人证明这完全可以。我们自从被赶出家园后无论在什么地形都一"
+"直在战斗。而且，我们愿意为击败邪恶的兽人而血染黄沙。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:62
+msgid ""
+"Our answer is still no. Prepare our defenses as best you can, but do not "
+"renew offensive war. This is the council's decision."
+msgstr ""
+"我们的回答还是不行。尽全力完善我们的防御，但不许展开新的攻势。这就是委员会的"
+"决定。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:66
+msgid "Aftermath"
+msgstr "余波"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:67
+msgid "After leaving the council, our friends talked in private..."
+msgstr "离开委员会后，几个战友私下讨论……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:73
+msgid ""
+"This is madness! The orcs will but regain their strength and attack again, "
+"if we give them the time! We must have some other sort of help. Olurf, can "
+"we perhaps make a war-pact with the dwarves?"
+msgstr ""
+"这太疯狂了！如果给兽人时间，他们一定会恢复元气再度来袭！我们必须从其他渠道寻"
+"求帮助。奥勒夫，我们是否可以和矮人们搞个战争条约？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:78
+msgid ""
+"I dinna' think it can be, Kalenz. My people are too suspicious of you elves. "
+"But it may be there is something else we can do. I ha' heard tale of a "
+"powerful mage in the mountains who helped our people before. Maybe he will "
+"aid us again."
+msgstr ""
+"我看没门，凯雷茨。我的同胞对你们精灵疑心很重。不过也许有个另外的法子我们可以"
+"试试。我听说过大山里有个很厉害的法师他曾经帮过我们。大概他会再帮一次我们。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:78
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:88
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:98
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:30
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:140
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:68
+msgid "Olurf"
+msgstr "奥勒夫"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:83
+msgid "And where do we find this mage, if he exists?"
+msgstr "如果这个人真的存在的话，我们要去哪儿找他？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:88
+msgid ""
+"It willna' be easy. He lives in the mountains of Thoria and he never helps "
+"anyone for free. Thoria is very dangerous, especially for elves. Even "
+"dwarves and trolls dinna' go there lightly."
+msgstr ""
+"这可不容易。他住在索丽亚山脉并且他从不免费帮人。索丽亚山脉对精灵尤其危险，连"
+"矮人和巨魔去那也不轻松。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:93
+msgid ""
+"I think the orcs will be in no position to attack us for some time. Maybe we "
+"should go see this mage. Olurf, can you take us there?"
+msgstr ""
+"我想兽人短时间内应该无力进攻我们。也许我们该去见见这位法师。奥勒夫，你能带路"
+"吗？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:98
+msgid "I think I can. But dangerous this will be!"
+msgstr "我想我能办到。不过这会很危险！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:103
+msgid ""
+"Very well. We shall leave our best troops and gold here in case the orcs "
+"attack Wesmere again."
+msgstr "很好。我们留下精锐和金币在这以防兽人再次进攻韦弥尔。"
+
+#. [scenario]: id=09_Bounty_hunters
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:13
+msgid "Bounty Hunters"
+msgstr "赏金猎人"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:31
+msgid ""
+"Believing that Wesmere's seeming safety might prove a costly illusion, "
+"Kalenz and Olurf left enough troops and resources to guard it strongly "
+"before starting off on the long and dangerous trip to the great mage of "
+"Thoria. They would soon find that peril was closer than they had reckoned."
+msgstr ""
+"凯雷茨和奥勒夫确信韦弥尔看起来安全可能只是个高代价的假象，于是在踏上遥远而危"
+"险的征程前留下了足够兵力和补给保卫韦弥尔，才去拜访索丽亚的大法师。他们很快会"
+"发现危险比他们料想的还要近。"
+
+#. [set_variable]
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:142
+msgid "some experienced warriors"
+msgstr "一些久经沙场的战士"
+
+#. [set_variable]
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:171
+msgid "$left_behind and $l3_store[$i].name"
+msgstr "$left_behind 和 $l3_store[$i].name"
+
+#. [set_variable]
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:177
+msgid "$left_behind|, $l3_store[$i].name"
+msgstr "$left_behind|， $l3_store[$i].name"
+
+#. [side]: type=Saurian Flanker, id=Huurgh
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:193
+msgid "Huurgh"
+msgstr "户乌戈"
+
+#. [side]: type=Saurian Oracle, id=Shhar
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:224
+msgid "Shhar"
+msgstr "沙哈"
+
+#. [side]: type=Gryphon, id=Gryphon Leader
+#. [side]
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:257
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:114
+msgid "Creatures"
+msgstr "怪物"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:311
+msgid "Kalenz crosses the river"
+msgstr "凯雷茨渡过河"
+
+#. [message]: id=Huurgh
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:344
+msgid "Yesss! It's the elves who stole our gold! The bounty is mine!"
+msgstr "好啊！嘶嘶~是那些偷走我们金币的精灵们！赏金是我的！"
+
+#. [message]: id=Shhar
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:348
+msgid "I saw them first, fool! The bounty is all mine."
+msgstr "我先看到他们的，蠢货！赏金全是我的。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:352
+msgid "What are they talking about?"
+msgstr "他们说啥呢？"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:356
+msgid ""
+"It would seem the saurians put a bounty on our heads for having the "
+"effrontery to take our gold back after they stole it. Are you interested?"
+msgstr ""
+"看起来是因为我们厚颜把他们偷我们的金币拿回，蜥蜴人给我们脑袋定了赏金。你感兴"
+"趣吗？"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:360
+msgid ""
+"No, but my axe is interested in some saurian heads! They ha' been too "
+"friendly with the orcs for my liking!"
+msgstr ""
+"无聊，不过我的斧子对蜥蜴人的脑袋感兴趣！我就是觉得他们跟兽人关系好过头了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:364
+msgid ""
+"Remember, we are here on a mission. We will fight these saurians if we must, "
+"but our mission is to get to Thoria."
+msgstr ""
+"记住，我们是为任务才到这儿的。如果有必要我们会和蜥蜴人作战，不过我们的任务是"
+"到索丽亚山脉去。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:368
+msgid ""
+"Crossing the river without a bridge? We dwarves know water is a very "
+"dangerous thing!"
+msgstr "没桥怎么过河？我们矮人知道水那可是相当危险！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:372
+msgid ""
+"Indeed, this river is, I believe, Arkan-Thoria. There are fell legends about "
+"it. May be they are but children's tales...still, be very careful when you "
+"cross it."
+msgstr ""
+"不错，我想这条河就是阿坎-索丽亚。有几个传说就是有关它的。也许只是讲给孩子的故"
+"事……然而过河的时候还是要小心为上。"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:380
+msgid ""
+"Before Kalenz left the Ka'lian he had ordered $left_behind to stay and guard "
+"it. Kalenz is from now on able to recruit Dwarves."
+msgstr ""
+"在凯雷茨离开灵魂莲前，他曾下令$left_behind留下保卫灵魂莲。从现在起凯雷茨可以"
+"征募矮人了。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:405
+msgid "We made it. Onwards to Thoria!"
+msgstr "我们成功了。继续向索丽亚前进！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:409
+msgid "At last!"
+msgstr "总算完了！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:413
+msgid "We'll need to settle things with these saurians once and for all!"
+msgstr "我们要一次把账跟蜥蜴人算清楚！"
+
+#. [unit]: type=Water Serpent, id=Sealurr
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:434
+msgid "Sealurr"
+msgstr "海鲁若"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:445
+msgid "The legends are true! Sea creatures are upon us!"
+msgstr "传说是真的！海里的怪物出来了！"
+
+#. [unit]: type=Cuttle Fish, id=Kallub
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:456
+msgid "Kallub"
+msgstr "卡鲁本"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:467
+msgid "They are coming at us from all sides!"
+msgstr "他们正从四面八方朝我们冲来！"
+
+#. [unit]: type=Water Serpent, id=Scardeep
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:479
+msgid "Scardeep"
+msgstr "深疤"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:490
+msgid "Watch for the Serpent!"
+msgstr "小心那条大蛇！"
+
+#. [unit]: type=Cuttle Fish, id=Kalimar
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:501
+msgid "Kalimar"
+msgstr "卡利玛"
+
+#. [unit]: type=Cuttle Fish, id=Alkamar
+#: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:520
+msgid "Alkamar"
+msgstr "艾卡玛"
+
+#. [scenario]: id=10_Cliffs_of_Thoria
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:12
+msgid "Cliffs of Thoria"
+msgstr "索丽亚悬崖"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:29
+msgid ""
+"Leaving Arkan-Thoria behind, Kalenz and his band ventured into the dangerous "
+"mountains of Thoria..."
+msgstr "离开阿坎-索丽亚河，凯雷茨和他的部队冒险进入危险重重的索丽亚山脉……"
+
+#. [side]: type=Troll Warrior, id=Tafrul
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:74
+msgid "Tafrul"
+msgstr "塔弗尔"
+
+#. [side]: type=Gryphon, id=Gryphon Leader
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:108
+msgid "Gryphon Leader"
+msgstr "狮鹫头领"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:158
+msgid "Reach the signpost with Kalenz"
+msgstr "凯雷茨到达路标"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:194
+msgid "I can hardly see with all that mist around, but I can sense danger."
+msgstr "四周都是薄雾，我看不清，不过我能感到危险就在附近。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:198
+msgid ""
+"Told ye it would be no picnic excursion, elf-boy. Are ye lily-livered to "
+"continue?"
+msgstr "我告诉过你们这不是野餐郊游，精灵小子。你们害怕前进了吗？"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:202
+msgid ""
+"Gentlemen, don't squabble. We cannot go back now. But be watchful; I don't "
+"like the feel of this country one bit."
+msgstr ""
+"先生们，别吵了。现在我们不能回头。不过警惕起来；我一点也不喜欢这个地方。"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:206
+msgid ""
+"I, too, feel we are in great danger. We should stay close together and move "
+"very carefully."
+msgstr "我也觉得我们深陷险境。我们应该靠近点小心前进。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:235
+msgid "Onwards!"
+msgstr "前面！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:239
+msgid "Yer doing pretty well, elf-boy!"
+msgstr "干得不错，精灵小子！"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:251
+msgid ""
+"There is some greasy-looking smoke rising ahead of us! Kalenz...my lord...I "
+"feel something terribly wrong is happening!"
+msgstr ""
+"正前方有些像油脂燃烧的烟升起！凯雷茨……阁下……我感到有些糟糕的事要发生了！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:255
+msgid "Crelanu's place should be close now, as I remember. Quickly, this way!"
+msgstr "如果我没记错的话，克雷拉努的地盘应该不远了。赶快，这边！"
+
+#. [unit]: type=Yeti, id=Krulg
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:276
+msgid "Krulg"
+msgstr "克鲁尔格"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:288
+msgid "Watch out!"
+msgstr "当心！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:292
+msgid "It's...it's monstrous!"
+msgstr "它……它太大了！"
+
+#. [unit]: type=Yeti, id=Tralg
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:303
+msgid "Tralg"
+msgstr "泰尔格"
+
+#. [unit]: type=Yeti, id=Drolg
+#: data/campaigns/Legend_of_Wesmere/scenarios/10_Cliffs_of_Thoria.cfg:316
+msgid "Drolg"
+msgstr "道尔格"
+
+#. [scenario]: id=11_Battle_of_the_book
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:12
+msgid "Battle of the book"
+msgstr "法书之战"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:32
+msgid "Quickening their pace, Elves and Dwarves raced towards the smoke...."
+msgstr "精灵和矮人加快了脚步奔向那股浓烟……"
+
+#. [side]: type=Arch Mage, id=Aquagar
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:70
+msgid "Aquagar"
+msgstr "阿库阿伽"
+
+#. [side]: type=Elder Mage, id=Crelanu
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:84
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:25
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:35
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:45
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:55
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:70
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:80
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:90
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:100
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:110
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:125
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:135
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:145
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:155
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:165
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:175
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:190
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:200
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:210
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:225
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:240
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:250
+msgid "Crelanu"
+msgstr "克雷拉努"
+
+#. [side]: type=Troll Warrior, id=Trigrul
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:105
+msgid "Trigrul"
+msgstr "泰格鲁尔"
+
+#. [message]: id=Crelanu
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:147
+msgid ""
+"I sense a presence that is not one of Aquagar's creatures. Who are you, and "
+"what is your purpose here?"
+msgstr "我能感觉到一个非阿库阿伽召唤物的存在。你是谁，你来这目的是什么？"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:151
+msgid ""
+"That, I think, must be the mage of which Olurf spoke. But he is not the one "
+"I sensed as we approached this place..."
+msgstr "那我想就是奥勒夫说的法师了。但他不是那个在我们来时我感觉到的人……"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:155
+msgid ""
+"I feel the shadow of destiny on my soul. There is something I am fated to do "
+"here, but I know not what."
+msgstr ""
+"我能感觉到我灵魂中命运的影子。我命中注定与这有缘，但我不知道确切是什么。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:159
+msgid "If you are the mage Crelanu, we have come to seek your help."
+msgstr "如果你就是法师克雷拉努，我们是来寻求你帮助的。"
+
+#. [message]: id=Crelanu
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:163
+msgid ""
+"I am Crelanu...but if you want my help you must begin by helping me, for I "
+"am besieged here and in no state to aid anyone else."
+msgstr ""
+"我是克雷拉努……你们想得到我的帮助就要先帮我，我在这被包围了也就不可能去帮别"
+"人。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:167
+msgid ""
+"Ahhh. A fight! Perhaps this is my fate. Come, Kalenz, let us make a rescue."
+msgstr "啊哈。要打架！也许这就是我的命运。来吧，凯雷茨，我们去救他。"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:180
+msgid "Defeat Aquagar"
+msgstr "击败阿库阿伽"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:200
+msgid "Death of Crelanu"
+msgstr "克雷拉努战死"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:216
+msgid ""
+"Looks like your mage friend is in trouble. There is a horde of drakes "
+"attacking him!"
+msgstr "看起来你的法师朋友有麻烦了。一大群龙正在攻击他！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:220
+msgid "Indeed. Before he can aid us, we will have to aid him."
+msgstr "的确如此，在他帮我们之前我们得先出手相助了。"
+
+#. [message]: id=Aquagar
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:224
+msgid "Fools! The book will be mine!"
+msgstr "蠢货！法书会是我们的！"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:228
+msgid ""
+"There...I sense magic emanating from that stone keep east of the lake. That "
+"is where we will find the mage."
+msgstr "那里……我感到湖东边石头那有魔力波动。我们能在那找到法师。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:240
+msgid ""
+"I die, but I will not go unavenged! Cursed will you be Kalenz! You will "
+"never find lasting peace in all your years. You will lose your dearest. And "
+"you, Crelanu, your book will bring woe on you and haunt all its future "
+"owners to their graves! This will be the price for slaying me, Aquagar, "
+"great drake wizard of Morogoth."
+msgstr ""
+"我此仇不报不会就这么死的！诅咒会与你同在,凯雷茨！你有生之年别想得到平静。你会"
+"失去至亲。还有你，克雷拉努，你的法书会给你带来哀怨并陪着书的未来拥有者直到坟"
+"墓！这就是杀死我的代价，伟大的莫若格斯的唤龙师阿库阿伽。"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:245
+msgid ""
+"Some scary fellow this Aquagar thinks he is! Come now, I think Crelanu owes "
+"us some drinks."
+msgstr ""
+"这个阿库阿伽还自以为他是个多么唬人的家伙！走吧，我想克雷拉努欠我们点喝的了。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/11_Battle_of_the_book.cfg:262
+msgid "There goes our last hope!"
+msgstr "那是我们最后的希望！"
+
+#. [scenario]: id=12_Revelations
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:10
+msgid "Revelations"
+msgstr "水落石出"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:25
+msgid ""
+"So you are the ones who defeated Aquagar and his drakes. Olurf, I know you; "
+"you were here before when we were both much younger. But Elves never come to "
+"Thoria. Yet these are no ordinary times for this land. I know all; I have "
+"foreseen this would happen."
+msgstr ""
+"你们就是打败阿库阿伽和他的龙的人吧。奥勒夫，我知道你；我们年轻时你曾来过这"
+"儿。不过精灵从未来过索丽亚。尽管对这片土地来说现在是非常时期。但我知道一切，"
+"我已经预料到这会发生。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:30
+msgid ""
+"This is Kalenz, leader of the elves. I have brought him here to ask for your "
+"advice and your aid in dealing with the orcs."
+msgstr ""
+"这是凯雷茨，精灵领袖。我把他带来是为了得到你在对付兽人方面的建议和帮助。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:35
+msgid ""
+"Elves, you have fought valiantly and have won a great victory at the forest "
+"of Wesmere. Yet the forces ranged against you are not yet defeated. Indeed, "
+"they grow stronger every day. You contend against destiny. But for the "
+"moment you have diverted the orcs' attention."
+msgstr ""
+"精灵，你们作战很英勇也在韦弥尔取得了可观的胜利。不过威胁你们的势力远没有被打"
+"败。事实上，他们的实力与日俱增。你们和命运抗争精神可嘉。不过现在你们倒是转移"
+"了兽人的注意力。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:40
+msgid "What do you mean, 'diverted their attention'?"
+msgstr "那“转移兽人注意力”是什么意思？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:45
+msgid ""
+"You cannot even imagine it. Why do you suppose orcs came all the way here to "
+"attack you?"
+msgstr "你大概想不到。你觉得为什么兽人不远万里跑来攻打你们？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:50
+msgid "Because they are orcs! Look old man, can you help us beat them or not?"
+msgstr "因为他们是兽人啊！是吧老先生，你能否帮我们击败他们？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:55
+msgid "You must be Landar. Very brave, but also very brash."
+msgstr "你就是兰达吧。很勇敢，不过也很性急。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:60
+msgid ""
+"Landar is brash, but he does speak plainly why we came here. I do not "
+"understand what you are talking about, either. Olurf tells me you are very "
+"wise, but only help for a price. We will pay any price within our power; "
+"just name it."
+msgstr ""
+"兰达确实有些无礼，不过正如他所说那样，这就是我们来的原因。我也不明白您的话指"
+"的什么。奥勒夫告诉我们您的睿智，不过不会平白无故帮忙。如果您开口，我们尽我们"
+"所能满足您；只要你提出来。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:65
+msgid "Are you saying the orcs attacked us looking for something?"
+msgstr "你的意思是兽人攻打我们是为了得到什么东西对吗？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:65
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:75
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:185
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:215
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:49
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:60
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:50
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:60
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:14
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:24
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:34
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:44
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:54
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:64
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:32
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:42
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:53
+msgid "Cleodil"
+msgstr "科柳迪"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:70
+msgid "Yes, that is what I am saying."
+msgstr "不错，这就是我的意思。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:75
+msgid ""
+"It makes sense now. The Saurians were asking about a dastone, and also after "
+"we won in Wesmere there was an Orc mumbling something about a dastone..."
+msgstr ""
+"现在清楚了，蜥蜴人问我们要一种“大石头”，在韦弥尔胜利之后也有一个兽人闪烁其词"
+"谈及这个“大石头”……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:80
+msgid "It's not a dastone, it's the stone: They mean the Ruby of Fire..."
+msgstr "那可不是“大石头”，那是一块非同一般的石头：他们指的是火焰之红宝石……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:85
+msgid "What's that, and what does it have to do with us?"
+msgstr "那是什么？问题是那跟我们有什么关系？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:90
+msgid ""
+"It's the source of your troubles. It is a very powerful magical artifact. "
+"The tyrant Haldric has it, but he has fooled the orcs into believing that "
+"the elves are hiding it. But now, they suspect they have been fooled. "
+"Haldric and his people will pay for his arrogance."
+msgstr ""
+"这就是你们麻烦的根源。它是一个异常强大的魔法物品。暴君哈德里克拥有它，但他欺"
+"骗兽人说精灵收藏着它。不过现在兽人开始怀疑他们被骗了。哈德里克和他的人会为自"
+"大付出代价。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:95
+msgid ""
+"Hmm... You seem to love king Haldric even less than the elf-lords of the "
+"Ka'lian do...How do you know all this of him?"
+msgstr ""
+"嗯……您看起来对哈德里克国王的感情比对灵魂莲的精灵委员会还差……您是怎么知道这些"
+"的？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:100
+msgid ""
+"I once counted Haldric a friend, but he was the one who banished me from "
+"Wesnoth. He charged me with trying to steal the Ruby, seeking its power for "
+"myself...but the truth is that the Ruby is warping Haldric's mind, making "
+"him ever more surly and suspicious of those he once counted allies. Anyone "
+"can wield the Ruby in battle when his anger merges with the fiery nature of "
+"the gem, but only a true master of magic, or one who is uncommonly pure in "
+"heart, can safely handle it outside of battle. Unshielded, its magical "
+"radiance changes Haldric a little every time he comes close to it."
+msgstr ""
+"我曾经把哈德里克当成朋友，但就是他把我从韦诺驱逐出来。他指责我试图偷取那颗红"
+"宝石，为我自己寻求它的力量……不过事实是那颗红宝石扭曲了他的心智，使他更粗暴，"
+"对昔日盟友越加怀疑和猜忌。任何人只要他的愤怒和宝石暴躁的天性结合，都能在战斗"
+"中使用这块红宝石……但只有真正的魔法大师或者心地超常纯洁的人才能在战斗之外安全"
+"把握它。像这样不加防范，每当哈德里克靠近宝石时，它的魔力辐射就扭曲一丝他的心"
+"智。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:105
+msgid "So the orcs will, seeking the Ruby, now attack the humans?"
+msgstr "所以兽人将为了找宝石进攻人类？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:110
+msgid ""
+"Yes. But after they win, your people will be next. And after you, the "
+"dwarves."
+msgstr "是的。不过他们赢了之后，你们就是下一个。你们完了之后就轮到矮人了。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:115
+msgid ""
+"Don't worry overmuch about us. It is clear you have troubles of your own."
+msgstr "别为我们担心太多。显然你自己也有麻烦。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:120
+msgid ""
+"We are grateful for this counsel. But can you help us directly? Is there a "
+"way to stop the orcs?"
+msgstr ""
+"我们对您的忠告不胜感激。不过你能更直接地帮我们吗？有什么方法阻止兽人吗？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:125
+msgid ""
+"You cannot defeat them with the forces you can now muster. You can only gain "
+"time, in the hope that you can use it to grow strong again."
+msgstr "以你眼下的部队打不过他们。你只能争取时间，寄希望于你能用它东山再起。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:130
+msgid ""
+"How? Don't tell me we had to fight the saurians, cross Arkan-Thoria, contend "
+"against the river monsters, and fight trolls and yetis to come here for "
+"nothing!"
+msgstr ""
+"但是怎么做到呢？别告诉我我们得一路恶战蜥蜴人，横渡阿坎-索丽亚，鏖战河怪还有巨"
+"魔和雪人来到这儿却只能空手而归？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:135
+msgid ""
+"You need to kill their Great Chief and make it look like he was murdered by "
+"orcs. That way the orcs will start a civil war for succession, for many "
+"yearn to take their Great Chief's place. You will be safe until a new leader "
+"arises strong enough to unite them again."
+msgstr ""
+"你需要去刺杀他们的大酋长并让这看上去像是兽人自己所为。这样一来兽人将开始夺位"
+"内战，在多年里不断争夺大酋长之位。你们就能安享和平直到一个新的足够强大的头领"
+"崛起再度统一各部落。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:140
+msgid ""
+"Kill an orcish Great Chieftain? But he's guarded better than a Troll hole!"
+msgstr "杀掉兽人大酋长？可是他被保护得比个巨魔洞还严实！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:145
+msgid "Indeed, it will not be at all easy. But maybe I can help you..."
+msgstr "的确如此，此计绝非易事。不过也许我能助你们一臂之力……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:150
+msgid "But you want something in return..."
+msgstr "但你要什么作为交换……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:155
+msgid ""
+"It is as you say. These drakes were after my book. This book has all the "
+"magic and spells I know in it. They are very powerful, but the one enemy "
+"they cannot defeat is old age. The knowledge tempts me to prolong my life by "
+"evil and dark means... But this is the work of my life and I can no more "
+"destroy it than I could slay my own child. Aquagar is slain, but more will "
+"come. One of my allies has betrayed me, and now too many know of this book."
+msgstr ""
+"如你所言，这些龙为我的法书而来。这书中记载的是我毕生所悟的魔法和符咒。它们威"
+"力无穷，然而他们也不能战胜衰老。这些知识诱惑我去用邪恶而黑暗的力量去延续我的"
+"生命……但这终究是我毕生心血，让我毁了它有如让我杀死我自己的孩子。阿库阿伽死"
+"了，但更多人会来。我的一个盟友被叛了我，现在有太多人知道这本书的存在。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:160
+msgid "If you come with us, we will protect you..."
+msgstr "如果你于我们同行，我们会保护你……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:165
+msgid ""
+"No, my time is done... But the charge I lay on you, Kalenz, is to take my "
+"book and keep it from unworthy hands. Find someone to hold it who will not "
+"be corrupted by its power. And then find someone worthy not merely to hold "
+"it, but to use it!"
+msgstr ""
+"不，我的时间不多了……但是凯雷茨,我的托付就是你把法书带走并保证它不落入不配持有"
+"它的人的手中。找到这个能不被它力量腐蚀的持书者。并再找到一个不只能够持有它，"
+"并真正能使用它的主人！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:170
+msgid ""
+"If your book is as powerful as you say, why not use it against the orcs?"
+msgstr "如果你的法书威力真如你说的那么巨大，为什么不用它去对抗兽人？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:175
+msgid ""
+"Because the book is like the Ruby of Fire. Any fool can use the magic in the "
+"book, but only a master can vanquish the lust for power that it will bring "
+"out in him. He who fails will turn into something like Haldric, or worse..."
+msgstr ""
+"因为此书就像火焰之红宝石。任何一个傻瓜都能使用法书中的魔法，但只有真正的主人"
+"才能战胜对它的力量的贪求。屈服于它的人会变得想Handric一样，甚至更不堪设想……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:180
+msgid ""
+"Cleodil is pure in heart. Perhaps she can guard your book without being "
+"corrupted by its secrets..."
+msgstr "科柳迪心地纯洁。也许她能保护你的法书而不被书中秘密腐蚀……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:185
+msgid ""
+"I am sure all these secrets are far beyond my art. My art is the healing "
+"kind and I..."
+msgstr "我肯定书中的秘密超出了我的能力所及。我的能力只是治疗方面的，并且我……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:190
+msgid "There is no other option."
+msgstr "别无选择。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:195
+msgid ""
+"Very well, suppose Cleodil accepts the guardianship of your book. How will "
+"you then help us slay the orcish Great Chief?"
+msgstr "很好，假如科柳迪接受保护你法书的使命，你将怎么帮我们刺杀兽人大酋长？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:200
+msgid ""
+"There is a way, but it will be very dangerous. Two of you must enter the "
+"orcish camp by stealth and kill the Great Chief. There is a potion that will "
+"make you invisible for some time."
+msgstr ""
+"方法有一个，但会非常危险。你们中两个人必须偷偷潜入兽人军营刺杀大酋长。世上有"
+"一种能让你们暂时隐身的药。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:205
+msgid ""
+"The elves have legends of such things. I suppose you have this potion, then?"
+msgstr "精灵里流传有关于这种东西的传说。我想你就有这种药，然后呢？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:210
+msgid ""
+"Indeed I do, but it is perilous to use. It is made from the eyes of a "
+"powerful undead lich. It will make you invisible, but it is likely also to "
+"have undesirable effects, some temporary, some permanent!"
+msgstr ""
+"我确实有，不过使用它的风险很大。它由一个强大的巫妖的双眼做成。它会让你隐身，"
+"但也很可能伴随着副作用，有的短暂，有的终生！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:215
+msgid ""
+"No! This is too dark and dangerous! I fear for you, Kalenz! I...would not "
+"see you come to harm."
+msgstr "不！这太冒险了！凯雷茨，我担心你们的安危！我……希望看到你们安然无恙。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:220
+msgid "What undesirable effects?"
+msgstr "什么副作用？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:225
+msgid ""
+"Your physical strength will decrease, though in return you will be able to "
+"use magic more easily and powerfully. Cleodil will show you. But the real "
+"danger will be the touch of the lich's evil nature stealing through your "
+"veins. You will need to fight and master this evil in yourself, else you "
+"might slowly turn into a lesser demilich yourself. This is why you must take "
+"only a small dose and finish the job quickly. Delay and you will fail in "
+"your mission; take too large a dose, and you will become as the lich was."
+msgstr ""
+"你会全身无力，但反而你能轻易地使用威力强大的魔法。科柳迪会教你们。不过真正危"
+"险的是巫妖邪恶的本质占据你的经脉。你需要自己去抗拒和控制它，不然你也许会慢慢"
+"变成一个小小的半巫妖。这就是为什么你只能使用很小的剂量并速战速决。慢一点则功"
+"亏一篑；多一点则自身不保。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:230
+msgid ""
+"It is a dark and desperate course you set before me, but I see no other way; "
+"we must stop the orcs. As leader I cannot ask my men to run a risk I will "
+"not take myself, so I will be one of the two who will go to kill the Great "
+"Chief. But I will not compel anyone else to come with me, not at peril of "
+"being overwhelmed from within by evil magic. Does anyone volunteer?"
+msgstr ""
+"摆在我前面的是一条铤而走险的路啊，但我别无他法；我们必须阻止兽人。作为领导"
+"者，己所不欲勿施于人，我会是刺杀大酋长的两人之一。但我不强迫其他人冒着被邪恶"
+"魔法侵蚀的危险与我同行。有志愿者吗？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:235
+msgid "I will come with you. We shall not fail!"
+msgstr "我跟你一起去。我们绝不能失败！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:240
+msgid "This does not seem the wisest of choices."
+msgstr "这看起来不是最明智的选择。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:245
+msgid ""
+"Landar may be impetuous, but he is a great fighter and my trusted friend. We "
+"should be about our task now, I think. Crelanu, your book will be safe with "
+"us. Cleodil will guard it until we find a worthy keeper."
+msgstr ""
+"兰达也许确实鲁莽，不过他是个伟大的战士也是我无间的战友。我想我们这就出发。克"
+"雷拉努，和我们在一起你的法书会很安全。科柳迪会保护它直到我们找到真正的保管"
+"者。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/12_Revelations.cfg:250
+msgid ""
+"Come, I will give you and Landar the potion and show you a safe point to "
+"cross the river."
+msgstr "来吧，我这就给你和兰达药水并告诉你们安全的渡口。"
+
+#. [scenario]: id=13_News_from_the_front
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:17
+msgid "News from the front"
+msgstr "前线战报"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:35
+msgid ""
+"With Crelanu's book in hand, Kalenz and his band began the long journey "
+"south to the Ka'lian..."
+msgstr "带着克雷拉努的法书，凯雷茨和他的部队开始了返回灵魂莲的征程……"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:90
+msgid ""
+"Oh, no, I forgot my dose of Crelanu's invisibility philter. I'll go back and "
+"get it. I'll catch up with you later!"
+msgstr "噢不！我把克雷拉努给我的那瓶隐形药忘了。我得回去拿。我一会儿赶上你们！"
+
+#. [message]: id=Olurf
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:94
+msgid "Maybe some of my dwarves can escort you... "
+msgstr "用不用找几个矮人兄弟一块儿护送你……"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:98
+msgid "Go, Landar, but be careful. We need you."
+msgstr "快去吧，兰达，不过小心点。我们需要你。"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:112
+msgid ""
+"Some weeks later, as Kalenz and his companions were working their way "
+"southwards from the high peaks of the Heart Mountains into its foothills..."
+msgstr "几周之后，正当凯雷茨一行从心之山脉顶峰南下去其山麓时……"
+
+#. [unit]: id=Eonihar, type=Elvish Scout
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:127
+msgid "Eonihar"
+msgstr "艾尼哈"
+
+#. [message]: id=Eonihar
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:137
+msgid ""
+"At last I have found, you alive and well! We need you back at once! The orcs "
+"have attacked the humans."
+msgstr ""
+"终于我找到您了，您安然无恙太好了！我们需要您立即回去！兽人去进攻人类了。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:141
+msgid "This means we are safe for the time being, no?"
+msgstr "这意味着我们最近是安全的咯，没错吧？"
+
+#. [message]: id=Eonihar
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:145
+msgid ""
+"What's more, King Haldric is dead. His successor wants to renew the treaty "
+"of alliance and has asked for our help."
+msgstr ""
+"但是哈德里克国王驾崩了。他的继承者想要续签和我们联盟的协定并请求我们援助。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:166
+msgid "How convenient! Now they need our help, they come running!"
+msgstr "哼，真方便啊！现在他们需要我们援助，就跑来张口就要！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:170
+msgid "Landar! You're back! All is well?"
+msgstr "兰达！你回来了！一切顺利？"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:174
+msgid "Yes, I have the philter of invisibility."
+msgstr "是的，我把隐形药拿到了。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:178
+msgid ""
+"We face a difficult choice. I know humans did not help us when the orcs "
+"attacked, but the orcs are everybody's enemy. When humans fall, we'll be "
+"next."
+msgstr ""
+"我们遇到个棘手的问题。我知道人类在我们遭受攻击的时候袖手旁观，不过兽人是我们"
+"共同的敌人。人类败后，我们也唇亡齿寒了。"
+
+#. [message]: id=Eonihar
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:182
+msgid ""
+"The orcish forces are encamped south of the Great River, and have surrounded "
+"the fortified human settlement at Tath. The humans are sending all their "
+"forces there. We need to decide whether we will help them or not."
+msgstr ""
+"兽人军队在伟大之河南面扎营，并包围了人类在塔斯的防御工事。人类把全部兵力都派"
+"过去了。我们必须决定是否出手相助。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/13_News_from_the_front.cfg:186
+msgid ""
+"Go tell the council and the human king that we will be there! Now, let's "
+"hurry!"
+msgstr "回去告诉委员会和人类国王说我们前线见！现在我们走！"
+
+#. [scenario]: id=14_Human_Alliance
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:12
+msgid "Human Alliance"
+msgstr "人类联盟"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:109
+msgid ""
+"With the human-elf alliance revived, our heroes hurried to the battlefield..."
+msgstr "人类-精灵再度结盟，我们的英雄们又奔向战场……"
+
+#. [side]: type=General, id=Aldar
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:159
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:29
+msgid "Aldar"
+msgstr "阿尔达"
+
+#. [side]: type=Orcish Warlord, id=Pirror
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:208
+msgid "Pirror"
+msgstr "皮若鲁"
+
+#. [side]: type=Orcish Warlord, id=Tan-Grub
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:244
+msgid "Tan-Grub"
+msgstr "坦戈鲁"
+
+#. [side]: type=Great Troll, id=Grol
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:281
+msgid "Grol"
+msgstr "戈鲁"
+
+#. [side]: type=Orcish Warlord, id=Khafa-Urg
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:317
+msgid "Khafa-Urg"
+msgstr "卡夫尤戈"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:353
+msgid "Last for the end of turns"
+msgstr "坚守至回合结束"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:373
+msgid "Death of Aldar"
+msgstr "阿尔达阵亡"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:384
+msgid "Tremble, orcs! The vengeance of the Elves is upon you!!"
+msgstr "战栗吧，兽人！精灵的复仇来临了！"
+
+#. [message]: id=Aldar
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:388
+msgid "So it is true! The elves have come to our aid!"
+msgstr "看来是真的！精灵来帮我们了！"
+
+#. [message]: id=Tan-Grub
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:394
+msgid ""
+"An elven army to the north? And they have dwarves with them? We must defeat "
+"them in detail before they combine, which means attacking before our "
+"reinforcements arrive. Maybe we can beat the humans before the elves can "
+"intervene. Overrun city and castle!"
+msgstr ""
+"潜到北方的精灵军队？他们中还有矮人？我们必须在他们会合之前就打败他们，也就是"
+"说要在我们的援军来之前发动进攻。也许我们能在精灵干扰之前打败人类。占领村庄和"
+"城堡！"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:399
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:491
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:603
+msgid "The brazen cry of a war-horn is heard in the distance."
+msgstr "刺耳的战争号角声从远方传来。"
+
+#. [unit]: id=Aldun, type=Horseman
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:406
+msgid "Aldun"
+msgstr "埃尔顿"
+
+#. [message]: id=Aldun
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:418
+msgid ""
+"General Aldar has received your message. He asks that you engage the orcish "
+"reinforcements from the north, preventing them from joining with their "
+"fellows here. Those fresh troops must not be allowed to enter the battle! "
+"Our reinforcements should arrive in a few days."
+msgstr ""
+"阿尔达将军接到你们要来的消息了。他请求你们吸引兽人北方的援军，以防他们加入这"
+"里的友军。这支新来的军队绝不能进入战场！我们的增援几天内就到。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:422
+msgid ""
+"Very well...but have you any word of the elvish troops marching to join us? "
+"We are too few to defeat the enemy without them."
+msgstr "很好……但你有没有开往这里的精灵军队的消息？没有援兵我们难以打败敌人。"
+
+#. [message]: id=Aldar
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:539
+msgid "More of them arrive."
+msgstr "他们的增援到了。"
+
+#. [message]: role=reenforce1
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:544
+msgid "Our wolves' teeth will crack their bones! Attack!"
+msgstr "我们的狼牙要咬断他们骨头！攻击！"
+
+#. [message]: role=reenforce2
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:557
+msgid "Blood and steel! Hunt the worms down and crush them!"
+msgstr "铁血！猎杀蠕虫，砍碎他们！"
+
+#. [message]: role=reenforce5
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:651
+msgid "Har har har!"
+msgstr "哈 哈 哈！"
+
+#. [message]: role=l3_store
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:821
+msgid "Kalenz has arrived!"
+msgstr "凯雷茨来了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:825
+msgid ""
+"Where is the rest of the elvish army? They were promised and should be here!"
+msgstr "其余的精灵部队呢？他们应该到了！"
+
+#. [message]: role=l3_store
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:829
+msgid ""
+"The Great Council has decided it was too risky to send troops here. But some "
+"of us dissented and have come to fight beside you."
+msgstr ""
+"大委员会认为向这里派军太冒险了。不过我们一些人有异议，就来和你并肩作战。"
+
+#. [unit]: type=Paladin, id=Kulrad
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:848
+msgid "Kulrad"
+msgstr "库拉德"
+
+#. [message]: id=Kulrad
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:866
+msgid "I see foul orcs to be ridden down! Charge!"
+msgstr "我看见肮脏的兽人骑着狼袭来了！进攻！"
+
+#. [message]: race=orc
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:871
+msgid "More of the cursed horse-pokers!! Run, let's get out of here!"
+msgstr "更多被诅咒的骷髅骑兵！！跑，赶快离开这儿！"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:877
+msgid "The not-at-all-brazen cry of a war-horn is heard in the distance."
+msgstr "振奋的战争号角声从远方传来。"
+
+#. [message]: id=Aldar
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:894
+msgid ""
+"This is only a pause in their onslaught. Reform, men, and bind your wounds "
+"as you may. They'll be back."
+msgstr ""
+"这是他们猛攻中的唯一短暂间隙。重组，战士们，尽可能包扎伤口。他们就要回来了。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:907
+msgid "We have thwarted the orcs once again!"
+msgstr "我们又一次挫败了兽人！"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:911
+msgid "And we revived the alliance with the humans, which is no small thing."
+msgstr "并且我们和人类的联盟重新建立了起来，这可不是小事。"
+
+#. [message]: id=Aldar
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:915
+msgid "The King is here! Hail Haldric II, King of Wesnoth!"
+msgstr "国王驾到！向韦诺之王，哈德里克二世致敬！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:930
+msgid "Tath will fall, we have failed!!"
+msgstr "塔斯就要陷落了，我们失败了！！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:944
+msgid ""
+"I die? Great Chief never said anything about fighting elves and dwarves!"
+msgstr "我要死了？大酋长从没说过我们还要面对精灵和矮人！"
+
+#. [scenario]: id=15_The_Treaty
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:3
+msgid "The Treaty"
+msgstr "条约"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:14
+msgid ""
+"Friends, today we have won a great victory, though it lost us good men. Let "
+"this be the beginning of a new alliance between our people."
+msgstr ""
+"朋友们，今天我们赢得一个伟大的胜利，虽然我们也付出惨重的代价。让这成为两族人"
+"民新联盟的起点吧！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:14
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:34
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:55
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:65
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:75
+msgid "Haldric II"
+msgstr "哈德里克二世"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:19
+msgid ""
+"King Haldric II, I am very pleased to hear these words. We are facing "
+"dangerous adversaries. We intend to put an end to this threat and we will "
+"welcome any ally against it."
+msgstr ""
+"哈德里克二世，我很高兴听到这些话。我们正面对极其危险的对手。我们计划给这个威"
+"胁画上句号，当然我们也欢迎任何盟友来帮助。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:24
+msgid ""
+"What? We cannot trust these humans! Where were they when we fought the orcs "
+"alone? This King is bound to betray us just as his father did!"
+msgstr ""
+"什么？我们怎么能相信这些人类？我们独自跟兽人交战的时候他们在哪儿？这个国王一"
+"定会跟他父亲一样背叛我们！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:29
+msgid "Silence! How dare you talk this way to the King!"
+msgstr "闭嘴！你胆敢那样顶撞我们的国王！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:34
+msgid ""
+"Calm down, Aldar! The elf is right to reproach us. My father did not help "
+"when the orcs attacked you. But my father is dead. There are a lot of things "
+"my father did that I can not understand; he grew suspicious and strange in "
+"his last days. But *I* am the King of Wesnoth now, not my father! And it is "
+"my intention to renew our alliance by signing a new treaty here, with you."
+msgstr ""
+"冷静，阿尔达！这个精灵的责备没错。我父亲在你们遭受兽人进攻时确实在袖手旁观。"
+"但我父亲已经付出了代价。有很多我父亲做的事我不能理解；他在最后的时日里变得古"
+"怪又猜忌。不过现在韦诺之王是了*我*，不在是我的父亲！而且正是我的意愿要再次与"
+"你们签订条约。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:39
+msgid ""
+"The King speaks wisdom. We cannot undo the past. And we need each other to "
+"fight the orcs. I will sign the treaty on behalf of the Elves."
+msgstr ""
+"他们的国王所言明智。我们不能改变过去，但我们需要彼此去战胜兽人。我会代表精灵"
+"一方于他们签订条约。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:49
+msgid ""
+"Your father had a certain stone, the Ruby of Fire. Do you still have it?"
+msgstr "您的父王曾经拥有某块石头，也即火焰之红宝石。您还保存着它吗？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:55
+msgid "How is it that you know about the Ruby of Fire?"
+msgstr "你们怎么知道火焰之红宝石的？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:60
+msgid ""
+"We have learned, oh King, that the energy suffusing the Ruby can have evil "
+"effects on its wielders. It may well be this was the reason your father grew "
+"closed in upon himself. For your own sake and that of your kingdom, we "
+"advise you to enclose it in a net or filigree of pure gold charged with the "
+"magic of light."
+msgstr ""
+"我们了解到，陛下，那块红宝石所具有的能量会对持有者产生邪恶的效果。这大概就是"
+"你父王变得自闭的原因了。为了您自身考虑也为了您的王国着想，我们建议您把它封存"
+"在一个由光明魔法加持过的纯金丝做成的网罩内。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:65
+msgid ""
+"Yes...this would explain many things. It shall be as you say, and I am "
+"grateful for the warning."
+msgstr "原来如此……这样很多东西都清楚了。应该如你所说，我对你的警告表示感谢。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:70
+msgid ""
+"Now that we have signed the Treaty, let us put it into action. We will take "
+"the fight to the orcs before winter falls; we need you to demonstrate "
+"against them, drawing them away from the roads north. Can we count on you?"
+msgstr ""
+"既然条约已经签订了，让我们付诸行动吧。我们得在冬天之前对兽人开战；我需要你们"
+"和兽人正面交锋，把他们从通往北方的路上引开。我们能依靠你吗？"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:75
+msgid ""
+"I am not sure... My late father did not pay too much attention to army "
+"matters and we have already lost very many men..."
+msgstr "我不确定……我父王在最后的日子里荒于军事，而且我们已经失去了很多士兵……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/15_The_Treaty.cfg:80
+msgid "I knew it! I always told you we stand alone!"
+msgstr "我就知道！我跟你说过我们总是孤军奋战！"
+
+#. [scenario]: id=16_The_Chief_must_die
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:5
+msgid "The Chief must die"
+msgstr "酋长必死"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:44
+msgid ""
+"With the battle of Tath over, Kalenz and Landar knew the time had come to "
+"carry out Crelanu's dangerous but necessary plan. Meanwhile Cleodil had, "
+"reluctantly, been training Kalenz in a selected few of the secrets of "
+"Crelanu's book ..."
+msgstr ""
+"塔斯之战结束后，凯雷茨和兰达知道是时候开始克雷拉努铤而走险的计划。同时科柳迪"
+"不情愿地传授凯雷茨几个经过筛选的克雷拉努法书中的秘密……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:50
+msgid ""
+"I have taught you all that I dare. My lord...Kalenz...I pray you come back "
+"safely. My heart aches when I think of you going into such danger as this. "
+"It is peril not merely to your body, but to the essence of yourself."
+msgstr ""
+"我已经把我敢教的都教了。阁下……凯雷茨……我祈祷你们安全归来。每当想到你们赴汤蹈"
+"火我的心就如针扎一般。这不只是对身体的威胁，更是对你本性的摧残。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:55
+msgid "Cleodil..."
+msgstr "科柳迪……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:60
+msgid ""
+"I do not think I could bear your death. Still less could I bear the "
+"corruption of your soul; the grief would ruin me."
+msgstr ""
+"我恐怕不能承受你们的牺牲。然而我更不能承受你们的灵魂堕落；悲痛会让我崩溃。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:65
+msgid ""
+"My eyes are open. To the danger, and...to you. You glow like a star in the "
+"night, Cleodil. You will be my guide out of darkness."
+msgstr ""
+"我的双眼会始终正视危难，和……你。你像黑夜里的明星，科柳迪。你将是我黑暗中的明"
+"灯。"
+
+#. [side]: type=Orcish Sovereign, id=Great Chief Brurbar
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:87
+msgid "Great Chief Brurbar"
+msgstr "大酋长布鲁巴"
+
+#. [side]: type=Orcish Warlord, id=Tamitahan
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:101
+msgid "Tamitahan"
+msgstr "塔米塔汗"
+
+#. [side]: id=Khrubar, type=Orcish Warlord
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:133
+msgid "Khrubar"
+msgstr "库鲁巴"
+
+#. [side]: type=Orcish Warlord, id=Gvur
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:159
+msgid "Gvur"
+msgstr "勾弗"
+
+#. [side]: type=Orcish Warlord, id=Ozul
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:189
+msgid "Ozul"
+msgstr "欧祖"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:233
+msgid "Kill the Orcish Great Chief and Kalenz must reach the signpost"
+msgstr "刺杀兽人大酋长并且凯雷茨必须到达路标"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:258
+msgid ""
+"Here we are at last. Landar, are you sure you want to go through with this?"
+msgstr "我们到最后关头了。兰达，你确定你要承受这一切吗？"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:262
+msgid "Absolutely. Let's do it!"
+msgstr "毫无怨言。我们出发吧！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:266
+msgid ""
+"We need to kill the Great Chief and get out before the effect of the philter "
+"ends. Time to drink it down now!"
+msgstr "我们必须在药效结束前杀掉兽人大酋长。是时候喝掉它了！"
+
+#. [event]: (id=Kalenz) (Elvish Lord)}, (id=Landar) ($landar_store.type)}
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:302
+msgid "Crelanu's philter affecting Kalenz"
+msgstr "克雷拉努的药作用于凯雷茨"
+
+#. [event]: (id=Kalenz) (Elvish Lord)}, (id=Landar) ($landar_store.type)}
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:312
+msgid "Crelanu's philter affecting Landar"
+msgstr "克雷拉努的药作用于兰达"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:318
+msgid ""
+"This feels passing strange! Landar, remember to stay far from the wolves-"
+"they may be able to smell us."
+msgstr "感觉怪极了！兰达，记得离狼远点，他们也许能闻到我们的存在。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:338
+msgid ""
+"The orcish chieftain is dead! Now we must make appear he was slain by an "
+"orcish hand!"
+msgstr "兽人酋长死了！现在我们必须让他看起来像是被兽人杀的！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:346
+msgid "We are too late, the potion effects have worn off and we are visible!"
+msgstr "太晚了，药效过去了，我们显形了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:350
+msgid ""
+"With our ruse revealed, the orcs will attack our forests instead of fighting "
+"among themselves."
+msgstr "我们的计策暴露了，兽人将要攻向森林而不是内讧。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:372
+msgid "Done!"
+msgstr "完成！"
+
+#. [message]: id=Ozul
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:390
+msgid ""
+"The Great Chief has been murdered! Whoever did it will only get da throne "
+"over my dead stinking body!"
+msgstr "大酋长被杀了！除非踏过我的尸体，篡位者别想得逞！"
+
+#. [message]: id=Tamitahan
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:394
+msgid "I am the strongest warlord! I will be Chief!"
+msgstr "我是实力最强的督军！我应该成为酋长！"
+
+#. [message]: id=Gvur
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:398
+msgid "No way anyone will steal my throne!"
+msgstr "别人别想抢走我的宝座！"
+
+#. [message]: id=Khrubar
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:402
+msgid "This is my time and I will kill anyone who disputes it!"
+msgstr "这是我的时代，谁有异议我就杀了谁！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:406
+msgid "The plan is working! Now we will take back what's ours!"
+msgstr "计划成功了！现在我们可以拿回我们应得的东西了！"
+
+#. [hides]: id=invisible
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:15
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:16
+msgid "invisible"
+msgstr "隐形"
+
+#. [hides]: id=invisible
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:18
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:20
+msgid ""
+"invisible:\n"
+"Enemy units cannot see this unit, except for wolf-based units who can smell "
+"it if close enough. Hence except for wolf-based units, enemy units will not "
+"initiate an attack on this unit. Defense is at 80 percent for every terrain "
+"except water, where it is 70 percent."
+msgstr ""
+"隐形：\n"
+"敌人看不到这个单位，除非足够近的时候狼类单位可以闻到并发现。因此除了狼类单"
+"位，敌人不会对此单位发起攻击。在水中防御是70%，其余地形是80%。"
+
+#. [unit]: type=Goblin Pillager, id=Odrun
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:55
+msgid "Odrun"
+msgstr "欧顿"
+
+#. [unit]: type=Goblin Pillager, id=Kardur
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:87
+msgid "Kardur"
+msgstr "卡度"
+
+#. [unit]: type=Goblin Pillager, id=Kartrog
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:118
+msgid "Kartrog"
+msgstr "卡涛格"
+
+#. [unit]: type=Goblin Knight, id=Sdrul
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:148
+msgid "Sdrul"
+msgstr "斯杜尔"
+
+#. [unit]: type=Direwolf Rider, id=Utrub
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:180
+msgid "Utrub"
+msgstr "尤土巴"
+
+#. [unit]: type=Goblin Knight, id=Uhmit
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:212
+msgid "Uhmit"
+msgstr "尤米特"
+
+#. [unit]: type=Orcish Grunt, id=Grut
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:246
+msgid "Grut"
+msgstr "格鲁特"
+
+#. [unit]: type=Orcish Grunt, id=Krolru
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:254
+msgid "Krolru"
+msgstr "克鲁儒"
+
+#. [unit]: type=Orcish Warrior, id=Kryl
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:262
+msgid "Kryl"
+msgstr "凯勒"
+
+#. [unit]: type=Orcish Crossbowman, id=Erdug
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:270
+msgid "Erdug"
+msgstr "厄达格"
+
+#. [unit]: type=Orcish Warrior, id=Urdol
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:278
+msgid "Urdol"
+msgstr "尤杜尔"
+
+#. [unit]: type=Orcish Warrior, id=Tan-Drur
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:286
+msgid "Tan-Drur"
+msgstr "坦杜尔"
+
+#. [unit]: type=Orcish Crossbowman, id=Brim
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:294
+msgid "Brim"
+msgstr "布儒姆"
+
+#. [unit]: type=Orcish Grunt, id=Krud
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:302
+msgid "Krud"
+msgstr "库德"
+
+#. [unit]: type=Orcish Warrior, id=Krulr
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:310
+msgid "Krulr"
+msgstr "库尔"
+
+#. [unit]: type=Orcish Warrior, id=Draglar
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:318
+msgid "Draglar"
+msgstr "达格拉"
+
+#. [unit]: type=Orcish Warrior, id=Qmrun
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:326
+msgid "Qmrun"
+msgstr "昆穆儒"
+
+#. [unit]: type=Goblin Impaler, id=Erdog
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:334
+msgid "Erdog"
+msgstr "厄道格"
+
+#. [unit]: type=Goblin Spearman, id=Sbrak
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:342
+msgid "Sbrak"
+msgstr "斯巴克"
+
+#. [unit]: type=Goblin Spearman, id=Urdum
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:350
+msgid "Urdum"
+msgstr "尤杜姆"
+
+#. [unit]: type=Goblin Impaler, id=Ozdul
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:358
+msgid "Ozdul"
+msgstr "欧祖杜尔"
+
+#. [unit]: type=Goblin Impaler, id=Zuzerd
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:366
+msgid "Zuzerd"
+msgstr "祖则德"
+
+#. [unit]: type=Orcish Archer, id=Egrok
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:373
+msgid "Egrok"
+msgstr "依格洛克"
+
+#. [unit]: type=Orcish Assassin, id=Urbrus
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:380
+msgid "Urbrus"
+msgstr "尤布鲁斯"
+
+#. [unit]: type=Orcish Slayer, id=Erbru
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:387
+msgid "Erbru"
+msgstr "厄布鲁"
+
+#. [unit]: type=Orcish Warrior, id=Muhmr
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:395
+msgid "Muhmr"
+msgstr "穆痕姆"
+
+#. [unit]: type=Orcish Crossbowman, id=Cfrul
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:403
+msgid "Cfrul"
+msgstr "卡弗尔"
+
+#. [unit]: type=Orcish Crossbowman, id=Irkrul
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:411
+msgid "Irkrul"
+msgstr "艾克鲁"
+
+#. [unit]: type=Orcish Grunt, id=Cebrun
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:419
+msgid "Cebrun"
+msgstr "克布鲁"
+
+#. [unit]: type=Orcish Grunt, id=Krundrum
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:427
+msgid "Krundrum"
+msgstr "昆杜姆"
+
+#. [unit]: type=Orcish Grunt, id=Arrkud
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:435
+msgid "Arrkud"
+msgstr "艾库德"
+
+#. [unit]: type=Orcish Grunt, id=Gulmod
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:443
+msgid "Gulmod"
+msgstr "戈尔莫德"
+
+#. [scenario]: id=17_Breaking_the_siege
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:3
+msgid "Breaking the siege"
+msgstr "反围攻"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:23
+msgid ""
+"With the orcs embroiled in a civil war, Kalenz seized the chance to take "
+"back his beloved home. Reports had been arriving of an enclave of Northern "
+"Elves yet holding out against the orcish invaders. It was quickly decided to "
+"send a force to their aid. But harsh winter weather descended while it was "
+"en route..."
+msgstr ""
+"随着兽人卷入内战，凯雷茨抓住机会收复家园。报告不断从一个精灵在北方抵御兽人侵"
+"略者的据点送来。很快这边决定派兵去支援他们。不过严冬降临，再加上那条路上……"
+
+#. [side]: type=Orcish Warlord, id=Kior-Pur
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:84
+msgid "Kior-Pur"
+msgstr "凯尔坡"
+
+#. [side]: type=Orcish Warlord, id=Mbiran
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:121
+msgid "Mbiran"
+msgstr "穆巴让"
+
+#. [side]: type=Orcish Warlord, id=Tan-Durr
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:155
+msgid "Tan-Durr"
+msgstr "坦杜"
+
+#. [objective]: condition=lose
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:205
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:239
+msgid "Death of Uradredia"
+msgstr "尤拉德雷迪亚阵亡"
+
+#. [message]: id=Kior-Pur
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:234
+msgid ""
+"I see troops coming from the south! It must be that our army has beaten "
+"these elves and humans and will now help us crush these remaining elves!"
+msgstr ""
+"我看到南方来的军队了！一定是我们的军队把人类和精灵都打败了班师回来帮我们消灭"
+"这一挫精灵来了！"
+
+#. [message]: id=Uradredia
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:238
+msgid ""
+"Our defenses are stretched thin. Men, prepare to face another orcish attack!"
+msgstr "我们的防线被拉窄了。弟兄们，准备好兽人又一波攻击！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:242
+msgid "The North Elves still stand. Prepare for battle!"
+msgstr "北方的精灵还活着。作战准备！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:252
+msgid "The North Elves are now free! "
+msgstr "北方精灵现在自由了！"
+
+#. [message]: id=Uradredia
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:257
+msgid ""
+"Our thanks to you, Kalenz, son of Kliada. Our troops are at your command."
+msgstr "我们对你感激不尽，凯雷茨，克拉达之子。我们的军队听从你的指挥。"
+
+#. [message]: id=Kior-Pur
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:270
+msgid "The elves are attacking us! Reserves!"
+msgstr "精灵正向我们进攻！后备队！"
+
+#. [unit]: type=Direwolf Rider, id=Zhuk
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:281
+msgid "Zhuk"
+msgstr "祖库"
+
+#. [unit]: type=Direwolf Rider, id=Dran
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:298
+msgid "Dran"
+msgstr "杜安"
+
+#. [unit]: type=Direwolf Rider, id=Hrugt
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:310
+msgid "Hrugt"
+msgstr "户格特"
+
+#. [unit]: type=Direwolf Rider, id=Orhtib
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:322
+msgid "Orhtib"
+msgstr "欧亨提"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:340
+msgid ""
+"Before you die, know that you lost in Wesmere, you lost at Tath, you will "
+"lose here and that your Great Chief is dead!"
+msgstr ""
+"你死之前我告诉你，你们在韦弥尔输了，在塔斯也败了，你们将会败在这里并且你们的"
+"大酋长也死了！"
+
+#. [scenario]: id=18_hour_of_glory
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:3
+msgid "Hour of Glory"
+msgstr "光荣日"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:14
+msgid ""
+"Kalenz, your mission is complete. The orcish Great Chieftain is dead and you "
+"have recaptured your home. Yet I sense there is turmoil in your mind..."
+msgstr ""
+"凯雷茨，你的任务完成了。兽人大酋长死了而且你也夺回了家乡。不过我感到你内心并"
+"不平静……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:19
+msgid ""
+"It is indeed as you say, Cleodil. It is that potion that gnaws at me. I "
+"cannot enjoy our victories, nor can I rest. I am fighting it every single "
+"moment."
+msgstr ""
+"的确如你所说，科柳迪。确实是那瓶药在折磨着我。我不能享受这胜利，也不能休息。"
+"我无时无刻不在与它斗争。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:24
+msgid "Crelanu warned us this might occur..."
+msgstr "克雷拉努警告过我们这也许会发生……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:29
+msgid "There was no other choice. Even if we die, it was worth it."
+msgstr "没有别的方法了。哪怕我死也是值得的。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:34
+msgid ""
+"You will not die. You must fight it. I have faith in you Kalenz...beloved..."
+"you will overcome and master it. It will be hard and painful, but you will "
+"beat the potion. It is Landar that truly concerns me..."
+msgstr ""
+"你不会死的，你能战胜它。我相信你凯雷茨……亲爱的……你能克服它并支配它。这会很痛"
+"苦而漫长，但你能战胜那药剂。是事实上倒是兰达让我担心……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:39
+msgid "He seems to handle it better than do I..."
+msgstr "他看起来这事处理得比我更好……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:44
+msgid ""
+"It does seem so, Kalenz. But I fear things may not be as they seem. Landar's "
+"mind has become dark and clouded to my healing senses."
+msgstr ""
+"看起来是这样，凯雷茨。不过我害怕事实不像看到的那样。我的治疗术感到他的心灵变"
+"得黑暗而阴沉。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:49
+msgid ""
+"I understand too well what that may portend, beloved, but I do not wish to "
+"believe it. Landar is my friend, near as dear to me as you are."
+msgstr ""
+"我太清楚这这意味着什么了，亲爱的，不过我不愿相信。兰达是我的朋友，和我的关系"
+"如你我般亲密。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:54
+msgid ""
+"Some dwarves have been found dead in our camp. Landar is extremely "
+"unfriendly towards them, and ill-feeling is growing. I think the dwarves "
+"will leave us soon."
+msgstr ""
+"最近在营地发现矮人的尸体。兰达对矮人极端敌视，不祥的氛围正在漫延。我恐怕矮人"
+"很快要离开了。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:59
+msgid "I will try to mend matters between them..."
+msgstr "我会想办法修复双方的隔阂。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:64
+msgid ""
+"I see I cannot convince you. Go, do as you must; but be careful Kalenz, for "
+"I fear for us all..."
+msgstr ""
+"我知道我说服不了你。去吧，做你必须做的；不过处处留心，凯雷茨，因为我担心我们"
+"所有人……"
+
+#. [scenario]: id=19_Costly_Revenge
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:4
+msgid "Costly Revenge"
+msgstr "昂贵的复仇"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:27
+msgid ""
+"But Kalenz failed to persuade the dwarves. The dwarves left, and Landar "
+"insisted the elves must march on the empire of the Saurians..."
+msgstr ""
+"然而凯雷茨终究没能说服矮人们。矮人走后，兰达执意坚持精灵要向蜥蜴人的帝国进"
+"军……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:32
+msgid ""
+"Kalenz...the shydes and druids are not happy with this. The saurians are "
+"already beaten, and there is too much hate in Landar's heart. Something is "
+"not right here."
+msgstr ""
+"凯雷茨……仙子和德鲁伊很不高兴。蜥蜴人已经被打败了，兰达心里有太多仇恨。这里事"
+"情有点不对。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:37
+msgid ""
+"I am not entirely easy with this myself, Cleodil. But there is something to "
+"what Landar says; the wide green world must know there is a price, a heavy "
+"price for raiding in the forest of Wesmere."
+msgstr ""
+"我感到一点都不轻松，科柳迪。但兰达说的也有几分道理；茫茫的绿色世界可不是一文"
+"不值，劫掠韦弥尔森林的人必须付出惨痛代价。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:42
+msgid ""
+"Then you who walk the earth path and carry steel can collect that price. "
+"Those on the faerie path will not be with you. Not this time."
+msgstr ""
+"于是你就走了尘世的道路，拿着武器去收取这个代价。走仙境道路的精灵不再帮你了。"
+"永远不。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:47
+msgid "We do as we must."
+msgstr "我们做了我们必须做的。"
+
+#. [side]: type=Saurian Flanker, id=Hgyr
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:140
+msgid "Hgyr"
+msgstr "亨盖"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:180
+msgid "That was the last. A bitter day's work, and no memory to be proud of."
+msgstr "一切都结束了。辛苦讨伐的一天，也不值得去记住去骄傲。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:184
+msgid ""
+"A shame we missed the opportunity to rid the forests of dwarves, as well."
+msgstr "我们也丢失了让矮人离开森林的机会，真惭愧。"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:246
+msgid "Defeat all enemy units, and destroy all villages"
+msgstr "杀光敌方所有单位，毁掉所有村庄"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:276
+msgid ""
+"We have finally reached Saurgrath, their capitol. Remember whose side they "
+"have taken in the war against us."
+msgstr "我们终于到达他们的首都沙格拉斯了。别忘了他们跟谁在战争中合伙对抗我们。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:280
+msgid "Now is our chance to finish them off..."
+msgstr "是时候我们终结他们了……"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:284
+msgid "I fear this will be a bloodbath..."
+msgstr "我恐怕这会血流成河……"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:288
+msgid ""
+"Destroy them, root and branch. Burn out their homes. Let none remain alive!"
+msgstr "毁掉他们，连根拔起。烧光他们的家。不留活口！"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:294
+msgid ""
+"Kalenz is not able to recruit or recall shamans or any of their advancements "
+"in this scenario."
+msgstr "在这幕中凯雷茨无法征募或召回萨满或她的晋级单位。"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:349
+msgid "These are but eggs and hatchlings."
+msgstr "这里只有未孵化的蛋和幼兽。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:353
+msgid ""
+"Do not spare them. They will only foul our forests anew when they get their "
+"growth."
+msgstr "不要放过他们。他们长大后只会来重新弄脏我们的森林。"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:362
+msgid "They even shatter our eggs!"
+msgstr "他们甚至毁掉了我们的蛋！"
+
+#. [message]: role=Anduilas
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:393
+msgid "But...to kill their young? Are we to go that far?"
+msgstr "但是……把未成年的也杀了？我们要做得这么绝吗？"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:397
+msgid ""
+"Stay. You need not have the blood of children on your hands, and I shall not."
+msgstr "停下吧。你不该让手上沾上孩子的血，我也不会。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:401
+msgid ""
+"Perhaps you are too tender-minded to do what must be done, but many of us "
+"are not."
+msgstr "也许你们对我们必须做的事太心软了，不过我们中很多人都不会。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:405
+msgid ""
+"I will not set elf against elf. But, Landar, I fear you are storing up a "
+"dreadful price for yourself."
+msgstr "我不想引起精灵内斗。但是，兰达，我担心你将来会付出可怕的代价。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:409
+msgid "Stand aside. I will do what is needful."
+msgstr "站一边去。我会做应该做的。"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:416
+msgid "Their revenge is terrible! I fear for our kind."
+msgstr "他们的复仇太可怕了！我担心我们要灭族了。"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:421
+msgid "Don't flee. We cannot abandon our capitol."
+msgstr "不要逃跑。我们不能放弃我们的大厦。"
+
+#. [scenario]: id=20_Council_ruling
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:3
+msgid "Council ruling"
+msgstr "委员会的裁决"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:15
+msgid ""
+"With the once mighty Saurian empire destroyed, saurians had been reduced to "
+"scattered bands lurking in waste places. But the Elves still had problems of "
+"their own..."
+msgstr ""
+"随着昔日强盛的蜥蜴人帝国土崩瓦解，蜥蜴人数锐减，只能零星潜伏在废墟中偷生。不"
+"过精灵还有他们自己的麻烦……"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:25
+msgid ""
+"Kalenz, the council has called you here to demand that you apologize for "
+"your actions. You took the decision to help the humans at Tath, and hence "
+"risk further war with the Orcs; to strike at the orcs north; and last to "
+"attack the Saurians. These were decisions to be taken by the council, not by "
+"a field commander! "
+msgstr ""
+"凯雷茨，委员会召你至此是要你为你的一系列行为道歉。你擅自决定在塔斯帮助人类并"
+"因此冒险深入兽人继续交战；突袭北方的兽人；最后对蜥蜴人的进攻。这些都该是由委"
+"员会决定，不该由战地指挥官！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:30
+msgid ""
+"With all respect my lords, we were and still are in a war. We could not "
+"spare the time to consult with you, lest our opportunities slip from our "
+"grasp and make the war longer and more costly. Besides, all our actions have "
+"been beneficial to our cause: The orcs are now in a civil war for "
+"succession, the North Elves are free and the Saurians are no longer a threat."
+msgstr ""
+"尊敬的各位阁下，那时和现在我们都深陷战争。我们没有时间与你们讨论，否则我们就"
+"会延误战机使战争持续更久代价更高。另外，我们的行动也对我们目标有益：兽人会持"
+"续内战多年，北方的精灵获得了自由，蜥蜴人也不再是个威胁。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:35
+msgid ""
+"The council is not blind to these benefits. But, still, you cannot decide "
+"high matters of statecraft on behalf of the Elves. We cannot allow it."
+msgstr ""
+"委员会不是没看到这些好的结果。不过，无论如何你不能代表精灵决定高层方略。我们"
+"绝不允许。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:40
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:83
+msgid "Galtrid"
+msgstr "格尔泰德"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:40
+msgid ""
+"If it weren't for Kalenz and his men, none of us would be here to argue the "
+"point today. "
+msgstr "如果不是凯雷茨和他的人马，今天没人能在这谈论这些问题。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:45
+msgid ""
+"I agree. What's done is done. Let us concentrate on the future, not the "
+"past. "
+msgstr "我同意。过去的事就让它过去了。让我们关注以后，不是过去。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:45
+#: data/campaigns/Legend_of_Wesmere/utils/characters.cfg:116
+msgid "Uradredia"
+msgstr "尤拉德雷迪亚"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:50
+msgid ""
+"Kalenz, the council has decided that you are to be stripped of all military "
+"authority. You may now go."
+msgstr "凯雷茨，委员会已经决定剥夺你的军事领导权。你现在可以离开了。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:55
+msgid ""
+"I lay down my burden humbly and gladly. But we need to have a strong army, "
+"as the orcs will return!"
+msgstr ""
+"我恭敬而愉悦得卸下这重担。但我们必须保留一只强大的军队，兽人随时会回来！"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:61
+msgid "Cowards and traitors!"
+msgstr "胆小鬼！卖国贼！"
+
+#. [scenario]: id=21_Elvish_Assassins
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:12
+msgid "Elvish Assassins"
+msgstr "精灵刺客"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:34
+msgid "After the council's decision, Kalenz and Cleodil retired in the North."
+msgstr "委员会宣布决议后，凯雷茨和科柳迪赋闲回到了北方。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:38
+msgid ""
+"Free of the pressure of war, they took delight in each other. The heart-bond "
+"they had formed amidst peril and death grew closer, and all but vanquished "
+"the remnant evil Crelanu's philter had left in Kalenz. The two began to "
+"think of having children."
+msgstr ""
+"再没有了战争的压力，他们二人颐享天年。二人在战火中形成的灵犀变得更加紧密，并"
+"且凯雷茨差不多克服了克雷拉努药水的邪恶余存。他们二人开始考虑养儿育女。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:42
+msgid ""
+"But their peace was not to last. In the outer world, the blood tides were "
+"rising. And in the heart of Landar, who had once been their friend, evil was "
+"not vanquished, but festered and grew..."
+msgstr ""
+"然而好景不长。在外面的世界，一股血雨腥风正在涌起。在兰达——曾经的好友的内心深"
+"处，邪恶没有被战胜，而是逐渐恶化并扎根蔓延……"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:99
+msgid ""
+"Kalenz begins this scenario in retirement, and is not able to recall his "
+"veteran troops."
+msgstr "凯雷茨在这幕中处于停职状态，也不能召回他的老兵队伍。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:139
+msgid "As you command, my lord."
+msgstr "遵命，长官。"
+
+#. [message]: id=Cleodil
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:143
+msgid ""
+"You turn on us? I cannot believe it! How has elf come to strive against elf "
+"so bitterly?"
+msgstr "你现在拿我们开刀？我简直不能相信！精灵什么时候如此残酷地斗争过？"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:147
+msgid ""
+"Evil takes many forms, my love. Today we see another of its faces...and must "
+"defeat it again. Prepare to die, $betrayer|!"
+msgstr ""
+"罪恶有很多形式，我亲爱的。今天我们看到了它的另一面……并且必须战胜它。做好受死"
+"的准备， $betrayer|！"
+
+#. [message]: role=betrayer
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:151
+msgid "Only Landar has the will to do what must be done to save the Elves!"
+msgstr "只有兰达有这样的意志，去做必须做的来解救精灵！"
+
+#. [message]: role=betrayer
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:193
+msgid "Hold, $unit.name|! Now we fight for Landar!"
+msgstr "住手，$unit.name|！现在我们要为兰达作战！"
+
+#. [message]
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:215
+msgid "Hold your hand, $unit.name|! $second_unit.name| is on our side!"
+msgstr "停手， $unit.name|！ $second_unit.name| 是我们这方的！"
+
+#. [message]: role=betrayer
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:220
+msgid ""
+"I will not stand by as Kalenz betrays us to the Humans and Dwarves. We "
+"follow Landar now!"
+msgstr "我不能袖手旁观，因为凯雷茨把我们出卖给人类和矮人。我们现在追随兰达！"
+
+#. [side]: type=Elvish Ranger, id=Antaril
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:234
+msgid "Antaril"
+msgstr "安泰瑞尔"
+
+#. [side]: type=Elvish Marshal, id=Crintil
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:302
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:176
+msgid "Crintil"
+msgstr "库鲁丁"
+
+#. [side]: type=Elvish Captain, id=Oblil
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:339
+msgid "Oblil"
+msgstr "鸥比利"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:370
+msgid "Kalenz reaches the signpost"
+msgstr "凯雷茨到达路标"
+
+#. [unit]: id=Galenor, type=Elvish Scout
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:403
+msgid "Galenor"
+msgstr "盖乐诺"
+
+#. [message]: id=Galenor
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:413
+msgid ""
+"My lord Kalenz, you are in great danger! You must leave here immediately."
+msgstr "凯雷茨阁下，您现在有大危险！您必须立即离开！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:417
+msgid "What?!"
+msgstr "什么！？"
+
+#. [message]: id=Galenor
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:421
+msgid ""
+"Landar has seized control of the army. He has eliminated the council and "
+"proclaimed himself High Warlord of the Elves. What is worse, there is word "
+"out that he has already ordered your assassination."
+msgstr ""
+"兰达取得了军队的控制权。他解散了委员会并宣布自己为精灵高阶督军。更糟糕的是，"
+"传言说他已经下令派人暗杀你。"
+
+#. [message]: id=Crintil
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:425
+msgid "Too late! All traitors will die!"
+msgstr "太晚了！所有的叛国者必死！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:429
+msgid ""
+"Listen to me! We have fought and bled side by side. We must trust in each "
+"other and face the orcs together!"
+msgstr "听我说！我们曾经誓死与共，我们必须相信彼此共同对抗兽人！"
+
+#. [message]: id=Oblil
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:434
+msgid "Do not listen to this traitor! You have all heard the order!"
+msgstr "不要听信叛国者！你们都听到命令了！"
+
+#. [message]: id=Galenor
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:439
+msgid ""
+"You should try to reach Uradredia and the North Elves. He too, has refused "
+"to join Landar. Word is that some troops still loyal to you are heading "
+"there."
+msgstr ""
+"您应该尝试到北方精灵和尤拉德雷迪亚那去。他也拒绝加入兰达。传言说另外一些始终"
+"忠于您的部队正赶向那去。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:458
+msgid "Now we must fare swiftly to the North Elves!"
+msgstr "现在我们必须赶快到北方精灵那去！"
+
+#. [scenario]: id=22_Northern_Battle
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:3
+msgid "Northern Battle"
+msgstr "北方战争"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:24
+msgid ""
+"It was clear to Kalenz and Cleodil that there would be no sanctuary for them "
+"while Landar lived. But during their years in seclusion thee fame of their "
+"deeds had only grown. Many healers and sorceresses responded to Cleodil's "
+"call, and Kalenz found that recruits came to him as readily as if he were "
+"still High Lord in name."
+msgstr ""
+"凯雷茨和科柳迪很清楚兰达统治的地方没有他们的立足地。但在他们隐居的几年里，他"
+"们行为的名声却越来越广。许多治疗者和女巫响应了科柳迪的号召，凯雷茨发现他仍能"
+"轻松地招募，就像他仍是名义上的高阶领主。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:27
+msgid ""
+"Kalenz's veterans joined the host of the Northern Elves under Uradredia. "
+"Very soon, Landar's army appeared..."
+msgstr "凯雷茨的老兵加入了尤拉德雷迪亚领导的北方精灵。很快，兰达的军队出现了……"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:109
+msgid ""
+"Kalenz can only recall shamans and their advancements from his former army; "
+"the rest of his men joined Uradredia before he arrived."
+msgstr ""
+"凯雷茨只能从他从前的军队中召回萨满和她的晋级单位；他其余的手下在他来之前就加"
+"入了尤拉德雷迪亚。"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:227
+msgid "Survive for six days"
+msgstr "坚守六天"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:250
+msgid ""
+"Landar, listen to me! It does not have to come to this. I know about the "
+"potion. Let us help!"
+msgstr "兰达，听我说！我们没必要走到这一步。我知道是因为那瓶药。让我们帮助你！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:254
+msgid ""
+"Here is Kalenz. There can be no talk with traitors! Leave none of them alive!"
+msgstr "凯雷茨就在这。跟叛国者没什么好谈的！赶尽杀绝！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:270
+msgid "Things are not going well! Retreat! We will meet again, traitors!"
+msgstr "形势不对！撤退！我们会再见面的，叛国者！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:282
+msgid ""
+"We have yet to break their defenses! While we are getting weaker, the enemy "
+"is getting stronger! Retreat!"
+msgstr "我们还没有击溃他们的防御！我们士气渐衰，他们士气高昂！撤退！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:286
+msgid "We won!"
+msgstr "我们赢了！"
+
+#. [scenario]: id=23_End_of_War
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:4
+msgid "End of War"
+msgstr "战争的尽头"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:26
+msgid ""
+"It is said that the battle with the North Elves was the beginning of the end "
+"for Landar's revolt. But civil war smoldered on for many more years, neither "
+"side mustering enough strength to achieve a decisive victory. Until, "
+"eventually, Landar's increasingly harsh and arrogant ways drove away many of "
+"his followers. After assembling all the troops he could, Kalenz marched "
+"against his old friend and now mortal enemy, Landar, in the forest of "
+"Gitamoth... "
+msgstr ""
+"后人说与北方精灵之战是兰达造反结局的开始。但是内战纠缠不休持续多年，没有一方"
+"能聚集足够力量取得决定性的胜利。直到终于，兰达日益膨胀的残暴和傲慢让许多追随"
+"者离他而去。在他召集了所有他能召集的军队后，凯雷茨向他昔日的好友亦是今日的死"
+"敌，兰达进军。在吉塔莫斯的丛林中……"
+
+#. [objective]: condition=win
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:92
+msgid "Defeat Landar"
+msgstr "击败兰达"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:115
+msgid "Landar, let us spill no more elvish blood. Give up. We can help you!"
+msgstr "兰达，让我们停止挥霍精灵们的鲜血。放弃吧，我们会帮助你！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:119
+msgid "No! It all ends here!"
+msgstr "不！一切到此为止！"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:137
+msgid ""
+"Forgive me $unit.name|. I will sing your name in praise under the stars!"
+msgstr "原谅我 $unit.name|。我会在星星下歌颂你的名字！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:141
+msgid "We must all pass, $second_unit.name|. Make your song beautiful.."
+msgstr "我们都要去的， $second_unit.name|。把歌唱得好听点。"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:157
+msgid "Forgive me, $unit.name|, this victory brings me no joy."
+msgstr "原谅我， $unit.name|，这样的胜利谁也不会开心。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:161
+msgid "Remember me to the trees, $second_unit.name|."
+msgstr "把我的名字刻在树上， $second_unit.name|。"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:173
+msgid "I fall. Perhaps now I can rest!"
+msgstr "我的使命结束了。也许现在我能安息了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:177
+msgid ""
+"I am deeply grieved that it came to this, Landar. You were my best friend. I "
+"was blind to what the potion was doing to you. I was fighting it myself!"
+msgstr ""
+"我对走到今天的地步深感痛心，兰达。你曾经是我最好的朋友。但我却对药剂对你的摧"
+"残视而不见。我只顾自己跟药剂抗衡！"
+
+#. [message]: id=Landar
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:181
+msgid ""
+"I know. But you are not at fault, for I did not take just one bottle. I "
+"wanted to make sure we could kill the orcish Great Chief, so I went back for "
+"a second and drank that one, too. Now I have driven our dwarvish allies away "
+"and brought death and disaster to our own people. I have even tried to kill "
+"my own friend. I am a disgrace to elven-kind."
+msgstr ""
+"我理解。但不是你的错，因为我喝了不止一瓶。我想让刺杀大酋长万无一失，所以我回"
+"去又拿了一瓶也喝了下去。现在我把矮人盟友赶走了，也给我们的人民带来灾难。我甚"
+"至尝试杀死自己的朋友。我是精灵们的耻辱。"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:185
+msgid ""
+"It was not all your fault. May be the curse of Aquagar struck true, or may "
+"be yours was the blood-price fate required of us for victory. Rest well, my "
+"friend. Rest well Landar, Hero of the Elves!"
+msgstr ""
+"这不是你的错。也许阿库阿伽的诅咒是真的，也许你就是我们为胜利必须付出的惨痛的"
+"代价。安息吧我的朋友，安息吧兰达，你是精灵的英雄！"
+
+#. [scenario]: id=24_Epilogue
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:3
+msgid "Epilogue"
+msgstr "后记"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:11
+msgid ""
+"Kalenz buried Landar with full honors and made him a monument worthy of a "
+"true elvish hero."
+msgstr ""
+"凯雷茨以崇高的心境埋葬了兰达并为他竖起纪念碑使他的名字位列众精灵英雄之中。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:17
+msgid ""
+"Landar's remaining followers' lives were spared, but they were banished to "
+"Gitamoth forest, henceforth known as Silent Forest."
+msgstr ""
+"兰达残党都被赦免了死刑，但他们被放逐在吉塔莫斯森林中，此后人们称之为寂静森"
+"林。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:22
+msgid ""
+"As Landar had wiped out the Elvish Council, Kalenz was unanimously chosen as "
+"High Lord of the Elves. North and South Elves swore allegiance to him."
+msgstr ""
+"由于兰达早先驱散了精灵委员会，凯雷茨毫无异议地当选高阶精灵领主。南北的精灵都"
+"宣誓拥护他。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:27
+msgid ""
+"Kalenz reorganized the Elves so they could mobilize for war more readily. He "
+"knew that the orcish threat was not over; that the elves, through "
+"hesitation, had lost a golden opportunity to end the threat and that trouble "
+"would someday return."
+msgstr ""
+"凯雷茨重新组织起精灵从而在战时能迅速武装起来。他知道兽人的威胁远没有结束；而"
+"精灵们，因为犹豫不决，错过了消灭威胁的黄金机会，麻烦总有一天会回来。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:31
+msgid ""
+"When Kalenz felt his work to have been done as well as it might be, he "
+"retired with Cleodil to their home in the Forest of Lintanir."
+msgstr ""
+"当凯雷茨感觉到他的工作基本如看上去那样步入正轨的时候，他卸任后和科柳迪回到他"
+"们在林坦尼树林的家中。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:36
+msgid ""
+"Cleodil bore Kalenz children who were tall, and beautiful, and inherited in "
+"full measure both their mother's healing gifts and their father's talented "
+"and searching mind. In the fullness of time, after a long life full of "
+"accomplishment and love and laughter, Cleodil died after the manner of "
+"Elves, aging swiftly to a peaceful end."
+msgstr ""
+"科柳迪给凯雷茨生育的孩子们高大英俊，并继承了母亲的医疗天赋和父亲的天资和头"
+"脑。此后的某一天，在度过了满是成就、爱和欢笑的一生后，科柳迪以一个精灵的方式"
+"离开了他们——从容而平静地走到了她生命的终点。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:40
+msgid ""
+"But Kalenz's story was not yet over. Aquagar's curse was fulfilled; "
+"prolonged in life by Crelanu's philter, he outlived not only his beloved but "
+"their children. Sundered from his kin by their mortality, fleeing the "
+"reflections in their eyes of his lost beloved, he left his home and wandered "
+"for many a year across the Great Continent. Oft did he arrive unexpected at "
+"times and places when his people were in dire straits, and succor them with "
+"wisdom or magic or his bright keen blade."
+msgstr ""
+"但是凯雷茨的故事还没有结束。阿库阿伽的诅咒应验了。他的寿命由于克雷拉努的药剂"
+"变得很长，他目睹了挚爱的逝去甚至是骨肉的下葬。亲人的相继离世，爱人眼中的倒影"
+"一去不复……他离开了家乡在伟大大陆上游荡。通常当他的人民遇到困境时他突然出现，"
+"用他的智慧或魔法又或他锋利的宝剑援助他们。"
+
+#. [part]
+#: data/campaigns/Legend_of_Wesmere/scenarios/24_Epilogue.cfg:43
+msgid ""
+"To learn of Kalenz's last and perhaps greatest deeds, and those in which he "
+"was most alone, seek ye the tale of Delfador the Great and the fall of the "
+"usurping Queen Asheviere."
+msgstr ""
+"欲知凯雷茨最后的也许是最伟大壮举，和那些在他独自一人时的故事，请参阅黎伐多大"
+"法师的传说和篡权女王阿莎维尔的倒台。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:10
+msgid "I am defeated. Now the orcs will destroy us!"
+msgstr "我失败了。现在兽人会灭了我们！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:44
+msgid "It is finished! I can finally rest!"
+msgstr "我的使命结束了！我终于可以安息了！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:50
+msgid "Farewell, Kalenz!"
+msgstr "再见，凯雷茨！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:56
+msgid "Noooo! We cannot continue without Landar!"
+msgstr "不——！没有兰达我们无法前进！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:74
+msgid "I'm sorry I failed you, Kalenz...my beloved..."
+msgstr "抱歉我辜负了你们，凯雷茨……亲爱的……"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:80
+msgid "Nooo! Cleodil! Without you I cannot go on!"
+msgstr "不——！科柳迪！失去你我不能前进！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:94
+msgid "I go to join my sires in the Halls of Death"
+msgstr "我去追随亡者大厅的先辈了"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:108
+msgid ""
+"Our cause is lost. With Uradredia gone, the North Elves will no longer fight!"
+msgstr "我们的事情完了。尤拉德雷迪亚死了，北方精灵就不能再战了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:122
+msgid "I cannot fight the orcs alone! It's all over!"
+msgstr "我不能独自和兽人作战！都完了！"
+
+#. [message]: id=Kalenz
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:145
+msgid "Farewell $unit.name. Your loyal service won't be forgotten."
+msgstr "永别了 $unit.name。你忠诚的奉献将被永远铭记。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:156
+msgid "Oh, no! We are too late..."
+msgstr "噢不！我们太迟了……"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Legend_of_Wesmere/utils/low-macros.cfg:227
+msgid "You retrieve $amount_gold pieces of gold."
+msgstr "你得到了$amount_gold金币。"
+
+# This is only a sounds-like translation. More recommendations welcome.
+#~ msgid "Keep of Kalenz"
+#~ msgstr "Keep of Kalenz"
+
+#~ msgid "Keep of Truugl"
+#~ msgstr "Keep of Truugl"
+
+#~ msgid "Keep of Mordrum"
+#~ msgstr "Keep of Mordrum"
+
+#~ msgid "Keep of Urug-Pir"
+#~ msgstr "Keep of Urug-Pir"
+
+#~ msgid "Keep of El'Ithsomir"
+#~ msgstr "Keep of El'Ithsomir"
+
+#~ msgid "Keep of Grubr"
+#~ msgstr "Keep of Grubr"
+
+#~ msgid "I have been defeated!"
+#~ msgstr "我被打败了！"
+
+#~ msgid "No! This is the end! We have been defeated!"
+#~ msgstr "不！这就是末日了！我们被击败了！"
+
+#~ msgid "No! It's all over!"
+#~ msgstr "不！全完了！"
+
+#~ msgid "Defeat the drakes and trolls"
+#~ msgstr "击败巨魔和蜉蝣"
+
+#, fuzzy
+#~ msgid ""
+#~ "Kalenz and his band finally were on their way to the Ka'lian, but things "
+#~ "were not as they had hoped..."
+#~ msgstr "Kalenz和他的部队终于到达Ka'lian,不过情况并不如他们所料..."
+
+#~ msgid "Oh no! The Ka'lian is under attack! We must help them!"
+#~ msgstr "噢不！Ka'lian正在遭受攻击！我们必须援助他们！"
+
+#, fuzzy
+#~ msgid "We have lost for some reason!"
+#~ msgstr "我们又一次阻止了兽人！"
+
+#~ msgid ""
+#~ "The war with the Orcs goes poorly. We are going to need that gold back!"
+#~ msgstr "战争不能一穷二白地打，我们必须去把那些金子追回来！"
+
+#~ msgid "Aargh! I'm gone!"
+#~ msgstr "啊……我要不行了！"
+
+#~ msgid "I told you so!"
+#~ msgstr "我告诉过你会成这样！"
+
+#~ msgid "Aargh! I'm dying!"
+#~ msgstr "啊……我要死了！"
+
+#~ msgid "Here we are! Prepare to fight!"
+#~ msgstr "我们来了！战斗准备！"
+
+#~ msgid "Here we are, men! Charge!"
+#~ msgstr "我们来了，兄弟们！冲锋！"
+
+#~ msgid " New Objective: Defeat the units guarding the treasury."
+#~ msgstr "新目标：击败守卫宝藏的单位。"
+
+#~ msgid "Victory is ours. "
+#~ msgstr "胜利是我们的。"
+
+#~ msgid "Payback time!"
+#~ msgstr "偿还的时候到了！"
+
+#~ msgid "Defeat Grugl"
+#~ msgstr "击败Grugl"
+
+#, fuzzy
+#~ msgid ""
+#~ "I see the orcish army is big but consists mostly of inexperienced "
+#~ "fighters. This should not take too long...\n"
+#~ "*Weak AI*"
+#~ msgstr "我发现兽人军队虽然庞大但主要由新兵构成。这应该不会花很多时间..."
+
+#~ msgid "Olontoril"
+#~ msgstr "Olontoril"
+
+#~ msgid "Irglus"
+#~ msgstr "Irglus"
+
+#~ msgid "Antomeril"
+#~ msgstr "Antomeril"
+
+#~ msgid "Lirdomer"
+#~ msgstr "Lirdomer"
+
+#~ msgid "Gragul"
+#~ msgstr "Gragul"
+
+#~ msgid "Muhtr"
+#~ msgstr "Muhtr"
+
+#~ msgid "Griul"
+#~ msgstr "Griul"
+
+#~ msgid "Etruw"
+#~ msgstr "Etruw"
+
+#~ msgid "Bihlas"
+#~ msgstr "Bihlas"
+
+#~ msgid "Mrat"
+#~ msgstr "Mrat"
+
+#, fuzzy
+#~ msgid "Flee, Kalenz... our hopes ride with you..."
+#~ msgstr "快逃, Kalenz...你是我们最后的希望..."
+
+#~ msgid "We have escaped them, but we will not forget. We shall return!"
+#~ msgstr "我们终于逃出来了，但我们将铭记——总有一天我们会回来!"
+
+#, fuzzy
+#~ msgid "Defeat Wrulf"
+#~ msgstr "击败Grugl"
+
+#, fuzzy
+#~ msgid ""
+#~ "@Kalenz\n"
+#~ "\n"
+#~ "Cleodil..."
+#~ msgstr ""
+#~ "Kalenz\n"
+#~ "Cleodil..."
+
+#~ msgid "Defeat all enemies"
+#~ msgstr "败众敌将"
+
+#, fuzzy
+#~ msgid "Defeat every enemy unit"
+#~ msgstr "败众敌将"
+
+#, fuzzy
+#~ msgid "and"
+#~ msgstr "和"
+
+#~ msgid "Artolas"
+#~ msgstr "Artolas"
+
+#~ msgid "Eomil"
+#~ msgstr "Eomil"
+
+#~ msgid "Toltilas"
+#~ msgstr "Toltilas"
+
+#~ msgid "Aronas"
+#~ msgstr "Aronas"
+
+#~ msgid "Halard"
+#~ msgstr "Halard"
+
+#~ msgid "Insith"
+#~ msgstr "Insith"
+
+#~ msgid "Aladan"
+#~ msgstr "Aladan"
+
+#~ msgid "Korrigan"
+#~ msgstr "Korrigan"
+
+#~ msgid "Mirqas"
+#~ msgstr "Mirqas"
+
+#~ msgid "Undor"
+#~ msgstr "Undor"
+
+#~ msgid "aged"
+#~ msgstr "老年人"
+
+#, fuzzy
+#~ msgid "Move Kalenz to the signpost"
+#~ msgstr "Kalenz到达记录点"
+
+#~ msgid "Reach the signpost"
+#~ msgstr "到达记录点"
+
+#~ msgid ""
+#~ "Before you die, know that you lost in Wesmere, you lost in Tath, you will "
+#~ "lose here and that your Great Chief is dead!"
+#~ msgstr ""
+#~ "在你死前我告诉你，你们在Wesmere输了，在Tath也输了，在这里又输了并且你们的"
+#~ "大酋长也死了！"
+
+#~ msgid "campaign started"
+#~ msgstr "战役开始"
+
+#, fuzzy
+#~ msgid "Defeat an enemy Leader!"
+#~ msgstr "败众敌将"
+
+#, fuzzy
+#~ msgid " New Objective: Defeat all enemies"
+#~ msgstr "败众敌将"
+
+# This is only a sounds-like translation. More recommendations welcome.
+#~ msgid "Death of Delfador"
+#~ msgstr "黎伐多阵亡"
+
+# This is only a sounds-like translation. More recommendations welcome.
+#, fuzzy
+#~ msgid "Delfador"
+#~ msgstr "黎伐多阵亡"
+
+#, fuzzy
+#~ msgid "sword"
+#~ msgstr "君主"
+
+#~ msgid "cold"
+#~ msgstr "冰"
+
+#~ msgid "magical"
+#~ msgstr "魔法攻击"
+
+#~ msgid "ambush"
+#~ msgstr "伏兵"
+
+#~ msgid "leadership"
+#~ msgstr "领导能力"
+
+#~ msgid "Elvish Scout"
+#~ msgstr "精灵侦察兵"

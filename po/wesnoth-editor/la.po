@@ -1,0 +1,441 @@
+# Latin translations for Battle for Wesnoth package.
+# Copyright (C) 2009 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package
+#
+# Current Translators:
+#   Michael Babich (Aethaeryn) <michaelbabich7@gmail.com> - Maintainer
+#   Thomas Hockings (Deusite) <elprofesh@gmail.com>
+#   Stephan Maus (Thanatos) <thanatologe@gmx.net>
+#
+# Former Translators:
+#   Mark Polo (mpolo) <markpolo@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Wesnoth-editor 1.2\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-09-13 14:02+0200\n"
+"PO-Revision-Date: 2009-11-16 22:50-0500\n"
+"Last-Translator: Michael Babich (Aethaeryn) <michaelbabich7@gmail.com>\n"
+"Language-Team: Latin\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:5
+#, fuzzy
+msgid "Single Hex"
+msgstr "Sexangulum singularis"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:15
+#, fuzzy
+msgid "Radius 1 Hex"
+msgstr "Sexangula in spatio uno"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:25
+#, fuzzy
+msgid "Radius 2 Hex"
+msgstr "Sexangula in spatio duobus"
+
+#. [brush]
+#: data/core/editor/brushes.cfg:55
+#, fuzzy
+msgid "Hex Line NW-SE"
+msgstr "Linea sexangularum SO-MO"
+
+#. [editor_group]: id=all
+#: data/core/editor/terrain-groups.cfg:10
+msgid "all"
+msgstr "omnes"
+
+#. [editor_group]: id=water
+#: data/core/editor/terrain-groups.cfg:16
+msgid "water"
+msgstr "aqua"
+
+#. [editor_group]: id=flat
+#: data/core/editor/terrain-groups.cfg:23
+msgid "flat"
+msgstr "planus"
+
+#. [editor_group]: id=desert
+#: data/core/editor/terrain-groups.cfg:30
+#, fuzzy
+msgid "desert"
+msgstr "arensentia"
+
+#. [editor_group]: id=forest
+#: data/core/editor/terrain-groups.cfg:37
+msgid "forest"
+msgstr "silva"
+
+#. [editor_group]: id=frozen
+#: data/core/editor/terrain-groups.cfg:44
+msgid "frozen"
+msgstr "frigidus"
+
+#. [editor_group]: id=rough
+#: data/core/editor/terrain-groups.cfg:51
+msgid "rough"
+msgstr "asper"
+
+#. [editor_group]: id=cave
+#: data/core/editor/terrain-groups.cfg:58
+msgid "cave"
+msgstr "caverna"
+
+#. [editor_group]: id=village
+#: data/core/editor/terrain-groups.cfg:65
+msgid "village"
+msgstr "viculus"
+
+#. [editor_group]: id=castle
+#: data/core/editor/terrain-groups.cfg:72
+msgid "castle"
+msgstr "castellum"
+
+#. [editor_group]: id=special
+#: data/core/editor/terrain-groups.cfg:79
+msgid "special"
+msgstr "specialis"
+
+#. [editor_tool_hint]: id=editor-tool-paint
+#. [editor_tool_hint]: id=editor-tool-fill
+#. [menu]: id=draw_button_editor
+#. [menu]: id=flood_button_editor
+#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
+msgid ""
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-select
+#. [menu]: id=select_button_editor
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
+msgid ""
+"Left mouse button selects, right deselects. Hold Shift for magic-wand "
+"selection of tiles with same terrain."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-tool-starting-position
+#. [menu]: id=start_position_button_editor
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
+msgid ""
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
+msgstr ""
+
+#. [editor_tool_hint]: id=editor-paste
+#: data/core/editor/tool-hints.cfg:30
+msgid ""
+"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
+"edit menu to transform the clipboard (rotate, mirror)."
+msgstr ""
+
+#. [menu]: id=menu-editor-file
+#: data/themes/editor.cfg:120
+#, fuzzy
+msgid "File"
+msgstr "|Archivum"
+
+#. [menu]: id=menu-editor-edit
+#: data/themes/editor.cfg:131
+#, fuzzy
+msgid "Edit"
+msgstr "Exercere"
+
+#. [menu]: id=menu-editor-map
+#: data/themes/editor.cfg:141
+msgid "Map"
+msgstr "Charta"
+
+#. [menu]: id=menu-editor-window
+#: data/themes/editor.cfg:151
+msgid "Window"
+msgstr "Fenestra"
+
+#. [label]: id=villages-icon
+#: data/themes/editor.cfg:270
+msgid "villages"
+msgstr "viculi"
+
+#: src/editor/editor_controller.cpp:121
+msgid "Quit Editor"
+msgstr "Chartographiam Exire"
+
+#: src/editor/editor_controller.cpp:276
+msgid "Fatal error"
+msgstr "Error gravis"
+
+#: src/editor/editor_controller.cpp:301 src/editor/editor_controller.cpp:1062
+msgid "(New Map)"
+msgstr "(Charta Nova)"
+
+#: src/editor/editor_controller.cpp:307
+msgid "Do you really want to quit?"
+msgstr "Visne exire?"
+
+#: src/editor/editor_controller.cpp:309
+#, fuzzy
+msgid ""
+"Do you really want to quit? Changes in the map since the last save will be "
+"lost."
+msgstr ""
+"Visne exire? Omnes commutationes in tabula geographica nonservatae "
+"amittentur."
+
+#: src/editor/editor_controller.cpp:311
+#, fuzzy
+msgid ""
+"Do you really want to quit? The following maps were modified and all changes "
+"since the last save will be lost:"
+msgstr ""
+"Visne exire? Istae tabulae geographicae commutabantur et omnes commutationes "
+"nonservatae amittentur: "
+
+#: src/editor/editor_controller.cpp:316
+msgid "Quit"
+msgstr "Exire"
+
+#: src/editor/editor_controller.cpp:373
+#, fuzzy
+msgid "No editor time-of-day found."
+msgstr "Tempus initium non repertum est."
+
+#: src/editor/editor_controller.cpp:409
+#, fuzzy
+msgid "Unsaved Changes"
+msgstr "Commutationes nonservatae"
+
+#: src/editor/editor_controller.cpp:410
+#, fuzzy
+msgid ""
+"Do you want to discard all changes you made to the map since the last save?"
+msgstr "Visne repudiare omnes commutationes nonservatas?"
+
+#: src/editor/editor_controller.cpp:428
+msgid "Choose a Map to Open"
+msgstr "Seligere Chartam"
+
+#: src/editor/editor_controller.cpp:463
+msgid "Save the Map As"
+msgstr "Chartam servare ut..."
+
+#: src/editor/editor_controller.cpp:467
+#, fuzzy
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "|Charta iam adest. Visne eam superscribere?"
+
+#: src/editor/editor_controller.cpp:484
+#, fuzzy
+msgid "No random map generators found."
+msgstr "Fabricatores tabulas geographicas fortuitas non reperti sunt."
+
+#: src/editor/editor_controller.cpp:497 src/editor/editor_controller.cpp:501
+msgid "Map creation failed."
+msgstr "Chartam creare male evenit."
+
+#: src/editor/editor_controller.cpp:516
+#, fuzzy
+msgid "Choose a mask to apply"
+msgstr "|Chartam Restituendam Eligire"
+
+#: src/editor/editor_controller.cpp:523
+#, fuzzy
+msgid "Error loading mask"
+msgstr "|Error cum persona petivisse   eveniebat. ???"
+
+#: src/editor/editor_controller.cpp:538
+msgid "Choose target map"
+msgstr "Chartam deligere."
+
+#: src/editor/editor_controller.cpp:545 src/editor/editor_controller.cpp:709
+#, fuzzy
+msgid "Error loading map"
+msgstr "|Error cum tabulam geographicam ...???"
+
+#: src/editor/editor_controller.cpp:623 src/editor/editor_controller.cpp:665
+msgid "This map is already open."
+msgstr "Eadem chartam aperta est."
+
+#: src/editor/editor_controller.cpp:644
+msgid "Map saved."
+msgstr "Charta servata est."
+
+#: src/editor/editor_controller.cpp:688
+msgid "Loaded embedded map data"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:689 src/editor/editor_controller.cpp:703
+msgid "Map loaded from scenario"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:699
+msgid ""
+"Loaded referenced map file:\n"
+"$new"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1092
+msgid "Undo"
+msgstr "Recantare"
+
+#: src/editor/editor_controller.cpp:1094
+msgid "Can't Undo"
+msgstr "Nequit Recantare"
+
+#: src/editor/editor_controller.cpp:1098
+msgid "Redo"
+msgstr "Reponere"
+
+#: src/editor/editor_controller.cpp:1100
+msgid "Can't Redo"
+msgstr "Nequit Reponere"
+
+#: src/editor/editor_controller.cpp:1105
+msgid "Auto-update Terrain Transitions: Yes"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1108
+msgid "Auto-update Terrain Transitions: Partial"
+msgstr ""
+
+#: src/editor/editor_controller.cpp:1112
+msgid "Auto-update Terrain Transitions: No"
+msgstr ""
+
+#: src/editor/editor_map.cpp:149 src/editor/mouse_action.cpp:429
+msgid "Player"
+msgstr "Lusor"
+
+#: src/editor/editor_map.cpp:256
+msgid "The size of the target map is different from the current map"
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:507
+msgid "(non-core)"
+msgstr "(non-nucleus)"
+
+#: src/editor/editor_palettes.cpp:508
+msgid "Will not work in game without extra care."
+msgstr ""
+
+#: src/editor/editor_palettes.cpp:533
+#, fuzzy
+msgid "FG"
+msgstr "stratum eminens"
+
+#: src/editor/editor_palettes.cpp:535
+#, fuzzy
+msgid "BG"
+msgstr "stratum recessum"
+
+#: src/editor/map_context.cpp:70
+msgid "File not found"
+msgstr ""
+
+#: src/editor/map_context.cpp:84
+msgid ""
+"The map file looks like a scenario, but the map_data value does not point to "
+"an existing file"
+msgstr ""
+
+#: src/editor/map_context.cpp:99
+msgid "Empty map file"
+msgstr ""
+
+#: src/editor/map_context.cpp:219
+#, fuzzy
+msgid "Could not save into scenario"
+msgstr "|Charta non servare potest: $msg"
+
+#: src/editor/map_context.cpp:226
+#, fuzzy
+msgid "Could not save the map: $msg"
+msgstr "|Charta non servare potest: $msg"
+
+#: src/editor/mouse_action.cpp:426
+msgid "(Player)^None"
+msgstr "Nullus"
+
+#: src/editor/mouse_action.cpp:433
+msgid "Choose player"
+msgstr "Lusorem deligere"
+
+#: src/editor/mouse_action.cpp:434
+msgid ""
+"Which player should start here? You can use alt and a number key to set the "
+"starting position for a player, and del to clear the starting position under "
+"the cursor. Pressing a number key by itself will scroll to that player's "
+"starting position."
+msgstr ""
+
+#: src/gui/dialogs/editor_settings.cpp:162
+msgid "Custom setting"
+msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr "Impostationes"
+
+#~ msgid "Draw tiles"
+#~ msgstr "Hexagones scribere"
+
+#~ msgid "Fill"
+#~ msgstr "Implere"
+
+#~ msgid "Set player's starting position"
+#~ msgstr "Locus initialis lusoris statuere"
+
+#~ msgid "Zoom in"
+#~ msgstr "Magnificare"
+
+#~ msgid "Zoom out"
+#~ msgstr "Parvificare"
+
+#~ msgid "Zoom to default view"
+#~ msgstr "Ad magnitudinem solitam"
+
+#~ msgid "Toggle grid"
+#~ msgstr "Rete ponere/tollere"
+
+#~ msgid "Resize the map"
+#~ msgstr "Magnitudinem chartae mutare"
+
+#~ msgid "Flip map"
+#~ msgstr "Chartam repercutere"
+
+#~ msgid "Language"
+#~ msgstr "Lingua"
+
+#~ msgid "Choose your preferred language:"
+#~ msgstr "Linguam antepositam elige: "
+
+#~ msgid "Battle for Wesnoth Map Editor"
+#~ msgstr "Recensor Chartarum Proelii pro Occidiseptentrione"
+
+#~ msgid "Which Player?"
+#~ msgstr "Qualis lusor?"
+
+#~ msgid "Which player should start here?"
+#~ msgstr "Qualis lusor hic incipere debet?"
+
+#~ msgid ""
+#~ "Warning: Illegal characters found in the map name. Please save under a "
+#~ "different name."
+#~ msgstr ""
+#~ "Monitio: Litterae illicitae in nomine chartae inveniuntur. Necesse est "
+#~ "salvare sub nomen aliud."
+
+#~ msgid "The file does not contain a valid map."
+#~ msgstr "Archivum chartam validam non continet."
+
+#~ msgid "Do you want to save the map before quitting?"
+#~ msgstr "Visne chartam servarve priusquam reliqueris?"
+
+#~ msgid "Error: Illegal character in filename."
+#~ msgstr "Mendum: Littera illicita in nomini pligae."

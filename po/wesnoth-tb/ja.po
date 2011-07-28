@@ -1,0 +1,1411 @@
+# #-#-#-#-#  ja.po (Battle for Wesnoth VERSION)  #-#-#-#-#
+# Japanese translations for Battle for Wesnoth package.
+# Copyright (C) 2006 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# Automatically generated, 2006.
+# BlueStar, 2006.
+# Nobuhito Okada <okyada@gmail.com>, 2006.
+# R.N <dragonfly65th@yahoo.co.jp>,
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-05-24 17:53+0200\n"
+"PO-Revision-Date: 2010-09-19 02:41+0900\n"
+"Last-Translator: R.N <dragonfly65th@yahoo.co.jp>\n"
+"Language-Team: Japanese Translation Team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:12
+msgid "A Tale of Two Brothers"
+msgstr "２人の兄弟の物語"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:13
+msgid "AToTB"
+msgstr "AToTB"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:17
+msgid "(Beginner)"
+msgstr "（初心者）"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:17
+msgid "Horseman"
+msgstr "騎手"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:18
+msgid "(Challenging)"
+msgstr "（挑戦的）"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:18
+msgid "Knight"
+msgstr "騎士"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:21
+msgid ""
+"(Novice level, 4 scenarios; the 'Hard' version may challenge more "
+"experienced players.)"
+msgstr ""
+"（初心者レベル、4 シナリオ。「難しい」バージョンは、経験豊富なプレーヤーに"
+"とっても挑戦的だろう）"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:21
+msgid ""
+"An evil mage is threatening the small village of Maghre and its inhabitants. "
+"The village's mage Bjarn sends for his brother to help, but not all goes as "
+"planned. Can you help?\n"
+"\n"
+msgstr ""
+"黒魔術師がMaghreの村とその住民を脅かしている。村人達は助けを求めるため、Bjarn"
+"を兄Arneの所へ送ったが、全て計画通り、とはいかなかった。あなたは助ける事が出"
+"来るだろうか？\n"
+"\n"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:28
+msgid "Campaign Design"
+msgstr "キャンペーンデザイン"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:37
+msgid "Campaign Maintenance"
+msgstr "キャンペーンメンテナンス"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:43
+msgid "Artwork and Graphics Design"
+msgstr "アートワークとグラフィックスデザイン"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:55
+msgid "Miscellaneous"
+msgstr "その他"
+
+#. [entry]
+#: data/campaigns/Two_Brothers/_main.cfg:69
+msgid "And special thanks to everyone else who I forgot to mention."
+msgstr "そして、私が言及し忘れた他の全ての人達へ、特別な感謝を"
+
+#. [scenario]: id=1_Rooting_Out_A_Mage
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:4
+msgid "Rooting Out A Mage"
+msgstr "魔法使いの根絶"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:53
+msgid ""
+"The remote freehold of Maghre in the western reaches of the kingdom of "
+"Wesnoth was once a peaceful place, its inhabitants largely unaware of the "
+"comings and goings of the wider world. Wars and the rumor of wars touched "
+"them not, until the day a dark mage settled in the region and began seeking "
+"sacrifices for his evil summonings."
+msgstr ""
+"Wesnothの王国から西へ遠く離れた、Maghre の自由領は、かつては平和な場所だっ"
+"た。その住民達は、より広い世の中で何が起きているか、大部分は知らないでいた。"
+"黒魔術師がそこに住み着き、邪悪な召喚術のための犠牲者を探し始めたその日まで、"
+"戦争と戦争の噂が彼らに触れることはなかった。"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:57
+msgid ""
+"Skeletons and zombies killed cattle and fired fields. 'Fear and obey Mordak "
+"the Mage!' they cried in fell voices as they did their foul deeds. People "
+"vanished from isolated farmsteads. Men and women began to fear the night, "
+"and their children even the bright day. But the nearest lord was more than a "
+"day's ride distant, and messengers sent to seek his help did not return."
+msgstr ""
+"スケルトンとゾンビが、牛を殺し野原を焼いた。彼らは汚らわしい犯罪をしながら、"
+"凶暴な声で「魔術師 Mordak を恐れ、従え」と叫んでいた。孤立した農場から、人々"
+"が消え失せた。男も女も夜を恐れ始め、子供達は明るい昼間でさえも怖がった。しか"
+"し、一番近い領主は馬で一日以上離れた所にいて、彼の助けを求めに送られた使者達"
+"は、戻ってくることは無かった。"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:61
+msgid ""
+"There was a man named Bjarn who had shown talent as a mage when he was "
+"young, gone to the great Academy on the Isle of Alduin, and returned to work "
+"his magic in the land where he was born. The people looked to him for help "
+"and leadership. He found weapons half-forgotten from the times of their "
+"sires and grandsires hanging in many houses, and bade the villagers to take "
+"them down and clean and oil them. He set the smiths of Maghre to making "
+"spearheads and ax-blades for the rest."
+msgstr ""
+"Bjarn という名の、若くして魔術の才能を示して Alduin 島の偉大な魔法学校に行"
+"き、魔法の研究をするため、生まれ故郷に戻った男がいた。人々は、彼の助力と指導"
+"力を当てにした。彼は多くの家で、父や祖父の代から半ば忘れられていた武器が吊る"
+"されているのを発見し、村人に、それらを下ろして掃除し、油を差すよう命じた。彼"
+"は、Maghre の鍛冶屋に、残りの人のために鏃と斧の刃を作るよう命じた。"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:65
+msgid ""
+"Now Bjarn had a brother named Arne who had also left Maghre to seek his "
+"fortune, and had become the leader of a small band of horsemen who hired out "
+"as guards to merchant caravans. Fortunate it was for all that when Bjarn was "
+"but an apprentice mage, he had made a pair of amulets for himself and his "
+"brother, with which they might call to each other when in dire need. Bjarn "
+"sent out that call."
+msgstr ""
+"さて、Bjarn には Arne という名の兄がいて、彼もまた出世の途を探るため Maghre "
+"を後にし、隊商に雇われた小さな騎兵の一団のリーダーになっていた。全ての者に"
+"取って幸運にも、Bjarn が見習い魔術師に過ぎなかった頃、彼は自分と兄のために、"
+"緊急の必要があった時には、お互いを呼び出せる一対のお守りを作っていた。Bjarn "
+"は、その呼び出しをした。"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:69
+msgid ""
+"Heeding the call of his amulet, Arne gathered such men as he could and "
+"hurried to Maghre to help Bjarn."
+msgstr ""
+"彼のお守りの呼び出しに留意して、Arne は出来るだけ人を集め、Bjarn を助けるた"
+"め、Maghre へと急いだ。"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:80
+msgid "Slay Mordak, the evil mage"
+msgstr "黒魔術師 Mordak を殺害する"
+
+#. [objective]: condition=lose
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:84
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:72
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:329
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:504
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:193
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:635
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:761
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:37
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:189
+msgid "Death of Arne"
+msgstr "Arneの死"
+
+#. [objective]: condition=lose
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:88
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:76
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:333
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:508
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:197
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:639
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:765
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:45
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:197
+msgid "Turns run out"
+msgstr "時間切れ"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:105
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:101
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:54
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:67
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:40
+msgid "Arne"
+msgstr "Arne"
+
+#. [unit]: id=Bjarn, type=Red Mage
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:115
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:697
+msgid "Bjarn"
+msgstr "Bjarn"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:135
+msgid "Alwyn"
+msgstr "Alwyn"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:136
+msgid "Brent"
+msgstr "Brent"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:137
+msgid "Cadell"
+msgstr "Cadell"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:138
+msgid "Dannen"
+msgstr "Dannen"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:139
+msgid "Efran"
+msgstr "Efran"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:140
+msgid "Fargus"
+msgstr "Fargus"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:143
+msgid "Erik"
+msgstr "Erik"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:144
+msgid "Heine"
+msgstr "Heine"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:145
+msgid "Magnus"
+msgstr "Magnus"
+
+#. [side]: type=Knight, id=Arne
+#. [side]: type=Longbowman, id=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:149
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:109
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:63
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:75
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:116
+msgid "Humans"
+msgstr "人間"
+
+#. [side]: type=Dark Sorcerer, id=Mordak
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:162
+msgid "Mordak"
+msgstr "Mordak"
+
+#. [side]: type=Dark Sorcerer, id=Mordak
+#. [side]: type=Dark Sorcerer, id=Rotharik
+#. [side]
+#. [side]: type=Orcish Warlord, id=Tairach
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:176
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:94
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:135
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:104
+msgid "Enemies"
+msgstr "敵"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:186
+msgid "Greetings, my brother! How may my men and I be of aid?"
+msgstr "ご機嫌よう、我が弟！ 私と部下は、どの様な助けになれるだろう？"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:190
+msgid ""
+"A dark mage has come upon us; his creatures call him Mordak. They have been "
+"terrorizing outlying farms, and we fear they may soon attack the village "
+"itself! The villagers of Maghre have taken up weapons but they are not "
+"trained fighters; but we need your men, and you to lead them."
+msgstr ""
+"我々は黒魔術師と出会った。奴に作られた者達は、奴を Mordak と呼んでいる。奴ら"
+"は辺鄙な所にある農場を恐怖に陥れていて、我々は、奴らがすぐにも村自体を攻撃す"
+"るのではないかと恐れている！ Maghre の村人達は武器を取ったが、彼らは訓練され"
+"た戦士ではない。それより我々にはあなたの部下と、あなたが彼らを率いてくれる事"
+"が必要なのだ。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:194
+msgid ""
+"I can feel Mordak's foul touch on the hidden currents of the earth and air. "
+"He is somewhere due north of here, I would say not more than two days' ride."
+msgstr ""
+"私は、Mordak の汚らわしい手が大地や大気の隠された流れに触れているのを感じるこ"
+"とが出来る。奴はここの真北のどこか、馬で二日以上はかからない所にいる筈だ。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:198
+msgid ""
+"I will lead my men, and such villagers as can keep up with us, north to slay "
+"this Mordak! What will you do?"
+msgstr ""
+"俺は部下を率い、その村人達が付いて来られるようにしながら、Mordak を殺すため北"
+"へ向かおう！ お前はどうする？"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:202
+msgid ""
+"You shall be the right hand, I the left. I will go stealthily with a handful "
+"of our best scouts and woodsmen. While you demonstrate against him and kill "
+"his creatures, I will try to defeat Mordak himself with magic at an "
+"unguarded moment. Together we may accomplish what either alone may not."
+msgstr ""
+"あなたが右なら私は左にすべきだろう。私は一握りの最も優秀な斥候と猟師を伴い、"
+"密かに進むつもりだ。あなたが奴に作られた者を殺し、奴に対してはっきりと存在を"
+"示している間に、私は奴が油断した瞬間に、魔法で Mordak 自身を倒してみようと思"
+"う。お互い単独では出来ないことでも、一緒にやれば達成出来るかもしれない。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:213
+msgid ""
+"Bjarn should be in position by now. Press them, distract the adept so Bjarn "
+"can spring his trap!"
+msgstr ""
+"Bjarn は今ごろ位置に付いているだろう。奴らを押せ、名人の気を逸らせば、Bjarn "
+"は罠にかけることが出来る！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:221
+msgid ""
+"Bjarn has not made his attack! I begin to fear for him... and it means we "
+"must deal with this Mordak ourselves!"
+msgstr ""
+"Bjarn は攻撃しなかった！ 私は彼が心配になってきた…そしてそれは、我々が自分達"
+"自身で Mordak に対処しなければならないことを意味する！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:232
+msgid "Argh!"
+msgstr "アー！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:236
+msgid "Good work, men! But what has become of my brother?"
+msgstr "よい働きだ、お前達！ ところで、我が弟はどうした？"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:240
+msgid "Worried about him, are you? E-he-he..hergh...gaargh..."
+msgstr "あいつのことが心配だろう？ イーヒッヒ..ハッ...ガァァッ. . ."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:248
+msgid ""
+"There's nothing more to be had from this one; we will have to search for "
+"Bjarn ourselves!"
+msgstr ""
+"これ以上こいつから得られるものは何もない。我々は自分達の手で Bjarn を探さねば"
+"ならない！"
+
+#. [message]: role=Reporter
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:256
+msgid ""
+"Sir, our scouts report that Bjarn was seen captured and carried away further "
+"north!"
+msgstr ""
+"斥候から、Bjarn が捕まって、さらに北へと連れ去られたようだとの報告です！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:260
+msgid "That they should dare this! We will give chase at once."
+msgstr "奴らが敢えてこんな事をするとはな！ 我々は直ちに追わなければならない。"
+
+#. [message]: speaker=Mordak
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:274
+msgid "Your brother's plan to ambush me has failed. He is our prisoner now."
+msgstr "お前の弟の私を待ち伏せする計画は失敗した。今や彼は我々の囚人だ。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:278
+msgid ""
+"My brother, kidnapped? I have failed you, Bjarn! And even now Mordak's "
+"forces descend upon the village!"
+msgstr ""
+"私の弟は攫われたのか？ Bjarn、私はお前の期待を裏切った！ そして今なお、"
+"Mordak の軍勢は、村を襲っている！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:293
+msgid "I hear these creatures are nigh-immune to our weapons, let us see!"
+msgstr ""
+"この化け物どもは我々の武器をほとんど受け付けないと聞くが、確かめさせてもらお"
+"うか！"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:308
+msgid "That was not so hard!"
+msgstr "それほど難しくはなかったな！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:319
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:523
+msgid "All is lost now that I am dead..."
+msgstr "私が死んだ今、全ては失われた..."
+
+#. [scenario]: id=2_The_Chase
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:4
+msgid "The Chase"
+msgstr "追跡"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:31
+msgid ""
+"The pursuit had already run for several days when the pursuers came to the "
+"bounds of the huge forest known as the Grey Woods. Ancient tales warned of "
+"lost souls haunting the wood, hunting and killing anyone brave enough to "
+"enter it."
+msgstr ""
+"追跡隊が灰色の森として知られる巨大な森の境界へ着いた時には、追撃は既に、数日"
+"間に及んでいた。古の物語は、そこに入るほどに勇敢な者を狩って殺す、地獄に堕ち"
+"た魂が出没する森について警告している。"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:36
+msgid ""
+"Heedless of those rumors, Arne followed them. His only worry was that his "
+"horsemen would be at disadvantage if attacked in the forest."
+msgstr ""
+"それらの噂に頓着せず、Arne は彼らを追跡した。彼の唯一の心配は、森の中で攻撃さ"
+"れれば、騎兵には不利だろうということだった。"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:68
+msgid "Fight your way through the woods before the kidnappers escape"
+msgstr "誘拐者達が逃亡する前に、木々の間の道で戦う"
+
+#. [side]: type=Elvish Rider, id=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:124
+msgid "Nil-Galion"
+msgstr "Nil-Galion"
+
+#. [side]: type=Elvish Rider, id=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:131
+msgid "Elves"
+msgstr "エルフ"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:221
+msgid "Sounds of a scuffle were heard from the forest."
+msgstr "乱闘の音が森から聞こえてきた。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:225
+msgid ""
+"Come on, men. A stroll through such lovely green woods, what could be finer?"
+msgstr ""
+"皆、ついて来い。こんなに美しい緑の森をぶらつくより良いことが他にあるか？"
+
+#. [message]: role=speaker
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:229
+msgid ""
+"It is whispered that hungry ghosts rule this forest, and kill everyone who "
+"dares to enter."
+msgstr ""
+"腹を空かせた幽霊がこの森を支配していて、敢えて足を踏み入れる者は誰でも殺す、"
+"と噂されている。"
+
+#. [message]: speaker=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:233
+msgid "You there! Halt and explain yourself."
+msgstr "そこのお前！ 立ち止まって、何者なのか説明しろ。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:237
+msgid "We're chasing after some men who kidnapped my brother!"
+msgstr "我々は弟を誘拐した者達を追っているのだ！"
+
+#. [message]: speaker=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:241
+msgid ""
+"Those men told me their prisoner had attempted to murder their master, and "
+"warned that evil men would follow him. Advance no further, or you will die."
+msgstr ""
+"その者達は私に、彼らの囚人が主人を殺そうとした、そして彼を追って邪悪な者達が"
+"来るだろうと話していた。それ以上進むな。さもなければお前は死ぬことになる。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:245
+msgid ""
+"So much for those ghost stories. Mere elves will not stop me from freeing my "
+"brother!"
+msgstr ""
+"あの幽霊の話はそんなものだろう。ただのエルフが、私が弟を解放することを止めら"
+"れはしない！"
+
+#. [message]: role=speaker
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:249
+msgid ""
+"I am glad at least that we will not have to face ghosts. But those elves "
+"will have us at a disadvantage; our horses will not maneuver well in the "
+"trees."
+msgstr ""
+"私は、少なくとも我々が幽霊に直面する必要がないことを嬉しく思う。しかし、我々"
+"はあのエルフ達より不利な立場にいるだろう。木の間では、我々の馬はうまく動くこ"
+"とが出来ない。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:253
+msgid ""
+"Bah, just stay on the paths; our spearmen and bowmen can fight in the deeper "
+"woods. We have faced and won through greater perils than those amateurs can "
+"offer."
+msgstr ""
+"ふん、まったく方針はそのままだ。我々の槍兵や弓兵は、もっと深い森の中でも戦え"
+"る。我々はあんな素人に与えられるより、もっと大きな危難に面し、勝ち抜いて来た"
+"のだ。"
+
+#. [unit]: type=Dark Adept, id=Muff Toras
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:268
+msgid "Muff Toras"
+msgstr "Muff Toras"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:316
+msgid "I see them! There they are!"
+msgstr "奴らが見える！ あそこに奴らがいるぞ！"
+
+#. [message]: speaker=Muff Toras
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:320
+msgid ""
+"Curses! If they had been an hour slower our master's reinforcements would "
+"already be here to meet us."
+msgstr ""
+"呪われろ！ もし奴らが後一時間遅ければ、ご主人様の援軍は、我らと出会うために既"
+"にここにいただろうに。"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:325
+msgid "Kill the Dark Adept before his reinforcements arrive"
+msgstr "増援隊が到着する前に暗黒僧を殺す"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:345
+msgid "Come on, men, let's catch those kidnappers!"
+msgstr "さあ、お前達、誘拐犯どもを捕まえよう！"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:356
+msgid ""
+"Hah! You have captured me, but it will avail you nothing. I sent your "
+"precious brother the mage north with half my men a day since; he will be "
+"safely locked away in our master's dungeons by now."
+msgstr ""
+"ハハ！ お前達は私を捕えた。だが、それは何の役にも立たないだろう。私は昨日、お"
+"前の大事な魔術師の弟に、部下の半分を付けて北へ送った。今ごろは、我が主の地下"
+"牢に、安全に仕舞い込まれているだろう。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:360
+msgid ""
+"My blade is at your throat. Give us the way to my brother now, or I will "
+"spill your wretched blood on the ground."
+msgstr ""
+"我が刃は、お前の喉元にある。直ちに我が弟への道を教えろ。さもなければ、お前の"
+"惨めな血が地面に流れることになるだろう。"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:363
+msgid "Sithrak"
+msgstr "Sithrak"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:364
+msgid "Eleben"
+msgstr "Eleben"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:365
+msgid "Jarlom"
+msgstr "Jarlom"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:366
+msgid "Hamik"
+msgstr "Hamik"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:369
+msgid "Akranbral"
+msgstr "Akranbral"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:370
+msgid "Drakanal"
+msgstr "Drakanal"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:371
+msgid "Xaskanat"
+msgstr "Xaskanat"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:372
+msgid "Katklagad"
+msgstr "Katklagad"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:377
+msgid ""
+"Three days ride to the northeast, in a deserted castle. The passwords to the "
+"guards are $first_password_$first_password_number and $second_password_"
+"$second_password_number|."
+msgstr ""
+"馬で北東に3日の所にある、さびれた城の中にいる。見張りの合言葉は "
+"$first_password_$first_password_number と $second_password_"
+"$second_password_number| だ。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:381
+msgid "Bind him and take him with us. If he has played us false, he will die."
+msgstr ""
+"奴を縛って一緒に連れて行こう。もし我々を騙したのなら、奴は死ぬことになるだろ"
+"う。"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:391
+msgid "Brena"
+msgstr "Brena"
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:400
+msgid ""
+"Greetings. I am Brena, a knight errant. I saw you pursuing and fighting the "
+"foul undead. Are there more of them to be destroyed?"
+msgstr ""
+"ご挨拶申し上げる。俺は、遍歴の騎士 Brena。あなた達が汚らわしいアンデッドを追"
+"跡し戦っているのを見た。滅ぼされるために、奴らはもっと沢山いるだろうか？"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:404
+msgid ""
+"Aye. We think there's a nest of them north-east of here. They've captured my "
+"brother."
+msgstr ""
+"あぁ。我々はここから北東に奴らの巣があると考えている。奴らは私の弟を捕えてい"
+"るのだ。"
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:408
+msgid ""
+"I bear a great hatred towards their kind. I will follow and fight them with "
+"you, if you permit."
+msgstr ""
+"俺は奴らの種族に深い憎しみを抱いている。あなたが許すなら、俺はあなたに従って"
+"奴らと戦うだろう。"
+
+#. [message]: type=Horseman
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:412
+msgid "He would only slow us down!"
+msgstr "彼は足手纏いになるだけです！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:416
+msgid "It is my place to decide this."
+msgstr "ここが思案のしどころだな。"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:418
+msgid "Oh, all right then. Come along with us."
+msgstr "そうか、それではわかった。 俺たちに同行してくれ。"
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:422
+msgid "Thank you. My comrades and I will help you on your noble quest."
+msgstr "礼を言う。俺と俺の仲間は、あなたの気高い探求の手助けをしよう。"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:430
+msgid "I am sorry. We have not the time to spare."
+msgstr "すまない。 俺たちには時間がないのだ。"
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:434
+msgid ""
+"Take this, then, for I see that you are on a quest. My comrades will help "
+"you whenever you call for them."
+msgstr ""
+"ならば、これを受け取ってくれ、あなたは探求の途中のようだから。あなたが呼べ"
+"ば、いつでも俺の仲間達はあなたを助けるだろう。"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:451
+msgid "You receive 70 pieces of gold!"
+msgstr "あなたは 70ゴールドを受け取る！"
+
+#. [message]: speaker=Muff Toras
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:472
+msgid "My reinforcements are here!"
+msgstr "俺の増援隊はここだ！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:476
+msgid "He escaped us..."
+msgstr "奴は俺たちから逃亡した..."
+
+#. [message]: speaker=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:487
+msgid ""
+"Foolish human, you have killed me but you will not catch the undead in time. "
+"I have fulfilled my contract, and will be reanimated soon to become a lord "
+"of their armies."
+msgstr ""
+"愚かな人間よ、お前は私を殺したが、お前は時間内にアンデッドを捕える事は出来な"
+"いだろう。俺は契約を果たした。すぐにあの軍隊の主として蘇るのだ。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:495
+msgid "Follow their back trail!"
+msgstr "奴らの後を追え！"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:500
+msgid "Catch the kidnappers"
+msgstr "誘拐者達を捕える"
+
+#. [terrain_type]: id=magic_irongate
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:6
+msgid "Irongate"
+msgstr "鉄の門"
+
+#. [scenario]: id=3_Guarded_Castle
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:16
+msgid "Guarded Castle"
+msgstr "防御された城"
+
+#. [side]: type=Dark Sorcerer, id=Rotharik
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:76
+msgid "Rotharik"
+msgstr "Rotharik"
+
+#. [unit]: id=Guard_leader, type=Assassin
+#. [unit]: role=Guard, type=Bandit
+#. [unit]: id=Guard2_leader, type=Rogue
+#. [unit]: role=Guard2, type=Bandit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:98
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:106
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:115
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:123
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:385
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:393
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:401
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:410
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:501
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:509
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:517
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:526
+msgid "Guard"
+msgstr "見張り"
+
+#. [unit]: id=Knago-Brek, type=Orcish Warrior
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:141
+msgid "Knago-Brek"
+msgstr "Knago-Brek"
+
+#. [unit]: type=Orcish Grunt
+#. [unit]: type=Orcish Warrior
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:150
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:158
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:167
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:175
+msgid "Castle Guard"
+msgstr "城の見張り"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:189
+msgid "Rescue Bjarn"
+msgstr "Bjarnを助ける"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:288
+msgid ""
+"Arne's men arrived at the castle and were immediately challenged by some "
+"guards."
+msgstr "Arneの兵士達が城に着くと、すぐに見張りに呼び止められた。"
+
+#. [message]: speaker=Guard_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:292
+msgid "Halt! Friend or foe? Give the password."
+msgstr "立ち止まれ！仲間か敵か？ 合言葉を言え。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:297
+msgid "The password is"
+msgstr "合言葉は"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:299
+msgid "$first_password_1|!"
+msgstr "$first_password_1|！"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:305
+msgid "$first_password_2|!"
+msgstr "$first_password_2|！"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:311
+msgid "$first_password_3|!"
+msgstr "$first_password_3|！"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:317
+msgid "$first_password_4|!"
+msgstr "$first_password_4|！"
+
+#. [message]: speaker=Guard_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:333
+msgid "Pass, friend."
+msgstr "仲間よ、通りたまえ。"
+
+#. [message]: speaker=Guard_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:351
+msgid "Wrong! Die!"
+msgstr "間違いだ！死ね！"
+
+#. [message]: speaker=Knago-Brek
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:365
+msgid ""
+"Haha! We not kill people for long time. Weapon wants blood. We now kill "
+"humans!!"
+msgstr ""
+"ハッハッ！ 俺たちは長い間人間を殺していない。武器が血を欲しがっている。今こそ"
+"俺たちは人間を殺す！！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:369
+msgid ""
+"My sword-arm has a say in who will do the dying. Come on, men, let's kill "
+"some orcs."
+msgstr "誰が死ぬことになるかは私の右腕で決める。お前達、オークどもを殺すのだ。"
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:418
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:534
+msgid "Are you our relief arriving? Does this mean we get to leave here now?"
+msgstr ""
+"お前達は到着することになっている交代か？ これは俺たちが今ここを去ってもよいと"
+"いうことか？"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:422
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:538
+msgid "Um, yes. Fine. You can go."
+msgstr "うむ、そうだ。よいだろう。行ってよいぞ。"
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:426
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:542
+msgid "Um, you're supposed to give the password."
+msgstr "うむ、お前達は合言葉を伝える事になっているな。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:430
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:546
+msgid "Oh, of course. I had nearly forgotten."
+msgstr "あぁ、もちろんだとも。 もう少しで忘れるところだった。"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:432
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:548
+msgid "$second_password_1|!"
+msgstr "$second_password_1|！"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:438
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:554
+msgid "$second_password_2|!"
+msgstr "$second_password_2|！"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:444
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:560
+msgid "$second_password_3|!"
+msgstr "$second_password_3|！"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:450
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:566
+msgid "$second_password_4|!"
+msgstr "$second_password_4|！"
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:465
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:581
+msgid "Thanks! Irritating little formality, isn't it?"
+msgstr "ありがとう！ 少々形式的でいらいらさせたかな？"
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:478
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:594
+msgid "That's the wrong password! These aren't our relief! Get them!"
+msgstr "合言葉が間違いだ！ こいつらは交代ではない！ 奴らを捕らえろ！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:484
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:600
+msgid ""
+"I think I should better support my men at the front to make sure we can free "
+"my brother."
+msgstr ""
+"俺が思うに、確実に弟を解放出来るようにするために、俺は前で俺の仲間を支援する"
+"のがいいだろう。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:613
+msgid "Nooo! This is the end..."
+msgstr "だめだ！ これで終わりか..."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:621
+msgid "There's a key in his robes."
+msgstr "彼のローブの中に鍵がある。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:625
+msgid ""
+"That may well be the key to the cell they're holding Bjarn in! I will take "
+"it."
+msgstr "多分それは、奴らがBjarnを捕えている独房の鍵だろう！ 俺が鍵を持とう。"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:631
+msgid "Move Arne to the cell with his brother to free him"
+msgstr "弟を解放するために独房へArneを移動させる"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:663
+msgid "Look what I have found in here! I can count a hundred pieces of gold."
+msgstr "俺がこの中で見つけたものを見てみろ！ 100ゴールドはあるぞ。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:676
+msgid "Look what I have found in here! I can count fifty pieces of gold."
+msgstr "俺がこの中で見つけたものを見てみろ！ 50ゴールドはあるぞ。"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:724
+msgid "I found Bjarn. He is in this cell."
+msgstr "Bjarnを見つけた。彼はこの独房の中だ。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:734
+msgid "Good to see you, Arne. Now can you get me out of this dungeon, please?"
+msgstr "Arne、会えてよかった。今すぐこの地下牢から出してもらえるか？"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:740
+msgid "You must be one of Arne's men. Please help me get out of this dungeon."
+msgstr "あなたはArneの仲間の一人ですね。この地下牢から出るのを助けて下さい。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:746
+msgid ""
+"The accursed dark sorcerer Rotharik has imprisoned me behind this magically "
+"enhanced iron gate. It can only be opened with the correct key. You must get "
+"it from him to free me."
+msgstr ""
+"呪われた黒魔術師のRotharikが、私をこの魔法で強化された鉄の門の背後に閉じ込め"
+"たのだ。正しい鍵だけが開ける事が出来る。私を解放するためには、奴から鍵を取っ"
+"てこなければなりません。"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:757
+msgid "Kill the dark sorcerer to get the cell key"
+msgstr "独房の鍵を手に入れるために黒魔術師を殺す"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:797
+msgid "Thank you for saving me. I had almost given up hope you would free me."
+msgstr ""
+"助けてくれてありがとう。 あなた達に逃がしてもらえるのではという望みをほとんど"
+"あきらめかけていました。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:801
+msgid ""
+"Oh it was nothing, a few elves, one or two dark sorcerers, a bunch of orcs "
+"and some undead. Really just a day's work for us mercenaries."
+msgstr ""
+"おお、何でもなかったぞ。数人のエルフ、1人か2人の黒魔術師、オークの一団と何匹"
+"かのアンデッド。実際、我々傭兵にはほんの1日の仕事だ。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:805
+msgid "Thank you for coming to my aid. Let us return to the village."
+msgstr "助けに来てくれてありがとう。村へ帰還しましょう。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:831
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:244
+msgid "Everything is lost now that I am dead..."
+msgstr "私が死んだ今、全ては失われた..."
+
+#. [message]: speaker=Rotharik
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:842
+msgid "You are too late! Your brother is already dead! Muhahahaha..."
+msgstr "お前は遅すぎた！ お前の弟は既に死んだ！ムッハッハッハッハッ..."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:846
+msgid "Argh!!!"
+msgstr "アー！！！"
+
+#. [scenario]: id=4_Return_To_The_Village
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:4
+msgid "Return to the Village"
+msgstr "村への帰還"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:33
+msgid "Find out what is happening in the village"
+msgstr "村で何が起っているのかを見つける"
+
+#. [objective]: condition=lose
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:41
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:193
+msgid "Death of Bjarn"
+msgstr "Bjarnの死"
+
+#. [side]: type=Orcish Warlord, id=Tairach
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:82
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:51
+msgid "Tairach"
+msgstr "Tairach"
+
+#. [side]: type=Longbowman, id=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:110
+msgid "Councillor Hoban"
+msgstr "顧問官 Hoban"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:141
+msgid ""
+"There. Your village is just across those hills, and already I see men coming "
+"to greet us!"
+msgstr ""
+"あそこだ。お前の村はこの丘を超えたところだ。そして、すでに俺たちを歓迎するた"
+"めに男達が来るのが見える。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:145
+msgid ""
+"No, they are fleeing from something. We must find out what is happening over "
+"there!"
+msgstr ""
+"いや、彼らは何かから逃げている。俺たちはあそこで何が起っているのか調査しなけ"
+"ればならないぞ！"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:149
+msgid "Men! Ready your weapons!"
+msgstr "お前達！ 武器を構えろ！"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:153
+msgid ""
+"We should go there and talk to Counselor Hoban. Maybe he knows what is going "
+"on here."
+msgstr ""
+"あそこに行って、顧問官のHoban と話すべきだ。 たぶん彼はここで何が起きているか"
+"知っているだろう。"
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:164
+msgid "I am glad to see you returned."
+msgstr "あなたが再び戻って来てくれて嬉しく思う。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:168
+msgid "No gladder than I am to be here. But what has happened to Maghre?"
+msgstr "ここに居られるより嬉しいことは無い。しかし、Maghre に何があったのだ？"
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:172
+msgid ""
+"Soon after you departed we were beset by orcs. With half the men of Maghre "
+"gone, we could not stop them."
+msgstr ""
+"あなたが出発したすぐ後、私達はオークに包囲されました。Maghre の男たちの半数が"
+"いなくなったので、私達は奴らを止められませんでした。"
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:176
+msgid ""
+"The orcish warlord aims to enslave us. We will not be able to hold out for "
+"much longer."
+msgstr ""
+"オークの将軍は私たちを奴隷にするのが目的です。 私達はもうこれ以上長くはもたな"
+"いでしょう。"
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:180
+msgid ""
+"Have a care, his men are fell fighters and have killed many. Very few remain "
+"who can bear arms, but I will send them to aid you in battle."
+msgstr ""
+"注意して下さい。 奴の兵士達は凶暴な戦士で、多くの者を殺しました。 武器を手に"
+"出来る者はほんのわずかしか残っていませんが、戦闘であなた達を助けるために彼等"
+"を送りましょう。"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:185
+msgid "Slay the Orcish Warlord to free the village"
+msgstr "村を解放するためにオークの将軍を殺害する"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:207
+msgid "Finally the warlord is killed. Now you can go back to Maghre."
+msgstr "ついにオークは殺された。今やお前達はMaghreへ戻ることができる。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:211
+msgid ""
+"So much has been destroyed. It will be difficult to repair all that the orcs "
+"and undead have wrecked. And they could come again."
+msgstr ""
+"とても多くのものが破壊された。オークとアンデッドが破壊した物を復旧するのには"
+"苦労するだろう。そして、奴らはまた来るかもしれない。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:215
+msgid ""
+"I must go back to earning my living. But we have our amulets, little "
+"brother. If you are beset again, I will come."
+msgstr ""
+"私は生活費を稼ぐために戻らなければならない。しかし、我々にはお守りがある、弟"
+"よ。もしお前がまた困ったなら、私は来るつもりだ。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:230
+msgid "It is over, I am vanquished."
+msgstr "終わりだ、私は敗北した。"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:255
+msgid "I don't think we can rescue anyone from these villages. It is too late."
+msgstr "この村々から誰も救出できるとは思えない。 遅すぎた。"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:259
+msgid "I was too weak to protect these people. Oh why did this happen to me?!?"
+msgstr ""
+"私はこの人々を守るには弱すぎた。 ああ、なぜこんなことになったのだ？！？"
+
+#. [scenario]: id=epilog
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:4
+msgid "A Tale of Two Brothers - Epilogue"
+msgstr "２人の兄弟の物語 ─ エピローグ"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:18
+msgid ""
+"It took years to rebuild the village and restore the surrounding farms. The "
+"people of Maghre had to work very hard, but felt better knowing Arne's men "
+"would be their firm allies in troubled times."
+msgstr ""
+"村を再建し、周囲の農場を元に戻すには何年もかかった。Maghre の人々は大変熱心に"
+"働く必要があったが、物騒な時代において Arne の部下達が確固たる同盟者であるこ"
+"とを知って気分がよくなった。"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:22
+msgid ""
+"Arne and his men left the village assured that it would be well guided by "
+"Bjarn. On their journeys they faced many challenges and battles. Some tales "
+"even mention Arne's name together with that of the famous elvish lord "
+"Kalenz, but this is a different story..."
+msgstr ""
+"Arne とその部下達は、Bjarn によってうまく導かれるだろうことを確信し、村を離れ"
+"た。彼らはその道程において、多くの難関と戦いに直面した。幾つかの物語では、"
+"Arne の名を有名なエルフの貴族 Kalenz のそれと共に言及してさえいるが、これはま"
+"た別の物語である……"
+
+#~ msgid ""
+#~ "In a remote part of Wesnoth, people lived their lives working hard and "
+#~ "caring for each other, but not knowing much about the world outside. But "
+#~ "there came a day when their peaceful world was shattered, as an evil mage "
+#~ "came to the region, spreading havoc and despair."
+#~ msgstr ""
+#~ "Wesnothの人里離れた地域で、人々は懸命に働き互いを気づかいながら、しかし外"
+#~ "の世界についてはさほど知らずに生活を送っていた。しかし、邪悪な魔法使いがそ"
+#~ "の地域にやって来て、破壊と絶望をくり広げ、彼らの平和な世界が粉砕される日が"
+#~ "来た。"
+
+#~ msgid ""
+#~ "Bjarn, the local mage of the village, was the man who saw best how to "
+#~ "deal with this threat. He asked the help of his brother Arne, leader of a "
+#~ "mercenary band of horsemen, and outfitted several of the villagers with "
+#~ "gear from the armory."
+#~ msgstr ""
+#~ "村の魔法使いである Bjarn は、この脅しに対処する最もよい方法を見つけた男で"
+#~ "あった。彼は、騎馬傭兵隊のリーダーである兄のArneの助けを求め、兵器庫の装備"
+#~ "で数人の村人に身支度をさせた。"
+
+#~ msgid "'ello there, Bjarn. So, what's the big fuss?"
+#~ msgstr "やあ、Bjarn。それで、この大騒ぎは一体何なんだ？"
+
+#~ msgid ""
+#~ "Mordak, an evil mage, threatens our lives and livelihoods. He is "
+#~ "terrorizing our countryside. I've already called the village to arms and "
+#~ "now it's up to you to lead them. You'll find him about two days' ride "
+#~ "north of here."
+#~ msgstr ""
+#~ "Mordak と言う邪悪な魔法使いが我々の命と暮らしを脅かしている。彼は我々の地"
+#~ "方を恐怖で支配している。私はすでに村人に武装を命じた。そして今、彼らの指揮"
+#~ "はあなた次第だ。ここから北に馬で2日ほどの所で奴を見つけられるだろう。"
+
+#~ msgid ""
+#~ "Very well. We will go there and slay this source of evil. Charge, men!"
+#~ msgstr ""
+#~ "承知した。俺たちはそこに行って、邪悪の根源を倒してやろう。構えろ、男達よ！"
+
+#~ msgid ""
+#~ "I will attempt to sneak through the forest. If I can slay the evil one "
+#~ "while he is off his guard, the battle will be over in one stroke!"
+#~ msgstr ""
+#~ "私は森を抜けて忍び込んでみよう。邪悪な者が護衛から離れている間に殺害できれ"
+#~ "ば、この戦いは一撃で終わるだろう！"
+
+#~ msgid ""
+#~ "Bjarn should have been in position by now. I wonder if anything's "
+#~ "happened to him?"
+#~ msgstr ""
+#~ "Bjarnは今頃には位置についていなければならないはずだ。彼に何か起きたのだろ"
+#~ "うか？"
+
+#~ msgid ""
+#~ "This is worrying. What's happened to Bjarn? I suppose we must slay the "
+#~ "dark sorcerer ourselves."
+#~ msgstr ""
+#~ "これは心配だ。Bjarnに何が起こったのだ？ 我々だけで黒魔術師を倒さなければな"
+#~ "らないだろう。"
+
+#~ msgid "Good work, men. Now, where is Bjarn?"
+#~ msgstr "お前達、よくやった。さて、Bjarnはどこだ？"
+
+#~ msgid "Nothing more to be had from him."
+#~ msgstr "彼に何かあったに違いない。"
+
+#~ msgid ""
+#~ "Sir, he's been kidnapped! I just saw some men running off with him. They "
+#~ "looked like friends of this one."
+#~ msgstr ""
+#~ "彼は誘拐されました！ たった今、彼と一緒に走り去って行く何人かの男達を見ま"
+#~ "した。彼らはこいつの仲間のようでした。"
+
+#~ msgid "Damn! I suppose we have to go after him, then."
+#~ msgstr "くそっ！ ならば、我々は彼の後を追わねばならぬ。"
+
+#~ msgid ""
+#~ "Ha, so you thought to send a mage around and stab me in the back? Well, I "
+#~ "have news for you. We've kidnapped him!"
+#~ msgstr ""
+#~ "ほう、それでお前は背後から私を襲わせようと魔法使いを送ろうと考えたのか？\n"
+#~ "そうだ、お前に良い知らせがある。俺たちは奴をさらってやったぜ！"
+
+#~ msgid ""
+#~ "What? Bjarn kidnapped? And the evil mage still ravages the land? Noooo!"
+#~ msgstr ""
+#~ "何？ Bjarnがさらわれた？ そして黒魔術師はまだこの土地を破壊するだと？ だめ"
+#~ "だ！"
+
+#~ msgid ""
+#~ "The kidnappers fled north through the forest, and Arne made to follow "
+#~ "them, although his horsemen would be at a disadvantage."
+#~ msgstr ""
+#~ "誘拐者達は森を抜けて北に逃亡した。騎兵達には不利ではあったが、Arneは何とか"
+#~ "彼らの後をついていった。"
+
+#~ msgid "Come on men. A bracing walk in the woods never hurt anyone, did it?"
+#~ msgstr "皆、ついて来い。森林浴で怪我した者はいないだろう？"
+
+#~ msgid ""
+#~ "Those men had some great arguments persuading me to not allow you to "
+#~ "enter this forest. Any further, and you will die."
+#~ msgstr ""
+#~ "お前達は森に入ることは許可されていないという男達の議論には説得力があった。"
+#~ "少しでも進めば、お前達は死ぬだろう。"
+
+#~ msgid "A glorious combat at last, against mounted enemies!"
+#~ msgstr "ついに栄誉ある、馬に乗った敵との戦いだ！"
+
+#~ msgid "Curses! I hope the reinforcements get here so I can escape soon."
+#~ msgstr "いまいましい！ 増援隊がここに来れば、私はすぐに逃げられるのだが。"
+
+#~ msgid ""
+#~ "Hah! You got me alright, but what does that help? No harm telling you "
+#~ "now, I suppose. Your precious mage is safely locked away in our dungeons. "
+#~ "I was set up to be a decoy."
+#~ msgstr ""
+#~ "ほう！ お前は確かに私を倒した。だがそれでどうなる？ もう教えてもいいだろ"
+#~ "う。 お前の大切な魔法使いは私たちの土牢で無事に監禁されている。私は囮とし"
+#~ "て置かれたのだ。"
+
+#~ msgid ""
+#~ "Nooo! Tricked again. Tell us where he is and we shall spare your "
+#~ "miserable life."
+#~ msgstr ""
+#~ "そんな！ またも騙されたか。 彼がどこにいるか教えれば、お前のみじめな命は助"
+#~ "けてやろう。"
+
+#~ msgid "Thank you. Leave him, men, we ride East."
+#~ msgstr "ありがとう。 お前達、彼は放っておくのだ。北東に進むぞ。"
+
+#~ msgid ""
+#~ "Greetings, I am Brena. I saw you fighting the foul undead. I like nothing "
+#~ "better than smashing those foul skeletons and their ilk. Though I came "
+#~ "too late to help in this fight, I would like to aid you in your "
+#~ "forthcoming endeavors."
+#~ msgstr ""
+#~ "ごきげんよう、俺は Brena。 汚らわしいアンデッドと戦っているお前達を見た。"
+#~ "俺にはこの汚らわしい骸骨どもやその同類を倒すより好きなことはない。この戦い"
+#~ "を助けるのには遅すぎたが、これからの努力を手伝わせていただきたい。"
+
+#~ msgid ""
+#~ "Hurry, we have to track them down. Maybe we can still get them. They have "
+#~ "to be in the north!"
+#~ msgstr ""
+#~ "急げ、我々は奴らを追跡しなければならぬ。おそらくまだ捕らえることはできるだ"
+#~ "ろう。奴らは北にいるにちがいない！"
+
+#~ msgid "Hurry to the north and stop the kidnappers"
+#~ msgstr "北へ急ぎ、誘拐者達を止める"
+
+#~ msgid "I think your village is protected well, though."
+#~ msgstr "お前の村はよく守られていると思うが。"
+
+#~ msgid "So am I. But what is happening to our village?"
+#~ msgstr "私もですよ。 しかし私達の村で何が起っているのですか？"
+
+#~ msgid ""
+#~ "In the time you have been away a looting band of orcs took over this "
+#~ "region. There was noone here to stop them."
+#~ msgstr ""
+#~ "あなたが遠くに行っている間に、オークの略奪団がこの地域を乗っ取りました。こ"
+#~ "こには彼らを止める者は誰もいませんでした。"
+
+#~ msgid ""
+#~ "I have to leave you now. My men and I are needed by others, too. But "
+#~ "should you ever face another grim foe, send me a messenger. I'll come as "
+#~ "fast as I can, little brother."
+#~ msgstr ""
+#~ "今や私は去らねばならない。俺と仲間達は他の者達にも必要とされている。だが、"
+#~ "もしまた恐しい敵と向かい合うことになったなら、俺に使いを送るがよい。俺に出"
+#~ "来るだけの速さで来よう、弟よ。"
+
+#~ msgid "Alrek!"
+#~ msgstr "Alrek!"
+
+#~ msgid "Argol!"
+#~ msgstr "Argol!"
+
+#~ msgid "Oh dear, that's wrong. Any last words?"
+#~ msgstr "おやおや、それは間違いだ。 最期の言葉はあるか？"
+
+#~ msgid "Elbrethil."
+#~ msgstr "Elbrethil"
+
+#~ msgid "Toras."
+#~ msgstr "Toras"
+
+#~ msgid "Wrong! So you thought to trick us into deserting our posts? Die!"
+#~ msgstr ""
+#~ "間違いだ！ つまり、お前らは持ち場を離れるよう俺たちを騙そうと考えたわけ"
+#~ "か？ 死ね！"
+
+#~ msgid "Villager"
+#~ msgstr "村人"
+
+#~ msgid "The Black Mage"
+#~ msgstr "黒魔術師"
+
+#~ msgid ""
+#~ "After a short journey the small band of troops is close to the hideout of "
+#~ "the evil mage."
+#~ msgstr "短い旅の後、その小さな軍隊は邪悪な魔法使いの隠れ家に迫る。"

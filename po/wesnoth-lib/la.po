@@ -1,0 +1,3049 @@
+# Latin translations for Battle for Wesnoth package.
+# Copyright (C) 2009 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package
+#
+# Current Translators:
+#   Michael Babich (Aethaeryn) <michaelbabich7@gmail.com> - Maintainer
+#   Thomas Hockings (Deusite) <elprofesh@gmail.com>
+#
+# Former Translators:
+#   Mark Polo (mpolo) <markpolo@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Wesnoth 1.8\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2011-05-12 12:25+0200\n"
+"PO-Revision-Date: 2010-04-30 14:18-0500\n"
+"Last-Translator: Michael Babich (Aethaeryn) <michaelbabich7@gmail.com>\n"
+"Language-Team: Latin\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Latin\n"
+
+#. [terrain_type]: id=off_map
+#: data/core/terrain.cfg:13
+msgid "None"
+msgstr "Nullus"
+
+#. [toggle_button]: id=shroud
+#. [terrain_type]: id=shroud
+#: data/core/terrain.cfg:22 data/gui/default/window/mp_create_game.cfg:471
+msgid "Shroud"
+msgstr "Absconsus"
+
+#. [terrain_type]: id=fog
+#: data/core/terrain.cfg:31
+msgid "Fog"
+msgstr "Nebula"
+
+#. [terrain_type]: id=ice
+#: data/core/terrain.cfg:43
+msgid "Ice"
+msgstr "Crystallus"
+
+#. [terrain_type]: id=snow
+#: data/core/terrain.cfg:53
+msgid "Snow"
+msgstr "Nix"
+
+#. [terrain_type]: id=bridge
+#. [terrain_type]: id=bridgediag1
+#. [terrain_type]: id=bridgediag2
+#. [terrain_type]: id=bridgechasm
+#. [terrain_type]: id=bridgechasmdiag1
+#. [terrain_type]: id=bridgechasmdiag2
+#. [terrain_type]: id=bridgelava
+#. [terrain_type]: id=bridgelavadiag1
+#. [terrain_type]: id=bridglavadiag2
+#: data/core/terrain.cfg:66 data/core/terrain.cfg:77 data/core/terrain.cfg:88
+#: data/core/terrain.cfg:101 data/core/terrain.cfg:110
+#: data/core/terrain.cfg:120 data/core/terrain.cfg:132
+#: data/core/terrain.cfg:142 data/core/terrain.cfg:153
+msgid "Bridge"
+msgstr "Pons"
+
+#. [terrain_type]: id=encampment
+#: data/core/terrain.cfg:168
+msgid "Encampment"
+msgstr "Castra"
+
+#. [terrain_type]: id=orcish_fort
+#: data/core/terrain.cfg:179
+msgid "Fort"
+msgstr "Burgus"
+
+#. [terrain_type]: id=castle
+#. [terrain_type]: id=elven_castle
+#. [terrain_type]: id=dwarven_castle
+#. [terrain_type]: id=castle_overlay
+#: data/core/terrain.cfg:190 data/core/terrain.cfg:200
+#: data/core/terrain.cfg:211 data/core/terrain.cfg:378
+msgid "Castle"
+msgstr "Castellum"
+
+#. [terrain_type]: id=ruin
+#: data/core/terrain.cfg:222
+#, fuzzy
+msgid "Ruin"
+msgstr "Ruina"
+
+#. [terrain_type]: id=sunkenruin
+#: data/core/terrain.cfg:233
+#, fuzzy
+msgid "Sunken Ruin"
+msgstr "Ruina Demersa"
+
+#. [terrain_type]: id=swampruin
+#: data/core/terrain.cfg:245
+#, fuzzy
+msgid "Swamp Ruin"
+msgstr "Ruina Paludinis"
+
+#. [terrain_type]: id=encampment_keep
+#. [terrain_type]: id=orcish_keep
+#. [terrain_type]: id=human_keep
+#. [terrain_type]: id=elven_keep
+#. [terrain_type]: id=dwarven_keep
+#. [terrain_type]: id=ruined_keep
+#. [terrain_type]: id=sunken_keep
+#. [terrain_type]: id=swamp_keep
+#. [terrain_type]: id=keep_overlay
+#: data/core/terrain.cfg:261 data/core/terrain.cfg:274
+#: data/core/terrain.cfg:287 data/core/terrain.cfg:300
+#: data/core/terrain.cfg:313 data/core/terrain.cfg:326
+#: data/core/terrain.cfg:339 data/core/terrain.cfg:352
+#: data/core/terrain.cfg:366
+msgid "Keep"
+msgstr "Arx"
+
+#. [terrain_type]: id=encampment_keep
+#: data/core/terrain.cfg:262
+msgid "Encampment Keep"
+msgstr "Arx Castrorum"
+
+#. [terrain_type]: id=orcish_keep
+#: data/core/terrain.cfg:275
+msgid "Fort Keep"
+msgstr "Arx Burgi"
+
+#. [terrain_type]: id=human_keep
+#. [terrain_type]: id=dwarven_keep
+#. [terrain_type]: id=swamp_keep
+#: data/core/terrain.cfg:288 data/core/terrain.cfg:314
+#: data/core/terrain.cfg:353
+msgid "Castle Keep"
+msgstr "Arx Castelli"
+
+#. [terrain_type]: id=elven_keep
+#: data/core/terrain.cfg:301
+msgid "Elven Keep"
+msgstr "Arx Dryadalum"
+
+#. [terrain_type]: id=ruined_keep
+#: data/core/terrain.cfg:327
+msgid "Ruined Castle Keep"
+msgstr "Arx Castelli Rutus"
+
+#. [terrain_type]: id=sunken_keep
+#: data/core/terrain.cfg:340
+msgid "Sunken Castle Keep"
+msgstr "Arx Castelli Summersus"
+
+#. [terrain_type]: id=crater
+#: data/core/terrain.cfg:393
+msgid "Crater"
+msgstr "Crater"
+
+#. [terrain_type]: id=desert
+#: data/core/terrain.cfg:403
+msgid "Desert"
+msgstr "Desertum"
+
+#. [terrain_type]: id=sand_rubble
+#: data/core/terrain.cfg:413
+msgid "Rubble"
+msgstr "Congeries"
+
+#. [terrain_type]: id=sand
+#: data/core/terrain.cfg:424
+msgid "Sand"
+msgstr "Harena"
+
+#. [terrain_type]: id=oasis
+#: data/core/terrain.cfg:432
+msgid "Oasis"
+msgstr "Oasis"
+
+#. [terrain_type]: id=snow_forest
+#. [terrain_type]: id=deciduous_forest_winter_snow
+#. [terrain_type]: id=mixed_forest_winter_snow
+#: data/core/terrain.cfg:447 data/core/terrain.cfg:522
+#: data/core/terrain.cfg:567
+msgid "Snow Forest"
+msgstr "Silva Nivea"
+
+#. [terrain_type]: id=snow_forest
+#: data/core/terrain.cfg:448
+msgid "Snowy Pine Forest"
+msgstr "Silva Nivea Pini"
+
+#. [terrain_type]: id=great_tree
+#: data/core/terrain.cfg:459
+msgid "Great Tree"
+msgstr "Arbor Magnus"
+
+#. [terrain_type]: id=forest
+#. [terrain_type]: id=deciduous_forest_summer
+#. [terrain_type]: id=deciduous_forest_fall
+#. [terrain_type]: id=deciduous_forest_winter
+#. [terrain_type]: id=mixed_forest_summer
+#. [terrain_type]: id=mixed_forest_fall
+#. [terrain_type]: id=mixed_forest_winter
+#: data/core/terrain.cfg:469 data/core/terrain.cfg:489
+#: data/core/terrain.cfg:500 data/core/terrain.cfg:511
+#: data/core/terrain.cfg:534 data/core/terrain.cfg:545
+#: data/core/terrain.cfg:556
+msgid "Forest"
+msgstr "Silva"
+
+#. [terrain_type]: id=forest
+#: data/core/terrain.cfg:470
+msgid "Pine Forest"
+msgstr "Silva Pini"
+
+#. [terrain_type]: id=tropical_forest
+#: data/core/terrain.cfg:479
+#, fuzzy
+msgid "Tropical Forest"
+msgstr "Silva Tropica"
+
+#. [terrain_type]: id=deciduous_forest_summer
+#: data/core/terrain.cfg:490
+msgid "Summer Deciduous Forest"
+msgstr "Silva Aestiva Decidua"
+
+#. [terrain_type]: id=deciduous_forest_fall
+#: data/core/terrain.cfg:501
+msgid "Fall Deciduous Forest"
+msgstr "Silva Autumna Decidua"
+
+#. [terrain_type]: id=deciduous_forest_winter
+#: data/core/terrain.cfg:512
+msgid "Winter Deciduous Forest"
+msgstr "Silva Hiberna Decidua"
+
+#. [terrain_type]: id=deciduous_forest_winter_snow
+#: data/core/terrain.cfg:523
+msgid "Snowy Deciduous Forest"
+msgstr "Silva Nivosa Decidua"
+
+#. [terrain_type]: id=mixed_forest_summer
+#: data/core/terrain.cfg:535
+msgid "Summer Mixed Forest"
+msgstr "Multigener Silvae Aestivae"
+
+#. [terrain_type]: id=mixed_forest_fall
+#: data/core/terrain.cfg:546
+msgid "Fall Mixed Forest"
+msgstr "Multigener Silvae Autumnae"
+
+#. [terrain_type]: id=mixed_forest_winter
+#: data/core/terrain.cfg:557
+msgid "Winter Mixed Forest"
+msgstr "Multigener Silvae Hibernae"
+
+#. [terrain_type]: id=mixed_forest_winter_snow
+#: data/core/terrain.cfg:568
+msgid "Snowy Mixed Forest"
+msgstr "Multigener Silvae Nivosae"
+
+#. [terrain_type]: id=forested_hills
+#. [terrain_type]: id=deciduous_forest_summer_hills
+#. [terrain_type]: id=deciduous_forest_fall_hills
+#. [terrain_type]: id=deciduous_forest_winter_hills
+#. [terrain_type]: id=mixed_forest_summer_hills
+#. [terrain_type]: id=mixed_forest_fall_hills
+#. [terrain_type]: id=mixed_forest_winter_hills
+#: data/core/terrain.cfg:583 data/core/terrain.cfg:603
+#: data/core/terrain.cfg:614 data/core/terrain.cfg:625
+#: data/core/terrain.cfg:647 data/core/terrain.cfg:658
+#: data/core/terrain.cfg:668
+msgid "Forested Hills"
+msgstr "Colles Silvestes"
+
+#. [terrain_type]: id=forested_snow_hills
+#. [terrain_type]: id=deciduous_forest_winter_snow_hills
+#. [terrain_type]: id=mixed_forest_winter_snow_hills
+#: data/core/terrain.cfg:593 data/core/terrain.cfg:636
+#: data/core/terrain.cfg:679
+msgid "Forested Snow Hills"
+msgstr "Colles Silvestes Nivosi"
+
+#. [terrain_type]: id=deciduous_forest_summer_hills
+#: data/core/terrain.cfg:604
+msgid "Summer Deciduous Forested Hills"
+msgstr "Colles Silvestes Aestivi Decidui"
+
+#. [terrain_type]: id=deciduous_forest_fall_hills
+#: data/core/terrain.cfg:615
+msgid "Fall Deciduous Forested Hills"
+msgstr "Colles Silvestes Autumni Decidui"
+
+#. [terrain_type]: id=deciduous_forest_winter_hills
+#: data/core/terrain.cfg:626
+msgid "Winter Deciduous Forested Hills"
+msgstr "Colles Silvestes Hiberni Decidui"
+
+#. [terrain_type]: id=deciduous_forest_winter_snow_hills
+#: data/core/terrain.cfg:637
+msgid "Snowy Deciduous Forested Hills"
+msgstr "Colles Silvestes Nivosi Decidui"
+
+#. [terrain_type]: id=mixed_forest_summer_hills
+#: data/core/terrain.cfg:648
+msgid "Summer Mixed Forested Hills"
+msgstr "Colles Silvestium Aestivorum Multigenes"
+
+#. [terrain_type]: id=mixed_forest_winter_hills
+#: data/core/terrain.cfg:669
+msgid "Winter Mixed Forested Hills"
+msgstr "Colles Silvestium Hibernarum Multigenes"
+
+#. [terrain_type]: id=mixed_forest_winter_snow_hills
+#: data/core/terrain.cfg:680
+msgid "Snowy Mixed Forested Hills"
+msgstr "Colles Silvestium Nivosorum Multigenes"
+
+#. [terrain_type]: id=grassland
+#. [terrain_type]: id=grassland_flowers
+#. [terrain_type]: id=windmill
+#: data/core/terrain.cfg:694 data/core/terrain.cfg:703
+#: data/core/terrain.cfg:712
+msgid "Grassland"
+msgstr "Cespes"
+
+#. [terrain_type]: id=savanna
+#: data/core/terrain.cfg:721
+msgid "Savanna"
+msgstr "Cespes Ferus"
+
+#. [terrain_type]: id=snow_hills
+#: data/core/terrain.cfg:734
+msgid "Snow Hills"
+msgstr "Colles Nivales"
+
+#. [terrain_type]: id=desert_hills
+#: data/core/terrain.cfg:744
+#, fuzzy
+msgid "Dunes"
+msgstr "Tumuli"
+
+#. [terrain_type]: id=hills
+#: data/core/terrain.cfg:754
+msgid "Hills"
+msgstr "Colles"
+
+#. [terrain_type]: id=desert_mountains
+#. [terrain_type]: id=mountains
+#. [terrain_type]: id=snow_mountains
+#: data/core/terrain.cfg:766 data/core/terrain.cfg:776
+#: data/core/terrain.cfg:784
+msgid "Mountains"
+msgstr "Montes"
+
+#. [terrain_type]: id=desert_mountains
+#: data/core/terrain.cfg:767
+msgid "Desert Mountains"
+msgstr "Montes Deserti"
+
+#. [terrain_type]: id=snow_mountains
+#: data/core/terrain.cfg:785
+msgid "Snowy Mountains"
+msgstr "Montes Niveus"
+
+#. [terrain_type]: id=canyon
+#: data/core/terrain.cfg:799
+msgid "Chasm"
+msgstr "Profundum"
+
+#. [terrain_type]: id=lava_chasm
+#: data/core/terrain.cfg:808
+msgid "Lava chasm"
+msgstr "Lava in profundo"
+
+#. [terrain_type]: id=lava
+#: data/core/terrain.cfg:818
+msgid "Lava"
+msgstr "Lava"
+
+#. [terrain_type]: id=road
+#. [terrain_type]: id=stone_path
+#: data/core/terrain.cfg:832 data/core/terrain.cfg:850
+#: data/core/terrain.cfg:859
+msgid "Road"
+msgstr "Via"
+
+#. [terrain_type]: id=dirt
+#: data/core/terrain.cfg:841
+msgid "Dirt"
+msgstr "Humus"
+
+#. [terrain_type]: id=farm
+#: data/core/terrain.cfg:868
+msgid "Farmland"
+msgstr "Ager"
+
+#. [terrain_type]: id=swamp_water
+#: data/core/terrain.cfg:882
+msgid "Swamp"
+msgstr "Palus"
+
+#. [terrain_type]: id=lit
+#: data/core/terrain.cfg:896
+msgid "Lit"
+msgstr "Lucidus"
+
+#. [terrain_type]: id=cave
+#: data/core/terrain.cfg:906
+msgid "Cave"
+msgstr "Caverna"
+
+#. [terrain_type]: id=cave_path
+#: data/core/terrain.cfg:924
+msgid "Cave path"
+msgstr "Via in caverna"
+
+#. [terrain_type]: id=fungus
+#: data/core/terrain.cfg:933
+msgid "Mushroom Grove"
+msgstr "Nemus Fungorum"
+
+#. [terrain_type]: id=fungus_beam
+#: data/core/terrain.cfg:942
+#, fuzzy
+msgid "Mushroom Grove Lit"
+msgstr "Nemus Fungorum"
+
+#. [terrain_type]: id=rocky_cave
+#: data/core/terrain.cfg:953
+msgid "Rockbound Cave"
+msgstr "Caverna Saxosa"
+
+#. [terrain_type]: id=desert_village
+#. [terrain_type]: id=orcish_snow_village
+#. [terrain_type]: id=orcish_village
+#. [terrain_type]: id=orcish_snow_hills_village
+#. [terrain_type]: id=orcish_hill_village
+#. [terrain_type]: id=elven_snow_village
+#. [terrain_type]: id=elven_village
+#. [terrain_type]: id=snow_village
+#. [terrain_type]: id=village
+#. [terrain_type]: id=city_village
+#. [terrain_type]: id=hill_village
+#. [terrain_type]: id=snow-hill_village
+#. [terrain_type]: id=snow-mountain_village
+#. [terrain_type]: id=mountain_village
+#. [terrain_type]: id=tropical_forest_village
+#. [terrain_type]: id=camp_village
+#. [terrain_type]: id=drake_village
+#. [terrain_type]: id=underground_village
+#. [terrain_type]: id=dwarven_village
+#. [terrain_type]: id=hut_village
+#. [terrain_type]: id=hut_snow_village
+#. [terrain_type]: id=hut_hills_village
+#. [terrain_type]: id=hut_snow_hills_village
+#. [terrain_type]: id=hut_mountains_village
+#. [terrain_type]: id=logcabin_village
+#. [terrain_type]: id=logcabin_snow_village
+#. [terrain_type]: id=mermen_village
+#. [terrain_type]: id=swamp_village
+#. [terrain_type]: id=swamp_merfolk-village
+#: data/core/terrain.cfg:980 data/core/terrain.cfg:991
+#: data/core/terrain.cfg:1004 data/core/terrain.cfg:1015
+#: data/core/terrain.cfg:1026 data/core/terrain.cfg:1037
+#: data/core/terrain.cfg:1050 data/core/terrain.cfg:1061
+#: data/core/terrain.cfg:1074 data/core/terrain.cfg:1085
+#: data/core/terrain.cfg:1095 data/core/terrain.cfg:1106
+#: data/core/terrain.cfg:1117 data/core/terrain.cfg:1129
+#: data/core/terrain.cfg:1140 data/core/terrain.cfg:1151
+#: data/core/terrain.cfg:1162 data/core/terrain.cfg:1173
+#: data/core/terrain.cfg:1186 data/core/terrain.cfg:1197
+#: data/core/terrain.cfg:1208 data/core/terrain.cfg:1219
+#: data/core/terrain.cfg:1230 data/core/terrain.cfg:1241
+#: data/core/terrain.cfg:1252 data/core/terrain.cfg:1263
+#: data/core/terrain.cfg:1274 data/core/terrain.cfg:1287
+#: data/core/terrain.cfg:1302 data/core/terrain.cfg:1313
+msgid "Village"
+msgstr "Viculus"
+
+#. [terrain_type]: id=deep_water
+#: data/core/terrain.cfg:1328
+msgid "Deep Water"
+msgstr "Salum"
+
+#. [terrain_type]: id=shallow_water
+#: data/core/terrain.cfg:1338
+msgid "Shallow Water"
+msgstr "Aqua"
+
+#. [terrain_type]: id=ford
+#: data/core/terrain.cfg:1348
+msgid "River Ford"
+msgstr "Vadum Fluminis"
+
+#. [terrain_type]: id=reef
+#: data/core/terrain.cfg:1359
+msgid "Coastal Reef"
+msgstr "Cotes"
+
+#. [terrain_type]: id=cloud
+#: data/core/terrain.cfg:1373
+msgid "Impassable Mountains"
+msgstr "Montes Inexsuperabiles"
+
+#. [terrain_type]: id=clouddesert
+#: data/core/terrain.cfg:1382
+msgid "Impassable Desert Mountains"
+msgstr "Montes Impervii Desertorum"
+
+#. [terrain_type]: id=cavewall
+#: data/core/terrain.cfg:1391
+msgid "Cave Wall"
+msgstr "Murus Cavernae"
+
+#. [terrain_type]: id=wall_stone
+#: data/core/terrain.cfg:1400
+msgid "Wall"
+msgstr "Murus"
+
+#. [terrain_type]: id=impassable_overlay
+#. [terrain_type]: id=impassable
+#: data/core/terrain.cfg:1410 data/core/terrain.cfg:1448
+msgid "Impassable"
+msgstr "Impervius"
+
+#. [terrain_type]: id=void
+#: data/core/terrain.cfg:1421
+msgid "Void"
+msgstr "Inanis"
+
+#. [terrain_type]: id=flat
+#: data/core/terrain.cfg:1434
+msgid "Flat"
+msgstr "Planus"
+
+#. [terrain_type]: id=frozen
+#: data/core/terrain.cfg:1441
+msgid "Frozen"
+msgstr "Glacialis"
+
+#. [terrain_type]: id=unwalkable
+#: data/core/terrain.cfg:1455
+msgid "Unwalkable"
+msgstr "Nonterra"
+
+#. [label]
+#. [column]
+#: data/gui/default/window/addon_connect.cfg:32
+#: data/gui/default/window/mp_connect.cfg:31
+#: data/gui/default/window/mp_method_selection.cfg:148
+#: data/gui/default/window/mp_server_list.cfg:41
+msgid "Connect to Server"
+msgstr "Credentario Adplicare"
+
+#. [label]
+#: data/gui/default/window/addon_connect.cfg:51
+msgid "You will now connect to a server to download add-ons."
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/addon_connect.cfg:81
+#: data/gui/default/window/mp_connect.cfg:80
+msgid "Server:"
+msgstr "Credentarius:"
+
+#. [button]: id=update_addons
+#: data/gui/default/window/addon_connect.cfg:137
+#: data/gui/default/window/addon_connect.cfg:138
+msgid "Update add-ons"
+msgstr "Appendices Novare"
+
+#. [button]: id=remove_addons
+#: data/gui/default/window/addon_connect.cfg:172
+#: data/gui/default/window/addon_connect.cfg:173
+msgid "Remove Add-ons"
+msgstr "Appendicem Delere"
+
+#. [button]: id=ok
+#: data/gui/default/window/addon_connect.cfg:205
+#: data/gui/default/window/addon_connect.cfg:206
+#: data/gui/default/window/mp_connect.cfg:175
+#: data/gui/default/window/mp_connect.cfg:176
+msgid "Connect"
+msgstr "Adplicare"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=cancel
+#: data/gui/default/window/addon_connect.cfg:220
+#: data/gui/default/window/campaign_dialog.cfg:433
+#: data/gui/default/window/editor_generate_map.cfg:111
+#: data/gui/default/window/editor_new_map.cfg:111
+#: data/gui/default/window/editor_resize_map.cfg:273
+#: data/gui/default/window/editor_settings.cfg:240
+#: data/gui/default/window/game_load.cfg:443
+#: data/gui/default/window/game_save.cfg:134
+#: data/gui/default/window/language_selection.cfg:133
+#: data/gui/default/window/message.cfg:136
+#: data/gui/default/window/mp_cmd_wrapper.cfg:462
+#: data/gui/default/window/mp_connect.cfg:190
+#: data/gui/default/window/mp_create_game.cfg:550
+#: data/gui/default/window/mp_login.cfg:262
+#: data/gui/default/window/mp_method_selection.cfg:218
+#: data/gui/default/window/mp_server_list.cfg:229
+#: data/gui/default/window/unit_create.cfg:216
+#: data/gui/default/window/unit_create.cfg:217 src/construct_dialog.cpp:134
+#: src/construct_dialog.cpp:137
+msgid "Cancel"
+msgstr "Vetare"
+
+#. [label]
+#: data/gui/default/window/campaign_dialog.cfg:49
+msgid "Play a campaign"
+msgstr "Militia Ludere"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#: data/gui/default/window/campaign_dialog.cfg:419
+#: data/gui/default/window/editor_settings.cfg:230
+#: data/gui/default/window/game_load.cfg:429
+#: data/gui/default/window/game_load.cfg:430
+#: data/gui/default/window/game_save.cfg:119
+#: data/gui/default/window/game_save.cfg:120
+#: data/gui/default/window/mp_login.cfg:234
+#: data/gui/default/window/mp_method_selection.cfg:204
+#: data/gui/default/window/unit_create.cfg:204
+#: data/gui/default/window/unit_create.cfg:205
+#: data/gui/default/window/wml_message.cfg:458
+#: data/gui/default/window/wml_message.cfg:679 src/construct_dialog.cpp:126
+#: src/construct_dialog.cpp:133 src/gui/dialogs/message.cpp:164
+#: src/gui/dialogs/message.cpp:171
+msgid "OK"
+msgstr "Confirmare"
+
+#. [window]: id=chat_log
+#: data/gui/default/window/chat_log.cfg:8
+msgid "Chat log dialog."
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/chat_log.cfg:28
+#, fuzzy
+msgid "Chat log"
+msgstr "Acta Colloquii Aspicere"
+
+#. [label]
+#: data/gui/default/window/chat_log.cfg:55
+msgid "Page"
+msgstr ""
+
+#. [slider]: id=page_number
+#: data/gui/default/window/chat_log.cfg:68
+msgid "Last"
+msgstr ""
+
+#. [button]: id=previous_page
+#. [button]: id=previous_tip
+#: data/gui/default/window/chat_log.cfg:78
+#: data/gui/default/window/title_screen.cfg:124
+msgid "Previous"
+msgstr "Anterior"
+
+#. [button]: id=next_tod
+#. [button]: id=next_page
+#. [button]: id=next_tip
+#: data/gui/default/window/chat_log.cfg:88
+#: data/gui/default/window/editor_settings.cfg:75
+#: data/gui/default/window/editor_settings.cfg:76
+#: data/gui/default/window/title_screen.cfg:138
+msgid "Next"
+msgstr "Secundus"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#. [button]: id=cancel
+#. [button]: id=close_window
+#: data/gui/default/window/chat_log.cfg:140
+#: data/gui/default/window/gamestate_inspector.cfg:331
+#: data/gui/default/window/lobby_main.cfg:619
+#: data/gui/default/window/lobby_player_info.cfg:192
+#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:140
+msgid "Close"
+msgstr "Exire"
+
+#. [label]
+#: data/gui/default/window/editor_generate_map.cfg:38
+msgid "Generate Random Map"
+msgstr "Chartam Fortuitam Facere"
+
+#. [button]: id=next_generator
+#: data/gui/default/window/editor_generate_map.cfg:67
+#: data/gui/default/window/editor_generate_map.cfg:68
+#, fuzzy
+msgid "Next Generator"
+msgstr "Generator Chartarum"
+
+#. [button]: id=settings
+#: data/gui/default/window/editor_generate_map.cfg:90
+#: data/gui/default/window/editor_generate_map.cfg:91
+msgid "Settings"
+msgstr "Electiones"
+
+#. [button]: id=ok
+#: data/gui/default/window/editor_generate_map.cfg:101
+msgid "Generate"
+msgstr "Facere"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#: data/gui/default/window/editor_new_map.cfg:27 src/hotkeys.cpp:110
+msgid "New Map"
+msgstr "Charta Nova"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#: data/gui/default/window/editor_new_map.cfg:46 src/mapgen_dialog.cpp:120
+msgid "Width:"
+msgstr "Amplitudo: "
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#: data/gui/default/window/editor_new_map.cfg:73 src/mapgen_dialog.cpp:121
+msgid "Height:"
+msgstr "Altitudo: "
+
+#. [button]: id=ok
+#: data/gui/default/window/editor_new_map.cfg:100
+#: data/gui/default/window/editor_new_map.cfg:101
+msgid "Create new map"
+msgstr "Chartam novam creare"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#: data/gui/default/window/editor_resize_map.cfg:27 src/hotkeys.cpp:155
+msgid "Resize Map"
+msgstr "Magnitudinem Chartae Mutare"
+
+#. [label]
+#: data/gui/default/window/editor_resize_map.cfg:46
+msgid "New width:"
+msgstr "Amplitudo nova: "
+
+#. [label]
+#: data/gui/default/window/editor_resize_map.cfg:70
+msgid "Old width:"
+msgstr "Amplitudo antica: "
+
+#. [label]
+#: data/gui/default/window/editor_resize_map.cfg:94
+msgid "New height:"
+msgstr "Altitudo nova: "
+
+#. [label]
+#: data/gui/default/window/editor_resize_map.cfg:118
+msgid "Old height:"
+msgstr "Altitudo antica: "
+
+#. [label]
+#: data/gui/default/window/editor_resize_map.cfg:145
+msgid "Expand / shrink direction"
+msgstr ""
+
+#. [toggle_button]: id=copy_edge_terrain
+#: data/gui/default/window/editor_resize_map.cfg:240
+msgid "Copy edge terrain"
+msgstr ""
+
+#. [button]: id=ok
+#: data/gui/default/window/editor_resize_map.cfg:262
+#: data/gui/default/window/editor_resize_map.cfg:263
+msgid "Resize map"
+msgstr "Magnitudinem chartae mutare"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#: data/gui/default/window/editor_settings.cfg:38 src/hotkeys.cpp:108
+msgid "Editor Settings"
+msgstr "Electiones Chartographiae"
+
+#. [label]
+#: data/gui/default/window/editor_settings.cfg:46
+msgid "Time of day lighting preset"
+msgstr ""
+
+#. [toggle_button]: id=custom_tod_toggle
+#: data/gui/default/window/editor_settings.cfg:83
+msgid "Custom lighting setting"
+msgstr ""
+
+#. [toggle_button]: id=custom_tod_auto_refresh
+#: data/gui/default/window/editor_settings.cfg:93
+msgid "Auto-update map view"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/editor_settings.cfg:120
+msgid "Red:"
+msgstr "Ruber:"
+
+#. [label]
+#: data/gui/default/window/editor_settings.cfg:146
+msgid "Green:"
+msgstr "Viridis:"
+
+#. [label]
+#: data/gui/default/window/editor_settings.cfg:172
+msgid "Blue:"
+msgstr "Caeruleus:"
+
+#. [toggle_button]: id=use_mdi
+#: data/gui/default/window/editor_settings.cfg:208
+msgid "Allow more than one map to be open at the same time (MDI)"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=apply
+#: data/gui/default/window/editor_settings.cfg:250
+#: src/game_preferences_display.cpp:199
+msgid "Apply"
+msgstr "Aptare"
+
+#. [label]
+#: data/gui/default/window/formula_debugger.cfg:28
+msgid "Formula debugger"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/formula_debugger.cfg:51
+msgid "Welcome"
+msgstr "Conplector"
+
+#. [label]: id=state
+#: data/gui/default/window/formula_debugger.cfg:63
+msgid "state"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/formula_debugger.cfg:77
+msgid "Call stack"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/formula_debugger.cfg:86
+#: data/gui/default/window/gamestate_inspector.cfg:268
+msgid "Actions"
+msgstr "Actiones"
+
+#. [button]: id=step
+#: data/gui/default/window/formula_debugger.cfg:120
+#, fuzzy
+msgid "Step operation"
+msgstr "Generator Chartarum"
+
+#. [button]: id=next
+#: data/gui/default/window/formula_debugger.cfg:131
+#, fuzzy
+msgid "Next operation"
+msgstr "Generator Chartarum"
+
+#. [button]: id=stepout
+#: data/gui/default/window/formula_debugger.cfg:142
+msgid "Step out"
+msgstr "Exsistere"
+
+#. [button]: id=continue
+#: data/gui/default/window/formula_debugger.cfg:153
+msgid "Continue"
+msgstr "Pergere"
+
+#. [label]
+#: data/gui/default/window/formula_debugger.cfg:170
+msgid "Execution trace"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=cancel
+#. [button]: id=quit
+#. [grid]
+#: data/gui/default/window/formula_debugger.cfg:226
+#: data/gui/default/window/lobby_main.cfg:660
+#: data/gui/default/window/title_screen.cfg:191 src/hotkeys.cpp:646
+#: src/hotkeys.cpp:937
+msgid "Quit"
+msgstr "Exire"
+
+#. [label]: id=lblTitle
+#: data/gui/default/window/game_delete.cfg:32
+#, fuzzy
+msgid "Delete Save"
+msgstr "Pligam Delere"
+
+#. [label]: id=lblMessage
+#: data/gui/default/window/game_delete.cfg:52
+#, fuzzy
+msgid "Do you really want to delete this game?"
+msgstr "Visne vere relinquere?"
+
+#. [toggle_button]: id=dont_ask_again
+#: data/gui/default/window/game_delete.cfg:72
+msgid "Don't ask me again!"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#: data/gui/default/window/game_delete.cfg:128
+#: data/gui/default/window/game_delete.cfg:129
+#: data/gui/default/window/game_save_message.cfg:139
+#: data/gui/default/window/game_save_message.cfg:140
+#: data/gui/default/window/game_save_oos.cfg:186
+#: data/gui/default/window/game_save_oos.cfg:187
+#: data/gui/default/window/game_save_overwrite.cfg:88
+#: data/gui/default/window/game_save_overwrite.cfg:89
+#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:178
+msgid "Yes"
+msgstr "Ita"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=cancel
+#: data/gui/default/window/game_delete.cfg:143
+#: data/gui/default/window/game_save_message.cfg:154
+#: data/gui/default/window/game_save_oos.cfg:201
+#: data/gui/default/window/game_save_overwrite.cfg:103
+#: src/construct_dialog.cpp:130 src/gui/dialogs/message.cpp:180
+msgid "No"
+msgstr "Non"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=lblTitle
+#: data/gui/default/window/game_load.cfg:42
+#: src/gui/dialogs/mp_create_game.cpp:76 src/hotkeys.cpp:66
+msgid "Load Game"
+msgstr "Ludum Restituere"
+
+#. [label]: id=lblChoose
+#: data/gui/default/window/game_load.cfg:181
+msgid "Choose the game to load"
+msgstr ""
+
+#. [label]: id=lblFilter
+#: data/gui/default/window/game_load.cfg:205
+msgid "Filter"
+msgstr "Filtrum"
+
+#. [label]: id=name
+#. [label]: id=filename
+#: data/gui/default/window/game_load.cfg:255
+#: data/gui/default/window/mp_server_list.cfg:96
+msgid "Name"
+msgstr "Nomen"
+
+#. [label]: id=date
+#: data/gui/default/window/game_load.cfg:269
+msgid "Date"
+msgstr "Tempus"
+
+#. [button]: id=delete
+#: data/gui/default/window/game_load.cfg:352
+#: data/gui/default/window/game_load.cfg:353
+msgid "Delete"
+msgstr "Delere"
+
+#. [toggle_button]: id=show_replay
+#: data/gui/default/window/game_load.cfg:371
+msgid "Show replay"
+msgstr ""
+
+#. [toggle_button]: id=cancel_orders
+#: data/gui/default/window/game_load.cfg:389
+msgid "Cancel orders"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=lblTitle
+#: data/gui/default/window/game_save.cfg:32
+#: data/gui/default/window/game_save_message.cfg:32
+#: data/gui/default/window/game_save_oos.cfg:32 src/hotkeys.cpp:63
+msgid "Save Game"
+msgstr "Ludum Servare"
+
+#. [label]
+#: data/gui/default/window/game_save.cfg:62
+#: data/gui/default/window/game_save_message.cfg:82
+#: data/gui/default/window/game_save_oos.cfg:82
+msgid "Name:"
+msgstr "Nomen:"
+
+#. [label]: id=lblMessage
+#: data/gui/default/window/game_save_message.cfg:52
+msgid "x"
+msgstr "x"
+
+#. [label]: id=lblMessage
+#: data/gui/default/window/game_save_oos.cfg:52
+msgid "OOS error"
+msgstr ""
+
+#. [toggle_button]: id=ignore_all
+#: data/gui/default/window/game_save_oos.cfg:134
+msgid "Ignore All"
+msgstr "Omnem Ignorare"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=quit_game
+#: data/gui/default/window/game_save_oos.cfg:159 src/hotkeys.cpp:85
+msgid "Quit Game"
+msgstr "Ludum Exire"
+
+#. [label]: id=lblTitle
+#: data/gui/default/window/game_save_overwrite.cfg:32
+msgid "Overwrite?"
+msgstr "Superne scribes?"
+
+#. [label]: id=lblMessage
+#: data/gui/default/window/game_save_overwrite.cfg:52
+msgid "Save already exists. Do you want to overwrite it?"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/gamestate_inspector.cfg:38
+msgid "Gamestate Inspector"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/gamestate_inspector.cfg:92
+msgid "Types"
+msgstr "Species"
+
+#. [label]
+#: data/gui/default/window/gamestate_inspector.cfg:103
+msgid "Content"
+msgstr "Tractum "
+
+#. [label]
+#: data/gui/default/window/gamestate_inspector.cfg:114
+msgid "Inspection window"
+msgstr ""
+
+#. [label]: id=unit_type
+#. [label]: id=typename
+#: data/gui/default/window/gamestate_inspector.cfg:145
+#: data/gui/default/window/unit_create.cfg:138
+msgid "Type"
+msgstr "Species"
+
+#. [label]: id=name
+#: data/gui/default/window/gamestate_inspector.cfg:206
+msgid "Variable"
+msgstr "Variabilis"
+
+#. [grid]
+#. [label]
+#: data/gui/default/window/language_selection.cfg:31
+#: data/gui/default/window/title_screen.cfg:188
+msgid "Language"
+msgstr "Lingua"
+
+#. [label]
+#: data/gui/default/window/language_selection.cfg:50
+msgid "Choose your preferred language:"
+msgstr "Opta linguam promotum tuum:"
+
+#. [button]: id=ok
+#: data/gui/default/window/language_selection.cfg:118
+#: data/gui/default/window/language_selection.cfg:119
+msgid "Change language"
+msgstr "Linguam mutare"
+
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:109
+msgid "Games"
+msgstr "Ludi"
+
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:177
+msgid "Requires a password to join"
+msgstr ""
+
+#. [toggle_button]: id=use_map_settings
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:178
+#: data/gui/default/window/mp_create_game.cfg:313
+msgid "Use map settings"
+msgstr ""
+
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:179
+#, fuzzy
+msgid "Reloaded game"
+msgstr "Novam Chartam Creare"
+
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:180
+msgid "Unknown era"
+msgstr "Aetas ignota"
+
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:182
+msgid "Gold per village"
+msgstr "Aura per viculos"
+
+#. [label]
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:184
+#: data/gui/default/window/mp_create_game.cfg:412
+msgid "Experience modifier"
+msgstr ""
+
+#. [row]
+#: data/gui/default/window/lobby_main.cfg:186
+msgid "Time limit"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/lobby_main.cfg:305
+#, fuzzy
+msgid "Sort players:"
+msgstr "Lusores:"
+
+#. [toggle_button]: id=player_list_sort_relation
+#: data/gui/default/window/lobby_main.cfg:313
+msgid "Friends first, ignored people last"
+msgstr ""
+
+#. [toggle_button]: id=player_list_sort_name
+#: data/gui/default/window/lobby_main.cfg:321
+msgid "Alphabetically"
+msgstr "Series Abecedaria"
+
+#. [definition]
+#: data/gui/default/window/lobby_main.cfg:337
+msgid "Selected game"
+msgstr "Ludus electus"
+
+#. [definition]
+#: data/gui/default/window/lobby_main.cfg:338
+msgid "Current room"
+msgstr ""
+
+#. [definition]
+#: data/gui/default/window/lobby_main.cfg:339
+msgid "Lobby"
+msgstr "Atrium"
+
+#. [definition]
+#: data/gui/default/window/lobby_main.cfg:340
+msgid "Other games"
+msgstr "Ludi ali"
+
+#. [label]: id=room
+#: data/gui/default/window/lobby_main.cfg:479
+msgid "Rooms"
+msgstr "Zetae"
+
+#. [image]: id=pending_messages
+#: data/gui/default/window/lobby_main.cfg:497
+msgid "Messages waiting"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/lobby_main.cfg:567
+msgid "Multiplayer Lobby"
+msgstr "Atrium Lusores"
+
+#. [label]
+#: data/gui/default/window/lobby_main.cfg:575
+msgid "Filter:"
+msgstr "Filtrum:"
+
+#. [toggle_button]: id=filter_with_friends
+#: data/gui/default/window/lobby_main.cfg:586
+msgid "Friends"
+msgstr "Amicae"
+
+#. [toggle_button]: id=filter_without_ignored
+#: data/gui/default/window/lobby_main.cfg:592
+msgid "No ignored"
+msgstr "Veta abrogationem"
+
+#. [toggle_button]: id=filter_vacant_slots
+#: data/gui/default/window/lobby_main.cfg:598
+msgid "Vacant slots"
+msgstr "Vacuus"
+
+#. [toggle_button]: id=filter_invert
+#: data/gui/default/window/lobby_main.cfg:604
+msgid "Invert filter"
+msgstr "Filtrum intervertere"
+
+#. [button]: id=send_message
+#: data/gui/default/window/lobby_main.cfg:648
+msgid "Send"
+msgstr "Mittere"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=show_preferences
+#. [grid]
+#: data/gui/default/window/lobby_main.cfg:666
+#: data/gui/default/window/title_screen.cfg:189
+#: src/game_preferences_display.cpp:53 src/hotkeys.cpp:79
+msgid "Preferences"
+msgstr "Electiones"
+
+#. [button]: id=refresh
+#: data/gui/default/window/lobby_main.cfg:672
+msgid "Refresh"
+msgstr "Recuperare"
+
+#. [label]
+#. [button]: id=create
+#: data/gui/default/window/lobby_main.cfg:686
+#: data/gui/default/window/mp_create_game.cfg:33
+msgid "Create Game"
+msgstr "Ludum Creare"
+
+#. [button]: id=join_global
+#: data/gui/default/window/lobby_main.cfg:692
+msgid "Join"
+msgstr "Committere"
+
+#. [button]: id=observe_global
+#: data/gui/default/window/lobby_main.cfg:698
+msgid "Observe"
+msgstr "Observare"
+
+#. [toggle_button]: id=skip_replay
+#: data/gui/default/window/lobby_main.cfg:704
+msgid "Quick replay"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/lobby_player_info.cfg:30
+msgid "Player Info - "
+msgstr "Informatio lusoris -"
+
+#. [button]: id=start_whisper
+#: data/gui/default/window/lobby_player_info.cfg:62
+msgid "Send private message"
+msgstr ""
+
+#. [button]: id=add_to_friends
+#: data/gui/default/window/lobby_player_info.cfg:91
+msgid "Add to friends list"
+msgstr "Inventario amicorum adicere"
+
+#. [button]: id=add_to_ignores
+#: data/gui/default/window/lobby_player_info.cfg:100
+msgid "Add to ignores list"
+msgstr ""
+
+#. [button]: id=remove_from_list
+#: data/gui/default/window/lobby_player_info.cfg:109
+msgid "Remove from list"
+msgstr "Ex inventario submovere"
+
+#. [label]
+#: data/gui/default/window/lobby_player_info.cfg:133
+msgid "Moderation"
+msgstr ""
+
+#. [button]: id=check_status
+#: data/gui/default/window/lobby_player_info.cfg:140
+msgid "Check status"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/lobby_player_info.cfg:147
+msgid "Kick / ban reason:"
+msgstr ""
+
+#. [button]: id=kick
+#: data/gui/default/window/lobby_player_info.cfg:160
+#: data/gui/default/window/mp_cmd_wrapper.cfg:381
+msgid "Kick"
+msgstr "Apolactizare"
+
+#. [label]
+#: data/gui/default/window/lobby_player_info.cfg:167
+msgid "Ban time:"
+msgstr ""
+
+#. [button]: id=kick_ban
+#: data/gui/default/window/lobby_player_info.cfg:180
+msgid "Kick/ban"
+msgstr "Apolactizare/effugare"
+
+#. [window]: id=mp_cmd_wrapper
+#: data/gui/default/window/mp_cmd_wrapper.cfg:8
+msgid "Multiplayer command dialog"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/mp_cmd_wrapper.cfg:31
+msgid "Messaging"
+msgstr "Nuncius"
+
+#. [label]
+#: data/gui/default/window/mp_cmd_wrapper.cfg:61
+msgid "Message:"
+msgstr "Nuntium:"
+
+#. [button]: id=ok
+#: data/gui/default/window/mp_cmd_wrapper.cfg:93
+msgid "Send a private message"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/mp_cmd_wrapper.cfg:133
+msgid "Friends/Ignored List"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=add_friend
+#: data/gui/default/window/mp_cmd_wrapper.cfg:162
+#: src/game_preferences_display.cpp:176
+msgid "Add As Friend"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=add_ignore
+#: data/gui/default/window/mp_cmd_wrapper.cfg:177
+#: src/game_preferences_display.cpp:177
+msgid "Add As Ignore"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=remove
+#: data/gui/default/window/mp_cmd_wrapper.cfg:192
+#: src/game_preferences_display.cpp:178
+msgid "Remove"
+msgstr "Summovere"
+
+#. [label]
+#: data/gui/default/window/mp_cmd_wrapper.cfg:233
+msgid "Moderating"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/mp_cmd_wrapper.cfg:263
+msgid "Reason:"
+msgstr "Causa:"
+
+#. [label]
+#: data/gui/default/window/mp_cmd_wrapper.cfg:315
+msgid "Time:"
+msgstr "Tempus:"
+
+#. [button]: id=status
+#: data/gui/default/window/mp_cmd_wrapper.cfg:366
+msgid "Status"
+msgstr "Status"
+
+#. [button]: id=ban
+#: data/gui/default/window/mp_cmd_wrapper.cfg:396
+msgid "Ban"
+msgstr "Bannium"
+
+#. [label]
+#: data/gui/default/window/mp_connect.cfg:50
+#: data/gui/default/window/mp_server_list.cfg:61
+msgid "You will now connect to the multiplayer server."
+msgstr "Credentario plurum lusorum nunc adplicabis."
+
+#. [button]: id=list
+#: data/gui/default/window/mp_connect.cfg:148
+msgid "View List"
+msgstr "Inventarium Videre"
+
+#. [label]
+#. [text_box]: id=game_name
+#: data/gui/default/window/mp_create_game.cfg:62
+#: data/gui/default/window/mp_create_game.cfg:77
+msgid "Name of game:"
+msgstr "Nomen ludi:"
+
+#. [label]: id=map_players
+#: data/gui/default/window/mp_create_game.cfg:140
+msgid "Players: "
+msgstr "Lusores:"
+
+#. [label]: id=map_size
+#: data/gui/default/window/mp_create_game.cfg:159
+msgid "Map size: "
+msgstr "Magnitudo chartae:"
+
+#. [label]
+#: data/gui/default/window/mp_create_game.cfg:177
+msgid "Era:"
+msgstr "Aetas:"
+
+#. [button]: id=era
+#: data/gui/default/window/mp_create_game.cfg:196
+msgid "Default"
+msgstr "Defalta"
+
+#. [button]: id=password
+#: data/gui/default/window/mp_create_game.cfg:218
+msgid "Set Password"
+msgstr "Verbum Absconditum Ponere"
+
+#. [label]
+#: data/gui/default/window/mp_create_game.cfg:246
+msgid "Map to play:"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/mp_create_game.cfg:331
+#, fuzzy
+msgid "Number of turns"
+msgstr "Numerus Collum:"
+
+#. [slider]: id=turn_count
+#: data/gui/default/window/mp_create_game.cfg:354
+msgid "Unlimited"
+msgstr "Infinitus"
+
+#. [label]
+#: data/gui/default/window/mp_create_game.cfg:372
+msgid "Village gold"
+msgstr "Aura Viculorum"
+
+#. [toggle_button]: id=fog
+#: data/gui/default/window/mp_create_game.cfg:452
+msgid "Fog of War"
+msgstr "Nebula Belli"
+
+#. [toggle_button]: id=random_start_time
+#: data/gui/default/window/mp_create_game.cfg:493
+msgid "Random start time"
+msgstr ""
+
+#. [button]: id=ok
+#: data/gui/default/window/mp_create_game.cfg:535
+msgid "Create game"
+msgstr "Ludum creare"
+
+#. [window]: id=mp_login
+#: data/gui/default/window/mp_login.cfg:8
+msgid "Multiplayer server login dialog"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/mp_login.cfg:31
+msgid "Login"
+msgstr "Identifica"
+
+#. [label]
+#: data/gui/default/window/mp_login.cfg:81
+#: data/gui/default/window/mp_method_selection.cfg:61
+msgid "Login:"
+msgstr "Identifica:"
+
+#. [label]
+#: data/gui/default/window/mp_login.cfg:134
+msgid "Password:"
+msgstr "Verbum Absconditum:"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [toggle_button]: id=remember_password
+#: data/gui/default/window/mp_login.cfg:190
+#: src/game_preferences_display.cpp:172
+msgid "Save password to preferences (clear text)"
+msgstr ""
+
+#. [button]: id=password_reminder
+#: data/gui/default/window/mp_login.cfg:248
+msgid "Password Reminder"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#. [grid]
+#: data/gui/default/window/mp_method_selection.cfg:31
+#: data/gui/default/window/title_screen.cfg:184
+#: src/gui/dialogs/game_load.cpp:271
+msgid "Multiplayer"
+msgstr "Plures Lusores"
+
+#. [text_box]: id=user_name
+#: data/gui/default/window/mp_method_selection.cfg:82
+msgid ""
+"You may login to the official multiplayer server with your forum username "
+"and password.\n"
+"Note that registration is not required to join the server: you need to "
+"supply a password only if you wish to use a registered username.\n"
+"\n"
+"The Battle for Wesnoth forum can be found at http://www.wesnoth.org/forum/"
+msgstr ""
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:138
+msgid "Join Official Server"
+msgstr "Credentario Publico Adplicare"
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:139
+msgid "Log on to the official Wesnoth multiplayer server"
+msgstr ""
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:149
+msgid "Join a different server"
+msgstr "Adplica credentario alius"
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:158
+msgid "Host Networked Game"
+msgstr "Ludum Reticuli Hospitare"
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:159
+msgid "Host a game using dedicated server 'wesnothd'"
+msgstr ""
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:168
+msgid "Local Game"
+msgstr "Ludus Localis"
+
+#. [column]
+#: data/gui/default/window/mp_method_selection.cfg:169
+msgid "Play a multiplayer game with the AI or humans sharing the same machine"
+msgstr ""
+
+#. [label]: id=address
+#: data/gui/default/window/mp_server_list.cfg:113
+msgid "Address"
+msgstr "Locus"
+
+#. [button]: id=ok
+#: data/gui/default/window/mp_server_list.cfg:215
+msgid "Select"
+msgstr "Eligere"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=help
+#: data/gui/default/window/title_screen.cfg:109 src/hotkeys.cpp:186
+msgid "Help"
+msgstr "Auxilium"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [grid]
+#: data/gui/default/window/title_screen.cfg:182
+#: src/gui/dialogs/game_load.cpp:273
+msgid "Tutorial"
+msgstr "Rudimentum"
+
+#. [grid]
+#: data/gui/default/window/title_screen.cfg:183
+msgid "Campaign"
+msgstr "Militiae"
+
+#. [grid]
+#: data/gui/default/window/title_screen.cfg:185
+msgid "Load"
+msgstr "Restituere"
+
+#. [grid]
+#: data/gui/default/window/title_screen.cfg:186
+msgid "Add-ons"
+msgstr "Appendices"
+
+#. [grid]
+#: data/gui/default/window/title_screen.cfg:187
+msgid "Editor"
+msgstr "Chartographia"
+
+#. [grid]
+#: data/gui/default/window/title_screen.cfg:190
+msgid "Credits"
+msgstr "Agnitiones"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#: data/gui/default/window/unit_create.cfg:37 src/hotkeys.cpp:77
+#, fuzzy
+msgid "Create Unit (Debug!)"
+msgstr "Unitatem Creare (Emendare!)"
+
+#. [label]
+#: data/gui/default/window/unit_create.cfg:59
+msgid "Gender:"
+msgstr "Sexus:"
+
+#. [toggle_button]: id=male_toggle
+#: data/gui/default/window/unit_create.cfg:69
+msgid "Male"
+msgstr "Masculus"
+
+#. [toggle_button]: id=female_toggle
+#: data/gui/default/window/unit_create.cfg:79
+msgid "Female"
+msgstr "Femina"
+
+#. [toggle_button]: id=namegen_toggle
+#: data/gui/default/window/unit_create.cfg:97
+#, fuzzy
+msgid "Generate name"
+msgstr "Chartam Novam Generare"
+
+#. [label]: id=race
+#: data/gui/default/window/unit_create.cfg:126
+msgid "Race"
+msgstr "Stirps"
+
+#: src/filechooser.cpp:75
+msgid "File: "
+msgstr ""
+
+#: src/filechooser.cpp:78
+#, fuzzy
+msgid "Delete File"
+msgstr "Pligam Delere"
+
+#: src/filechooser.cpp:80 src/filechooser.cpp:205
+msgid "New Folder"
+msgstr "Collectorium Novum"
+
+#: src/filechooser.cpp:194
+#, fuzzy
+msgid "Deletion of the file failed."
+msgstr "Deletio pligae fallitur."
+
+#: src/filechooser.cpp:206
+msgid "Name: "
+msgstr "Nomen: "
+
+#: src/filechooser.cpp:212
+#, fuzzy
+msgid "Creation of the directory failed."
+msgstr "Deletio pligae fallitur."
+
+#: src/game_preferences.cpp:298
+msgid "No server has been defined."
+msgstr ""
+
+#: src/game_preferences.cpp:360
+msgid "player"
+msgstr "lusor"
+
+#: src/game_preferences_display.cpp:158
+#, fuzzy
+msgid "Full Screen"
+msgstr "Scrinium Totum vel in Fenestra Permutare"
+
+#: src/game_preferences_display.cpp:159
+msgid "Enable scroll tracking of unit actions"
+msgstr ""
+
+#: src/game_preferences_display.cpp:160
+msgid "Accelerated Speed"
+msgstr "Velocitas Celeris"
+
+#: src/game_preferences_display.cpp:161
+#, fuzzy
+msgid "Skip AI Moves"
+msgstr "Tractus IA Praetermittere"
+
+#: src/game_preferences_display.cpp:162
+msgid "Interrupt move when an ally is sighted"
+msgstr ""
+
+#: src/game_preferences_display.cpp:163
+#, fuzzy
+msgid "Show Grid"
+msgstr "Rete Monstare"
+
+#: src/game_preferences_display.cpp:164 src/game_preferences_display.cpp:346
+msgid "Save Replay on SP/MP Victory or MP Defeat"
+msgstr ""
+
+#: src/game_preferences_display.cpp:165 src/game_preferences_display.cpp:349
+msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
+msgstr ""
+
+#: src/game_preferences_display.cpp:166
+#, fuzzy
+msgid "Do Not Show Lobby Joins"
+msgstr "Monstrare Adiunctos in Vestibulo"
+
+#: src/game_preferences_display.cpp:167
+#, fuzzy
+msgid "Show Lobby Joins Of Friends Only"
+msgstr "Monstrare Adiunctos in Vestibulo"
+
+#: src/game_preferences_display.cpp:168
+#, fuzzy
+msgid "Show All Lobby Joins"
+msgstr "Monstrare Adiunctos in Vestibulo"
+
+#: src/game_preferences_display.cpp:169
+msgid "Use new lobby interface"
+msgstr ""
+
+#: src/game_preferences_display.cpp:170
+#, fuzzy
+msgid "Sort Lobby List"
+msgstr "Monstrare Adiunctos in Vestibulo"
+
+#: src/game_preferences_display.cpp:171
+#, fuzzy
+msgid "Iconize Lobby List"
+msgstr "Monstrare Adiunctos in Vestibulo"
+
+#: src/game_preferences_display.cpp:173
+msgid "Set path to wesnothd"
+msgstr ""
+
+#: src/game_preferences_display.cpp:174
+msgid "Friends List"
+msgstr "Inventarium Amicorum"
+
+#: src/game_preferences_display.cpp:175
+msgid "Multiplayer Options"
+msgstr ""
+
+#: src/game_preferences_display.cpp:179
+#, fuzzy
+msgid "Show Floating Labels"
+msgstr "Titula Volitantia Monstrare"
+
+#: src/game_preferences_display.cpp:180
+#, fuzzy
+msgid "Turn Dialog"
+msgstr "Cesta Dialogi Tractus"
+
+#: src/game_preferences_display.cpp:181
+msgid "Turn Bell"
+msgstr "Tintinnabulum Vicis"
+
+#: src/game_preferences_display.cpp:182
+#, fuzzy
+msgid "Show Team Colors"
+msgstr "Colores Partium Monstrare"
+
+#: src/game_preferences_display.cpp:183
+#, fuzzy
+msgid "Show Color Cursors"
+msgstr "Indicia Colorata Monstrare"
+
+#: src/game_preferences_display.cpp:184
+#, fuzzy
+msgid "Show Haloing Effects"
+msgstr "Iactationes Aureolae Monstrare"
+
+#: src/game_preferences_display.cpp:185
+#, fuzzy
+msgid "Change Resolution"
+msgstr "Resolutionem Eligere"
+
+#: src/game_preferences_display.cpp:186
+msgid "Theme"
+msgstr "Thema"
+
+#: src/game_preferences_display.cpp:187
+#, fuzzy
+msgid "Hotkeys"
+msgstr "Claves Notarum"
+
+#: src/game_preferences_display.cpp:188
+#, fuzzy
+msgid "Reverse Time Graphics"
+msgstr "Imagines Tempi Invertere"
+
+#: src/game_preferences_display.cpp:190
+#, fuzzy
+msgid "Sound effects"
+msgstr "Iactationes Aureolae"
+
+#: src/game_preferences_display.cpp:191
+msgid "Music"
+msgstr "Musica"
+
+#: src/game_preferences_display.cpp:192
+#, fuzzy
+msgid "Chat Timestamping"
+msgstr "Signa Temporis in Sermone"
+
+#: src/game_preferences_display.cpp:193
+msgid "sound^Advanced Options"
+msgstr ""
+
+#: src/game_preferences_display.cpp:194
+msgid "sound^Standard Options"
+msgstr ""
+
+#: src/game_preferences_display.cpp:195
+msgid "User Interface Sounds"
+msgstr ""
+
+#: src/game_preferences_display.cpp:198
+msgid "Custom"
+msgstr ""
+
+#: src/game_preferences_display.cpp:200
+msgid "Show Unit Idle Animations"
+msgstr ""
+
+#: src/game_preferences_display.cpp:202
+msgid "Music Volume:"
+msgstr "Magnitudo Musicae:"
+
+#: src/game_preferences_display.cpp:202
+msgid "SFX Volume:"
+msgstr "Magnitudo Effectus Soni:"
+
+#: src/game_preferences_display.cpp:203
+#, fuzzy
+msgid "UI Sound Volume:"
+msgstr "Magnitudo (Interface) Soni:"
+
+#: src/game_preferences_display.cpp:204
+msgid "Bell Volume:"
+msgstr "Magnitudo Tintinabuli:"
+
+#: src/game_preferences_display.cpp:204
+#, fuzzy
+msgid "Scroll Speed:"
+msgstr "Velocitas Gyri:"
+
+#: src/game_preferences_display.cpp:207
+msgid "Sample Rate (Hz):"
+msgstr ""
+
+#: src/game_preferences_display.cpp:208
+msgid "Frequency:"
+msgstr "Crebritas:"
+
+#: src/game_preferences_display.cpp:233
+#, fuzzy
+msgid "Sound effects on/off"
+msgstr "Iactationes Aureolas ponere/tollere"
+
+#: src/game_preferences_display.cpp:237
+#, fuzzy
+msgid "Change the sound effects volume"
+msgstr "Magnitudinem sonituum mutare"
+
+#: src/game_preferences_display.cpp:240
+#, fuzzy
+msgid "Music on/off"
+msgstr "Musicam ponere/tollere"
+
+#: src/game_preferences_display.cpp:244
+#, fuzzy
+msgid "Change the music volume"
+msgstr "Magnitudinem musicae mutare"
+
+#: src/game_preferences_display.cpp:250
+#, fuzzy
+msgid "Change the bell volume"
+msgstr "Magnitudinem musicae mutare"
+
+#: src/game_preferences_display.cpp:253
+msgid "Turn menu and button sounds on/off"
+msgstr ""
+
+#: src/game_preferences_display.cpp:257
+msgid "Change the sound volume for button clicks, etc."
+msgstr ""
+
+#: src/game_preferences_display.cpp:259
+msgid "Change the sample rate"
+msgstr ""
+
+#: src/game_preferences_display.cpp:268
+msgid "User defined sample rate"
+msgstr ""
+
+#: src/game_preferences_display.cpp:277 src/game_preferences_display.cpp:281
+#, fuzzy
+msgid "Change the buffer size"
+msgstr "Magnitudinem musicae mutare"
+
+#: src/game_preferences_display.cpp:279 src/game_preferences_display.cpp:841
+msgid "Buffer Size: "
+msgstr ""
+
+#: src/game_preferences_display.cpp:286
+#, fuzzy
+msgid "Change the speed of scrolling around the map"
+msgstr "Velocitatem gyri in charta mutare"
+
+#: src/game_preferences_display.cpp:291 src/game_preferences_display.cpp:293
+#, fuzzy
+msgid "Set the amount of chat lines shown"
+msgstr "Eligere numerum linearum sermonis monstratum"
+
+#: src/game_preferences_display.cpp:296
+#, fuzzy
+msgid "Add a timestamp to chat messages"
+msgstr "Signum temporis ad nuntios adiungere"
+
+#: src/game_preferences_display.cpp:299
+#, fuzzy
+msgid "Choose whether the game should run full screen or in a window"
+msgstr "Eligere si lusus in scrinio aut in fenestra mostratur"
+
+#: src/game_preferences_display.cpp:302
+msgid ""
+"Should the map view scroll to a unit when an action or move is animated."
+msgstr ""
+
+#: src/game_preferences_display.cpp:305
+#, fuzzy
+msgid "Make units move and fight faster"
+msgstr "Efficere ut unitates celerius moveantur et pugnent"
+
+#: src/game_preferences_display.cpp:322
+#, fuzzy
+msgid "Units move and fight speed"
+msgstr "Efficere ut unitates celerius moveantur et pugnent"
+
+#: src/game_preferences_display.cpp:325
+#, fuzzy
+msgid "Show unit idle animations"
+msgstr "Animationem saltare"
+
+#: src/game_preferences_display.cpp:331
+msgid "Set the frequency of unit idle animations"
+msgstr ""
+
+#: src/game_preferences_display.cpp:336
+msgid "Set maximum number of automatic saves to be retained"
+msgstr ""
+
+#: src/game_preferences_display.cpp:340
+#, fuzzy
+msgid "Do not animate AI units moving"
+msgstr "Non animare tractus unitatum IA"
+
+#: src/game_preferences_display.cpp:343
+msgid "Sighting an allied unit interrupts your unit's movement"
+msgstr ""
+
+#: src/game_preferences_display.cpp:351
+#, fuzzy
+msgid "Overlay a grid onto the map"
+msgstr "Rete monstrare super charta"
+
+#: src/game_preferences_display.cpp:354
+msgid "Sort the player list in the lobby by player groups"
+msgstr ""
+
+#: src/game_preferences_display.cpp:357
+#, fuzzy
+msgid "Show icons in front of the player names in the lobby."
+msgstr ""
+"Nuntios de lusoribus qui in vestibulum plurum lusorum intrant monstrare."
+
+#: src/game_preferences_display.cpp:360
+msgid "Uncheck to delete the saved password (on exit)."
+msgstr ""
+
+#: src/game_preferences_display.cpp:364
+#, fuzzy
+msgid "Do not show messages about players joining the multiplayer lobby"
+msgstr ""
+"Nuntios de lusoribus qui in vestibulum plurum lusorum intrant monstrare."
+
+#: src/game_preferences_display.cpp:366
+#, fuzzy
+msgid "Show messages about your friends joining the multiplayer lobby"
+msgstr ""
+"Nuntios de lusoribus qui in vestibulum plurum lusorum intrant monstrare."
+
+#: src/game_preferences_display.cpp:368
+#, fuzzy
+msgid "Show messages about all players joining the multiplayer lobby"
+msgstr ""
+"Nuntios de lusoribus qui in vestibulum plurum lusorum intrant monstrare."
+
+#: src/game_preferences_display.cpp:371
+msgid ""
+"mouseover^Use new lobby interface (only works after a manual reconnect to "
+"the server)"
+msgstr ""
+
+#: src/game_preferences_display.cpp:373
+msgid "Find and set path to MP server to host LAN games."
+msgstr ""
+
+#: src/game_preferences_display.cpp:374
+msgid "View and edit your friends and ignores list"
+msgstr ""
+
+#: src/game_preferences_display.cpp:375
+msgid "Back to the multiplayer options"
+msgstr ""
+
+#: src/game_preferences_display.cpp:376
+msgid "Add this username to your friends list"
+msgstr ""
+
+#: src/game_preferences_display.cpp:377
+msgid "Add this username to your ignores list"
+msgstr ""
+
+#: src/game_preferences_display.cpp:378
+msgid "Remove this username from your list"
+msgstr ""
+
+#: src/game_preferences_display.cpp:381
+msgid "Insert a username"
+msgstr "Ascribe nominem"
+
+#: src/game_preferences_display.cpp:384
+#, fuzzy
+msgid "Show text above a unit when it is hit to display damage inflicted"
+msgstr ""
+"Titulum super unitate damnum inflictum ostendens monstrare cum percutitur"
+
+#: src/game_preferences_display.cpp:386
+#, fuzzy
+msgid "Change the resolution the game runs at"
+msgstr "Modum visivum lusi mutare"
+
+#: src/game_preferences_display.cpp:387
+#, fuzzy
+msgid "Change the theme the game runs with"
+msgstr "Modum visivum lusi mutare"
+
+#: src/game_preferences_display.cpp:390
+#, fuzzy
+msgid "Display a dialog at the beginning of your turn"
+msgstr "Cestam dialogi in initio tractus tui monstrare"
+
+#: src/game_preferences_display.cpp:393
+#, fuzzy
+msgid "Play a bell sound at the beginning of your turn"
+msgstr "Tintinnabuli sonitum in initio tractus tui facere"
+
+#: src/game_preferences_display.cpp:396
+#, fuzzy
+msgid ""
+"Show a colored circle around the base of each unit to show which side it is "
+"on"
+msgstr ""
+"Circulum coloratum circa fundamentum cuiusque unitatis partem ostendentem "
+"monstrare."
+
+#: src/game_preferences_display.cpp:399
+#, fuzzy
+msgid "Choose whether the sun moves left-to-right or right-to-left"
+msgstr ""
+"Eligere si sol movetur a sinistra ad dexteram aut a dextera ad sinistram"
+
+#: src/game_preferences_display.cpp:402
+#, fuzzy
+msgid "Use colored mouse cursors (may be slower)"
+msgstr "Indiciis muris coloratis uti (potest esse lentior)"
+
+#: src/game_preferences_display.cpp:405
+#, fuzzy
+msgid "Use graphical special effects (may be slower)"
+msgstr "Iactationibus graphicis uti (potest esse lentior)"
+
+#: src/game_preferences_display.cpp:407
+#, fuzzy
+msgid "View and configure keyboard shortcuts"
+msgstr "Aspicere et imponere claves notarum"
+
+#: src/game_preferences_display.cpp:709
+msgid "Speed: "
+msgstr "Velocitas:"
+
+#: src/game_preferences_display.cpp:714 src/game_preferences_display.cpp:716
+msgid "Maximum Auto-Saves: "
+msgstr ""
+
+#: src/game_preferences_display.cpp:714
+msgid "infinite"
+msgstr "infinitus"
+
+#: src/game_preferences_display.cpp:895
+#, fuzzy
+msgid "Chat Lines: "
+msgstr "Lineae Sermonis: "
+
+#: src/game_preferences_display.cpp:917 src/game_preferences_display.cpp:925
+msgid "Invalid username"
+msgstr "Nomen irritum"
+
+#: src/game_preferences_display.cpp:1028
+msgid "yes"
+msgstr "ita"
+
+#: src/game_preferences_display.cpp:1030
+msgid "no"
+msgstr "non"
+
+#: src/game_preferences_display.cpp:1063
+msgid "(empty list)"
+msgstr "(inventarium vacuum)"
+
+#: src/game_preferences_display.cpp:1186
+msgid "Prefs section^General"
+msgstr "Generalis"
+
+#: src/game_preferences_display.cpp:1187
+#, fuzzy
+msgid "Prefs section^Display"
+msgstr "Scrinium"
+
+#: src/game_preferences_display.cpp:1188
+msgid "Prefs section^Sound"
+msgstr "Sonus"
+
+#: src/game_preferences_display.cpp:1189
+msgid "Prefs section^Multiplayer"
+msgstr "Plures Lusores"
+
+#: src/game_preferences_display.cpp:1190
+msgid "Advanced section^Advanced"
+msgstr "Addititius"
+
+#: src/game_preferences_display.cpp:1225
+#, fuzzy
+msgid "Saved Theme Preference: "
+msgstr "Impostatio Modi Visivi Servata:"
+
+#: src/game_preferences_display.cpp:1231
+#, fuzzy
+msgid "New theme will take effect on next new or loaded game."
+msgstr ""
+"Novum modum visivum effectum habebit cum primum lusum restues vel incipies."
+
+#: src/game_preferences_display.cpp:1235
+#, fuzzy
+msgid "No known themes. Try changing from within an existing game."
+msgstr "Nulli modi visivi noti.  Forsitan potes mutare inter lusum existens."
+
+#: src/game_preferences_display.cpp:1278
+msgid "Find $filename server binary to host networked games"
+msgstr ""
+
+#: src/gui/auxiliary/canvas.cpp:369
+msgid "Line doesn't fit on canvas."
+msgstr ""
+
+#: src/gui/auxiliary/canvas.cpp:504
+msgid "Rectangle doesn't fit on canvas."
+msgstr ""
+
+#: src/gui/auxiliary/canvas.cpp:971
+msgid "Text has a font size of 0."
+msgstr ""
+
+#: src/gui/auxiliary/canvas.cpp:1041
+msgid "Text doesn't start on canvas."
+msgstr ""
+
+#: src/gui/auxiliary/widget_definition.cpp:138
+#: src/gui/auxiliary/window_builder.cpp:204
+msgid "No resolution defined."
+msgstr ""
+
+#: src/gui/auxiliary/widget_definition/listbox.cpp:105
+#: src/gui/auxiliary/widget_definition/multi_page.cpp:54
+#: src/gui/auxiliary/widget_definition/scroll_label.cpp:73
+#: src/gui/auxiliary/widget_definition/scrollbar_panel.cpp:63
+#: src/gui/auxiliary/widget_definition/stacked_widget.cpp:51
+#: src/gui/auxiliary/widget_definition/tree_view.cpp:58
+#: src/gui/auxiliary/window_builder.cpp:311
+#: src/gui/auxiliary/window_builder/panel.cpp:35
+#: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
+msgid "No grid defined."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder.cpp:146
+msgid "Linked '$id' group has multiple definitions."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder.cpp:342
+msgid "Linked '$id' group needs a 'fixed_width' or 'fixed_height' key."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder.cpp:441
+msgid "A row must have a column."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder.cpp:442
+msgid "Number of columns differ."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:42
+#: src/gui/auxiliary/window_builder/listbox.cpp:52
+#: src/gui/auxiliary/window_builder/scrollbar_panel.cpp:41
+msgid "No list defined."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:46
+#: src/gui/auxiliary/window_builder/listbox.cpp:56
+msgid "A 'list_definition' should contain one row."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:62
+#: src/gui/auxiliary/window_builder/listbox.cpp:72
+#: src/gui/auxiliary/window_builder/multi_page.cpp:59
+msgid ""
+"'list_data' must have the same number of columns as the 'list_definition'."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder/multi_page.cpp:38
+msgid "No page defined."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder/slider.cpp:66
+msgid "The number of value_labels and values don't match."
+msgstr ""
+
+#: src/gui/auxiliary/window_builder/stacked_widget.cpp:36
+msgid "No stack defined."
+msgstr ""
+
+#: src/gui/dialogs/game_load.cpp:244
+msgid "#(Invalid)"
+msgstr "#(Irritus)"
+
+#: src/gui/dialogs/game_load.cpp:264
+msgid "Campaign: $campaign_name"
+msgstr "Militia: $campaign_name"
+
+#: src/gui/dialogs/game_load.cpp:283
+msgid "replay"
+msgstr ""
+
+#: src/gui/dialogs/game_load.cpp:285
+msgid "Turn"
+msgstr "Vicis"
+
+#: src/gui/dialogs/game_load.cpp:287
+msgid "Scenario Start"
+msgstr "Inceptio Scaenarii"
+
+#: src/gui/dialogs/game_load.cpp:290
+msgid "Difficulty: "
+msgstr "Difficultas: "
+
+#: src/gui/dialogs/game_load.cpp:294
+msgid "Version: "
+msgstr "Versio:"
+
+#: src/gui/dialogs/lobby_main.cpp:255
+msgid "whisper to $receiver"
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:691
+msgid "Games: showing $num_shown out of $num_total"
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:733
+msgid "Observers allowed"
+msgstr "Spectatores concessi"
+
+#: src/gui/dialogs/lobby_main.cpp:736
+msgid "Observers not allowed"
+msgstr "Spectatores inconcessi"
+
+#: src/gui/dialogs/lobby_main.cpp:1077
+msgid ""
+"Whisper session with $name started. If you don't want to receive messages "
+"from this user, type /ignore $name\n"
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:1083
+msgid "Room $name joined"
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:1400
+msgid "$player has entered the room"
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:1438
+msgid "$player has left the room"
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:1551
+msgid "Password Required"
+msgstr "Verbum Absconditum Necessarium Est"
+
+#: src/gui/dialogs/lobby_main.cpp:1552
+msgid "Joining this game requires a password."
+msgstr ""
+
+#: src/gui/dialogs/lobby_main.cpp:1553
+msgid "Password: "
+msgstr "Verbum Absconditum:"
+
+#: src/gui/dialogs/message.cpp:192 src/gui/dialogs/transient_message.cpp:57
+msgid "Error"
+msgstr "Error"
+
+#: src/gui/dialogs/mp_create_game.cpp:77
+msgid "Load Game..."
+msgstr "Ludum Restituere..."
+
+#: src/gui/dialogs/title_screen.cpp:91
+msgid "Version"
+msgstr "Versio"
+
+#: src/gui/widgets/helper.cpp:170
+msgid "Mandatory widget '$id' hasn't been defined."
+msgstr ""
+
+#: src/gui/widgets/settings.cpp:303
+msgid "Window not defined."
+msgstr ""
+
+#: src/gui/widgets/settings.cpp:408
+msgid ""
+"Widget definition '$definition' doesn't contain the definition for '$id'."
+msgstr ""
+
+#: src/gui/widgets/settings.cpp:496
+msgid "No default gui defined."
+msgstr ""
+
+#: src/gui/widgets/settings.cpp:523
+msgid "No state or draw section defined."
+msgstr ""
+
+#: src/gui/widgets/window.cpp:788
+msgid "Click dismiss needs a 'click_dismiss' or 'ok' button."
+msgstr ""
+
+#: src/gui/widgets/window.cpp:813 src/gui/widgets/window.cpp:846
+#: src/tests/gui/test_gui2.cpp:229
+msgid "Failed to show a dialog, which doesn't fit on the screen."
+msgstr ""
+
+#: src/hotkeys.cpp:46
+msgid "Next Unit"
+msgstr "Actor Secundus"
+
+#: src/hotkeys.cpp:47
+msgid "Previous Unit"
+msgstr "Actor Anterior"
+
+#: src/hotkeys.cpp:48
+msgid "Add waypoint"
+msgstr ""
+
+#: src/hotkeys.cpp:49
+#, fuzzy
+msgid "Hold Position"
+msgstr "Positionem Mantenere"
+
+#: src/hotkeys.cpp:50
+#, fuzzy
+msgid "End Unit Turn"
+msgstr "Tractum Unitatis Finire"
+
+#: src/hotkeys.cpp:51
+msgid "Leader"
+msgstr "Dux"
+
+#: src/hotkeys.cpp:52
+msgid "Undo"
+msgstr "Recantare"
+
+#: src/hotkeys.cpp:53
+msgid "Redo"
+msgstr "Reponere"
+
+#: src/hotkeys.cpp:54
+msgid "Zoom In"
+msgstr "Amplificare"
+
+#: src/hotkeys.cpp:55
+msgid "Zoom Out"
+msgstr "Minuere"
+
+#: src/hotkeys.cpp:56
+#, fuzzy
+msgid "Default Zoom"
+msgstr "Conspectus Solitus"
+
+#: src/hotkeys.cpp:57
+#, fuzzy
+msgid "Toggle Full Screen"
+msgstr "Scrinium Totum vel in Fenestra Permutare"
+
+#: src/hotkeys.cpp:58 src/hotkeys.cpp:892
+#, fuzzy
+msgid "Screenshot"
+msgstr "Imago Scrinii"
+
+#: src/hotkeys.cpp:59
+#, fuzzy
+msgid "Map Screenshot"
+msgstr "Imago Scrinii"
+
+#: src/hotkeys.cpp:60
+msgid "Accelerated"
+msgstr "Celerior"
+
+#: src/hotkeys.cpp:61
+msgid "Unit Description"
+msgstr "Descriptio Actoris"
+
+#: src/hotkeys.cpp:62
+msgid "Rename Unit"
+msgstr "Actorem Transnominare"
+
+#: src/hotkeys.cpp:64
+#, fuzzy
+msgid "Save Replay"
+msgstr "Claves Notarum Servare"
+
+#: src/hotkeys.cpp:65 src/hotkeys.cpp:112
+msgid "Save Map"
+msgstr "Chartam Servare"
+
+#: src/hotkeys.cpp:67
+msgid "Recruit"
+msgstr "Adlegere"
+
+#: src/hotkeys.cpp:68
+#, fuzzy
+msgid "Repeat Recruit"
+msgstr "Rursus Conscribere"
+
+#: src/hotkeys.cpp:69
+msgid "Recall"
+msgstr "Revocare"
+
+#: src/hotkeys.cpp:70
+msgid "End Turn"
+msgstr "Vicem Finire"
+
+#: src/hotkeys.cpp:71
+#, fuzzy
+msgid "Toggle Ellipses"
+msgstr "Rete Ponere/Tollere"
+
+#: src/hotkeys.cpp:72
+#, fuzzy
+msgid "Toggle Grid"
+msgstr "Rete Ponere/Tollere"
+
+#: src/hotkeys.cpp:73
+#, fuzzy
+msgid "Mouse Scrolling"
+msgstr "Gyrum Muris"
+
+#: src/hotkeys.cpp:74
+msgid "Status Table"
+msgstr "Mensa Status"
+
+#: src/hotkeys.cpp:75
+msgid "Mute"
+msgstr "Deprimere"
+
+#: src/hotkeys.cpp:76
+msgid "Speak"
+msgstr "Loqui"
+
+#: src/hotkeys.cpp:78
+#, fuzzy
+msgid "Change Side (Debug!)"
+msgstr "Partem Unitatis Mutare (Emendare!)"
+
+#: src/hotkeys.cpp:80
+msgid "Scenario Objectives"
+msgstr "Propositum Scaenarii"
+
+#: src/hotkeys.cpp:81
+msgid "Unit List"
+msgstr "Inventarium Actoris"
+
+#: src/hotkeys.cpp:82
+msgid "Statistics"
+msgstr "Breviarium Rationum"
+
+#: src/hotkeys.cpp:83 src/hotkeys.cpp:93
+msgid "Stop"
+msgstr "Consistere"
+
+#: src/hotkeys.cpp:84 src/hotkeys.cpp:91
+msgid "Play"
+msgstr "Ludere"
+
+#: src/hotkeys.cpp:86
+msgid "Set Team Label"
+msgstr "Titulum Manus Ponere"
+
+#: src/hotkeys.cpp:87
+msgid "Set Label"
+msgstr "Titulum Ponere"
+
+#: src/hotkeys.cpp:88
+#, fuzzy
+msgid "Clear Labels"
+msgstr "Titula Tollere"
+
+#: src/hotkeys.cpp:89
+#, fuzzy
+msgid "Show Enemy Moves"
+msgstr "Motus Hostium Monstrare"
+
+#: src/hotkeys.cpp:90
+#, fuzzy
+msgid "Best Possible Enemy Moves"
+msgstr "Motus Optimos Hostium Monstrare"
+
+#: src/hotkeys.cpp:92
+msgid "Reset"
+msgstr "Reponere"
+
+#: src/hotkeys.cpp:94
+#, fuzzy
+msgid "Next Turn"
+msgstr "Tractus Insequens"
+
+#: src/hotkeys.cpp:95
+msgid "Next Side"
+msgstr "Pars Proxima"
+
+#: src/hotkeys.cpp:97
+msgid "Full map"
+msgstr "Charta universa"
+
+#: src/hotkeys.cpp:99
+msgid "Each team"
+msgstr "Manus omnes"
+
+#: src/hotkeys.cpp:101
+msgid "Team 1"
+msgstr "Manus 1"
+
+#: src/hotkeys.cpp:102
+#, fuzzy
+msgid "Skip animation"
+msgstr "Animationem saltare"
+
+#: src/hotkeys.cpp:105
+#, fuzzy
+msgid "Quit to Desktop"
+msgstr "(To Desktop) Exire"
+
+#: src/hotkeys.cpp:106
+msgid "Close Map"
+msgstr "Chartam Claudere"
+
+#: src/hotkeys.cpp:107
+msgid "Switch Map"
+msgstr "Chartam Permutare"
+
+#: src/hotkeys.cpp:109
+msgid "Partial Undo"
+msgstr "Particularem Recantare"
+
+#: src/hotkeys.cpp:111
+msgid "Load Map"
+msgstr "Chartam Restituere"
+
+#: src/hotkeys.cpp:113
+msgid "Save Map As"
+msgstr "Chartam Servare Tamquam"
+
+#: src/hotkeys.cpp:114
+msgid "Revert All Changes"
+msgstr ""
+
+#: src/hotkeys.cpp:115
+#, fuzzy
+msgid "Map Information"
+msgstr "Generator Chartarum"
+
+#: src/hotkeys.cpp:117
+msgid "Swap fore- and background terrains"
+msgstr ""
+
+#: src/hotkeys.cpp:118
+#, fuzzy
+msgid "Next Tool"
+msgstr "Tractus Insequens"
+
+#: src/hotkeys.cpp:119
+msgid "Paint Tool"
+msgstr ""
+
+#: src/hotkeys.cpp:120
+msgid "Fill Tool"
+msgstr ""
+
+#: src/hotkeys.cpp:121
+#, fuzzy
+msgid "Selection Tool"
+msgstr "Omnia Eligere"
+
+#: src/hotkeys.cpp:123
+msgid "Set Starting Positions Tool"
+msgstr ""
+
+#: src/hotkeys.cpp:124
+#, fuzzy
+msgid "Next Brush"
+msgstr "Tractus Insequens"
+
+#: src/hotkeys.cpp:125
+#, fuzzy
+msgid "Default Brush"
+msgstr "Conspectus Solitus"
+
+#: src/hotkeys.cpp:126
+msgid "Cut"
+msgstr "Excidere"
+
+#: src/hotkeys.cpp:127
+msgid "Copy"
+msgstr "Exscribere"
+
+#: src/hotkeys.cpp:128
+msgid "Paste"
+msgstr "Glutinare"
+
+#: src/hotkeys.cpp:129
+msgid "Export selected coordinates to system clipboard"
+msgstr ""
+
+#: src/hotkeys.cpp:131
+msgid "Select All"
+msgstr "Omnia Eligere"
+
+#: src/hotkeys.cpp:133
+msgid "Select Inverse"
+msgstr ""
+
+#: src/hotkeys.cpp:135
+msgid "Select None"
+msgstr "Omnia Nulla"
+
+#: src/hotkeys.cpp:137
+msgid "Rotate Clipboard Clockwise"
+msgstr ""
+
+#: src/hotkeys.cpp:139
+msgid "Rotate Clipboard Counter-Clockwise"
+msgstr ""
+
+#: src/hotkeys.cpp:141
+msgid "Flip Clipboard Horizontally"
+msgstr ""
+
+#: src/hotkeys.cpp:143
+msgid "Flip Clipboard Vertically"
+msgstr ""
+
+#: src/hotkeys.cpp:145
+#, fuzzy
+msgid "Rotate Selection"
+msgstr "Electionem Implere"
+
+#: src/hotkeys.cpp:147
+#, fuzzy
+msgid "Flip Selection"
+msgstr "Electionem Implere"
+
+#: src/hotkeys.cpp:149
+#, fuzzy
+msgid "Fill Selection"
+msgstr "Electionem Implere"
+
+#: src/hotkeys.cpp:151
+#, fuzzy
+msgid "Generate Tiles In Selection"
+msgstr "Electionem Implere"
+
+#: src/hotkeys.cpp:153
+msgid "Randomize Tiles In Selection"
+msgstr ""
+
+#: src/hotkeys.cpp:157
+#, fuzzy
+msgid "Rotate Map"
+msgstr "Chartam Restituere"
+
+#: src/hotkeys.cpp:159
+#, fuzzy
+msgid "Generate Map"
+msgstr "Chartam Novam Generare"
+
+#: src/hotkeys.cpp:161
+msgid "Apply a Mask"
+msgstr "Aptare Personam"
+
+#: src/hotkeys.cpp:163
+msgid "Create Mask"
+msgstr "Personam Creare"
+
+#: src/hotkeys.cpp:165
+#, fuzzy
+msgid "Refresh Display"
+msgstr "Scrinium"
+
+#: src/hotkeys.cpp:167
+msgid "Update Terrain Transitions"
+msgstr ""
+
+#: src/hotkeys.cpp:169
+msgid "Auto-update Terrain Transitions"
+msgstr ""
+
+#: src/hotkeys.cpp:171
+#, fuzzy
+msgid "Refresh Image Cache"
+msgstr "Thesaurum Imaginum Renovare"
+
+#: src/hotkeys.cpp:173
+msgid "Draw Hex Coordinates"
+msgstr ""
+
+#: src/hotkeys.cpp:175
+#, fuzzy
+msgid "Draw Terrain Codes"
+msgstr "Agros Pingere"
+
+#: src/hotkeys.cpp:180
+msgid "Delay Shroud Updates"
+msgstr "Mutationem Absconsi Differre"
+
+#: src/hotkeys.cpp:181
+msgid "Update Shroud Now"
+msgstr "Absconsum Nunc Mutare"
+
+#: src/hotkeys.cpp:182
+#, fuzzy
+msgid "Continue Move"
+msgstr "Tractum Pergere"
+
+#: src/hotkeys.cpp:183
+#, fuzzy
+msgid "Find Label or Unit"
+msgstr "Titulum aut Unitatem Invenire"
+
+#: src/hotkeys.cpp:184
+#, fuzzy
+msgid "Speak to Ally"
+msgstr "Socio Loqui"
+
+#: src/hotkeys.cpp:185
+#, fuzzy
+msgid "Speak to All"
+msgstr "Omnibus Loqui"
+
+#: src/hotkeys.cpp:187
+#, fuzzy
+msgid "View Chat Log"
+msgstr "Acta Colloquii Aspicere"
+
+#: src/hotkeys.cpp:188
+#, fuzzy
+msgid "Change the language"
+msgstr "Linguam mutare"
+
+#: src/hotkeys.cpp:190
+#, fuzzy
+msgid "Enter user command"
+msgstr "Imperium utentis dare"
+
+#: src/hotkeys.cpp:191
+#, fuzzy
+msgid "Custom command"
+msgstr "Imperium utentis dare"
+
+#: src/hotkeys.cpp:192
+msgid "Run AI formula"
+msgstr ""
+
+#: src/hotkeys.cpp:193
+#, fuzzy
+msgid "Clear messages"
+msgstr "Titula Tollere"
+
+#: src/hotkeys.cpp:195
+msgid "User-Command#2"
+msgstr ""
+
+#: src/hotkeys.cpp:196
+msgid "User-Command#3"
+msgstr ""
+
+#: src/hotkeys.cpp:646 src/hotkeys.cpp:937
+msgid "Do you really want to quit?"
+msgstr "Visne vere exire?"
+
+#: src/hotkeys.cpp:892
+#, fuzzy
+msgid "Map-Screenshot"
+msgstr "Imago Scrinii"
+
+#: src/hotkeys.cpp:899
+#, fuzzy
+msgid "Screenshot done"
+msgstr "Imago Scrinii"
+
+#: src/hotkeys.cpp:901
+#, fuzzy
+msgid "Screenshot failed"
+msgstr "Imago Scrinii"
+
+#. TRANSLATORS: This is the language code which will be used
+#. to store and fetch localized non-textual resources, such as images,
+#. when they exist. Normally it is just the code of the PO file itself,
+#. e.g. "de" of de.po for German. But it can also be a comma-separated
+#. list of language codes by priority, when the localized resource
+#. found for first of those languages will be used. This is useful when
+#. two languages share sufficient commonality, that they can use each
+#. other's resources rather than duplicating them. For example,
+#. Swedish (sv) and Danish (da) are such, so Swedish translator could
+#. translate this message as "sv,da", while Danish as "da,sv".
+#: src/image.cpp:345
+msgid "language code for localized resources^en_US"
+msgstr "la"
+
+#: src/mapgen_dialog.cpp:109 src/preferences_display.cpp:289
+msgid "Close Window"
+msgstr "Fenestram Claudere"
+
+#: src/mapgen_dialog.cpp:112
+#, fuzzy
+msgid "Map Generator"
+msgstr "Generator Chartarum"
+
+#: src/mapgen_dialog.cpp:119
+msgid "Players:"
+msgstr "Lusores:"
+
+#: src/mapgen_dialog.cpp:122
+#, fuzzy
+msgid "Number of Hills:"
+msgstr "Numerus Collum:"
+
+#: src/mapgen_dialog.cpp:123
+#, fuzzy
+msgid "Max Hill Size:"
+msgstr "Magnitudo Maxima Collum:"
+
+#: src/mapgen_dialog.cpp:124
+msgid "Villages:"
+msgstr "Viculi:"
+
+#: src/mapgen_dialog.cpp:125
+msgid "Castle Size:"
+msgstr "Magnitudo Castelli:"
+
+#: src/mapgen_dialog.cpp:126
+msgid "Landform:"
+msgstr "Forma terrae: "
+
+#: src/mapgen_dialog.cpp:244
+msgid "Roads Between Castles"
+msgstr "Viae Inter Castella"
+
+#: src/mapgen_dialog.cpp:301
+#, fuzzy
+msgid "/1000 tiles"
+msgstr "pro M tegulis"
+
+#: src/mapgen_dialog.cpp:310
+msgid "Coastal"
+msgstr ""
+
+#: src/mapgen_dialog.cpp:310
+msgid "Inland"
+msgstr "Mediterranea"
+
+#: src/mapgen_dialog.cpp:310
+msgid "Island"
+msgstr "Insula"
+
+#: src/marked-up_text.cpp:406
+msgid "The maximum text width is less than 1."
+msgstr ""
+
+#: src/minimap.cpp:90
+msgid "Could not get image for terrain: $terrain."
+msgstr ""
+
+#: src/minimap.cpp:119 src/minimap.cpp:131
+msgid "Error creating or aquiring an image."
+msgstr ""
+
+#: src/preferences_display.cpp:128 src/preferences_display.cpp:194
+#, fuzzy
+msgid ""
+"The video mode could not be changed. Your window manager must be set to 16 "
+"bits per pixel to run the game in windowed mode. Your display must support "
+"1024x768x16 to run the game full screen."
+msgstr ""
+"Modus Visificus mutare non potevit. Administrator fenestrarum tuus imponi "
+"debet ad XVI bitos per punctum si vis luso cum modo fenestrarum uti. Si vis "
+"luso cum scrinio toto uti, necesse est habere modum MXXIV x DCCLXVIII x XVI "
+"in scrinio."
+
+#: src/preferences_display.cpp:293
+#, fuzzy
+msgid "Hotkey Settings"
+msgstr "Impostationes Clavium Notarum"
+
+#: src/preferences_display.cpp:299 src/preferences_display.cpp:367
+#, fuzzy
+msgid "Press desired Hotkey (Esc cancels)"
+msgstr "Premere Clavem Notarum volutam"
+
+#: src/preferences_display.cpp:318
+msgid "Action"
+msgstr "Actio"
+
+#: src/preferences_display.cpp:318
+msgid "Binding"
+msgstr "Adligatio"
+
+#: src/preferences_display.cpp:330
+#, fuzzy
+msgid "Change Hotkey"
+msgstr "Clavem Notarum Mutare"
+
+#: src/preferences_display.cpp:333
+#, fuzzy
+msgid "Clear Hotkey"
+msgstr "Clavem Notarum Mutare"
+
+#: src/preferences_display.cpp:401
+#, fuzzy
+msgid "This Hotkey is already in use."
+msgstr "Haec Clavis Notarum iam usum habet."
+
+#: src/preferences_display.cpp:412
+msgid ""
+"Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
+msgstr ""
+
+#: src/preferences_display.cpp:509
+#, fuzzy
+msgid "There are no alternative video modes available"
+msgstr "Carent alteris modis visivis"
+
+#: src/preferences_display.cpp:538
+#, fuzzy
+msgid "Choose Resolution"
+msgstr "Resolutionem Eligere"
+
+#: src/terrain_translation.cpp:703
+msgid ""
+"A terrain with a string with more than 4 characters has been found, the "
+"affected terrain is :"
+msgstr ""
+
+#: src/wml_exception.cpp:53
+msgid ""
+"An error due to possibly invalid WML occurred\n"
+"The error message is :"
+msgstr ""
+
+#: src/wml_exception.cpp:55
+msgid "When reporting the bug please include the following error message :"
+msgstr ""
+
+#: src/wml_exception.cpp:73
+msgid ""
+"In section '[$section|]' where '$primary_key| = $primary_value' the "
+"mandatory key '$key|' isn't set."
+msgstr ""
+
+#: src/wml_exception.cpp:76
+msgid "In section '[$section|]' the mandatory key '$key|' isn't set."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Save The Map"
+#~ msgstr "Chartam Servare"
+
+#~ msgid "Adjust Gamma"
+#~ msgstr "Gamma Accomodare"
+
+#~ msgid "Gamma:"
+#~ msgstr "Gamma:"
+
+#~ msgid "Change the brightness of the display"
+#~ msgstr "Candorem scrinii mutare"
+
+#, fuzzy
+#~ msgid "Change username"
+#~ msgstr "Linguam mutare"
+
+#, fuzzy
+#~ msgid "No scrollbar defined."
+#~ msgstr "Creatio chartae fefellit."
+
+#~ msgid "Your modifications to the map will be lost. Continue?"
+#~ msgstr "Mutationes tuae ad chartam perdentur. Visne pergere?"
+
+#~ msgid "Generate New Map"
+#~ msgstr "Chartam Novam Generare"
+
+#~ msgid "Random Generator Settings"
+#~ msgstr "Impostationes Generatoris Fortuiti"
+
+#~ msgid "Map creation failed."
+#~ msgstr "Creatio chartae fefellit."
+
+#~ msgid "Video Mode"
+#~ msgstr "Modus Visivus"
+
+#~ msgid "X-Axis"
+#~ msgstr "Axis X"
+
+#~ msgid "Y-Axis"
+#~ msgstr "Axis Y"
+
+#~ msgid "Flip around (this may change the dimensions of the map):"
+#~ msgstr "Volvi (hoc dimensiones chartae mutare potest)"
+
+#~ msgid "Set Terrain"
+#~ msgstr "Agrum Statuere"
+
+#~ msgid "Save As"
+#~ msgstr "Servare Ut"
+
+#~ msgid "Set Player's keep"
+#~ msgstr "Arcem lusoris Imponere"
+
+#~ msgid "Flood Fill"
+#~ msgstr "Inundare"
+
+#~ msgid "Flip Map"
+#~ msgstr "Chartam in Speculo Reddere"
+
+#~ msgid "Draw Terrain"
+#~ msgstr "Agros Pingere"
+
+#, fuzzy
+#~ msgid "Delay transition updates"
+#~ msgstr "Integumentum Tardius Ponere"
+
+#~ msgid "Cave Lit"
+#~ msgstr "Caverna Illustrata"
+
+#~ msgid "Save Hotkeys"
+#~ msgstr "Claves Notarum Servare"
+
+#, fuzzy
+#~ msgid "Advanced Mode"
+#~ msgstr "Provecta"
+
+#~ msgid "Dwarven Castle"
+#~ msgstr "Castellum Nanorum"

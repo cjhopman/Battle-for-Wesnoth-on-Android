@@ -1,0 +1,578 @@
+file /home/chris/bzr/battle/dev/project/jni/application/wesnoth-1.8.5/SConstruct,line 275:
+	Configure(confdir = build/sconf_temp)
+scons: Configure: Checking for C header file poll.h... 
+scons: Configure: "build/sconf_temp/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_0.c <-
+  |  |
+  |  |#include <poll.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_0.o -c build/sconf_temp/conftest_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/poll.h... 
+scons: Configure: "build/sconf_temp/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_1.c <-
+  |  |
+  |  |#include <sys/poll.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_1.o -c build/sconf_temp/conftest_1.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/select.h... 
+scons: Configure: "build/sconf_temp/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_2.c <-
+  |  |
+  |  |#include <sys/select.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_2.o -c build/sconf_temp/conftest_2.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/sendfile.h... 
+scons: Configure: "build/sconf_temp/conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_3.c <-
+  |  |
+  |  |#include <sys/sendfile.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_3.o -c build/sconf_temp/conftest_3.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function sendfile()... 
+scons: Configure: "build/sconf_temp/conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_4.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char sendfile();
+  |  |
+  |  |int main() {
+  |  |#if defined (__stub_sendfile) || defined (__stub___sendfile)
+  |  |  fail fail fail
+  |  |#else
+  |  |  sendfile();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_4.o -c build/sconf_temp/conftest_4.c
+  |
+scons: Configure: "build/sconf_temp/conftest_4" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_4 build/sconf_temp/conftest_4.o -lprofiler
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library m... 
+scons: Configure: "build/sconf_temp/conftest_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_5.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_5.o -c build/sconf_temp/conftest_5.c
+  |
+scons: Configure: "build/sconf_temp/conftest_5" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_5 build/sconf_temp/conftest_5.o -lprofiler -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function round()... 
+scons: Configure: "build/sconf_temp/conftest_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_6.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char round();
+  |  |
+  |  |int main() {
+  |  |#if defined (__stub_round) || defined (__stub___round)
+  |  |  fail fail fail
+  |  |#else
+  |  |  round();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_6.o -c build/sconf_temp/conftest_6.c
+  |
+scons: Configure: "build/sconf_temp/conftest_6" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_6 build/sconf_temp/conftest_6.o -lprofiler -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether C++ compiler works (g++ version >= 3.3 required)... 
+scons: Configure: "build/sconf_temp/conftest_7.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_7.cpp <-
+  |  |
+  |  |    #include <iostream>
+  |  |    int main()
+  |  |    {
+  |  |    std::cout << "Hello, world\n";
+  |  |    }
+  |  |    
+  |  |        #define GCC_VERSION (__GNUC__ * 10000 \
+  |  |                           + __GNUC_MINOR__ * 100 \
+  |  |                           + __GNUC_PATCHLEVEL__)
+  |  |        #if GCC_VERSION < 30300
+  |  |        #error Compiler version is too old!
+  |  |        #endif
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_7.o -c build/sconf_temp/conftest_7.cpp
+  |
+scons: Configure: "build/sconf_temp/conftest_7" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_7 build/sconf_temp/conftest_7.o -lprofiler -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Gettext's libintl... 
+scons: Configure: "build/sconf_temp/conftest_8.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_8.c <-
+  |  |
+  |  |        #include <libintl.h>
+  |  |
+  |  |        int main()
+  |  |        {
+  |  |            textdomain("test");
+  |  |            char* text = gettext("foo");
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_8.o -c build/sconf_temp/conftest_8.c
+  |
+scons: Configure: "build/sconf_temp/conftest_8" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_8 build/sconf_temp/conftest_8.o -lprofiler -lm
+  |
+scons: Configure: (cached) libc built-in
+
+scons: Configure: Checking for Boost iostreams library version >= 1.34.1... 
+scons: Configure: "build/sconf_temp/conftest_9.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_9.cpp <-
+  |  |
+  |  |        #include <boost/iostreams/constants.hpp>
+  |  |        
+  |  |#include <boost/version.hpp>
+  |  |#if BOOST_VERSION < 103401
+  |  |#error Boost version is too old!
+  |  |#endif
+  |  |
+  |  |        int main()
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_9.o -c -I/usr/include build/sconf_temp/conftest_9.cpp
+  |
+scons: Configure: "build/sconf_temp/conftest_9" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_9 build/sconf_temp/conftest_9.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for gzip support in Boost Iostreams... 
+scons: Configure: "build/sconf_temp/conftest_10.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_10.cpp <-
+  |  |
+  |  |        #include <boost/iostreams/filtering_stream.hpp>
+  |  |        #include <boost/iostreams/filter/gzip.hpp>
+  |  |
+  |  |        int main()
+  |  |        {
+  |  |            boost::iostreams::filtering_stream<boost::iostreams::output> filter;
+  |  |            filter.push(boost::iostreams::gzip_compressor(boost::iostreams::gzip_params()));
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_10.o -c -I/usr/include build/sconf_temp/conftest_10.cpp
+  |
+scons: Configure: "build/sconf_temp/conftest_10" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_10 build/sconf_temp/conftest_10.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Boost smart_ptr library... 
+scons: Configure: "build/sconf_temp/conftest_11.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_11.cpp <-
+  |  |
+  |  |        #include <boost/smart_ptr.hpp>
+  |  |        
+  |  |
+  |  |        int main()
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_11.o -c -I/usr/include build/sconf_temp/conftest_11.cpp
+  |
+scons: Configure: "build/sconf_temp/conftest_11" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_11 build/sconf_temp/conftest_11.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Simple DirectMedia Layer library version >= 1.2.7... 
+scons: Configure: "build/sconf_temp/conftest_12.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_12.c <-
+  |  |
+  |  |        #include <SDL.h> 
+  |  |        
+  |  |#if SDL_VERSIONNUM(SDL_MAJOR_VERSION, SDL_MINOR_VERSION, SDL_PATCHLEVEL) < SDL_VERSIONNUM(1, 2, 7)
+  |  |#error Library is too old!
+  |  |#endif
+  |  |
+  |  |        int main(int argc, char** argv)
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_12.o -c -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL build/sconf_temp/conftest_12.c
+  |
+scons: Configure: "build/sconf_temp/conftest_12" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_12 build/sconf_temp/conftest_12.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for SDL_net library... 
+scons: Configure: "build/sconf_temp/conftest_13.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_13.c <-
+  |  |
+  |  |        #include <SDL_net.h> 
+  |  |        
+  |  |
+  |  |        int main(int argc, char** argv)
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_13.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_13.o -c -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL build/sconf_temp/conftest_13.c
+  |
+scons: Configure: "build/sconf_temp/conftest_13" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_13 build/sconf_temp/conftest_13.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net
+  |
+scons: Configure: (cached) yes
+
+
+file /home/chris/bzr/battle/dev/project/jni/application/wesnoth-1.8.5/SConstruct,line 297:
+	Configure(confdir = build/sconf_temp)
+scons: Configure: Checking for Pango with cairo backend... 
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for fontconfig... 
+Found 'fontconfig' with pkg-config.
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Lua development files version 5.1... 
+Failed to find 'lua >= 5.1' with pkg-config.
+Found 'lua5.1 >= 5.1' with pkg-config.
+scons: Configure: "build/sconf_temp/conftest_14.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_14.c <-
+  |  |
+  |  |    #include <lualib.h>
+  |  |    #include <lauxlib.h>
+  |  |    int main() { luaL_newstate(); }
+  |  |    
+  |
+scons: Configure: "build/sconf_temp/conftest_14.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_14.o -c -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_14.c
+  |
+scons: Configure: "build/sconf_temp/conftest_14" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_14 -pthread build/sconf_temp/conftest_14.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Boost regex library version >= 1.35.0... 
+scons: Configure: "build/sconf_temp/conftest_15.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_15.cpp <-
+  |  |
+  |  |        #include <boost/regex/config.hpp>
+  |  |        
+  |  |#include <boost/version.hpp>
+  |  |#if BOOST_VERSION < 103500
+  |  |#error Boost version is too old!
+  |  |#endif
+  |  |
+  |  |        int main()
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_15.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_15.o -c -I/usr/include -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_15.cpp
+  |
+scons: Configure: "build/sconf_temp/conftest_15" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_15 -pthread build/sconf_temp/conftest_15.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for SDL_ttf library version >= 2.0.8... 
+scons: Configure: "build/sconf_temp/conftest_16.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_16.c <-
+  |  |
+  |  |        #include <SDL_ttf.h> 
+  |  |        
+  |  |#if SDL_VERSIONNUM(SDL_TTF_MAJOR_VERSION, SDL_TTF_MINOR_VERSION, SDL_TTF_PATCHLEVEL) < SDL_VERSIONNUM(2, 0, 8)
+  |  |#error Library is too old!
+  |  |#endif
+  |  |
+  |  |        int main(int argc, char** argv)
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_16.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_16.o -c -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_16.c
+  |
+scons: Configure: "build/sconf_temp/conftest_16" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_16 -pthread build/sconf_temp/conftest_16.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt -lSDL_ttf
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for SDL_mixer library version >= 1.2.0... 
+scons: Configure: "build/sconf_temp/conftest_17.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_17.c <-
+  |  |
+  |  |        #include <SDL_mixer.h> 
+  |  |        
+  |  |#if SDL_VERSIONNUM(SDL_MIXER_MAJOR_VERSION, SDL_MIXER_MINOR_VERSION, SDL_MIXER_PATCHLEVEL) < SDL_VERSIONNUM(1, 2, 0)
+  |  |#error Library is too old!
+  |  |#endif
+  |  |
+  |  |        int main(int argc, char** argv)
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_17.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_17.o -c -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_17.c
+  |
+scons: Configure: "build/sconf_temp/conftest_17" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_17 -pthread build/sconf_temp/conftest_17.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt -lSDL_ttf -lSDL_mixer
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for SDL_image library version >= 1.2.0... 
+scons: Configure: "build/sconf_temp/conftest_18.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_18.c <-
+  |  |
+  |  |        #include <SDL_image.h> 
+  |  |        
+  |  |#if SDL_VERSIONNUM(SDL_IMAGE_MAJOR_VERSION, SDL_IMAGE_MINOR_VERSION, SDL_IMAGE_PATCHLEVEL) < SDL_VERSIONNUM(1, 2, 0)
+  |  |#error Library is too old!
+  |  |#endif
+  |  |
+  |  |        int main(int argc, char** argv)
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_18.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_18.o -c -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_18.c
+  |
+scons: Configure: "build/sconf_temp/conftest_18" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_18 -pthread build/sconf_temp/conftest_18.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt -lSDL_ttf -lSDL_mixer -lSDL_image
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Ogg Vorbis support in SDL... 
+scons: Configure: "build/sconf_temp/conftest_19.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_19.c <-
+  |  |
+  |  |    #include <SDL_mixer.h>
+  |  |    #include <stdlib.h>
+  |  |
+  |  |    int main(int argc, char **argv)
+  |  |    {
+  |  |        Mix_Music* music = Mix_LoadMUS("data/core/music/main_menu.ogg");
+  |  |        if (music == NULL) {
+  |  |            exit(1);
+  |  |        }
+  |  |        exit(0);
+  |  |    }
+  |  |
+  |  |
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_19.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_19.o -c -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_19.c
+  |
+scons: Configure: "build/sconf_temp/conftest_19" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_19 -pthread build/sconf_temp/conftest_19.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt -lSDL_ttf -lSDL_mixer -lSDL_image
+  |
+scons: Configure: "build/sconf_temp/conftest_19.out" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_19 > build/sconf_temp/conftest_19.out
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library X11... 
+scons: Configure: "build/sconf_temp/conftest_20.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_20.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_20.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_20.o -c -pthread -D_GNU_SOURCE=1 -D_REENTRANT -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 build/sconf_temp/conftest_20.c
+  |
+scons: Configure: "build/sconf_temp/conftest_20" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o build/sconf_temp/conftest_20 -pthread build/sconf_temp/conftest_20.o -L/usr/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt -lSDL_ttf -lSDL_mixer -lSDL_image -lX11
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for dbus-1... 
+Found 'dbus-1' with pkg-config.
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for fribidi >= 0.10.9... 
+Found 'fribidi >= 0.10.9' with pkg-config.
+scons: Configure: (cached) yes
+
+
+file /home/chris/bzr/battle/dev/project/jni/application/wesnoth-1.8.5/SConstruct,line 327:
+	Configure(confdir = build/sconf_temp)
+scons: Configure: Checking for Boost unit_test_framework library... 
+scons: Configure: "build/sconf_temp/conftest_21.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/sconf_temp/conftest_21.cpp <-
+  |  |
+  |  |        #include <boost/test/unit_test.hpp>
+  |  |        
+  |  |
+  |  |        boost::unit_test::test_suite* init_unit_test_suite ( int, char**)
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |  |        int main()
+  |  |        {
+  |  |        }
+  |  |        
+  |  |
+  |
+scons: Configure: "build/sconf_temp/conftest_21.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_21.o -c -I/usr/include -pthread -D_GNU_SOURCE=1 -D_REENTRANT -DHAVE_LIBDBUS -I/usr/include/SDL -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/lua5.1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/fribidi build/sconf_temp/conftest_21.cpp
+  |
+scons: Configure: "build/sconf_temp/conftest_21" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o build/sconf_temp/conftest_21 -pthread build/sconf_temp/conftest_21.o -L/usr/lib -L/lib -lprofiler -lm -lboost_iostreams-mt -lSDL -lSDL_net -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 -lfontconfig -llua5.1 -lboost_regex-mt -lSDL_ttf -lSDL_mixer -lSDL_image -lX11 -ldbus-1 -lpthread -lrt -lfribidi -lboost_unit_test_framework-mt
+  |
+scons: Configure: (cached) yes
+
+

@@ -1,0 +1,12 @@
+# List of language codes that have at least one localized file.
+languages = de en@shaw es fr hu it la lt ru \
+            sr sr@ijekavian sr@ijekavianlatin sr@latin zh_CN
+
+# We're currently using Subversion.
+source-vcs = svn
+
+# Ignore overlay marker in localized filenames when matching with original.
+ignore-substr = --overlay
+
+# Tight grouping of lines in track file (not many images expected).
+tight-track-file = 1

@@ -1,0 +1,41 @@
+# vi: syntax=python:et:ts=4
+from os.path import join
+from glob import glob
+import SCons.Node
+Import("env")
+
+binaries = ["wesnoth"]
+for bin in binaries:
+    #icon = env.Command(bin + "-icon.ico", join("../../icons", bin + "-icon.png"), "$IM_CONVERT $SOURCE $TARGET")
+    try:
+        env["RCCOM"] = '$RC $_CPPDEFFLAGS $RCINCFLAGS ${RCINCPREFIX} ${SOURCE.dir} $RCFLAGS -i $SOURCE -o $TARGET'
+        res = [env.RES(bin + ".rc", CPPPATH=[])]
+        #env.Depends(res, icon)
+    except AttributeError:
+        res = []
+    env[bin + "_res"] = res
+
+def WindowsInstaller(env, files):
+    files = map(Entry, Flatten(files))
+    env["NSIS_INSTALL_FILES"] = ""
+    env["NSIS_UNINSTALL_FILES"] = ""
+    try:
+        env["version_major"] = ".".join(env["version"].split(".")[0:2])
+    except:
+        env["version_major"] = ""
+    for file in files:
+        if not file:
+            continue
+        if file.isdir() or isinstance(file, SCons.Node.FS.Dir):
+            env["NSIS_INSTALL_FILES"] += 'SetOutPath "$INSTDIR\\' + file.path + '"\n  '
+            env["NSIS_INSTALL_FILES"] += "File /r /x .* " + file.path + "\\*.*\n  "
+            env["NSIS_UNINSTALL_FILES"] += "RMDir /r $INSTDIR\\" + file.name + "\n  "
+        else:
+            env["NSIS_INSTALL_FILES"] += 'SetOutPath "$INSTDIR"\n  '
+            env["NSIS_INSTALL_FILES"] += "File " + file.path + "\n  "
+            env["NSIS_UNINSTALL_FILES"] += "Delete $INSTDIR\\" + file.name + "\n  "
+    env.ScanReplace("#/Wesnoth.nsi", "#/packaging/windows/Wesnoth.nsi.in")
+
+    env.Alias("windows-installer", [files, "#/Wesnoth.nsi"], "makensis ${SOURCES[-1]}")
+
+env.AddMethod(WindowsInstaller)

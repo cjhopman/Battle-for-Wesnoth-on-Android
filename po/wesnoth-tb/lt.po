@@ -1,0 +1,1205 @@
+# Copyright (C) Wesnoth development team, 2007-2010.
+# Translators:
+#  Andrius Štikonas <stikonas@gmail.com>, 2007-2010.
+#  Marius Tauba, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 1.8\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-08-13 11:21+0200\n"
+"PO-Revision-Date: 2010-01-01 00:00+0300\n"
+"Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==1 && n%100!=11 ? 1 : n"
+"%10>=2 && (n%100<10 || n%100>=20) ? 2 : 3);\n"
+"X-Generator: Lokalize 1.1\n"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:12
+msgid "A Tale of Two Brothers"
+msgstr "Pasakojimas apie du brolius"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:13
+msgid "AToTB"
+msgstr "PaDB"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:17
+msgid "(Beginner)"
+msgstr "(Pradedantysis)"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:17
+msgid "Horseman"
+msgstr "Raitelis"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:18
+msgid "(Challenging)"
+msgstr "(Iššaukiantis)"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:18
+msgid "Knight"
+msgstr "Riteris"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:21
+msgid ""
+"(Novice level, 4 scenarios; the 'Hard' version may challenge more "
+"experienced players.)"
+msgstr ""
+"(Pradedančiojo lygis, 4 scenarijai; „Sunki“ versija gali mesti iššūkį ir "
+"labiau patyrusiems žaidėjams.)"
+
+#. [campaign]: id=Two_Brothers
+#: data/campaigns/Two_Brothers/_main.cfg:21
+msgid ""
+"An evil mage is threatening the small village of Maghre and its inhabitants. "
+"The village's mage Bjarn sends for his brother to help, but not all goes as "
+"planned. Can you help?\n"
+"\n"
+msgstr ""
+"Piktasis magas grasina mažam kaimui Maghrė ir jo gyventojams. Kaimo magas "
+"Bjarnas paprašo savo brolio pagalbos, bet ne viskas einasi kaip planuota. Ar "
+"galite padėti?\n"
+"\n"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:28
+msgid "Campaign Design"
+msgstr "Kampaniją kūrė"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:37
+msgid "Campaign Maintenance"
+msgstr "Kampanijos priežiūra"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:43
+msgid "Artwork and Graphics Design"
+msgstr "Grafiką kūrė"
+
+#. [about]
+#: data/campaigns/Two_Brothers/_main.cfg:55
+msgid "Miscellaneous"
+msgstr "Įvairūs"
+
+#. [entry]
+#: data/campaigns/Two_Brothers/_main.cfg:69
+msgid "And special thanks to everyone else who I forgot to mention."
+msgstr "Didelis ačiū visiems kitiems, kuriuos pamiršau paminėti."
+
+#. [scenario]: id=1_Rooting_Out_A_Mage
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:4
+msgid "Rooting Out A Mage"
+msgstr "Išrauti magą"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:53
+msgid ""
+"The remote freehold of Maghre in the western reaches of the kingdom of "
+"Wesnoth was once a peaceful place, its inhabitants largely unaware of the "
+"comings and goings of the wider world. Wars and the rumor of wars touched "
+"them not, until the day a dark mage settled in the region and began seeking "
+"sacrifices for his evil summonings."
+msgstr ""
+"Kadaise tolimas Maghrė kaimas vakariniuose Vesnoto karalystės pakraščiuose "
+"buvo taiki vieta, jo gyventojai nelabai ką žinojo apie įvykius plačiajame "
+"pasaulyje. Karai ir gandai apie juos jų nepalietė iki tos dienos, kai "
+"tamsusis magas apsigyveno jų krašte ir pradėjo ieškoti aukų savo blogio "
+"kūriniams."
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:57
+msgid ""
+"Skeletons and zombies killed cattle and fired fields. 'Fear and obey Mordak "
+"the Mage!' they cried in fell voices as they did their foul deeds. People "
+"vanished from isolated farmsteads. Men and women began to fear the night, "
+"and their children even the bright day. But the nearest lord was more than a "
+"day's ride distant, and messengers sent to seek his help did not return."
+msgstr ""
+"Skeletai ir zombiai skerdė galvijus ir degino laukus. „Bijokite ir "
+"pakluskite Magui Mordakui!“ šaukė jie kraupiais balsais, darydami savo "
+"piktus darbus. Žmonės išnyko iš nutolusių fermų. Vyrai ir moterys pradėjo "
+"bijoti nakties, o jų vaikai netgi šviesios dienos. Bet artimiausias valdovas "
+"buvo toliau, nei diena kelio arkliu, o pasiuntiniai, išsiųsti prašyti jo "
+"pagalbos, negrįžo."
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:61
+msgid ""
+"There was a man named Bjarn who had shown talent as a mage when he was "
+"young, gone to the great Academy on the Isle of Alduin, and returned to work "
+"his magic in the land where he was born. The people looked to him for help "
+"and leadership. He found weapons half-forgotten from the times of their "
+"sires and grandsires hanging in many houses, and bade the villagers to take "
+"them down and clean and oil them. He set the smiths of Maghre to making "
+"spearheads and ax-blades for the rest."
+msgstr ""
+"Buvo vyras, vardu Bjarnas, kuris, būdamas jaunas, parodė gabumų magijai ir "
+"išvyko į didžiąją Akademiją Alduino saloje, paskui grįžo į gimtąjį kraštą "
+"dirbti su savo magija. Žmonės jame matė vadovą ir gelbėtoją. Jis rado "
+"ginklus, beveik pamirštus nuo jų tėvų ir senelių laikų, kabojusius daugelyje "
+"namų, liepė kaimiečiams juos nuimti, nuvalyti ir sutepti alyva. Jis liepė "
+"Maghrės kalviams nukaldinti ietigalius ir kirvapeilius likusiems."
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:65
+msgid ""
+"Now Bjarn had a brother named Arne who had also left Maghre to seek his "
+"fortune, and had become the leader of a small band of horsemen who hired out "
+"as guards to merchant caravans. Fortunate it was for all that when Bjarn was "
+"but an apprentice mage, he had made a pair of amulets for himself and his "
+"brother, with which they might call to each other when in dire need. Bjarn "
+"sent out that call."
+msgstr ""
+"Bjarnas turėjo brolį vardu Arne, kuris taip pat paliko Maghrę ieškodamas "
+"savo likimo ir tapo mažos raitelių grupelės vadu, kurie samdėsi pirklių "
+"karavanams saugoti. Laimei, besimokydamas magijos Bjarnas padarė porą "
+"amuletų sau ir broliui, kuriais labai prireikus jie galėjo vienas kitą "
+"pašaukti. Bjarnas išsiuntė pagalbos šauksmą."
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:69
+msgid ""
+"Heeding the call of his amulet, Arne gathered such men as he could and "
+"hurried to Maghre to help Bjarn."
+msgstr ""
+"Atsakydamas į amuleto šaukimą, Arne surinko tuos vyrus, kuriuos sugebėjo ir "
+"išskubėjo į Maghrę padėti Bjarnui."
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:80
+msgid "Slay Mordak, the evil mage"
+msgstr "Nužudykite Mordaką, piktąjį magą"
+
+#. [objective]: condition=lose
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:84
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:72
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:329
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:504
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:193
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:635
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:761
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:37
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:189
+msgid "Death of Arne"
+msgstr "Arne mirtis"
+
+#. [objective]: condition=lose
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:88
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:76
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:333
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:508
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:197
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:639
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:765
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:45
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:197
+msgid "Turns run out"
+msgstr "Pasibaigia ėjimai"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:105
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:101
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:54
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:67
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:40
+msgid "Arne"
+msgstr "Arne"
+
+#. [unit]: id=Bjarn, type=Red Mage
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:115
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:697
+msgid "Bjarn"
+msgstr "Bjarnas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:135
+msgid "Alwyn"
+msgstr "Alvynas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:136
+msgid "Brent"
+msgstr "Brentas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:137
+msgid "Cadell"
+msgstr "Kadellis"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:138
+msgid "Dannen"
+msgstr "Dannenas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:139
+msgid "Efran"
+msgstr "Efranas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:140
+msgid "Fargus"
+msgstr "Fargusas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:143
+msgid "Erik"
+msgstr "Erikas"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:144
+msgid "Heine"
+msgstr "Heine"
+
+#. [side]: type=Knight, id=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:145
+msgid "Magnus"
+msgstr "Magnusas"
+
+#. [side]: type=Knight, id=Arne
+#. [side]: type=Longbowman, id=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:149
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:109
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:63
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:75
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:116
+msgid "Humans"
+msgstr "Žmonės"
+
+#. [side]: type=Dark Sorcerer, id=Mordak
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:162
+msgid "Mordak"
+msgstr "Mordakas"
+
+#. [side]: type=Dark Sorcerer, id=Mordak
+#. [side]: type=Dark Sorcerer, id=Rotharik
+#. [side]
+#. [side]: type=Orcish Warlord, id=Tairach
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:176
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:94
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:135
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:104
+msgid "Enemies"
+msgstr "Priešai"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:186
+msgid "Greetings, my brother! How may my men and I be of aid?"
+msgstr "Sveikinimai, brolau! Kuo aš ir mano vyrai galime padėti?"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:190
+msgid ""
+"A dark mage has come upon us; his creatures call him Mordak. They have been "
+"terrorizing outlying farms, and we fear they may soon attack the village "
+"itself! The villagers of Maghre have taken up weapons but they are not "
+"trained fighters; but we need your men, and you to lead them."
+msgstr ""
+"Tamsusis magas užpuolė mus; jo sutvėrimai vadina jį Mordaku. Jie terorizuoja "
+"tolimesnes fermas, ir mes bijome, kad jie tuoj gali užpulti patį kaimą! "
+"Maghrės gyventojai pakėlė ginklus, bet jie nėra treniruoti kariai; todėl "
+"mums reikia tavo vyrų ir tavęs, kad juos vestum."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:194
+msgid ""
+"I can feel Mordak's foul touch on the hidden currents of the earth and air. "
+"He is somewhere due north of here, I would say not more than two days' ride."
+msgstr ""
+"Jaučiu piktą Mordako prisilietimą prie slaptų žemės ir oro srovių. Jis yra "
+"kažkur į šiaurę nuo čia, sakyčiau, nedaugiau nei dvi dienos kelio."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:198
+msgid ""
+"I will lead my men, and such villagers as can keep up with us, north to slay "
+"this Mordak! What will you do?"
+msgstr ""
+"Aš vesiu savo vyrus ir tuos kaimiečius, kurie gali neatsilikti nuo mūsų, į "
+"šiaurę, kad nužudyčiau šitą Mordaką! Ką tu darysi?"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:202
+msgid ""
+"You shall be the right hand, I the left. I will go stealthily with a handful "
+"of our best scouts and woodsmen. While you demonstrate against him and kill "
+"his creatures, I will try to defeat Mordak himself with magic at an "
+"unguarded moment. Together we may accomplish what either alone may not."
+msgstr ""
+"Tu būsi dešinioji ranka, aš kairioji. Eisiu slaptai, su saujele geriausių "
+"mūsų žvalgų ir miškininkų. Kol tu atvirai rodysies jam ir žudysi jo "
+"sutvėrimus, aš pabandysiu nugalėti patį Mordaką pasitelkęs magiją, kai jis "
+"bus nesaugomas. Kartu atliksime tai, ko nei vienas iš mūsų atskirai "
+"nesugebėtų."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:213
+msgid ""
+"Bjarn should be in position by now. Press them, distract the adept so Bjarn "
+"can spring his trap!"
+msgstr ""
+"Bjarnas jau turėtų būti vietoje. Paspauskite juos, atitraukite mago dėmesį, "
+"kad Bjarnas galėtų paspęsti savo spąstus!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:221
+msgid ""
+"Bjarn has not made his attack! I begin to fear for him... and it means we "
+"must deal with this Mordak ourselves!"
+msgstr ""
+"Bjarno ataka nepavyko! Pradedu baimintis dėl jo... O tai reiškia, kad "
+"privalome patys susitvarkyti su Mordaku!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:232
+msgid "Argh!"
+msgstr "Argh!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:236
+msgid "Good work, men! But what has become of my brother?"
+msgstr "Puikus darbas, vyrai! Bet kas atsitiko mano broliui?"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:240
+msgid "Worried about him, are you? E-he-he..hergh...gaargh..."
+msgstr "Susirūpinęs dėl jo, ar ne? Ė-che-che..hergh...gaargh..."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:248
+msgid ""
+"There's nothing more to be had from this one; we will have to search for "
+"Bjarn ourselves!"
+msgstr "Iš šito daugiau nieko nebeišgausime; turėsime patys surasti Bjarną!"
+
+#. [message]: role=Reporter
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:256
+msgid ""
+"Sir, our scouts report that Bjarn was seen captured and carried away further "
+"north!"
+msgstr ""
+"Pone, mūsų žvalgai pranešė, kad Bjarnas buvo pastebėtas surištas ir "
+"gabenamas tolyn į šiaurę!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:260
+msgid "That they should dare this! We will give chase at once."
+msgstr "Kaip jie išdrįso! Vykimės juos tuojau pat."
+
+#. [message]: speaker=Mordak
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:274
+msgid "Your brother's plan to ambush me has failed. He is our prisoner now."
+msgstr ""
+"Tavo brolio planas užklupti mane iš pasalų nepavyko. Jis dabar mūsų kalinys."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:278
+msgid ""
+"My brother, kidnapped? I have failed you, Bjarn! And even now Mordak's "
+"forces descend upon the village!"
+msgstr ""
+"Mano brolis, pagrobtas? Nuvyliau tave, Bjarnai! Ir netgi dabar Mordako "
+"pajėgos puola kaimą!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:293
+msgid "I hear these creatures are nigh-immune to our weapons, let us see!"
+msgstr ""
+"Girdėjau, kad šitiems padarams beveik nebaisūs mūsų ginklai, pažiūrėkime!"
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:308
+msgid "That was not so hard!"
+msgstr "Nebuvo taip jau sunku!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/1_Rooting_Out_A_Mage.cfg:319
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:523
+msgid "All is lost now that I am dead..."
+msgstr "Dabar, kai aš negyvas, viskas prarasta..."
+
+#. [scenario]: id=2_The_Chase
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:4
+msgid "The Chase"
+msgstr "Persekiojimas"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:31
+msgid ""
+"The pursuit had already run for several days when the pursuers came to the "
+"bounds of the huge forest known as the Grey Woods. Ancient tales warned of "
+"lost souls haunting the wood, hunting and killing anyone brave enough to "
+"enter it."
+msgstr ""
+"Persekiojimas vyko jau keletą dienų, kai persekiotojai prijojo milžiniško "
+"miško, žinomo kaip Pilkoji giria, ribas. Senovės pasakojimai bylojo apie "
+"miške klajojančias pasiklydusias dvasias, medžiojančias ir žudančias visus, "
+"turinčius užtektinai drąsos ten įžengti."
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:36
+msgid ""
+"Heedless of those rumors, Arne followed them. His only worry was that his "
+"horsemen would be at disadvantage if attacked in the forest."
+msgstr ""
+"Nekreipdamas dėmesio į šiuos gandus, Arne nusekė juos. Vienintelis jo "
+"rūpestis buvo tai, kad jei raiteliai bus užpulti miške - jie atsidurs labai "
+"nepalankioje padėtyje."
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:68
+msgid "Fight your way through the woods before the kidnappers escape"
+msgstr "Prasiskinkite kelią per miškus kol pagrobėjai nepaspruko."
+
+#. [side]: type=Elvish Rider, id=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:124
+msgid "Nil-Galion"
+msgstr "Nil-Galionas"
+
+#. [side]: type=Elvish Rider, id=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:131
+msgid "Elves"
+msgstr "Elfai"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:221
+msgid "Sounds of a scuffle were heard from the forest."
+msgstr "Iš miško buvo girdėti kovos garsai."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:225
+msgid ""
+"Come on, men. A stroll through such lovely green woods, what could be finer?"
+msgstr ""
+"Eime, vyrai. Pasivaikščiojimas po mielą žalią girią, kas gali būti smagiau?"
+
+#. [message]: role=speaker
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:229
+msgid ""
+"It is whispered that hungry ghosts rule this forest, and kill everyone who "
+"dares to enter."
+msgstr ""
+"Šnabždama, kad alkani vaiduokliai valdo šį mišką, ir nužudo kiekvieną "
+"išdrįsusį ten įžengti."
+
+#. [message]: speaker=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:233
+msgid "You there! Halt and explain yourself."
+msgstr "Ei tu ten! Stok ir pasiaiškink."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:237
+msgid "We're chasing after some men who kidnapped my brother!"
+msgstr "Vejamės žmones, kurie pagrobė mano brolį!"
+
+#. [message]: speaker=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:241
+msgid ""
+"Those men told me their prisoner had attempted to murder their master, and "
+"warned that evil men would follow him. Advance no further, or you will die."
+msgstr ""
+"Tie žmonės pasakė man, kad kalinys bandė nužudyti jų valdovą, ir įspėjo, kad "
+"pikti vyrai seks paskui. Daugiau nė žingsnio, arba mirsite."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:245
+msgid ""
+"So much for those ghost stories. Mere elves will not stop me from freeing my "
+"brother!"
+msgstr ""
+"Tai tiek tų pasakojimų apie vaiduoklius. Paprasti elfai nesutrukdys man "
+"išlaisvinti brolį."
+
+#. [message]: role=speaker
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:249
+msgid ""
+"I am glad at least that we will not have to face ghosts. But those elves "
+"will have us at a disadvantage; our horses will not maneuver well in the "
+"trees."
+msgstr ""
+"Džiaugiuosi, kad mums neteks kautis prieš vaiduoklius. Bet šitie elfai mus "
+"pastatys į nepalankią padėtį; mūsų žirgai tarp medžių negalės gerai "
+"manevruoti."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:253
+msgid ""
+"Bah, just stay on the paths; our spearmen and bowmen can fight in the deeper "
+"woods. We have faced and won through greater perils than those amateurs can "
+"offer."
+msgstr ""
+"Hm, tiesiog likite ant kelio; mūsų ietininkai ir lankininkai gali kautis "
+"giliau miškuose. Kovėmės ir nugalėjome didesnius pavojus, nei šie mėgėjai "
+"gali pasiūlyti."
+
+#. [unit]: type=Dark Adept, id=Muff Toras
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:268
+msgid "Muff Toras"
+msgstr "Muff Toras"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:316
+msgid "I see them! There they are!"
+msgstr "Matau juos! Jie ten!"
+
+#. [message]: speaker=Muff Toras
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:320
+msgid ""
+"Curses! If they had been an hour slower our master's reinforcements would "
+"already be here to meet us."
+msgstr ""
+"Prakeikimas! Jei jie būtų pasirodę bent valanda vėliau, mūsų šeimininko "
+"pastiprinimas jau būtų čia."
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:325
+msgid "Kill the Dark Adept before his reinforcements arrive"
+msgstr "Nužudykite tamsos žinovą prieš atvykstant pastiprinimui"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:345
+msgid "Come on, men, let's catch those kidnappers!"
+msgstr "Pirmyn, vyrai, pričiupkime tuos pagrobėjus!"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:356
+msgid ""
+"Hah! You have captured me, but it will avail you nothing. I sent your "
+"precious brother the mage north with half my men a day since; he will be "
+"safely locked away in our master's dungeons by now."
+msgstr ""
+"Cha! Jūs sučiupote mane, bet tai jums nepadės. Nusiunčiau tavo brangųjį "
+"brolį magą į šiaurę kartu su puse savo vyrų; dabar jis jau bus saugiai "
+"užrakintas mūsų šeimininko požemiuose."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:360
+msgid ""
+"My blade is at your throat. Give us the way to my brother now, or I will "
+"spill your wretched blood on the ground."
+msgstr ""
+"Mano kardas yra prie tavo gerklės. Dabar nurodyk kelią pas mano brolį, arba "
+"praliesiu tavo niekingą kraują ant žemės."
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:363
+msgid "Sithrak"
+msgstr "Sitrakas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:364
+msgid "Eleben"
+msgstr "Elebenas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:365
+msgid "Jarlom"
+msgstr "Džarlomas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:366
+msgid "Hamik"
+msgstr "Hamikas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:369
+msgid "Akranbral"
+msgstr "Akranbralas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:370
+msgid "Drakanal"
+msgstr "Drakanalas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:371
+msgid "Xaskanat"
+msgstr "Zaskanatas"
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:372
+msgid "Katklagad"
+msgstr "Katklagadas"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:377
+msgid ""
+"Three days ride to the northeast, in a deserted castle. The passwords to the "
+"guards are $first_password_$first_password_number and $second_password_"
+"$second_password_number|."
+msgstr ""
+"Trys dienos kelio į šiaurės rytus, apleistoje pilyje. Slaptažodžiai "
+"sargybiniams yra $first_password_$first_password_number ir $second_password_"
+"$second_password_number|."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:381
+msgid "Bind him and take him with us. If he has played us false, he will die."
+msgstr "Suriškit jį ir paimkim jį su savimi. Jei jis mus apgavo - mirs."
+
+#. [event]
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:391
+msgid "Brena"
+msgstr "Brenas"
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:400
+msgid ""
+"Greetings. I am Brena, a knight errant. I saw you pursuing and fighting the "
+"foul undead. Are there more of them to be destroyed?"
+msgstr ""
+"Sveikinimai. Aš Brenas, keliaujantis riteris. Mačiau jus besivejančius ir "
+"besikaunančius su bjauriais nemirėliais. Ar yra jų ir daugiau, kuriuos "
+"reikia sunaikinti?"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:404
+msgid ""
+"Aye. We think there's a nest of them north-east of here. They've captured my "
+"brother."
+msgstr ""
+"Taip. Manome, kad jų irštva yra į šiaurės rytus nuo čia. Jie pagrobė mano "
+"brolį."
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:408
+msgid ""
+"I bear a great hatred towards their kind. I will follow and fight them with "
+"you, if you permit."
+msgstr ""
+"Didžiai nekenčiu jų rūšies. Seksiu ir kovosiu prieš juos kartu su jumis, jei "
+"leisite."
+
+#. [message]: type=Horseman
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:412
+msgid "He would only slow us down!"
+msgstr "Jis tik sulėtins mus!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:416
+msgid "It is my place to decide this."
+msgstr "Čia aš sprendžiu."
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:418
+msgid "Oh, all right then. Come along with us."
+msgstr "Na gerai. Eime kartu su mumis."
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:422
+msgid "Thank you. My comrades and I will help you on your noble quest."
+msgstr ""
+"Ačiū jums. Mano bendražygiai ir aš padėsime jums jūsų kilniose paieškose."
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:430
+msgid "I am sorry. We have not the time to spare."
+msgstr "Apgailestauju. Mes neturime daugiau laiko."
+
+#. [message]: speaker=Brena
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:434
+msgid ""
+"Take this, then, for I see that you are on a quest. My comrades will help "
+"you whenever you call for them."
+msgstr ""
+"Paimk šitai, nes aš matau, kad tu paieškose. Mano bendražygiai visada padės "
+"tau, kai tik juos pašauksi."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:451
+msgid "You receive 70 pieces of gold!"
+msgstr "Jūs gaunate 70 auksinių!"
+
+#. [message]: speaker=Muff Toras
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:472
+msgid "My reinforcements are here!"
+msgstr "Mano pastiprinimas jau čia!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:476
+msgid "He escaped us..."
+msgstr "Jis paspruko nuo mūsų..."
+
+#. [message]: speaker=Nil-Galion
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:487
+msgid ""
+"Foolish human, you have killed me but you will not catch the undead in time. "
+"I have fulfilled my contract, and will be reanimated soon to become a lord "
+"of their armies."
+msgstr ""
+"Kvailas žmogau, tu nužudei mane, bet jūs laiku nepagausite nemirėlių. Aš "
+"įvykdžiau susitarimą ir tuoj būsiu prikeltas, kad tapčiau jų armijų valdovu."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:495
+msgid "Follow their back trail!"
+msgstr "Sekite jų pėdomis!"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/2_The_Chase.cfg:500
+msgid "Catch the kidnappers"
+msgstr "Pagaukite pagrobėjus"
+
+#. [terrain_type]: id=magic_irongate
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:6
+msgid "Irongate"
+msgstr "Geležiniai vartai"
+
+#. [scenario]: id=3_Guarded_Castle
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:16
+msgid "Guarded Castle"
+msgstr "Saugoma pilis"
+
+#. [side]: type=Dark Sorcerer, id=Rotharik
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:76
+msgid "Rotharik"
+msgstr "Rotarikas"
+
+#. [unit]: id=Guard_leader, type=Assassin
+#. [unit]: role=Guard, type=Bandit
+#. [unit]: id=Guard2_leader, type=Rogue
+#. [unit]: role=Guard2, type=Bandit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:98
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:106
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:115
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:123
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:385
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:393
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:401
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:410
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:501
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:509
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:517
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:526
+msgid "Guard"
+msgstr "Sargybinis"
+
+#. [unit]: id=Knago-Brek, type=Orcish Warrior
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:141
+msgid "Knago-Brek"
+msgstr "Knago-Brekas"
+
+#. [unit]: type=Orcish Grunt
+#. [unit]: type=Orcish Warrior
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:150
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:158
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:167
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:175
+msgid "Castle Guard"
+msgstr "Pilies sargybinis"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:189
+msgid "Rescue Bjarn"
+msgstr "Išvaduokite Bjarną"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:288
+msgid ""
+"Arne's men arrived at the castle and were immediately challenged by some "
+"guards."
+msgstr "Vos Arne vyrai atvyko į pilį, juos iškart patiko sargybiniai."
+
+#. [message]: speaker=Guard_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:292
+msgid "Halt! Friend or foe? Give the password."
+msgstr "Stok! Draugas ar priešas? Sakyk slaptažodį."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:297
+msgid "The password is"
+msgstr "Slaptažodis yra"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:299
+msgid "$first_password_1|!"
+msgstr "$first_password_1|!"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:305
+msgid "$first_password_2|!"
+msgstr "$first_password_2|!"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:311
+msgid "$first_password_3|!"
+msgstr "$first_password_3|!"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:317
+msgid "$first_password_4|!"
+msgstr "$first_password_4|!"
+
+#. [message]: speaker=Guard_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:333
+msgid "Pass, friend."
+msgstr "Praeik, drauge."
+
+#. [message]: speaker=Guard_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:351
+msgid "Wrong! Die!"
+msgstr "Neteisingai! Mirkite!"
+
+#. [message]: speaker=Knago-Brek
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:365
+msgid ""
+"Haha! We not kill people for long time. Weapon wants blood. We now kill "
+"humans!!"
+msgstr ""
+"Chacha! Jau seniai nežudėme žmonių. Ginklas nori kraujo. Dabar žudysime "
+"žmones!!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:369
+msgid ""
+"My sword-arm has a say in who will do the dying. Come on, men, let's kill "
+"some orcs."
+msgstr ""
+"Mano kardas-ranka pasakys, kas mirs! Pirmyn, vyrai, nužudykime keletą orkų."
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:418
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:534
+msgid "Are you our relief arriving? Does this mean we get to leave here now?"
+msgstr "Ar jūs esate mūsų pamaina? Ar tai reiškia, kad jau galime išeiti?"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:422
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:538
+msgid "Um, yes. Fine. You can go."
+msgstr "Hm, taip. Gerai. Galite eiti."
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:426
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:542
+msgid "Um, you're supposed to give the password."
+msgstr "Hm, jūs turėtumėte pasakyti slaptažodį."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:430
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:546
+msgid "Oh, of course. I had nearly forgotten."
+msgstr "O, žinoma. Jau beveik užmiršau."
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:432
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:548
+msgid "$second_password_1|!"
+msgstr "$second_password_1|!"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:438
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:554
+msgid "$second_password_2|!"
+msgstr "$second_password_2|!"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:444
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:560
+msgid "$second_password_3|!"
+msgstr "$second_password_3|!"
+
+#. [option]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:450
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:566
+msgid "$second_password_4|!"
+msgstr "$second_password_4|!"
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:465
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:581
+msgid "Thanks! Irritating little formality, isn't it?"
+msgstr "Dėkui! Mažas erzinantis formalumas, ar ne?"
+
+#. [message]: speaker=Guard2_leader
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:478
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:594
+msgid "That's the wrong password! These aren't our relief! Get them!"
+msgstr "Slaptažodis neteisingas! Tai ne mūsų pamaina! Čiupkite juos!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:484
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:600
+msgid ""
+"I think I should better support my men at the front to make sure we can free "
+"my brother."
+msgstr ""
+"Manau, kad reikia daugiau paramos vyrams priekyje, kad užsitikrinčiau "
+"galimybę išvaduoti savo brolį."
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:613
+msgid "Nooo! This is the end..."
+msgstr "Neee! Tai pabaiga..."
+
+#. [message]: speaker=second_unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:621
+msgid "There's a key in his robes."
+msgstr "Jo rūbuose yra raktas."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:625
+msgid ""
+"That may well be the key to the cell they're holding Bjarn in! I will take "
+"it."
+msgstr ""
+"Visai gali būti, kad tai raktas nuo vienutės, kurioje jie laiko Bjarną! "
+"Paimsiu jį."
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:631
+msgid "Move Arne to the cell with his brother to free him"
+msgstr "Nuveskite Arne iki vienutės su jo broliu, kad išlaisvintumėte"
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:663
+msgid "Look what I have found in here! I can count a hundred pieces of gold."
+msgstr "Žiūrėkite, ką čia radau! Priskaičiuoju šimtą auksinių."
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:676
+msgid "Look what I have found in here! I can count fifty pieces of gold."
+msgstr "Žiūrėkite ką čia radau! Priskaičiuoju penkiasdešimt auksinių."
+
+#. [message]: speaker=unit
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:724
+msgid "I found Bjarn. He is in this cell."
+msgstr "Radau Bjarną. Jis šioje vienutėje."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:734
+msgid "Good to see you, Arne. Now can you get me out of this dungeon, please?"
+msgstr ""
+"Kaip gera tave matyti, Arne. Ar galėtum dabar mane ištraukti iš šio požemio?"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:740
+msgid "You must be one of Arne's men. Please help me get out of this dungeon."
+msgstr ""
+"Tu turbūt vienas iš Arne vyrų. Prašau, padėk man ištrūkti iš šito požemio."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:746
+msgid ""
+"The accursed dark sorcerer Rotharik has imprisoned me behind this magically "
+"enhanced iron gate. It can only be opened with the correct key. You must get "
+"it from him to free me."
+msgstr ""
+"Prakeiktasis tamsos burtininkas Rotarikas įkalino mane už šių magija "
+"sutvirtintų geležinių grotų. Jas galima atidaryti tik su tinkamu raktu. "
+"Privalai jį atimti iš burtininko, kad mane išlaisvintum."
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:757
+msgid "Kill the dark sorcerer to get the cell key"
+msgstr "Nužudykite tamsos burtininką, kad gautumėte vienutės raktą"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:797
+msgid "Thank you for saving me. I had almost given up hope you would free me."
+msgstr ""
+"Ačiū, kad mane išgelbėjai. Buvau beveik praradęs viltį, kad mane išgelbėsi."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:801
+msgid ""
+"Oh it was nothing, a few elves, one or two dark sorcerers, a bunch of orcs "
+"and some undead. Really just a day's work for us mercenaries."
+msgstr ""
+"Ai, nieko ypatingo, keli elfai, vienas ar du tamsos burtininkai, krūvelė "
+"orkų ir kažkiek nemirėlių. Nuobodi samdinių kasdienybė."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:805
+msgid "Thank you for coming to my aid. Let us return to the village."
+msgstr "Ačiū, kad atėjai į pagalbą. Grįžkime į kaimą."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:831
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:244
+msgid "Everything is lost now that I am dead..."
+msgstr "Dabar, kai aš miręs, jau viskas prarasta..."
+
+#. [message]: speaker=Rotharik
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:842
+msgid "You are too late! Your brother is already dead! Muhahahaha..."
+msgstr "Pavėlavai! Tavo brolis jau miręs! Muchachachacha..."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/3_Guarded_Castle.cfg:846
+msgid "Argh!!!"
+msgstr "Argh!!!"
+
+#. [scenario]: id=4_Return_To_The_Village
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:4
+msgid "Return to the Village"
+msgstr "Sugrįžimas į kaimą"
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:33
+msgid "Find out what is happening in the village"
+msgstr "Išsiaiškinkite, kas vyksta kaime"
+
+#. [objective]: condition=lose
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:41
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:193
+msgid "Death of Bjarn"
+msgstr "Bjarno mirtis"
+
+#. [side]: type=Orcish Warlord, id=Tairach
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:82
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:51
+msgid "Tairach"
+msgstr "Tairačas"
+
+#. [side]: type=Longbowman, id=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:110
+msgid "Councillor Hoban"
+msgstr "Tarybos narys Hobanas"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:141
+msgid ""
+"There. Your village is just across those hills, and already I see men coming "
+"to greet us!"
+msgstr ""
+"Ten. Tavo kaimas iškart už šių kalvų ir aš jau matau žmones ateinančius mūsų "
+"pasveikinti!"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:145
+msgid ""
+"No, they are fleeing from something. We must find out what is happening over "
+"there!"
+msgstr "Ne, jie nuo kažko bėga. Privalome išsiaiškinti, kas ten vyksta!"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:149
+msgid "Men! Ready your weapons!"
+msgstr "Vyrai! Paruoškite ginklus!"
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:153
+msgid ""
+"We should go there and talk to Counselor Hoban. Maybe he knows what is going "
+"on here."
+msgstr ""
+"Turėtume eiti ten ir pakalbėti su tarybos nariu Hobanu. Gal jis žino, kas "
+"čia vyksta."
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:164
+msgid "I am glad to see you returned."
+msgstr "Džiaugiuosi matydamas tave grįžusį."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:168
+msgid "No gladder than I am to be here. But what has happened to Maghre?"
+msgstr "Tikrai ne daugiau, nei aš čia būdamas. Bet kas atsitiko Maghrėje?"
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:172
+msgid ""
+"Soon after you departed we were beset by orcs. With half the men of Maghre "
+"gone, we could not stop them."
+msgstr ""
+"Vos jums išvykus mus apgulė orkai. Išvykus pusei Maghrės vyrų, negalėjome jų "
+"sustabdyti."
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:176
+msgid ""
+"The orcish warlord aims to enslave us. We will not be able to hold out for "
+"much longer."
+msgstr "Orkų karo vadas nori mus pavergti. Ilgiau nebegalėsime priešintis."
+
+#. [message]: speaker=Councillor Hoban
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:180
+msgid ""
+"Have a care, his men are fell fighters and have killed many. Very few remain "
+"who can bear arms, but I will send them to aid you in battle."
+msgstr ""
+"Būk atsargus, jo vyrai yra žiaurūs kovotojai ir daugelį užmušė. Visai nedaug "
+"liko galinčių pakelti ginklą, bet aš juos atsiųsiu tau į pagalbą."
+
+#. [objective]: condition=win
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:185
+msgid "Slay the Orcish Warlord to free the village"
+msgstr "Užmuškite orkų karo vadą ir išlaisvinkite kaimą"
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:207
+msgid "Finally the warlord is killed. Now you can go back to Maghre."
+msgstr "Pagaliau karo vadas nužudytas. Dabar tu gali grįžti į Maghrę."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:211
+msgid ""
+"So much has been destroyed. It will be difficult to repair all that the orcs "
+"and undead have wrecked. And they could come again."
+msgstr ""
+"Tiek daug buvo sunaikinta. Bus sunku atitaisyti viską, ką orkai ir "
+"nemirėliai sugriovė. Ir jie dar gali grįžti."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:215
+msgid ""
+"I must go back to earning my living. But we have our amulets, little "
+"brother. If you are beset again, I will come."
+msgstr ""
+"Privalau grįžti atgal ir uždirbti pragyvenimui. Bet mes turime savo "
+"amuletus, mažasis brolau. Jei vėl pakliūsi į bėdą, aš ateisiu."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:230
+msgid "It is over, I am vanquished."
+msgstr "Baigta, aš nugalėtas."
+
+#. [message]: speaker=Arne
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:255
+msgid "I don't think we can rescue anyone from these villages. It is too late."
+msgstr "Nemanau, kad dar galima ką nors išgelbėti iš šių kaimų. Per vėlu."
+
+#. [message]: speaker=Bjarn
+#: data/campaigns/Two_Brothers/scenarios/4_Return_to_the_Village.cfg:259
+msgid "I was too weak to protect these people. Oh why did this happen to me?!?"
+msgstr ""
+"Buvau per silpnas, kad apsaugočiau šiuos žmones. O, kodėl tai nutiko man?!?"
+
+#. [scenario]: id=epilog
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:4
+msgid "A Tale of Two Brothers - Epilogue"
+msgstr "Pasakojimas apie du brolius – Epilogas"
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:18
+msgid ""
+"It took years to rebuild the village and restore the surrounding farms. The "
+"people of Maghre had to work very hard, but felt better knowing Arne's men "
+"would be their firm allies in troubled times."
+msgstr ""
+"Praėjo daug metų kol buvo atstatytas kaimas ir aplinkinės fermos. Maghrės "
+"žmonės turėjo labai sunkiai dirbti, tačiau jie jautėsi geriau, žinodami, kad "
+"neramiais laikais Arne vyrai bus patikimi jų sąjungininkai."
+
+#. [part]
+#: data/campaigns/Two_Brothers/scenarios/5_Epilog.cfg:22
+msgid ""
+"Arne and his men left the village assured that it would be well guided by "
+"Bjarn. On their journeys they faced many challenges and battles. Some tales "
+"even mention Arne's name together with that of the famous elvish lord "
+"Kalenz, but this is a different story..."
+msgstr ""
+"Arne ir jo vyrai paliko kaimą būdami tikri, kad Bjarnas tinkamai jam "
+"vadovaus. Savo kelionėse jie sutiko daug iššūkių ir mūšių. Kai kurie "
+"pasakojimai netgi pamini Arne vardą kartu su žymiojo elfų valdovo Kalenzo "
+"vardu, bet tai jau yra kita istorija..."
