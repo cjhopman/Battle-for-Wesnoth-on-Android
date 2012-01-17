@@ -1,0 +1,214 @@
+cairo-scaled-font-subsets.lo: cairo-scaled-font-subsets.c cairoint.h \
+ ../config.h /home/chris/android-9/bin/../sysroot/usr/include/assert.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdlib.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/alloca.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/strings.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/memory.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/math.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ cairo.h cairo-version.h cairo-features.h cairo-deprecated.h \
+ /home/chris/android-9/include/pixman-1/pixman.h \
+ /home/chris/android-9/include/pixman-1/pixman-version.h \
+ cairo-compiler-private.h cairo-types-private.h \
+ cairo-fixed-type-private.h cairo-wideint-type-private.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/byteswap.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/endian.h \
+ cairo-list-private.h cairo-reference-count-private.h \
+ cairo-atomic-private.h cairo-cache-private.h cairo-spans-private.h \
+ cairo-scaled-font-private.h cairo-mutex-type-private.h \
+ cairo-mutex-impl-private.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/pthread.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sched.h \
+ cairo-surface-private.h cairo-clip-private.h cairo-path-fixed-private.h \
+ cairo-mutex-private.h cairo-mutex-list-private.h cairo-fixed-private.h \
+ cairo-wideint-private.h cairo-malloc-private.h cairo-hash-private.h \
+ cairo-error-private.h cairo-scaled-font-subsets-private.h \
+ cairo-user-font-private.h
+
+cairoint.h:
+
+../config.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/assert.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdlib.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/alloca.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/strings.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/memory.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/math.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+cairo.h:
+
+cairo-version.h:
+
+cairo-features.h:
+
+cairo-deprecated.h:
+
+/home/chris/android-9/include/pixman-1/pixman.h:
+
+/home/chris/android-9/include/pixman-1/pixman-version.h:
+
+cairo-compiler-private.h:
+
+cairo-types-private.h:
+
+cairo-fixed-type-private.h:
+
+cairo-wideint-type-private.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/byteswap.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/endian.h:
+
+cairo-list-private.h:
+
+cairo-reference-count-private.h:
+
+cairo-atomic-private.h:
+
+cairo-cache-private.h:
+
+cairo-spans-private.h:
+
+cairo-scaled-font-private.h:
+
+cairo-mutex-type-private.h:
+
+cairo-mutex-impl-private.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/pthread.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sched.h:
+
+cairo-surface-private.h:
+
+cairo-clip-private.h:
+
+cairo-path-fixed-private.h:
+
+cairo-mutex-private.h:
+
+cairo-mutex-list-private.h:
+
+cairo-fixed-private.h:
+
+cairo-wideint-private.h:
+
+cairo-malloc-private.h:
+
+cairo-hash-private.h:
+
+cairo-error-private.h:
+
+cairo-scaled-font-subsets-private.h:
+
+cairo-user-font-private.h:

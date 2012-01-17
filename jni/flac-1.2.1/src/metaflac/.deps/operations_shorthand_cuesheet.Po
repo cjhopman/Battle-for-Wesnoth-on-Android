@@ -1,0 +1,136 @@
+operations_shorthand_cuesheet.o: operations_shorthand_cuesheet.c \
+ ../../config.h /home/chris/android-9/bin/../sysroot/usr/include/errno.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/errno.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/errno.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/errno.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/errno-base.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h options.h \
+ ../../include/FLAC/format.h ../../include/FLAC/export.h \
+ ../../include/FLAC/ordinals.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/inttypes.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ ../../include/share/getopt.h utils.h ../../include/FLAC/metadata.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ ../../include/FLAC/callback.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdlib.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/alloca.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/strings.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/memory.h \
+ ../../include/FLAC/format.h ../../include/FLAC/assert.h \
+ ../../include/share/grabbag.h ../../include/share/grabbag/cuesheet.h \
+ ../../include/share/grabbag/file.h ../../include/FLAC/ordinals.h \
+ ../../include/share/grabbag/picture.h \
+ ../../include/share/grabbag/replaygain.h \
+ ../../include/share/grabbag/seektable.h operations_shorthand.h
+
+../../config.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/errno.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/errno.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/errno.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/errno.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+options.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/export.h:
+
+../../include/FLAC/ordinals.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/inttypes.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+../../include/share/getopt.h:
+
+utils.h:
+
+../../include/FLAC/metadata.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+../../include/FLAC/callback.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdlib.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/alloca.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/strings.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/memory.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/assert.h:
+
+../../include/share/grabbag.h:
+
+../../include/share/grabbag/cuesheet.h:
+
+../../include/share/grabbag/file.h:
+
+../../include/FLAC/ordinals.h:
+
+../../include/share/grabbag/picture.h:
+
+../../include/share/grabbag/replaygain.h:
+
+../../include/share/grabbag/seektable.h:
+
+operations_shorthand.h:

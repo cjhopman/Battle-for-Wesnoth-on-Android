@@ -1,0 +1,6 @@
+default_targets = 'wesnoth,wesnothd'
+build = 'debug'
+extra_flags_config = '-lprofiler'
+editor = False
+jobs = 5
+fast = True

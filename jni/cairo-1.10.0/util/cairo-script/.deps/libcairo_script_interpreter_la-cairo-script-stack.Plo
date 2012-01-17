@@ -1,0 +1,84 @@
+libcairo_script_interpreter_la-cairo-script-stack.lo: \
+ cairo-script-stack.c cairo-script-private.h ../../config.h \
+ cairo-script-interpreter.h ../../src/cairo.h ../../src/cairo-version.h \
+ ../../src/cairo-features.h ../../src/cairo-deprecated.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/setjmp.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/setjmp.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/byteswap.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/endian.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h
+
+cairo-script-private.h:
+
+../../config.h:
+
+cairo-script-interpreter.h:
+
+../../src/cairo.h:
+
+../../src/cairo-version.h:
+
+../../src/cairo-features.h:
+
+../../src/cairo-deprecated.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/setjmp.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/setjmp.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/byteswap.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/endian.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:

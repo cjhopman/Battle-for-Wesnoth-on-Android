@@ -1,0 +1,27 @@
+region-translate-test.o: region-translate-test.c ../pixman/pixman.h \
+ ../pixman/pixman-version.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/assert.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h
+
+../pixman/pixman.h:
+
+../pixman/pixman-version.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/assert.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:

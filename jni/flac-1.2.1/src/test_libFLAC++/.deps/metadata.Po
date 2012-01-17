@@ -1,0 +1,24 @@
+metadata.o: metadata.cpp metadata.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h
+
+metadata.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:

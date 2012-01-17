@@ -1,0 +1,415 @@
+viewer-cairo.o: viewer-cairo.c ../config.h viewer-cairo.h \
+ /home/chris/android-9/include/cairo/cairo.h \
+ /home/chris/android-9/include/cairo/cairo-version.h \
+ /home/chris/android-9/include/cairo/cairo-features.h \
+ /home/chris/android-9/include/cairo/cairo-deprecated.h viewer.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ ../pango/pango.h ../pango/pango-attributes.h ../pango/pango-font.h \
+ ../pango/pango-coverage.h /home/chris/android-9/include/glib-2.0/glib.h \
+ /home/chris/android-9/include/glib-2.0/glib/galloca.h \
+ /home/chris/android-9/include/glib-2.0/glib/gtypes.h \
+ /home/chris/android-9/lib/glib-2.0/include/glibconfig.h \
+ /home/chris/android-9/include/glib-2.0/glib/gmacros.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/float.h \
+ /home/chris/android-9/include/glib-2.0/glib/garray.h \
+ /home/chris/android-9/include/glib-2.0/glib/gasyncqueue.h \
+ /home/chris/android-9/include/glib-2.0/glib/gthread.h \
+ /home/chris/android-9/include/glib-2.0/glib/gerror.h \
+ /home/chris/android-9/include/glib-2.0/glib/gquark.h \
+ /home/chris/android-9/include/glib-2.0/glib/gutils.h \
+ /home/chris/android-9/include/glib-2.0/glib/gatomic.h \
+ /home/chris/android-9/include/glib-2.0/glib/gbacktrace.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /home/chris/android-9/include/glib-2.0/glib/gbase64.h \
+ /home/chris/android-9/include/glib-2.0/glib/gbookmarkfile.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/time.h \
+ /home/chris/android-9/include/glib-2.0/glib/gcache.h \
+ /home/chris/android-9/include/glib-2.0/glib/glist.h \
+ /home/chris/android-9/include/glib-2.0/glib/gmem.h \
+ /home/chris/android-9/include/glib-2.0/glib/gslice.h \
+ /home/chris/android-9/include/glib-2.0/glib/gchecksum.h \
+ /home/chris/android-9/include/glib-2.0/glib/gcompletion.h \
+ /home/chris/android-9/include/glib-2.0/glib/gconvert.h \
+ /home/chris/android-9/include/glib-2.0/glib/gdataset.h \
+ /home/chris/android-9/include/glib-2.0/glib/gdate.h \
+ /home/chris/android-9/include/glib-2.0/glib/gdir.h \
+ /home/chris/android-9/include/glib-2.0/glib/gfileutils.h \
+ /home/chris/android-9/include/glib-2.0/glib/ghash.h \
+ /home/chris/android-9/include/glib-2.0/glib/ghook.h \
+ /home/chris/android-9/include/glib-2.0/glib/giochannel.h \
+ /home/chris/android-9/include/glib-2.0/glib/gmain.h \
+ /home/chris/android-9/include/glib-2.0/glib/gslist.h \
+ /home/chris/android-9/include/glib-2.0/glib/gstring.h \
+ /home/chris/android-9/include/glib-2.0/glib/gunicode.h \
+ /home/chris/android-9/include/glib-2.0/glib/gkeyfile.h \
+ /home/chris/android-9/include/glib-2.0/glib/gmappedfile.h \
+ /home/chris/android-9/include/glib-2.0/glib/gmarkup.h \
+ /home/chris/android-9/include/glib-2.0/glib/gmessages.h \
+ /home/chris/android-9/include/glib-2.0/glib/gnode.h \
+ /home/chris/android-9/include/glib-2.0/glib/goption.h \
+ /home/chris/android-9/include/glib-2.0/glib/gpattern.h \
+ /home/chris/android-9/include/glib-2.0/glib/gprimes.h \
+ /home/chris/android-9/include/glib-2.0/glib/gqsort.h \
+ /home/chris/android-9/include/glib-2.0/glib/gqueue.h \
+ /home/chris/android-9/include/glib-2.0/glib/grand.h \
+ /home/chris/android-9/include/glib-2.0/glib/grel.h \
+ /home/chris/android-9/include/glib-2.0/glib/gregex.h \
+ /home/chris/android-9/include/glib-2.0/glib/gscanner.h \
+ /home/chris/android-9/include/glib-2.0/glib/gsequence.h \
+ /home/chris/android-9/include/glib-2.0/glib/gshell.h \
+ /home/chris/android-9/include/glib-2.0/glib/gspawn.h \
+ /home/chris/android-9/include/glib-2.0/glib/gstrfuncs.h \
+ /home/chris/android-9/include/glib-2.0/glib/gtestutils.h \
+ /home/chris/android-9/include/glib-2.0/glib/gthreadpool.h \
+ /home/chris/android-9/include/glib-2.0/glib/gtimer.h \
+ /home/chris/android-9/include/glib-2.0/glib/gtree.h \
+ /home/chris/android-9/include/glib-2.0/glib/gurifuncs.h \
+ ../pango/pango-types.h \
+ /home/chris/android-9/include/glib-2.0/glib-object.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gboxed.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gtype.h \
+ /home/chris/android-9/include/glib-2.0/gobject/genums.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gobject.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gvalue.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gparam.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gclosure.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gsignal.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gmarshal.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gparamspecs.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gsourceclosure.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gtypemodule.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gtypeplugin.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gvaluearray.h \
+ /home/chris/android-9/include/glib-2.0/gobject/gvaluetypes.h \
+ ../pango/pango-gravity.h ../pango/pango-matrix.h ../pango/pango-script.h \
+ ../pango/pango-language.h ../pango/pango-bidi-type.h \
+ ../pango/pango-break.h ../pango/pango-item.h ../pango/pango-context.h \
+ ../pango/pango-fontmap.h ../pango/pango-fontset.h \
+ ../pango/pango-engine.h ../pango/pango-glyph.h \
+ ../pango/pango-enum-types.h ../pango/pango-features.h \
+ ../pango/pango-glyph-item.h ../pango/pango-layout.h \
+ ../pango/pango-tabs.h ../pango/pango-renderer.h ../pango/pango-utils.h \
+ viewer-render.h /home/chris/android-9/include/cairo/cairo-svg.h \
+ /home/chris/android-9/include/cairo/cairo.h \
+ /home/chris/android-9/include/cairo/cairo-pdf.h \
+ /home/chris/android-9/include/cairo/cairo-ps.h
+
+../config.h:
+
+viewer-cairo.h:
+
+/home/chris/android-9/include/cairo/cairo.h:
+
+/home/chris/android-9/include/cairo/cairo-version.h:
+
+/home/chris/android-9/include/cairo/cairo-features.h:
+
+/home/chris/android-9/include/cairo/cairo-deprecated.h:
+
+viewer.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+../pango/pango.h:
+
+../pango/pango-attributes.h:
+
+../pango/pango-font.h:
+
+../pango/pango-coverage.h:
+
+/home/chris/android-9/include/glib-2.0/glib.h:
+
+/home/chris/android-9/include/glib-2.0/glib/galloca.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gtypes.h:
+
+/home/chris/android-9/lib/glib-2.0/include/glibconfig.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gmacros.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/float.h:
+
+/home/chris/android-9/include/glib-2.0/glib/garray.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gasyncqueue.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gthread.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gerror.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gquark.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gutils.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gatomic.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gbacktrace.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gbase64.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gbookmarkfile.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/time.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gcache.h:
+
+/home/chris/android-9/include/glib-2.0/glib/glist.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gmem.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gslice.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gchecksum.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gcompletion.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gconvert.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gdataset.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gdate.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gdir.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gfileutils.h:
+
+/home/chris/android-9/include/glib-2.0/glib/ghash.h:
+
+/home/chris/android-9/include/glib-2.0/glib/ghook.h:
+
+/home/chris/android-9/include/glib-2.0/glib/giochannel.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gmain.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gslist.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gstring.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gunicode.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gkeyfile.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gmappedfile.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gmarkup.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gmessages.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gnode.h:
+
+/home/chris/android-9/include/glib-2.0/glib/goption.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gpattern.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gprimes.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gqsort.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gqueue.h:
+
+/home/chris/android-9/include/glib-2.0/glib/grand.h:
+
+/home/chris/android-9/include/glib-2.0/glib/grel.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gregex.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gscanner.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gsequence.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gshell.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gspawn.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gstrfuncs.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gtestutils.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gthreadpool.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gtimer.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gtree.h:
+
+/home/chris/android-9/include/glib-2.0/glib/gurifuncs.h:
+
+../pango/pango-types.h:
+
+/home/chris/android-9/include/glib-2.0/glib-object.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gboxed.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gtype.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/genums.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gobject.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gvalue.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gparam.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gclosure.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gsignal.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gmarshal.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gparamspecs.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gsourceclosure.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gtypemodule.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gtypeplugin.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gvaluearray.h:
+
+/home/chris/android-9/include/glib-2.0/gobject/gvaluetypes.h:
+
+../pango/pango-gravity.h:
+
+../pango/pango-matrix.h:
+
+../pango/pango-script.h:
+
+../pango/pango-language.h:
+
+../pango/pango-bidi-type.h:
+
+../pango/pango-break.h:
+
+../pango/pango-item.h:
+
+../pango/pango-context.h:
+
+../pango/pango-fontmap.h:
+
+../pango/pango-fontset.h:
+
+../pango/pango-engine.h:
+
+../pango/pango-glyph.h:
+
+../pango/pango-enum-types.h:
+
+../pango/pango-features.h:
+
+../pango/pango-glyph-item.h:
+
+../pango/pango-layout.h:
+
+../pango/pango-tabs.h:
+
+../pango/pango-renderer.h:
+
+../pango/pango-utils.h:
+
+viewer-render.h:
+
+/home/chris/android-9/include/cairo/cairo-svg.h:
+
+/home/chris/android-9/include/cairo/cairo.h:
+
+/home/chris/android-9/include/cairo/cairo-pdf.h:
+
+/home/chris/android-9/include/cairo/cairo-ps.h:

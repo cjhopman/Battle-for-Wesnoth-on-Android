@@ -1,0 +1,200 @@
+metadata_manip.o: metadata_manip.c ../../config.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdlib.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/alloca.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/strings.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/memory.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/utime.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/utime.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/unistd.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/select.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/signal.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysconf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/capability.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/pathconf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/stat.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stat.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/endian.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/endian.h \
+ ../../include/FLAC/assert.h ../../include/FLAC/stream_decoder.h \
+ ../../include/FLAC/export.h ../../include/FLAC/format.h \
+ ../../include/FLAC/ordinals.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/inttypes.h \
+ ../../include/FLAC/metadata.h ../../include/FLAC/callback.h \
+ ../../include/share/grabbag.h ../../include/share/grabbag/cuesheet.h \
+ ../../include/share/grabbag/file.h ../../include/FLAC/ordinals.h \
+ ../../include/share/grabbag/picture.h \
+ ../../include/share/grabbag/replaygain.h \
+ ../../include/share/grabbag/seektable.h ../../include/FLAC/format.h \
+ ../../include/test_libs_common/file_utils_flac.h \
+ ../../include/test_libs_common/metadata_utils.h metadata.h
+
+../../config.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdlib.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/alloca.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/strings.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/memory.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/utime.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/utime.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/unistd.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/select.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/signal.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysconf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/capability.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/pathconf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/stat.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stat.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/endian.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/endian.h:
+
+../../include/FLAC/assert.h:
+
+../../include/FLAC/stream_decoder.h:
+
+../../include/FLAC/export.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/ordinals.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/inttypes.h:
+
+../../include/FLAC/metadata.h:
+
+../../include/FLAC/callback.h:
+
+../../include/share/grabbag.h:
+
+../../include/share/grabbag/cuesheet.h:
+
+../../include/share/grabbag/file.h:
+
+../../include/FLAC/ordinals.h:
+
+../../include/share/grabbag/picture.h:
+
+../../include/share/grabbag/replaygain.h:
+
+../../include/share/grabbag/seektable.h:
+
+../../include/FLAC/format.h:
+
+../../include/test_libs_common/file_utils_flac.h:
+
+../../include/test_libs_common/metadata_utils.h:
+
+metadata.h:

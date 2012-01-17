@@ -1,0 +1,35 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_EXPORT_C_INCLUDES := \
+	$(LOCAL_PATH)/include \
+	$(NULL)
+
+LOCAL_MODULE := SDL_ttf
+
+LOCAL_CFLAGS := \
+	-I$(LOCAL_PATH) \
+	-I$(LOCAL_PATH)/include \
+	$(NULL)
+	
+
+LOCAL_CPP_EXTENSION := .cpp
+
+LOCAL_SRC_FILES := SDL_ttf.c
+
+LOCAL_LIBRARIES := freetype SDL-$(SDL_VERSION)
+
+LOCAL_LDLIBS := \
+	-lz \
+	$(NULL)
+
+LOCAL_SHARED_LIBRARIES := $(filter-out $(APP_AVAILABLE_STATIC_LIBS), $(LOCAL_LIBRARIES))
+LOCAL_STATIC_LIBRARIES := $(filter $(APP_AVAILABLE_STATIC_LIBS), $(LOCAL_LIBRARIES))
+
+ifeq (,$(findstring $(LOCAL_MODULE), $(APP_AVAILABLE_STATIC_LIBS)))
+include $(BUILD_SHARED_LIBRARY)
+else
+include $(BUILD_STATIC_LIBRARY)
+endif
+

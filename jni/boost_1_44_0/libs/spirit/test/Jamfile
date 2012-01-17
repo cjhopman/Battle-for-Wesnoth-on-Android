@@ -1,0 +1,167 @@
+#==============================================================================
+#   Copyright (c) 2001-2010 Joel de Guzman
+#   Copyright (c) 2001-2010 Hartmut Kaiser
+#
+#   Use, modification and distribution is subject to the Boost Software
+#   License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
+#   http://www.boost.org/LICENSE_1_0.txt)
+#==============================================================================
+project spirit_v2x/test
+    : requirements
+        <include>.
+        <toolset>gcc:<cxxflags>-ftemplate-depth-300
+        <toolset>darwin:<cxxflags>-ftemplate-depth-300
+#        <toolset>gcc:<linkflags>-Wl,--enable-auto-import
+#        <toolset>darwin:<linkflags>-Wl,--enable-auto-import
+    :
+    :
+    ;
+
+path-constant LEX_DIR : $(BOOST_ROOT)/libs/spirit/test/lex ;
+
+# bring in rules for testing
+import testing ;
+
+{
+    test-suite spirit_v2 :
+
+    # run Qi tests
+    [ run qi/actions.cpp                    : : : : ]
+    [ run qi/alternative.cpp                : : : : ]
+    [ run qi/attr.cpp                       : : : : ]
+    [ run qi/attribute.cpp                  : : : : ]
+    [ run qi/and_predicate.cpp              : : : : ]
+    [ run qi/auto.cpp                       : : : : ]
+    [ run qi/binary.cpp                     : : : : ]
+    [ run qi/bool.cpp                       : : : : ]
+    [ run qi/char.cpp                       : : : : ]
+    [ run qi/char_class.cpp                 : : : : ]
+    [ run qi/debug.cpp                      : : : : ]
+    [ run qi/difference.cpp                 : : : : ]
+    [ run qi/encoding.cpp                   : : : : ]
+    [ run qi/end.cpp                        : : : : ]
+    [ run qi/eps.cpp                        : : : : ]
+    [ run qi/expect.cpp                     : : : : ]
+    [ run qi/grammar.cpp                    : : : : ]
+    [ run qi/int.cpp                        : : : : ]
+    [ run qi/kleene.cpp                     : : : : ]
+    [ run qi/lazy.cpp                       : : : : ]
+    [ run qi/lexeme.cpp                     : : : : ]
+    [ run qi/lit.cpp                        : : : : ]
+    [ run qi/list.cpp                       : : : : ]
+    [ run qi/hold.cpp                       : : : : ]
+    [ run qi/match_manip.cpp                : : : : ]
+    [ run qi/match_manip_attr.cpp           : : : : ]
+    [ run qi/matches.cpp                    : : : : ]
+    [ run qi/no_case.cpp                    : : : : ]
+    [ run qi/no_skip.cpp                    : : : : ]
+    [ run qi/not_predicate.cpp              : : : : ]
+    [ run qi/optional.cpp                   : : : : ]
+    [ run qi/parse_attr.cpp                 : : : : ]
+    [ run qi/permutation.cpp                : : : : ]
+    [ run qi/plus.cpp                       : : : : ]
+    [ run qi/range_run.cpp                  : : : : ]
+    [ run qi/raw.cpp                        : : : : ]
+    [ run qi/real.cpp                       : : : : ]
+    [ run qi/repeat.cpp                     : : : : ]
+    [ run qi/rule.cpp                       : : : : ]
+    [ run qi/sequence.cpp                   : : : : ]
+    [ run qi/sequential_or.cpp              : : : : ]
+    [ run qi/skip.cpp                       : : : : ]
+    [ run qi/symbols.cpp                    : : : : ]
+    [ run qi/terminal_ex.cpp                : : : : ]
+    [ run qi/tst.cpp                        : : : : ]
+    [ run qi/uint.cpp                       : : : : ]
+
+    # run Karma tests
+    [ run karma/actions.cpp                 : : : : karma_actions ]
+    [ run karma/and_predicate.cpp           : : : : karma_and_predicate ]
+    [ run karma/alternative.cpp             : : : : karma_alternative ]
+    [ run karma/attribute.cpp               : : : : karma_attribute ]
+    [ run karma/auto.cpp                    : : : : karma_auto ]
+    [ run karma/binary.cpp                  : : : : karma_binary ]
+    [ run karma/bool.cpp                    : : : : karma_bool ]
+    [ run karma/buffer.cpp                  : : : : karma_buffer ]
+    [ run karma/case_handling.cpp           : : : : ]
+    [ run karma/center_alignment.cpp        : : : : ]
+    [ run karma/char.cpp                    : : : : karma_char ]
+    [ run karma/char_class.cpp              : : : : karma_char_class ]
+    [ run karma/columns.cpp                 : : : : ]
+    [ run karma/debug.cpp                   : : : : karma_debug ]
+    [ run karma/delimiter.cpp               : : : : ]
+    [ run karma/duplicate.cpp               : : : : ]
+    [ run karma/encoding.cpp                : : : : karma_encoding ]
+    [ run karma/eol.cpp                     : : : : karma_eol ]
+    [ run karma/eps.cpp                     : : : : karma_eps ]
+    [ run karma/format_manip.cpp            : : : : ]
+    [ run karma/format_manip_attr.cpp       : : : : ]
+    [ run karma/format_pointer_container.cpp : : : : ]
+    [ run karma/generate_attr.cpp           : : : : ]
+    [ run karma/grammar.cpp                 : : : : karma_grammar ]
+    [ run karma/int_numerics.cpp            : : : : ]
+    [ run karma/kleene.cpp                  : : : : karma_kleene ]
+    [ run karma/lazy.cpp                    : : : : karma_lazy ]
+    [ run karma/left_alignment.cpp          : : : : ]
+    [ run karma/list.cpp                    : : : : karma_list ]
+    [ run karma/lit.cpp                     : : : : karma_lit ]
+    [ run karma/maxwidth.cpp                : : : : ]
+    [ run karma/not_predicate.cpp           : : : : karma_not_predicate ]
+    [ run karma/omit.cpp                    : : : : karma_omit ]
+    [ run karma/optional.cpp                : : : : karma_optional ]
+    [ run karma/pattern.cpp                 : : : : karma_pattern ]
+    [ run karma/pattern2.cpp                : : : : karma_pattern2 ]
+    [ run karma/pattern3.cpp                : : : : karma_pattern3 ]
+    [ run karma/plus.cpp                    : : : : karma_plus ]
+    [ run karma/real_numerics.cpp           : : : : ]
+    [ run karma/repeat.cpp                  : : : : karma_repeat ]
+    [ run karma/right_alignment.cpp         : : : : ]
+    [ run karma/sequence.cpp                : : : : karma_sequence ]
+    [ run karma/stream.cpp                  : : : : karma_stream ]
+    [ run karma/symbols.cpp                 : : : : karma_symbols ]
+    [ run karma/tricky_alignment.cpp        : : : : ]
+
+    [ compile-fail karma/grammar_fail.cpp   : : karma_grammar_fail ]
+    [ compile-fail karma/rule_fail.cpp      : : karma_rule_fail ]
+
+    # run Lex tests
+    [ run lex/lexertl1.cpp                  : : : : ]
+    [ run lex/lexertl2.cpp                  : : : : ]
+    [ run lex/lexertl3.cpp                  : : : : ]
+    [ run lex/lexertl4.cpp                  : : : : ]
+    [ run lex/lexertl5.cpp                  : : : : ]
+    [ run lex/state_switcher_test.cpp       : : : : ]
+    [ run lex/lexer_state_switcher.cpp      : : : : ]
+    [ run lex/set_token_value.cpp           : : : : ]
+    [ run lex/dedent_handling_phoenix.cpp   : : : : ]
+    [ run lex/set_token_value_phoenix.cpp   : : : : ]
+    [ run lex/semantic_actions.cpp          : : : : ]
+
+    # run Lex regression tests
+    [ run lex/regression001.cpp             : : : : lex_regression001 ]
+    [ run lex/regression002.cpp             : : : : lex_regression002 ]
+    [ run lex/regression003_generate.cpp    : $(LEX_DIR)/matlib_static.h : : : lex_regression003_generate ]
+    [ run lex/regression003.cpp             : : : <dependency>.//lex_regression003_generate : lex_regression003 ]
+    [ run lex/regression003_generate_switch.cpp    : $(LEX_DIR)/matlib_static_switch.h : : : lex_regression003_generate_switch ]
+    [ run lex/regression003_switch.cpp             : : : <dependency>.//lex_regression003_generate_switch : lex_regression003_switch ]
+    [ run lex/regression004.cpp             : : : : lex_regression004 ]
+    [ run lex/regression005.cpp             : : : : lex_regression005 ]
+    [ run lex/regression006.cpp             : : : : lex_regression006 ]
+
+    # support tests
+    [ compile support/multi_pass_regression001.cpp : : support_multi_pass_regression001 ]
+    [ compile support/multi_pass_regression002.cpp : : support_multi_pass_regression002 ]
+    [ compile support/multi_pass_regression003.cpp : : support_multi_pass_regression003 ]
+
+
+    # regression tests
+    [ compile qi/attr_with_action.cpp         : : qi_attr_with_action ]
+    [ run qi/clear_test.cpp                   : : : : ]
+    [ run qi/reorder_test.cpp                 : : : : ]
+    [ run karma/karma_optional_double.cpp     : : : : ]
+    [ run karma/semantic_action_attribute.cpp : : : : ]
+    [ compile qi/single_element_sequence_attribute.cpp : : qi_single_element_sequence_attribute ]
+
+    ;
+
+}
+

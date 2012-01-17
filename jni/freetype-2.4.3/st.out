@@ -1,0 +1,1255 @@
+execve("/usr/bin/make", ["make", "install"], [/* 16 vars */]) = 0
+brk(0)                                  = 0x1c1d000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd13a000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=98387, ...}) = 0
+mmap(NULL, 98387, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f89cd121000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/librt.so.1", O_RDONLY)       = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+mmap(NULL, 2128848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89ccd14000
+mprotect(0x7f89ccd1b000, 2093056, PROT_NONE) = 0
+mmap(0x7f89ccf1a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f89ccf1a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\356\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1572232, ...}) = 0
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89cc991000
+mprotect(0x7f89ccb0b000, 2093056, PROT_NONE) = 0
+mmap(0x7f89ccd0a000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7f89ccd0a000
+mmap(0x7f89ccd0f000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f89ccd0f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libpthread.so.0", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\\\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=136067, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd120000
+mmap(NULL, 2212768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89cc774000
+mprotect(0x7f89cc78c000, 2093056, PROT_NONE) = 0
+mmap(0x7f89cc98b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f89cc98b000
+mmap(0x7f89cc98d000, 13216, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f89cc98d000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd11f000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd11e000
+arch_prctl(ARCH_SET_FS, 0x7f89cd11f700) = 0
+mprotect(0x7f89cc98b000, 4096, PROT_READ) = 0
+mprotect(0x7f89ccd0a000, 16384, PROT_READ) = 0
+mprotect(0x7f89ccf1a000, 4096, PROT_READ) = 0
+mprotect(0x626000, 4096, PROT_READ)     = 0
+mprotect(0x7f89cd13c000, 4096, PROT_READ) = 0
+munmap(0x7f89cd121000, 98387)           = 0
+set_tid_address(0x7f89cd11f9d0)         = 27165
+set_robust_list(0x7f89cd11f9e0, 0x18)   = 0
+futex(0x7fff706c98cc, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff706c98cc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f89cd11f700) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f89cc779b20, [], SA_RESTORER|SA_SIGINFO, 0x7f89cc783b40}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f89cc779bb0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f89cc783b40}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+setrlimit(RLIMIT_STACK, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+brk(0)                                  = 0x1c1d000
+brk(0x1c3e000)                          = 0x1c3e000
+open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5205824, ...}) = 0
+mmap(NULL, 5205824, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f89cc27d000
+close(3)                                = 0
+rt_sigaction(SIGHUP, {0x403a80, [HUP], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x403a80, [QUIT], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x403a80, [INT], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x403a80, [TERM], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, {0x403a80, [XCPU], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {0x403a80, [XFSZ], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+getcwd("/home/chris/lib-src/freetype-2.4.3", 4096) = 35
+stat("/usr/include", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+stat("/usr/gnu/include", 0x7fff706c7f00) = -1 ENOENT (No such file or directory)
+stat("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/include", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+rt_sigaction(SIGCHLD, {0x40d070, [CHLD], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, 8) = 0
+rt_sigaction(SIGUSR1, {0x40eb40, [USR1], SA_RESTORER|SA_RESTART, 0x7f89cc9c4c20}, {SIG_DFL, [], 0}, 8) = 0
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents(3, /* 26 entries */, 32768)    = 792
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("Makefile", O_RDONLY)              = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=854, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd139000
+read(3, "#\n# FreeType 2 build system -- t"..., 4096) = 854
+open("builds/toplevel.mk", O_RDONLY)    = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=6789, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd138000
+read(4, "#\n# FreeType build system -- top"..., 4096) = 4096
+stat("./objs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("./objs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 91 entries */, 32768)    = 2904
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("modules.cfg", O_RDONLY)           = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6407, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd137000
+read(5, "# modules.cfg\n#\n# Copyright 2005"..., 4096) = 4096
+read(5, "type/ftbitmap.h for the API.\nBAS"..., 4096) = 2311
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f89cd137000, 4096)            = 0
+read(4, ".\n\nelse\n\n  # A configuration sub"..., 4096) = 2693
+open("config.mk", O_RDONLY)             = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1635, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd137000
+read(5, "#\n# FreeType 2 configuration rul"..., 4096) = 1635
+open("builds/unix/unix-def.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=2421, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 configuration rul"..., 4096) = 2421
+pipe([7, 8])                            = 0
+vfork()                                 = 27166
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0xffffffff)                = 27166
+close(8)                                = 0
+read(7, "/home/chris/lib-src/freetype-2.4"..., 200) = 35
+read(7, "", 165)                        = 0
+close(7)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 27166
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("builds/unix/unix-cc.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=2826, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 template for Unix"..., 4096) = 2826
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/builds/freetype.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=10950, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 library sub-Makef"..., 4096) = 4096
+read(6, "$(BUILD_DIR) \\\n                 "..., 4096) = 4096
+stat("/home/chris/lib-src/freetype-2.4.3/objs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/builds/exports.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2181, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 exports sub-Makef"..., 4096) = 2181
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/include/freetype", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+getdents(8, /* 45 entries */, 32768)    = 1424
+brk(0x1c5f000)                          = 0x1c5f000
+getdents(8, /* 0 entries */, 32768)     = 0
+close(8)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 8, 0) = 0x7f89cd12e000
+close(8)                                = 0
+futex(0x7f89ccd0ef60, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftimage.h", {st_mode=S_IFREG|0644, st_size=82550, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fttrigon.h", {st_mode=S_IFREG|0644, st_size=8443, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fterrdef.h", {st_mode=S_IFREG|0644, st_size=12076, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ttunpat.h", {st_mode=S_IFREG|0644, st_size=2229, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/tttags.h", {st_mode=S_IFREG|0644, st_size=5002, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsnames.h", {st_mode=S_IFREG|0644, st_size=11175, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgxval.h", {st_mode=S_IFREG|0644, st_size=12600, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgasp.h", {st_mode=S_IFREG|0644, st_size=4039, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmoderr.h", {st_mode=S_IFREG|0644, st_size=7430, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftxf86.h", {st_mode=S_IFREG|0644, st_size=4721, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftadvanc.h", {st_mode=S_IFREG|0644, st_size=10342, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmm.h", {st_mode=S_IFREG|0644, st_size=22712, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbbox.h", {st_mode=S_IFREG|0644, st_size=4621, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftotval.h", {st_mode=S_IFREG|0644, st_size=7136, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/freetype.h", {st_mode=S_IFREG|0644, st_size=244361, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftwinfnt.h", {st_mode=S_IFREG|0644, st_size=10403, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fttypes.h", {st_mode=S_IFREG|0644, st_size=34976, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmac.h", {st_mode=S_IFREG|0644, st_size=17098, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgzip.h", {st_mode=S_IFREG|0644, st_size=4288, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ttnameid.h", {st_mode=S_IFREG|0644, st_size=62170, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftcache.h", {st_mode=S_IFREG|0644, st_size=60456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbdf.h", {st_mode=S_IFREG|0644, st_size=6749, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftchapters.h", {st_mode=S_IFREG|0644, st_size=7264, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftincrem.h", {st_mode=S_IFREG|0644, st_size=11406, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlist.h", {st_mode=S_IFREG|0644, st_size=16764, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftglyph.h", {st_mode=S_IFREG|0644, st_size=39273, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlzw.h", {st_mode=S_IFREG|0644, st_size=4256, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftrender.h", {st_mode=S_IFREG|0644, st_size=11095, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsizes.h", {st_mode=S_IFREG|0644, st_size=9561, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftpfr.h", {st_mode=S_IFREG|0644, st_size=6289, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlcdfil.h", {st_mode=S_IFREG|0644, st_size=7709, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsynth.h", {st_mode=S_IFREG|0644, st_size=3897, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftoutln.h", {st_mode=S_IFREG|0644, st_size=32423, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsystem.h", {st_mode=S_IFREG|0644, st_size=10197, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmodapi.h", {st_mode=S_IFREG|0644, st_size=26626, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbitmap.h", {st_mode=S_IFREG|0644, st_size=13998, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fterrors.h", {st_mode=S_IFREG|0644, st_size=9456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/t1tables.h", {st_mode=S_IFREG|0644, st_size=20051, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftstroke.h", {st_mode=S_IFREG|0644, st_size=19553, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftcid.h", {st_mode=S_IFREG|0644, st_size=5579, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/tttables.h", {st_mode=S_IFREG|0644, st_size=39894, ...}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftimage.h", {st_mode=S_IFREG|0644, st_size=82550, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fttrigon.h", {st_mode=S_IFREG|0644, st_size=8443, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fterrdef.h", {st_mode=S_IFREG|0644, st_size=12076, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ttunpat.h", {st_mode=S_IFREG|0644, st_size=2229, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/tttags.h", {st_mode=S_IFREG|0644, st_size=5002, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsnames.h", {st_mode=S_IFREG|0644, st_size=11175, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgxval.h", {st_mode=S_IFREG|0644, st_size=12600, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgasp.h", {st_mode=S_IFREG|0644, st_size=4039, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmoderr.h", {st_mode=S_IFREG|0644, st_size=7430, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftxf86.h", {st_mode=S_IFREG|0644, st_size=4721, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftadvanc.h", {st_mode=S_IFREG|0644, st_size=10342, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmm.h", {st_mode=S_IFREG|0644, st_size=22712, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbbox.h", {st_mode=S_IFREG|0644, st_size=4621, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftotval.h", {st_mode=S_IFREG|0644, st_size=7136, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/freetype.h", {st_mode=S_IFREG|0644, st_size=244361, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftwinfnt.h", {st_mode=S_IFREG|0644, st_size=10403, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fttypes.h", {st_mode=S_IFREG|0644, st_size=34976, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmac.h", {st_mode=S_IFREG|0644, st_size=17098, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgzip.h", {st_mode=S_IFREG|0644, st_size=4288, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ttnameid.h", {st_mode=S_IFREG|0644, st_size=62170, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftcache.h", {st_mode=S_IFREG|0644, st_size=60456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbdf.h", {st_mode=S_IFREG|0644, st_size=6749, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftchapters.h", {st_mode=S_IFREG|0644, st_size=7264, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftincrem.h", {st_mode=S_IFREG|0644, st_size=11406, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlist.h", {st_mode=S_IFREG|0644, st_size=16764, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftglyph.h", {st_mode=S_IFREG|0644, st_size=39273, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlzw.h", {st_mode=S_IFREG|0644, st_size=4256, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftrender.h", {st_mode=S_IFREG|0644, st_size=11095, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsizes.h", {st_mode=S_IFREG|0644, st_size=9561, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftpfr.h", {st_mode=S_IFREG|0644, st_size=6289, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlcdfil.h", {st_mode=S_IFREG|0644, st_size=7709, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsynth.h", {st_mode=S_IFREG|0644, st_size=3897, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftoutln.h", {st_mode=S_IFREG|0644, st_size=32423, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsystem.h", {st_mode=S_IFREG|0644, st_size=10197, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmodapi.h", {st_mode=S_IFREG|0644, st_size=26626, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbitmap.h", {st_mode=S_IFREG|0644, st_size=13998, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fterrors.h", {st_mode=S_IFREG|0644, st_size=9456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/t1tables.h", {st_mode=S_IFREG|0644, st_size=20051, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftstroke.h", {st_mode=S_IFREG|0644, st_size=19553, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftcid.h", {st_mode=S_IFREG|0644, st_size=5579, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/tttables.h", {st_mode=S_IFREG|0644, st_size=39894, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 23 entries */, 32768)    = 720
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/t1types.h", {st_mode=S_IFREG|0644, st_size=10141, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftpic.h", {st_mode=S_IFREG|0644, st_size=2507, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/sfnt.h", {st_mode=S_IFREG|0644, st_size=52005, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/tttypes.h", {st_mode=S_IFREG|0644, st_size=86596, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftcalc.h", {st_mode=S_IFREG|0644, st_size=8672, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/fttrace.h", {st_mode=S_IFREG|0644, st_size=5280, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftdebug.h", {st_mode=S_IFREG|0644, st_size=11376, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/pcftypes.h", {st_mode=S_IFREG|0644, st_size=1562, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftdriver.h", {st_mode=S_IFREG|0644, st_size=22712, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/autohint.h", {st_mode=S_IFREG|0644, st_size=14059, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftmemory.h", {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftvalid.h", {st_mode=S_IFREG|0644, st_size=7104, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftgloadr.h", {st_mode=S_IFREG|0644, st_size=6498, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftobjs.h", {st_mode=S_IFREG|0644, st_size=79872, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftserv.h", {st_mode=S_IFREG|0644, st_size=35377, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/pshints.h", {st_mode=S_IFREG|0644, st_size=22398, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/psaux.h", {st_mode=S_IFREG|0644, st_size=35945, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/internal.h", {st_mode=S_IFREG|0644, st_size=3099, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftstream.h", {st_mode=S_IFREG|0644, st_size=23126, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftrfork.h", {st_mode=S_IFREG|0644, st_size=11929, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 19 entries */, 32768)    = 592
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svotval.h", {st_mode=S_IFREG|0644, st_size=1946, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svttglyf.h", {st_mode=S_IFREG|0644, st_size=2344, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svwinfnt.h", {st_mode=S_IFREG|0644, st_size=1702, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svgxval.h", {st_mode=S_IFREG|0644, st_size=2739, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svkern.h", {st_mode=S_IFREG|0644, st_size=1783, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpsinfo.h", {st_mode=S_IFREG|0644, st_size=3434, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svbdf.h", {st_mode=S_IFREG|0644, st_size=2835, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svttcmap.h", {st_mode=S_IFREG|0644, st_size=4651, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svmm.h", {st_mode=S_IFREG|0644, st_size=3877, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpfr.h", {st_mode=S_IFREG|0644, st_size=2270, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpostnm.h", {st_mode=S_IFREG|0644, st_size=2846, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svtteng.h", {st_mode=S_IFREG|0644, st_size=1687, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svxf86nm.h", {st_mode=S_IFREG|0644, st_size=2047, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svgldict.h", {st_mode=S_IFREG|0644, st_size=3079, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svcid.h", {st_mode=S_IFREG|0644, st_size=3511, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpscmap.h", {st_mode=S_IFREG|0644, st_size=5884, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svsfnt.h", {st_mode=S_IFREG|0644, st_size=3360, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/include/freetype/config", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 7 entries */, 32768)     = 208
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftheader.h", {st_mode=S_IFREG|0644, st_size=24761, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftoption.h", {st_mode=S_IFREG|0644, st_size=45739, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftmodule.h", {st_mode=S_IFREG|0644, st_size=1399, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftconfig.h", {st_mode=S_IFREG|0644, st_size=19014, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftstdlib.h", {st_mode=S_IFREG|0644, st_size=7275, ...}) = 0
+stat("./builds/unix/freetype/config", 0x7fff706c6a50) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/devel", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/devel", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 4 entries */, 32768)     = 112
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/devel/ftoption.h", {st_mode=S_IFREG|0644, st_size=45715, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/devel/ft2build.h", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/base/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2756, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 base layer config"..., 4096) = 2756
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/truetype/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1715, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 TrueType driver c"..., 4096) = 1715
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/type1/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1720, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 Type1 driver conf"..., 4096) = 1720
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cff/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1754, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 OpenType/CFF driv"..., 4096) = 1754
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cid/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1672, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 CID driver config"..., 4096) = 1672
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pfr/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 PFR driver config"..., 4096) = 1728
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/type42/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1634, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 Type42 driver con"..., 4096) = 1634
+brk(0x1c80000)                          = 0x1c80000
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/winfonts/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1518, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 Windows FNT/FON d"..., 4096) = 1518
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pcf/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2322, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 pcf driver config"..., 4096) = 2322
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/bdf/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2278, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 bdf driver config"..., 4096) = 2278
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/sfnt/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2016, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 SFNT driver confi"..., 4096) = 2016
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/autofit/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2052, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 auto-fitter modul"..., 4096) = 2052
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pshinter/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1860, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 PSHinter driver c"..., 4096) = 1860
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/raster/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1699, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 renderer module b"..., 4096) = 1699
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/smooth/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1694, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 smooth renderer m"..., 4096) = 1694
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cache/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2165, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 Cache configurati"..., 4096) = 2165
+brk(0x1ca1000)                          = 0x1ca1000
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/gzip/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1646, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 GZip support conf"..., 4096) = 1646
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/lzw/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1552, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 LZW support confi"..., 4096) = 1552
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/psaux/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1828, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 PSaux driver conf"..., 4096) = 1828
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/psnames/rules.mk", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1735, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd135000
+read(7, "#\n# FreeType 2 PSNames driver co"..., 4096) = 1735
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f89cd135000, 4096)            = 0
+read(6, " poor man's `sed' emulation with"..., 4096) = 2758
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/builds/unix/install.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=3855, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 installation inst"..., 4096) = 3855
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f89cd137000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/builds/modules.mk", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=2034, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd137000
+read(5, "#\n# FreeType 2 modules sub-Makef"..., 4096) = 2034
+open("/home/chris/lib-src/freetype-2.4.3/src/truetype/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=689, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 TrueType module d"..., 4096) = 689
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/type1/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=679, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 Type1 module defi"..., 4096) = 679
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cff/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=658, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 CFF module defini"..., 4096) = 658
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cid/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=681, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 CID module defini"..., 4096) = 681
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pfr/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=661, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 PFR module defini"..., 4096) = 661
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/type42/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 Type42 module def"..., 4096) = 669
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/winfonts/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 Windows FNT/FON m"..., 4096) = 696
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pcf/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1366, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 PCF module defini"..., 4096) = 1366
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/bdf/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1372, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 BDF module defini"..., 4096) = 1372
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/sfnt/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 SFNT module defin"..., 4096) = 669
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/autofit/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=671, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 auto-fitter modul"..., 4096) = 671
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pshinter/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=664, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 PSHinter module d"..., 4096) = 664
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/raster/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=668, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 renderer module d"..., 4096) = 668
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/smooth/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1048, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 smooth renderer m"..., 4096) = 1048
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cache/module.mk", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/chris/lib-src/freetype-2.4.3/src/gzip/module.mk", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/chris/lib-src/freetype-2.4.3/src/lzw/module.mk", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/chris/lib-src/freetype-2.4.3/src/psaux/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=668, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 PSaux module defi"..., 4096) = 668
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/psnames/module.mk", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=676, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd136000
+read(6, "#\n# FreeType 2 PSnames module de"..., 4096) = 676
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f89cd136000, 4096)            = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f89cd137000, 4096)            = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f89cd138000, 4096)            = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f89cd139000, 4096)            = 0
+brk(0x1cc2000)                          = 0x1cc2000
+stat("RCS", 0x7fff706c7e30)             = -1 ENOENT (No such file or directory)
+stat("SCCS", 0x7fff706c7e30)            = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/module.mk", {st_mode=S_IFREG|0644, st_size=676, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/module.mk", {st_mode=S_IFREG|0644, st_size=668, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/module.mk", 0x7fff706c5e70) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/gzip/module.mk", 0x7fff706c5e70) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/module.mk", 0x7fff706c5e70) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/module.mk", {st_mode=S_IFREG|0644, st_size=1048, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/module.mk", {st_mode=S_IFREG|0644, st_size=668, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/module.mk", {st_mode=S_IFREG|0644, st_size=664, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/module.mk", {st_mode=S_IFREG|0644, st_size=671, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/module.mk", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/module.mk", {st_mode=S_IFREG|0644, st_size=1372, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/module.mk", {st_mode=S_IFREG|0644, st_size=1366, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/module.mk", {st_mode=S_IFREG|0644, st_size=696, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/module.mk", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/module.mk", {st_mode=S_IFREG|0644, st_size=661, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/module.mk", {st_mode=S_IFREG|0644, st_size=681, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/module.mk", {st_mode=S_IFREG|0644, st_size=658, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/module.mk", {st_mode=S_IFREG|0644, st_size=679, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/module.mk", {st_mode=S_IFREG|0644, st_size=689, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/builds/modules.mk", {st_mode=S_IFREG|0644, st_size=2034, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/builds/unix/install.mk", {st_mode=S_IFREG|0644, st_size=3855, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/rules.mk", {st_mode=S_IFREG|0644, st_size=1735, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/rules.mk", {st_mode=S_IFREG|0644, st_size=1828, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/rules.mk", {st_mode=S_IFREG|0644, st_size=1552, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/gzip/rules.mk", {st_mode=S_IFREG|0644, st_size=1646, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/rules.mk", {st_mode=S_IFREG|0644, st_size=2165, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/rules.mk", {st_mode=S_IFREG|0644, st_size=1694, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/rules.mk", {st_mode=S_IFREG|0644, st_size=1699, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/rules.mk", {st_mode=S_IFREG|0644, st_size=1860, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/rules.mk", {st_mode=S_IFREG|0644, st_size=2052, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/rules.mk", {st_mode=S_IFREG|0644, st_size=2016, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/rules.mk", {st_mode=S_IFREG|0644, st_size=2278, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/rules.mk", {st_mode=S_IFREG|0644, st_size=2322, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/rules.mk", {st_mode=S_IFREG|0644, st_size=1518, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/rules.mk", {st_mode=S_IFREG|0644, st_size=1634, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/rules.mk", {st_mode=S_IFREG|0644, st_size=1728, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/rules.mk", {st_mode=S_IFREG|0644, st_size=1672, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/rules.mk", {st_mode=S_IFREG|0644, st_size=1754, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/rules.mk", {st_mode=S_IFREG|0644, st_size=1720, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/rules.mk", {st_mode=S_IFREG|0644, st_size=1715, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/rules.mk", {st_mode=S_IFREG|0644, st_size=2756, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/builds/exports.mk", {st_mode=S_IFREG|0644, st_size=2181, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/builds/freetype.mk", {st_mode=S_IFREG|0644, st_size=10950, ...}) = 0
+stat("builds/unix/unix-cc.mk", {st_mode=S_IFREG|0644, st_size=2826, ...}) = 0
+stat("builds/unix/unix-def.mk", {st_mode=S_IFREG|0644, st_size=2421, ...}) = 0
+stat("config.mk", {st_mode=S_IFREG|0644, st_size=1635, ...}) = 0
+stat("modules.cfg", {st_mode=S_IFREG|0644, st_size=6407, ...}) = 0
+stat("builds/toplevel.mk", {st_mode=S_IFREG|0644, st_size=6789, ...}) = 0
+stat("Makefile", {st_mode=S_IFREG|0644, st_size=854, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/psnames", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 12 entries */, 32768)    = 368
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/psaux", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 19 entries */, 32768)    = 592
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/lzw", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 7 entries */, 32768)     = 208
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/gzip", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/gzip", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 20 entries */, 32768)    = 624
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/gzip/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/gzip/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cache", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 21 entries */, 32768)    = 656
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/smooth", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 13 entries */, 32768)    = 400
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/raster", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 14 entries */, 32768)    = 432
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pshinter", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 17 entries */, 32768)    = 528
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/autofit", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 32 entries */, 32768)    = 1008
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/sfnt", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 29 entries */, 32768)    = 912
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/bdf", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+brk(0x1ce6000)                          = 0x1ce6000
+getdents(3, /* 12 entries */, 32768)    = 368
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x1cde000)                          = 0x1cde000
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pcf", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 15 entries */, 32768)    = 464
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/winfonts", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 8 entries */, 32768)     = 240
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/type42", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 14 entries */, 32768)    = 432
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/pfr", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 20 entries */, 32768)    = 624
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cid", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 18 entries */, 32768)    = 560
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/cff", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 23 entries */, 32768)    = 720
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/type1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 20 entries */, 32768)    = 624
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/truetype", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 21 entries */, 32768)    = 656
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/builds", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/builds", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 23 entries */, 32768)    = 664
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/builds/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/builds/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/builds/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/builds/unix", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 35 entries */, 32768)    = 1144
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/builds/unix/RCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/builds/unix/SCCS", 0x7fff706c4f20) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/base", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/base", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 43 entries */, 32768)    = 1360
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/RCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/SCCS", 0x7fff706c4f30) = -1 ENOENT (No such file or directory)
+stat("builds/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("builds/unix/RCS", 0x7fff706c4f70) = -1 ENOENT (No such file or directory)
+stat("builds/unix/SCCS", 0x7fff706c4f70) = -1 ENOENT (No such file or directory)
+stat("builds", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("builds/RCS", 0x7fff706c4f70)      = -1 ENOENT (No such file or directory)
+stat("builds/SCCS", 0x7fff706c4f70)     = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/objs/libfreetype.la", {st_mode=S_IFREG|0644, st_size=976, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftsystem.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftsystem.c", {st_mode=S_IFREG|0644, st_size=13523, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/freetype.h", {st_mode=S_IFREG|0644, st_size=244361, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/RCS", 0x7fff706c4bf0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/SCCS", 0x7fff706c4bf0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftadvanc.h", {st_mode=S_IFREG|0644, st_size=10342, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbbox.h", {st_mode=S_IFREG|0644, st_size=4621, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbdf.h", {st_mode=S_IFREG|0644, st_size=6749, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftbitmap.h", {st_mode=S_IFREG|0644, st_size=13998, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftcache.h", {st_mode=S_IFREG|0644, st_size=60456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftchapters.h", {st_mode=S_IFREG|0644, st_size=7264, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftcid.h", {st_mode=S_IFREG|0644, st_size=5579, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fterrdef.h", {st_mode=S_IFREG|0644, st_size=12076, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fterrors.h", {st_mode=S_IFREG|0644, st_size=9456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgasp.h", {st_mode=S_IFREG|0644, st_size=4039, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftglyph.h", {st_mode=S_IFREG|0644, st_size=39273, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgxval.h", {st_mode=S_IFREG|0644, st_size=12600, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftgzip.h", {st_mode=S_IFREG|0644, st_size=4288, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftimage.h", {st_mode=S_IFREG|0644, st_size=82550, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftincrem.h", {st_mode=S_IFREG|0644, st_size=11406, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlcdfil.h", {st_mode=S_IFREG|0644, st_size=7709, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlist.h", {st_mode=S_IFREG|0644, st_size=16764, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftlzw.h", {st_mode=S_IFREG|0644, st_size=4256, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmac.h", {st_mode=S_IFREG|0644, st_size=17098, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmm.h", {st_mode=S_IFREG|0644, st_size=22712, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmodapi.h", {st_mode=S_IFREG|0644, st_size=26626, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftmoderr.h", {st_mode=S_IFREG|0644, st_size=7430, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftotval.h", {st_mode=S_IFREG|0644, st_size=7136, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftoutln.h", {st_mode=S_IFREG|0644, st_size=32423, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftpfr.h", {st_mode=S_IFREG|0644, st_size=6289, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftrender.h", {st_mode=S_IFREG|0644, st_size=11095, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsizes.h", {st_mode=S_IFREG|0644, st_size=9561, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsnames.h", {st_mode=S_IFREG|0644, st_size=11175, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftstroke.h", {st_mode=S_IFREG|0644, st_size=19553, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsynth.h", {st_mode=S_IFREG|0644, st_size=3897, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftsystem.h", {st_mode=S_IFREG|0644, st_size=10197, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fttrigon.h", {st_mode=S_IFREG|0644, st_size=8443, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/fttypes.h", {st_mode=S_IFREG|0644, st_size=34976, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftwinfnt.h", {st_mode=S_IFREG|0644, st_size=10403, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ftxf86.h", {st_mode=S_IFREG|0644, st_size=4721, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/t1tables.h", {st_mode=S_IFREG|0644, st_size=20051, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ttnameid.h", {st_mode=S_IFREG|0644, st_size=62170, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/tttables.h", {st_mode=S_IFREG|0644, st_size=39894, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/tttags.h", {st_mode=S_IFREG|0644, st_size=5002, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/ttunpat.h", {st_mode=S_IFREG|0644, st_size=2229, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/autohint.h", {st_mode=S_IFREG|0644, st_size=14059, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/RCS", 0x7fff706c4be0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/SCCS", 0x7fff706c4bd0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftcalc.h", {st_mode=S_IFREG|0644, st_size=8672, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftdebug.h", {st_mode=S_IFREG|0644, st_size=11376, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftdriver.h", {st_mode=S_IFREG|0644, st_size=22712, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftgloadr.h", {st_mode=S_IFREG|0644, st_size=6498, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftmemory.h", {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftobjs.h", {st_mode=S_IFREG|0644, st_size=79872, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftpic.h", {st_mode=S_IFREG|0644, st_size=2507, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftrfork.h", {st_mode=S_IFREG|0644, st_size=11929, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftserv.h", {st_mode=S_IFREG|0644, st_size=35377, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftstream.h", {st_mode=S_IFREG|0644, st_size=23126, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/fttrace.h", {st_mode=S_IFREG|0644, st_size=5280, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/ftvalid.h", {st_mode=S_IFREG|0644, st_size=7104, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/internal.h", {st_mode=S_IFREG|0644, st_size=3099, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/pcftypes.h", {st_mode=S_IFREG|0644, st_size=1562, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/psaux.h", {st_mode=S_IFREG|0644, st_size=35945, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/pshints.h", {st_mode=S_IFREG|0644, st_size=22398, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/sfnt.h", {st_mode=S_IFREG|0644, st_size=52005, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/t1types.h", {st_mode=S_IFREG|0644, st_size=10141, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/tttypes.h", {st_mode=S_IFREG|0644, st_size=86596, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svbdf.h", {st_mode=S_IFREG|0644, st_size=2835, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/RCS", 0x7fff706c4bd0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/SCCS", 0x7fff706c4bd0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svcid.h", {st_mode=S_IFREG|0644, st_size=3511, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svgldict.h", {st_mode=S_IFREG|0644, st_size=3079, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svgxval.h", {st_mode=S_IFREG|0644, st_size=2739, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svkern.h", {st_mode=S_IFREG|0644, st_size=1783, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svmm.h", {st_mode=S_IFREG|0644, st_size=3877, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svotval.h", {st_mode=S_IFREG|0644, st_size=1946, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpfr.h", {st_mode=S_IFREG|0644, st_size=2270, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpostnm.h", {st_mode=S_IFREG|0644, st_size=2846, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpscmap.h", {st_mode=S_IFREG|0644, st_size=5884, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svpsinfo.h", {st_mode=S_IFREG|0644, st_size=3434, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svsfnt.h", {st_mode=S_IFREG|0644, st_size=3360, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svttcmap.h", {st_mode=S_IFREG|0644, st_size=4651, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svtteng.h", {st_mode=S_IFREG|0644, st_size=1687, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svttglyf.h", {st_mode=S_IFREG|0644, st_size=2344, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svwinfnt.h", {st_mode=S_IFREG|0644, st_size=1702, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/internal/services/svxf86nm.h", {st_mode=S_IFREG|0644, st_size=2047, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftconfig.h", {st_mode=S_IFREG|0644, st_size=19014, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/RCS", 0x7fff706c4be0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/SCCS", 0x7fff706c4be0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftheader.h", {st_mode=S_IFREG|0644, st_size=24761, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftmodule.h", {st_mode=S_IFREG|0644, st_size=1399, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftoption.h", {st_mode=S_IFREG|0644, st_size=45739, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/include/freetype/config/ftstdlib.h", {st_mode=S_IFREG|0644, st_size=7275, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftmodule.h", {st_mode=S_IFREG|0644, st_size=1056, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/devel/ft2build.h", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/devel/RCS", 0x7fff706c4c00) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/devel/SCCS", 0x7fff706c4c00) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/devel/ftoption.h", {st_mode=S_IFREG|0644, st_size=45715, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftdebug.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftdebug.c", {st_mode=S_IFREG|0644, st_size=7609, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftinit.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftinit.c", {st_mode=S_IFREG|0644, st_size=8262, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftbase.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftbase.c", {st_mode=S_IFREG|0644, st_size=1685, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftadvanc.c", {st_mode=S_IFREG|0644, st_size=5134, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftcalc.c", {st_mode=S_IFREG|0644, st_size=21667, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftdbgmem.c", {st_mode=S_IFREG|0644, st_size=25048, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftgloadr.c", {st_mode=S_IFREG|0644, st_size=13256, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftobjs.c", {st_mode=S_IFREG|0644, st_size=127438, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftoutln.c", {st_mode=S_IFREG|0644, st_size=29238, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftrfork.c", {st_mode=S_IFREG|0644, st_size=25662, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftsnames.c", {st_mode=S_IFREG|0644, st_size=3223, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftstream.c", {st_mode=S_IFREG|0644, st_size=19884, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/fttrigon.c", {st_mode=S_IFREG|0644, st_size=11169, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftutil.c", {st_mode=S_IFREG|0644, st_size=12106, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftbase.h", {st_mode=S_IFREG|0644, st_size=2379, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftbbox.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftbbox.c", {st_mode=S_IFREG|0644, st_size=25564, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftbdf.lo", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftbdf.c", {st_mode=S_IFREG|0644, st_size=2676, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftbitmap.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftbitmap.c", {st_mode=S_IFREG|0644, st_size=15436, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftcid.lo", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+brk(0x1cff000)                          = 0x1cff000
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftcid.c", {st_mode=S_IFREG|0644, st_size=3155, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftfstype.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftfstype.c", {st_mode=S_IFREG|0644, st_size=2244, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftgasp.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftgasp.c", {st_mode=S_IFREG|0644, st_size=2072, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftglyph.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftglyph.c", {st_mode=S_IFREG|0644, st_size=17512, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftgxval.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftgxval.c", {st_mode=S_IFREG|0644, st_size=4092, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftlcdfil.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftlcdfil.c", {st_mode=S_IFREG|0644, st_size=9874, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftmm.lo", {st_mode=S_IFREG|0644, st_size=307, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftmm.c", {st_mode=S_IFREG|0644, st_size=5726, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftotval.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftotval.c", {st_mode=S_IFREG|0644, st_size=2865, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftpatent.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftpatent.c", {st_mode=S_IFREG|0644, st_size=6889, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftpfr.lo", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftpfr.c", {st_mode=S_IFREG|0644, st_size=4174, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftstroke.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftstroke.c", {st_mode=S_IFREG|0644, st_size=52769, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftsynth.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftsynth.c", {st_mode=S_IFREG|0644, st_size=5956, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/fttype1.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/fttype1.c", {st_mode=S_IFREG|0644, st_size=2795, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftwinfnt.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftwinfnt.c", {st_mode=S_IFREG|0644, st_size=1863, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftxf86.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/base/ftxf86.c", {st_mode=S_IFREG|0644, st_size=1618, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/truetype.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/truetype.c", {st_mode=S_IFREG|0644, st_size=1703, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttobjs.c", {st_mode=S_IFREG|0644, st_size=34484, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttpload.c", {st_mode=S_IFREG|0644, st_size=20124, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttgload.c", {st_mode=S_IFREG|0644, st_size=70644, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttinterp.c", {st_mode=S_IFREG|0644, st_size=262173, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttgxvar.c", {st_mode=S_IFREG|0644, st_size=56560, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttdriver.c", {st_mode=S_IFREG|0644, st_size=17743, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttobjs.h", {st_mode=S_IFREG|0644, st_size=19343, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttpload.h", {st_mode=S_IFREG|0644, st_size=2386, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttgload.h", {st_mode=S_IFREG|0644, st_size=2136, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttinterp.h", {st_mode=S_IFREG|0644, st_size=13802, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttgxvar.h", {st_mode=S_IFREG|0644, st_size=7810, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/ttdriver.h", {st_mode=S_IFREG|0644, st_size=1466, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/truetype/tterrors.h", {st_mode=S_IFREG|0644, st_size=1954, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/type1.lo", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/type1.c", {st_mode=S_IFREG|0644, st_size=1485, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1parse.c", {st_mode=S_IFREG|0644, st_size=16284, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1load.c", {st_mode=S_IFREG|0644, st_size=69850, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1driver.c", {st_mode=S_IFREG|0644, st_size=10085, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1afm.c", {st_mode=S_IFREG|0644, st_size=11176, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1gload.c", {st_mode=S_IFREG|0644, st_size=18037, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1objs.c", {st_mode=S_IFREG|0644, st_size=20288, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1parse.h", {st_mode=S_IFREG|0644, st_size=6055, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1load.h", {st_mode=S_IFREG|0644, st_size=3279, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1driver.h", {st_mode=S_IFREG|0644, st_size=1572, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1afm.h", {st_mode=S_IFREG|0644, st_size=2015, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1gload.h", {st_mode=S_IFREG|0644, st_size=1934, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1objs.h", {st_mode=S_IFREG|0644, st_size=7468, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1tokens.h", {st_mode=S_IFREG|0644, st_size=5820, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type1/t1errors.h", {st_mode=S_IFREG|0644, st_size=1874, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/cff.lo", {st_mode=S_IFREG|0644, st_size=304, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cff.c", {st_mode=S_IFREG|0644, st_size=1470, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffobjs.c", {st_mode=S_IFREG|0644, st_size=31761, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffload.c", {st_mode=S_IFREG|0644, st_size=47421, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffgload.c", {st_mode=S_IFREG|0644, st_size=90645, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffparse.c", {st_mode=S_IFREG|0644, st_size=25078, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffcmap.c", {st_mode=S_IFREG|0644, st_size=6634, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffdrivr.c", {st_mode=S_IFREG|0644, st_size=22015, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffobjs.h", {st_mode=S_IFREG|0644, st_size=7249, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffload.h", {st_mode=S_IFREG|0644, st_size=2663, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffgload.h", {st_mode=S_IFREG|0644, st_size=8031, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffparse.h", {st_mode=S_IFREG|0644, st_size=2782, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffcmap.h", {st_mode=S_IFREG|0644, st_size=2853, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cffdrivr.h", {st_mode=S_IFREG|0644, st_size=1470, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cfftoken.h", {st_mode=S_IFREG|0644, st_size=4109, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cfftypes.h", {st_mode=S_IFREG|0644, st_size=9157, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cff/cfferrs.h", {st_mode=S_IFREG|0644, st_size=1871, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/type1cid.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/type1cid.c", {st_mode=S_IFREG|0644, st_size=1430, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidparse.c", {st_mode=S_IFREG|0644, st_size=7623, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidload.c", {st_mode=S_IFREG|0644, st_size=17847, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidriver.c", {st_mode=S_IFREG|0644, st_size=6253, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidgload.c", {st_mode=S_IFREG|0644, st_size=15536, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidobjs.c", {st_mode=S_IFREG|0644, st_size=16678, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidparse.h", {st_mode=S_IFREG|0644, st_size=5840, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidload.h", {st_mode=S_IFREG|0644, st_size=1837, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidriver.h", {st_mode=S_IFREG|0644, st_size=1578, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidgload.h", {st_mode=S_IFREG|0644, st_size=1914, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidobjs.h", {st_mode=S_IFREG|0644, st_size=6312, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/cidtoken.h", {st_mode=S_IFREG|0644, st_size=4991, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cid/ciderrs.h", {st_mode=S_IFREG|0644, st_size=1870, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/pfr.lo", {st_mode=S_IFREG|0644, st_size=304, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfr.c", {st_mode=S_IFREG|0644, st_size=1449, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrload.c", {st_mode=S_IFREG|0644, st_size=25582, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrgload.c", {st_mode=S_IFREG|0644, st_size=22743, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrcmap.c", {st_mode=S_IFREG|0644, st_size=4124, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrdrivr.c", {st_mode=S_IFREG|0644, st_size=5559, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrsbit.c", {st_mode=S_IFREG|0644, st_size=18412, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrobjs.c", {st_mode=S_IFREG|0644, st_size=17771, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrload.h", {st_mode=S_IFREG|0644, st_size=3870, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrgload.h", {st_mode=S_IFREG|0644, st_size=1771, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrcmap.h", {st_mode=S_IFREG|0644, st_size=1647, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrdrivr.h", {st_mode=S_IFREG|0644, st_size=1574, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrsbit.h", {st_mode=S_IFREG|0644, st_size=1543, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrobjs.h", {st_mode=S_IFREG|0644, st_size=2846, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrerror.h", {st_mode=S_IFREG|0644, st_size=1873, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pfr/pfrtypes.h", {st_mode=S_IFREG|0644, st_size=8925, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/type42.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/type42.c", {st_mode=S_IFREG|0644, st_size=1385, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42objs.c", {st_mode=S_IFREG|0644, st_size=19106, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42parse.c", {st_mode=S_IFREG|0644, st_size=35447, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42drivr.c", {st_mode=S_IFREG|0644, st_size=7047, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42objs.h", {st_mode=S_IFREG|0644, st_size=3153, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42parse.h", {st_mode=S_IFREG|0644, st_size=2703, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42drivr.h", {st_mode=S_IFREG|0644, st_size=1496, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42error.h", {st_mode=S_IFREG|0644, st_size=1876, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/type42/t42types.h", {st_mode=S_IFREG|0644, st_size=1852, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/winfnt.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/winfnt.c", {st_mode=S_IFREG|0644, st_size=33305, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/winfnt.h", {st_mode=S_IFREG|0644, st_size=4027, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/winfonts/fnterrs.h", {st_mode=S_IFREG|0644, st_size=1953, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/pcf.lo", {st_mode=S_IFREG|0644, st_size=304, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcf.c", {st_mode=S_IFREG|0644, st_size=1275, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcfdrivr.c", {st_mode=S_IFREG|0644, st_size=17075, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcfread.c", {st_mode=S_IFREG|0644, st_size=33968, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcfutil.c", {st_mode=S_IFREG|0644, st_size=2592, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcfdrivr.h", {st_mode=S_IFREG|0644, st_size=1464, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcfread.h", {st_mode=S_IFREG|0644, st_size=1392, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcfutil.h", {st_mode=S_IFREG|0644, st_size=1612, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcf.h", {st_mode=S_IFREG|0644, st_size=6086, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pcf/pcferror.h", {st_mode=S_IFREG|0644, st_size=1873, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/bdf.lo", {st_mode=S_IFREG|0644, st_size=304, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/bdf.c", {st_mode=S_IFREG|0644, st_size=1255, ...}) = 0
+brk(0x1d20000)                          = 0x1d20000
+brk(0x1d1f000)                          = 0x1d1f000
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/bdflib.c", {st_mode=S_IFREG|0644, st_size=72782, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/bdfdrivr.c", {st_mode=S_IFREG|0644, st_size=24111, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/bdf.h", {st_mode=S_IFREG|0644, st_size=10808, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/bdfdrivr.h", {st_mode=S_IFREG|0644, st_size=1982, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/bdf/bdferror.h", {st_mode=S_IFREG|0644, st_size=1781, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/sfnt.lo", {st_mode=S_IFREG|0644, st_size=307, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/sfnt.c", {st_mode=S_IFREG|0644, st_size=1656, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttload.c", {st_mode=S_IFREG|0644, st_size=47765, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttmtx.c", {st_mode=S_IFREG|0644, st_size=15859, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttcmap.c", {st_mode=S_IFREG|0644, st_size=106805, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttsbit.c", {st_mode=S_IFREG|0644, st_size=53996, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttpost.c", {st_mode=S_IFREG|0644, st_size=16868, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttkern.c", {st_mode=S_IFREG|0644, st_size=7920, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttbdf.c", {st_mode=S_IFREG|0644, st_size=6990, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/sfobjs.c", {st_mode=S_IFREG|0644, st_size=39033, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/sfdriver.c", {st_mode=S_IFREG|0644, st_size=17154, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttload.h", {st_mode=S_IFREG|0644, st_size=3247, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttmtx.h", {st_mode=S_IFREG|0644, st_size=1993, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttcmap.h", {st_mode=S_IFREG|0644, st_size=5211, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttsbit.h", {st_mode=S_IFREG|0644, st_size=2969, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttpost.h", {st_mode=S_IFREG|0644, st_size=1749, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttkern.h", {st_mode=S_IFREG|0644, st_size=1930, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttbdf.h", {st_mode=S_IFREG|0644, st_size=1672, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/sfobjs.h", {st_mode=S_IFREG|0644, st_size=1980, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/sfdriver.h", {st_mode=S_IFREG|0644, st_size=1459, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/sferrors.h", {st_mode=S_IFREG|0644, st_size=1902, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/sfnt/ttsbit0.c", {st_mode=S_IFREG|0644, st_size=27039, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/autofit.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/autofit.c", {st_mode=S_IFREG|0644, st_size=1636, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afangles.c", {st_mode=S_IFREG|0644, st_size=6656, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afcjk.c", {st_mode=S_IFREG|0644, st_size=43648, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afdummy.c", {st_mode=S_IFREG|0644, st_size=2127, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afglobal.c", {st_mode=S_IFREG|0644, st_size=8837, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afhints.c", {st_mode=S_IFREG|0644, st_size=28413, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afindic.c", {st_mode=S_IFREG|0644, st_size=3986, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/aflatin.c", {st_mode=S_IFREG|0644, st_size=66705, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afloader.c", {st_mode=S_IFREG|0644, st_size=17634, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afmodule.c", {st_mode=S_IFREG|0644, st_size=2956, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afwarp.c", {st_mode=S_IFREG|0644, st_size=9178, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afangles.h", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afcjk.h", {st_mode=S_IFREG|0644, st_size=2007, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afdummy.h", {st_mode=S_IFREG|0644, st_size=1655, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afglobal.h", {st_mode=S_IFREG|0644, st_size=2780, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afhints.h", {st_mode=S_IFREG|0644, st_size=10454, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afindic.h", {st_mode=S_IFREG|0644, st_size=1489, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/aflatin.h", {st_mode=S_IFREG|0644, st_size=7100, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afloader.h", {st_mode=S_IFREG|0644, st_size=2404, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afmodule.h", {st_mode=S_IFREG|0644, st_size=1487, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/afwarp.h", {st_mode=S_IFREG|0644, st_size=2133, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/aftypes.h", {st_mode=S_IFREG|0644, st_size=15511, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/autofit/aferrors.h", {st_mode=S_IFREG|0644, st_size=1953, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/pshinter.lo", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshinter.c", {st_mode=S_IFREG|0644, st_size=1424, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshrec.c", {st_mode=S_IFREG|0644, st_size=32386, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshglob.c", {st_mode=S_IFREG|0644, st_size=21512, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshmod.c", {st_mode=S_IFREG|0644, st_size=3516, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshalgo.c", {st_mode=S_IFREG|0644, st_size=61902, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshrec.h", {st_mode=S_IFREG|0644, st_size=5283, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshglob.h", {st_mode=S_IFREG|0644, st_size=6404, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshmod.h", {st_mode=S_IFREG|0644, st_size=1458, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshalgo.h", {st_mode=S_IFREG|0644, st_size=7993, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/pshinter/pshnterr.h", {st_mode=S_IFREG|0644, st_size=1878, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/raster.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/raster.c", {st_mode=S_IFREG|0644, st_size=1386, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/ftraster.c", {st_mode=S_IFREG|0644, st_size=118138, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/ftrend1.c", {st_mode=S_IFREG|0644, st_size=8833, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/ftraster.h", {st_mode=S_IFREG|0644, st_size=1925, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/ftrend1.h", {st_mode=S_IFREG|0644, st_size=1806, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/raster/rasterrs.h", {st_mode=S_IFREG|0644, st_size=1957, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/smooth.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/smooth.c", {st_mode=S_IFREG|0644, st_size=1385, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/ftgrays.c", {st_mode=S_IFREG|0644, st_size=60087, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/ftsmooth.c", {st_mode=S_IFREG|0644, st_size=13456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/ftgrays.h", {st_mode=S_IFREG|0644, st_size=2318, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/ftsmooth.h", {st_mode=S_IFREG|0644, st_size=1724, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/smooth/ftsmerrs.h", {st_mode=S_IFREG|0644, st_size=1957, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftcache.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcache.c", {st_mode=S_IFREG|0644, st_size=1494, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcbasic.c", {st_mode=S_IFREG|0644, st_size=23456, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftccache.c", {st_mode=S_IFREG|0644, st_size=14246, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftccmap.c", {st_mode=S_IFREG|0644, st_size=13181, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcglyph.c", {st_mode=S_IFREG|0644, st_size=5764, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcimage.c", {st_mode=S_IFREG|0644, st_size=4299, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcmanag.c", {st_mode=S_IFREG|0644, st_size=18535, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcmru.c", {st_mode=S_IFREG|0644, st_size=7690, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcsbits.c", {st_mode=S_IFREG|0644, st_size=12276, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftccache.h", {st_mode=S_IFREG|0644, st_size=13799, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftccback.h", {st_mode=S_IFREG|0644, st_size=2840, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcerror.h", {st_mode=S_IFREG|0644, st_size=1952, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcglyph.h", {st_mode=S_IFREG|0644, st_size=12708, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcimage.h", {st_mode=S_IFREG|0644, st_size=3638, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcmanag.h", {st_mode=S_IFREG|0644, st_size=8541, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcmru.h", {st_mode=S_IFREG|0644, st_size=9874, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/cache/ftcsbits.h", {st_mode=S_IFREG|0644, st_size=3067, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftgzip.lo", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/gzip/ftgzip.c", {st_mode=S_IFREG|0644, st_size=17551, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftlzw.lo", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/ftlzw.c", {st_mode=S_IFREG|0644, st_size=10841, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/ftzopen.h", {st_mode=S_IFREG|0644, st_size=5941, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/lzw/ftzopen.c", {st_mode=S_IFREG|0644, st_size=10584, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/psaux.lo", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psaux.c", {st_mode=S_IFREG|0644, st_size=1489, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psobjs.c", {st_mode=S_IFREG|0644, st_size=48070, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/t1decode.c", {st_mode=S_IFREG|0644, st_size=49725, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/t1cmap.c", {st_mode=S_IFREG|0644, st_size=9904, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/afmparse.c", {st_mode=S_IFREG|0644, st_size=22665, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psconv.c", {st_mode=S_IFREG|0644, st_size=9607, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psauxmod.c", {st_mode=S_IFREG|0644, st_size=3443, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psobjs.h", {st_mode=S_IFREG|0644, st_size=7461, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/t1decode.h", {st_mode=S_IFREG|0644, st_size=2368, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/t1cmap.h", {st_mode=S_IFREG|0644, st_size=4004, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/afmparse.h", {st_mode=S_IFREG|0644, st_size=2556, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psconv.h", {st_mode=S_IFREG|0644, st_size=2432, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psauxmod.h", {st_mode=S_IFREG|0644, st_size=1563, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psaux/psauxerr.h", {st_mode=S_IFREG|0644, st_size=1955, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/psnames.lo", {st_mode=S_IFREG|0644, st_size=316, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/psmodule.c", {st_mode=S_IFREG|0644, st_size=14925, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/psmodule.h", {st_mode=S_IFREG|0644, st_size=1462, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/pstables.h", {st_mode=S_IFREG|0644, st_size=262682, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/psnames/psnamerr.h", {st_mode=S_IFREG|0644, st_size=1959, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/ftexport.sym", {st_mode=S_IFREG|0644, st_size=3660, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/objs/apinames", {st_mode=S_IFREG|0755, st_size=13819, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/tools/apinames.c", {st_mode=S_IFREG|0644, st_size=9483, ...}) = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/tools", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/chris/lib-src/freetype-2.4.3/src/tools", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 12 entries */, 32768)    = 368
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/chris/lib-src/freetype-2.4.3/src/tools/RCS", 0x7fff706c4af0) = -1 ENOENT (No such file or directory)
+stat("/home/chris/lib-src/freetype-2.4.3/src/tools/SCCS", 0x7fff706c4ae0) = -1 ENOENT (No such file or directory)
+fstat(1, {st_mode=S_IFREG|0644, st_size=105644, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd139000
+write(1, "./builds/unix/mkinstalldirs /usr"..., 99./builds/unix/mkinstalldirs /usr/local/android-arm/sysroot/usr/lib                               \
+) = 99
+write(1, "                         /usr/lo"..., 96                         /usr/local/android-arm/sysroot/usr/lib/pkgconfig                     \
+) = 96
+write(1, "                         /usr/lo"..., 96                         /usr/local/android-arm/sysroot/usr/include/freetype2/freetype/config \
+) = 96
+write(1, "                         /usr/lo"..., 96                         /usr/local/android-arm/sysroot/usr/include/freetype2/freetype/cache  \
+) = 96
+write(1, "                         /usr/lo"..., 96                         /usr/local/android-arm/sysroot/usr/bin                               \
+) = 96
+write(1, "                         /usr/lo"..., 74                         /usr/local/android-arm/sysroot/usr/share/aclocal
+) = 74
+pipe([3, 4])                            = 0
+close(4)                                = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM XCPU XFSZ], NULL, 8) = 0
+vfork()                                 = 27167
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0xffffffff)                = 27167
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 27167
+write(1, "./builds/unix/libtool --mode=ins"..., 87./builds/unix/libtool --mode=install /usr/bin/install -c                             \
+) = 87
+write(1, "                                "..., 128                                  /home/chris/lib-src/freetype-2.4.3/objs/libfreetype.la /usr/local/android-arm/sysroot/usr/lib
+) = 128
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM XCPU XFSZ], NULL, 8) = 0
+vfork()                                 = 27168
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, libtool: install: /usr/bin/install -c /home/chris/lib-src/freetype-2.4.3/objs/.libs/libfreetype.so.6.6.1 /usr/local/android-arm/sysroot/usr/lib/libfreetype.so.6.6.1
+libtool: install: (cd /usr/local/android-arm/sysroot/usr/lib && { ln -s -f libfreetype.so.6.6.1 libfreetype.so.6 || { rm -f libfreetype.so.6 && ln -s libfreetype.so.6.6.1 libfreetype.so.6; }; })
+libtool: install: (cd /usr/local/android-arm/sysroot/usr/lib && { ln -s -f libfreetype.so.6.6.1 libfreetype.so || { rm -f libfreetype.so && ln -s libfreetype.so.6.6.1 libfreetype.so; }; })
+libtool: install: /usr/bin/install -c /home/chris/lib-src/freetype-2.4.3/objs/.libs/libfreetype.lai /usr/local/android-arm/sysroot/usr/lib/libfreetype.la
+libtool: install: /usr/bin/install -c /home/chris/lib-src/freetype-2.4.3/objs/.libs/libfreetype.a /usr/local/android-arm/sysroot/usr/lib/libfreetype.a
+libtool: install: chmod 644 /usr/local/android-arm/sysroot/usr/lib/libfreetype.a
+libtool: install: arm-linux-androideabi-ranlib /usr/local/android-arm/sysroot/usr/lib/libfreetype.a
+./builds/unix/libtool: line 949: arm-linux-androideabi-ranlib: command not found
+[{WIFEXITED(s) && WEXITSTATUS(s) == 127}], 0, NULL) = 27168
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0xffffffff)                = 27168
+open("/usr/share/locale/locale.alias", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89cd138000
+read(4, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f89cd138000, 4096)            = 0
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/make.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "make: ", 6make: )                   = 6
+write(2, "*** [install] Error 127", 23*** [install] Error 127) = 23
+write(2, "\n", 1
+)                       = 1
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM XCPU XFSZ], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+chdir("/home/chris/lib-src/freetype-2.4.3") = 0
+close(1)                                = 0
+munmap(0x7f89cd139000, 4096)            = 0
+exit_group(2)                           = ?

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="androth_edittext" parent="@android:style/Widget.EditText">
+ 	<item name="android:focusable">true</item>
+ 	<item name="android:focusableInTouchMode">true</item>
+ 	<item name="android:clickable">true</item>
+ 	<item name="android:background">@drawable/text_style</item>
+    <item name="android:textColor">@android:color/white</item>
+</style>
+</resources>

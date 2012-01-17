@@ -1,0 +1,190 @@
+configure: WARNING: If you wanted to set the --build type, don't use --host.
+    If a cross compiler is detected then cross compile mode will be used.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for arm-linux-androideabi-strip... arm-linux-androideabi-strip
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... arm-unknown-linux-androideabi
+checking for style of include used by make... GNU
+checking for arm-linux-androideabi-gcc... arm-linux-androideabi-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... yes
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether arm-linux-androideabi-gcc accepts -g... yes
+checking for arm-linux-androideabi-gcc option to accept ISO C89... none needed
+checking dependency style of arm-linux-androideabi-gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ld used by arm-linux-androideabi-gcc... /usr/local/android-arm/arm-linux-androideabi/bin/ld
+checking if the linker (/usr/local/android-arm/arm-linux-androideabi/bin/ld) is GNU ld... yes
+checking for /usr/local/android-arm/arm-linux-androideabi/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/local/android-arm/bin/arm-linux-androideabi-nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... arm-linux-androideabi-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for arm-linux-androideabi-g++... arm-linux-androideabi-g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether arm-linux-androideabi-g++ accepts -g... yes
+checking dependency style of arm-linux-androideabi-g++... gcc3
+checking how to run the C++ preprocessor... arm-linux-androideabi-g++ -E
+checking for arm-linux-androideabi-g77... no
+checking for arm-linux-androideabi-xlf... no
+checking for arm-linux-androideabi-f77... no
+checking for arm-linux-androideabi-frt... no
+checking for arm-linux-androideabi-pgf77... no
+checking for arm-linux-androideabi-cf77... no
+checking for arm-linux-androideabi-fort77... no
+checking for arm-linux-androideabi-fl32... no
+checking for arm-linux-androideabi-af77... no
+checking for arm-linux-androideabi-xlf90... no
+checking for arm-linux-androideabi-f90... no
+checking for arm-linux-androideabi-pgf90... no
+checking for arm-linux-androideabi-pghpf... no
+checking for arm-linux-androideabi-epcf90... no
+checking for arm-linux-androideabi-gfortran... no
+checking for arm-linux-androideabi-g95... no
+checking for arm-linux-androideabi-xlf95... no
+checking for arm-linux-androideabi-f95... no
+checking for arm-linux-androideabi-fort... no
+checking for arm-linux-androideabi-ifort... no
+checking for arm-linux-androideabi-ifc... no
+checking for arm-linux-androideabi-efc... no
+checking for arm-linux-androideabi-pgf95... no
+checking for arm-linux-androideabi-lf95... no
+checking for arm-linux-androideabi-ftn... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/local/android-arm/bin/arm-linux-androideabi-nm -B output from arm-linux-androideabi-gcc object... ok
+checking for objdir... .libs
+checking for arm-linux-androideabi-ar... arm-linux-androideabi-ar
+checking for arm-linux-androideabi-ranlib... arm-linux-androideabi-ranlib
+checking for arm-linux-androideabi-strip... (cached) arm-linux-androideabi-strip
+checking if arm-linux-androideabi-gcc supports -fno-rtti -fno-exceptions... no
+checking for arm-linux-androideabi-gcc option to produce PIC... -fPIC
+checking if arm-linux-androideabi-gcc PIC flag -fPIC works... yes
+checking if arm-linux-androideabi-gcc static flag -static works... yes
+checking if arm-linux-androideabi-gcc supports -c -o file.o... yes
+checking whether the arm-linux-androideabi-gcc linker (/usr/local/android-arm/arm-linux-androideabi/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by arm-linux-androideabi-g++... /usr/local/android-arm/arm-linux-androideabi/bin/ld
+checking if the linker (/usr/local/android-arm/arm-linux-androideabi/bin/ld) is GNU ld... yes
+checking whether the arm-linux-androideabi-g++ linker (/usr/local/android-arm/arm-linux-androideabi/bin/ld) supports shared libraries... yes
+checking for arm-linux-androideabi-g++ option to produce PIC... -fPIC
+checking if arm-linux-androideabi-g++ PIC flag -fPIC works... yes
+checking if arm-linux-androideabi-g++ static flag -static works... yes
+checking if arm-linux-androideabi-g++ supports -c -o file.o... yes
+checking whether the arm-linux-androideabi-g++ linker (/usr/local/android-arm/arm-linux-androideabi/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking for arm-linux-androideabi-gcc... (cached) arm-linux-androideabi-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether arm-linux-androideabi-gcc accepts -g... (cached) yes
+checking for arm-linux-androideabi-gcc option to accept ISO C89... (cached) none needed
+checking dependency style of arm-linux-androideabi-gcc... (cached) gcc3
+checking how to run the C preprocessor... arm-linux-androideabi-gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking whether arm-linux-androideabi-gcc and cc understand -c and -o together... yes
+checking for pow in -lm... yes
+checking rle.h usability... no
+checking rle.h presence... no
+checking for rle.h... no
+checking gl/gl.h usability... no
+checking gl/gl.h presence... no
+checking for gl/gl.h... no
+checking for X... libraries /usr/lib, headers /usr/include
+checking whether -R must be followed by a space... neither works
+checking for dnet_ntoa in -ldnet... no
+checking for dnet_ntoa in -ldnet_stub... no
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... no
+checking for shmat in -lipc... no
+checking for IceConnectionNumber in -lICE... no
+checking X11/Xlib.h usability... no
+checking X11/Xlib.h presence... no
+checking for X11/Xlib.h... no
+checking X11/Xutil.h usability... no
+checking X11/Xutil.h presence... no
+checking for X11/Xutil.h... no
+checking for ANSI C header files... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for u_int32_t... yes
+checking for an ANSI C-conforming const... yes
+checking for working memcmp... no
+checking for function prototypes... yes
+checking whether setvbuf arguments are reversed... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for strdup... yes
+configure: creating ./config.status
+config.status: creating util/Makefile
+config.status: creating lib/Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating pic/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands

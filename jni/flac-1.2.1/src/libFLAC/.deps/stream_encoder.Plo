@@ -1,0 +1,176 @@
+stream_encoder.lo: stream_encoder.c ../../config.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdlib.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/alloca.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/strings.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/memory.h \
+ ../../include/FLAC/assert.h ../../include/FLAC/stream_decoder.h \
+ ../../include/FLAC/export.h ../../include/FLAC/format.h \
+ ../../include/FLAC/ordinals.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/inttypes.h \
+ ../../include/share/alloc.h include/protected/stream_encoder.h \
+ ../../include/FLAC/stream_encoder.h ../../include/FLAC/stream_decoder.h \
+ include/private/ogg_encoder_aspect.h \
+ /home/chris/android-9/include/ogg/ogg.h \
+ /home/chris/android-9/include/ogg/os_types.h \
+ /home/chris/android-9/include/ogg/config_types.h \
+ ../../include/FLAC/ordinals.h include/private/float.h \
+ include/private/bitwriter.h include/private/bitmath.h \
+ include/private/crc.h include/private/cpu.h include/private/fixed.h \
+ ../../include/FLAC/format.h include/private/format.h \
+ include/private/lpc.h include/private/md5.h include/private/memory.h \
+ include/private/ogg_helper.h include/private/ogg_mapping.h \
+ include/private/stream_encoder_framing.h include/private/bitwriter.h \
+ include/private/window.h
+
+../../config.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdlib.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/alloca.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/strings.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/memory.h:
+
+../../include/FLAC/assert.h:
+
+../../include/FLAC/stream_decoder.h:
+
+../../include/FLAC/export.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/ordinals.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/inttypes.h:
+
+../../include/share/alloc.h:
+
+include/protected/stream_encoder.h:
+
+../../include/FLAC/stream_encoder.h:
+
+../../include/FLAC/stream_decoder.h:
+
+include/private/ogg_encoder_aspect.h:
+
+/home/chris/android-9/include/ogg/ogg.h:
+
+/home/chris/android-9/include/ogg/os_types.h:
+
+/home/chris/android-9/include/ogg/config_types.h:
+
+../../include/FLAC/ordinals.h:
+
+include/private/float.h:
+
+include/private/bitwriter.h:
+
+include/private/bitmath.h:
+
+include/private/crc.h:
+
+include/private/cpu.h:
+
+include/private/fixed.h:
+
+../../include/FLAC/format.h:
+
+include/private/format.h:
+
+include/private/lpc.h:
+
+include/private/md5.h:
+
+include/private/memory.h:
+
+include/private/ogg_helper.h:
+
+include/private/ogg_mapping.h:
+
+include/private/stream_encoder_framing.h:
+
+include/private/bitwriter.h:
+
+include/private/window.h:

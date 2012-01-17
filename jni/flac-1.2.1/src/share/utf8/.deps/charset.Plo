@@ -1,0 +1,3 @@
+charset.lo: charset.c ../../../config.h
+
+../../../config.h:

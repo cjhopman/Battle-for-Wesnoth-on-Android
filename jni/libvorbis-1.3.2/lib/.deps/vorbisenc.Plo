@@ -1,0 +1,193 @@
+vorbisenc.lo: vorbisenc.c \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdlib.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/alloca.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/strings.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/memory.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/math.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ ../include/vorbis/codec.h /home/chris/android-9/include/ogg/ogg.h \
+ /home/chris/android-9/include/ogg/os_types.h \
+ /home/chris/android-9/include/ogg/config_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/inttypes.h \
+ ../include/vorbis/vorbisenc.h ../include/vorbis/codec.h codec_internal.h \
+ envelope.h mdct.h codebook.h psy.h smallft.h backends.h bitrate.h os.h \
+ ../config.h misc.h highlevel.h modes/setup_44.h modes/floor_all.h \
+ backends.h books/floor/floor_books.h codebook.h modes/residue_44.h \
+ books/coupled/res_books_stereo.h modes/psych_44.h modes/setup_44u.h \
+ modes/residue_44u.h books/uncoupled/res_books_uncoupled.h \
+ modes/setup_44p51.h modes/residue_44p51.h books/coupled/res_books_51.h \
+ modes/setup_32.h modes/setup_8.h modes/psych_8.h modes/residue_8.h \
+ modes/setup_11.h modes/psych_11.h modes/setup_16.h modes/psych_16.h \
+ modes/residue_16.h modes/setup_22.h modes/setup_X.h
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdlib.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/alloca.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/strings.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/memory.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/math.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+../include/vorbis/codec.h:
+
+/home/chris/android-9/include/ogg/ogg.h:
+
+/home/chris/android-9/include/ogg/os_types.h:
+
+/home/chris/android-9/include/ogg/config_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/inttypes.h:
+
+../include/vorbis/vorbisenc.h:
+
+../include/vorbis/codec.h:
+
+codec_internal.h:
+
+envelope.h:
+
+mdct.h:
+
+codebook.h:
+
+psy.h:
+
+smallft.h:
+
+backends.h:
+
+bitrate.h:
+
+os.h:
+
+../config.h:
+
+misc.h:
+
+highlevel.h:
+
+modes/setup_44.h:
+
+modes/floor_all.h:
+
+backends.h:
+
+books/floor/floor_books.h:
+
+codebook.h:
+
+modes/residue_44.h:
+
+books/coupled/res_books_stereo.h:
+
+modes/psych_44.h:
+
+modes/setup_44u.h:
+
+modes/residue_44u.h:
+
+books/uncoupled/res_books_uncoupled.h:
+
+modes/setup_44p51.h:
+
+modes/residue_44p51.h:
+
+books/coupled/res_books_51.h:
+
+modes/setup_32.h:
+
+modes/setup_8.h:
+
+modes/psych_8.h:
+
+modes/residue_8.h:
+
+modes/setup_11.h:
+
+modes/psych_11.h:
+
+modes/setup_16.h:
+
+modes/psych_16.h:
+
+modes/residue_16.h:
+
+modes/setup_22.h:
+
+modes/setup_X.h:

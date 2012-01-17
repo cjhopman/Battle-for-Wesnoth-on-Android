@@ -1,0 +1,286 @@
+stream_decoder.lo: stream_decoder.cpp ../../include/FLAC++/decoder.h \
+ ../../include/FLAC++/export.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/string \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/c++config.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/os_defines.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/cpu_defines.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stringfwd.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/char_traits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_algobase.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cstddef \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/functexcept.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/exception_defines.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/cpp_type_traits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/type_traits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/numeric_traits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_pair.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/move.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/concept_check.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_iterator_base_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_iterator_base_funcs.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_iterator.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/debug/debug.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/postypes.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cwchar \
+ /home/chris/android-9/bin/../sysroot/usr/include/wchar.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/time.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/stdint.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/time.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/malloc.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/allocator.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/c++allocator.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/new_allocator.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/new \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/exception \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/localefwd.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/c++locale.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/clocale \
+ /home/chris/android-9/bin/../sysroot/usr/include/locale.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/iosfwd \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cctype \
+ /home/chris/android-9/bin/../sysroot/usr/include/ctype.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/ostream_insert.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cxxabi-forced.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_function.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/backward/binders.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/basic_string.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/atomicity.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/gthr.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/gthr-default.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/pthread.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/signal.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/string.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sched.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/unistd.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/select.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/sys/sysconf.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/linux/capability.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/pathconf.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/atomic_word.h \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/initializer_list \
+ /home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/basic_string.tcc \
+ ../../include/FLAC/stream_decoder.h ../../include/FLAC/export.h \
+ ../../include/FLAC/format.h ../../include/FLAC/ordinals.h \
+ /home/chris/android-9/bin/../sysroot/usr/include/inttypes.h \
+ ../../include/FLAC/assert.h
+
+../../include/FLAC++/decoder.h:
+
+../../include/FLAC++/export.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/string:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/c++config.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/os_defines.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/cpu_defines.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stringfwd.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/char_traits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_algobase.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cstddef:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/functexcept.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/exception_defines.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/cpp_type_traits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/type_traits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/numeric_traits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_pair.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/move.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/concept_check.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_iterator_base_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_iterator_base_funcs.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_iterator.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/debug/debug.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/postypes.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cwchar:
+
+/home/chris/android-9/bin/../sysroot/usr/include/wchar.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/time.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/stdint.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/time.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/malloc.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/allocator.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/c++allocator.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/new_allocator.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/new:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/exception:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/localefwd.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/c++locale.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/clocale:
+
+/home/chris/android-9/bin/../sysroot/usr/include/locale.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/iosfwd:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cctype:
+
+/home/chris/android-9/bin/../sysroot/usr/include/ctype.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/ostream_insert.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/cxxabi-forced.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/stl_function.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/backward/binders.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/basic_string.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/ext/atomicity.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/gthr.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/gthr-default.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/pthread.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/signal.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/string.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sched.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/unistd.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/select.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/sys/sysconf.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/linux/capability.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/pathconf.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/thumb/bits/atomic_word.h:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/initializer_list:
+
+/home/chris/android-9/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/include/c++/4.4.3/bits/basic_string.tcc:
+
+../../include/FLAC/stream_decoder.h:
+
+../../include/FLAC/export.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/ordinals.h:
+
+/home/chris/android-9/bin/../sysroot/usr/include/inttypes.h:
+
+../../include/FLAC/assert.h:

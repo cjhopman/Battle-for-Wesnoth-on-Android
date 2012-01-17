@@ -1,0 +1,3386 @@
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+# 28 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/ft2build.h" 1
+# 34 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/ft2build.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftheader.h" 1
+# 773 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftheader.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/internal.h" 1
+# 774 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftheader.h" 2
+# 35 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/ft2build.h" 2
+# 29 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c" 2
+# 1 "./builds/unix/ftconfig.h" 1
+# 42 "./builds/unix/ftconfig.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftoption.h" 1
+# 27 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftoption.h"
+
+# 727 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftoption.h"
+
+# 43 "./builds/unix/ftconfig.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 1
+# 36 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 149 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 3 4
+typedef int ptrdiff_t;
+# 211 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 3 4
+typedef unsigned int size_t;
+# 323 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 3 4
+typedef unsigned int wchar_t;
+# 37 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 60 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/limits.h" 1
+# 38 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/limits.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/cdefs.h" 1
+# 68 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/cdefs.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h" 1
+# 69 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/cdefs.h" 2
+# 39 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/limits.h" 2
+# 86 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/limits.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/limits.h" 1
+# 30 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/limits.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/limits.h" 1
+# 31 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/limits.h" 2
+# 44 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/limits.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/internal_types.h" 1
+# 45 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/limits.h" 2
+
+
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/limits.h" 1
+# 48 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/limits.h" 2
+# 87 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/limits.h" 2
+# 61 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 76 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/string.h" 1
+# 32 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/string.h"
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 33 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/string.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/malloc.h" 1
+# 32 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/malloc.h"
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 33 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/malloc.h" 2
+
+
+
+extern __attribute__((malloc)) void* malloc(size_t);
+extern __attribute__((malloc)) void* calloc(size_t, size_t);
+extern __attribute__((malloc)) void* realloc(void *, size_t);
+extern void free(void *);
+
+extern void* memalign(size_t alignment, size_t bytesize);
+extern void* valloc(size_t bytesize);
+extern void* pvalloc(size_t bytesize);
+extern int mallopt(int param_number, int param_value);
+extern size_t malloc_footprint(void);
+extern size_t malloc_max_footprint(void);
+
+struct mallinfo {
+    size_t arena;
+    size_t ordblks;
+    size_t smblks;
+    size_t hblks;
+    size_t hblkhd;
+    size_t usmblks;
+    size_t fsmblks;
+    size_t uordblks;
+    size_t fordblks;
+    size_t keepcost;
+};
+
+extern struct mallinfo mallinfo(void);
+# 78 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/malloc.h"
+extern size_t malloc_usable_size(void* block);
+# 99 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/malloc.h"
+extern void malloc_stats(void);
+
+
+# 34 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/string.h" 2
+
+
+
+extern void* memccpy(void *, const void *, int, size_t);
+extern void* memchr(const void *, int, size_t);
+extern void* memrchr(const void *, int, size_t);
+extern int memcmp(const void *, const void *, size_t);
+extern void* memcpy(void *, const void *, size_t);
+extern void* memmove(void *, const void *, size_t);
+extern void* memset(void *, int, size_t);
+extern void* memmem(const void *, size_t, const void *, size_t);
+extern void memswap(void *, void *, size_t);
+
+extern char* index(const char *, int);
+extern char* rindex(const char *, int);
+extern char* strchr(const char *, int);
+extern char* strrchr(const char *, int);
+
+extern size_t strlen(const char *);
+extern int strcmp(const char *, const char *);
+extern char* strcpy(char *, const char *);
+extern char* strcat(char *, const char *);
+
+extern int strcasecmp(const char *, const char *);
+extern int strncasecmp(const char *, const char *, size_t);
+extern char* strdup(const char *);
+
+extern char* strstr(const char *, const char *);
+extern char* strcasestr(const char *haystack, const char *needle);
+extern char* strtok(char *, const char *);
+extern char* strtok_r(char *, const char *, char**);
+
+extern char* strerror(int);
+extern int strerror_r(int errnum, char *buf, size_t n);
+
+extern size_t strnlen(const char *, size_t);
+extern char* strncat(char *, const char *, size_t);
+extern char* strndup(const char *, size_t);
+extern int strncmp(const char *, const char *, size_t);
+extern char* strncpy(char *, const char *, size_t);
+
+extern size_t strlcat(char *, const char *, size_t);
+extern size_t strlcpy(char *, const char *, size_t);
+
+extern size_t strcspn(const char *, const char *);
+extern char* strpbrk(const char *, const char *);
+extern char* strsep(char **, const char *);
+extern size_t strspn(const char *, const char *);
+
+extern char* strsignal(int sig);
+
+extern int strcoll(const char *, const char *);
+extern size_t strxfrm(char *, const char *, size_t);
+
+
+# 77 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 100 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h" 1
+# 42 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/_types.h" 1
+# 40 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/_types.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/_types.h" 1
+# 49 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/_types.h"
+//#include <linux/types.h>
+
+
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef short __int16_t;
+typedef unsigned short __uint16_t;
+typedef int __int32_t;
+typedef unsigned int __uint32_t;
+
+typedef long long __int64_t;
+
+typedef unsigned long long __uint64_t;
+
+
+typedef __int8_t __int_least8_t;
+typedef __uint8_t __uint_least8_t;
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+typedef __int64_t __int_least64_t;
+typedef __uint64_t __uint_least64_t;
+
+
+typedef __int32_t __int_fast8_t;
+typedef __uint32_t __uint_fast8_t;
+typedef __int32_t __int_fast16_t;
+typedef __uint32_t __uint_fast16_t;
+typedef __int32_t __int_fast32_t;
+typedef __uint32_t __uint_fast32_t;
+typedef __int64_t __int_fast64_t;
+typedef __uint64_t __uint_fast64_t;
+
+
+typedef int __intptr_t;
+typedef unsigned int __uintptr_t;
+
+
+typedef __int64_t __intmax_t;
+typedef __uint64_t __uintmax_t;
+
+
+typedef __int32_t __register_t;
+
+
+typedef unsigned long __vaddr_t;
+typedef unsigned long __paddr_t;
+typedef unsigned long __vsize_t;
+typedef unsigned long __psize_t;
+
+
+typedef int __clock_t;
+typedef int __clockid_t;
+typedef long __ptrdiff_t;
+typedef int __time_t;
+typedef int __timer_t;
+
+typedef __builtin_va_list __va_list;
+
+
+
+
+
+
+typedef int __wchar_t;
+
+typedef int __wint_t;
+typedef int __rune_t;
+typedef void * __wctrans_t;
+typedef void * __wctype_t;
+# 41 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/_types.h" 2
+
+typedef unsigned long __cpuid_t;
+typedef __int32_t __dev_t;
+typedef __uint32_t __fixpt_t;
+typedef __uint32_t __gid_t;
+typedef __uint32_t __id_t;
+typedef __uint32_t __in_addr_t;
+typedef __uint16_t __in_port_t;
+typedef __uint32_t __ino_t;
+typedef long __key_t;
+typedef __uint32_t __mode_t;
+typedef __uint32_t __nlink_t;
+typedef __int32_t __pid_t;
+typedef __uint64_t __rlim_t;
+typedef __uint16_t __sa_family_t;
+typedef __int32_t __segsz_t;
+typedef __uint32_t __socklen_t;
+typedef __int32_t __swblk_t;
+typedef __uint32_t __uid_t;
+typedef __uint32_t __useconds_t;
+typedef __int32_t __suseconds_t;
+
+
+
+
+
+typedef union {
+ char __mbstate8[128];
+ __int64_t __mbstateL;
+} __mbstate_t;
+# 43 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h" 2
+
+
+
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stdarg.h" 1 3 4
+# 40 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stdarg.h" 3 4
+typedef __builtin_va_list __gnuc_va_list;
+# 47 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h" 2
+
+
+
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 51 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h" 2
+
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 53 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h" 2
+# 62 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+typedef long off_t;
+# 75 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+typedef off_t fpos_t;
+# 84 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+struct __sbuf {
+ unsigned char *_base;
+ int _size;
+};
+# 116 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+typedef struct __sFILE {
+ unsigned char *_p;
+ int _r;
+ int _w;
+ short _flags;
+ short _file;
+ struct __sbuf _bf;
+ int _lbfsize;
+
+
+ void *_cookie;
+ int (*_close)(void *);
+ int (*_read)(void *, char *, int);
+ fpos_t (*_seek)(void *, fpos_t, int);
+ int (*_write)(void *, const char *, int);
+
+
+ struct __sbuf _ext;
+
+ unsigned char *_up;
+ int _ur;
+
+
+ unsigned char _ubuf[3];
+ unsigned char _nbuf[1];
+
+
+ struct __sbuf _lb;
+
+
+ int _blksize;
+ fpos_t _offset;
+} FILE;
+
+
+extern FILE __sF[];
+
+# 220 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+
+void clearerr(FILE *);
+int fclose(FILE *);
+int feof(FILE *);
+int ferror(FILE *);
+int fflush(FILE *);
+int fgetc(FILE *);
+int fgetpos(FILE *, fpos_t *);
+char *fgets(char *, int, FILE *);
+FILE *fopen(const char *, const char *);
+int fprintf(FILE *, const char *, ...);
+int fputc(int, FILE *);
+int fputs(const char *, FILE *);
+size_t fread(void *, size_t, size_t, FILE *);
+FILE *freopen(const char *, const char *, FILE *);
+int fscanf(FILE *, const char *, ...);
+int fseek(FILE *, long, int);
+int fseeko(FILE *, off_t, int);
+int fsetpos(FILE *, const fpos_t *);
+long ftell(FILE *);
+off_t ftello(FILE *);
+size_t fwrite(const void *, size_t, size_t, FILE *);
+int getc(FILE *);
+int getchar(void);
+char *gets(char *);
+
+
+
+extern int sys_nerr;
+extern char *sys_errlist[];
+
+void perror(const char *);
+int printf(const char *, ...);
+int putc(int, FILE *);
+int putchar(int);
+int puts(const char *);
+int remove(const char *);
+int rename(const char *, const char *);
+void rewind(FILE *);
+int scanf(const char *, ...);
+void setbuf(FILE *, char *);
+int setvbuf(FILE *, char *, int, size_t);
+int sprintf(char *, const char *, ...);
+int sscanf(const char *, const char *, ...);
+FILE *tmpfile(void);
+char *tmpnam(char *);
+int ungetc(int, FILE *);
+int vfprintf(FILE *, const char *, __va_list);
+int vprintf(const char *, __va_list);
+int vsprintf(char *, const char *, __va_list);
+
+
+int snprintf(char *, size_t, const char *, ...)
+  __attribute__((__format__ (printf, 3, 4)))
+  __attribute__((__nonnull__ (3)));
+int vfscanf(FILE *, const char *, __va_list)
+  __attribute__((__format__ (scanf, 2, 0)))
+  __attribute__((__nonnull__ (2)));
+int vscanf(const char *, __va_list)
+  __attribute__((__format__ (scanf, 1, 0)))
+  __attribute__((__nonnull__ (1)));
+int vsnprintf(char *, size_t, const char *, __va_list)
+  __attribute__((__format__ (printf, 3, 0)))
+  __attribute__((__nonnull__ (3)));
+int vsscanf(const char *, const char *, __va_list)
+  __attribute__((__format__ (scanf, 2, 0)))
+  __attribute__((__nonnull__ (2)));
+
+
+
+# 299 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+
+char *ctermid(char *);
+char *cuserid(char *);
+FILE *fdopen(int, const char *);
+int fileno(FILE *);
+
+
+int pclose(FILE *);
+FILE *popen(const char *, const char *);
+# 328 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdio.h"
+
+
+
+
+
+
+
+
+
+int asprintf(char **, const char *, ...)
+  __attribute__((__format__ (printf, 2, 3)))
+  __attribute__((__nonnull__ (2)));
+char *fgetln(FILE *, size_t *);
+int fpurge(FILE *);
+int getw(FILE *);
+int putw(int, FILE *);
+void setbuffer(FILE *, char *, int);
+int setlinebuf(FILE *);
+int vasprintf(char **, const char *, __va_list)
+  __attribute__((__format__ (printf, 2, 0)))
+  __attribute__((__nonnull__ (2)));
+
+
+
+
+
+
+FILE *funopen(const void *,
+  int (*)(void *, char *, int),
+  int (*)(void *, const char *, int),
+  fpos_t (*)(void *, fpos_t, int),
+  int (*)(void *));
+
+
+
+
+
+
+
+
+
+int __srget(FILE *);
+int __swbuf(int, FILE *);
+
+
+
+
+
+
+
+
+static __inline int __sputc(int _c, FILE *_p) {
+ if (--_p->_w >= 0 || (_p->_w >= _p->_lbfsize && (char)_c != '\n'))
+  return (*_p->_p++ = _c);
+ else
+  return (__swbuf(_c, _p));
+}
+# 101 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 118 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h" 1
+# 37 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 38 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h" 2
+
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 40 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h" 2
+
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/alloca.h" 1
+# 42 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/strings.h" 1
+# 42 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/strings.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 1
+# 32 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/posix_types.h" 1
+# 15 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/posix_types.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/stddef.h" 1
+# 15 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/stddef.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/compiler.h" 1
+# 16 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/stddef.h" 2
+# 16 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/posix_types.h" 2
+# 32 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/posix_types.h"
+typedef struct {
+ unsigned long fds_bits [(1024/(8 * sizeof(unsigned long)))];
+} __kernel_fd_set;
+
+typedef void (*__kernel_sighandler_t)(int);
+
+typedef int __kernel_key_t;
+typedef int __kernel_mqd_t;
+
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/asm/posix_types.h" 1
+# 15 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/asm/posix_types.h"
+typedef unsigned long __kernel_ino_t;
+typedef unsigned short __kernel_mode_t;
+typedef unsigned short __kernel_nlink_t;
+typedef long __kernel_off_t;
+typedef int __kernel_pid_t;
+typedef unsigned short __kernel_ipc_pid_t;
+typedef unsigned short __kernel_uid_t;
+typedef unsigned short __kernel_gid_t;
+typedef unsigned int __kernel_size_t;
+typedef int __kernel_ssize_t;
+typedef int __kernel_ptrdiff_t;
+typedef long __kernel_time_t;
+typedef long __kernel_suseconds_t;
+typedef long __kernel_clock_t;
+typedef int __kernel_timer_t;
+typedef int __kernel_clockid_t;
+typedef int __kernel_daddr_t;
+typedef char * __kernel_caddr_t;
+typedef unsigned short __kernel_uid16_t;
+typedef unsigned short __kernel_gid16_t;
+typedef unsigned int __kernel_uid32_t;
+typedef unsigned int __kernel_gid32_t;
+
+typedef unsigned short __kernel_old_uid_t;
+typedef unsigned short __kernel_old_gid_t;
+typedef unsigned short __kernel_old_dev_t;
+
+
+typedef long long __kernel_loff_t;
+
+
+typedef struct {
+
+
+
+ int __val[2];
+
+} __kernel_fsid_t;
+# 42 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/posix_types.h" 2
+# 33 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/asm/types.h" 1
+# 17 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/asm/types.h"
+typedef unsigned short umode_t;
+
+typedef __signed__ char __s8;
+typedef unsigned char __u8;
+
+typedef __signed__ short __s16;
+typedef unsigned short __u16;
+
+typedef __signed__ int __s32;
+typedef unsigned int __u32;
+# 34 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/types.h" 1
+# 21 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/linux/types.h"
+typedef __u16 __le16;
+typedef __u16 __be16;
+typedef __u32 __le32;
+typedef __u32 __be32;
+
+
+
+
+
+struct ustat {
+ __kernel_daddr_t f_tfree;
+ __kernel_ino_t f_tinode;
+ char f_fname[6];
+ char f_fpack[6];
+};
+# 35 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/kernel.h" 1
+# 34 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/kernel.h"
+typedef unsigned long __kernel_blkcnt_t;
+typedef unsigned long __kernel_blksize_t;
+
+
+typedef unsigned long __kernel_fsblkcnt_t;
+typedef unsigned long __kernel_fsfilcnt_t;
+typedef unsigned int __kernel_id_t;
+# 36 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+
+typedef __u32 __kernel_dev_t;
+# 47 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h"
+typedef __kernel_blkcnt_t blkcnt_t;
+typedef __kernel_blksize_t blksize_t;
+typedef __kernel_clock_t clock_t;
+typedef __kernel_clockid_t clockid_t;
+typedef __kernel_dev_t dev_t;
+typedef __kernel_fsblkcnt_t fsblkcnt_t;
+typedef __kernel_fsfilcnt_t fsfilcnt_t;
+typedef __kernel_gid32_t gid_t;
+typedef __kernel_id_t id_t;
+typedef __kernel_ino_t ino_t;
+typedef __kernel_key_t key_t;
+typedef __kernel_mode_t mode_t;
+typedef __kernel_nlink_t nlink_t;
+
+
+
+
+typedef __kernel_loff_t loff_t;
+typedef loff_t off64_t;
+
+typedef __kernel_pid_t pid_t;
+# 83 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h"
+typedef __kernel_suseconds_t suseconds_t;
+typedef __kernel_time_t time_t;
+typedef __kernel_uid32_t uid_t;
+typedef signed long useconds_t;
+
+typedef __kernel_daddr_t daddr_t;
+typedef __kernel_timer_t timer_t;
+typedef __kernel_mqd_t mqd_t;
+
+typedef __kernel_caddr_t caddr_t;
+typedef unsigned int uint_t;
+typedef unsigned int uint;
+
+
+
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 99 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h" 1
+# 31 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 32 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h" 2
+# 53 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef __int8_t int8_t;
+typedef __uint8_t uint8_t;
+typedef __int16_t int16_t;
+typedef __uint16_t uint16_t;
+typedef __int32_t int32_t;
+typedef __uint32_t uint32_t;
+# 68 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef int8_t int_least8_t;
+typedef int8_t int_fast8_t;
+
+typedef uint8_t uint_least8_t;
+typedef uint8_t uint_fast8_t;
+# 102 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef int16_t int_least16_t;
+typedef int32_t int_fast16_t;
+
+typedef uint16_t uint_least16_t;
+typedef uint32_t uint_fast16_t;
+# 135 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef int32_t int_least32_t;
+typedef int32_t int_fast32_t;
+
+typedef uint32_t uint_least32_t;
+typedef uint32_t uint_fast32_t;
+# 211 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef int intptr_t;
+typedef unsigned int uintptr_t;
+# 242 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef uint32_t uintmax_t;
+typedef int32_t intmax_t;
+# 258 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdint.h"
+typedef long int ssize_t;
+# 100 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+# 113 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h" 1
+# 36 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h"
+static __inline__ int major(dev_t _dev)
+{
+  return (_dev >> 8) & 0xfff;
+}
+
+static __inline__ int minor(dev_t _dev)
+{
+  return (_dev & 0xff) | ((_dev >> 12) & 0xfff00);
+}
+
+static __inline__ dev_t makedev(int __ma, int __mi)
+{
+  return ((__ma & 0xfff) << 8) | (__mi & 0xff) | ((__mi & 0xfff00) << 12);
+}
+# 114 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/sys/types.h" 2
+
+
+typedef unsigned char u_char;
+typedef unsigned short u_short;
+typedef unsigned int u_int;
+typedef unsigned long u_long;
+
+typedef uint32_t u_int32_t;
+typedef uint16_t u_int16_t;
+typedef uint8_t u_int8_t;
+typedef uint64_t u_int64_t;
+# 43 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/strings.h" 2
+
+
+
+int bcmp(const void *, const void *, size_t);
+void bcopy(const void *, void *, size_t);
+void bzero(void *, size_t);
+int ffs(int);
+char *index(const char *, int);
+char *rindex(const char *, int);
+int strcasecmp(const char *, const char *);
+int strncasecmp(const char *, const char *, size_t);
+
+# 43 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h" 2
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/memory.h" 1
+# 44 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/stdlib.h" 2
+
+
+
+
+
+
+extern __attribute__((__noreturn__)) void exit(int);
+extern __attribute__((__noreturn__)) void abort(void);
+extern int atexit(void (*)(void));
+extern int on_exit(void (*)(int, void *), void *);
+
+extern char *getenv(const char *);
+extern int putenv(const char *);
+extern int setenv(const char *, const char *, int);
+extern int unsetenv(const char *);
+extern int clearenv(void);
+
+extern char *mktemp (char *);
+extern int mkstemp (char *);
+
+extern long strtol(const char *, char **, int);
+extern long long strtoll(const char *, char **, int);
+extern unsigned long strtoul(const char *, char **, int);
+extern unsigned long long strtoull(const char *, char **, int);
+extern double strtod(const char *nptr, char **endptr);
+
+static __inline__ float strtof(const char *nptr, char **endptr)
+{
+    return (float)strtod(nptr, endptr);
+}
+
+extern int atoi(const char *);
+extern long atol(const char *);
+extern long long atoll(const char *);
+
+static __inline__ double atof(const char *nptr)
+{
+    return (strtod(nptr, ((void *)0)));
+}
+
+static __inline__ int abs(int __n) {
+    return (__n < 0) ? -__n : __n;
+}
+
+static __inline__ long labs(long __n) {
+    return (__n < 0L) ? -__n : __n;
+}
+
+static __inline__ long long llabs(long long __n) {
+    return (__n < 0LL) ? -__n : __n;
+}
+
+extern char * realpath(const char *path, char *resolved);
+extern int system(const char * string);
+
+extern void * bsearch(const void *key, const void *base0,
+ size_t nmemb, size_t size,
+ int (*compar)(const void *, const void *));
+
+extern void qsort(void *, size_t, size_t, int (*)(const void *, const void *));
+
+extern long jrand48(unsigned short *);
+extern long mrand48(void);
+extern long nrand48(unsigned short *);
+extern long lrand48(void);
+extern unsigned short *seed48(unsigned short*);
+extern void srand48(long);
+extern unsigned int arc4random(void);
+extern void arc4random_stir(void);
+extern void arc4random_addrandom(unsigned char *, int);
+
+
+static __inline__ int rand(void) {
+    return (int)lrand48();
+}
+static __inline__ void srand(unsigned int __s) {
+    srand48(__s);
+}
+static __inline__ long random(void)
+{
+    return lrand48();
+}
+static __inline__ void srandom(unsigned int __s)
+{
+    srand48(__s);
+}
+
+
+
+extern int unlockpt(int);
+extern char* ptsname(int);
+extern int ptsname_r(int, char*, size_t);
+extern int getpt(void);
+
+static __inline__ int grantpt(int __fd)
+{
+  (void)__fd;
+  return 0;
+}
+
+typedef struct {
+    int quot;
+    int rem;
+} div_t;
+
+extern div_t div(int, int);
+
+typedef struct {
+    long int quot;
+    long int rem;
+} ldiv_t;
+
+extern ldiv_t ldiv(long, long);
+
+typedef struct {
+    long long int quot;
+    long long int rem;
+} lldiv_t;
+
+extern lldiv_t lldiv(long long, long long);
+
+
+extern int mblen(const char *, size_t);
+extern size_t mbstowcs(wchar_t *, const char *, size_t);
+extern int mbtowc(wchar_t *, const char *, size_t);
+
+
+extern int wctomb(char *, wchar_t);
+extern size_t wcstombs(char *, const wchar_t *, size_t);
+
+
+
+# 119 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 154 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/setjmp.h" 1
+# 44 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/setjmp.h"
+# 1 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/machine/setjmp.h" 1
+# 45 "/opt/android-ndk-r4-crystax/build/platforms/android-8/arch-arm/usr/include/setjmp.h" 2
+
+typedef long sigjmp_buf[64 + 1];
+typedef long jmp_buf[64];
+
+
+
+int _setjmp(jmp_buf);
+void _longjmp(jmp_buf, int);
+void longjmperror(void);
+
+int setjmp(jmp_buf);
+void longjmp(jmp_buf, int);
+
+int sigsetjmp(sigjmp_buf, int);
+void siglongjmp(sigjmp_buf, int);
+
+
+# 155 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 167 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h"
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stdarg.h" 1 3 4
+# 102 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stdarg.h" 3 4
+typedef __gnuc_va_list va_list;
+# 168 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/config/ftstdlib.h" 2
+# 44 "./builds/unix/ftconfig.h" 2
+
+
+
+# 185 "./builds/unix/ftconfig.h"
+  typedef signed short FT_Int16;
+  typedef unsigned short FT_UInt16;
+
+
+
+  typedef signed int FT_Int32;
+  typedef unsigned int FT_UInt32;
+# 206 "./builds/unix/ftconfig.h"
+  typedef int FT_Fast;
+  typedef unsigned int FT_UFast;
+# 471 "./builds/unix/ftconfig.h"
+
+# 30 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h" 1
+# 30 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 35 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrors.h" 1
+# 90 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrors.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmoderr.h" 1
+# 101 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmoderr.h"
+  enum {
+
+
+
+  FT_Mod_Err_Base = 0,
+  FT_Mod_Err_Autofit = 0,
+  FT_Mod_Err_BDF = 0,
+  FT_Mod_Err_Cache = 0,
+  FT_Mod_Err_CFF = 0,
+  FT_Mod_Err_CID = 0,
+  FT_Mod_Err_Gzip = 0,
+  FT_Mod_Err_LZW = 0,
+  FT_Mod_Err_OTvalid = 0,
+  FT_Mod_Err_PCF = 0,
+  FT_Mod_Err_PFR = 0,
+  FT_Mod_Err_PSaux = 0,
+  FT_Mod_Err_PShinter = 0,
+  FT_Mod_Err_PSnames = 0,
+  FT_Mod_Err_Raster = 0,
+  FT_Mod_Err_SFNT = 0,
+  FT_Mod_Err_Smooth = 0,
+  FT_Mod_Err_TrueType = 0,
+  FT_Mod_Err_Type1 = 0,
+  FT_Mod_Err_Type42 = 0,
+  FT_Mod_Err_Winfonts = 0,
+
+
+
+  FT_Mod_Err_Max };
+# 91 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrors.h" 2
+# 162 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrors.h"
+  enum {
+
+
+
+
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrdef.h" 1
+# 34 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrdef.h"
+  FT_Err_Ok = 0x00,
+
+
+  FT_Err_Cannot_Open_Resource = 0x01 + 0,
+
+  FT_Err_Unknown_File_Format = 0x02 + 0,
+
+  FT_Err_Invalid_File_Format = 0x03 + 0,
+
+  FT_Err_Invalid_Version = 0x04 + 0,
+
+  FT_Err_Lower_Module_Version = 0x05 + 0,
+
+  FT_Err_Invalid_Argument = 0x06 + 0,
+
+  FT_Err_Unimplemented_Feature = 0x07 + 0,
+
+  FT_Err_Invalid_Table = 0x08 + 0,
+
+  FT_Err_Invalid_Offset = 0x09 + 0,
+
+  FT_Err_Array_Too_Large = 0x0A + 0,
+
+
+
+
+  FT_Err_Invalid_Glyph_Index = 0x10 + 0,
+
+  FT_Err_Invalid_Character_Code = 0x11 + 0,
+
+  FT_Err_Invalid_Glyph_Format = 0x12 + 0,
+
+  FT_Err_Cannot_Render_Glyph = 0x13 + 0,
+
+  FT_Err_Invalid_Outline = 0x14 + 0,
+
+  FT_Err_Invalid_Composite = 0x15 + 0,
+
+  FT_Err_Too_Many_Hints = 0x16 + 0,
+
+  FT_Err_Invalid_Pixel_Size = 0x17 + 0,
+
+
+
+
+  FT_Err_Invalid_Handle = 0x20 + 0,
+
+  FT_Err_Invalid_Library_Handle = 0x21 + 0,
+
+  FT_Err_Invalid_Driver_Handle = 0x22 + 0,
+
+  FT_Err_Invalid_Face_Handle = 0x23 + 0,
+
+  FT_Err_Invalid_Size_Handle = 0x24 + 0,
+
+  FT_Err_Invalid_Slot_Handle = 0x25 + 0,
+
+  FT_Err_Invalid_CharMap_Handle = 0x26 + 0,
+
+  FT_Err_Invalid_Cache_Handle = 0x27 + 0,
+
+  FT_Err_Invalid_Stream_Handle = 0x28 + 0,
+
+
+
+
+  FT_Err_Too_Many_Drivers = 0x30 + 0,
+
+  FT_Err_Too_Many_Extensions = 0x31 + 0,
+
+
+
+
+  FT_Err_Out_Of_Memory = 0x40 + 0,
+
+  FT_Err_Unlisted_Object = 0x41 + 0,
+
+
+
+
+  FT_Err_Cannot_Open_Stream = 0x51 + 0,
+
+  FT_Err_Invalid_Stream_Seek = 0x52 + 0,
+
+  FT_Err_Invalid_Stream_Skip = 0x53 + 0,
+
+  FT_Err_Invalid_Stream_Read = 0x54 + 0,
+
+  FT_Err_Invalid_Stream_Operation = 0x55 + 0,
+
+  FT_Err_Invalid_Frame_Operation = 0x56 + 0,
+
+  FT_Err_Nested_Frame_Access = 0x57 + 0,
+
+  FT_Err_Invalid_Frame_Read = 0x58 + 0,
+
+
+
+
+  FT_Err_Raster_Uninitialized = 0x60 + 0,
+
+  FT_Err_Raster_Corrupted = 0x61 + 0,
+
+  FT_Err_Raster_Overflow = 0x62 + 0,
+
+  FT_Err_Raster_Negative_Height = 0x63 + 0,
+
+
+
+
+  FT_Err_Too_Many_Caches = 0x70 + 0,
+
+
+
+
+  FT_Err_Invalid_Opcode = 0x80 + 0,
+
+  FT_Err_Too_Few_Arguments = 0x81 + 0,
+
+  FT_Err_Stack_Overflow = 0x82 + 0,
+
+  FT_Err_Code_Overflow = 0x83 + 0,
+
+  FT_Err_Bad_Argument = 0x84 + 0,
+
+  FT_Err_Divide_By_Zero = 0x85 + 0,
+
+  FT_Err_Invalid_Reference = 0x86 + 0,
+
+  FT_Err_Debug_OpCode = 0x87 + 0,
+
+  FT_Err_ENDF_In_Exec_Stream = 0x88 + 0,
+
+  FT_Err_Nested_DEFS = 0x89 + 0,
+
+  FT_Err_Invalid_CodeRange = 0x8A + 0,
+
+  FT_Err_Execution_Too_Long = 0x8B + 0,
+
+  FT_Err_Too_Many_Function_Defs = 0x8C + 0,
+
+  FT_Err_Too_Many_Instruction_Defs = 0x8D + 0,
+
+  FT_Err_Table_Missing = 0x8E + 0,
+
+  FT_Err_Horiz_Header_Missing = 0x8F + 0,
+
+  FT_Err_Locations_Missing = 0x90 + 0,
+
+  FT_Err_Name_Table_Missing = 0x91 + 0,
+
+  FT_Err_CMap_Table_Missing = 0x92 + 0,
+
+  FT_Err_Hmtx_Table_Missing = 0x93 + 0,
+
+  FT_Err_Post_Table_Missing = 0x94 + 0,
+
+  FT_Err_Invalid_Horiz_Metrics = 0x95 + 0,
+
+  FT_Err_Invalid_CharMap_Format = 0x96 + 0,
+
+  FT_Err_Invalid_PPem = 0x97 + 0,
+
+  FT_Err_Invalid_Vert_Metrics = 0x98 + 0,
+
+  FT_Err_Could_Not_Find_Context = 0x99 + 0,
+
+  FT_Err_Invalid_Post_Table_Format = 0x9A + 0,
+
+  FT_Err_Invalid_Post_Table = 0x9B + 0,
+
+
+
+
+  FT_Err_Syntax_Error = 0xA0 + 0,
+
+  FT_Err_Stack_Underflow = 0xA1 + 0,
+
+  FT_Err_Ignore = 0xA2 + 0,
+
+  FT_Err_No_Unicode_Glyph_Name = 0xA3 + 0,
+
+
+
+
+
+  FT_Err_Missing_Startfont_Field = 0xB0 + 0,
+
+  FT_Err_Missing_Font_Field = 0xB1 + 0,
+
+  FT_Err_Missing_Size_Field = 0xB2 + 0,
+
+  FT_Err_Missing_Fontboundingbox_Field = 0xB3 + 0,
+
+  FT_Err_Missing_Chars_Field = 0xB4 + 0,
+
+  FT_Err_Missing_Startchar_Field = 0xB5 + 0,
+
+  FT_Err_Missing_Encoding_Field = 0xB6 + 0,
+
+  FT_Err_Missing_Bbx_Field = 0xB7 + 0,
+
+  FT_Err_Bbx_Too_Big = 0xB8 + 0,
+
+  FT_Err_Corrupted_Font_Header = 0xB9 + 0,
+
+  FT_Err_Corrupted_Font_Glyphs = 0xBA + 0,
+# 168 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fterrors.h" 2
+
+
+
+  FT_Err_Max };
+# 36 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h" 1
+# 25 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h" 1
+# 26 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+
+# 66 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef struct FT_MemoryRec_* FT_Memory;
+# 88 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef void*
+  (*FT_Alloc_Func)( FT_Memory memory,
+                    long size );
+# 109 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef void
+  (*FT_Free_Func)( FT_Memory memory,
+                   void* block );
+# 142 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef void*
+  (*FT_Realloc_Func)( FT_Memory memory,
+                      long cur_size,
+                      long new_size,
+                      void* block );
+# 171 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  struct FT_MemoryRec_
+  {
+    void* user;
+    FT_Alloc_Func alloc;
+    FT_Free_Func free;
+    FT_Realloc_Func realloc;
+  };
+# 196 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef struct FT_StreamRec_* FT_Stream;
+# 209 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef union FT_StreamDesc_
+  {
+    long value;
+    void* pointer;
+
+  } FT_StreamDesc;
+# 247 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef unsigned long
+  (*FT_Stream_IoFunc)( FT_Stream stream,
+                       unsigned long offset,
+                       unsigned char* buffer,
+                       unsigned long count );
+# 267 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef void
+  (*FT_Stream_CloseFunc)( FT_Stream stream );
+# 321 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsystem.h"
+  typedef struct FT_StreamRec_
+  {
+    unsigned char* base;
+    unsigned long size;
+    unsigned long pos;
+
+    FT_StreamDesc descriptor;
+    FT_StreamDesc pathname;
+    FT_Stream_IoFunc read;
+    FT_Stream_CloseFunc close;
+
+    FT_Memory memory;
+    unsigned char* cursor;
+    unsigned char* limit;
+
+  } FT_StreamRec;
+
+
+
+
+
+
+# 26 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h" 1
+# 38 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+
+# 59 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef signed long FT_Pos;
+# 75 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Vector_
+  {
+    FT_Pos x;
+    FT_Pos y;
+
+  } FT_Vector;
+# 116 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_BBox_
+  {
+    FT_Pos xMin, yMin;
+    FT_Pos xMax, yMax;
+
+  } FT_BBox;
+# 172 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef enum FT_Pixel_Mode_
+  {
+    FT_PIXEL_MODE_NONE = 0,
+    FT_PIXEL_MODE_MONO,
+    FT_PIXEL_MODE_GRAY,
+    FT_PIXEL_MODE_GRAY2,
+    FT_PIXEL_MODE_GRAY4,
+    FT_PIXEL_MODE_LCD,
+    FT_PIXEL_MODE_LCD_V,
+
+    FT_PIXEL_MODE_MAX
+
+  } FT_Pixel_Mode;
+# 310 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Bitmap_
+  {
+    int rows;
+    int width;
+    int pitch;
+    unsigned char* buffer;
+    short num_grays;
+    char pixel_mode;
+    char palette_mode;
+    void* palette;
+
+  } FT_Bitmap;
+# 383 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Outline_
+  {
+    short n_contours;
+    short n_points;
+
+    FT_Vector* points;
+    char* tags;
+    short* contours;
+
+    int flags;
+
+  } FT_Outline;
+# 555 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Outline_MoveToFunc)( const FT_Vector* to,
+                            void* user );
+# 582 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Outline_LineToFunc)( const FT_Vector* to,
+                            void* user );
+# 613 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Outline_ConicToFunc)( const FT_Vector* control,
+                             const FT_Vector* to,
+                             void* user );
+# 645 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Outline_CubicToFunc)( const FT_Vector* control1,
+                             const FT_Vector* control2,
+                             const FT_Vector* to,
+                             void* user );
+# 691 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Outline_Funcs_
+  {
+    FT_Outline_MoveToFunc move_to;
+    FT_Outline_LineToFunc line_to;
+    FT_Outline_ConicToFunc conic_to;
+    FT_Outline_CubicToFunc cubic_to;
+
+    int shift;
+    FT_Pos delta;
+
+  } FT_Outline_Funcs;
+# 778 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef enum FT_Glyph_Format_
+  {
+    FT_GLYPH_FORMAT_NONE = ( ( (unsigned long)0 << 24 ) | ( (unsigned long)0 << 16 ) | ( (unsigned long)0 << 8 ) | (unsigned long)0 ),
+
+    FT_GLYPH_FORMAT_COMPOSITE = ( ( (unsigned long)'c' << 24 ) | ( (unsigned long)'o' << 16 ) | ( (unsigned long)'m' << 8 ) | (unsigned long)'p' ),
+    FT_GLYPH_FORMAT_BITMAP = ( ( (unsigned long)'b' << 24 ) | ( (unsigned long)'i' << 16 ) | ( (unsigned long)'t' << 8 ) | (unsigned long)'s' ),
+    FT_GLYPH_FORMAT_OUTLINE = ( ( (unsigned long)'o' << 24 ) | ( (unsigned long)'u' << 16 ) | ( (unsigned long)'t' << 8 ) | (unsigned long)'l' ),
+    FT_GLYPH_FORMAT_PLOTTER = ( ( (unsigned long)'p' << 24 ) | ( (unsigned long)'l' << 16 ) | ( (unsigned long)'o' << 8 ) | (unsigned long)'t' )
+
+  } FT_Glyph_Format;
+# 862 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_RasterRec_* FT_Raster;
+# 891 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Span_
+  {
+    short x;
+    unsigned short len;
+    unsigned char coverage;
+
+  } FT_Span;
+# 936 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef void
+  (*FT_SpanFunc)( int y,
+                  int count,
+                  const FT_Span* spans,
+                  void* user );
+# 968 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Raster_BitTest_Func)( int y,
+                             int x,
+                             void* user );
+# 996 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef void
+  (*FT_Raster_BitSet_Func)( int y,
+                            int x,
+                            void* user );
+# 1104 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Raster_Params_
+  {
+    const FT_Bitmap* target;
+    const void* source;
+    int flags;
+    FT_SpanFunc gray_spans;
+    FT_SpanFunc black_spans;
+    FT_Raster_BitTest_Func bit_test;
+    FT_Raster_BitSet_Func bit_set;
+    void* user;
+    FT_BBox clip_box;
+
+  } FT_Raster_Params;
+# 1143 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Raster_NewFunc)( void* memory,
+                        FT_Raster* raster );
+# 1161 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef void
+  (*FT_Raster_DoneFunc)( FT_Raster raster );
+# 1194 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef void
+  (*FT_Raster_ResetFunc)( FT_Raster raster,
+                          unsigned char* pool_base,
+                          unsigned long pool_size );
+# 1220 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Raster_SetModeFunc)( FT_Raster raster,
+                            unsigned long mode,
+                            void* args );
+# 1262 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef int
+  (*FT_Raster_RenderFunc)( FT_Raster raster,
+                           const FT_Raster_Params* params );
+# 1288 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftimage.h"
+  typedef struct FT_Raster_Funcs_
+  {
+    FT_Glyph_Format glyph_format;
+    FT_Raster_NewFunc raster_new;
+    FT_Raster_ResetFunc raster_reset;
+    FT_Raster_SetModeFunc raster_set_mode;
+    FT_Raster_RenderFunc raster_render;
+    FT_Raster_DoneFunc raster_done;
+
+  } FT_Raster_Funcs;
+
+
+
+
+
+
+# 27 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h" 2
+
+# 1 "/opt/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stddef.h" 1 3 4
+# 29 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h" 2
+
+
+
+# 104 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef unsigned char FT_Bool;
+# 116 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed short FT_FWord;
+# 128 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef unsigned short FT_UFWord;
+# 139 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed char FT_Char;
+# 150 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef unsigned char FT_Byte;
+# 161 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef const FT_Byte* FT_Bytes;
+# 172 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef FT_UInt32 FT_Tag;
+# 183 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef char FT_String;
+# 194 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed short FT_Short;
+# 205 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef unsigned short FT_UShort;
+# 216 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed int FT_Int;
+# 227 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef unsigned int FT_UInt;
+# 238 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed long FT_Long;
+# 249 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef unsigned long FT_ULong;
+# 260 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed short FT_F2Dot14;
+# 272 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed long FT_F26Dot6;
+# 284 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef signed long FT_Fixed;
+# 296 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef int FT_Error;
+# 307 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef void* FT_Pointer;
+# 320 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef size_t FT_Offset;
+# 333 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef ptrdiff_t FT_PtrDist;
+# 350 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_UnitVector_
+  {
+    FT_F2Dot14 x;
+    FT_F2Dot14 y;
+
+  } FT_UnitVector;
+# 381 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_Matrix_
+  {
+    FT_Fixed xx, xy;
+    FT_Fixed yx, yy;
+
+  } FT_Matrix;
+# 402 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_Data_
+  {
+    const FT_Byte* pointer;
+    FT_Int length;
+
+  } FT_Data;
+# 424 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef void (*FT_Generic_Finalizer)(void* object);
+# 455 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_Generic_
+  {
+    void* data;
+    FT_Generic_Finalizer finalizer;
+
+  } FT_Generic;
+# 511 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_ListNodeRec_* FT_ListNode;
+# 522 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_ListRec_* FT_List;
+# 540 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_ListNodeRec_
+  {
+    FT_ListNode prev;
+    FT_ListNode next;
+    void* data;
+
+  } FT_ListNodeRec;
+# 563 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+  typedef struct FT_ListRec_
+  {
+    FT_ListNode head;
+    FT_ListNode tail;
+
+  } FT_ListRec;
+# 583 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/fttypes.h"
+
+# 37 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 2
+
+
+
+# 239 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Glyph_Metrics_
+  {
+    FT_Pos width;
+    FT_Pos height;
+
+    FT_Pos horiBearingX;
+    FT_Pos horiBearingY;
+    FT_Pos horiAdvance;
+
+    FT_Pos vertBearingX;
+    FT_Pos vertBearingY;
+    FT_Pos vertAdvance;
+
+  } FT_Glyph_Metrics;
+# 293 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Bitmap_Size_
+  {
+    FT_Short height;
+    FT_Short width;
+
+    FT_Pos size;
+
+    FT_Pos x_ppem;
+    FT_Pos y_ppem;
+
+  } FT_Bitmap_Size;
+# 334 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_LibraryRec_ *FT_Library;
+# 347 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_ModuleRec_* FT_Module;
+# 359 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_DriverRec_* FT_Driver;
+# 373 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_RendererRec_* FT_Renderer;
+# 398 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_FaceRec_* FT_Face;
+# 428 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_SizeRec_* FT_Size;
+# 449 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_GlyphSlotRec_* FT_GlyphSlot;
+# 481 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_CharMapRec_* FT_CharMap;
+# 654 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef enum FT_Encoding_
+  {
+    FT_ENCODING_NONE = ( ( (FT_UInt32)(0) << 24 ) | ( (FT_UInt32)(0) << 16 ) | ( (FT_UInt32)(0) << 8 ) | (FT_UInt32)(0) ),
+
+    FT_ENCODING_MS_SYMBOL = ( ( (FT_UInt32)('s') << 24 ) | ( (FT_UInt32)('y') << 16 ) | ( (FT_UInt32)('m') << 8 ) | (FT_UInt32)('b') ),
+    FT_ENCODING_UNICODE = ( ( (FT_UInt32)('u') << 24 ) | ( (FT_UInt32)('n') << 16 ) | ( (FT_UInt32)('i') << 8 ) | (FT_UInt32)('c') ),
+
+    FT_ENCODING_SJIS = ( ( (FT_UInt32)('s') << 24 ) | ( (FT_UInt32)('j') << 16 ) | ( (FT_UInt32)('i') << 8 ) | (FT_UInt32)('s') ),
+    FT_ENCODING_GB2312 = ( ( (FT_UInt32)('g') << 24 ) | ( (FT_UInt32)('b') << 16 ) | ( (FT_UInt32)(' ') << 8 ) | (FT_UInt32)(' ') ),
+    FT_ENCODING_BIG5 = ( ( (FT_UInt32)('b') << 24 ) | ( (FT_UInt32)('i') << 16 ) | ( (FT_UInt32)('g') << 8 ) | (FT_UInt32)('5') ),
+    FT_ENCODING_WANSUNG = ( ( (FT_UInt32)('w') << 24 ) | ( (FT_UInt32)('a') << 16 ) | ( (FT_UInt32)('n') << 8 ) | (FT_UInt32)('s') ),
+    FT_ENCODING_JOHAB = ( ( (FT_UInt32)('j') << 24 ) | ( (FT_UInt32)('o') << 16 ) | ( (FT_UInt32)('h') << 8 ) | (FT_UInt32)('a') ),
+
+
+    FT_ENCODING_MS_SJIS = FT_ENCODING_SJIS,
+    FT_ENCODING_MS_GB2312 = FT_ENCODING_GB2312,
+    FT_ENCODING_MS_BIG5 = FT_ENCODING_BIG5,
+    FT_ENCODING_MS_WANSUNG = FT_ENCODING_WANSUNG,
+    FT_ENCODING_MS_JOHAB = FT_ENCODING_JOHAB,
+
+    FT_ENCODING_ADOBE_STANDARD = ( ( (FT_UInt32)('A') << 24 ) | ( (FT_UInt32)('D') << 16 ) | ( (FT_UInt32)('O') << 8 ) | (FT_UInt32)('B') ),
+    FT_ENCODING_ADOBE_EXPERT = ( ( (FT_UInt32)('A') << 24 ) | ( (FT_UInt32)('D') << 16 ) | ( (FT_UInt32)('B') << 8 ) | (FT_UInt32)('E') ),
+    FT_ENCODING_ADOBE_CUSTOM = ( ( (FT_UInt32)('A') << 24 ) | ( (FT_UInt32)('D') << 16 ) | ( (FT_UInt32)('B') << 8 ) | (FT_UInt32)('C') ),
+    FT_ENCODING_ADOBE_LATIN_1 = ( ( (FT_UInt32)('l') << 24 ) | ( (FT_UInt32)('a') << 16 ) | ( (FT_UInt32)('t') << 8 ) | (FT_UInt32)('1') ),
+
+    FT_ENCODING_OLD_LATIN_2 = ( ( (FT_UInt32)('l') << 24 ) | ( (FT_UInt32)('a') << 16 ) | ( (FT_UInt32)('t') << 8 ) | (FT_UInt32)('2') ),
+
+    FT_ENCODING_APPLE_ROMAN = ( ( (FT_UInt32)('a') << 24 ) | ( (FT_UInt32)('r') << 16 ) | ( (FT_UInt32)('m') << 8 ) | (FT_UInt32)('n') )
+
+  } FT_Encoding;
+# 735 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_CharMapRec_
+  {
+    FT_Face face;
+    FT_Encoding encoding;
+    FT_UShort platform_id;
+    FT_UShort encoding_id;
+
+  } FT_CharMapRec;
+# 766 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Face_InternalRec_* FT_Face_Internal;
+# 911 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_FaceRec_
+  {
+    FT_Long num_faces;
+    FT_Long face_index;
+
+    FT_Long face_flags;
+    FT_Long style_flags;
+
+    FT_Long num_glyphs;
+
+    FT_String* family_name;
+    FT_String* style_name;
+
+    FT_Int num_fixed_sizes;
+    FT_Bitmap_Size* available_sizes;
+
+    FT_Int num_charmaps;
+    FT_CharMap* charmaps;
+
+    FT_Generic generic;
+
+
+
+
+    FT_BBox bbox;
+
+    FT_UShort units_per_EM;
+    FT_Short ascender;
+    FT_Short descender;
+    FT_Short height;
+
+    FT_Short max_advance_width;
+    FT_Short max_advance_height;
+
+    FT_Short underline_position;
+    FT_Short underline_thickness;
+
+    FT_GlyphSlot glyph;
+    FT_Size size;
+    FT_CharMap charmap;
+
+
+
+    FT_Driver driver;
+    FT_Memory memory;
+    FT_Stream stream;
+
+    FT_ListRec sizes_list;
+
+    FT_Generic autohint;
+    void* extensions;
+
+    FT_Face_Internal internal;
+
+
+
+  } FT_FaceRec;
+# 1301 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Size_InternalRec_* FT_Size_Internal;
+# 1359 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Size_Metrics_
+  {
+    FT_UShort x_ppem;
+    FT_UShort y_ppem;
+
+    FT_Fixed x_scale;
+    FT_Fixed y_scale;
+
+    FT_Pos ascender;
+    FT_Pos descender;
+    FT_Pos height;
+    FT_Pos max_advance;
+
+  } FT_Size_Metrics;
+# 1394 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_SizeRec_
+  {
+    FT_Face face;
+    FT_Generic generic;
+    FT_Size_Metrics metrics;
+    FT_Size_Internal internal;
+
+  } FT_SizeRec;
+# 1420 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_SubGlyphRec_* FT_SubGlyph;
+# 1432 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Slot_InternalRec_* FT_Slot_Internal;
+# 1604 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_GlyphSlotRec_
+  {
+    FT_Library library;
+    FT_Face face;
+    FT_GlyphSlot next;
+    FT_UInt reserved;
+    FT_Generic generic;
+
+    FT_Glyph_Metrics metrics;
+    FT_Fixed linearHoriAdvance;
+    FT_Fixed linearVertAdvance;
+    FT_Vector advance;
+
+    FT_Glyph_Format format;
+
+    FT_Bitmap bitmap;
+    FT_Int bitmap_left;
+    FT_Int bitmap_top;
+
+    FT_Outline outline;
+
+    FT_UInt num_subglyphs;
+    FT_SubGlyph subglyphs;
+
+    void* control_data;
+    long control_len;
+
+    FT_Pos lsb_delta;
+    FT_Pos rsb_delta;
+
+    void* other;
+
+    FT_Slot_Internal internal;
+
+  } FT_GlyphSlotRec;
+# 1670 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Init_FreeType( FT_Library *alibrary );
+# 1689 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Done_FreeType( FT_Library library );
+# 1759 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Parameter_
+  {
+    FT_ULong tag;
+    FT_Pointer data;
+
+  } FT_Parameter;
+# 1825 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Open_Args_
+  {
+    FT_UInt flags;
+    const FT_Byte* memory_base;
+    FT_Long memory_size;
+    FT_String* pathname;
+    FT_Stream stream;
+    FT_Module driver;
+    FT_Int num_params;
+    FT_Parameter* params;
+
+  } FT_Open_Args;
+# 1864 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_New_Face( FT_Library library,
+               const char* filepathname,
+               FT_Long face_index,
+               FT_Face *aface );
+# 1902 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_New_Memory_Face( FT_Library library,
+                      const FT_Byte* file_base,
+                      FT_Long file_size,
+                      FT_Long face_index,
+                      FT_Face *aface );
+# 1958 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Open_Face( FT_Library library,
+                const FT_Open_Args* args,
+                FT_Long face_index,
+                FT_Face *aface );
+# 1982 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Attach_File( FT_Face face,
+                  const char* filepathname );
+# 2017 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Attach_Stream( FT_Face face,
+                    FT_Open_Args* parameters );
+# 2045 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Reference_Face( FT_Face face );
+# 2068 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Done_Face( FT_Face face );
+# 2090 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Select_Size( FT_Face face,
+                  FT_Int strike_index );
+# 2137 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef enum FT_Size_Request_Type_
+  {
+    FT_SIZE_REQUEST_TYPE_NOMINAL,
+    FT_SIZE_REQUEST_TYPE_REAL_DIM,
+    FT_SIZE_REQUEST_TYPE_BBOX,
+    FT_SIZE_REQUEST_TYPE_CELL,
+    FT_SIZE_REQUEST_TYPE_SCALES,
+
+    FT_SIZE_REQUEST_TYPE_MAX
+
+  } FT_Size_Request_Type;
+# 2177 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Size_RequestRec_
+  {
+    FT_Size_Request_Type type;
+    FT_Long width;
+    FT_Long height;
+    FT_UInt horiResolution;
+    FT_UInt vertResolution;
+
+  } FT_Size_RequestRec;
+# 2196 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef struct FT_Size_RequestRec_ *FT_Size_Request;
+# 2222 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Request_Size( FT_Face face,
+                   FT_Size_Request req );
+# 2263 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Set_Char_Size( FT_Face face,
+                    FT_F26Dot6 char_width,
+                    FT_F26Dot6 char_height,
+                    FT_UInt horz_resolution,
+                    FT_UInt vert_resolution );
+# 2291 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Set_Pixel_Sizes( FT_Face face,
+                      FT_UInt pixel_width,
+                      FT_UInt pixel_height );
+# 2333 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Load_Glyph( FT_Face face,
+                 FT_UInt glyph_index,
+                 FT_Int32 load_flags );
+# 2368 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Load_Char( FT_Face face,
+                FT_ULong char_code,
+                FT_Int32 load_flags );
+# 2641 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern void
+  FT_Set_Transform( FT_Face face,
+                    FT_Matrix* matrix,
+                    FT_Vector* delta );
+# 2702 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef enum FT_Render_Mode_
+  {
+    FT_RENDER_MODE_NORMAL = 0,
+    FT_RENDER_MODE_LIGHT,
+    FT_RENDER_MODE_MONO,
+    FT_RENDER_MODE_LCD,
+    FT_RENDER_MODE_LCD_V,
+
+    FT_RENDER_MODE_MAX
+
+  } FT_Render_Mode;
+# 2754 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Render_Glyph( FT_GlyphSlot slot,
+                   FT_Render_Mode render_mode );
+# 2778 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  typedef enum FT_Kerning_Mode_
+  {
+    FT_KERNING_DEFAULT = 0,
+    FT_KERNING_UNFITTED,
+    FT_KERNING_UNSCALED
+
+  } FT_Kerning_Mode;
+# 2856 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Get_Kerning( FT_Face face,
+                  FT_UInt left_glyph,
+                  FT_UInt right_glyph,
+                  FT_UInt kern_mode,
+                  FT_Vector *akerning );
+# 2885 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Get_Track_Kerning( FT_Face face,
+                        FT_Fixed point_size,
+                        FT_Int degree,
+                        FT_Fixed* akerning );
+# 2928 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Get_Glyph_Name( FT_Face face,
+                     FT_UInt glyph_index,
+                     FT_Pointer buffer,
+                     FT_UInt buffer_max );
+# 2954 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern const char*
+  FT_Get_Postscript_Name( FT_Face face );
+# 2986 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Select_Charmap( FT_Face face,
+                     FT_Encoding encoding );
+# 3015 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Set_Charmap( FT_Face face,
+                  FT_CharMap charmap );
+# 3037 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Int
+  FT_Get_Charmap_Index( FT_CharMap charmap );
+# 3065 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UInt
+  FT_Get_Char_Index( FT_Face face,
+                     FT_ULong charcode );
+# 3113 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_ULong
+  FT_Get_First_Char( FT_Face face,
+                     FT_UInt *agindex );
+# 3147 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_ULong
+  FT_Get_Next_Char( FT_Face face,
+                    FT_ULong char_code,
+                    FT_UInt *agindex );
+# 3170 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UInt
+  FT_Get_Name_Index( FT_Face face,
+                     FT_String* glyph_name );
+# 3246 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Error
+  FT_Get_SubGlyph_Info( FT_GlyphSlot glyph,
+                        FT_UInt sub_index,
+                        FT_Int *p_index,
+                        FT_UInt *p_flags,
+                        FT_Int *p_arg1,
+                        FT_Int *p_arg2,
+                        FT_Matrix *p_transform );
+# 3334 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UShort
+  FT_Get_FSType_Flags( FT_Face face );
+# 3416 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UInt
+  FT_Face_GetCharVariantIndex( FT_Face face,
+                               FT_ULong charcode,
+                               FT_ULong variantSelector );
+# 3452 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Int
+  FT_Face_GetCharVariantIsDefault( FT_Face face,
+                                   FT_ULong charcode,
+                                   FT_ULong variantSelector );
+# 3483 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UInt32*
+  FT_Face_GetVariantSelectors( FT_Face face );
+# 3516 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UInt32*
+  FT_Face_GetVariantsOfChar( FT_Face face,
+                             FT_ULong charcode );
+# 3550 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_UInt32*
+  FT_Face_GetCharsOfVariant( FT_Face face,
+                             FT_ULong variantSelector );
+# 3607 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Long
+  FT_MulDiv( FT_Long a,
+             FT_Long b,
+             FT_Long c );
+# 3658 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Long
+  FT_MulFix( FT_Long a,
+             FT_Long b );
+# 3687 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Long
+  FT_DivFix( FT_Long a,
+             FT_Long b );
+# 3706 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Fixed
+  FT_RoundFix( FT_Fixed a );
+# 3725 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Fixed
+  FT_CeilFix( FT_Fixed a );
+# 3744 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Fixed
+  FT_FloorFix( FT_Fixed a );
+# 3765 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern void
+  FT_Vector_Transform( FT_Vector* vec,
+                       const FT_Matrix* matrix );
+# 3843 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern void
+  FT_Library_Version( FT_Library library,
+                      FT_Int *amajor,
+                      FT_Int *aminor,
+                      FT_Int *apatch );
+# 3877 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Bool
+  FT_Face_CheckTrueTypePatents( FT_Face face );
+# 3907 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h"
+  extern FT_Bool
+  FT_Face_SetUnpatentedHinting( FT_Face face,
+                                FT_Bool value );
+
+
+
+
+
+# 31 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h" 2
+
+
+
+# 116 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h"
+  extern FT_Int
+  FT_Trace_Get_Count( void );
+# 143 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h"
+  extern const char *
+  FT_Trace_Get_Name( FT_Int idx );
+# 232 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h"
+  extern void
+  ft_debug_init( void );
+# 245 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdebug.h"
+
+# 31 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h" 1
+# 25 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 1
+# 30 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h" 1
+# 24 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h" 1
+# 24 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 25 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h" 2
+# 33 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+
+# 79 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  typedef FT_Pointer FT_Module_Interface;
+# 93 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  typedef FT_Error
+  (*FT_Module_Constructor)( FT_Module module );
+# 108 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  typedef void
+  (*FT_Module_Destructor)( FT_Module module );
+# 125 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  typedef FT_Module_Interface
+  (*FT_Module_Requester)( FT_Module module,
+                          const char* name );
+# 159 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  typedef struct FT_Module_Class_
+  {
+    FT_ULong module_flags;
+    FT_Long module_size;
+    const FT_String* module_name;
+    FT_Fixed module_version;
+    FT_Fixed module_requires;
+
+    const void* module_interface;
+
+    FT_Module_Constructor module_init;
+    FT_Module_Destructor module_done;
+    FT_Module_Requester get_interface;
+
+  } FT_Module_Class;
+# 197 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_Error
+  FT_Add_Module( FT_Library library,
+                 const FT_Module_Class* clazz );
+# 222 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_Module
+  FT_Get_Module( FT_Library library,
+                 const char* module_name );
+# 247 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_Error
+  FT_Remove_Module( FT_Library library,
+                    FT_Module module );
+# 275 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_Error
+  FT_Reference_Library( FT_Library library );
+# 309 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_Error
+  FT_New_Library( FT_Memory memory,
+                  FT_Library *alibrary );
+# 333 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_Error
+  FT_Done_Library( FT_Library library );
+
+
+
+  typedef void
+  (*FT_DebugHook_Func)( void* arg );
+# 369 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern void
+  FT_Set_Debug_Hook( FT_Library library,
+                     FT_UInt hook_index,
+                     FT_DebugHook_Func debug_hook );
+# 388 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern void
+  FT_Add_Default_Modules( FT_Library library );
+# 442 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  typedef enum FT_TrueTypeEngineType_
+  {
+    FT_TRUETYPE_ENGINE_TYPE_NONE = 0,
+    FT_TRUETYPE_ENGINE_TYPE_UNPATENTED,
+    FT_TRUETYPE_ENGINE_TYPE_PATENTED
+
+  } FT_TrueTypeEngineType;
+# 471 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftmodapi.h"
+  extern FT_TrueTypeEngineType
+  FT_Get_TrueType_Engine_Type( FT_Library library );
+
+
+
+
+
+
+# 25 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h" 1
+# 37 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 38 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h" 2
+# 46 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+
+# 69 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_Glyph_Class_ FT_Glyph_Class;
+# 87 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_GlyphRec_* FT_Glyph;
+# 108 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_GlyphRec_
+  {
+    FT_Library library;
+    const FT_Glyph_Class* clazz;
+    FT_Glyph_Format format;
+    FT_Vector advance;
+
+  } FT_GlyphRec;
+# 127 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_BitmapGlyphRec_* FT_BitmapGlyph;
+# 160 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_BitmapGlyphRec_
+  {
+    FT_GlyphRec root;
+    FT_Int left;
+    FT_Int top;
+    FT_Bitmap bitmap;
+
+  } FT_BitmapGlyphRec;
+# 179 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_OutlineGlyphRec_* FT_OutlineGlyph;
+# 208 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef struct FT_OutlineGlyphRec_
+  {
+    FT_GlyphRec root;
+    FT_Outline outline;
+
+  } FT_OutlineGlyphRec;
+# 234 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern FT_Error
+  FT_Get_Glyph( FT_GlyphSlot slot,
+                FT_Glyph *aglyph );
+# 258 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern FT_Error
+  FT_Glyph_Copy( FT_Glyph source,
+                 FT_Glyph *target );
+# 287 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern FT_Error
+  FT_Glyph_Transform( FT_Glyph glyph,
+                      FT_Matrix* matrix,
+                      FT_Vector* delta );
+# 317 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  typedef enum FT_Glyph_BBox_Mode_
+  {
+    FT_GLYPH_BBOX_UNSCALED = 0,
+    FT_GLYPH_BBOX_SUBPIXELS = 0,
+    FT_GLYPH_BBOX_GRIDFIT = 1,
+    FT_GLYPH_BBOX_TRUNCATE = 2,
+    FT_GLYPH_BBOX_PIXELS = 3
+
+  } FT_Glyph_BBox_Mode;
+# 413 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern void
+  FT_Glyph_Get_CBox( FT_Glyph glyph,
+                     FT_UInt bbox_mode,
+                     FT_BBox *acbox );
+# 525 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern FT_Error
+  FT_Glyph_To_Bitmap( FT_Glyph* the_glyph,
+                      FT_Render_Mode render_mode,
+                      FT_Vector* origin,
+                      FT_Bool destroy );
+# 543 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern void
+  FT_Done_Glyph( FT_Glyph glyph );
+# 576 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern void
+  FT_Matrix_Multiply( const FT_Matrix* a,
+                      FT_Matrix* b );
+# 596 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftglyph.h"
+  extern FT_Error
+  FT_Matrix_Invert( FT_Matrix* matrix );
+
+
+
+
+
+
+# 26 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h" 2
+
+
+
+# 40 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h"
+  typedef FT_Error
+  (*FT_Glyph_InitFunc)( FT_Glyph glyph,
+                        FT_GlyphSlot slot );
+
+
+  typedef void
+  (*FT_Glyph_DoneFunc)( FT_Glyph glyph );
+
+  typedef void
+  (*FT_Glyph_TransformFunc)( FT_Glyph glyph,
+                             const FT_Matrix* matrix,
+                             const FT_Vector* delta );
+
+  typedef void
+  (*FT_Glyph_GetBBoxFunc)( FT_Glyph glyph,
+                           FT_BBox* abbox );
+
+  typedef FT_Error
+  (*FT_Glyph_CopyFunc)( FT_Glyph source,
+                        FT_Glyph target );
+
+  typedef FT_Error
+  (*FT_Glyph_PrepareFunc)( FT_Glyph glyph,
+                           FT_GlyphSlot slot );
+# 74 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h"
+  struct FT_Glyph_Class_
+  {
+    FT_Long glyph_size;
+    FT_Glyph_Format glyph_format;
+    FT_Glyph_InitFunc glyph_init;
+    FT_Glyph_DoneFunc glyph_done;
+    FT_Glyph_CopyFunc glyph_copy;
+    FT_Glyph_TransformFunc glyph_transform;
+    FT_Glyph_GetBBoxFunc glyph_bbox;
+    FT_Glyph_PrepareFunc glyph_prepare;
+  };
+
+
+  typedef FT_Error
+  (*FT_Renderer_RenderFunc)( FT_Renderer renderer,
+                             FT_GlyphSlot slot,
+                             FT_UInt mode,
+                             const FT_Vector* origin );
+
+  typedef FT_Error
+  (*FT_Renderer_TransformFunc)( FT_Renderer renderer,
+                                FT_GlyphSlot slot,
+                                const FT_Matrix* matrix,
+                                const FT_Vector* delta );
+
+
+  typedef void
+  (*FT_Renderer_GetCBoxFunc)( FT_Renderer renderer,
+                              FT_GlyphSlot slot,
+                              FT_BBox* cbox );
+
+
+  typedef FT_Error
+  (*FT_Renderer_SetModeFunc)( FT_Renderer renderer,
+                              FT_ULong mode_tag,
+                              FT_Pointer mode_ptr );
+# 144 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h"
+  typedef struct FT_Renderer_Class_
+  {
+    FT_Module_Class root;
+
+    FT_Glyph_Format glyph_format;
+
+    FT_Renderer_RenderFunc render_glyph;
+    FT_Renderer_TransformFunc transform_glyph;
+    FT_Renderer_GetCBoxFunc get_glyph_cbox;
+    FT_Renderer_SetModeFunc set_mode;
+
+    FT_Raster_Funcs* raster_class;
+
+  } FT_Renderer_Class;
+# 183 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h"
+  extern FT_Renderer
+  FT_Get_Renderer( FT_Library library,
+                   FT_Glyph_Format format );
+# 215 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftrender.h"
+  extern FT_Error
+  FT_Set_Renderer( FT_Library library,
+                   FT_Renderer renderer,
+                   FT_UInt num_params,
+                   FT_Parameter* parameters );
+
+
+
+
+
+
+# 31 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h" 1
+# 33 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 34 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h" 2
+# 42 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h"
+
+# 99 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h"
+  extern FT_Error
+  FT_New_Size( FT_Face face,
+               FT_Size* size );
+# 120 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h"
+  extern FT_Error
+  FT_Done_Size( FT_Size size );
+# 148 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftsizes.h"
+  extern FT_Error
+  FT_Activate_Size( FT_Size size );
+
+
+
+
+
+# 32 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h" 1
+# 24 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 25 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h" 2
+# 33 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h"
+
+# 94 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h"
+  typedef enum FT_LcdFilter_
+  {
+    FT_LCD_FILTER_NONE = 0,
+    FT_LCD_FILTER_DEFAULT = 1,
+    FT_LCD_FILTER_LIGHT = 2,
+    FT_LCD_FILTER_LEGACY = 16,
+
+    FT_LCD_FILTER_MAX
+
+  } FT_LcdFilter;
+# 160 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h"
+  extern FT_Error
+  FT_Library_SetLcdFilter( FT_Library library,
+                           FT_LcdFilter filter );
+# 201 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftlcdfil.h"
+  extern FT_Error
+  FT_Library_SetLcdFilterWeights( FT_Library library,
+                                  unsigned char *weights );
+
+
+
+
+
+# 33 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftmemory.h" 1
+# 28 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftmemory.h"
+
+# 113 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftmemory.h"
+  extern FT_Pointer
+  ft_mem_alloc( FT_Memory memory,
+                FT_Long size,
+                FT_Error *p_error );
+
+  extern FT_Pointer
+  ft_mem_qalloc( FT_Memory memory,
+                 FT_Long size,
+                 FT_Error *p_error );
+
+  extern FT_Pointer
+  ft_mem_realloc( FT_Memory memory,
+                  FT_Long item_size,
+                  FT_Long cur_count,
+                  FT_Long new_count,
+                  void* block,
+                  FT_Error *p_error );
+
+  extern FT_Pointer
+  ft_mem_qrealloc( FT_Memory memory,
+                   FT_Long item_size,
+                   FT_Long cur_count,
+                   FT_Long new_count,
+                   void* block,
+                   FT_Error *p_error );
+
+  extern void
+  ft_mem_free( FT_Memory memory,
+               const void* P );
+# 308 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftmemory.h"
+  extern FT_Error
+  FT_Alloc( FT_Memory memory,
+            FT_Long size,
+            void* *P );
+
+  extern FT_Error
+  FT_QAlloc( FT_Memory memory,
+             FT_Long size,
+             void* *p );
+
+  extern FT_Error
+  FT_Realloc( FT_Memory memory,
+              FT_Long current,
+              FT_Long size,
+              void* *P );
+
+  extern FT_Error
+  FT_QRealloc( FT_Memory memory,
+               FT_Long current,
+               FT_Long size,
+               void* *p );
+
+  extern void
+  FT_Free( FT_Memory memory,
+           void* *P );
+
+
+
+
+  extern FT_Pointer
+  ft_mem_strdup( FT_Memory memory,
+                 const char* str,
+                 FT_Error *p_error );
+
+  extern FT_Pointer
+  ft_mem_dup( FT_Memory memory,
+              const void* address,
+              FT_ULong size,
+              FT_Error *p_error );
+# 364 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftmemory.h"
+  extern FT_Int
+  ft_mem_strcpyn( char* dst,
+                  const char* src,
+                  FT_ULong size );
+
+
+
+
+
+
+
+
+# 34 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftgloadr.h" 1
+# 24 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftgloadr.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 25 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftgloadr.h" 2
+
+
+
+# 43 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftgloadr.h"
+  typedef struct FT_GlyphLoaderRec_* FT_GlyphLoader ;
+# 57 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftgloadr.h"
+  typedef struct FT_SubGlyphRec_
+  {
+    FT_Int index;
+    FT_UShort flags;
+    FT_Int arg1;
+    FT_Int arg2;
+    FT_Matrix transform;
+
+  } FT_SubGlyphRec;
+
+
+  typedef struct FT_GlyphLoadRec_
+  {
+    FT_Outline outline;
+    FT_Vector* extra_points;
+    FT_Vector* extra_points2;
+    FT_UInt num_subglyphs;
+    FT_SubGlyph subglyphs;
+
+  } FT_GlyphLoadRec, *FT_GlyphLoad;
+
+
+  typedef struct FT_GlyphLoaderRec_
+  {
+    FT_Memory memory;
+    FT_UInt max_points;
+    FT_UInt max_contours;
+    FT_UInt max_subglyphs;
+    FT_Bool use_extra;
+
+    FT_GlyphLoadRec base;
+    FT_GlyphLoadRec current;
+
+    void* other;
+
+  } FT_GlyphLoaderRec;
+
+
+
+  extern FT_Error
+  FT_GlyphLoader_New( FT_Memory memory,
+                      FT_GlyphLoader *aloader );
+
+
+  extern FT_Error
+  FT_GlyphLoader_CreateExtra( FT_GlyphLoader loader );
+
+
+  extern void
+  FT_GlyphLoader_Done( FT_GlyphLoader loader );
+
+
+  extern void
+  FT_GlyphLoader_Reset( FT_GlyphLoader loader );
+
+
+  extern void
+  FT_GlyphLoader_Rewind( FT_GlyphLoader loader );
+
+
+
+  extern FT_Error
+  FT_GlyphLoader_CheckPoints( FT_GlyphLoader loader,
+                              FT_UInt n_points,
+                              FT_UInt n_contours );
+# 143 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftgloadr.h"
+  extern FT_Error
+  FT_GlyphLoader_CheckSubGlyphs( FT_GlyphLoader loader,
+                                 FT_UInt n_subs );
+
+
+  extern void
+  FT_GlyphLoader_Prepare( FT_GlyphLoader loader );
+
+
+  extern void
+  FT_GlyphLoader_Add( FT_GlyphLoader loader );
+
+
+  extern FT_Error
+  FT_GlyphLoader_CopyPoints( FT_GlyphLoader target,
+                             FT_GlyphLoader source );
+
+
+
+
+
+# 35 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdriver.h" 1
+# 27 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdriver.h"
+
+
+
+  typedef FT_Error
+  (*FT_Face_InitFunc)( FT_Stream stream,
+                       FT_Face face,
+                       FT_Int typeface_index,
+                       FT_Int num_params,
+                       FT_Parameter* parameters );
+
+  typedef void
+  (*FT_Face_DoneFunc)( FT_Face face );
+
+
+  typedef FT_Error
+  (*FT_Size_InitFunc)( FT_Size size );
+
+  typedef void
+  (*FT_Size_DoneFunc)( FT_Size size );
+
+
+  typedef FT_Error
+  (*FT_Slot_InitFunc)( FT_GlyphSlot slot );
+
+  typedef void
+  (*FT_Slot_DoneFunc)( FT_GlyphSlot slot );
+
+
+  typedef FT_Error
+  (*FT_Size_RequestFunc)( FT_Size size,
+                          FT_Size_Request req );
+
+  typedef FT_Error
+  (*FT_Size_SelectFunc)( FT_Size size,
+                         FT_ULong size_index );
+
+
+
+  typedef FT_Error
+  (*FT_Size_ResetPointsFunc)( FT_Size size,
+                              FT_F26Dot6 char_width,
+                              FT_F26Dot6 char_height,
+                              FT_UInt horz_resolution,
+                              FT_UInt vert_resolution );
+
+  typedef FT_Error
+  (*FT_Size_ResetPixelsFunc)( FT_Size size,
+                              FT_UInt pixel_width,
+                              FT_UInt pixel_height );
+
+
+
+  typedef FT_Error
+  (*FT_Slot_LoadFunc)( FT_GlyphSlot slot,
+                       FT_Size size,
+                       FT_UInt glyph_index,
+                       FT_Int32 load_flags );
+
+
+  typedef FT_UInt
+  (*FT_CharMap_CharIndexFunc)( FT_CharMap charmap,
+                               FT_Long charcode );
+
+  typedef FT_Long
+  (*FT_CharMap_CharNextFunc)( FT_CharMap charmap,
+                              FT_Long charcode );
+
+
+  typedef FT_Error
+  (*FT_Face_GetKerningFunc)( FT_Face face,
+                             FT_UInt left_glyph,
+                             FT_UInt right_glyph,
+                             FT_Vector* kerning );
+
+
+  typedef FT_Error
+  (*FT_Face_AttachFunc)( FT_Face face,
+                         FT_Stream stream );
+
+
+  typedef FT_Error
+  (*FT_Face_GetAdvancesFunc)( FT_Face face,
+                              FT_UInt first,
+                              FT_UInt count,
+                              FT_Int32 flags,
+                              FT_Fixed* advances );
+# 183 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdriver.h"
+  typedef struct FT_Driver_ClassRec_
+  {
+    FT_Module_Class root;
+
+    FT_Long face_object_size;
+    FT_Long size_object_size;
+    FT_Long slot_object_size;
+
+    FT_Face_InitFunc init_face;
+    FT_Face_DoneFunc done_face;
+
+    FT_Size_InitFunc init_size;
+    FT_Size_DoneFunc done_size;
+
+    FT_Slot_InitFunc init_slot;
+    FT_Slot_DoneFunc done_slot;
+
+
+
+    FT_Size_ResetPointsFunc set_char_sizes;
+    FT_Size_ResetPixelsFunc set_pixel_sizes;
+
+
+
+    FT_Slot_LoadFunc load_glyph;
+
+    FT_Face_GetKerningFunc get_kerning;
+    FT_Face_AttachFunc attach_file;
+    FT_Face_GetAdvancesFunc get_advances;
+
+
+    FT_Size_RequestFunc request_size;
+    FT_Size_SelectFunc select_size;
+
+  } FT_Driver_ClassRec, *FT_Driver_Class;
+# 229 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdriver.h"
+  extern FT_Error
+  ft_stub_set_char_sizes( FT_Size size,
+                          FT_F26Dot6 width,
+                          FT_F26Dot6 height,
+                          FT_UInt horz_res,
+                          FT_UInt vert_res );
+
+  extern FT_Error
+  ft_stub_set_pixel_sizes( FT_Size size,
+                           FT_UInt width,
+                           FT_UInt height );
+# 417 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftdriver.h"
+
+# 36 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h" 1
+# 74 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 75 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h" 2
+
+
+
+
+
+  typedef struct FT_AutoHinterRec_ *FT_AutoHinter;
+# 104 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+  typedef void
+  (*FT_AutoHinter_GlobalGetFunc)( FT_AutoHinter hinter,
+                                  FT_Face face,
+                                  void** global_hints,
+                                  long* global_len );
+# 126 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+  typedef void
+  (*FT_AutoHinter_GlobalDoneFunc)( FT_AutoHinter hinter,
+                                   void* global );
+# 146 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+  typedef void
+  (*FT_AutoHinter_GlobalResetFunc)( FT_AutoHinter hinter,
+                                    FT_Face face );
+# 174 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+  typedef FT_Error
+  (*FT_AutoHinter_GlyphLoadFunc)( FT_AutoHinter hinter,
+                                  FT_GlyphSlot slot,
+                                  FT_Size size,
+                                  FT_UInt glyph_index,
+                                  FT_Int32 load_flags );
+# 190 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+  typedef struct FT_AutoHinter_ServiceRec_
+  {
+    FT_AutoHinter_GlobalResetFunc reset_face;
+    FT_AutoHinter_GlobalGetFunc get_global_hints;
+    FT_AutoHinter_GlobalDoneFunc done_global_hints;
+    FT_AutoHinter_GlyphLoadFunc load_glyph;
+
+  } FT_AutoHinter_ServiceRec, *FT_AutoHinter_Service;
+# 226 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/autohint.h"
+
+# 37 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftserv.h" 1
+# 35 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftserv.h"
+
+# 157 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftserv.h"
+  typedef struct FT_ServiceDescRec_
+  {
+    const char* serv_id;
+    const void* serv_data;
+
+  } FT_ServiceDescRec;
+
+  typedef const FT_ServiceDescRec* FT_ServiceDesc;
+# 468 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftserv.h"
+  extern FT_Pointer
+  ft_service_list_lookup( FT_ServiceDesc service_descriptors,
+                          const char* service_id );
+# 494 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftserv.h"
+  typedef struct FT_ServiceCacheRec_
+  {
+    FT_Pointer service_POSTSCRIPT_FONT_NAME;
+    FT_Pointer service_MULTI_MASTERS;
+    FT_Pointer service_GLYPH_DICT;
+    FT_Pointer service_PFR_METRICS;
+    FT_Pointer service_WINFNT;
+
+  } FT_ServiceCacheRec, *FT_ServiceCache;
+# 615 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftserv.h"
+
+# 38 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftpic.h" 1
+# 30 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftpic.h"
+
+# 62 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftpic.h"
+
+# 39 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+
+
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h" 1
+# 23 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+# 1 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/freetype.h" 1
+# 24 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h" 2
+# 32 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+
+# 84 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef struct FT_IncrementalRec_* FT_Incremental;
+# 115 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef struct FT_Incremental_MetricsRec_
+  {
+    FT_Long bearing_x;
+    FT_Long bearing_y;
+    FT_Long advance;
+    FT_Long advance_v;
+
+  } FT_Incremental_MetricsRec;
+# 134 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+   typedef struct FT_Incremental_MetricsRec_* FT_Incremental_Metrics;
+# 178 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef FT_Error
+  (*FT_Incremental_GetGlyphDataFunc)( FT_Incremental incremental,
+                                      FT_UInt glyph_index,
+                                      FT_Data* adata );
+# 203 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef void
+  (*FT_Incremental_FreeGlyphDataFunc)( FT_Incremental incremental,
+                                       FT_Data* data );
+# 240 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef FT_Error
+  (*FT_Incremental_GetGlyphMetricsFunc)
+                      ( FT_Incremental incremental,
+                        FT_UInt glyph_index,
+                        FT_Bool vertical,
+                        FT_Incremental_MetricsRec *ametrics );
+# 269 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef struct FT_Incremental_FuncsRec_
+  {
+    FT_Incremental_GetGlyphDataFunc get_glyph_data;
+    FT_Incremental_FreeGlyphDataFunc free_glyph_data;
+    FT_Incremental_GetGlyphMetricsFunc get_glyph_metrics;
+
+  } FT_Incremental_FuncsRec;
+# 314 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef struct FT_Incremental_InterfaceRec_
+  {
+    const FT_Incremental_FuncsRec* funcs;
+    FT_Incremental object;
+
+  } FT_Incremental_InterfaceRec;
+# 331 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+  typedef FT_Incremental_InterfaceRec* FT_Incremental_Interface;
+# 348 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/ftincrem.h"
+
+# 42 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h" 2
+
+
+
+
+# 89 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern FT_UInt32
+  ft_highpow2( FT_UInt32 value );
+# 125 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_CMapRec_* FT_CMap;
+
+
+  typedef const struct FT_CMap_ClassRec_* FT_CMap_Class;
+
+
+  typedef struct FT_CMapRec_
+  {
+    FT_CharMapRec charmap;
+    FT_CMap_Class clazz;
+
+  } FT_CMapRec;
+# 149 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef FT_Error
+  (*FT_CMap_InitFunc)( FT_CMap cmap,
+                       FT_Pointer init_data );
+
+  typedef void
+  (*FT_CMap_DoneFunc)( FT_CMap cmap );
+
+  typedef FT_UInt
+  (*FT_CMap_CharIndexFunc)( FT_CMap cmap,
+                            FT_UInt32 char_code );
+
+  typedef FT_UInt
+  (*FT_CMap_CharNextFunc)( FT_CMap cmap,
+                           FT_UInt32 *achar_code );
+
+  typedef FT_UInt
+  (*FT_CMap_CharVarIndexFunc)( FT_CMap cmap,
+                               FT_CMap unicode_cmap,
+                               FT_UInt32 char_code,
+                               FT_UInt32 variant_selector );
+
+  typedef FT_Bool
+  (*FT_CMap_CharVarIsDefaultFunc)( FT_CMap cmap,
+                                   FT_UInt32 char_code,
+                                   FT_UInt32 variant_selector );
+
+  typedef FT_UInt32 *
+  (*FT_CMap_VariantListFunc)( FT_CMap cmap,
+                              FT_Memory mem );
+
+  typedef FT_UInt32 *
+  (*FT_CMap_CharVariantListFunc)( FT_CMap cmap,
+                                  FT_Memory mem,
+                                  FT_UInt32 char_code );
+
+  typedef FT_UInt32 *
+  (*FT_CMap_VariantCharListFunc)( FT_CMap cmap,
+                                  FT_Memory mem,
+                                  FT_UInt32 variant_selector );
+
+
+  typedef struct FT_CMap_ClassRec_
+  {
+    FT_ULong size;
+    FT_CMap_InitFunc init;
+    FT_CMap_DoneFunc done;
+    FT_CMap_CharIndexFunc char_index;
+    FT_CMap_CharNextFunc char_next;
+
+
+
+
+    FT_CMap_CharVarIndexFunc char_var_index;
+    FT_CMap_CharVarIsDefaultFunc char_var_default;
+    FT_CMap_VariantListFunc variant_list;
+    FT_CMap_CharVariantListFunc charvariant_list;
+    FT_CMap_VariantCharListFunc variantchar_list;
+
+  } FT_CMap_ClassRec;
+# 250 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern FT_Error
+  FT_CMap_New( FT_CMap_Class clazz,
+               FT_Pointer init_data,
+               FT_CharMap charmap,
+               FT_CMap *acmap );
+
+
+  extern void
+  FT_CMap_Done( FT_CMap cmap );
+# 320 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_Face_InternalRec_
+  {
+
+    FT_UShort reserved1;
+    FT_Short reserved2;
+
+    FT_Matrix transform_matrix;
+    FT_Vector transform_delta;
+    FT_Int transform_flags;
+
+    FT_ServiceCacheRec services;
+
+
+    FT_Incremental_InterfaceRec* incremental_interface;
+
+
+    FT_Bool ignore_unpatented_hinter;
+    FT_UInt refcount;
+
+  } FT_Face_InternalRec;
+# 378 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_Slot_InternalRec_
+  {
+    FT_GlyphLoader loader;
+    FT_UInt flags;
+    FT_Bool glyph_transformed;
+    FT_Matrix glyph_matrix;
+    FT_Vector glyph_delta;
+    void* glyph_hints;
+
+  } FT_GlyphSlot_InternalRec;
+# 441 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_ModuleRec_
+  {
+    FT_Module_Class* clazz;
+    FT_Library library;
+    FT_Memory memory;
+    FT_Generic generic;
+
+  } FT_ModuleRec;
+# 501 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern const void*
+  FT_Get_Module_Interface( FT_Library library,
+                           const char* mod_name );
+
+  extern FT_Pointer
+  ft_module_get_service( FT_Module module,
+                         const char* service_id );
+# 562 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern FT_Error
+  FT_New_GlyphSlot( FT_Face face,
+                    FT_GlyphSlot *aslot );
+# 580 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern void
+  FT_Done_GlyphSlot( FT_GlyphSlot slot );
+# 597 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern void
+  FT_Select_Metrics( FT_Face face,
+                     FT_ULong strike_index );
+
+
+
+  extern void
+  FT_Request_Metrics( FT_Face face,
+                      FT_Size_Request req );
+
+
+
+  extern FT_Error
+  FT_Match_Size( FT_Face face,
+                 FT_Size_Request req,
+                 FT_Bool ignore_width,
+                 FT_ULong* size_index );
+
+
+
+
+  extern void
+  ft_synthesize_vertical_metrics( FT_Glyph_Metrics* metrics,
+                                  FT_Pos advance );
+
+
+
+
+  extern void
+  ft_glyphslot_free_bitmap( FT_GlyphSlot slot );
+
+
+
+  extern FT_Error
+  ft_glyphslot_alloc_bitmap( FT_GlyphSlot slot,
+                             FT_ULong size );
+
+
+
+
+  extern void
+  ft_glyphslot_set_bitmap( FT_GlyphSlot slot,
+                           FT_Byte* buffer );
+# 661 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_RendererRec_
+  {
+    FT_ModuleRec root;
+    FT_Renderer_Class* clazz;
+    FT_Glyph_Format glyph_format;
+    FT_Glyph_Class glyph_class;
+
+    FT_Raster raster;
+    FT_Raster_RenderFunc raster_render;
+    FT_Renderer_RenderFunc render;
+
+  } FT_RendererRec;
+# 722 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_DriverRec_
+  {
+    FT_ModuleRec root;
+    FT_Driver_Class clazz;
+
+    FT_ListRec faces_list;
+    void* extensions;
+
+    FT_GlyphLoader glyph_loader;
+
+  } FT_DriverRec;
+# 760 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef void (*FT_Bitmap_LcdFilterFunc)( FT_Bitmap* bitmap,
+                                            FT_Render_Mode render_mode,
+                                            FT_Library library );
+# 837 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  typedef struct FT_LibraryRec_
+  {
+    FT_Memory memory;
+
+    FT_Generic generic;
+
+    FT_Int version_major;
+    FT_Int version_minor;
+    FT_Int version_patch;
+
+    FT_UInt num_modules;
+    FT_Module modules[32];
+
+    FT_ListRec renderers;
+    FT_Renderer cur_renderer;
+    FT_Module auto_hinter;
+
+    FT_Byte* raster_pool;
+
+    FT_ULong raster_pool_size;
+
+    FT_DebugHook_Func debug_hooks[4];
+# 871 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+    FT_UInt refcount;
+
+  } FT_LibraryRec;
+
+
+  extern FT_Renderer
+  FT_Lookup_Renderer( FT_Library library,
+                      FT_Glyph_Format format,
+                      FT_ListNode* node );
+
+  extern FT_Error
+  FT_Render_Glyph_Internal( FT_Library library,
+                            FT_GlyphSlot slot,
+                            FT_Render_Mode render_mode );
+
+  typedef const char*
+  (*FT_Face_GetPostscriptNameFunc)( FT_Face face );
+
+  typedef FT_Error
+  (*FT_Face_GetGlyphNameFunc)( FT_Face face,
+                               FT_UInt glyph_index,
+                               FT_Pointer buffer,
+                               FT_UInt buffer_max );
+
+  typedef FT_UInt
+  (*FT_Face_GetGlyphNameIndexFunc)( FT_Face face,
+                                    FT_String* glyph_name );
+# 913 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern FT_Memory
+  FT_New_Memory( void );
+# 928 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern void
+  FT_Done_Memory( FT_Memory memory );
+# 941 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+  extern FT_Raster_Funcs ft_default_raster;
+# 1423 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftobjs.h"
+
+# 26 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h" 2
+
+
+
+# 57 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h"
+  typedef enum FT_Frame_Op_
+  {
+    ft_frame_end = 0,
+    ft_frame_start = ( ( 1 << 2 ) | ( 0 << 1 ) | 0 ),
+
+    ft_frame_byte = ( ( 2 << 2 ) | ( 0 << 1 ) | 0 ),
+    ft_frame_schar = ( ( 2 << 2 ) | ( 0 << 1 ) | 1 ),
+
+    ft_frame_ushort_be = ( ( 3 << 2 ) | ( 0 << 1 ) | 0 ),
+    ft_frame_short_be = ( ( 3 << 2 ) | ( 0 << 1 ) | 1 ),
+    ft_frame_ushort_le = ( ( 3 << 2 ) | ( 1 << 1 ) | 0 ),
+    ft_frame_short_le = ( ( 3 << 2 ) | ( 1 << 1 ) | 1 ),
+
+    ft_frame_ulong_be = ( ( 4 << 2 ) | ( 0 << 1 ) | 0 ),
+    ft_frame_long_be = ( ( 4 << 2 ) | ( 0 << 1 ) | 1 ),
+    ft_frame_ulong_le = ( ( 4 << 2 ) | ( 1 << 1 ) | 0 ),
+    ft_frame_long_le = ( ( 4 << 2 ) | ( 1 << 1 ) | 1 ),
+
+    ft_frame_uoff3_be = ( ( 5 << 2 ) | ( 0 << 1 ) | 0 ),
+    ft_frame_off3_be = ( ( 5 << 2 ) | ( 0 << 1 ) | 1 ),
+    ft_frame_uoff3_le = ( ( 5 << 2 ) | ( 1 << 1 ) | 0 ),
+    ft_frame_off3_le = ( ( 5 << 2 ) | ( 1 << 1 ) | 1 ),
+
+    ft_frame_bytes = ( ( 6 << 2 ) | ( 0 << 1 ) | 0 ),
+    ft_frame_skip = ( ( 6 << 2 ) | ( 0 << 1 ) | 1 )
+
+  } FT_Frame_Op;
+
+
+  typedef struct FT_Frame_Field_
+  {
+    FT_Byte value;
+    FT_Byte size;
+    FT_UShort offset;
+
+  } FT_Frame_Field;
+# 331 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h"
+  extern FT_Error
+  FT_Stream_Open( FT_Stream stream,
+                  const char* filepathname );
+
+
+
+
+
+  extern FT_Error
+  FT_Stream_New( FT_Library library,
+                 const FT_Open_Args* args,
+                 FT_Stream *astream );
+
+
+  extern void
+  FT_Stream_Free( FT_Stream stream,
+                  FT_Int external );
+
+
+  extern void
+  FT_Stream_OpenMemory( FT_Stream stream,
+                        const FT_Byte* base,
+                        FT_ULong size );
+
+
+  extern void
+  FT_Stream_Close( FT_Stream stream );
+
+
+
+  extern FT_Error
+  FT_Stream_Seek( FT_Stream stream,
+                  FT_ULong pos );
+
+
+  extern FT_Error
+  FT_Stream_Skip( FT_Stream stream,
+                  FT_Long distance );
+
+
+  extern FT_Long
+  FT_Stream_Pos( FT_Stream stream );
+
+
+
+  extern FT_Error
+  FT_Stream_Read( FT_Stream stream,
+                  FT_Byte* buffer,
+                  FT_ULong count );
+
+
+  extern FT_Error
+  FT_Stream_ReadAt( FT_Stream stream,
+                    FT_ULong pos,
+                    FT_Byte* buffer,
+                    FT_ULong count );
+
+
+
+  extern FT_ULong
+  FT_Stream_TryRead( FT_Stream stream,
+                     FT_Byte* buffer,
+                     FT_ULong count );
+# 403 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h"
+  extern FT_Error
+  FT_Stream_EnterFrame( FT_Stream stream,
+                        FT_ULong count );
+
+
+  extern void
+  FT_Stream_ExitFrame( FT_Stream stream );
+# 420 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h"
+  extern FT_Error
+  FT_Stream_ExtractFrame( FT_Stream stream,
+                          FT_ULong count,
+                          FT_Byte** pbytes );
+
+
+  extern void
+  FT_Stream_ReleaseFrame( FT_Stream stream,
+                          FT_Byte** pbytes );
+
+
+  extern FT_Char
+  FT_Stream_GetChar( FT_Stream stream );
+
+
+  extern FT_Short
+  FT_Stream_GetShort( FT_Stream stream );
+
+
+  extern FT_Long
+  FT_Stream_GetOffset( FT_Stream stream );
+
+
+  extern FT_Long
+  FT_Stream_GetLong( FT_Stream stream );
+
+
+  extern FT_Short
+  FT_Stream_GetShortLE( FT_Stream stream );
+
+
+  extern FT_Long
+  FT_Stream_GetLongLE( FT_Stream stream );
+
+
+
+  extern FT_Char
+  FT_Stream_ReadChar( FT_Stream stream,
+                      FT_Error* error );
+
+
+  extern FT_Short
+  FT_Stream_ReadShort( FT_Stream stream,
+                       FT_Error* error );
+
+
+  extern FT_Long
+  FT_Stream_ReadOffset( FT_Stream stream,
+                        FT_Error* error );
+
+
+  extern FT_Long
+  FT_Stream_ReadLong( FT_Stream stream,
+                      FT_Error* error );
+
+
+  extern FT_Short
+  FT_Stream_ReadShortLE( FT_Stream stream,
+                         FT_Error* error );
+
+
+  extern FT_Long
+  FT_Stream_ReadLongLE( FT_Stream stream,
+                        FT_Error* error );
+
+
+
+  extern FT_Error
+  FT_Stream_ReadFields( FT_Stream stream,
+                        const FT_Frame_Field* fields,
+                        void* structure );
+# 534 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/include/freetype/internal/ftstream.h"
+
+# 32 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c" 2
+# 68 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+  static void*
+  ft_alloc( FT_Memory memory,
+            long size )
+  {
+    ( (memory) = (memory) );
+
+    return malloc( size );
+  }
+# 98 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+  static void*
+  ft_realloc( FT_Memory memory,
+              long cur_size,
+              long new_size,
+              void* block )
+  {
+    ( (memory) = (memory) );
+    ( (cur_size) = (cur_size) );
+
+    return realloc( block, new_size );
+  }
+# 124 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+  static void
+  ft_free( FT_Memory memory,
+           void* block )
+  {
+    ( (memory) = (memory) );
+
+    free( block );
+  }
+# 166 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+  static void
+  ft_ansi_stream_close( FT_Stream stream )
+  {
+    fclose( ( (FILE*)stream->descriptor.pointer ) );
+
+    stream->descriptor.pointer = ((void *)0);
+    stream->size = 0;
+    stream->base = 0;
+  }
+# 199 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+  static unsigned long
+  ft_ansi_stream_io( FT_Stream stream,
+                     unsigned long offset,
+                     unsigned char* buffer,
+                     unsigned long count )
+  {
+    FILE* file;
+
+
+    if ( !count && offset > stream->size )
+      return 1;
+
+    file = ( (FILE*)stream->descriptor.pointer );
+
+    if ( stream->pos != offset )
+      fseek( file, offset, 0 );
+
+    return (unsigned long)fread( buffer, 1, count, file );
+  }
+
+
+
+
+  FT_Error
+  FT_Stream_Open( FT_Stream stream,
+                  const char* filepathname )
+  {
+    FILE* file;
+
+
+    if ( !stream )
+      return FT_Err_Invalid_Stream_Handle;
+
+    file = fopen( filepathname, "rb" );
+    if ( !file )
+    {
+      do { } while ( 0 );
+
+
+      return FT_Err_Cannot_Open_Resource;
+    }
+
+    fseek( file, 0, 2 );
+    stream->size = ftell( file );
+    fseek( file, 0, 0 );
+
+    stream->descriptor.pointer = file;
+    stream->pathname.pointer = (char*)filepathname;
+    stream->pos = 0;
+
+    stream->read = ft_ansi_stream_io;
+    stream->close = ft_ansi_stream_close;
+
+    do { } while ( 0 );
+    do { } while ( 0 );
+
+
+    return FT_Err_Ok;
+  }
+# 273 "/home/chris/lib-src/pelya/project/prebuild/freetype-2.4.3/src/base/ftsystem.c"
+  FT_Memory
+  FT_New_Memory( void )
+  {
+    FT_Memory memory;
+
+
+    memory = (FT_Memory)malloc( sizeof ( *memory ) );
+    if ( memory )
+    {
+      memory->user = 0;
+      memory->alloc = ft_alloc;
+      memory->realloc = ft_realloc;
+      memory->free = ft_free;
+
+
+
+    }
+
+    return memory;
+  }
+
+
+
+
+  void
+  FT_Done_Memory( FT_Memory memory )
+  {
+
+
+
+    free( memory );
+  }

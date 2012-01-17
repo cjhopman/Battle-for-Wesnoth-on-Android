@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//Boost//DTD BoostBook XML V1.0//EN" "http://www.boost.org/tools/boostbook/dtd/boostbook.dtd">
+<article id="document_information_1" last-revision="DEBUG MODE Date: 2000/12/20 12:00:00 $"
+ xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Document Information 1</title>
+  <articleinfo>
+    <authorgroup>
+    <author>
+      <firstname>Joe</firstname> <surname>Blow</surname>
+    </author>
+    <author>
+      <firstname>Jane</firstname> <surname>Doe</surname>
+    </author>
+    </authorgroup>
+    <articlepurpose>
+      Inline code test: <code>1 + 2</code>
+    </articlepurpose>
+    <articlecategory name="category:tests"></articlecategory> <articlecategory name="category:irrelevance"></articlecategory>
+  </articleinfo>
+</article>
