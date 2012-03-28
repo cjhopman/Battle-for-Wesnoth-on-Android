@@ -22,12 +22,15 @@
 #include "hotkeys.hpp"
 #include "game_end_exceptions.hpp"
 #include "gettext.hpp"
+#include "gui/dialogs/drop_listbox.hpp"
+#include "gui/dialogs/touch_game_menu.hpp"
+#include "gui/widgets/helper.hpp"
+#include "gui/widgets/settings.hpp"
 #include "filesystem.hpp"
 #include "log.hpp"
 #include "preferences_display.hpp"
 #include "wesconfig.h"
 #include "wml_separators.hpp"
-#include "gui/dialogs/touch_game_menu.hpp"
 
 static lg::log_domain log_config("config");
 #define ERR_G LOG_STREAM(err, lg::general)
@@ -1016,7 +1019,11 @@ void command_executor::show_menu(const std::vector<std::string>& items_arg, int 
 		std::vector<std::string> menu = get_menu_images(gui, items);
 
 		int res = 0;
-		{
+		if (gui2::new_widgets) {
+			gui2::tdrop_listbox dlg(gui2::tpoint(xloc, yloc), menu, std::vector<std::string>(), NULL, gui2::tdrop_listbox::transform_type(), -1);
+			dlg.show(gui.video());
+			res = dlg.get_retval();
+		} else {
 			gui::dialog mmenu = gui::dialog(gui,"","",
 			gui::MESSAGE, gui::dialog::hotkeys_style);
 			mmenu.set_menu(menu);
@@ -1063,7 +1070,11 @@ std::vector<std::string> command_executor::get_menu_images(display &disp, const 
 				assert(b);
 				desc = b->title();
 			}
-			str << desc << COLUMN_SEPARATOR << hk.get_name();
+			if (gui2::new_widgets) {
+				str << desc;
+			} else {
+				str << desc << COLUMN_SEPARATOR << hk.get_name();
+			}
 		}
 
 		result.push_back(str.str());

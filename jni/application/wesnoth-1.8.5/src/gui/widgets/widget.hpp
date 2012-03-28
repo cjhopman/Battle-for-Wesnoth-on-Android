@@ -687,7 +687,6 @@ template<class T> T* get_parent(twidget* widget)
 
 	} while (widget && !result);
 
-	assert(result);
 	return result;
 }
 

@@ -281,7 +281,8 @@ void _set_lobby_joins(int show)
 
 bool new_lobby()
 {
-	return utils::string_bool(get("new_lobby"), false);
+	return true;
+	//return utils::string_bool(get("new_lobby"), false);
 }
 
 void set_new_lobby(bool value)

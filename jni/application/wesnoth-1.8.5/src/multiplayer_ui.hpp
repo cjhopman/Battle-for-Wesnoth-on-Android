@@ -22,6 +22,10 @@
 #include "widgets/menu.hpp"
 #include "widgets/textbox.hpp"
 
+#include "gui/widgets/scroll_label.hpp"
+
+#include <boost/bind.hpp>
+
 #include <deque>
 #include <string>
 
@@ -48,11 +52,15 @@ public:
 
 	void add_message(const time_t& time, const std::string& user,
 			const std::string& message);
+	void set_add_message_callback(boost::function<void()> f = boost::function<void()>()) { add_message_callback = f; }
 
 	void init_textbox(gui::textbox& textbox);
 	void update_textbox(gui::textbox& textbox);
 
+	void init_scroll_label(gui2::tscroll_label& label);
+	void update_scroll_label(gui2::tscroll_label& label);
 private:
+
 	struct msg {
 		msg(const time_t& time, const std::string& user, const std::string& message)
 			: time(time), user(user), message(message) {};
@@ -61,6 +69,8 @@ private:
 		std::string message;
 	};
 	typedef std::deque<msg> msg_hist;
+
+	boost::function<void()> add_message_callback;
 
 	std::string format_message(const msg& message);
 	SDL_Color color_message(const msg& message);
@@ -80,6 +90,7 @@ public:
 
 	ui(game_display& d, const std::string& title,
 			const config& cfg, chat& c, config& gamelist);
+	~ui();
 
 	/**
 	 * Asks the multiplayer_ui to pump some data from the network, and then to
@@ -103,7 +114,8 @@ public:
 	void set_location(const SDL_Rect& rect);
 	using widget::set_location;
 
-protected:
+public:
+	using events::chat_handler::do_speak;
 	int xscale(int x) const;
 	int yscale(int y) const;
 	static const int xscale_base;
@@ -195,10 +207,13 @@ protected:
 
 	void append_to_title(const std::string& name);
 	const gui::label& title() const;
+	gui::label& title();
 
 	std::string get_selected_user_game();
 	bool selected_user_changed() const { return selected_user_changed_; }
 	void set_selected_user_changed(const bool& changed) { selected_user_changed_ = changed; }
+
+	const std::vector<std::string>& user_list() { return user_list_; }
 
 private:
 	/**

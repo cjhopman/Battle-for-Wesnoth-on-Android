@@ -162,6 +162,15 @@ std::string color2markup(const SDL_Color &color)
 		   << static_cast<int>(color.b) << ">";
 	return markup.str();
 }
+SDL_Color markup2color(std::string s) {
+	SDL_Color ret;
+	std::vector<std::string> v = utils::split(s);
+	if (v.size() != 3) return ret;
+	ret.r = lexical_cast<int>(v[0]);
+	ret.g = lexical_cast<int>(v[1]);
+	ret.b = lexical_cast<int>(v[2]);
+	return ret;
+}
 
 std::string color2hexa(const SDL_Color &color)
 {

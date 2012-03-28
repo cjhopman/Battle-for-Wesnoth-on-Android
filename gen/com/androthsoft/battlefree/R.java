@@ -25,6 +25,12 @@ public final class R {
         public static final int text_field=0x7f02000b;
         public static final int text_style=0x7f02000c;
     }
+    public static final class id {
+        public static final int img=0x7f070003;
+        public static final int layout2_=0x7f070002;
+        public static final int layout_=0x7f070001;
+        public static final int videoLayout_=0x7f070000;
+    }
     public static final class layout {
         public static final int main=0x7f030000;
     }

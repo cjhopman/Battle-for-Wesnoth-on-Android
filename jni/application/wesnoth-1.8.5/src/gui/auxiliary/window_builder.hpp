@@ -142,6 +142,8 @@ private:
 
 };
 
+twindow* build(CVideo& video, const twindow_builder::tresolution& definition, const std::string& id);
+
 } // namespace gui2
 
 

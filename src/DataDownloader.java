@@ -1,4 +1,4 @@
-package com.androthsoft.battlefree;
+package com.androthsoft.battle;
 
 import android.app.Activity;
 import android.content.Context;
@@ -263,28 +263,56 @@ class DataDownloader extends Thread {
 		return getOutFilePath(assetName) + "-finished";
 	}
 
-	public boolean isAssetFinished(String assetName) {
+	public String getAssetVersion(String assetName) {
+		BufferedReader r = null;
 		try {
-			return new File(getFlagFilename(assetName)).exists();
-		} catch(SecurityException e) {
+			File f = new File(getFlagFilename(assetName));
+			if (f.exists() && !f.isFile()) {
+				return "0";
+			}
+			r = new BufferedReader(new FileReader(f));
+			String ret = r.readLine();
+			Integer.parseInt(ret);
+			return ret;
+		} catch (SecurityException e) {
+			return "-1";
+		} catch (FileNotFoundException e) {
+			return "-2";
+		} catch (IOException e) {
+			return "0";
+		} catch (NumberFormatException e) {
+			return "0";
+		} finally {
+			try {
+				if (r != null) r.close();
+			} catch (IOException e) {
+			}
 		}
-		return false;
 	}
 
 	public void setAssetFinished(String assetName) {
+		PrintWriter w = null;
 		try {
 			File f = new File(getFlagFilename(assetName));
 			f.mkdirs();
-			f.createNewFile();
+			if (f.exists()) f.delete();
+			w = new PrintWriter(new FileWriter(f));
+			w.println(Globals.ApplicationVersion);
 		} catch(SecurityException e) {
 		} catch(FileNotFoundException e) {
 		} catch(IOException e) {
+		} finally {
+			if (w != null) w.close();
 		}
 	}
 
 	public boolean DownloadDataFile(String[] dataDownloadDesc)
 	{
-		String dataDownloadUrl = "desc|" + dataDownloadDesc[dataDownloadDesc.length - 1];
+		if(dataDownloadDesc.length < 3)
+			return false;
+		boolean isS3 = dataDownloadDesc[1].equals("s3");
+
+		String dataDownloadUrl = "desc|" + dataDownloadDesc[isS3 ? 3 : 2];
 		String [] downloadUrls = dataDownloadUrl.split("[|]");
 		if(downloadUrls.length < 2)
 			return false;
@@ -292,7 +320,10 @@ class DataDownloader extends Thread {
 		String url = downloadUrls[1];
 		Resources res = parent_.getResources();
 		
-		if (isAssetFinished(url)) {
+		int oldVersion = Integer.parseInt(getAssetVersion(url));
+		int versionIdx = isS3 ? 4 : 3;
+		int requiredVersion = dataDownloadDesc.length < versionIdx + 1 ? 0 : Integer.parseInt(dataDownloadDesc[versionIdx]);
+		if (oldVersion >= requiredVersion) {
 			status_.setText( res.getString(R.string.download_unneeded) );
 			return true;
 		}

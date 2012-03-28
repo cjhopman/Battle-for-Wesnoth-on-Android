@@ -21,7 +21,7 @@
  * (time@ice.com) to whom the Ant project is very grateful for his great code.
  */
 
-package com.androthsoft.battlefree;
+package com.androthsoft.battle;
 
 /**
  * This interface contains all the definitions used in the package.

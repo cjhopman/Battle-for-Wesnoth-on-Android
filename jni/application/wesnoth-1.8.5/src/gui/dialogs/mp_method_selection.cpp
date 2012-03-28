@@ -56,6 +56,10 @@ void tmp_method_selection::pre_show(CVideo& /*video*/, twindow& window)
 
 	tlistbox* list = find_widget<tlistbox>(&window, "method_list", false, true);
 
+	// deactivate local game
+	//list->set_row_active(list->get_item_count() - 1, false);
+
+
 	window.add_to_keyboard_chain(list);
 }
 

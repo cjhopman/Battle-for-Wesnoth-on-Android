@@ -71,10 +71,7 @@ LIBWESNOTH_SRC_FILES = \
 	key.cpp \
 	language.cpp \
 	loadscreen.cpp \
-	map_create.cpp \
 	map_label.cpp \
-	mapgen.cpp \
-	mapgen_dialog.cpp \
 	marked-up_text.cpp \
 	minimap.cpp \
 	pathfind/astarsearch.cpp \
@@ -156,40 +153,78 @@ LOCAL_CFLAGS := \
 LOCAL_CPP_EXTENSION := .cpp
 
 WESNOTH_SRC_FILES := \
-	about.cpp actions.cpp addon_checks.cpp \
-	addon_management.cpp ai/actions.cpp ai/composite/ai.cpp \
-	ai/composite/aspect.cpp ai/composite/component.cpp \
-	ai/composite/contexts.cpp ai/composite/engine.cpp \
-	ai/composite/engine_default.cpp ai/composite/engine_fai.cpp \
-	ai/composite/engine_lua.cpp ai/composite/goal.cpp \
-	ai/composite/rca.cpp ai/composite/stage.cpp \
-	ai/configuration.cpp ai/contexts.cpp ai/default/ai.cpp \
-	ai/default/attack.cpp ai/default/contexts.cpp \
-	ai/default/move.cpp ai/default/village.cpp ai/formula/ai.cpp \
-	ai/formula/callable_objects.cpp ai/formula/candidates.cpp \
+	about.cpp \
+	actions.cpp \
+	addon_checks.cpp \
+	addon_management.cpp \
+	ai/actions.cpp \
+	ai/composite/ai.cpp \
+	ai/composite/aspect.cpp \
+	ai/composite/component.cpp \
+	ai/composite/contexts.cpp \
+	ai/composite/engine.cpp \
+	ai/composite/engine_default.cpp \
+	ai/composite/engine_fai.cpp \
+	ai/composite/engine_lua.cpp \
+	ai/composite/goal.cpp \
+	ai/composite/rca.cpp \
+	ai/composite/stage.cpp \
+	ai/configuration.cpp \
+	ai/contexts.cpp \
+	ai/default/ai.cpp \
+	ai/default/attack.cpp \
+	ai/default/contexts.cpp \
+	ai/default/move.cpp \
+	ai/default/village.cpp \
+	ai/formula/ai.cpp \
+	ai/formula/callable_objects.cpp \
+	ai/formula/candidates.cpp \
 	ai/formula/function_table.cpp \
 	ai/formula/stage_rca_formulas.cpp \
 	ai/formula/stage_side_formulas.cpp \
-	ai/formula/stage_unit_formulas.cpp ai/game_info.cpp \
-	ai/gamestate_observer.cpp ai/interface.cpp ai/manager.cpp \
-	ai/registry.cpp ai/testing/aspect_attacks.cpp \
-	ai/testing/ca.cpp ai/testing/ca_default_move_to_targets.cpp \
+	ai/formula/stage_unit_formulas.cpp \
+	ai/game_info.cpp \
+	ai/gamestate_observer.cpp \
+	ai/interface.cpp \
+	ai/manager.cpp \
+	ai/registry.cpp \
+	ai/testing/aspect_attacks.cpp \
+	ai/testing/ca.cpp \
+	ai/testing/ca_default_move_to_targets.cpp \
 	ai/testing/ca_testing_move_to_targets.cpp \
-	ai/testing/stage_rca.cpp ai/testing/stage_fallback.cpp \
-	ai/testing.cpp animated_game.cpp attack_prediction.cpp \
-	attack_prediction_display.cpp callable_objects.cpp \
-	config_cache.cpp controller_base.cpp dialogs.cpp \
-	floating_textbox.cpp formula.cpp formula_debugger.cpp \
-	formula_debugger_fwd.cpp formula_function.cpp \
-	formula_tokenizer.cpp formula_string_utils.cpp \
-	game_display.cpp game_events.cpp game_preferences.cpp \
-	game_preferences_display.cpp gamestatus.cpp \
-	generate_report.cpp generic_event.cpp gui/auxiliary/canvas.cpp \
+	ai/testing/stage_rca.cpp \
+	ai/testing/stage_fallback.cpp \
+	ai/testing.cpp \
+	animated_game.cpp \
+	attack_prediction.cpp \
+	attack_prediction_display.cpp \
+	callable_objects.cpp \
+	config_cache.cpp \
+	controller_base.cpp \
+	dialogs.cpp \
+	floating_textbox.cpp \
+	formula.cpp \
+	formula_debugger.cpp \
+	formula_debugger_fwd.cpp \
+	formula_function.cpp \
+	formula_tokenizer.cpp \
+	formula_string_utils.cpp \
+	game_display.cpp \
+	game_events.cpp \
+	game_preferences.cpp \
+	game_preferences_display.cpp \
+	gamestatus.cpp \
+	generate_report.cpp \
+	generic_event.cpp \
+	gui/auxiliary/canvas.cpp \
 	gui/auxiliary/event/dispatcher.cpp \
 	gui/auxiliary/event/distributor.cpp \
-	gui/auxiliary/event/handler.cpp gui/auxiliary/log.cpp \
-	gui/auxiliary/timer.cpp gui/auxiliary/widget_definition.cpp \
+	gui/auxiliary/event/handler.cpp \
+	gui/auxiliary/log.cpp \
+	gui/auxiliary/timer.cpp \
+	gui/auxiliary/widget_definition.cpp \
 	gui/auxiliary/widget_definition/button.cpp \
+	gui/auxiliary/widget_definition/drop_button.cpp \
 	gui/auxiliary/widget_definition/horizontal_scrollbar.cpp \
 	gui/auxiliary/widget_definition/image.cpp \
 	gui/auxiliary/widget_definition/label.cpp \
@@ -213,6 +248,7 @@ WESNOTH_SRC_FILES := \
 	gui/auxiliary/widget_definition/window.cpp \
 	gui/auxiliary/window_builder/button.cpp \
 	gui/auxiliary/window_builder/control.cpp \
+	gui/auxiliary/window_builder/drop_button.cpp \
 	gui/auxiliary/window_builder/helper.cpp \
 	gui/auxiliary/window_builder/horizontal_listbox.cpp \
 	gui/auxiliary/window_builder/horizontal_scrollbar.cpp \
@@ -235,12 +271,18 @@ WESNOTH_SRC_FILES := \
 	gui/auxiliary/window_builder/password_box.cpp \
 	gui/auxiliary/window_builder/toggle_panel.cpp \
 	gui/auxiliary/window_builder/tree_view.cpp \
-	gui/auxiliary/window_builder.cpp gui/dialogs/addon_connect.cpp \
-	gui/dialogs/addon_list.cpp gui/dialogs/campaign_selection.cpp \
-	gui/dialogs/dialog.cpp gui/dialogs/formula_debugger.cpp \
-	gui/dialogs/game_load.cpp gui/dialogs/game_delete.cpp \
-    gui/dialogs/chat_log.cpp \
-	gui/dialogs/game_save.cpp gui/dialogs/gamestate_inspector.cpp \
+	gui/auxiliary/window_builder.cpp \
+	gui/dialogs/addon_connect.cpp \
+	gui/dialogs/addon_list.cpp \
+	gui/dialogs/campaign_selection.cpp \
+	gui/dialogs/dialog.cpp \
+	gui/dialogs/drop_listbox.cpp \
+	gui/dialogs/formula_debugger.cpp \
+	gui/dialogs/game_load.cpp \
+	gui/dialogs/game_delete.cpp \
+	gui/dialogs/chat_log.cpp \
+	gui/dialogs/game_save.cpp \
+	gui/dialogs/gamestate_inspector.cpp \
 	gui/dialogs/language_selection.cpp \
 	gui/dialogs/preferences.cpp \
 	gui/dialogs/touch_game_menu.cpp \
@@ -251,50 +293,124 @@ WESNOTH_SRC_FILES := \
 	gui/dialogs/unit_recruit.cpp \
 	gui/dialogs/unit_panel.cpp \
 	gui/dialogs/lobby/lobby_data.cpp \
-	gui/dialogs/lobby/lobby_info.cpp gui/dialogs/lobby_main.cpp \
-	gui/dialogs/lobby_player_info.cpp gui/dialogs/message.cpp \
-	gui/dialogs/mp_connect.cpp gui/dialogs/mp_create_game.cpp \
+	gui/dialogs/lobby/lobby_info.cpp \
+	gui/dialogs/lobby_main.cpp \
+	gui/dialogs/lobby_player_info.cpp \
+	gui/dialogs/mapgen_settings.cpp \
+	gui/dialogs/message.cpp \
+	gui/dialogs/menu.cpp \
+	gui/dialogs/mp_connect.cpp \
+	gui/dialogs/mp_create_game.cpp \
+	gui/dialogs/mp_game_connect.cpp \
+	gui/dialogs/mp_game_wait.cpp \
 	gui/dialogs/mp_method_selection.cpp \
-	gui/dialogs/mp_cmd_wrapper.cpp gui/dialogs/title_screen.cpp \
-	gui/dialogs/transient_message.cpp gui/dialogs/unit_create.cpp \
-	gui/dialogs/wml_message.cpp gui/widgets/button.cpp \
-	gui/widgets/control.cpp gui/widgets/container.cpp \
+	gui/dialogs/mp_cmd_wrapper.cpp \
+	gui/dialogs/place_label.cpp \
+	gui/dialogs/speak.cpp \
+	gui/dialogs/title_screen.cpp \
+	gui/dialogs/transient_message.cpp \
+	gui/dialogs/unit_create.cpp \
+	gui/dialogs/wml_message.cpp \
+	gui/widgets/button.cpp \
+	gui/widgets/control.cpp \
+	gui/widgets/container.cpp \
+	gui/widgets/drop_button.cpp \
+	gui/widgets/debug.cpp \
+	gui/widgets/generator.cpp \
+	gui/widgets/grid.cpp \
+	gui/widgets/helper.cpp \
+	gui/widgets/horizontal_scrollbar.cpp \
+	gui/widgets/image.cpp \
+	gui/widgets/label.cpp \
+	gui/widgets/listbox.cpp \
+	gui/widgets/menubar.cpp \
+	gui/widgets/minimap.cpp \
+	gui/widgets/multi_page.cpp \
+	gui/widgets/panel.cpp \
+	gui/widgets/password_box.cpp \
+	gui/widgets/repeating_button.cpp \
+	gui/widgets/settings.cpp \
+	gui/widgets/scroll_label.cpp \
+	gui/widgets/scrollbar.cpp \
+	gui/widgets/scrollbar_container.cpp \
+	gui/widgets/scrollbar_panel.cpp \
+	gui/widgets/slider.cpp \
+	gui/widgets/spacer.cpp \
+	gui/widgets/stacked_widget.cpp \
+	gui/widgets/text.cpp \
+	gui/widgets/text_box.cpp \
+	gui/widgets/toggle_button.cpp \
+	gui/widgets/toggle_panel.cpp \
+	gui/widgets/tooltip.cpp \
 	gui/widgets/touch_scroll_linker.cpp \
-	gui/widgets/debug.cpp gui/widgets/generator.cpp \
-	gui/widgets/grid.cpp gui/widgets/helper.cpp \
-	gui/widgets/horizontal_scrollbar.cpp gui/widgets/image.cpp \
-	gui/widgets/label.cpp gui/widgets/listbox.cpp \
-	gui/widgets/menubar.cpp gui/widgets/minimap.cpp \
-	gui/widgets/multi_page.cpp gui/widgets/panel.cpp \
-	gui/widgets/password_box.cpp gui/widgets/repeating_button.cpp \
-	gui/widgets/settings.cpp gui/widgets/scroll_label.cpp \
-	gui/widgets/scrollbar.cpp gui/widgets/scrollbar_container.cpp \
-	gui/widgets/scrollbar_panel.cpp gui/widgets/slider.cpp \
-	gui/widgets/spacer.cpp gui/widgets/stacked_widget.cpp \
-	gui/widgets/text.cpp gui/widgets/text_box.cpp \
-	gui/widgets/toggle_button.cpp gui/widgets/toggle_panel.cpp \
-	gui/widgets/tooltip.cpp gui/widgets/tree_view.cpp \
+	gui/widgets/tree_view.cpp \
 	gui/widgets/tree_view_node.cpp \
-	gui/widgets/vertical_scrollbar.cpp gui/widgets/widget.cpp \
-	gui/widgets/window.cpp halo.cpp help.cpp intro.cpp \
-	lobby_preferences.cpp leader_list.cpp menu_events.cpp \
-	mouse_events.cpp mouse_handler_base.cpp mp_game_settings.cpp \
-	multiplayer.cpp multiplayer_ui.cpp multiplayer_wait.cpp \
-	multiplayer_connect.cpp multiplayer_create.cpp \
-	multiplayer_lobby.cpp network.cpp network_worker.cpp \
-	pathfind/pathfind.cpp playcampaign.cpp play_controller.cpp \
-	playmp_controller.cpp playsingle_controller.cpp playturn.cpp \
-	portrait.cpp replay.cpp replay_controller.cpp resources.cpp \
-	save_blocker.cpp savegame.cpp savegame_config.cpp \
-	scripting/lua.cpp sha1.cpp settings.cpp statistics.cpp \
-	statistics_dialog.cpp storyscreen/interface.cpp \
-	storyscreen/controller.cpp storyscreen/part.cpp \
-	storyscreen/render.cpp team.cpp terrain_filter.cpp text.cpp \
-	time_of_day.cpp titlescreen.cpp tod_manager.cpp tooltips.cpp \
-	unit.cpp unit_abilities.cpp unit_animation.cpp \
-	unit_display.cpp unit_frame.cpp unit_id.cpp unit_map.cpp \
-	unit_types.cpp variable.cpp variant.cpp widgets/combo.cpp \
-	widgets/combo_drag.cpp widgets/drop_target.cpp \
+	gui/widgets/vertical_scrollbar.cpp \
+	gui/widgets/widget.cpp \
+	gui/widgets/window.cpp \
+	halo.cpp \
+	help.cpp \
+	intro.cpp \
+	lobby_preferences.cpp \
+	leader_list.cpp \
+	menu_events.cpp \
+	map_create.cpp \
+	mapgen.cpp \
+	mapgen_dialog.cpp \
+	mouse_events.cpp \
+	mouse_handler_base.cpp \
+	mp_game_settings.cpp \
+	multiplayer.cpp \
+	multiplayer_ui.cpp \
+	multiplayer_wait.cpp \
+	multiplayer_connect.cpp \
+	multiplayer_connect_ui.cpp \
+	multiplayer_create.cpp \
+	multiplayer_lobby.cpp \
+	network.cpp \
+	network_worker.cpp \
+	pathfind/pathfind.cpp \
+	playcampaign.cpp \
+	play_controller.cpp \
+	playmp_controller.cpp \
+	playsingle_controller.cpp \
+	playturn.cpp \
+	portrait.cpp \
+	replay.cpp \
+	replay_controller.cpp \
+	resources.cpp \
+	save_blocker.cpp \
+	savegame.cpp \
+	savegame_config.cpp \
+	scripting/lua.cpp \
+	sha1.cpp \
+	settings.cpp \
+	statistics.cpp \
+	statistics_dialog.cpp \
+	storyscreen/interface.cpp \
+	storyscreen/controller.cpp \
+	storyscreen/part.cpp \
+	storyscreen/render.cpp \
+	team.cpp \
+	terrain_filter.cpp \
+	text.cpp \
+	time_of_day.cpp \
+	titlescreen.cpp \
+	tod_manager.cpp \
+	tooltips.cpp \
+	unit.cpp \
+	unit_abilities.cpp \
+	unit_animation.cpp \
+	unit_display.cpp \
+	unit_frame.cpp \
+	unit_id.cpp \
+	unit_map.cpp \
+	unit_types.cpp \
+	variable.cpp \
+	variant.cpp \
+	widgets/combo.cpp \
+	widgets/combo_drag.cpp \
+	widgets/drop_target.cpp \
 	widgets/scrollpane.cpp \
 	$(NULL)
 

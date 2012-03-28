@@ -120,7 +120,7 @@ int SDL_ANDROID_CallJavaSwapBuffers()
 	if( showScreenKeyboardDeferred )
 	{
 		showScreenKeyboardDeferred = 0;
-		(*JavaEnv)->CallVoidMethod( JavaEnv, JavaRenderer, JavaShowScreenKeyboard, (*JavaEnv)->NewStringUTF(JavaEnv, showScreenKeyboardOldText), 0, 0, 0, 0);
+		(*JavaEnv)->CallVoidMethod( JavaEnv, JavaRenderer, JavaShowScreenKeyboard, (*JavaEnv)->NewStringUTF(JavaEnv, showScreenKeyboardOldText), 0, 0, 0, 0, 0);
 	}
 	SDL_ANDROID_ProcessDeferredEvents();
 	return 1;
@@ -197,15 +197,27 @@ JAVA_EXPORT_NAME(DemoRenderer_nativeGlContextRecreated) ( JNIEnv*  env, jobject 
 }
 
 volatile static textInputFinished = 0;
-void SDL_ANDROID_TextInputFinished()
+void SDL_ANDROID_TextInputFinished(int k)
 {
+	if (k) {
+		SDL_Event event;
+		event.key.type = SDL_KEYDOWN;
+		event.key.state = SDL_PRESSED;
+		event.key.keysym.sym = SDLK_RETURN;
+		SDL_PushEvent(&event);
+		event.key.type = SDL_KEYUP;
+		event.key.state = SDL_RELEASED;
+		SDL_PushEvent(&event);
+	} else {
+
+	}
 	textInputFinished = 1;
 };
 
 extern int SDL_Flip(SDL_Surface *screen);
 extern SDL_Surface *SDL_GetVideoSurface(void);
 
-void SDL_ANDROID_CallJavaShowScreenKeyboard(const char * oldText, char * outBuf, int outBufLen, int x, int y, int w, int h)
+void SDL_ANDROID_CallJavaShowScreenKeyboard(const char * oldText, char * outBuf, int outBufLen, int x, int y, int w, int h, int hide)
 {
 	if( !outBuf )
 	{
@@ -231,7 +243,7 @@ void SDL_ANDROID_CallJavaShowScreenKeyboard(const char * oldText, char * outBuf,
 			SDL_Flip(SDL_GetVideoSurface());
 		}
 		else
-			(*JavaEnv)->CallVoidMethod( JavaEnv, JavaRenderer, JavaShowScreenKeyboard, (*JavaEnv)->NewStringUTF(JavaEnv, oldText), x, y, w, h);
+			(*JavaEnv)->CallVoidMethod( JavaEnv, JavaRenderer, JavaShowScreenKeyboard, (*JavaEnv)->NewStringUTF(JavaEnv, oldText), x, y, w, h, hide);
 
 		while( !textInputFinished )
 			SDL_Delay(100);
@@ -247,7 +259,7 @@ JAVA_EXPORT_NAME(DemoRenderer_nativeInitJavaCallbacks) ( JNIEnv*  env, jobject t
 	
 	JavaRendererClass = (*JavaEnv)->GetObjectClass(JavaEnv, thiz);
 	JavaSwapBuffers = (*JavaEnv)->GetMethodID(JavaEnv, JavaRendererClass, "swapBuffers", "()I");
-	JavaShowScreenKeyboard = (*JavaEnv)->GetMethodID(JavaEnv, JavaRendererClass, "showScreenKeyboard", "(Ljava/lang/String;IIII)V");
+	JavaShowScreenKeyboard = (*JavaEnv)->GetMethodID(JavaEnv, JavaRendererClass, "showScreenKeyboard", "(Ljava/lang/String;IIIII)V");
 	
 	ANDROID_InitOSKeymap();
 	

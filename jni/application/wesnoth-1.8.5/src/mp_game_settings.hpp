@@ -54,6 +54,9 @@ struct mp_game_settings : public savegame::savegame_config
 	bool share_view;
 	bool share_maps;
 
+	int num_turns;
+	bool local_players_only;
+
 	bool saved_game;
 
 	/**

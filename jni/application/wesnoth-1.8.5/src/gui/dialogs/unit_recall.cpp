@@ -85,7 +85,7 @@ void tunit_recall::pre_show(CVideo& /*video*/, twindow& window)
 		recall_list.add_row(data);
 		multi_page.add_page(data);
 
-		tgrid& unit = multi_page.page_grid(multi_page.get_page_count() - 1);
+		//tgrid& unit = multi_page.page_grid(multi_page.get_page_count() - 1);
 	}
 
 	recall_list.select_row(0);

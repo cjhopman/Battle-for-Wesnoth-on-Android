@@ -21,6 +21,9 @@
 #include "gui/dialogs/message.hpp"
 #include "gui/dialogs/mp_connect.hpp"
 #include "gui/dialogs/mp_create_game.hpp"
+#include "gui/dialogs/mp_game_connect.hpp"
+#include "gui/dialogs/mp_game_wait.hpp"
+#include "gui/dialogs/preferences.hpp"
 #include "gui/widgets/settings.hpp"
 #include "gui/widgets/window.hpp"
 #include "hash.hpp"
@@ -39,6 +42,7 @@
 
 static lg::log_domain log_network("network");
 #define LOG_NW LOG_STREAM(info, log_network)
+#define ERR_NW LOG_STREAM(err, log_network)
 
 namespace {
 
@@ -383,7 +387,18 @@ static void enter_wait_mode(game_display& disp, const config& game_config, mp::c
 	gamelist.clear();
 	statistics::fresh_stats();
 
-	{
+	if (gui2::new_widgets) {
+		gui2::tmp_game_wait ui(disp, game_config, chat, gamelist);
+		if (!ui.get_result()) {
+			ui.join_game(observe);
+			ui.show(disp.video());
+		}
+		res = ui.get_result();
+		if (res == mp::ui::PLAY) {
+			ui.start_game();
+			state = ui.get_state();
+		}
+	} else {
 		mp::wait ui(disp, game_config, chat, gamelist);
 
 		ui.join_game(observe);
@@ -422,7 +437,7 @@ static void enter_create_mode(game_display& disp, const config& game_config, mp:
 
 static void enter_connect_mode(game_display& disp, const config& game_config,
 		mp::chat& chat, config& gamelist, const mp_game_settings& params,
-		const int num_turns, mp::controller default_controller, bool local_players_only = false)
+		mp::controller default_controller, bool local_players_only = false)
 {
 	mp::ui::result res;
 	game_state state;
@@ -432,8 +447,13 @@ static void enter_connect_mode(game_display& disp, const config& game_config,
 	gamelist.clear();
 	statistics::fresh_stats();
 
-	{
-		mp::connect ui(disp, game_config, chat, gamelist, params, num_turns, default_controller, local_players_only);
+	if (gui2::new_widgets) {
+		gui2::tmp_game_connect dlg(disp, game_config, chat, gamelist, params, default_controller, local_players_only, state);
+		dlg.show(disp.video());
+		res = dlg.get_result();
+	} else {
+		mp::connect_ui_gui1 ui(disp, game_config, chat, gamelist, params);
+		mp::connect con(&ui, game_config, gamelist, params, default_controller, local_players_only);
 		run_lobby_loop(disp, ui);
 
 		res = ui.get_result();
@@ -441,8 +461,8 @@ static void enter_connect_mode(game_display& disp, const config& game_config,
 		// start_game() updates the parameters to reflect game start,
 		// so it must be called before get_level()
 		if (res == mp::ui::PLAY) {
-			ui.start_game();
-			state = ui.get_state();
+			con.start_game();
+			state = con.get_state();
 		}
 	}
 
@@ -464,50 +484,49 @@ static void enter_connect_mode(game_display& disp, const config& game_config,
 
 static void enter_create_mode(game_display& disp, const config& game_config, mp::chat& chat, config& gamelist, mp::controller default_controller, bool local_players_only)
 {
-	if (0 && gui2::new_widgets) {
-
-		gui2::tmp_create_game dlg(game_config);
-
+	mp::ui::result res;
+	mp_game_settings params;
+	if (gui2::new_widgets) {
+		gui2::tmp_create_game dlg(disp, game_config, res, params);
 		dlg.show(disp.video());
-
-		network::send_data(config("refresh_lobby"), 0, true);
 	} else {
+		mp::create ui(disp, game_config, chat, gamelist);
+		run_lobby_loop(disp, ui);
+		res = ui.get_result();
+		params = ui.get_parameters();
+		params.num_turns = ui.num_turns();
+	}
 
-		mp::ui::result res;
-		mp_game_settings params;
-		int num_turns;
-
-		{
-			mp::create ui(disp, game_config, chat, gamelist);
-			run_lobby_loop(disp, ui);
-			res = ui.get_result();
-			params = ui.get_parameters();
-			num_turns = ui.num_turns();
-		}
-
-		switch (res) {
-		case mp::ui::CREATE:
-			enter_connect_mode(disp, game_config, chat, gamelist, params, num_turns, default_controller, local_players_only);
-			break;
-		case mp::ui::QUIT:
-		default:
-			//update lobby content
-			network::send_data(config("refresh_lobby"), 0, true);
-			break;
-		}
+	switch (res) {
+	case mp::ui::CREATE:
+		params.local_players_only = local_players_only;
+		enter_connect_mode(disp, game_config, chat, gamelist, params, default_controller, local_players_only);
+		break;
+	case mp::ui::QUIT:
+	default:
+		//update lobby content
+		network::send_data(config("refresh_lobby"), 0, true);
+		break;
 	}
 }
 
 static void do_preferences_dialog(game_display& disp, const config& game_config)
 {
-	const preferences::display_manager disp_manager(&disp);
-	preferences::show_preferences_dialog(disp,game_config);
+	if (gui2::new_widgets) {
+		gui2::tpreferences dlg(&game_config);
+		dlg.show(disp.video());
+	} else {
+		const preferences::display_manager disp_manager(&disp);
+		preferences::show_preferences_dialog(disp,game_config);
+	}
 
 	/**
 	 * The screen size might have changed force an update of the size.
 	 *
 	 * @todo This might no longer be needed when gui2 is done.
 	 */
+
+	/*
 	const SDL_Rect rect = screen_area();
 	preferences::set_resolution(disp.video(), rect.w, rect.h);
 
@@ -515,6 +534,7 @@ static void do_preferences_dialog(game_display& disp, const config& game_config)
 	gui2::settings::gamemap_height += rect.h - gui2::settings::screen_height ;
 	gui2::settings::screen_width = rect.w;
 	gui2::settings::screen_height = rect.h;
+	*/
 }
 
 static void enter_lobby_mode(game_display& disp, const config& game_config, mp::chat& chat, config& gamelist)

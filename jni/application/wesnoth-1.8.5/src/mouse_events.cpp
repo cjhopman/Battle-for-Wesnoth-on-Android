@@ -245,8 +245,6 @@ void mouse_handler::mouse_motion(map_location new_hex, const bool browse, bool u
 			}
 		}
 	}
-
-
 }
 
 void mouse_handler::mouse_motion(int x, int y, const bool browse, bool update)
@@ -442,7 +440,19 @@ bool mouse_handler::right_click_show_menu(int x, int y, const bool browse)
 	}
 }
 
-void mouse_handler::left_mouse_up(int /*x*/, int /*y*/, const bool browse) {
+void mouse_handler::left_mouse_up(int x, int y, const bool browse) {
+	if (!dragging_left_) return;
+
+	if (dragging_started_) {
+		cancel_dragging();
+		gui().inertial_scroll(-dx_, -dy_);
+		return;
+	}
+	if (SDL_GetTicks() - ticks_ > 1000) {
+		cancel_dragging();
+		if (right_click(x, y, browse)) return;
+	}
+
 	bool check_shroud = current_team().auto_shroud_updates();
 
 	//we use the last registered highlighted hex
@@ -457,12 +467,6 @@ void mouse_handler::left_mouse_up(int /*x*/, int /*y*/, const bool browse) {
 		u->second.set_goto(map_location());
 		u->second.waypoints().clear();
 		waypoints_.clear();
-	}
-
-	if (dragging_left_ && dragging_started_) {
-		dragging_left_ = dragging_started_ = false;
-		gui().inertial_scroll(-dx_, -dy_);
-		return;
 	}
 
 	unit_map::iterator clicked_u = find_unit(hex);
@@ -579,6 +583,7 @@ void mouse_handler::left_mouse_up(int /*x*/, int /*y*/, const bool browse) {
 
 bool mouse_handler::left_click(int x, int y, const bool browse)
 {
+	ticks_ = SDL_GetTicks();
 	undo_ = false;
 	if (mouse_handler_base::left_click(x, y, browse)) return false;
 

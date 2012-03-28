@@ -68,7 +68,7 @@
 /* Copy the first part of user declarations.  */
 
 /* Line 189 of yacc.c  */
-#line 1 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 1 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
 
 /* Expression parsing for plural form selection.
    Copyright (C) 2000-2001, 2003, 2005-2006 Free Software Foundation, Inc.
@@ -179,7 +179,7 @@ typedef union YYSTYPE
 {
 
 /* Line 214 of yacc.c  */
-#line 63 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 63 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
 
   unsigned long int num;
   enum expression_operator op;
@@ -199,7 +199,7 @@ typedef union YYSTYPE
 /* Copy the second part of user declarations.  */
 
 /* Line 264 of yacc.c  */
-#line 69 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 69 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
 
 /* Prototypes for local functions.  */
 static int yylex (YYSTYPE *lval, const char **pexp);
@@ -1481,7 +1481,7 @@ yyreduce:
         case 2:
 
 /* Line 1455 of yacc.c  */
-#line 167 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 167 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    if ((yyvsp[(1) - (1)].exp) == NULL)
 	      YYABORT;
@@ -1492,7 +1492,7 @@ yyreduce:
   case 3:
 
 /* Line 1455 of yacc.c  */
-#line 175 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 175 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_3 (qmop, (yyvsp[(1) - (5)].exp), (yyvsp[(3) - (5)].exp), (yyvsp[(5) - (5)].exp));
 	  }
@@ -1501,7 +1501,7 @@ yyreduce:
   case 4:
 
 /* Line 1455 of yacc.c  */
-#line 179 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 179 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_2 (lor, (yyvsp[(1) - (3)].exp), (yyvsp[(3) - (3)].exp));
 	  }
@@ -1510,7 +1510,7 @@ yyreduce:
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 183 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 183 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_2 (land, (yyvsp[(1) - (3)].exp), (yyvsp[(3) - (3)].exp));
 	  }
@@ -1519,7 +1519,7 @@ yyreduce:
   case 6:
 
 /* Line 1455 of yacc.c  */
-#line 187 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 187 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_2 ((yyvsp[(2) - (3)].op), (yyvsp[(1) - (3)].exp), (yyvsp[(3) - (3)].exp));
 	  }
@@ -1528,7 +1528,7 @@ yyreduce:
   case 7:
 
 /* Line 1455 of yacc.c  */
-#line 191 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 191 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_2 ((yyvsp[(2) - (3)].op), (yyvsp[(1) - (3)].exp), (yyvsp[(3) - (3)].exp));
 	  }
@@ -1537,7 +1537,7 @@ yyreduce:
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 195 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 195 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_2 ((yyvsp[(2) - (3)].op), (yyvsp[(1) - (3)].exp), (yyvsp[(3) - (3)].exp));
 	  }
@@ -1546,7 +1546,7 @@ yyreduce:
   case 9:
 
 /* Line 1455 of yacc.c  */
-#line 199 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 199 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_2 ((yyvsp[(2) - (3)].op), (yyvsp[(1) - (3)].exp), (yyvsp[(3) - (3)].exp));
 	  }
@@ -1555,7 +1555,7 @@ yyreduce:
   case 10:
 
 /* Line 1455 of yacc.c  */
-#line 203 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 203 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_1 (lnot, (yyvsp[(2) - (2)].exp));
 	  }
@@ -1564,7 +1564,7 @@ yyreduce:
   case 11:
 
 /* Line 1455 of yacc.c  */
-#line 207 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 207 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = new_exp_0 (var);
 	  }
@@ -1573,7 +1573,7 @@ yyreduce:
   case 12:
 
 /* Line 1455 of yacc.c  */
-#line 211 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 211 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    if (((yyval.exp) = new_exp_0 (num)) != NULL)
 	      (yyval.exp)->val.num = (yyvsp[(1) - (1)].num);
@@ -1583,7 +1583,7 @@ yyreduce:
   case 13:
 
 /* Line 1455 of yacc.c  */
-#line 216 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 216 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
     {
 	    (yyval.exp) = (yyvsp[(2) - (3)].exp);
 	  }
@@ -1804,7 +1804,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 221 "/home/chris/bzr/battle/dev/project/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
+#line 221 "/home/chris/git/battle/jni/../jni/gettext-0.18/gettext-runtime/intl/plural.y"
 
 
 void

@@ -1172,18 +1172,11 @@ bool game_controller::play_multiplayer()
 		gui2::show_message(
 				disp().video(),
 				_(""),
-				_("Multiplayer is currently in testing and is scheduled to be released in October 2011. It will be available in the full version of Battle for Wesnoth available in the Android Market."),
+				_("The full version of Battle for Wesnoth includes support for cross-platform multiplayer. Get it now in the Android Market.\n"),
 				gui2::tmessage::ok_button,
 				true);
-	} else {
-		gui2::show_message(
-				disp().video(),
-				_(""),
-				_("Multiplayer is currently in testing and is scheduled to be released in October 2011."),
-				gui2::tmessage::ok_button,
-				true);
+		return false;
 	}
-	return false;
 
 	int res;
 
@@ -1191,9 +1184,20 @@ bool game_controller::play_multiplayer()
 	state_.classification().campaign_type = "multiplayer";
 	state_.classification().campaign_define = "MULTIPLAYER";
 
+	enum {
+		MP_OFFICIAL,
+		MP_SERVER,
+		MP_LOCAL,
+
+		MP_HOST,
+
+		MP_PARAM,
+
+		MP_END
+	};
+
 	//Print Gui only if the user hasn't specified any server
 	if( multiplayer_server_.empty() ){
-
 		int start_server;
 		do {
 			start_server = 0;
@@ -1206,10 +1210,10 @@ bool game_controller::play_multiplayer()
 				res = dlg.get_choice();
 			} else {
 				return false;
-
 			}
 
-			if (res == 2 && preferences::mp_server_warning_disabled() < 2)
+
+			if (res == MP_HOST && preferences::mp_server_warning_disabled() < 2)
 			{
 				gui::dialog d(disp(), _("Do you really want to start the server?"),
 					_("The server will run in a background process until all users have disconnected.")
@@ -1226,13 +1230,12 @@ bool game_controller::play_multiplayer()
 		if (res < 0) {
 			return false;
 		}
-
 	}else{
-		res = 4;
+		res = MP_PARAM;
 	}
 
 	try {
-		if (res == 2)
+		if (res == MP_HOST)
 		{
 			try {
 				start_wesnothd();
@@ -1265,7 +1268,7 @@ bool game_controller::play_multiplayer()
 			clear_binary_paths_cache();
 		}
 
-		if(res == 3) {
+		if(res == MP_LOCAL) {
 			std::vector<std::string> chat;
 			config game_data;
 
@@ -1273,13 +1276,13 @@ bool game_controller::play_multiplayer()
 
 			mp::start_local_game(disp(), game_config(), cntr);
 
-		} else if((res >= 0 && res <= 2) || res == 4) {
+		} else {
 			std::string host;
-			if(res == 0) {
+			if(res == MP_OFFICIAL) {
 				host = preferences::server_list().front().address;
-			}else if(res == 2) {
+			}else if(res == MP_HOST) {
 				host = "localhost";
-			}else if(res == 4){
+			}else if(res == MP_PARAM){
 				host = multiplayer_server_;
 				multiplayer_server_ = "";
 			}
@@ -1343,8 +1346,8 @@ void game_controller::show_preferences()
 		gui2::tpreferences dlg(&game_config());
 		dlg.show(disp().video());
 	} else {
-	const preferences::display_manager disp_manager(&disp());
-	preferences::show_preferences_dialog(disp(),game_config());
+		const preferences::display_manager disp_manager(&disp());
+		preferences::show_preferences_dialog(disp(),game_config());
 	}
 
 	disp().redraw_everything();

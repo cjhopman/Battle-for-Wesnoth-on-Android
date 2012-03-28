@@ -499,7 +499,8 @@ bool middle_click_scrolls()
 
 bool mouse_scroll_enabled()
 {
-	return utils::string_bool(get("mouse_scrolling"), true);
+	return false;
+	//return utils::string_bool(get("mouse_scrolling"), true);
 }
 
 void enable_mouse_scroll(bool value)

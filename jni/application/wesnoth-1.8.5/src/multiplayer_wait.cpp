@@ -18,6 +18,8 @@
 #include "foreach.hpp"
 #include "gettext.hpp"
 #include "gui/dialogs/transient_message.hpp"
+#include "gui/dialogs/mp_game_wait.hpp"
+#include "gui/widgets/settings.hpp"
 #include "game_display.hpp"
 #include "leader_list.hpp"
 #include "log.hpp"
@@ -45,7 +47,7 @@ wait::leader_preview_pane::leader_preview_pane(game_display& disp,
 	color_(color),
 	leader_combo_(disp, std::vector<std::string>()),
 	gender_combo_(disp, std::vector<std::string>()),
-	leaders_(side_list, &leader_combo_, &gender_combo_),
+	leaders_(side_list, leader_list_gui(&leader_combo_, &gender_combo_)),
 	selection_(0)
 {
 	leaders_.set_colour(color_);
@@ -56,7 +58,7 @@ void wait::leader_preview_pane::process_event()
 {
 
 	if (leader_combo_.changed() || gender_combo_.changed()) {
-		leaders_.set_leader_combo(&leader_combo_);
+		leaders_.gui()->set_leader_combo(&leader_combo_);
 		leaders_.update_gender_list(leaders_.get_leader());
 		set_dirty();
 	}
@@ -291,19 +293,32 @@ void wait::join_game(bool observe)
 				}
 			}
 
-			std::vector<gui::preview_pane* > preview_panes;
-			leader_preview_pane leader_selector(disp(), leader_sides, color);
-			preview_panes.push_back(&leader_selector);
+			if (gui2::new_widgets) {
+				gui2::tmp_leader_preview leader_selector(leader_sides, color);
+				leader_selector.show(disp().video());
+				if (leader_selector.get_retval() == gui2::twindow::OK) {
+					faction_choice = leader_selector.get_selected_faction();
+					leader_choice = leader_selector.get_selected_leader();
+					gender_choice = leader_selector.get_selected_gender();
+				} else {
+					set_result(QUIT);
+					return;
+				}
+			} else {
+				std::vector<gui::preview_pane* > preview_panes;
+				leader_preview_pane leader_selector(disp(), leader_sides, color);
+				preview_panes.push_back(&leader_selector);
 
-			const int res = gui::show_dialog(disp(), NULL, _("Choose your faction:"), _("Starting position: ") + lexical_cast<std::string>(side_num + 1),
-						gui::OK_CANCEL, &choices, &preview_panes);
-			if(res < 0) {
-				set_result(QUIT);
-				return;
+				const int res = gui::show_dialog(disp(), NULL, _("Choose your faction:"), _("Starting position: ") + lexical_cast<std::string>(side_num + 1),
+							gui::OK_CANCEL, &choices, &preview_panes);
+				if(res < 0) {
+					set_result(QUIT);
+					return;
+				}
+				faction_choice = res;
+				leader_choice = leader_selector.get_selected_leader();
+				gender_choice = leader_selector.get_selected_gender();
 			}
-			faction_choice = res;
-			leader_choice = leader_selector.get_selected_leader();
-			gender_choice = leader_selector.get_selected_gender();
 
 			assert(faction_choice < leader_sides.size());
 
@@ -425,7 +440,7 @@ void wait::generate_menu()
 	if (stop_updates_)
 		return;
 
-	std::vector<std::string> details;
+	details_.clear();
 	std::vector<std::string> playerlist;
 
 	foreach (const config &sd, level_.child_range("side"))
@@ -526,10 +541,10 @@ void wait::generate_menu()
 			disp_color = lexical_cast_default<int>(sd["side"], 0) - 1;
 		}
 		str << COLUMN_SEPARATOR << get_colour_string(disp_color);
-		details.push_back(str.str());
+		details_.push_back(str.str());
 	}
 
-	game_menu_.set_items(details);
+	game_menu_.set_items(details_);
 
 	// Uses the actual connected player list if we do not have any
 	// "gamelist" user data

@@ -118,6 +118,8 @@ public:
 
 	void set_callback_positioner_move(boost::function<void(twidget*)> callback)
 		{ callback_positioner_move_ = callback; }
+	void set_callback_positioner_released(boost::function<void(twidget*)> callback)
+		{ callback_positioner_released_ = callback; }
 
 protected:
 	unsigned get_positioner_offset() const { return positioner_offset_; }
@@ -202,6 +204,8 @@ private:
 
 	/** This callback is used when the positioner is moved by the user. */
 	boost::function<void(twidget*)> callback_positioner_move_;
+	/** This callback is used when the positioner is moved by the user. */
+	boost::function<void(twidget*)> callback_positioner_released_;
 
 	/***** ***** ***** ***** Pure virtual functions ***** ***** ***** *****/
 
@@ -310,6 +314,9 @@ private:
 	void signal_handler_left_button_up(
 			const event::tevent event, bool& handled);
 
+	bool events_enabled_;
+public:
+	void disable_events() { events_enabled_ = false; }
 };
 
 } // namespace gui2

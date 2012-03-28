@@ -54,6 +54,7 @@ class twindow
 {
 	friend class tdebug_layout_graph;
 	friend twindow* build(CVideo&, const std::string&);
+	friend twindow* build(CVideo&, const twindow_builder::tresolution&, const std::string&);
 	friend struct twindow_implementation;
 	friend class tinvalidate_layout_blocker;
 
@@ -361,6 +362,8 @@ public:
 		{ sunset_ = interval ? interval : 5; }
 
 	bool get_need_layout() const { return need_layout_; }
+
+	void set_position_formula(tformula<unsigned> x, tformula<unsigned> y) { x_ = x; y_ = y; invalidate_layout(); }
 
 private:
 

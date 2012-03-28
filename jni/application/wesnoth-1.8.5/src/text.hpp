@@ -32,6 +32,8 @@ namespace gui2 {
 
 namespace font {
 
+std::string pango_escape(const std::string& str);
+
 // add background colour and also font markup.
 
 /**

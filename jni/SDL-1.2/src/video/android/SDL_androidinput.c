@@ -699,10 +699,10 @@ JAVA_EXPORT_NAME(DemoRenderer_nativeTextInput) ( JNIEnv*  env, jobject thiz, jin
 }
 
 	JNIEXPORT void JNICALL
-JAVA_EXPORT_NAME(DemoRenderer_nativeTextInputFinished) ( JNIEnv*  env, jobject thiz )
+JAVA_EXPORT_NAME(DemoRenderer_nativeTextInputFinished) ( JNIEnv*  env, jobject thiz, jint k )
 {
 	textInputBuffer = NULL;
-	SDL_ANDROID_TextInputFinished();
+	SDL_ANDROID_TextInputFinished(k);
 }
 
 static void updateOrientation ( float accX, float accY, float accZ );

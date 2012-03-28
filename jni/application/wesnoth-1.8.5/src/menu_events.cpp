@@ -35,11 +35,13 @@
 #include "gui/dialogs/wml_message.hpp"
 #include "gui/dialogs/gamestate_inspector.hpp"
 #include "gui/dialogs/preferences.hpp"
-#include "gui/widgets/settings.hpp"
+#include "gui/dialogs/place_label.hpp"
+#include "gui/dialogs/speak.hpp"
 #include "gui/dialogs/unit_create.hpp"
 #include "gui/dialogs/unit_list.hpp"
 #include "gui/dialogs/unit_recruit.hpp"
 #include "gui/dialogs/unit_recall.hpp"
+#include "gui/widgets/settings.hpp"
 #include "gui/widgets/window.hpp"
 #include "help.hpp"
 #include "log.hpp"
@@ -659,9 +661,19 @@ void menu_handler::show_help()
 
 void menu_handler::speak()
 {
-	textbox_info_.show(gui::TEXTBOX_MESSAGE,_("Message:"),
-		has_friends() ? is_observer() ? _("Send to observers only") : _("Send to allies only")
-					  : "", preferences::message_private(), *gui_);
+	if (gui2::new_widgets) {
+		gui2::tspeak dlg;
+		dlg.show(gui_->video());
+		if (dlg.get_retval() == gui2::twindow::OK) {
+			if (!dlg.get_message().empty()) {
+				chat_handler::do_speak(dlg.get_message(), false);
+			}
+		}
+	} else {
+		textbox_info_.show(gui::TEXTBOX_MESSAGE,_("Message:"),
+			has_friends() ? is_observer() ? _("Send to observers only") : _("Send to allies only")
+						  : "", preferences::message_private(), *gui_);
+	}
 }
 
 void menu_handler::whisper()
@@ -1600,29 +1612,44 @@ void menu_handler::label_terrain(mouse_handler& mousehandler, bool team_only)
 	if (map_.on_board(loc) == false) {
 		return;
 	}
-	gui::dialog d(*gui_, _("Place Label"), "", gui::OK_CANCEL);
-	const terrain_label* old_label = gui_->labels().get_label(loc);
-	d.set_textbox(_("Label: "), (old_label ? old_label->text() : ""), map_labels::get_max_chars());
-	d.add_option(_("Team only"), team_only, gui::dialog::BUTTON_CHECKBOX_LEFT);
 
-	if(!d.show()) {
+	int res = -1;
+	std::string label;
+
+	const terrain_label* old_label = gui_->labels().get_label(loc);
+	if (gui2::new_widgets) {
+		gui2::tplace_label dlg(old_label ? old_label->text() : "", team_only, map_labels::get_max_chars());
+		dlg.show(gui_->video());
+		res = dlg.get_retval() == -1 ? 0 : 1;
+		label = dlg.get_label();
+		team_only = dlg.get_team_only();
+	} else {
+		gui::dialog d(*gui_, _("Place Label"), "", gui::OK_CANCEL);
+		d.set_textbox(_("Label: "), (old_label ? old_label->text() : ""), map_labels::get_max_chars());
+		d.add_option(_("Team only"), team_only, gui::dialog::BUTTON_CHECKBOX_LEFT);
+		res = d.show();
+		label = d.textbox_text();
+		team_only = d.option_checked();
+	}
+
+	if(!res) {
 		std::string team_name;
 		SDL_Color colour = font::LABEL_COLOUR;
 
-		if (d.option_checked()) {
+		if (team_only) {
 			team_name = gui_->labels().team_name();
 		} else {
 			colour = int_to_color(team::get_side_rgb(gui_->viewing_side()));
 		}
 		const std::string& old_team_name = old_label ? old_label->team_name() : "";
 		// remove the old label if we changed the team_name
-		if (d.option_checked() == (old_team_name == "")) {
+		if (team_only == (old_team_name == "")) {
 			const terrain_label* old = gui_->labels().set_label(loc, "", old_team_name, colour);
 			if (old) recorder.add_label(old);
 		}
-		const terrain_label* res = gui_->labels().set_label(loc, d.textbox_text(), team_name, colour);
-		if (res)
-			recorder.add_label(res);
+		const terrain_label* lbl = gui_->labels().set_label(loc, label, team_name, colour);
+		if (lbl)
+			recorder.add_label(lbl);
 	}
 }
 

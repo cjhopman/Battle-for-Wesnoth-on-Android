@@ -69,9 +69,9 @@ void tdialog::show(CVideo& video, const unsigned auto_close_time)
 }
 
 tfield_bool* tdialog::register_bool(const std::string& id, const bool optional,
-		bool (*callback_load_value) (),
-		void (*callback_save_value) (const bool value),
-		void (*callback_change) (twidget* widget))
+		boost::function<bool()> callback_load_value,
+		boost::function<void(const bool)> callback_save_value,
+		boost::function<void(twidget*)> callback_change)
 {
 	tfield_bool* field =  new tfield_bool(id, optional,
 		callback_load_value, callback_save_value, callback_change);
@@ -81,8 +81,8 @@ tfield_bool* tdialog::register_bool(const std::string& id, const bool optional,
 }
 
 tfield_integer* tdialog::register_integer(const std::string& id, const bool optional,
-		int (*callback_load_value) (),
-		void (*callback_save_value) (const int value))
+		boost::function<int()> callback_load_value,
+		boost::function<void(const int)> callback_save_value)
 {
 	tfield_integer* field =  new tfield_integer(id, optional,
 		callback_load_value, callback_save_value);
@@ -92,8 +92,8 @@ tfield_integer* tdialog::register_integer(const std::string& id, const bool opti
 }
 
 tfield_text* tdialog::register_text(const std::string& id, const bool optional,
-		std::string (*callback_load_value) (),
-		void (*callback_save_value) (const std::string& value))
+		boost::function<std::string()> callback_load_value,
+		boost::function<void(const std::string&)> callback_save_value)
 {
 	tfield_text* field =  new tfield_text(id, optional,
 		callback_load_value, callback_save_value);

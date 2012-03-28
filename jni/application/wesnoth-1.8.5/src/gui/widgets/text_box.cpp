@@ -170,7 +170,7 @@ void ttext_box::update_canvas()
 		tmp.set_variable("text_maximum_height", variant(max_height));
 
 		tmp.set_variable("cursor_offset",
-			variant(get_cursor_position(start + length).x));
+			variant(std::min(get_cursor_position(start + length).x, max_width)));
 
 		tmp.set_variable("selection_offset", variant(start_offset));
 		tmp.set_variable("selection_width", variant(end_offset  - start_offset ));
@@ -361,7 +361,7 @@ void ttext_box::signal_handler_left_button_down(
 	char buf[BUF_SIZE];
 	strncpy(buf, get_value().c_str(), BUF_SIZE);
 	buf[BUF_SIZE - 1] = '\0';
-	SDL_ANDROID_GetScreenKeyboardTextInput(buf, BUF_SIZE, get_rect());
+	SDL_ANDROID_GetScreenKeyboardTextInput(buf, BUF_SIZE, get_rect(), shouldHideInput());
 	handled = true;
 	set_value(buf);
 	if(text_changed_callback_) {

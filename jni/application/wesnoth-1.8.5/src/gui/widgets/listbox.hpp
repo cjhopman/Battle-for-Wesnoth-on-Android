@@ -206,13 +206,18 @@ public:
 
 	/***** ***** ***** setters / getters for members ***** ****** *****/
 
-	void set_callback_value_change(void (*callback) (twidget* caller))
+	void set_callback_value_change(boost::function<void(tlistbox*)> callback)
 		{ callback_value_changed_ = callback; }
 
 	void set_list_builder(tbuilder_grid_ptr list_builder)
 		{ list_builder_ = list_builder; }
 
-protected:
+	unsigned get_scroll_position();
+	void set_scroll_position(unsigned position);
+
+	void show_selected_row();
+
+public:
 
 	/***** ***** ***** ***** keyboard functions ***** ***** ***** *****/
 
@@ -275,7 +280,7 @@ private:
 	 * there might be too many calls. That might happen if an arrow up didn't
 	 * change the selected item.
 	 */
-	void (*callback_value_changed_) (twidget*);
+	boost::function<void(tlistbox*)> callback_value_changed_;
 
 	bool need_layout_;
 
@@ -306,6 +311,8 @@ private:
 
 	/** Inherited from tcontrol. */
 	const std::string& get_control_type() const;
+
+	bool try_show_selected_;
 };
 
 } // namespace gui2

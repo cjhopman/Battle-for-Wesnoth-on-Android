@@ -334,7 +334,6 @@ private:
 		twidget* widget() { return widget_; }
 
 		void set_widget(twidget* widget) { widget_ = widget; }
-
 	private:
 		/** The flags for the border and cell setup. */
 		unsigned flags_;

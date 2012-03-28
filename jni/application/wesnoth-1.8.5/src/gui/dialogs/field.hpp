@@ -209,8 +209,8 @@ public:
 
 	tfield(const std::string& id,
 			const bool optional,
-			T (*callback_load_value) (),
-			void (*callback_save_value) (CT value)) :
+			boost::function<T()> callback_load_value,
+			boost::function<void(CT)> callback_save_value) :
 		tfield_(id, optional),
 		value_(T()),
 		callback_load_value_(callback_load_value),
@@ -303,7 +303,7 @@ private:
 	 *
 	 * This is used to load the initial value of the widget, if defined.
 	 */
-	T (*callback_load_value_) ();
+	boost::function<T()> callback_load_value_;
 
 	/** Inherited from tfield_. */
 	void init_generic(twindow& window)
@@ -333,7 +333,7 @@ private:
 	 * Once the dialog has been successful this function is used to store the
 	 * result of this widget.
 	 */
-	void (*callback_save_value_) ( CT value);
+	boost::function<void(CT)> callback_save_value_;
 
 	/**
 	 * Test whether the widget exists if the widget is mandatory.
@@ -383,9 +383,9 @@ class tfield_bool : public tfield<bool, tselectable_>
 public:
 	tfield_bool(const std::string& id,
 			const bool optional,
-			bool (*callback_load_value) (),
-			void (*callback_save_value) (const bool value),
-			void (*callback_change) (twidget* widget)) :
+			boost::function<bool()> callback_load_value,
+			boost::function<void(const bool value)> callback_save_value,
+			boost::function<void(twidget*)> callback_change) :
 		tfield<bool, gui2::tselectable_>
 			(id, optional, callback_load_value, callback_save_value),
 		callback_change_(callback_change)
@@ -407,7 +407,7 @@ private:
 		}
 	}
 
-	void (*callback_change_) (twidget* widget);
+	boost::function<void(twidget*)> callback_change_;
 };
 
 /** Specialized field class for text. */
@@ -416,8 +416,8 @@ class tfield_text : public tfield<std::string, ttext_, const std::string& >
 public:
 	tfield_text(const std::string& id,
 			const bool optional,
-			std::string (*callback_load_value) (),
-			void (*callback_save_value) (const std::string& value)) :
+			boost::function<std::string()> callback_load_value,
+			boost::function<void(const std::string& value)> callback_save_value) :
 		tfield<std::string, ttext_, const std::string& >
 			(id, optional, callback_load_value, callback_save_value)
 		{

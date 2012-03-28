@@ -21,6 +21,7 @@
 #include "gettext.hpp"
 #include "gui/auxiliary/log.hpp"
 #include "gui/auxiliary/window_builder/button.hpp"
+#include "gui/auxiliary/window_builder/drop_button.hpp"
 #include "gui/auxiliary/window_builder/helper.hpp"
 #include "gui/auxiliary/window_builder/horizontal_listbox.hpp"
 #include "gui/auxiliary/window_builder/horizontal_scrollbar.hpp"
@@ -71,6 +72,7 @@ tbuilder_widget_ptr create_builder_widget(const config& cfg)
 	using namespace gui2::implementation;
 
 	TRY(button);
+	TRY(drop_button);
 	TRY(horizontal_listbox);
 	TRY(horizontal_scrollbar);
 	TRY(image);
@@ -120,24 +122,27 @@ twindow* build(CVideo& video, const std::string& type)
 	std::vector<twindow_builder::tresolution>::const_iterator
 		definition = get_window_builder(type);
 
+	return build(video, *definition, type);
+}
+twindow* build(CVideo& video, const twindow_builder::tresolution& definition, const std::string& type) {
 	// We set the values from the definition since we can only determine the
 	// best size (if needed) after all widgets have been placed.
 	twindow* window = new twindow(video
-			, definition->x
-			, definition->y
-			, definition->width
-			, definition->height
-			, definition->automatic_placement
-			, definition->horizontal_placement
-			, definition->vertical_placement
-			, definition->maximum_width
-			, definition->maximum_height
-			, definition->definition);
+			, definition.x
+			, definition.y
+			, definition.width
+			, definition.height
+			, definition.automatic_placement
+			, definition.horizontal_placement
+			, definition.vertical_placement
+			, definition.maximum_width
+			, definition.maximum_height
+			, definition.definition);
 	assert(window);
 	window->set_id(type);
 
 	foreach(const twindow_builder::tresolution::tlinked_group& lg,
-			definition->linked_groups) {
+			definition.linked_groups) {
 
 		if(window->has_linked_size_group(lg.id)) {
 			utils::string_map symbols;
@@ -153,7 +158,7 @@ twindow* build(CVideo& video, const std::string& type)
 				lg.id, lg.fixed_width, lg.fixed_height);
 	}
 
-	window->set_click_dismiss(definition->click_dismiss);
+	window->set_click_dismiss(definition.click_dismiss);
 
 	boost::intrusive_ptr<const twindow_definition::tresolution> conf =
 			boost::dynamic_pointer_cast<
@@ -162,9 +167,9 @@ twindow* build(CVideo& video, const std::string& type)
 
 	if(conf->grid) {
 		window->init_grid(conf->grid);
-		window->finalize(definition->grid);
+		window->finalize(definition.grid);
 	} else {
-		window->init_grid(definition->grid);
+		window->init_grid(definition.grid);
 	}
 
 	window->add_to_keyboard_chain(window);

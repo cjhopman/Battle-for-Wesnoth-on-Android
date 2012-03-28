@@ -37,7 +37,6 @@ class tscroll_label : public tscrollbar_container
 {
 	friend struct implementation::tbuilder_scroll_label;
 public:
-
 	tscroll_label();
 
 	/** Inherited from tcontrol. */

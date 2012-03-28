@@ -39,11 +39,11 @@ tscrollbar_::tscrollbar_()
 	, positioner_offset_(0)
 	, positioner_length_(0)
 	, callback_positioner_move_(0)
+    , events_enabled_(true)
 {
-	/*
 	connect_signal<event::MOUSE_ENTER>(boost::bind(
 				&tscrollbar_::signal_handler_mouse_enter, this, _2, _3, _4));
-	connect_signal<event::MOUSE_MOTION>(boost::bind(
+	connect_signal<event::SDL_MOUSE_MOTION>(boost::bind(
 				  &tscrollbar_::signal_handler_mouse_motion
 				, this
 				, _2
@@ -52,11 +52,10 @@ tscrollbar_::tscrollbar_()
 				, _5));
 	connect_signal<event::MOUSE_LEAVE>(boost::bind(
 				&tscrollbar_::signal_handler_mouse_leave, this, _2, _3));
-	connect_signal<event::LEFT_BUTTON_DOWN>(boost::bind(
+	connect_signal<event::SDL_LEFT_BUTTON_DOWN>(boost::bind(
 				&tscrollbar_::signal_handler_left_button_down, this, _2, _3));
-	connect_signal<event::LEFT_BUTTON_UP>(boost::bind(
+	connect_signal<event::SDL_LEFT_BUTTON_UP>(boost::bind(
 				&tscrollbar_::signal_handler_left_button_up, this, _2, _3));
-	*/
 }
 
 void tscrollbar_::scroll(const tscroll scroll)
@@ -113,6 +112,7 @@ void tscrollbar_::place(const tpoint& origin, const tpoint& size)
 
 void tscrollbar_::set_item_position(const unsigned item_position)
 {
+	assert(item_position != 21);
 	// Set the value always execute since we update a part of the state.
 	item_position_ = item_position > item_count_ - visible_items_
 			? item_count_ - visible_items_
@@ -151,6 +151,9 @@ void tscrollbar_::set_state(const tstate state)
 
 void tscrollbar_::recalculate()
 {
+	if (state_ == PRESSED) {
+		return;
+	}
 	// We can be called before the size has been set up in that case we can't do
 	// the proper recalcultion so stop before we die with an assert.
 	if(!get_length()) {
@@ -201,9 +204,10 @@ void tscrollbar_::recalculate()
 		(available_length - positioner_length_)
 		/ static_cast<float>(steps + 1);
 
-	set_item_position(item_position_);
+	set_item_position(item_position_ * step_size_);
 #if 0
-	std::cerr << "Scrollbar recalculate overview:\n"
+	if (state_ == PRESSED) {
+	std::cerr << "Scrollbar recalculate overview: " << (void*)this << "\n"
 		<< "item_count_ " << item_count_
 		<< " visible_items_ " << visible_items_
 		<< " step_size_ " << step_size_
@@ -218,6 +222,7 @@ void tscrollbar_::recalculate()
 		<< "available_length " << available_length
 		<< " pixels_per_step_ " << pixels_per_step_
 		<< ".\n\n";
+	}
 #endif
 }
 
@@ -268,7 +273,8 @@ void tscrollbar_::move_positioner(const int distance)
 		}
 	}
 #if 0
-	std::cerr << "Scrollbar move overview:\n"
+	if (state_ == PRESSED) {
+	std::cerr << "Scrollbar move overview: " << (void*)this << "\n"
 		<< "item_count_ " << item_count_
 		<< " visible_items_ " << visible_items_
 		<< " step_size_ " << step_size_
@@ -282,6 +288,7 @@ void tscrollbar_::move_positioner(const int distance)
 		<< " pixels_per_step_ " << pixels_per_step_
 		<< " item_position_ " << item_position_
 		<< ".\n\n";
+	}
 #endif
 	update_canvas();
 }
@@ -298,6 +305,7 @@ void tscrollbar_::load_config_extra()
 void tscrollbar_::signal_handler_mouse_enter(
 		const event::tevent event, bool& handled, bool& halt)
 {
+	if (!events_enabled_) return;
 	DBG_GUI_E << LOG_HEADER << ' ' << event << ".\n";
 
 	// Send the motion under our event id to make debugging easier.
@@ -310,6 +318,7 @@ void tscrollbar_::signal_handler_mouse_motion(
 		, bool& halt
 		, const tpoint& coordinate)
 {
+	if (!events_enabled_) return;
 	DBG_GUI_E << LOG_HEADER << ' ' << event << " at " << coordinate << ".\n";
 
 	tpoint mouse = coordinate;
@@ -352,6 +361,7 @@ void tscrollbar_::signal_handler_mouse_motion(
 void tscrollbar_::signal_handler_mouse_leave(
 		const event::tevent event, bool& handled)
 {
+	if (!events_enabled_) return;
 	DBG_GUI_E << LOG_HEADER << ' ' << event << ".\n";
 
 	if(state_ == FOCUSSED) {
@@ -364,6 +374,7 @@ void tscrollbar_::signal_handler_mouse_leave(
 void tscrollbar_::signal_handler_left_button_down(
 		const event::tevent event, bool& handled)
 {
+	if (!events_enabled_) return;
 	DBG_GUI_E << LOG_HEADER << ' ' << event << ".\n";
 
 	tpoint mouse = get_mouse_position();
@@ -373,7 +384,6 @@ void tscrollbar_::signal_handler_left_button_down(
 	if(on_positioner(mouse)) {
 		assert(get_window());
 		mouse_ = mouse;
-		get_window()->mouse_capture();
 		set_state(PRESSED);
 	}
 
@@ -393,12 +403,14 @@ void tscrollbar_::signal_handler_left_button_down(
 		assert(bar == 0);
 	}
 
+	//capture_mouse();
 	handled = true;
 }
 
 void tscrollbar_::signal_handler_left_button_up(
 		const event::tevent event, bool& handled)
 {
+	if (!events_enabled_) return;
 	DBG_GUI_E << LOG_HEADER << ' ' << event << ".\n";
 
 	tpoint mouse = get_mouse_position();
@@ -410,7 +422,6 @@ void tscrollbar_::signal_handler_left_button_up(
 	}
 
 	assert(get_window());
-	get_window()->mouse_capture(false);
 
 	if(on_positioner(mouse)) {
 		set_state(FOCUSSED);
@@ -418,6 +429,11 @@ void tscrollbar_::signal_handler_left_button_up(
 		set_state(ENABLED);
 	}
 
+	if (callback_positioner_released_) {
+		callback_positioner_released_(this);
+	}
+
+	//release_mouse();
 	handled = true;
 }
 

@@ -433,12 +433,16 @@ static void fill_window_types()
 	window_type_list[WML_MESSAGE_RIGHT] = "wml_message_right";
 	window_type_list[MESSAGE] = "message";
 	window_type_list[TRANSIENT_MESSAGE] = "transient_message";
+	window_type_list[MAPGEN_SETTINGS] = "mapgen_settings";
 	window_type_list[MP_CONNECT] = "mp_connect";
 	window_type_list[MP_METHOD_SELECTION] = "mp_method_selection";
 	window_type_list[MP_SERVER_LIST] = "mp_server_list";
 	window_type_list[MP_LOGIN] = "mp_login";
 	window_type_list[MP_CMD_WRAPPER] = "mp_cmd_wrapper";
 	window_type_list[MP_CREATE_GAME] = "mp_create_game";
+	window_type_list[MP_GAME_CONNECT] = "mp_game_connect";
+	window_type_list[MP_GAME_WAIT] = "mp_game_wait";
+	window_type_list[MP_LEADER_PREVIEW] = "mp_leader_preview";
 	window_type_list[TITLE_SCREEN] = "title_screen";
 	window_type_list[GAME_LOAD] = "game_load";
 	window_type_list[GAME_DELETE] = "game_delete";
@@ -492,7 +496,8 @@ void load_settings()
 		read(cfg, *stream);
 		*/
 		game_config::config_cache::instance().get_config(get_wml_location("gui/default.cfg"), cfg);
-	} catch(config::error&) {
+	} catch(config::error& e) {
+		ERR_GUI_P << e.message << "\n";
 		ERR_GUI_P << "Setting: could not read file 'data/gui/default.cfg'.\n";
 	}
 

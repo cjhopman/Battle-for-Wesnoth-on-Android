@@ -54,6 +54,7 @@ public:
 	void set_value(const std::string& text);
 	std::string get_real_value() const { return real_value_; }
 
+	bool shouldHideInput() { return true; }
 
 protected:
 	// Overwritten functions must of course be virtual!

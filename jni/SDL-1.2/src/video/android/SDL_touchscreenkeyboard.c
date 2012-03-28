@@ -769,13 +769,13 @@ int SDL_ANDROID_ToggleScreenKeyboardTextInput(const char * previousText)
 		previousText = "";
 	strncpy(textIn, previousText, sizeof(textIn));
 	textIn[sizeof(textIn)-1] = 0;
-	SDL_ANDROID_CallJavaShowScreenKeyboard(textIn, NULL, 254, 1, 1, 1, 1);
+	SDL_ANDROID_CallJavaShowScreenKeyboard(textIn, NULL, 254, 1, 1, 1, 1, 0);
 	return 1;
 };
 
-int SDLCALL SDL_ANDROID_GetScreenKeyboardTextInput(char * textBuf, int textBufSize, SDL_Rect rect)
+int SDLCALL SDL_ANDROID_GetScreenKeyboardTextInput(char * textBuf, int textBufSize, SDL_Rect rect, int hide)
 {
-	SDL_ANDROID_CallJavaShowScreenKeyboard(textBuf, textBuf, textBufSize, rect.x, rect.y, rect.w, rect.h);
+	SDL_ANDROID_CallJavaShowScreenKeyboard(textBuf, textBuf, textBufSize, rect.x, rect.y, rect.w, rect.h, hide);
 	return 1;
 };
 

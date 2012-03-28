@@ -30,6 +30,10 @@
 
 namespace gui2 {
 
+std::string tslider::default_formatter(int v) {
+	return (formatter() << v).str();
+}
+
 static int distance(const int a, const int b)
 {
 	/**
@@ -39,6 +43,10 @@ static int distance(const int a, const int b)
 	int result =  b - a;
 	assert(result >= 0);
 	return result;
+}
+
+void tslider::place(const tpoint& origin, const tpoint& size) {
+	tscrollbar_::place(origin, size);
 }
 
 tpoint tslider::calculate_best_size() const
@@ -101,7 +109,7 @@ void tslider::set_minimum_value(const int minimum_value)
 	if(value < minimum_value_) {
 		set_item_position(0);
 	} else {
-		set_item_position(minimum_value_ + value);
+		set_item_position(distance(minimum_value_, value));
 	}
 }
 
@@ -122,7 +130,7 @@ void tslider::set_maximum_value(const int maximum_value)
 	if(value > maximum_value) {
 		set_item_position(get_maximum_value());
 	} else {
-		set_item_position(minimum_value_ + value);
+		set_item_position(distance(minimum_value_, value));
 	}
 }
 
@@ -138,7 +146,7 @@ t_string tslider::get_value_label() const
 			&& get_value() == get_maximum_value()) {
 		return maximum_value_label_;
 	} else {
-		return t_string((formatter() << get_value()).str());
+		return t_string(formatter_(get_value()));
 	}
 }
 

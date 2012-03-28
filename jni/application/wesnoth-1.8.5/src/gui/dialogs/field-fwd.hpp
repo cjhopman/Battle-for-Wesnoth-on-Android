@@ -20,6 +20,8 @@
 #ifndef GUI_DIALOGS_FIELD_FORWARD_HPP_INCLUDED
 #define GUI_DIALOGS_FIELD_FORWARD_HPP_INCLUDED
 
+#include <boost/function.hpp>
+
 namespace gui2 {
 
 class twidget;

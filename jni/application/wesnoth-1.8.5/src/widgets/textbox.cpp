@@ -396,6 +396,16 @@ void textbox::handle_event(const SDL_Event& event)
 	bool clicked_inside = !mouse_locked() && (event.type == SDL_MOUSEBUTTONDOWN
 					   && (mousebuttons & SDL_BUTTON(1))
 					   && point_in_rect(mousex, mousey, loc));
+#if defined(ANDROID)
+	if (clicked_inside) {
+		const size_t BUF_SIZE = 200;
+		char buf[BUF_SIZE];
+		strncpy(buf, utils::wstring_to_string(text_).c_str(), BUF_SIZE);
+		buf[BUF_SIZE - 1] = '\0';
+		SDL_ANDROID_GetScreenKeyboardTextInput(buf, BUF_SIZE, loc, false);
+		text_ = utils::string_to_wstring(buf);
+	}
+#endif
 	if(clicked_inside) {
 		set_focus(true);
 	}

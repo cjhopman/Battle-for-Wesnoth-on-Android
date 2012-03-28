@@ -85,9 +85,9 @@ protected:
 	 */
 	tfield_bool* register_bool(const std::string& id,
 		const bool optional = false,
-		bool (*callback_load_value) () = NULL,
-		void (*callback_save_value) (const bool value) = NULL,
-		void (*callback_change) (twidget* widget) = NULL);
+		boost::function<bool()> callback_load_value = boost::function<bool()>(),
+		boost::function<void(const bool)> callback_save_value = boost::function<void(const bool)>(),
+		boost::function<void(twidget*)> callback_change = boost::function<void(twidget*)>());
 
 	/**
 	 * Creates a new integer field.
@@ -96,8 +96,8 @@ protected:
 	 */
 	tfield_integer* register_integer(const std::string& id,
 		const bool optional = false,
-		int (*callback_load_value) () = NULL,
-		void (*callback_save_value) (const int value) = NULL);
+		boost::function<int()> callback_load_value = boost::function<int()>(),
+		boost::function<void(const int)> callback_save_value = boost::function<void(const int)>());
 
 	/**
 	 * Creates a new text field.
@@ -106,8 +106,8 @@ protected:
 	 */
 	tfield_text* register_text(const std::string& id,
 		const bool optional = false,
-		std::string (*callback_load_value) () = NULL,
-		void (*callback_save_value) (const std::string& value) = NULL);
+		boost::function<std::string()> callback_load_value = boost::function<std::string()>(),
+		boost::function<void(const std::string&)> callback_save_value = boost::function<void(const std::string&)>());
 private:
 	/** Returns the window exit status, 0 means not shown. */
 	int retval_;

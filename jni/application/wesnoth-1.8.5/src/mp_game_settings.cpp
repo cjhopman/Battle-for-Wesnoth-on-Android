@@ -43,6 +43,7 @@ mp_game_settings::mp_game_settings() :
 	allow_observers(false),
 	share_view(false),
 	share_maps(false),
+	num_turns(-1),
 	saved_game(false),
 	scenario_data()
 
@@ -96,6 +97,7 @@ mp_game_settings::mp_game_settings(const mp_game_settings& settings)
 	, allow_observers(settings.allow_observers)
 	, share_view(settings.share_view)
 	, share_maps(settings.share_maps)
+	, num_turns(settings.num_turns)
 	, saved_game(settings.saved_game)
 	, scenario_data(settings.scenario_data)
 {
@@ -123,6 +125,7 @@ void mp_game_settings::set_from_config(const config& game_cfg)
 	village_gold = lexical_cast_default<int>(cfg["mp_village_gold"]);
 	allow_observers = utils::string_bool(cfg["observer"]);
 	saved_game = utils::string_bool(cfg["savegame"]);
+	num_turns = lexical_cast_default<int>(cfg["turns"], -1);
 }
 
 void mp_game_settings::reset()
@@ -164,6 +167,7 @@ config mp_game_settings::to_config() const
 	cfg["mp_use_map_settings"] = use_map_settings ? "yes" : "no";
 	cfg["observer"] = allow_observers ? "yes" : "no";
 	cfg["savegame"] = saved_game ? "yes" : "no";
+	cfg["turns"] = lexical_cast<std::string>(num_turns);
 
 	return cfg;
 }

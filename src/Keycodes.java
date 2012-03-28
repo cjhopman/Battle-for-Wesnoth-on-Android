@@ -9,7 +9,7 @@
     version 2.1 of the License, or (at your option) any later version.
 */
 
-package com.androthsoft.battlefree;
+package com.androthsoft.battle;
 
 import java.lang.String;
 import java.util.ArrayList;

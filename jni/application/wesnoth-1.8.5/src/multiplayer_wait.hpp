@@ -23,6 +23,7 @@
 #include "leader_list.hpp"
 #include "gamestatus.hpp"
 #include "multiplayer_ui.hpp"
+#include "show_dialog.hpp"
 
 namespace mp {
 
@@ -38,6 +39,7 @@ public:
 
 	void start_game();
 
+	const std::vector<std::string>& get_details() { return details_; }
 protected:
 	virtual void layout_children(const SDL_Rect& rect);
 	virtual void hide_children(bool hide=true);
@@ -80,6 +82,7 @@ private:
 	game_state state_;
 
 	bool stop_updates_;
+	std::vector<std::string> details_;
 };
 
 }

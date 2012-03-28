@@ -162,10 +162,12 @@ game_info::game_info(const config& game, const config& game_config)
 , name(game["name"])
 , scenario()
 , remote_scenario(false)
+, unknown_scenario(false)
 , map_info()
 , map_size_info()
 , era()
 , era_short()
+, unknown_era(false)
 , gold(game["mp_village_gold"])
 , xp(game["experience_modifier"] + "%")
 , vision()
@@ -196,18 +198,17 @@ game_info::game_info(const config& game, const config& game_config)
 		if (era_cfg) {
 			era = era_cfg["name"];
 			era_short = era_cfg["short_name"];
-			if (era_short.empty()) {
-				era_short = make_short_name(era);
-			}
 		} else {
 			have_era = (game["require_era"] == "no");
-			era = vgettext("Unknown era: $era_id", symbols);
-			era_short = "?" + make_short_name(era);
+			era = vgettext("$era_id", symbols);
+			unknown_era = true;
 			verified = false;
 		}
+		if (era_short.empty()) {
+			era_short = make_short_name(era);
+		}
 	} else {
-		era = _("Unknown era");
-		era_short = "??";
+		unknown_era = true;
 		verified = false;
 	}
 	map_info = era;
@@ -220,6 +221,7 @@ game_info::game_info(const config& game, const config& game_config)
 		map_info += " - ??x??";
 	} else {
 		try {
+			map_size_info = "??x??";
 			gamemap map(game_config, map_data);
 			//mini_map = image::getMinimap(minimap_size_, minimap_size_, map, 0);
 			map_size_info = lexical_cast_default<std::string, int>(map.w(), "??")
@@ -233,6 +235,7 @@ game_info::game_info(const config& game, const config& game_config)
 			verified = false;
 		}
 	}
+
 	map_info += " ";
 	if (!game["mp_scenario"].empty())
 	{
@@ -269,15 +272,18 @@ game_info::game_info(const config& game, const config& game_config)
 		} else {
 			utils::string_map symbols;
 			symbols["scenario_id"] = game["mp_scenario"];
-			scenario = vgettext("Unknown scenario: $scenario_id", symbols);
+			scenario = vgettext("$scenario_id", symbols);
 			map_info += scenario;
+			unknown_scenario = true;
 			verified = false;
 		}
 	} else {
 		scenario = _("Unknown scenario");
 		map_info += scenario;
+		unknown_scenario = true;
 		verified = false;
 	}
+
 	if (reloaded) {
 		map_info += " - ";
 		map_info += _("Reloaded game");

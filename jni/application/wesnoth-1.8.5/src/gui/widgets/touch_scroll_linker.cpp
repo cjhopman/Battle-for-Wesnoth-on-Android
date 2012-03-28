@@ -45,6 +45,9 @@ namespace gui2 {
 		assert(vert_);
 		assert(horz_);
 
+		if (vert_) vert_->disable_events();
+		if (horz_) horz_->disable_events();
+
 		//connect signals
 		panel_->connect_signal<event::MOUSE_MOTION>(boost::bind(
 					&ttouch_scroll_linker::signal_handler_mouse_motion
@@ -59,6 +62,17 @@ namespace gui2 {
 					&ttouch_scroll_linker::signal_handler_left_button_up, this, _2, _3, _4), event::tdispatcher::front_pre_child);
 		panel_->connect_signal<event::LEFT_BUTTON_CLICK>(boost::bind(
 					&ttouch_scroll_linker::signal_handler_left_button_click, this, _2, _3, _4), event::tdispatcher::front_pre_child);
+		panel_->connect_signal<event::MOUSE_MOTION>(boost::bind(
+					&ttouch_scroll_linker::signal_handler_mouse_motion
+					, this
+					, _2
+					, _3
+					, _4
+					, _5), event::tdispatcher::front_child);
+		panel_->connect_signal<event::LEFT_BUTTON_DOWN>(boost::bind(
+					&ttouch_scroll_linker::signal_handler_left_button_down, this, _2, _3, _4), event::tdispatcher::front_child);
+		panel_->connect_signal<event::LEFT_BUTTON_UP>(boost::bind(
+					&ttouch_scroll_linker::signal_handler_left_button_up, this, _2, _3, _4), event::tdispatcher::front_child);
 	}
 
 	void ttouch_scroll_linker::signal_handler_mouse_motion(

@@ -20,6 +20,7 @@
 #include "game_display.hpp"
 #include "gettext.hpp"
 #include "gui/dialogs/mp_cmd_wrapper.hpp"
+#include "gui/widgets/scroll_label.hpp"
 #include "lobby_preferences.hpp"
 #include "log.hpp"
 #include "marked-up_text.hpp"
@@ -214,6 +215,29 @@ void chat::add_message(const time_t& time, const std::string& user,
 		if (last_update_ > 0)
 			last_update_--;
 	}
+
+	if (add_message_callback) { add_message_callback(); }
+}
+
+void chat::init_scroll_label(gui2::tscroll_label& label)
+{
+	label.set_use_markup(true);
+	std::stringstream ss;
+	for(msg_hist::const_iterator itor = message_history_.begin();
+			itor != message_history_.end(); ++itor) {
+		ss << "<span foreground=\"#" << font::color2hexa(color_message(*itor)) << "\">";
+		ss << font::pango_escape(format_message(*itor));
+		ss << "</span>";
+	}
+	label.set_label(ss.str());
+	label.scroll_vertical_scrollbar(gui2::tscrollbar_::END);
+
+	last_update_ = message_history_.size();
+}
+
+void chat::update_scroll_label(gui2::tscroll_label& label)
+{
+	init_scroll_label(label);
 }
 
 void chat::init_textbox(gui::textbox& textbox)
@@ -302,6 +326,10 @@ ui::ui(game_display& disp, const std::string& title, const config& cfg, chat& c,
 	const SDL_Rect area = { 0, 0, disp.video().getx(), disp.video().gety() };
 	users_menu_.set_numeric_keypress_selection(false);
 	set_location(area);
+}
+
+ui::~ui() {
+	chat_.set_add_message_callback();
 }
 
 void ui::process_network()
@@ -403,6 +431,7 @@ void ui::set_location(const SDL_Rect& rect)
 	if(!initialized_) {
 		chat_textbox_.set_wrap(true);
 		chat_.init_textbox(chat_textbox_);
+		chat_.set_add_message_callback(boost::bind(&chat::update_textbox, &chat_, boost::ref(chat_textbox_)));
 		initialized_ = true;
 	}
 	hide_children(false);
@@ -474,7 +503,6 @@ void ui::handle_event(const SDL_Event& event)
 void ui::add_chat_message(const time_t& time, const std::string& speaker, int /*side*/, const std::string& message, events::chat_handler::MESSAGE_TYPE /*type*/)
 {
 	chat_.add_message(time, speaker, message);
-	chat_.update_textbox(chat_textbox_);
 }
 
 void ui::send_chat_message(const std::string& message, bool /*allies_only*/)
@@ -517,7 +545,6 @@ void ui::handle_key_event(const SDL_KeyboardEvent& event)
 		} else {
 			std::string completion_list = utils::join(matches, ' ');
 			chat_.add_message(time(NULL), "", completion_list);
-			chat_.update_textbox(chat_textbox_);
 		}
 		entry_textbox_.set_text(text);
 	}
@@ -558,7 +585,6 @@ void ui::process_message(const config& msg, const bool whisper) {
 	if (room == "lobby") room = "";
 	if (!room.empty()) room = room + ": ";
 	chat_.add_message(time(NULL), room + prefix, msg["message"]);
-	chat_.update_textbox(chat_textbox_);
 }
 
 void ui::process_network_data(const config& data, const network::connection /*sock*/)
@@ -595,7 +621,6 @@ void ui::process_network_data(const config& data, const network::connection /*so
 			chat_.add_message(time(NULL), "server",
 				c["player"] + " has joined the room '" + c["room"] + "'");
 		}
-		chat_.update_textbox(chat_textbox_);
 	} else if (const config &c = data.child("room_part")) {
 		if (c["player"] == preferences::login()) {
 			chat_.add_message(time(NULL), "server",
@@ -604,7 +629,6 @@ void ui::process_network_data(const config& data, const network::connection /*so
 			chat_.add_message(time(NULL), "server",
 				c["player"] + " has left the room '" + c["room"] + "'");
 		}
-		chat_.update_textbox(chat_textbox_);
 	} else if (const config &c = data.child("room_query_response")) {
 		if (const config &ms = c.child("members")) {
 			std::stringstream ss;
@@ -613,7 +637,6 @@ void ui::process_network_data(const config& data, const network::connection /*so
 				ss << m["name"] << " ";
 			}
 			chat_.add_message(time(NULL), "server", ss.str());
-			chat_.update_textbox(chat_textbox_);
 		}
 		if (const config &rs = c.child("rooms")) {
 			std::stringstream ss;
@@ -622,7 +645,6 @@ void ui::process_network_data(const config& data, const network::connection /*so
 				ss << r["name"] << "(" << r["size"] << ") ";
 			}
 			chat_.add_message(time(NULL), "server", ss.str());
-			chat_.update_textbox(chat_textbox_);
 		}
 	}
 }
@@ -841,6 +863,10 @@ void ui::append_to_title(const std::string& text) {
 }
 
 const gui::label& ui::title() const
+{
+	return title_;
+}
+gui::label& ui::title()
 {
 	return title_;
 }

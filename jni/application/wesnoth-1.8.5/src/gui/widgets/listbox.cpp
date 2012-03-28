@@ -39,8 +39,9 @@ tlistbox::tlistbox(const bool has_minimum, const bool has_maximum,
 	: tscrollbar_container(2) // FIXME magic number
 	, generator_(NULL)
 	, list_builder_(NULL)
-	, callback_value_changed_(NULL)
+	, callback_value_changed_()
 	, need_layout_(false)
+	  , try_show_selected_(true)
 {
 	generator_ = tgenerator_::build(
 			has_minimum, has_maximum, placement, select);
@@ -51,6 +52,7 @@ void tlistbox::add_row(const string_map& item, const int index)
 	assert(generator_);
 	generator_->create_item(
 			index, list_builder_, item, callback_list_item_clicked);
+	content_resize_request();
 }
 
 void tlistbox::add_row(
@@ -60,6 +62,7 @@ void tlistbox::add_row(
 	assert(generator_);
 	generator_->create_item(
 			index, list_builder_, data, callback_list_item_clicked);
+	content_resize_request();
 }
 
 void tlistbox::remove_row(const unsigned row, unsigned count)
@@ -74,16 +77,16 @@ void tlistbox::remove_row(const unsigned row, unsigned count)
 		count = get_item_count();
 	}
 
-	unsigned height_reduced = 0;
+	bool resize_needed = false;
 	for(; count; --count) {
 		if(generator_->item(row).get_visible() != INVISIBLE) {
-			height_reduced += generator_->item(row).get_height();
+			resize_needed = true;
 		}
 		generator_->delete_item(row);
 	}
 
-	if(height_reduced != 0) {
-		resize_content(0, -height_reduced);
+	if (resize_needed) {
+		content_resize_request();
 	}
 }
 
@@ -193,6 +196,10 @@ bool tlistbox::select_row(const unsigned row, const bool select)
 	return true; // FIXME test what result should have been!!!
 }
 
+void tlistbox::show_selected_row() {
+	try_show_selected_ = true;
+}
+
 int tlistbox::get_selected_row() const
 {
 	assert(generator_);
@@ -254,7 +261,7 @@ void tlistbox::place(const tpoint& origin, const tpoint& size)
 	 * resizing dialogs a lot. Need more work later on.
 	 */
 	const int selected_item = generator_->get_selected_item();
-	if(selected_item != -1) {
+	if(try_show_selected_ && selected_item != -1) {
 		const SDL_Rect& visible = content_visible_area();
 		SDL_Rect rect = generator_->item(selected_item).get_rect();
 
@@ -262,7 +269,9 @@ void tlistbox::place(const tpoint& origin, const tpoint& size)
 		rect.w = visible.w;
 
 		show_content_rect(rect);
+		try_show_selected_ = false;
 	}
+	scrollbar_moved();
 }
 
 void tlistbox::resize_content(
@@ -275,7 +284,6 @@ void tlistbox::resize_content(
 			<< ".\n";
 
 	if(content_resize_request(width_modification, height_modification)) {
-
 		// Calculate new size.
 		tpoint size = content_grid()->get_size();
 		size.x += width_modification;
@@ -487,8 +495,6 @@ void tlistbox::set_content_size(const tpoint& origin, const tpoint& size)
 	try {
 		content_grid()->place(origin, s);
 	} catch(tlayout_placement_failed&) {
-		ERR_GUI_L << LOG_HEADER << " placement of the content has failed, "
-				" hope the window can save us.\n";
 		twindow *window = get_window();
 		assert(window);
 
@@ -517,5 +523,15 @@ const std::string& tlistbox::get_control_type() const
 	static const std::string type = "listbox";
 	return type;
 }
-} // namespace gui2
 
+unsigned tlistbox::get_scroll_position() {
+	return vertical_scrollbar_ ? vertical_scrollbar_->get_item_position() : 0;
+}
+void tlistbox::set_scroll_position(unsigned position) {
+	if (vertical_scrollbar_) {
+		vertical_scrollbar_->set_item_position(position);
+		scrollbar_moved();
+	}
+}
+
+} // namespace gui2

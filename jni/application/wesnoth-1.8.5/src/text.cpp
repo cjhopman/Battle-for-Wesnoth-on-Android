@@ -20,6 +20,7 @@
 #include "gui/widgets/helper.hpp"
 #include "gui/auxiliary/log.hpp"
 #include "font.hpp"
+#include "foreach.hpp"
 #include "serialization/string_utils.hpp"
 
 #include <cassert>
@@ -30,6 +31,34 @@
 #endif
 
 namespace font {
+
+std::string pango_escape(const std::string& str)
+{
+	std::string result;
+	foreach(char c, str) {
+		switch(c) {
+			case '&':
+				result.append("&amp;");
+				break;
+			case '<':
+				result.append("&lt;");
+				break;
+			case '>':
+				result.append("&gt;");
+				break;
+			case '\\':
+				result.append("&apos;");
+				break;
+			case '\"':
+				result.append("&quot;");
+				break;
+			default:
+				result.push_back(c);
+				break;
+		}
+	}
+	return result;
+}
 
 namespace {
 

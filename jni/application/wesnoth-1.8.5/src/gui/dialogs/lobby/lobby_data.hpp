@@ -115,10 +115,12 @@ struct game_info
 	std::string name;
 	std::string scenario;
 	bool remote_scenario;
+	bool unknown_scenario;
 	std::string map_info;
 	std::string map_size_info;
 	std::string era;
 	std::string era_short;
+	bool unknown_era;
 
 	std::string gold;
 	std::string xp;

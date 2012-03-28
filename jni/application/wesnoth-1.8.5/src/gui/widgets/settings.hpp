@@ -47,6 +47,7 @@ enum twindow_type {
 	                          * A WML message dialog with the portrait on
 	                          * the right side.
 	                          */
+	MAPGEN_SETTINGS,          /**< The mp creation dialog. */
 	MP_CONNECT,              /**< The mp server connection dialog. */
 	MP_METHOD_SELECTION,     /**<
 	                          * The dialog which allows you to choose the kind
@@ -56,6 +57,9 @@ enum twindow_type {
 	MP_LOGIN,                /**< The mp login dialog. */
 	MP_CMD_WRAPPER,          /**< graphical front-end to various mp commands*/
 	MP_CREATE_GAME,          /**< The mp creation dialog. */
+	MP_GAME_CONNECT,          /**< The mp game connect(host) dialog. */
+	MP_GAME_WAIT,          /**< The mp game connect(host) dialog. */
+	MP_LEADER_PREVIEW,          /**< The mp game connect(host) dialog. */
 #ifndef DISABLE_EDITOR
 	EDITOR_NEW_MAP,          /**< New map dialog. */
 	EDITOR_GENERATE_MAP,     /**< Editor random map genarator dialog. */

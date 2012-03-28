@@ -1,0 +1,24 @@
+#ifndef SYS_CLOCALE
+#define SYS_CLOCALE
+
+#include <locale.h>
+#include <bits/c++config.h>
+
+#pragma GCC system_header
+
+#undef setlocale
+_GLIBCXX_BEGIN_NAMESPACE(std)
+
+  using ::lconv;
+  using ::localeconv;
+  __attribute__((__deprecated__))
+  static inline char *setlocale(int category, const char *locale) {
+	  return setlocale_nonullreturn(category, locale);
+  }
+	static inline char *setlocale_nonullreturn(int cat, const char* l) { return setlocale(cat, l); }	
+
+_GLIBCXX_END_NAMESPACE
+
+#define setlocale setlocale_nonullreturn
+
+#endif

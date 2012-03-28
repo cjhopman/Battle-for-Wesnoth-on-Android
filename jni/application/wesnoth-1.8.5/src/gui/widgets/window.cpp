@@ -756,20 +756,24 @@ void twindow::layout()
 
 	log_scope2(log_gui_layout, LOG_SCOPE_HEADER);
 
-	const game_logic::map_formula_callable variables =
+
+	game_logic::map_formula_callable variables =
 		get_screen_size_variables();
 
-	const int maximum_width = automatic_placement_
-			?  maximum_width_
-				? std::min(maximum_width_, settings::screen_width)
-				: settings::screen_width
-			: w_(variables);
+	int maximum_width, maximum_height;
+	if (automatic_placement_) {
+		maximum_width = maximum_width_ ? std::min(maximum_width_, settings::screen_width) : settings::screen_width;
+		maximum_height = maximum_height_ ? std::min(maximum_height_, settings::screen_height) : settings::screen_height;
+	} else {
+		variables.mutate_value("best_w", variant(0));
+		variables.mutate_value("best_h", variant(0));
+		variables.mutate_value("x", variant(x_(variables)));
+		variables.mutate_value("y", variant(x_(variables)));
 
-	const int maximum_height = automatic_placement_
-			? maximum_height_
-				? std::min(maximum_height_, settings::screen_height)
-				: settings::screen_height
-			: h_(variables);
+		maximum_width = w_(variables);
+		maximum_height = h_(variables);
+	}
+
 
 	/***** Handle click dismiss status. *****/
 	tbutton* click_dismiss_button = NULL;
@@ -813,7 +817,6 @@ void twindow::layout()
 		throw twml_exception(_("Failed to show a dialog, "
 				"which doesn't fit on the screen."), sstr.str());
 	}
-
 	/****** Validate click dismiss status. *****/
 	if(click_dismiss_ && disable_click_dismiss()) {
 		assert(click_dismiss_button);
@@ -847,6 +850,7 @@ void twindow::layout()
 						"which doesn't fit on the screen."), sstr.str());
 		}
 	}
+
 
 	/***** Get the best location for the window *****/
 	tpoint size = get_best_size();
@@ -884,13 +888,18 @@ void twindow::layout()
 				assert(false);
 		}
 	} else {
+		variables.mutate_value("best_w", variant(size.x));
+		variables.mutate_value("best_h", variant(size.y));
+
 		origin.x = x_(variables);
 		origin.y = y_(variables);
+
+		variables.mutate_value("x", variant(origin.x));
+		variables.mutate_value("y", variant(origin.y));
 
 		size.x = w_(variables);
 		size.y = h_(variables);
 	}
-
 	/***** Set the window size *****/
 	place(origin, size);
 

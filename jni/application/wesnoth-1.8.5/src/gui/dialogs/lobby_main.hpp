@@ -52,29 +52,24 @@ struct tplayer_list;
 struct tsub_player_list
 {
 	void init(twindow& w, const std::string& id);
-	void show_toggle_callback(twidget* widget);
 	void auto_hide();
-	tlabel* label;
-	tlabel* count;
-	ttoggle_button* show_toggle;
+	void clear();
+
 	tlistbox* list;
-	ttree_view_node* tree;
-	tlabel* tree_label;
 };
 
 struct tplayer_list
 {
 	void init(twindow& w);
 	void update_sort_icons();
-	tsub_player_list active_game;
-	tsub_player_list active_room;
-	tsub_player_list other_rooms;
-	tsub_player_list other_games;
+
+	void clear() {
+		player_list.clear();
+	}
+	tsub_player_list player_list;
 
 	ttoggle_button* sort_by_name;
 	ttoggle_button* sort_by_relation;
-
-	ttree_view* tree;
 };
 
 class tlobby_main : public tdialog, private events::chat_handler
@@ -396,6 +391,8 @@ private:
 	bool delay_playerlist_update_;
 
 	bool delay_gamelist_update_;
+
+	bool showing_chat_;
 
 	friend struct lobby_delay_gamelist_update_guard;
 };

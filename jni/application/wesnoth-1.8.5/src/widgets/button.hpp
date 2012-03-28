@@ -45,6 +45,7 @@ public:
 	bool checked() const;
 
 	void set_label(const std::string& val);
+	std::string label() { return label_; }
 
 	bool pressed();
 	bool hit(int x, int y) const;

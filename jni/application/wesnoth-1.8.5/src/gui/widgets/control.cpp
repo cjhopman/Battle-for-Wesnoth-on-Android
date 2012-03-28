@@ -24,6 +24,7 @@
 #include "marked-up_text.hpp"
 
 #include <iomanip>
+#include <limits>
 
 #define LOG_SCOPE_HEADER "tcontrol(" + get_control_type() + ") [" \
 		+ id() + "] " + __func__
@@ -300,36 +301,17 @@ tpoint tcontrol::get_best_text_size(const tpoint& minimum_size, const tpoint& ma
 	renderer_.set_font_size(config_->text_font_size);
 	renderer_.set_font_style(config_->text_font_style);
 
-	// Try with the minimum wanted size.
-	const int maximum_width = get_text_maximum_width() ? get_text_maximum_width() : maximum_size.x;
-
-	renderer_.set_maximum_width(maximum_width);
-
 	if(can_wrap()) {
 		renderer_.set_ellipse_mode(PANGO_ELLIPSIZE_NONE);
 	}
 
-	DBG_GUI_L << LOG_HEADER
-			<< " label '" << debug_truncate(label_)
-			<< "' status: "
-			<< " minimum_size " << minimum_size
-			<< " maximum_size " << maximum_size
-			<< " text_maximum_width_ " << text_maximum_width_
-			<< " can_wrap " << can_wrap()
-			<< " truncated " << renderer_.is_truncated()
-			<< " renderer size " << renderer_.get_size()
-			<< ".\n";
+	int maximum_width = 5000;
+	if (config_->max_width) maximum_width = std::min<int>(maximum_width, config_->max_width);
+	if (maximum_size.x) maximum_width = std::min<int>(maximum_width, maximum_size.x);
+	maximum_width -= border.x;
+	if (get_text_maximum_width()) maximum_width = std::min<int>(maximum_width, get_text_maximum_width());
 
-	// If doesn't fit try the maximum.
-	if(renderer_.is_truncated() && !can_wrap()) {
-		// FIXME if maximum size is defined we should look at that
-		// but also we don't adjust for the extra text space yet!!!
-		const tpoint maximum_size(config_->max_width, config_->max_height);
-		const int mw0 = maximum_size.x ? maximum_size.x - border.x : get_text_maximum_width();
-		const int mw1 = get_text_maximum_width() ? get_text_maximum_width() : maximum_size.x - border.x;
-		renderer_.set_maximum_width(mw0 | mw1 ? std::min(mw0, mw1) : -1);
-	}
-
+	renderer_.set_maximum_width(maximum_width);
 	size = renderer_.get_size() + border;
 
 	if(size.x < minimum_size.x) {
@@ -340,7 +322,11 @@ tpoint tcontrol::get_best_text_size(const tpoint& minimum_size, const tpoint& ma
 		size.y = minimum_size.y;
 	}
 
-	DBG_GUI_L << LOG_HEADER
+	DBG_GUI_L << LOG_HEADER << "\n"
+			<< " can_wrap " << can_wrap()
+			<< " min_size " << minimum_size << " max_size " << maximum_size
+			<< " max_width " << maximum_width
+			<< " border " << border
 			<< " label '" << debug_truncate(label_)
 			<< "' result " << size
 			<< ".\n";

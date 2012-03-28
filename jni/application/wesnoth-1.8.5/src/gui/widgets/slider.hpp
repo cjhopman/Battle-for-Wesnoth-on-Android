@@ -18,12 +18,15 @@
 #include "gui/widgets/integer_selector.hpp"
 #include "gui/widgets/scrollbar.hpp"
 
+#include <boost/function.hpp>
+
 namespace gui2 {
 
 /** A slider. */
 class tslider : public tscrollbar_, public tinteger_selector_
 {
 public:
+	static std::string default_formatter(int v);
 
 	tslider() :
 		tscrollbar_(),
@@ -31,7 +34,8 @@ public:
 		minimum_value_(0),
 		minimum_value_label_(),
 		maximum_value_label_(),
-		value_labels_()
+		value_labels_(),
+		formatter_(default_formatter)
 	{
 	}
 
@@ -42,6 +46,7 @@ private:
 	tpoint calculate_best_size() const;
 public:
 
+	void place(const tpoint& origin, const tpoint& size);
 	/***** ***** ***** ***** Inherited ***** ***** ***** *****/
 
 	/** Inherited from tinteger_selector_. */
@@ -87,6 +92,9 @@ public:
 	 *                            the result of get_value().
 	 */
 	t_string get_value_label() const;
+
+	typedef boost::function<std::string(int)> formatter_type;
+	void set_formatter(formatter_type f) { formatter_ = f; }
 protected:
 
 	/** Inherited from tscrollbar. */
@@ -155,6 +163,8 @@ private:
 
 	/** Inherited from tcontrol. */
 	const std::string& get_control_type() const;
+
+	formatter_type formatter_;
 };
 
 } // namespace gui2

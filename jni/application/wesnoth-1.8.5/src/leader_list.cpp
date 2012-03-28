@@ -19,236 +19,155 @@
 
 #include "global.hpp"
 
+#include "foreach.hpp"
 #include "gettext.hpp"
 #include "leader_list.hpp"
+#include "race.hpp"
 #include "wml_separators.hpp"
 #include "widgets/combo.hpp"
 
+#include <boost/scope_exit.hpp>
+
+#include <iterator>
+#include <algorithm>
+
 const std::string leader_list_manager::random_enemy_picture("units/random-dice.png");
 
-leader_list_manager::leader_list_manager(const std::vector<const config *> &side_list,
-		gui::combo* leader_combo , gui::combo* gender_combo):
+leader_list_manager::leader_list_manager(const std::vector<const config *> &side_list, leader_list_gui gui) :
 	leaders_(),
 	genders_(),
+	leader_ids_(),
 	gender_ids_(),
 	side_list_(side_list),
-	leader_combo_(leader_combo),
-	gender_combo_(gender_combo),
-	colour_(0)
+	leader_enabled_(false),
+	gender_enabled_(false),
+	colour_(0),
+	gui_(gui)
 {
 }
 
-void leader_list_manager::set_leader_combo(gui::combo* combo)
-{
-	int selected = leader_combo_ != NULL ? leader_combo_->selected() : 0;
-	leader_combo_ = combo;
-
-	if(leader_combo_ != NULL) {
-		if(leaders_.empty()) {
-			update_leader_list(0);
-		} else {
-			populate_leader_combo(selected);
-		}
-	}
-}
-
-void leader_list_manager::set_gender_combo(gui::combo* combo)
-{
-	gender_combo_ = combo;
-
-	if(gender_combo_ != NULL) {
-		if(!leaders_.empty()) {
-			update_gender_list(get_leader());
-		}
-	}
+void leader_list_manager::update_leader_gui(int index) {
+	gui_.update_leader_list(leader_enabled_, leaders_, index);
 }
 
 void leader_list_manager::update_leader_list(int side_index)
 {
 	const config& side = *side_list_[side_index];
 
-	leaders_.clear();
+	leader_ids_.clear();
 
-	if(utils::string_bool(side["random_faction"])) {
-		if(leader_combo_ != NULL) {
-			std::vector<std::string> dummy;
-			dummy.push_back("-");
-			leader_combo_->enable(false);
-			leader_combo_->set_items(dummy);
-			leader_combo_->set_selected(0);
+	int default_index = 0;
+	leader_enabled_ = false;
+	gender_enabled_ = false;
+
+	if(!utils::string_bool(side["random_faction"])) {
+		leader_enabled_ = true;
+		gender_enabled_ = true;
+
+		leader_ids_ = utils::split(side["leader"]);
+
+		std::vector<std::string>::const_iterator itor = find(leader_ids_.begin(), leader_ids_.end(), side["type"]);
+		default_index = itor - leader_ids_.begin();
+		if (itor == leader_ids_.end()) {
+			leader_ids_.push_back(side["type"]);
 		}
-		return;
-	} else {
-		if(leader_combo_ != NULL)
-			leader_combo_->enable(true);
-		if(gender_combo_ != NULL)
-			gender_combo_->enable(true);
+
+		leader_ids_.push_back("random");
+		populate_leaders();
 	}
 
-	if(!side["leader"].empty()) {
-		leaders_ = utils::split(side["leader"]);
-	}
-
-	const std::string default_leader = side["type"];
-	size_t default_index = 0;
-
-	std::vector<std::string>::const_iterator itor;
-
-	for (itor = leaders_.begin(); itor != leaders_.end(); ++itor) {
-		if (*itor == default_leader) {
-			break;
-		}
-		default_index++;
-	}
-
-	if (default_index == leaders_.size()) {
-		leaders_.push_back(default_leader);
-	}
-
-	leaders_.push_back("random");
-	populate_leader_combo(default_index);
+	update_leader_gui(default_index);
 }
 
+void leader_list_manager::update_gender_gui(int index) {
+	gui_.update_gender_list(gender_enabled_, genders_, index);
+}
 void leader_list_manager::update_gender_list(const std::string& leader)
 {
-	int gender_index = gender_combo_ != NULL ? gender_combo_->selected() : 0;
 	genders_.clear();
 	gender_ids_.clear();
 	if (leader == "random" || leader == "-" || leader == "?") {
 		// Assume random/unknown leader/faction == unknown gender
 		gender_ids_.push_back("null");
 		genders_.push_back("-");
-		if (gender_combo_ != NULL) {
-			gender_combo_->enable(false);
-			gender_combo_->set_items(genders_);
-			gender_combo_->set_selected(0);
-		}
-		return;
-	}
+		gender_enabled_ = false;
+	} else {
+		const unit_type *utp = unit_types.find(leader);
+		if (utp) {
+			const unit_type &ut = *utp;
+			const std::vector<unit_race::GENDER> genders = ut.genders();
+			if (genders.size() > 1) {
+				gender_ids_.push_back("random");
+				genders_.push_back(IMAGE_PREFIX + random_enemy_picture + COLUMN_SEPARATOR + _("gender^Random"));
+			}
+			foreach(unit_race::GENDER gender, genders) {
+				const unit_type& utg = ut.get_gender_unit_type(gender);
 
-	const unit_type *utp = unit_types.find(leader);
-	if (utp) {
-		const unit_type &ut = *utp;
-		const std::vector<unit_race::GENDER> genders = ut.genders();
-		if ( (genders.size() < 2) && (gender_combo_ != NULL) ) {
-			gender_combo_->enable(false);
+				// Make the internationalized titles for each gender, along with the WML ids
+				if (gender == unit_race::FEMALE) {
+					gender_ids_.push_back("female");
+					genders_.push_back(IMAGE_PREFIX + utg.image() + get_RC_suffix(utg.flag_rgb()) +
+							COLUMN_SEPARATOR + _("Female ♀"));
+				} else {
+					gender_ids_.push_back("male");
+					genders_.push_back(IMAGE_PREFIX + utg.image() + get_RC_suffix(utg.flag_rgb()) +
+							COLUMN_SEPARATOR + _("Male ♂"));
+				}
+			}
+			gender_enabled_ = true;
 		} else {
 			gender_ids_.push_back("random");
-			genders_.push_back(IMAGE_PREFIX + random_enemy_picture + COLUMN_SEPARATOR + _("gender^Random"));
-			if (gender_combo_ != NULL) gender_combo_->enable(true);
-		}
-		for (std::vector<unit_race::GENDER>::const_iterator i=genders.begin(); i != genders.end(); ++i) {
-			const unit_type& utg = ut.get_gender_unit_type(*i);
-
-			// Make the internationalized titles for each gender, along with the WML ids
-			if (*i == unit_race::FEMALE) {
-				gender_ids_.push_back("female");
-				genders_.push_back(IMAGE_PREFIX + utg.image() + get_RC_suffix(utg.flag_rgb()) +
-						COLUMN_SEPARATOR + _("Female ♀"));
-			} else {
-				gender_ids_.push_back("male");
-				genders_.push_back(IMAGE_PREFIX + utg.image() + get_RC_suffix(utg.flag_rgb()) +
-						COLUMN_SEPARATOR + _("Male ♂"));
-			}
-		}
-		if (gender_combo_ != NULL) {
-			gender_combo_->set_items(genders_);
-			assert(!genders_.empty());
-			gender_index %= genders_.size();
-			gender_combo_->set_selected(gender_index);
-		}
-	} else {
-		gender_ids_.push_back("random");
-		genders_.push_back(IMAGE_PREFIX + random_enemy_picture + COLUMN_SEPARATOR + _("Random"));
-		if (gender_combo_ != NULL) {
-			gender_combo_->enable(false);
-			gender_combo_->set_items(genders_);
-			gender_combo_->set_selected(0);
+			genders_.push_back(IMAGE_PREFIX + random_enemy_picture + COLUMN_SEPARATOR + _("Random"));
+			gender_enabled_ = false;
 		}
 	}
+	update_gender_gui();
 }
 
-void leader_list_manager::populate_leader_combo(int selected_index) {
-	std::vector<std::string>::const_iterator itor;
-	std::vector<std::string> leader_strings;
-	for(itor = leaders_.begin(); itor != leaders_.end(); ++itor) {
-
-		const unit_type *utp = unit_types.find(*itor);
+void leader_list_manager::populate_leaders() {
+	leaders_.clear();
+	
+	std::string gender = gender_ids_.empty() ? "" : gender_ids_[0];
+	foreach(const std::string& leader, leader_ids_) {
+		const unit_type *utp = unit_types.find(leader);
+		std::string str = "?";
 		if (utp) {
-			std::string gender;
-			if (gender_combo_ != NULL && !genders_.empty() && size_t(gender_combo_->selected()) < genders_.size()) {
-				gender = gender_ids_[gender_combo_->selected()];
-			}
 			const unit_type& ut = utp->get_gender_unit_type(gender);
-			leader_strings.push_back(IMAGE_PREFIX + ut.image() + get_RC_suffix(ut.flag_rgb()) + COLUMN_SEPARATOR + ut.type_name());
-
-		} else {
-			if(*itor == "random") {
-				leader_strings.push_back(IMAGE_PREFIX + random_enemy_picture + COLUMN_SEPARATOR + _("Random"));
-			} else {
-				leader_strings.push_back("?");
-			}
+			str = IMAGE_PREFIX + ut.image() + get_RC_suffix(ut.flag_rgb()) + COLUMN_SEPARATOR + ut.type_name();
+		} else if(leader == "random") {
+			str = IMAGE_PREFIX + random_enemy_picture + COLUMN_SEPARATOR + _("Random");
 		}
-	}
-
-	if(leader_combo_ != NULL) {
-		leader_combo_->set_items(leader_strings);
-		leader_combo_->set_selected(selected_index);
+		leaders_.push_back(str);
 	}
 }
 
 void leader_list_manager::set_leader(const std::string& leader)
 {
-	if(leader_combo_ == NULL)
-		return;
-
-	int leader_index = 0;
-	for(std::vector<std::string>::const_iterator itor = leaders_.begin();
-			itor != leaders_.end(); ++itor) {
-		if(leader == *itor) {
-			leader_combo_->set_selected(leader_index);
-			return;
-		}
-		++leader_index;
+	std::vector<std::string>::iterator itor = find(leaders_.begin(), leaders_.end(), leader);
+	if (itor != leaders_.end()) {
+		gui_.set_leader(std::distance(leaders_.begin(), itor));
 	}
 }
 
 void leader_list_manager::set_gender(const std::string& gender)
 {
-	if(gender_combo_ == NULL)
-		return;
-
-	int gender_index = 0;
-	for(std::vector<std::string>::const_iterator itor = gender_ids_.begin();
-			itor != gender_ids_.end(); ++itor) {
-		if(gender == *itor) {
-			gender_combo_->set_selected(gender_index);
-			return;
-		}
-		++gender_index;
+	std::vector<std::string>::iterator itor = find(genders_.begin(), genders_.end(), gender);
+	if (itor != gender_ids_.end()) {
+		gui_.set_gender(std::distance(gender_ids_.begin(), itor));
 	}
 }
 
-std::string leader_list_manager::get_leader() const
-{
-	if(leader_combo_ == NULL)
-		return _("?");
-
-	if(leaders_.empty())
-		return "random";
-
-	if(size_t(leader_combo_->selected()) >= leaders_.size())
-		return _("?");
-
-	return leaders_[leader_combo_->selected()];
+std::string leader_list_manager::get_leader() const {
+	if (leaders_.empty()) return "random";
+	size_t idx = gui_.get_leader();
+	return idx >= leader_ids_.size() ? _("?") : leader_ids_[idx];
 }
 
-std::string leader_list_manager::get_gender() const
-{
-	if(gender_combo_ == NULL || genders_.empty() || size_t(gender_combo_->selected()) >= genders_.size())
-		return "null";
-	return gender_ids_[gender_combo_->selected()];
+std::string leader_list_manager::get_gender() const {
+	size_t idx = gui_.get_gender();
+	return idx >= genders_.size() ? "null" : gender_ids_[idx];
 }
+
 
 #ifdef LOW_MEM
 std::string leader_list_manager::get_RC_suffix(const std::string& /*unit_colour*/) const {
@@ -259,3 +178,58 @@ std::string leader_list_manager::get_RC_suffix(const std::string& unit_colour) c
 	return "~RC("+unit_colour+">"+lexical_cast<std::string>(colour_+1) +")";
 }
 #endif
+
+leader_list_gui::leader_list_gui(gui_list_type leader_combo , gui_list_type gender_combo) :
+	leader_combo_(leader_combo),
+	gender_combo_(gender_combo),
+	leader_list_dirty_(false),
+	gender_list_dirty_(false)
+{
+}
+
+void leader_list_gui::set_leader_combo(gui_list_type combo)
+{
+	leader_combo_ = combo;
+	leader_list_dirty_ = true;
+}
+
+void leader_list_gui::set_gender_combo(gui_list_type combo)
+{
+	gender_combo_ = combo;
+	gender_list_dirty_ = true;
+}
+
+void leader_list_gui::update_leader_list(bool enabled, const std::vector<std::string>& values, int index)
+{
+	leader_combo_.enable(enabled);
+	leader_combo_.set_items(values);
+	set_leader(index);
+	leader_list_dirty_ = false;
+}
+
+void leader_list_gui::update_gender_list(bool enabled, const std::vector<std::string>& values, int index) {
+	gender_combo_.enable(enabled);
+	gender_combo_.set_items(values);
+	set_gender(index);
+	gender_list_dirty_ = false;
+}
+
+void leader_list_gui::set_leader(int idx) {
+	if (int nitems = leader_combo_.items_size()) {
+		leader_combo_.set_selected(idx % nitems);
+	}
+}
+
+void leader_list_gui::set_gender(int idx) {
+	if (int nitems = gender_combo_.items_size()) {
+		gender_combo_.set_selected(idx % nitems);
+	}
+}
+
+int leader_list_gui::get_leader() const {
+	return leader_combo_.selected();
+}
+
+int leader_list_gui::get_gender() const {
+	return gender_combo_.selected();
+}

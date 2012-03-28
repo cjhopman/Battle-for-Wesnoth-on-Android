@@ -1,4 +1,4 @@
-package com.androthsoft.battlefree;
+package com.androthsoft.battle;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -31,7 +31,7 @@ public class KeyboardLayout extends AbsoluteLayout {
 						return true;
 					} else if (event.getAction() == KeyEvent.ACTION_UP &&
 							!event.isCanceled() && state.isTracking(event)) {
-						parent_.hideScreenKeyboard();
+						parent_.hideScreenKeyboard(0);
 						return true;
 					}
 				}

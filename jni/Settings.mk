@@ -80,7 +80,7 @@ APP_ABI := armeabi
 APP_OPTIM := release
 
 # The namespace in Java file, with dots replaced with underscores
-SDL_JAVA_PACKAGE_PATH := com_androthsoft_battlefree
+SDL_JAVA_PACKAGE_PATH := com_androthsoft_battle
 
 # Android Dev Phone G1 has trackball instead of cursor keys, and 
 # sends trackball movement events as rapid KeyDown/KeyUp events,

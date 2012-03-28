@@ -123,6 +123,8 @@ public:
 	void set_history(const std::string& id)
 		{ history_ = ttext_history::get_history(id, true); }
 
+
+	virtual bool shouldHideInput() { return false; }
 protected:
 
 	/***** ***** ***** ***** layout functions ***** ***** ***** *****/

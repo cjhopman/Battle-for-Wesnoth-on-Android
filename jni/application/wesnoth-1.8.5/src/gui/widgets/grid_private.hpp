@@ -69,7 +69,7 @@ struct tgrid_implementation
 
 		}
 
-		return 0;
+		return grid.twidget::find_at(coordinate, must_be_active);
 	}
 
 	/**
